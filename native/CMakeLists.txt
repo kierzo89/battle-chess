@@ -67,3 +67,17 @@ add_executable(test_delta tests/test_delta.c)
 target_link_libraries(test_delta PRIVATE bc_evaluation bc_core)
 target_compile_options(test_delta PRIVATE -UNDEBUG)
 add_test(NAME incremental_evaluation COMMAND test_delta)
+set(SEARCH_SOURCE "${CMAKE_CURRENT_BINARY_DIR}/generated/search.c")
+add_custom_command(OUTPUT "${SEARCH_SOURCE}"
+ COMMAND ${Python3_EXECUTABLE} "${CMAKE_CURRENT_SOURCE_DIR}/tools/port_search.py"
+ --root "${CMAKE_CURRENT_SOURCE_DIR}/.." --output "${SEARCH_SOURCE}"
+ DEPENDS tools/port_search.py src/search_adapter.inc ../matching/src/search_engine_a4d4_b9ba_match.c VERBATIM)
+add_library(bc_search "${SEARCH_SOURCE}")
+target_include_directories(bc_search PUBLIC src)
+target_link_libraries(bc_search PUBLIC bc_core bc_evaluation)
+target_compile_options(bc_search PRIVATE -fno-strict-aliasing)
+add_executable(test_search tests/test_search.c)
+target_link_libraries(test_search PRIVATE bc_search)
+target_compile_options(test_search PRIVATE -UNDEBUG)
+add_test(NAME recovered_search_smoke COMMAND test_search)
+set_tests_properties(recovered_search_smoke PROPERTIES TIMEOUT 30)

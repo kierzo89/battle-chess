@@ -127,3 +127,14 @@ scratch-row ordering. Bounds are checked before calling the recovered routine.
 The optional `native/tests/compare_original_delta.py` uses the same test library
 build as the root evaluator oracle and matches 234 original-machine-code cases.
 This is a search prerequisite, not an implemented search or playable game yet.
+
+## Native search milestone
+
+`search.h` exposes the original phased search compiled from pinned recovered C,
+using native rules, original evaluators and repetition predicates. It accepts
+explicit depth, seed, node bound and cancellation callback. Depth-four, terminal,
+repeatability and short selfplay tests pass. See `search-provenance.json` for the
+host adaptations and unresolved original-engine fidelity checks.
+
+The engine is not yet connected to the viewer. Original timed difficulty and
+input hooks are still pending; the app is not yet a playable native game.

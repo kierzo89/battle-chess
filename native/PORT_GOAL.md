@@ -111,3 +111,21 @@ Nine CTest targets and incremental ASan/UBSan checks pass. Desktop still viewer.
 Next: port the recovered phased search using this adapter and the history API;
 replace DOS frame/PV byte sizes by host object sizes, preserve aliases explicitly,
 and bind time/input polling to native callbacks. Full search is not implemented.
+
+## Progress: recovered phased search running natively
+
+Previous goal turn classified as progress (incremental evaluator validated).
+Generated the recovered search source with pinned input hashes, explicit DOS
+scalar widths, thread-local state, host-size frame/PV copies and explicit history
+aliases. Added adapters to the already-validated evaluation, rules and history.
+Retained phase ordering and pruning; no generic alpha-beta substitute introduced.
+Native depth-two search selects g1-f3 in 132 candidate visits; depth four completes
+3,402 visits. Repeatability, 12-ply selfplay, checkmate/stalemate, cancellation,
+node limits and ASan/UBSan pass. Whole-search original-binary equivalence is NOT
+yet established. Graphics/input hooks remain unbound and time-based difficulty
+is not implemented; source-level special mode is not yet calibrated.
+
+Next: verify/adapt timed difficulty and original search mode handling, then
+connect an SDL board/game interface and asynchronous search. Finish animations,
+audio/save-load and full-game/original behaviour validation before completion.
+Desktop shortcut continues to launch the development viewer for now.

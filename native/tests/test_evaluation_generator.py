@@ -14,3 +14,16 @@ with tempfile.TemporaryDirectory() as tmp:
     else:raise AssertionError('Modified recovered source was admitted')
     assert not (root/'generated.c').exists()
 print('PASS: generator rejects modified recovered source before creating output')
+
+spec=importlib.util.spec_from_file_location('port_search',ROOT/'native/tools/port_search.py')
+m=importlib.util.module_from_spec(spec);spec.loader.exec_module(m)
+with tempfile.TemporaryDirectory() as tmp:
+    root=Path(tmp);(root/'matching/src').mkdir(parents=True);(root/'verification').mkdir()
+    shutil.copy2(ROOT/'verification/source-snapshot.json',root/'verification/source-snapshot.json')
+    source=Path('matching/src/search_engine_a4d4_b9ba_match.c')
+    (root/source).write_bytes((ROOT/source).read_bytes()+b'\n/* mutation */\n')
+    try:m.generate(root,root/'generated.c')
+    except ValueError as error:assert 'Unpinned' in str(error)
+    else:raise AssertionError('Modified search source was admitted')
+    assert not (root/'generated.c').exists()
+print('PASS: search generator rejects modified recovered source')

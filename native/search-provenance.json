@@ -1,0 +1,57 @@
+{
+  "status": "NATIVE_PHASED_SEARCH_SMOKE_TESTED",
+  "sources": [
+    {
+      "path": "matching/src/search_engine_a4d4_b9ba_match.c",
+      "sha256": "863de4eaec532b8fc01340d2b9144e29dc943f72922e4f86e4f9864ed35027fe"
+    },
+    {
+      "path": "native/tools/port_search.py",
+      "sha256": "ae56b868c5f58912893889ea6f8478af7bd45ce28793bf608e6d31db8ed58e8d"
+    },
+    {
+      "path": "native/src/search_adapter.inc",
+      "sha256": "628dc6f68a6b9acaf330d3aec4fb2d1f35205a8a2465519d0de28264eed0132c"
+    }
+  ],
+  "retained": [
+    "PV/recapture/killer/capture/quiet/castle/en-passant phase ordering",
+    "Original aspiration windows, principal variation handling and pruning",
+    "Recovered root and incremental evaluation; original repetition predicates",
+    "Original search-level-5 branch retained, not yet difficulty calibrated"
+  ],
+  "host_adaptations": [
+    "Fixed DOS scalar widths; TLS namespaces; host-sized frame copy and sizeof PV copies",
+    "Explicit history aliases: history_storage+104 is history_tail, history_tail-1 is history",
+    "Complete host position snapshots implement apply/undo and castling/ep state",
+    "Native legal generator validates cached/castling/en-passant candidate records",
+    "Bounded frame storage, node limits and caller cancellation; original final UI wait removed from engine",
+    "Original graphics and input hooks are no-ops until UI integration; original finished/tick deadline behaviour not connected",
+    "Seeded Microsoft-style LCG supplies rand; historical runtime seed/timing parity still unverified"
+  ],
+  "tests": {
+    "depth2": {
+      "nodes": 132,
+      "score": 7,
+      "move_0x88": [
+        6,
+        37
+      ]
+    },
+    "depth4": {
+      "nodes": 3402,
+      "interrupted": false
+    },
+    "selfplay": "12 legal plies with real played history supplied",
+    "terminal": "checkmate/stalemate return no move and correct sign/zero",
+    "determinism": "identical complete result for same initial position/configuration",
+    "cancellation": "callback and one-node bound observed",
+    "sanitizers": "ASan/UBSan pass including depth four and terminal positions"
+  },
+  "remaining": [
+    "Original whole-search machine-code parity across fixtures",
+    "Timed difficulty mapping and original mode-5 validation",
+    "UI polling/event integration and worker lifetime",
+    "Full-game end-to-end tests; desktop still asset viewer"
+  ]
+}
