@@ -1,0 +1,76 @@
+{
+  "status": "READONLY_CONSUMERS_REVIEWED_TEN_PROVIDERS",
+  "reviewed_slots": {
+    "175": "show_error_0d6e -> prompt_1296 -> draw_text_e915 reads the label",
+    "176": "prompt_1296 scans and renders question without writes",
+    "177": "menu_text.text points at label; draw_text_e915 reads through LODSB",
+    "184": "write_bytes_dbb5 reads exactly24 bytes; NUL25 remains full allocation",
+    "185": "menu_text.text points at promotion label; draw_text_e915 reads it",
+    "186": "prompt_1296 reads asset overflow message",
+    "187": "error_message -> prompt_1296 reads message then exits",
+    "188": "native init_animation copies label bytes through source BX into separate destination ES:BX; no stores to source labels",
+    "189": "prompt_1296 reads quit prompt",
+    "265": "save_cc72 passes label to prompt_1296 read-only path"
+  },
+  "evidence_files": [
+    {
+      "path": "/home/kierzo/chess/matching/src/prompt_1296_match.c",
+      "sha256": "0f18fc9cf96d2632606820e2502885da0baa80989a545769b8e19b8761362163"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/src/error_messages_match.c",
+      "sha256": "f5fd9ecf41b6b30ddf38b080fd51eb8b0a5528a92a65b14d8a1d0f639232d283"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/src/byte_io_flow_match.c",
+      "sha256": "2ac88c2658058de90bdc6c80a458fae3421be21c49775dedb9f42efe0f9b68e8"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/src/select_promotion_match.c",
+      "sha256": "195c9915fde3da4ec77e319e8ba315e0444828554f4eeb44060956851c937e29"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/src/input_wait_command_context_match.c",
+      "sha256": "b93358d6eca0fd0df04f8afa3c3fcf0956d1f47365d7a6a0e7d12946126cf49a"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/src/graphics_actor_menu_match.c",
+      "sha256": "82a71178acab4b3999110b255e3d69a6999b0f5120e3b747dbf4d316ea9965be"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/src/clock_command_context_match.c",
+      "sha256": "a5814c3a46f13feb9902c17b706879feb36d9db9706bf29d431e8b722c8d8c14"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/asm/link/graphics_blit_text_dgroup_omf.asm",
+      "sha256": "af98cd1b7372cbe27fd9c1cb88623f5f23eed3f9db0bb726d4924a94b5a2e21e"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/asm/link/init_animation_6cb4.asm",
+      "sha256": "07ccfe9879496ab5997b83b9323247f63afe4d12bbd381a82d200337d9a6df33"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/asm/link/save_cc72.asm",
+      "sha256": "1f5e1e821170ade5fde5a95ee314d8c2ac9bc3ffd537f76e3f7c82ecef918726"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/asm/link/get_number1164.asm",
+      "sha256": "45e11b08da0a011c3fe56c7272a2d50af7a8d210a32eb1e31ea3ff7068e0bb32"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/asm/link/reset_position08de.asm",
+      "sha256": "35d6151b82627a83debf994dd69c753003fe1685c45a7fc8ca42a273c8c4c170"
+    }
+  ],
+  "source_reference_inventory": "/home/kierzo/chess/.reworkbench/staging/exact-build-integration-v1/const-consumer-inventory.json",
+  "exclusions": {
+    "266": "Mutable action labels now authored ASM data",
+    "267": "Mutable dialog fields now authored ASM data"
+  },
+  "limits": [
+    "Not an original-source-recovery claim",
+    "No new C function or data credit granted; existing credit remains separate",
+    "Existing extern declarations retain legacy unqualified character-pointer ABI; this review establishes observed consumer writes, not a modern-C portability audit"
+  ],
+  "canonical_credit_added": 0
+}

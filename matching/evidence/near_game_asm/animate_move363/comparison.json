@@ -1,0 +1,524 @@
+{
+  "status": "PASS_COMPLETE_NATIVE363_MNEMONIC_ASM_ONLY",
+  "raw_whole_object_sha256": "cf9c3a936c8efaf005f94198275b422c452ee9d44cbcfe7ffe07cc6a11da4b5a",
+  "raw_bytes": 655,
+  "source_sha256": "60ac7430e073061e15d2d081cbcd8c69741255cd1b68df31ffcec7d065a2907e",
+  "whole_CODE_bytes": 363,
+  "native_end_exclusive": 31329,
+  "instructions": 143,
+  "all14_actual_external_fields": [
+    {
+      "raw_field": {
+        "segment": 2,
+        "offset": 7,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          2,
+          5
+        ],
+        "target": [
+          2,
+          5
+        ],
+        "displacement": null,
+        "record_offset": 574,
+        "raw": "8407260505"
+      },
+      "symbol": "__chkstk",
+      "source_addend": 0,
+      "native_target": 60586,
+      "native_encoded_WORD": 29611
+    },
+    {
+      "raw_field": {
+        "segment": 2,
+        "offset": 64,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          8
+        ],
+        "displacement": null,
+        "record_offset": 574,
+        "raw": "c440160108"
+      },
+      "symbol": "_actor_map",
+      "source_addend": 0,
+      "native_target": 35492,
+      "native_encoded_WORD": 35492
+    },
+    {
+      "raw_field": {
+        "segment": 2,
+        "offset": 67,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          4
+        ],
+        "displacement": null,
+        "record_offset": 574,
+        "raw": "c443160104"
+      },
+      "symbol": "_actors",
+      "source_addend": 0,
+      "native_target": 1504,
+      "native_encoded_WORD": 1504
+    },
+    {
+      "raw_field": {
+        "segment": 2,
+        "offset": 71,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          2,
+          3
+        ],
+        "target": [
+          2,
+          3
+        ],
+        "displacement": null,
+        "record_offset": 574,
+        "raw": "8447260303"
+      },
+      "symbol": "_detach_actor",
+      "source_addend": 0,
+      "native_target": 16201,
+      "native_encoded_WORD": 50698
+    },
+    {
+      "raw_field": {
+        "segment": 2,
+        "offset": 103,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          1
+        ],
+        "displacement": null,
+        "record_offset": 574,
+        "raw": "c467160101"
+      },
+      "symbol": "_cells",
+      "source_addend": 0,
+      "native_target": 4454,
+      "native_encoded_WORD": 4454
+    },
+    {
+      "raw_field": {
+        "segment": 2,
+        "offset": 122,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          1
+        ],
+        "displacement": null,
+        "record_offset": 574,
+        "raw": "c47a160101"
+      },
+      "symbol": "_cells",
+      "source_addend": 0,
+      "native_target": 4454,
+      "native_encoded_WORD": 4454
+    },
+    {
+      "raw_field": {
+        "segment": 2,
+        "offset": 135,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          8
+        ],
+        "displacement": null,
+        "record_offset": 574,
+        "raw": "c487160108"
+      },
+      "symbol": "_actor_map",
+      "source_addend": 0,
+      "native_target": 35492,
+      "native_encoded_WORD": 35492
+    },
+    {
+      "raw_field": {
+        "segment": 2,
+        "offset": 144,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          1
+        ],
+        "displacement": null,
+        "record_offset": 574,
+        "raw": "c490160101"
+      },
+      "symbol": "_cells",
+      "source_addend": 0,
+      "native_target": 4454,
+      "native_encoded_WORD": 4454
+    },
+    {
+      "raw_field": {
+        "segment": 2,
+        "offset": 151,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          2,
+          2
+        ],
+        "target": [
+          2,
+          2
+        ],
+        "displacement": null,
+        "record_offset": 574,
+        "raw": "8497260202"
+      },
+      "symbol": "_queue_piece",
+      "source_addend": 0,
+      "native_target": 31399,
+      "native_encoded_WORD": 280
+    },
+    {
+      "raw_field": {
+        "segment": 2,
+        "offset": 163,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          1
+        ],
+        "displacement": null,
+        "record_offset": 574,
+        "raw": "c4a3160101"
+      },
+      "symbol": "_cells",
+      "source_addend": 0,
+      "native_target": 4454,
+      "native_encoded_WORD": 4454
+    },
+    {
+      "raw_field": {
+        "segment": 2,
+        "offset": 210,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          6
+        ],
+        "displacement": null,
+        "record_offset": 574,
+        "raw": "c4d2160106"
+      },
+      "symbol": "_kind_map",
+      "source_addend": 0,
+      "native_target": 3840,
+      "native_encoded_WORD": 3840
+    },
+    {
+      "raw_field": {
+        "segment": 2,
+        "offset": 245,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          4
+        ],
+        "displacement": 20,
+        "record_offset": 574,
+        "raw": "c4f51201041400"
+      },
+      "symbol": "_actors",
+      "source_addend": 20,
+      "native_target": 1504,
+      "native_encoded_WORD": 1524
+    },
+    {
+      "raw_field": {
+        "segment": 2,
+        "offset": 273,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          2,
+          2
+        ],
+        "target": [
+          2,
+          2
+        ],
+        "displacement": null,
+        "record_offset": 574,
+        "raw": "8511260202"
+      },
+      "symbol": "_queue_piece",
+      "source_addend": 0,
+      "native_target": 31399,
+      "native_encoded_WORD": 158
+    },
+    {
+      "raw_field": {
+        "segment": 2,
+        "offset": 352,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          2,
+          7
+        ],
+        "target": [
+          2,
+          7
+        ],
+        "displacement": null,
+        "record_offset": 574,
+        "raw": "8560260707"
+      },
+      "symbol": "_undo_animation",
+      "source_addend": 0,
+      "native_target": 30639,
+      "native_encoded_WORD": 64855
+    }
+  ],
+  "native_MZ": [],
+  "fourbases": [
+    {
+      "load": 0,
+      "all363_equal": true,
+      "MZ": []
+    },
+    {
+      "load": 1,
+      "all363_equal": true,
+      "MZ": []
+    },
+    {
+      "load": 4096,
+      "all363_equal": true,
+      "MZ": []
+    },
+    {
+      "load": 65535,
+      "all363_equal": true,
+      "MZ": []
+    }
+  ],
+  "rawrecords": [
+    {
+      "kind": 128,
+      "record_offset": 0,
+      "payload": "08554e49542e41534d"
+    },
+    {
+      "kind": 150,
+      "record_offset": 13,
+      "payload": "00064447524f5550044441544104434f4445055f44415441055f54455854"
+    },
+    {
+      "kind": 152,
+      "record_offset": 47,
+      "payload": "480000050301"
+    },
+    {
+      "kind": 152,
+      "record_offset": 57,
+      "payload": "486b01060401"
+    },
+    {
+      "kind": 154,
+      "record_offset": 67,
+      "payload": "02ff01"
+    },
+    {
+      "kind": 140,
+      "record_offset": 74,
+      "payload": "065f63656c6c73000c5f71756575655f7069656365000d5f6465746163685f6163746f7200075f6163746f727300085f5f63686b73746b00095f6b696e645f6d6170000f5f756e646f5f616e696d6174696f6e000a5f6163746f725f6d617000"
+    },
+    {
+      "kind": 144,
+      "record_offset": 174,
+      "payload": "00020d5f616e696d6174655f6d6f7665000000"
+    },
+    {
+      "kind": 136,
+      "record_offset": 197,
+      "payload": "00a201"
+    },
+    {
+      "kind": 160,
+      "record_offset": 204,
+      "payload": "020000558becb81400e8000057568b7604c646fe008b4402d1f8243834388a4c0280e1070ac18846f68b04d1f8243834388a0c80e1070ac18846f48ad82affb01cf6a7000005000050e8000083c402837c0400741f807c06067419807c060174138a46f42ae48bf881c700008a0524780c0488058a46f42ae48bf88a85000024408846fa8a46f6508a850000508a46fa508a85000025070050e8000083c4088a5ef42aff88bf0000837c0400741a807c06067514c646fe048a46f424078a4ef680e1380ac18846f4807c0700740c8a5c072aff8a8700008846fe807efe007439c646f600eb03fe46f6807ef6207310b01cf666f68bd883bf0000007402ebe78a46f42ae4508a46f6508a46fa3440508a46fe50e8000083c408837c04007449807c06017543c646f203c746f000008a0424073c0675168b0425f0000c078946ec8b0425f0000c058946eeeb128b0425f0008946ec8b0425f0000c038946ee8d46ec50e8000083c4025e5f8be55dc3"
+    },
+    {
+      "kind": 156,
+      "record_offset": 574,
+      "payload": "8407260505c440160108c4431601048447260303c467160101c47a160101c487160108c4901601018497260202c4a3160101c4d2160106c4f5120104140085112602028560260707"
+    },
+    {
+      "kind": 138,
+      "record_offset": 650,
+      "payload": "00"
+    }
+  ],
+  "actual_selected_caller_fields": [
+    {
+      "slot": 38,
+      "source": "src/shared_turn_book_literals_match.c",
+      "raw_sha256": "1163a5c8e4e05e565805bda572a771b63e61343f9bc6bbcb68c8ff9512768c50",
+      "field": {
+        "segment": 1,
+        "offset": 669,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          6
+        ],
+        "displacement": null,
+        "record_offset": 4913,
+        "raw": "847c5606"
+      },
+      "selected_owners": [
+        {
+          "id": "alternate_view_7e6b",
+          "symbol": "_alternate_view",
+          "native_site": 32495
+        }
+      ]
+    },
+    {
+      "slot": 46,
+      "source": "src/editor_state_flow_match.c",
+      "raw_sha256": "b1b5b68b9cb0be623f4205000fad51ca722663fe9cf96b457d0c9f6c9fbb98b0",
+      "field": {
+        "segment": 1,
+        "offset": 866,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          31
+        ],
+        "displacement": null,
+        "record_offset": 4106,
+        "raw": "84a6561f"
+      },
+      "selected_owners": [
+        {
+          "id": "no_move_900a",
+          "symbol": "_no_move",
+          "native_site": 37272
+        }
+      ]
+    },
+    {
+      "slot": 46,
+      "source": "src/editor_state_flow_match.c",
+      "raw_sha256": "b1b5b68b9cb0be623f4205000fad51ca722663fe9cf96b457d0c9f6c9fbb98b0",
+      "field": {
+        "segment": 1,
+        "offset": 750,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          31
+        ],
+        "displacement": null,
+        "record_offset": 4106,
+        "raw": "8432561f"
+      },
+      "selected_owners": [
+        {
+          "id": "no_move_900a",
+          "symbol": "_no_move",
+          "native_site": 37156
+        }
+      ]
+    }
+  ],
+  "legacy_Cunused_local_frame_qualifications_preserved": true,
+  "asset_frames_WORD8_evidence_added": false,
+  "C_function_or_standalone_ASM_function_credit": 0,
+  "historical_language_capacity_TU_claim": false,
+  "admission": false
+}

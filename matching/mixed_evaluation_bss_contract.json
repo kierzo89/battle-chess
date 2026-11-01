@@ -1,0 +1,2375 @@
+{
+  "schema": "exact-mixed-BSS-client-fields-v1",
+  "context": {
+    "kind": "mixed-c-fa-authored-asm-whole-omf",
+    "source": "src/full_evaluation_match.c",
+    "selected_owners": [
+      "evaluation_abs_fdf2",
+      "evaluation_parity_fe4a",
+      "evaluation_piece_109f9",
+      "evaluation_max_fe0c",
+      "evaluation_min_fe2b",
+      "pawn_score_1097c",
+      "full_evaluation_fe59",
+      "evaluation_pawn_remove_10a2c",
+      "evaluation_pawn_move_10a93",
+      "evaluate_candidate_code538",
+      "pawn_bit_count_code48"
+    ]
+  },
+  "whole_object_sha256": "a8120c71456edd84cc7f8d566cf51a67a32f759978fe360d762e2c57365c4b65",
+  "fields": [
+    {
+      "symbol": "_endgame",
+      "fixup": {
+        "segment": 1,
+        "offset": 114,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          9
+        ],
+        "target": [
+          2,
+          9
+        ],
+        "displacement": null,
+        "record_offset": 1847,
+        "raw": "c472260909"
+      }
+    },
+    {
+      "symbol": "_total_material",
+      "fixup": {
+        "segment": 1,
+        "offset": 120,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          15
+        ],
+        "target": [
+          2,
+          15
+        ],
+        "displacement": null,
+        "record_offset": 1847,
+        "raw": "c478260f0f"
+      }
+    },
+    {
+      "symbol": "_pawn_material",
+      "fixup": {
+        "segment": 1,
+        "offset": 126,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          12
+        ],
+        "target": [
+          2,
+          12
+        ],
+        "displacement": null,
+        "record_offset": 1847,
+        "raw": "c47e260c0c"
+      }
+    },
+    {
+      "symbol": "_material_balance",
+      "fixup": {
+        "segment": 1,
+        "offset": 132,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          24
+        ],
+        "target": [
+          2,
+          24
+        ],
+        "displacement": null,
+        "record_offset": 1847,
+        "raw": "c484261818"
+      }
+    },
+    {
+      "symbol": "_board",
+      "fixup": {
+        "segment": 1,
+        "offset": 167,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          1
+        ],
+        "displacement": null,
+        "record_offset": 1847,
+        "raw": "c4a7160101"
+      }
+    },
+    {
+      "symbol": "_total_material",
+      "fixup": {
+        "segment": 1,
+        "offset": 196,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          15
+        ],
+        "target": [
+          2,
+          15
+        ],
+        "displacement": null,
+        "record_offset": 1847,
+        "raw": "c4c4260f0f"
+      }
+    },
+    {
+      "symbol": "_pawn_material",
+      "fixup": {
+        "segment": 1,
+        "offset": 210,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          12
+        ],
+        "target": [
+          2,
+          12
+        ],
+        "displacement": null,
+        "record_offset": 1847,
+        "raw": "c4d2260c0c"
+      }
+    },
+    {
+      "symbol": "_board",
+      "fixup": {
+        "segment": 1,
+        "offset": 221,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          1
+        ],
+        "displacement": 1,
+        "record_offset": 1847,
+        "raw": "c4dd1201010100"
+      }
+    },
+    {
+      "symbol": "_material_balance",
+      "fixup": {
+        "segment": 1,
+        "offset": 239,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          24
+        ],
+        "target": [
+          2,
+          24
+        ],
+        "displacement": null,
+        "record_offset": 1847,
+        "raw": "c4ef261818"
+      }
+    },
+    {
+      "symbol": "_total_material",
+      "fixup": {
+        "segment": 1,
+        "offset": 244,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          15
+        ],
+        "target": [
+          2,
+          15
+        ],
+        "displacement": null,
+        "record_offset": 1847,
+        "raw": "c4f4260f0f"
+      }
+    },
+    {
+      "symbol": "_phase",
+      "fixup": {
+        "segment": 1,
+        "offset": 275,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          2
+        ],
+        "target": [
+          2,
+          2
+        ],
+        "displacement": null,
+        "record_offset": 1847,
+        "raw": "c513260202"
+      }
+    },
+    {
+      "symbol": "_material_balance",
+      "fixup": {
+        "segment": 1,
+        "offset": 279,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          24
+        ],
+        "target": [
+          2,
+          24
+        ],
+        "displacement": null,
+        "record_offset": 1847,
+        "raw": "c517261818"
+      }
+    },
+    {
+      "symbol": "_material_balance",
+      "fixup": {
+        "segment": 1,
+        "offset": 300,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          24
+        ],
+        "target": [
+          2,
+          24
+        ],
+        "displacement": null,
+        "record_offset": 1847,
+        "raw": "c52c261818"
+      }
+    },
+    {
+      "symbol": "_material_balance",
+      "fixup": {
+        "segment": 1,
+        "offset": 330,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          24
+        ],
+        "target": [
+          2,
+          24
+        ],
+        "displacement": null,
+        "record_offset": 1847,
+        "raw": "c54a261818"
+      }
+    },
+    {
+      "symbol": "_total_material",
+      "fixup": {
+        "segment": 1,
+        "offset": 344,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          15
+        ],
+        "target": [
+          2,
+          15
+        ],
+        "displacement": null,
+        "record_offset": 1847,
+        "raw": "c558260f0f"
+      }
+    },
+    {
+      "symbol": "_endgame",
+      "fixup": {
+        "segment": 1,
+        "offset": 373,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          9
+        ],
+        "target": [
+          2,
+          9
+        ],
+        "displacement": null,
+        "record_offset": 1847,
+        "raw": "c575260909"
+      }
+    },
+    {
+      "symbol": "_phase",
+      "fixup": {
+        "segment": 1,
+        "offset": 508,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          2
+        ],
+        "target": [
+          2,
+          2
+        ],
+        "displacement": null,
+        "record_offset": 1847,
+        "raw": "c5fc260202"
+      }
+    },
+    {
+      "symbol": "_phase",
+      "fixup": {
+        "segment": 1,
+        "offset": 609,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          2
+        ],
+        "target": [
+          2,
+          2
+        ],
+        "displacement": null,
+        "record_offset": 1847,
+        "raw": "c661260202"
+      }
+    },
+    {
+      "symbol": "_pieces",
+      "fixup": {
+        "segment": 1,
+        "offset": 668,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          4
+        ],
+        "displacement": null,
+        "record_offset": 1847,
+        "raw": "c69c160104"
+      }
+    },
+    {
+      "symbol": "_phase",
+      "fixup": {
+        "segment": 1,
+        "offset": 707,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          2
+        ],
+        "target": [
+          2,
+          2
+        ],
+        "displacement": null,
+        "record_offset": 1847,
+        "raw": "c6c3260202"
+      }
+    },
+    {
+      "symbol": "_board",
+      "fixup": {
+        "segment": 1,
+        "offset": 1000,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          1
+        ],
+        "displacement": null,
+        "record_offset": 1847,
+        "raw": "c7e8160101"
+      }
+    },
+    {
+      "symbol": "_board",
+      "fixup": {
+        "segment": 1,
+        "offset": 1059,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          1
+        ],
+        "displacement": null,
+        "record_offset": 3142,
+        "raw": "c427160101"
+      }
+    },
+    {
+      "symbol": "_pieces",
+      "fixup": {
+        "segment": 1,
+        "offset": 1248,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          4
+        ],
+        "displacement": null,
+        "record_offset": 3142,
+        "raw": "c4e4160104"
+      }
+    },
+    {
+      "symbol": "_pieces",
+      "fixup": {
+        "segment": 1,
+        "offset": 1276,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          4
+        ],
+        "displacement": null,
+        "record_offset": 3142,
+        "raw": "c500160104"
+      }
+    },
+    {
+      "symbol": "_endgame",
+      "fixup": {
+        "segment": 1,
+        "offset": 1331,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          9
+        ],
+        "target": [
+          2,
+          9
+        ],
+        "displacement": null,
+        "record_offset": 3142,
+        "raw": "c537260909"
+      }
+    },
+    {
+      "symbol": "_phase",
+      "fixup": {
+        "segment": 1,
+        "offset": 1520,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          2
+        ],
+        "target": [
+          2,
+          2
+        ],
+        "displacement": null,
+        "record_offset": 3142,
+        "raw": "c5f4260202"
+      }
+    },
+    {
+      "symbol": "_piece_square",
+      "fixup": {
+        "segment": 1,
+        "offset": 1803,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          6
+        ],
+        "displacement": 65296,
+        "record_offset": 3142,
+        "raw": "c70f12010610ff"
+      }
+    },
+    {
+      "symbol": "_board",
+      "fixup": {
+        "segment": 1,
+        "offset": 1905,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          1
+        ],
+        "displacement": null,
+        "record_offset": 3142,
+        "raw": "c775160101"
+      }
+    },
+    {
+      "symbol": "_board",
+      "fixup": {
+        "segment": 1,
+        "offset": 1923,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          1
+        ],
+        "displacement": 1,
+        "record_offset": 3142,
+        "raw": "c7871201010100"
+      }
+    },
+    {
+      "symbol": "_board",
+      "fixup": {
+        "segment": 1,
+        "offset": 1961,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          1
+        ],
+        "displacement": 1,
+        "record_offset": 3142,
+        "raw": "c7ad1201010100"
+      }
+    },
+    {
+      "symbol": "_pawn_state",
+      "fixup": {
+        "segment": 1,
+        "offset": 2010,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          29
+        ],
+        "displacement": null,
+        "record_offset": 3142,
+        "raw": "c7de16011d"
+      }
+    },
+    {
+      "symbol": "_pawn_state",
+      "fixup": {
+        "segment": 1,
+        "offset": 2016,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          29
+        ],
+        "displacement": 2,
+        "record_offset": 3142,
+        "raw": "c7e412011d0200"
+      }
+    },
+    {
+      "symbol": "_pawn_state",
+      "fixup": {
+        "segment": 1,
+        "offset": 2070,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          29
+        ],
+        "displacement": null,
+        "record_offset": 4461,
+        "raw": "c41e16011d"
+      }
+    },
+    {
+      "symbol": "_pawn_state",
+      "fixup": {
+        "segment": 1,
+        "offset": 2077,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          29
+        ],
+        "displacement": 2,
+        "record_offset": 4461,
+        "raw": "c42512011d0200"
+      }
+    },
+    {
+      "symbol": "_pawn_state",
+      "fixup": {
+        "segment": 1,
+        "offset": 2084,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          29
+        ],
+        "displacement": null,
+        "record_offset": 4461,
+        "raw": "c42c16011d"
+      }
+    },
+    {
+      "symbol": "_opponent",
+      "fixup": {
+        "segment": 1,
+        "offset": 2092,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          17
+        ],
+        "target": [
+          2,
+          17
+        ],
+        "displacement": null,
+        "record_offset": 4461,
+        "raw": "c434261111"
+      }
+    },
+    {
+      "symbol": "_current_side",
+      "fixup": {
+        "segment": 1,
+        "offset": 2107,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          8
+        ],
+        "target": [
+          2,
+          8
+        ],
+        "displacement": null,
+        "record_offset": 4461,
+        "raw": "c443260808"
+      }
+    },
+    {
+      "symbol": "_position_score",
+      "fixup": {
+        "segment": 1,
+        "offset": 2125,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          19
+        ],
+        "target": [
+          2,
+          19
+        ],
+        "displacement": null,
+        "record_offset": 4461,
+        "raw": "c455261313"
+      }
+    },
+    {
+      "symbol": "_piece_square",
+      "fixup": {
+        "segment": 1,
+        "offset": 2505,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          6
+        ],
+        "displacement": 1200,
+        "record_offset": 4461,
+        "raw": "c5d1120106b004"
+      }
+    },
+    {
+      "symbol": "_phase",
+      "fixup": {
+        "segment": 1,
+        "offset": 2509,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          2
+        ],
+        "target": [
+          2,
+          2
+        ],
+        "displacement": null,
+        "record_offset": 4461,
+        "raw": "c5d5260202"
+      }
+    },
+    {
+      "symbol": "_temporary",
+      "fixup": {
+        "segment": 1,
+        "offset": 2523,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          23
+        ],
+        "target": [
+          2,
+          23
+        ],
+        "displacement": null,
+        "record_offset": 4461,
+        "raw": "c5e3261717"
+      }
+    },
+    {
+      "symbol": "_piece_square",
+      "fixup": {
+        "segment": 1,
+        "offset": 2580,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          6
+        ],
+        "displacement": 1200,
+        "record_offset": 4461,
+        "raw": "c61c120106b004"
+      }
+    },
+    {
+      "symbol": "_pawn_bonus_side",
+      "fixup": {
+        "segment": 1,
+        "offset": 2601,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          25
+        ],
+        "target": [
+          2,
+          25
+        ],
+        "displacement": null,
+        "record_offset": 4461,
+        "raw": "c631261919"
+      }
+    },
+    {
+      "symbol": "_pawn_bonus_side",
+      "fixup": {
+        "segment": 1,
+        "offset": 2609,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          25
+        ],
+        "target": [
+          2,
+          25
+        ],
+        "displacement": null,
+        "record_offset": 4461,
+        "raw": "c639261919"
+      }
+    },
+    {
+      "symbol": "_pawn_bonus_side",
+      "fixup": {
+        "segment": 1,
+        "offset": 2613,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          25
+        ],
+        "target": [
+          2,
+          25
+        ],
+        "displacement": null,
+        "record_offset": 4461,
+        "raw": "c63d261919"
+      }
+    },
+    {
+      "symbol": "_pawn_bonus_side",
+      "fixup": {
+        "segment": 1,
+        "offset": 2623,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          25
+        ],
+        "target": [
+          2,
+          25
+        ],
+        "displacement": null,
+        "record_offset": 4461,
+        "raw": "c647261919"
+      }
+    },
+    {
+      "symbol": "_piece_square",
+      "fixup": {
+        "segment": 1,
+        "offset": 2634,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          6
+        ],
+        "displacement": 480,
+        "record_offset": 4461,
+        "raw": "c652120106e001"
+      }
+    },
+    {
+      "symbol": "_piece_square",
+      "fixup": {
+        "segment": 1,
+        "offset": 2651,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          6
+        ],
+        "displacement": 480,
+        "record_offset": 4461,
+        "raw": "c663120106e001"
+      }
+    },
+    {
+      "symbol": "_board",
+      "fixup": {
+        "segment": 1,
+        "offset": 2705,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          1
+        ],
+        "displacement": 64,
+        "record_offset": 4461,
+        "raw": "c6991201014000"
+      }
+    },
+    {
+      "symbol": "_board",
+      "fixup": {
+        "segment": 1,
+        "offset": 2719,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          1
+        ],
+        "displacement": 65,
+        "record_offset": 4461,
+        "raw": "c6a71201014100"
+      }
+    },
+    {
+      "symbol": "_piece_square",
+      "fixup": {
+        "segment": 1,
+        "offset": 2737,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          6
+        ],
+        "displacement": 784,
+        "record_offset": 4461,
+        "raw": "c6b91201061003"
+      }
+    },
+    {
+      "symbol": "_board",
+      "fixup": {
+        "segment": 1,
+        "offset": 2749,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          1
+        ],
+        "displacement": 385,
+        "record_offset": 4461,
+        "raw": "c6c51201018101"
+      }
+    },
+    {
+      "symbol": "_board",
+      "fixup": {
+        "segment": 1,
+        "offset": 2765,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          1
+        ],
+        "displacement": 384,
+        "record_offset": 4461,
+        "raw": "c6d51201018001"
+      }
+    },
+    {
+      "symbol": "_piece_square",
+      "fixup": {
+        "segment": 1,
+        "offset": 2788,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          6
+        ],
+        "displacement": 2320,
+        "record_offset": 4461,
+        "raw": "c6ec1201061009"
+      }
+    },
+    {
+      "symbol": "_board",
+      "fixup": {
+        "segment": 1,
+        "offset": 2824,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          1
+        ],
+        "displacement": null,
+        "record_offset": 4461,
+        "raw": "c710160101"
+      }
+    },
+    {
+      "symbol": "_board",
+      "fixup": {
+        "segment": 1,
+        "offset": 2831,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          1
+        ],
+        "displacement": 1,
+        "record_offset": 4461,
+        "raw": "c7171201010100"
+      }
+    },
+    {
+      "symbol": "_current_side",
+      "fixup": {
+        "segment": 1,
+        "offset": 2837,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          8
+        ],
+        "target": [
+          2,
+          8
+        ],
+        "displacement": null,
+        "record_offset": 4461,
+        "raw": "c71d260808"
+      }
+    },
+    {
+      "symbol": "_current_side",
+      "fixup": {
+        "segment": 1,
+        "offset": 2846,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          8
+        ],
+        "target": [
+          2,
+          8
+        ],
+        "displacement": null,
+        "record_offset": 4461,
+        "raw": "c726260808"
+      }
+    },
+    {
+      "symbol": "_board",
+      "fixup": {
+        "segment": 1,
+        "offset": 2850,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          1
+        ],
+        "displacement": null,
+        "record_offset": 4461,
+        "raw": "c72a160101"
+      }
+    },
+    {
+      "symbol": "_position_score",
+      "fixup": {
+        "segment": 1,
+        "offset": 2862,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          19
+        ],
+        "target": [
+          2,
+          19
+        ],
+        "displacement": null,
+        "record_offset": 4461,
+        "raw": "c736261313"
+      }
+    },
+    {
+      "symbol": "_opponent",
+      "fixup": {
+        "segment": 1,
+        "offset": 2871,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          17
+        ],
+        "target": [
+          2,
+          17
+        ],
+        "displacement": null,
+        "record_offset": 4461,
+        "raw": "c73f261111"
+      }
+    },
+    {
+      "symbol": "_board",
+      "fixup": {
+        "segment": 1,
+        "offset": 2882,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          1
+        ],
+        "displacement": null,
+        "record_offset": 4461,
+        "raw": "c74a160101"
+      }
+    },
+    {
+      "symbol": "_position_score",
+      "fixup": {
+        "segment": 1,
+        "offset": 2896,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          19
+        ],
+        "target": [
+          2,
+          19
+        ],
+        "displacement": null,
+        "record_offset": 4461,
+        "raw": "c758261313"
+      }
+    },
+    {
+      "symbol": "_pawn_state",
+      "fixup": {
+        "segment": 1,
+        "offset": 2979,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          29
+        ],
+        "target": [
+          2,
+          29
+        ],
+        "displacement": 8,
+        "record_offset": 4461,
+        "raw": "c7ab221d1d0800"
+      }
+    },
+    {
+      "symbol": "_piece_square",
+      "fixup": {
+        "segment": 1,
+        "offset": 3109,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          6
+        ],
+        "displacement": 65296,
+        "record_offset": 5603,
+        "raw": "c43112010610ff"
+      }
+    },
+    {
+      "symbol": "_pawn_mask",
+      "fixup": {
+        "segment": 1,
+        "offset": 3149,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          22
+        ],
+        "target": [
+          2,
+          22
+        ],
+        "displacement": null,
+        "record_offset": 5603,
+        "raw": "c459261616"
+      }
+    },
+    {
+      "symbol": "_history_index",
+      "fixup": {
+        "segment": 1,
+        "offset": 3159,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          14
+        ],
+        "target": [
+          2,
+          14
+        ],
+        "displacement": null,
+        "record_offset": 5603,
+        "raw": "c463260e0e"
+      }
+    },
+    {
+      "symbol": "_pawn_state",
+      "fixup": {
+        "segment": 1,
+        "offset": 3169,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          29
+        ],
+        "displacement": 8,
+        "record_offset": 5603,
+        "raw": "c46d12011d0800"
+      }
+    },
+    {
+      "symbol": "_pawn_mask",
+      "fixup": {
+        "segment": 1,
+        "offset": 3173,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          22
+        ],
+        "target": [
+          2,
+          22
+        ],
+        "displacement": null,
+        "record_offset": 5603,
+        "raw": "c471261616"
+      }
+    },
+    {
+      "symbol": "_pawn_state",
+      "fixup": {
+        "segment": 1,
+        "offset": 3177,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          29
+        ],
+        "displacement": 10,
+        "record_offset": 5603,
+        "raw": "c47512011d0a00"
+      }
+    },
+    {
+      "symbol": "_pawn_state",
+      "fixup": {
+        "segment": 1,
+        "offset": 3181,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          29
+        ],
+        "displacement": 8,
+        "record_offset": 5603,
+        "raw": "c47912011d0800"
+      }
+    },
+    {
+      "symbol": "_pawn_mask",
+      "fixup": {
+        "segment": 1,
+        "offset": 3184,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          22
+        ],
+        "target": [
+          2,
+          22
+        ],
+        "displacement": null,
+        "record_offset": 5603,
+        "raw": "c47c261616"
+      }
+    },
+    {
+      "symbol": "_pawn_state",
+      "fixup": {
+        "segment": 1,
+        "offset": 3188,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          29
+        ],
+        "displacement": 10,
+        "record_offset": 5603,
+        "raw": "c48012011d0a00"
+      }
+    },
+    {
+      "symbol": "_history_index",
+      "fixup": {
+        "segment": 1,
+        "offset": 3194,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          14
+        ],
+        "target": [
+          2,
+          14
+        ],
+        "displacement": null,
+        "record_offset": 5603,
+        "raw": "c486260e0e"
+      }
+    },
+    {
+      "symbol": "_history_index",
+      "fixup": {
+        "segment": 1,
+        "offset": 3210,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          14
+        ],
+        "target": [
+          2,
+          14
+        ],
+        "displacement": null,
+        "record_offset": 5603,
+        "raw": "c496260e0e"
+      }
+    },
+    {
+      "symbol": "_pawn_mask",
+      "fixup": {
+        "segment": 1,
+        "offset": 3250,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          22
+        ],
+        "target": [
+          2,
+          22
+        ],
+        "displacement": null,
+        "record_offset": 5603,
+        "raw": "c4be261616"
+      }
+    },
+    {
+      "symbol": "_history_index",
+      "fixup": {
+        "segment": 1,
+        "offset": 3274,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          14
+        ],
+        "target": [
+          2,
+          14
+        ],
+        "displacement": null,
+        "record_offset": 5603,
+        "raw": "c4d6260e0e"
+      }
+    },
+    {
+      "symbol": "_pawn_state",
+      "fixup": {
+        "segment": 1,
+        "offset": 3284,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          29
+        ],
+        "displacement": 8,
+        "record_offset": 5603,
+        "raw": "c4e012011d0800"
+      }
+    },
+    {
+      "symbol": "_pawn_mask",
+      "fixup": {
+        "segment": 1,
+        "offset": 3288,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          22
+        ],
+        "target": [
+          2,
+          22
+        ],
+        "displacement": null,
+        "record_offset": 5603,
+        "raw": "c4e4261616"
+      }
+    },
+    {
+      "symbol": "_pawn_state",
+      "fixup": {
+        "segment": 1,
+        "offset": 3292,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          29
+        ],
+        "displacement": 10,
+        "record_offset": 5603,
+        "raw": "c4e812011d0a00"
+      }
+    },
+    {
+      "symbol": "_pawn_state",
+      "fixup": {
+        "segment": 1,
+        "offset": 3296,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          29
+        ],
+        "displacement": 8,
+        "record_offset": 5603,
+        "raw": "c4ec12011d0800"
+      }
+    },
+    {
+      "symbol": "_pawn_state",
+      "fixup": {
+        "segment": 1,
+        "offset": 3303,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          29
+        ],
+        "displacement": 10,
+        "record_offset": 5603,
+        "raw": "c4f312011d0a00"
+      }
+    },
+    {
+      "symbol": "_pawn_mask",
+      "fixup": {
+        "segment": 1,
+        "offset": 3307,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          22
+        ],
+        "target": [
+          2,
+          22
+        ],
+        "displacement": null,
+        "record_offset": 5603,
+        "raw": "c4f7261616"
+      }
+    },
+    {
+      "symbol": "_pawn_state",
+      "fixup": {
+        "segment": 1,
+        "offset": 3311,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          29
+        ],
+        "displacement": 8,
+        "record_offset": 5603,
+        "raw": "c4fb12011d0800"
+      }
+    },
+    {
+      "symbol": "_pawn_state",
+      "fixup": {
+        "segment": 1,
+        "offset": 3318,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          29
+        ],
+        "displacement": 10,
+        "record_offset": 5603,
+        "raw": "c50212011d0a00"
+      }
+    },
+    {
+      "symbol": "_history_index",
+      "fixup": {
+        "segment": 1,
+        "offset": 3324,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          14
+        ],
+        "target": [
+          2,
+          14
+        ],
+        "displacement": null,
+        "record_offset": 5603,
+        "raw": "c508260e0e"
+      }
+    },
+    {
+      "symbol": "_history_index",
+      "fixup": {
+        "segment": 1,
+        "offset": 3340,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          14
+        ],
+        "target": [
+          2,
+          14
+        ],
+        "displacement": null,
+        "record_offset": 5603,
+        "raw": "c518260e0e"
+      }
+    },
+    {
+      "symbol": "_current_side",
+      "fixup": {
+        "segment": 1,
+        "offset": 3421,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          8
+        ],
+        "target": [
+          2,
+          8
+        ],
+        "displacement": null,
+        "record_offset": 5603,
+        "raw": "c569260808"
+      }
+    },
+    {
+      "symbol": "_current_side",
+      "fixup": {
+        "segment": 1,
+        "offset": 3439,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          8
+        ],
+        "target": [
+          2,
+          8
+        ],
+        "displacement": null,
+        "record_offset": 5603,
+        "raw": "c57b260808"
+      }
+    },
+    {
+      "symbol": "_current_side",
+      "fixup": {
+        "segment": 1,
+        "offset": 3496,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          8
+        ],
+        "target": [
+          2,
+          8
+        ],
+        "displacement": null,
+        "record_offset": 5603,
+        "raw": "c5b4260808"
+      }
+    },
+    {
+      "symbol": "_opponent",
+      "fixup": {
+        "segment": 1,
+        "offset": 3510,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          17
+        ],
+        "target": [
+          2,
+          17
+        ],
+        "displacement": null,
+        "record_offset": 5603,
+        "raw": "c5c2261111"
+      }
+    },
+    {
+      "symbol": "_current_side",
+      "fixup": {
+        "segment": 1,
+        "offset": 3537,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          8
+        ],
+        "target": [
+          2,
+          8
+        ],
+        "displacement": null,
+        "record_offset": 5603,
+        "raw": "c5dd260808"
+      }
+    },
+    {
+      "symbol": "_current_side",
+      "fixup": {
+        "segment": 1,
+        "offset": 3551,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          8
+        ],
+        "target": [
+          2,
+          8
+        ],
+        "displacement": null,
+        "record_offset": 5603,
+        "raw": "c5eb260808"
+      }
+    },
+    {
+      "symbol": "_current_side",
+      "fixup": {
+        "segment": 1,
+        "offset": 3571,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          8
+        ],
+        "target": [
+          2,
+          8
+        ],
+        "displacement": null,
+        "record_offset": 5603,
+        "raw": "c5ff260808"
+      }
+    },
+    {
+      "symbol": "_opponent",
+      "fixup": {
+        "segment": 1,
+        "offset": 3606,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          17
+        ],
+        "target": [
+          2,
+          17
+        ],
+        "displacement": null,
+        "record_offset": 5603,
+        "raw": "c622261111"
+      }
+    },
+    {
+      "symbol": "_best",
+      "fixup": {
+        "segment": 1,
+        "offset": 3627,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          26
+        ],
+        "target": [
+          2,
+          26
+        ],
+        "displacement": null,
+        "record_offset": 5603,
+        "raw": "c637261a1a"
+      }
+    },
+    {
+      "symbol": "_best",
+      "fixup": {
+        "segment": 1,
+        "offset": 3649,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          26
+        ],
+        "target": [
+          2,
+          26
+        ],
+        "displacement": null,
+        "record_offset": 5603,
+        "raw": "c64d261a1a"
+      }
+    },
+    {
+      "symbol": "_opponent",
+      "fixup": {
+        "segment": 1,
+        "offset": 3663,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          17
+        ],
+        "target": [
+          2,
+          17
+        ],
+        "displacement": null,
+        "record_offset": 5603,
+        "raw": "c65b261111"
+      }
+    },
+    {
+      "symbol": "_temporary",
+      "fixup": {
+        "segment": 1,
+        "offset": 3669,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          23
+        ],
+        "target": [
+          2,
+          23
+        ],
+        "displacement": null,
+        "record_offset": 5603,
+        "raw": "c661261717"
+      }
+    },
+    {
+      "symbol": "_history_index",
+      "fixup": {
+        "segment": 1,
+        "offset": 3691,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          14
+        ],
+        "target": [
+          2,
+          14
+        ],
+        "displacement": null,
+        "record_offset": 5603,
+        "raw": "c677260e0e"
+      }
+    },
+    {
+      "symbol": "_pawn_state",
+      "fixup": {
+        "segment": 1,
+        "offset": 3699,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          29
+        ],
+        "displacement": null,
+        "record_offset": 5603,
+        "raw": "c67f16011d"
+      }
+    },
+    {
+      "symbol": "_pawn_state",
+      "fixup": {
+        "segment": 1,
+        "offset": 3703,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          29
+        ],
+        "displacement": 2,
+        "record_offset": 5603,
+        "raw": "c68312011d0200"
+      }
+    },
+    {
+      "symbol": "_pawn_state",
+      "fixup": {
+        "segment": 1,
+        "offset": 3707,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          29
+        ],
+        "displacement": 8,
+        "record_offset": 5603,
+        "raw": "c68712011d0800"
+      }
+    },
+    {
+      "symbol": "_pawn_state",
+      "fixup": {
+        "segment": 1,
+        "offset": 3711,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          29
+        ],
+        "displacement": 10,
+        "record_offset": 5603,
+        "raw": "c68b12011d0a00"
+      }
+    },
+    {
+      "symbol": "_pawn_state",
+      "fixup": {
+        "segment": 1,
+        "offset": 3715,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          29
+        ],
+        "displacement": 4,
+        "record_offset": 5603,
+        "raw": "c68f12011d0400"
+      }
+    },
+    {
+      "symbol": "_pawn_state",
+      "fixup": {
+        "segment": 1,
+        "offset": 3719,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          29
+        ],
+        "displacement": 6,
+        "record_offset": 5603,
+        "raw": "c69312011d0600"
+      }
+    },
+    {
+      "symbol": "_pawn_state",
+      "fixup": {
+        "segment": 1,
+        "offset": 3723,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          29
+        ],
+        "displacement": 12,
+        "record_offset": 5603,
+        "raw": "c69712011d0c00"
+      }
+    },
+    {
+      "symbol": "_pawn_state",
+      "fixup": {
+        "segment": 1,
+        "offset": 3727,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          29
+        ],
+        "displacement": 14,
+        "record_offset": 5603,
+        "raw": "c69b12011d0e00"
+      }
+    },
+    {
+      "symbol": "_current_side",
+      "fixup": {
+        "segment": 1,
+        "offset": 3772,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          8
+        ],
+        "target": [
+          2,
+          8
+        ],
+        "displacement": null,
+        "record_offset": 5603,
+        "raw": "c6c8260808"
+      }
+    },
+    {
+      "symbol": "_opponent",
+      "fixup": {
+        "segment": 1,
+        "offset": 3829,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          17
+        ],
+        "target": [
+          2,
+          17
+        ],
+        "displacement": null,
+        "record_offset": 5603,
+        "raw": "c701261111"
+      }
+    },
+    {
+      "symbol": "_current_side",
+      "fixup": {
+        "segment": 1,
+        "offset": 3847,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          8
+        ],
+        "target": [
+          2,
+          8
+        ],
+        "displacement": null,
+        "record_offset": 5603,
+        "raw": "c713260808"
+      }
+    },
+    {
+      "symbol": "_current_side",
+      "fixup": {
+        "segment": 1,
+        "offset": 3867,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          8
+        ],
+        "target": [
+          2,
+          8
+        ],
+        "displacement": null,
+        "record_offset": 5603,
+        "raw": "c727260808"
+      }
+    }
+  ]
+}

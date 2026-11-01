@@ -1,0 +1,1374 @@
+{
+  "status": "ATTRIBUTION_REVIEWED_FRESH_V2_EXACT",
+  "provider_count": 225,
+  "counts": {
+    "reconstructed_C": 4,
+    "unchanged_reviewed_c-whole-omf": 118,
+    "unchanged_reviewed_mixed-c-fa-authored-asm-whole-omf": 7,
+    "unchanged_reviewed_asm-whole-omf": 24,
+    "unattributed_initialized_ASM_DATA_no_C_credit": 11,
+    "compiled_readonly_data_consumers_reviewed_no_new_C_credit": 10,
+    "mixed_source_reassembly_or_authored_ASM_no_new_C_credit": 11,
+    "unchanged_reviewed_common-whole-omf": 37,
+    "authored_mutable_assembly_data_native_CONST_class_no_C_credit": 2,
+    "unchanged_reviewed_bss-layout-whole-omf": 1
+  },
+  "rows": [
+    {
+      "name": "O000.OBJ",
+      "source_slot": 0,
+      "provider_classification": "reconstructed_C",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O001.OBJ",
+      "source_slot": 1,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O002.OBJ",
+      "source_slot": 2,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O003.OBJ",
+      "source_slot": 3,
+      "provider_classification": "unchanged_reviewed_mixed-c-fa-authored-asm-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O004.OBJ",
+      "source_slot": 4,
+      "provider_classification": "unchanged_reviewed_asm-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O005.OBJ",
+      "source_slot": 5,
+      "provider_classification": "unchanged_reviewed_asm-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O006.OBJ",
+      "source_slot": 6,
+      "provider_classification": "unchanged_reviewed_asm-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O007.OBJ",
+      "source_slot": 7,
+      "provider_classification": "unchanged_reviewed_asm-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O008.OBJ",
+      "source_slot": 8,
+      "provider_classification": "unchanged_reviewed_asm-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "H000.OBJ",
+      "source_slot": null,
+      "provider_classification": "unattributed_initialized_ASM_DATA_no_C_credit",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O009.OBJ",
+      "source_slot": 9,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O010.OBJ",
+      "source_slot": 10,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O011.OBJ",
+      "source_slot": 11,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O012.OBJ",
+      "source_slot": 12,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O013.OBJ",
+      "source_slot": 13,
+      "provider_classification": "unchanged_reviewed_asm-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O014.OBJ",
+      "source_slot": 14,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O015.OBJ",
+      "source_slot": 15,
+      "provider_classification": "unchanged_reviewed_asm-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O016.OBJ",
+      "source_slot": 16,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O017.OBJ",
+      "source_slot": 17,
+      "provider_classification": "unchanged_reviewed_asm-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O063.OBJ",
+      "source_slot": 63,
+      "provider_classification": "unchanged_reviewed_asm-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O068.OBJ",
+      "source_slot": 68,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O069.OBJ",
+      "source_slot": 69,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O070.OBJ",
+      "source_slot": 70,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "H001.OBJ",
+      "source_slot": null,
+      "provider_classification": "unattributed_initialized_ASM_DATA_no_C_credit",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O071.OBJ",
+      "source_slot": 71,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O072.OBJ",
+      "source_slot": 72,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O073.OBJ",
+      "source_slot": 73,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "H002.OBJ",
+      "source_slot": null,
+      "provider_classification": "unattributed_initialized_ASM_DATA_no_C_credit",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O074.OBJ",
+      "source_slot": 74,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O075.OBJ",
+      "source_slot": 75,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O076.OBJ",
+      "source_slot": 76,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "H003.OBJ",
+      "source_slot": null,
+      "provider_classification": "unattributed_initialized_ASM_DATA_no_C_credit",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O077.OBJ",
+      "source_slot": 77,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O078.OBJ",
+      "source_slot": 78,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O079.OBJ",
+      "source_slot": 79,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O080.OBJ",
+      "source_slot": 80,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O081.OBJ",
+      "source_slot": 81,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O082.OBJ",
+      "source_slot": 82,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O083.OBJ",
+      "source_slot": 83,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O084.OBJ",
+      "source_slot": 84,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O085.OBJ",
+      "source_slot": 85,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O086.OBJ",
+      "source_slot": 86,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O087.OBJ",
+      "source_slot": 87,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "H004.OBJ",
+      "source_slot": null,
+      "provider_classification": "unattributed_initialized_ASM_DATA_no_C_credit",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O088.OBJ",
+      "source_slot": 88,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O089.OBJ",
+      "source_slot": 89,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O090.OBJ",
+      "source_slot": 90,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O091.OBJ",
+      "source_slot": 91,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O092.OBJ",
+      "source_slot": 92,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O093.OBJ",
+      "source_slot": 93,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O094.OBJ",
+      "source_slot": 94,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O095.OBJ",
+      "source_slot": 95,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O096.OBJ",
+      "source_slot": 96,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O097.OBJ",
+      "source_slot": 97,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O098.OBJ",
+      "source_slot": 98,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "H005.OBJ",
+      "source_slot": null,
+      "provider_classification": "unattributed_initialized_ASM_DATA_no_C_credit",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O099.OBJ",
+      "source_slot": 99,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O100.OBJ",
+      "source_slot": 100,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O101.OBJ",
+      "source_slot": 101,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O102.OBJ",
+      "source_slot": 102,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O103.OBJ",
+      "source_slot": 103,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O104.OBJ",
+      "source_slot": 104,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O105.OBJ",
+      "source_slot": 105,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O106.OBJ",
+      "source_slot": 106,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O107.OBJ",
+      "source_slot": 107,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O108.OBJ",
+      "source_slot": 108,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O109.OBJ",
+      "source_slot": 109,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O110.OBJ",
+      "source_slot": 110,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O111.OBJ",
+      "source_slot": 111,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O112.OBJ",
+      "source_slot": 112,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O113.OBJ",
+      "source_slot": 113,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "H006.OBJ",
+      "source_slot": null,
+      "provider_classification": "unattributed_initialized_ASM_DATA_no_C_credit",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O114.OBJ",
+      "source_slot": 114,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "H007.OBJ",
+      "source_slot": null,
+      "provider_classification": "unattributed_initialized_ASM_DATA_no_C_credit",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O115.OBJ",
+      "source_slot": 115,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O116.OBJ",
+      "source_slot": 116,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O117.OBJ",
+      "source_slot": 117,
+      "provider_classification": "unchanged_reviewed_asm-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O118.OBJ",
+      "source_slot": 118,
+      "provider_classification": "unchanged_reviewed_asm-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O119.OBJ",
+      "source_slot": 119,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O120.OBJ",
+      "source_slot": 120,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O121.OBJ",
+      "source_slot": 121,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O122.OBJ",
+      "source_slot": 122,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O123.OBJ",
+      "source_slot": 123,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O124.OBJ",
+      "source_slot": 124,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O125.OBJ",
+      "source_slot": 125,
+      "provider_classification": "unchanged_reviewed_asm-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O175.OBJ",
+      "source_slot": 175,
+      "provider_classification": "compiled_readonly_data_consumers_reviewed_no_new_C_credit",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O176.OBJ",
+      "source_slot": 176,
+      "provider_classification": "compiled_readonly_data_consumers_reviewed_no_new_C_credit",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O177.OBJ",
+      "source_slot": 177,
+      "provider_classification": "compiled_readonly_data_consumers_reviewed_no_new_C_credit",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O018.OBJ",
+      "source_slot": 18,
+      "provider_classification": "reconstructed_C",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O019.OBJ",
+      "source_slot": 19,
+      "provider_classification": "unchanged_reviewed_mixed-c-fa-authored-asm-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O020.OBJ",
+      "source_slot": 20,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O021.OBJ",
+      "source_slot": 21,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O022.OBJ",
+      "source_slot": 22,
+      "provider_classification": "mixed_source_reassembly_or_authored_ASM_no_new_C_credit",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O023.OBJ",
+      "source_slot": 23,
+      "provider_classification": "mixed_source_reassembly_or_authored_ASM_no_new_C_credit",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O024.OBJ",
+      "source_slot": 24,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O025.OBJ",
+      "source_slot": 25,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O026.OBJ",
+      "source_slot": 26,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O027.OBJ",
+      "source_slot": 27,
+      "provider_classification": "mixed_source_reassembly_or_authored_ASM_no_new_C_credit",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O028.OBJ",
+      "source_slot": 28,
+      "provider_classification": "unchanged_reviewed_mixed-c-fa-authored-asm-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O029.OBJ",
+      "source_slot": 29,
+      "provider_classification": "unchanged_reviewed_asm-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O030.OBJ",
+      "source_slot": 30,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O031.OBJ",
+      "source_slot": 31,
+      "provider_classification": "unchanged_reviewed_asm-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O184.OBJ",
+      "source_slot": 184,
+      "provider_classification": "compiled_readonly_data_consumers_reviewed_no_new_C_credit",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O185.OBJ",
+      "source_slot": 185,
+      "provider_classification": "compiled_readonly_data_consumers_reviewed_no_new_C_credit",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O186.OBJ",
+      "source_slot": 186,
+      "provider_classification": "compiled_readonly_data_consumers_reviewed_no_new_C_credit",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O032.OBJ",
+      "source_slot": 32,
+      "provider_classification": "reconstructed_C",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O033.OBJ",
+      "source_slot": 33,
+      "provider_classification": "mixed_source_reassembly_or_authored_ASM_no_new_C_credit",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O034.OBJ",
+      "source_slot": 34,
+      "provider_classification": "unchanged_reviewed_asm-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O035.OBJ",
+      "source_slot": 35,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O036.OBJ",
+      "source_slot": 36,
+      "provider_classification": "mixed_source_reassembly_or_authored_ASM_no_new_C_credit",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O037.OBJ",
+      "source_slot": 37,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O187.OBJ",
+      "source_slot": 187,
+      "provider_classification": "compiled_readonly_data_consumers_reviewed_no_new_C_credit",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O038.OBJ",
+      "source_slot": 38,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O039.OBJ",
+      "source_slot": 39,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O040.OBJ",
+      "source_slot": 40,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O041.OBJ",
+      "source_slot": 41,
+      "provider_classification": "unchanged_reviewed_mixed-c-fa-authored-asm-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O042.OBJ",
+      "source_slot": 42,
+      "provider_classification": "mixed_source_reassembly_or_authored_ASM_no_new_C_credit",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O043.OBJ",
+      "source_slot": 43,
+      "provider_classification": "unchanged_reviewed_mixed-c-fa-authored-asm-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O044.OBJ",
+      "source_slot": 44,
+      "provider_classification": "unchanged_reviewed_mixed-c-fa-authored-asm-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O188.OBJ",
+      "source_slot": 188,
+      "provider_classification": "compiled_readonly_data_consumers_reviewed_no_new_C_credit",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O045.OBJ",
+      "source_slot": 45,
+      "provider_classification": "mixed_source_reassembly_or_authored_ASM_no_new_C_credit",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O046.OBJ",
+      "source_slot": 46,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O047.OBJ",
+      "source_slot": 47,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O048.OBJ",
+      "source_slot": 48,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O049.OBJ",
+      "source_slot": 49,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O050.OBJ",
+      "source_slot": 50,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O051.OBJ",
+      "source_slot": 51,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O052.OBJ",
+      "source_slot": 52,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O189.OBJ",
+      "source_slot": 189,
+      "provider_classification": "compiled_readonly_data_consumers_reviewed_no_new_C_credit",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O053.OBJ",
+      "source_slot": 53,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O054.OBJ",
+      "source_slot": 54,
+      "provider_classification": "mixed_source_reassembly_or_authored_ASM_no_new_C_credit",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O055.OBJ",
+      "source_slot": 55,
+      "provider_classification": "unchanged_reviewed_mixed-c-fa-authored-asm-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O056.OBJ",
+      "source_slot": 56,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O057.OBJ",
+      "source_slot": 57,
+      "provider_classification": "mixed_source_reassembly_or_authored_ASM_no_new_C_credit",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O058.OBJ",
+      "source_slot": 58,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O059.OBJ",
+      "source_slot": 59,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O126.OBJ",
+      "source_slot": 126,
+      "provider_classification": "reconstructed_C",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O060.OBJ",
+      "source_slot": 60,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O061.OBJ",
+      "source_slot": 61,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O062.OBJ",
+      "source_slot": 62,
+      "provider_classification": "mixed_source_reassembly_or_authored_ASM_no_new_C_credit",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O064.OBJ",
+      "source_slot": 64,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O065.OBJ",
+      "source_slot": 65,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O066.OBJ",
+      "source_slot": 66,
+      "provider_classification": "unchanged_reviewed_asm-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O067.OBJ",
+      "source_slot": 67,
+      "provider_classification": "mixed_source_reassembly_or_authored_ASM_no_new_C_credit",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O133.OBJ",
+      "source_slot": 133,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O134.OBJ",
+      "source_slot": 134,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "H008.OBJ",
+      "source_slot": null,
+      "provider_classification": "unattributed_initialized_ASM_DATA_no_C_credit",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O135.OBJ",
+      "source_slot": 135,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O136.OBJ",
+      "source_slot": 136,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O137.OBJ",
+      "source_slot": 137,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O138.OBJ",
+      "source_slot": 138,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O139.OBJ",
+      "source_slot": 139,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O140.OBJ",
+      "source_slot": 140,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O141.OBJ",
+      "source_slot": 141,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O142.OBJ",
+      "source_slot": 142,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O143.OBJ",
+      "source_slot": 143,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O144.OBJ",
+      "source_slot": 144,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O145.OBJ",
+      "source_slot": 145,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O146.OBJ",
+      "source_slot": 146,
+      "provider_classification": "unchanged_reviewed_asm-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O147.OBJ",
+      "source_slot": 147,
+      "provider_classification": "unchanged_reviewed_asm-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O148.OBJ",
+      "source_slot": 148,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O149.OBJ",
+      "source_slot": 149,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O156.OBJ",
+      "source_slot": 156,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O157.OBJ",
+      "source_slot": 157,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O158.OBJ",
+      "source_slot": 158,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O159.OBJ",
+      "source_slot": 159,
+      "provider_classification": "unchanged_reviewed_asm-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O160.OBJ",
+      "source_slot": 160,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O161.OBJ",
+      "source_slot": 161,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O162.OBJ",
+      "source_slot": 162,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O163.OBJ",
+      "source_slot": 163,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O164.OBJ",
+      "source_slot": 164,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O165.OBJ",
+      "source_slot": 165,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "H009.OBJ",
+      "source_slot": null,
+      "provider_classification": "unattributed_initialized_ASM_DATA_no_C_credit",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O166.OBJ",
+      "source_slot": 166,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "H010.OBJ",
+      "source_slot": null,
+      "provider_classification": "unattributed_initialized_ASM_DATA_no_C_credit",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O167.OBJ",
+      "source_slot": 167,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O168.OBJ",
+      "source_slot": 168,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O169.OBJ",
+      "source_slot": 169,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O198.OBJ",
+      "source_slot": 198,
+      "provider_classification": "unchanged_reviewed_common-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O199.OBJ",
+      "source_slot": 199,
+      "provider_classification": "unchanged_reviewed_common-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O200.OBJ",
+      "source_slot": 200,
+      "provider_classification": "unchanged_reviewed_common-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O201.OBJ",
+      "source_slot": 201,
+      "provider_classification": "unchanged_reviewed_common-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O202.OBJ",
+      "source_slot": 202,
+      "provider_classification": "unchanged_reviewed_common-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O203.OBJ",
+      "source_slot": 203,
+      "provider_classification": "unchanged_reviewed_common-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O204.OBJ",
+      "source_slot": 204,
+      "provider_classification": "unchanged_reviewed_common-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O205.OBJ",
+      "source_slot": 205,
+      "provider_classification": "unchanged_reviewed_common-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O206.OBJ",
+      "source_slot": 206,
+      "provider_classification": "unchanged_reviewed_common-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O207.OBJ",
+      "source_slot": 207,
+      "provider_classification": "unchanged_reviewed_common-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O208.OBJ",
+      "source_slot": 208,
+      "provider_classification": "unchanged_reviewed_common-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O209.OBJ",
+      "source_slot": 209,
+      "provider_classification": "unchanged_reviewed_common-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O210.OBJ",
+      "source_slot": 210,
+      "provider_classification": "unchanged_reviewed_common-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O211.OBJ",
+      "source_slot": 211,
+      "provider_classification": "unchanged_reviewed_common-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O212.OBJ",
+      "source_slot": 212,
+      "provider_classification": "unchanged_reviewed_common-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O213.OBJ",
+      "source_slot": 213,
+      "provider_classification": "unchanged_reviewed_common-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O214.OBJ",
+      "source_slot": 214,
+      "provider_classification": "unchanged_reviewed_common-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O215.OBJ",
+      "source_slot": 215,
+      "provider_classification": "unchanged_reviewed_common-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O216.OBJ",
+      "source_slot": 216,
+      "provider_classification": "unchanged_reviewed_common-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O217.OBJ",
+      "source_slot": 217,
+      "provider_classification": "unchanged_reviewed_common-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O218.OBJ",
+      "source_slot": 218,
+      "provider_classification": "unchanged_reviewed_common-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O219.OBJ",
+      "source_slot": 219,
+      "provider_classification": "unchanged_reviewed_common-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O220.OBJ",
+      "source_slot": 220,
+      "provider_classification": "unchanged_reviewed_common-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O221.OBJ",
+      "source_slot": 221,
+      "provider_classification": "unchanged_reviewed_common-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O222.OBJ",
+      "source_slot": 222,
+      "provider_classification": "unchanged_reviewed_common-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O223.OBJ",
+      "source_slot": 223,
+      "provider_classification": "unchanged_reviewed_common-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O224.OBJ",
+      "source_slot": 224,
+      "provider_classification": "unchanged_reviewed_common-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O225.OBJ",
+      "source_slot": 225,
+      "provider_classification": "unchanged_reviewed_common-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O226.OBJ",
+      "source_slot": 226,
+      "provider_classification": "unchanged_reviewed_common-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O227.OBJ",
+      "source_slot": 227,
+      "provider_classification": "unchanged_reviewed_common-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O228.OBJ",
+      "source_slot": 228,
+      "provider_classification": "unchanged_reviewed_common-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O229.OBJ",
+      "source_slot": 229,
+      "provider_classification": "unchanged_reviewed_common-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O230.OBJ",
+      "source_slot": 230,
+      "provider_classification": "unchanged_reviewed_common-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O231.OBJ",
+      "source_slot": 231,
+      "provider_classification": "unchanged_reviewed_common-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O233.OBJ",
+      "source_slot": 233,
+      "provider_classification": "unchanged_reviewed_common-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O235.OBJ",
+      "source_slot": 235,
+      "provider_classification": "unchanged_reviewed_common-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O242.OBJ",
+      "source_slot": 242,
+      "provider_classification": "unchanged_reviewed_common-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O265.OBJ",
+      "source_slot": 265,
+      "provider_classification": "compiled_readonly_data_consumers_reviewed_no_new_C_credit",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O266.OBJ",
+      "source_slot": 266,
+      "provider_classification": "authored_mutable_assembly_data_native_CONST_class_no_C_credit",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O267.OBJ",
+      "source_slot": 267,
+      "provider_classification": "authored_mutable_assembly_data_native_CONST_class_no_C_credit",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O150.OBJ",
+      "source_slot": 150,
+      "provider_classification": "unchanged_reviewed_c-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O151.OBJ",
+      "source_slot": 151,
+      "provider_classification": "unchanged_reviewed_asm-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O152.OBJ",
+      "source_slot": 152,
+      "provider_classification": "unchanged_reviewed_asm-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O153.OBJ",
+      "source_slot": 153,
+      "provider_classification": "unchanged_reviewed_asm-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O154.OBJ",
+      "source_slot": 154,
+      "provider_classification": "unchanged_reviewed_asm-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O155.OBJ",
+      "source_slot": 155,
+      "provider_classification": "unchanged_reviewed_asm-whole-omf",
+      "additional_C_credit": 0
+    },
+    {
+      "name": "O268.OBJ",
+      "source_slot": 268,
+      "provider_classification": "unchanged_reviewed_bss-layout-whole-omf",
+      "additional_C_credit": 0
+    }
+  ],
+  "authored_mutable_dialog_data_bytes": 71,
+  "unattributed_initialized_ASM_data_bytes": 112,
+  "runtime_library": "350 original toolchain members, not decompiled-C credit",
+  "canonical_credit_added": 0,
+  "fresh_build_report": "matching/build/exact-driver-validation-v2/build-report.json",
+  "fresh_build_report_sha256": "94eb6a6507d57174c438b8063297fc38676f75b9c9d661a53d951bfd0ff20658"
+}

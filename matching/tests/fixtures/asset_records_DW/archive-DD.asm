@@ -1,0 +1,155 @@
+; Typed numeric archive spans, explicit _DATA/DGROUP, no C credit.
+bits 16
+segment _DATA public align=2 class=DATA use16
+group DGROUP _DATA
+; Typed archive numeric metadata, zero C implementation credit.
+; setup_lengths: 4 record(s), 2 long(s) per record
+global _setup_lengths_data
+_setup_lengths_data:
+ DD 192,10097
+ DD 72,1427
+ DD 28,487
+ DD 28,471
+; asset_lengths: 31 record(s), 1 long(s) per record
+global _asset_lengths_data
+_asset_lengths_data:
+ DD 5004
+ DD 1939
+ DD 6535
+ DD 2844
+ DD 3749
+ DD 7369
+ DD 5991
+ DD 4341
+ DD 3975
+ DD 3147
+ DD 3266
+ DD 2502
+ DD 3784
+ DD 3725
+ DD 7068
+ DD 1289
+ DD 363
+ DD 2779
+ DD 2429
+ DD 534
+ DD 3947
+ DD 1444
+ DD 1084
+ DD 625
+ DD 1242
+ DD 1737
+ DD 340
+ DD 1393
+ DD 1194
+ DD 2927
+ DD 2378
+; startup_lengths: 13 record(s), 1 long(s) per record
+global _startup_lengths_data
+_startup_lengths_data:
+ DD 6494
+ DD 4544
+ DD 32000
+ DD 11212
+ DD 640
+ DD 4547
+ DD 52
+ DD 7461
+ DD 2966
+ DD 3531
+ DD 3037
+ DD 2996
+ DD 2500
+; pair_lengths: 15 record(s), 4 long(s) per record
+global _pair_lengths_data
+_pair_lengths_data:
+ DD 325,5570,527,12208
+ DD 313,9613,507,13779
+ DD 591,8347,674,21291
+ DD 1015,29725,28,1402
+ DD 683,20371,12,518
+ DD 1162,25588,24,1081
+ DD 966,25350,24,1322
+ DD 1187,30050,24,1236
+ DD 846,24635,8,297
+ DD 368,12604,32,1805
+ DD 986,21485,12,707
+ DD 682,21674,20,1006
+ DD 373,12740,16,846
+ DD 231,4252,20,1183
+ DD 668,16262,8,313
+; setup_offsets: 4 record(s), 2 long(s) per record
+global _setup_offsets_data
+_setup_offsets_data:
+ DD 0,192
+ DD 10289,10361
+ DD 11788,11816
+ DD 12303,12331
+; asset_offsets: 31 record(s), 1 long(s) per record
+global _asset_offsets_data
+_asset_offsets_data:
+ DD 12802
+ DD 17806
+ DD 19745
+ DD 26280
+ DD 29124
+ DD 32873
+ DD 40242
+ DD 46233
+ DD 50574
+ DD 54549
+ DD 57696
+ DD 60962
+ DD 63464
+ DD 67248
+ DD 70973
+ DD 78041
+ DD 79330
+ DD 79693
+ DD 82472
+ DD 84901
+ DD 85435
+ DD 89382
+ DD 90826
+ DD 91910
+ DD 92535
+ DD 93777
+ DD 95514
+ DD 95854
+ DD 97247
+ DD 98441
+ DD 101368
+; startup_offsets: 13 record(s), 1 long(s) per record
+global _startup_offsets_data
+_startup_offsets_data:
+ DD 103746
+ DD 110240
+ DD 114784
+ DD 146784
+ DD 157996
+ DD 158636
+ DD 163183
+ DD 163235
+ DD 170696
+ DD 173662
+ DD 177193
+ DD 180230
+ DD 183226
+; pair_offsets: 15 record(s), 4 long(s) per record
+global _pair_offsets_data
+_pair_offsets_data:
+ DD 0,325,5895,6422
+ DD 18630,18943,28556,29063
+ DD 42842,43433,51780,52454
+ DD 73745,74760,104485,104513
+ DD 105915,106598,126969,126981
+ DD 127499,128661,154249,154273
+ DD 155354,156320,181670,181694
+ DD 183016,184203,214253,214277
+ DD 215513,216359,240994,241002
+ DD 241299,241667,254271,254303
+ DD 256108,257094,278579,278591
+ DD 279298,279980,301654,301674
+ DD 302680,303053,315793,315809
+ DD 316655,316886,321138,321158
+ DD 322341,323009,339271,339279

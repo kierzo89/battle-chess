@@ -1,0 +1,73 @@
+{
+  "order_slot": "REPLACE_CURRENT_RESTORE_C_SLOT",
+  "DOS_name": "DERIVE_FROM_FINAL_SLOT",
+  "kind": "mixed-c-fa-authored-asm-whole-omf",
+  "source": "src/restore_active_arena_match.c",
+  "source_sha256": "0c57840fac7f4b5c69d52dba278bb8238692234b09dd39a6b44b093c621d7a54",
+  "selected_owners": [
+    "restore_active_arena_2ce0",
+    "decode_frame_directory_code289"
+  ],
+  "comparison_expected_raw_sha256": "3b7173bc90908bc424cd47d3bb680bd5303833af65d7567f2bfbab8848e8b0f5",
+  "compiler_flags": [
+    "/AS",
+    "/Gs",
+    "/Os",
+    "/Zi"
+  ],
+  "source_name": "UNIT.C",
+  "compiler": "msc500",
+  "backend_set": [
+    "msc500-fa-masm510-restore-decoder-mixed-v1"
+  ],
+  "object_profile": "restore_decoder340_v1",
+  "generation_tools": {
+    "config/msc500.json": "2e7ca2bc19d665b35f60e651b65f536d1f35e94d8af8463600d5d30500f01d66",
+    "toolchains/msc500/manifest.json": "d2889507d0729b9d09fb92015fedccbb533c368d428c1612781c3ff980f00a82",
+    "toolchains/msc500/CL.ERR": "b153605db3fbc0fa79e2f0d2ad5d814fbb70bfbebc1dbc0d2ed614194666621a",
+    "toolchains/msc500/CL.EXE": "11e3c7d53b3efc085b7ad90c2190a1ddb395c8874f57aef3a5cfc0a4a0a0f504",
+    "toolchains/msc500/C1.EXE": "3ef764476cb56dd14ae3c955a0b7717976d3b40f862fdff675ec8c6adc0ed791",
+    "toolchains/msc500/C1.ERR": "dd02a004e8912c96b90a5b3317dcfeed6f9e76374edfd90979705035c8097233",
+    "toolchains/msc500/C2.EXE": "19fbe7914ba6ebe929a0e98e012fd5e8522643e5e40b6fcd89bef0e5f650f1f1",
+    "toolchains/msc500/C3.EXE": "ca4d82b90423086e68eb8d3af8f1c1c1034f164d0a0b98530c3b3a0fb0501669",
+    "toolchains/msc500/C23.ERR": "75132883ac6507cccaa7d7105df6492f511ba029e4a12ee4a1fcc989517bfd18",
+    "toolchains/msc510/MASM.EXE": "1c6286c69b616160b8475ad17453ee872702a2c98075c2159ec792a1c745275f",
+    "toolchains/msc510/manifest.json": "f98c55eaf97fff792dfa8f131d9ea255008c5d97311dd6837cd4fda79c2ebef4",
+    "toolchains/msc510/LICENSE": "b5179f780ec212a434efcc989a2295a140deb0bdb17182d2bf9c5f6f1f1a01c4",
+    "config/msc510.json": "058abeace2a0466b843094d84d5d909a0f2a8e671f357df6e39988199383c618"
+  },
+  "generator": "DOSBox",
+  "dosbox_keyword": null,
+  "generation_sources": [
+    {
+      "path": "src/restore_active_arena_match.c",
+      "sha256": "0c57840fac7f4b5c69d52dba278bb8238692234b09dd39a6b44b093c621d7a54",
+      "role": "genuine_C_source"
+    },
+    {
+      "path": "asm/link/decode_frame_directory2d13.asm",
+      "sha256": "22f092e8b137c90c69acc5eb455f7261cdcb8484799c62a95a42afba7949e52a",
+      "role": "authored_ASM_procedure_source"
+    }
+  ],
+  "mixed_transform": "restore51-authenticated-C3-EOF-plus-decoder289-exact-declaration-union-v1",
+  "owner_contracts": {
+    "restore_active_arena_2ce0": {
+      "source": "src/restore_active_arena_match.c",
+      "source_sha256": "0c57840fac7f4b5c69d52dba278bb8238692234b09dd39a6b44b093c621d7a54",
+      "language": "c",
+      "comparison_role": "genuine_C5_sidecar_and_final_mixed_span0_51"
+    },
+    "decode_frame_directory_code289": {
+      "source": "asm/link/decode_frame_directory2d13.asm",
+      "source_sha256": "22f092e8b137c90c69acc5eb455f7261cdcb8484799c62a95a42afba7949e52a",
+      "language": "asm-code",
+      "comparison_role": "final_mixed_span51_340"
+    }
+  },
+  "public_adapter": {
+    "module": "mixed_restore_decoder16",
+    "function": "assemble",
+    "sha256": "2f0915eb67ce19d61307aca22e7d25fc54feb7a7ec28f50a9eb7a1e1cc96815d"
+  }
+}

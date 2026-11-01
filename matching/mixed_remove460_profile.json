@@ -1,0 +1,142 @@
+{
+  "original_units": [
+    {
+      "id": "remove_actor_code247",
+      "language": "asm-code",
+      "backend": "masm510-remove-actor-code-omf",
+      "object_profile": "remove_actor_101instructions_247",
+      "source": "asm/link/remove_actor5934.asm",
+      "source_sha256": "991ec7390508894bcad675d2ca0dac58a9318873a15504d933b731dec8f7e338",
+      "assembler_sha256": "1c6286c69b616160b8475ad17453ee872702a2c98075c2159ec792a1c745275f",
+      "public_symbols": [
+        "_remove_actor_5934"
+      ],
+      "image_offset": "0x5934",
+      "size": 247,
+      "externals": {
+        "__chkstk": 60586,
+        "_rand": 62192,
+        "_dissolve_masks_0486": 1158,
+        "_attach_actor": 16143,
+        "_detach_actor": 16201
+      },
+      "rea_evidence": "evidence/remove_actor247/primary.json",
+      "reference_region": "unchanged-prefix",
+      "boundary_evidence": "Whole native247/101instructions5934..5A2A nearRET; actual corrected source480/7fields4nearCALL+3DSmask/noMZ/fourbases. Exactly one local forwardzero EQU documents pre6 MASM fullword AND BX immediate, not opcodeDB/padding/PUB alias. First246 negative retained. WORD CODE source engineering choice, not original language/TU/absolute placement. Cframe16/native18 remains held; zero C/standaloneASMfunction credit. _dissolve_masks_0486 remains EXTRN only, no storage/capacity/provider claim."
+    },
+    {
+      "id": "empty_argument_5a2b",
+      "image_offset": "0x5a2b",
+      "size": 12,
+      "language": "c",
+      "backend": "msc500-omf",
+      "source": "src/empty_argument_match.c",
+      "boundary_evidence": "Retained REA complete body and independent compiler CodeView3 procedure extent.",
+      "rea_evidence": "evidence/rea_search_15a2b.json",
+      "symbol": "_empty_argument",
+      "flags": [
+        "/AS",
+        "/Zi"
+      ],
+      "externals": {
+        "__chkstk": 60586
+      }
+    },
+    {
+      "id": "empty_5a37",
+      "image_offset": "0x5a37",
+      "size": 12,
+      "language": "c",
+      "backend": "msc500-omf",
+      "source": "src/empty_callbacks_5a37_match.c",
+      "boundary_evidence": "Retained REA complete body and independent compiler CodeView3 procedure extent.",
+      "rea_evidence": "evidence/rea_more_empty_15a37.json",
+      "symbol": "_empty_5a37",
+      "flags": [
+        "/AS",
+        "/Zi"
+      ],
+      "externals": {
+        "__chkstk": 60586
+      }
+    },
+    {
+      "id": "empty_5a43",
+      "image_offset": "0x5a43",
+      "size": 12,
+      "language": "c",
+      "backend": "msc500-omf",
+      "source": "src/empty_callbacks_5a37_match.c",
+      "boundary_evidence": "Retained REA complete body and independent compiler CodeView3 procedure extent.",
+      "rea_evidence": "evidence/rea_more_empty_15a43.json",
+      "symbol": "_empty_5a43",
+      "flags": [
+        "/AS",
+        "/Zi"
+      ],
+      "externals": {
+        "__chkstk": 60586
+      }
+    },
+    {
+      "id": "fill_far_5a4f",
+      "image_offset": "0x5a4f",
+      "size": 45,
+      "language": "c",
+      "backend": "msc500-omf",
+      "source": "src/fill_far_match.c",
+      "symbol": "_fill_5a4f",
+      "flags": [
+        "/AS",
+        "/Zi"
+      ],
+      "externals": {
+        "__chkstk": 60586,
+        "__AHINCR": {
+          "absolute": 4096
+        }
+      },
+      "rea_evidence": "evidence/rea_fill_far_5a4f.json",
+      "boundary_evidence": "Fresh REA complete contiguous45-byte body5A4F..5A7B; independent compiler CodeView3 extent and complete linked-byte/MZ-site equality."
+    },
+    {
+      "id": "plot_region_5a7c",
+      "image_offset": "0x5a7c",
+      "size": 132,
+      "language": "c",
+      "backend": "msc500-omf",
+      "source": "src/plot_region_match.c",
+      "symbol": "_plot_region_5a7c",
+      "flags": [
+        "/AS",
+        "/Zi"
+      ],
+      "externals": {
+        "__chkstk": 60586,
+        "__AHSHIFT": {
+          "absolute": 12
+        },
+        "_stride": 37746,
+        "_region_buffer": {
+          "offset": 16272,
+          "segment": 4621
+        },
+        "_packed_pen": 33138
+      },
+      "rea_evidence": "evidence/rea_fill_neighbor_5a7c.json",
+      "boundary_evidence": "Fresh REA complete contiguous132-byte body5A7C..5AFF; independent compiler CodeView3 extent and complete linked-byte/MZ-site equality."
+    }
+  ],
+  "original_source_composition": {
+    "src/empty_argument_match.c": "48409f6ee7d92d52f9d1da310b42ebfb93aa5a423415e23f3a9a51b568b91658",
+    "src/empty_callbacks_5a37_match.c": "cb99caaa725d44fcc30814eb6cf24388f1509253bf4ffe17768308ce0d0e2a69",
+    "src/fill_far_match.c": "bd8b08d9ce096057ddd5944615ad60a8988b1640065d24ac7938591fcbc90739",
+    "src/plot_region_match.c": "204bbb844928feea29a71a9ff82764b2d2f67cc24e5a782047b5b1d72ef35109"
+  },
+  "comparison_only_expected_SHA256": {
+    "mixed": "8ffb303e79a7c818b2efa5ee616c5c6d8a3708c4c9868da610519dfa1c640ea6",
+    "c5": "d40b918c9c1600cc25b9cd2031b08674e4f67c21dd26a1eee106771fc0abd754",
+    "fa": "7e5979b49a3dbcd031d24ca894bd2464ade5fc122700a1264ce8215755acb9ba",
+    "composed": "8a9bb6a3855e3ae9007b898ca79559335019e0689f09eb046695e8004e88e504"
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "status": "PASS_COMPLETE_GENUINE_INITIALIZED_PHYSICAL_DATA40_CONTROL_ONLY",
+  "raw_object_SHA256": "929f17c234fdf248bb0fdc7e4dbd12f6328af1d7b8c7361e87030ddba93025eb",
+  "source_SHA256": "2bf6b796071951047d64a220c870a7e9cd2bdd6d945eee14445a400397d44728",
+  "initialized_bytes": 40,
+  "model": {
+    "PUBLICs": {
+      "_left_list_scratch": {
+        "name": "_left_list_scratch",
+        "segment": 1,
+        "offset": 0,
+        "group": 1,
+        "type_index": 0
+      },
+      "_right_list_scratch": {
+        "name": "_right_list_scratch",
+        "segment": 1,
+        "offset": 20,
+        "group": 1,
+        "type_index": 0
+      }
+    },
+    "groups": [
+      {
+        "name": "DGROUP",
+        "members": [
+          1
+        ]
+      }
+    ],
+    "initialized_LEDATAs": [
+      {
+        "offset": 0,
+        "bytes": "ff00000000000000000000000000000000000000ff00000000000000000000000000000000000000"
+      }
+    ],
+    "whole_DATA": 40,
+    "opaque_initialized": 18,
+    "valid_operational": [
+      10,
+      12
+    ],
+    "FIXUP_COMMON_CODE_CONST_BSS_DEBUG_MZ": 0,
+    "C_credit": 0,
+    "capacity_or_historical_owner_claim": false
+  },
+  "native_DS": [
+    4158,
+    4198
+  ],
+  "primary_evidence_id": "ev_44e5d811399391ab10fb2c879b31444ef389e025f3b5d890c60cccd2d63c18ec",
+  "native_MZ": [],
+  "fourbases": [
+    {
+      "load_paragraph": 0,
+      "whole_initialized_bytes_unchanged": "ff00000000000000000000000000000000000000ff00000000000000000000000000000000000000",
+      "native_MZ": [],
+      "real_view_projections": {
+        "_left_list_scratch": {
+          "DS_offset": 4158,
+          "load_segment": 23746
+        },
+        "_right_list_scratch": {
+          "DS_offset": 4178,
+          "load_segment": 23746
+        }
+      }
+    },
+    {
+      "load_paragraph": 1,
+      "whole_initialized_bytes_unchanged": "ff00000000000000000000000000000000000000ff00000000000000000000000000000000000000",
+      "native_MZ": [],
+      "real_view_projections": {
+        "_left_list_scratch": {
+          "DS_offset": 4158,
+          "load_segment": 23747
+        },
+        "_right_list_scratch": {
+          "DS_offset": 4178,
+          "load_segment": 23747
+        }
+      }
+    },
+    {
+      "load_paragraph": 4096,
+      "whole_initialized_bytes_unchanged": "ff00000000000000000000000000000000000000ff00000000000000000000000000000000000000",
+      "native_MZ": [],
+      "real_view_projections": {
+        "_left_list_scratch": {
+          "DS_offset": 4158,
+          "load_segment": 27842
+        },
+        "_right_list_scratch": {
+          "DS_offset": 4178,
+          "load_segment": 27842
+        }
+      }
+    },
+    {
+      "load_paragraph": 65535,
+      "whole_initialized_bytes_unchanged": "ff00000000000000000000000000000000000000ff00000000000000000000000000000000000000",
+      "native_MZ": [],
+      "real_view_projections": {
+        "_left_list_scratch": {
+          "DS_offset": 4158,
+          "load_segment": 23745
+        },
+        "_right_list_scratch": {
+          "DS_offset": 4178,
+          "load_segment": 23745
+        }
+      }
+    }
+  ],
+  "operational_bytes": 22,
+  "opaque_initialized_bytes": 18,
+  "C_function_credit": 0,
+  "matching_credit": 0,
+  "original_capacity_or_TU_proven": false,
+  "absolute_original_LINK_placement_proven": false,
+  "actual_NASM_calls": 1,
+  "GEN_LINK_repeated": false,
+  "root_process_evidence": {
+    "REA_EvidenceID": "ev_335889e5002aeb187cd8dc38bb0b7ed6b23093c3e9c3e041f2b93dcdf769ddfe",
+    "REA_record_SHA256": "66c3e54804d41f2542ff6c40ba79a0709f4cc54406d46e2cc6063339bc4ffb2b",
+    "actual_PID": 1148431,
+    "unified_ids": null
+  }
+}

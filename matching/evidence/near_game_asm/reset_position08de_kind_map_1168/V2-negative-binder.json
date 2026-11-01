@@ -1,0 +1,26 @@
+{
+  "status": "V2_GENUINE_MASM_ZERO_WARNINGS_BUT_CODE1166_FAILED_PHYSICAL1168",
+  "actual_root": "/home/kierzo/chess/matching/build/reset-position08de-physical1168-one-MASM-root-actual-v2",
+  "actual_raw_sha256": "4553a2a7a71ca5c571818c546968bcc8058e48df6f023ed83cb195bd5a28a30a",
+  "actual_CODE": 1166,
+  "all392_source_instructions_present_including_deadJMP": true,
+  "two_signextended_immediates": [
+    {
+      "native_offset": 2605,
+      "before": "AND CX, 07h",
+      "after": "AND CX, FULLWORD_IMMEDIATE_ZERO + 07h",
+      "native_hex": "81e10700"
+    },
+    {
+      "native_offset": 3175,
+      "before": "AND CX, 07h",
+      "after": "AND CX, FULLWORD_IMMEDIATE_ZERO + 07h",
+      "native_hex": "81e10700"
+    }
+  ],
+  "diagnosis_freeze_sha256": "5c95407cc40a7ab1b6b480a0141daef33d1df6df4dbe9e09432e59b44a6c89b0",
+  "V1_warning_negative_retained": "V1-negative-binder.json",
+  "prior_actual_MASM_calls": 2,
+  "V3_maximum_new_MASM_calls": 1,
+  "not_one_total": true
+}

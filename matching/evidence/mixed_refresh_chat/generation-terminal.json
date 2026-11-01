@@ -1,0 +1,43 @@
+{
+  "schema": "root-observed-fresh-mixed-prototype-terminal-v1",
+  "terminal": true,
+  "reaped": true,
+  "exit_code": 0,
+  "generation_receipt_SHA256": "cafc37c99c18562316ec9848cc4abde86437229853f2a56532e46017fb8d8e81",
+  "C5_calls": 1,
+  "MASM_calls": 1,
+  "runner_SHA256": "7bd8531e6018eaa71b1c9621ec772023a2d8771d2dee9fec8099e47dfd7a8561",
+  "prototype_freeze_SHA256": "2cd776dc6412d590138129a080e150bf17572873b04f20ac5a309a7bfaa05a56",
+  "real_PID_and_REA_evidence_closure_required": true,
+  "REA_evidence_id": "ev_692a7f43fd8d0f2ba68ccdd8e008ebcbdd8469b8861468622308eecc9fc0413c",
+  "actual_processes": [
+    {
+      "phase": "C5",
+      "pid": 787043,
+      "argv": [
+        "/usr/bin/dosbox",
+        "-conf",
+        "/tmp/bc-fresh-mixed-refresh-chat-hnid58_j/C5/dosbox.conf",
+        "-noconsole"
+      ],
+      "command": "T:\\CL.EXE /c /AS /Zi /FaC:\\UNIT.ASM /FoC:\\UNIT.OBJ C:\\UNIT.C",
+      "terminal": true,
+      "reaped": true,
+      "returncode": 0
+    },
+    {
+      "phase": "MASM",
+      "pid": 787077,
+      "argv": [
+        "/usr/bin/dosbox",
+        "-conf",
+        "/tmp/bc-fresh-mixed-refresh-chat-hnid58_j/MASM/dosbox.conf",
+        "-noconsole"
+      ],
+      "command": "T:\\MASM /Mx UNIT.ASM,UNIT.OBJ,UNIT.LST,UNIT.CRF;",
+      "terminal": true,
+      "reaped": true,
+      "returncode": 0
+    }
+  ]
+}

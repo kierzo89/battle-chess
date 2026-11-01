@@ -1,0 +1,27 @@
+{
+  "id": "pixel_callbacks_04a6",
+  "language": "c-data",
+  "backend": "msc500-near-code-callback-data6-v1",
+  "source": "src/data/pixel_callbacks.c",
+  "symbol": "_plot_pixel",
+  "flags": [
+    "/AS",
+    "/Zl"
+  ],
+  "image_offset": "0x5d0c6",
+  "size": 6,
+  "reference_region": "exepack-expanded",
+  "rea_evidence": "build/pen-callback-data-recovery/rea-callbacks6.json",
+  "externals": {},
+  "code_externals": {
+    "_plot_region_5a7c": [
+      0,
+      23164
+    ],
+    "_bios_plot_pixel_ea64": [
+      0,
+      60004
+    ]
+  },
+  "boundary_evidence": "Complete genuine DATA6/public0+2/one contiguous zero-addend LEDATA,3 actual nearCODE OFFSET16 fields (frame5 derives CODEparagraph0), source initializedcallback+twoentrytable; full REA6 at6D0C6/native5D0C6 and original/emittedMZempty. DGROUP5CC2:04A6 places DATA only; CODE targets are NOT DS bindings. No capacity beyond emitted2table entries; historicalTU/storageclass/placement held; zero new Cfunctioncredit."
+}

@@ -1,0 +1,1 @@
+unsigned long current_ticks_9884,last_event_ticks_b07a;

@@ -1,0 +1,17 @@
+{
+  "id": "list_scratch_physical_data40",
+  "language": "asm-data",
+  "backend": "nasm-data-omf",
+  "source": "src/data/list_scratch_physical40.asm",
+  "source_sha256": "2bf6b796071951047d64a220c870a7e9cd2bdd6d945eee14445a400397d44728",
+  "assembler_sha256": "57b8fc5957237b0d9b1ff48c8f5823780fb8ce968d9b8434850c06941ad5d5f5",
+  "symbols": [
+    "_left_list_scratch",
+    "_right_list_scratch"
+  ],
+  "image_offset": "0x5dc5e",
+  "size": 40,
+  "reference_region": "exepack-expanded",
+  "rea_evidence": "evidence/list_scratch_physical40/REA40.json",
+  "boundary_evidence": "Engineering initialized physical DATA40 fragment DS103E..1066 with two real machine-address PUBLIC views at0/20, GROUP1 WORD PUBLIC DATA, whole actual196-byte NASM OMF/20numericDW/no fixups/otherallocs. Independent REA40/authenticated EXEPACK bytes agree, MZ0/fourbases; existing menu1066 independently bounds physical partition, not historical object capacity. Immutable72 FF records/normal6x6 selectors derive left10/right12 operational bytes; remaining10/8 bytes explicitly opaque initialized storage. No original C[20], all-path malformed-resource capacity, language, TU, allocation-boundary or absolute MAP claim. Actual retained512SOURCE289+wholeproducer LINK290 resolves exactlytwo names/noadds and proves2CODE preferred DGROUP frames plus2DEBUG FAR projections; original producer FAILED postGEN summary None assertion/outer1 is preserved alongside independent LINK_SUCCESS_WITH_POSTCHECK_SCHEMA_NEGATIVE (DOSBox0). ZeroC/function/packedFILE credit."
+}

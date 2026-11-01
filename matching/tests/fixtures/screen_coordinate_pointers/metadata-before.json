@@ -1,0 +1,330 @@
+[
+  {
+    "id": "load_asset_bank_2525",
+    "source": "src/input_wait_command_context_match.c",
+    "symbol": "_load_asset_bank",
+    "flags": [
+      "/AS",
+      "/Zi"
+    ],
+    "image_offset": "0x2525",
+    "size": 231,
+    "rea_evidence": "evidence/rea_far_storage_12525.json",
+    "externals": {
+      "__chkstk": 60586,
+      "_select_asset_file": 51798,
+      "_asset_lengths": 38984,
+      "_read_asset": 52111,
+      "_asset_buffer": {
+        "segment": 9996,
+        "offset": 0
+      },
+      "__AHSHIFT": {
+        "absolute": 12
+      },
+      "_seek_asset": 52059,
+      "_asset_offsets": 36324,
+      "_exit_07f3": 2035,
+      "_prompt_1296": 4758,
+      "_asset_overflow": 19770,
+      "_mode_11aa": 4522
+    },
+    "language": "c",
+    "backend": "msc500-omf",
+    "boundary_evidence": "Complete fresh CodeView extents in natural legalWORD2322 source contribution1CFA..260C, all199 actual OMF fields/all26 MZ sites/fourbases exact. Four compiler-resolved internal CALLs target actual ownPUBLIC refresh87/CV88 and native1D51; no syntheticfixups. Fixedinputwait607/native605+2gap/fullCFG/restoredfalseboundaries and board496/37fields at987 require fullsource-ownedobjectproof. HistoricalTU unknown."
+  },
+  {
+    "id": "write_key_command_1cfa",
+    "language": "c",
+    "backend": "msc500-omf",
+    "source": "src/input_wait_command_context_match.c",
+    "symbol": "_write_key_command_1cfa",
+    "flags": [
+      "/AS",
+      "/Zi"
+    ],
+    "image_offset": "0x1cfa",
+    "size": 87,
+    "externals": {
+      "__chkstk": 60586,
+      "_command_cursor_0070": 112,
+      "_write_command_fd4e": {
+        "segment": 4031,
+        "offset": 350
+      }
+    },
+    "rea_evidence": "evidence/rea_low_control_write_key_command_1cfa.json",
+    "boundary_evidence": "Complete fresh CodeView extents in natural legalWORD2322 source contribution1CFA..260C, all199 actual OMF fields/all26 MZ sites/fourbases exact. Four compiler-resolved internal CALLs target actual ownPUBLIC refresh87/CV88 and native1D51; no syntheticfixups. Fixedinputwait607/native605+2gap/fullCFG/restoredfalseboundaries and board496/37fields at987 require fullsource-ownedobjectproof. HistoricalTU unknown."
+  },
+  {
+    "id": "refresh_panel_1d51",
+    "language": "c",
+    "backend": "msc500-omf",
+    "source": "src/input_wait_command_context_match.c",
+    "symbol": "_refresh_panel_1d51",
+    "flags": [
+      "/AS",
+      "/Zi"
+    ],
+    "image_offset": "0x1d51",
+    "size": 88,
+    "externals": {
+      "_command_cursor_0070": 112,
+      "_write_command_fd4e": {
+        "segment": 4031,
+        "offset": 350
+      },
+      "_cursor_y_b0c8": 45256,
+      "_cursor_row_0088": 136,
+      "_cursor_x_b0c6": 45254,
+      "_cursor_column_0086": 134,
+      "__chkstk": 60586
+    },
+    "rea_evidence": "evidence/rea_low_control_refresh_panel_1d51.json",
+    "boundary_evidence": "Complete fresh CodeView extents in natural legalWORD2322 source contribution1CFA..260C, all199 actual OMF fields/all26 MZ sites/fourbases exact. Four compiler-resolved internal CALLs target actual ownPUBLIC refresh87/CV88 and native1D51; no syntheticfixups. Fixedinputwait607/native605+2gap/fullCFG/restoredfalseboundaries and board496/37fields at987 require fullsource-ownedobjectproof. HistoricalTU unknown."
+  },
+  {
+    "id": "rect_2079",
+    "source": "src/input_wait_command_context_match.c",
+    "symbol": "_rect_2079",
+    "flags": [
+      "/AS",
+      "/Zi"
+    ],
+    "language": "c",
+    "backend": "msc500-omf",
+    "image_offset": "0x2079",
+    "size": 92,
+    "externals": {
+      "__chkstk": 60586,
+      "_graphics_rect_110d_0003": {
+        "segment": 4365,
+        "offset": 3
+      }
+    },
+    "rea_evidence": "evidence/rea_rect_action_12079_original.json",
+    "boundary_evidence": "Complete fresh CodeView extents in natural legalWORD2322 source contribution1CFA..260C, all199 actual OMF fields/all26 MZ sites/fourbases exact. Four compiler-resolved internal CALLs target actual ownPUBLIC refresh87/CV88 and native1D51; no syntheticfixups. Fixedinputwait607/native605+2gap/fullCFG/restoredfalseboundaries and board496/37fields at987 require fullsource-ownedobjectproof. HistoricalTU unknown."
+  },
+  {
+    "id": "board_action_20d5",
+    "source": "src/input_wait_command_context_match.c",
+    "symbol": "_board_action_20d5",
+    "flags": [
+      "/AS",
+      "/Zi"
+    ],
+    "language": "c",
+    "backend": "msc500-omf",
+    "image_offset": "0x20d5",
+    "size": 496,
+    "externals": {
+      "__chkstk": 60586,
+      "_board_action_active_0056": 86,
+      "_outline_piece_578c": 22412,
+      "_selected_square_0efa": 3834,
+      "_command_cursor_0070": 112,
+      "_write_command_fd4e": {
+        "segment": 4031,
+        "offset": 350
+      },
+      "_position_command_22c5": 8901,
+      "_editor_piece_008a": 138,
+      "_next_event_184d": 6221,
+      "_detach_actor": 16201,
+      "_actors": 1504,
+      "_cursor_actor_57d0": 22480,
+      "_cursor_kind_0ef4": 3828,
+      "_input_update_0886": 2182
+    },
+    "rea_evidence": "evidence/rea_rect_action_120d5_original.json",
+    "boundary_evidence": "Complete fresh CodeView extents in natural legalWORD2322 source contribution1CFA..260C, all199 actual OMF fields/all26 MZ sites/fourbases exact. Four compiler-resolved internal CALLs target actual ownPUBLIC refresh87/CV88 and native1D51; no syntheticfixups. Fixedinputwait607/native605+2gap/fullCFG/restoredfalseboundaries and board496/37fields at987 require fullsource-ownedobjectproof. HistoricalTU unknown.",
+    "extended_extent": {
+      "kind": "board_action_cleanup_20d5_v1",
+      "raw_span_evidence": "evidence/rea_rect_board_action_full_original_context.json",
+      "next_entry_evidence": "evidence/rea_board_action_next_22c5_original.json",
+      "gap_xref_evidence": [
+        "evidence/rea_board_action_xref_121f7.json",
+        "evidence/rea_board_action_xref_121f8.json",
+        "evidence/rea_board_action_xref_1229e.json",
+        "evidence/rea_board_action_xref_1229f.json",
+        "evidence/rea_board_action_xref_122ba.json",
+        "evidence/rea_board_action_xref_122bb.json",
+        "evidence/rea_board_action_xref_122bc.json",
+        "evidence/rea_board_action_xref_122bd.json",
+        "evidence/rea_board_action_xref_122be.json"
+      ],
+      "preceding_jump_evidence": [
+        "evidence/rea_board_action_instruction_121f4.json",
+        "evidence/rea_board_action_instruction_1229c.json",
+        "evidence/rea_board_action_instruction_122b7.json"
+      ],
+      "gap_decoder_evidence": [
+        "evidence/rea_board_action_instruction_121f7.json",
+        "evidence/rea_board_action_instruction_1229e.json",
+        "evidence/rea_board_action_instruction_122ba.json"
+      ],
+      "live_cleanup_evidence": [
+        "evidence/rea_board_action_instruction_121ef.json",
+        "evidence/rea_board_action_instruction_12278.json"
+      ]
+    }
+  },
+  {
+    "id": "choose_action_2008",
+    "source": "src/input_wait_command_context_match.c",
+    "symbol": "_choose_action_2008",
+    "flags": [
+      "/AS",
+      "/Zi"
+    ],
+    "language": "c",
+    "backend": "msc500-omf",
+    "image_offset": "0x2008",
+    "size": 113,
+    "externals": {
+      "__chkstk": 60586,
+      "_menu_rows": 1156
+    },
+    "rea_evidence": "evidence/rea_choose_action_2008_original.json",
+    "boundary_evidence": "Complete fresh CodeView extents in natural legalWORD2322 source contribution1CFA..260C, all199 actual OMF fields/all26 MZ sites/fourbases exact. Four compiler-resolved internal CALLs target actual ownPUBLIC refresh87/CV88 and native1D51; no syntheticfixups. Fixedinputwait607/native605+2gap/fullCFG/restoredfalseboundaries and board496/37fields at987 require fullsource-ownedobjectproof. HistoricalTU unknown."
+  },
+  {
+    "id": "position_command_22c5",
+    "source": "src/input_wait_command_context_match.c",
+    "symbol": "_position_command_22c5",
+    "flags": [
+      "/AS",
+      "/Zi"
+    ],
+    "language": "c",
+    "backend": "msc500-omf",
+    "image_offset": "0x22c5",
+    "size": 60,
+    "externals": {
+      "__chkstk": 60586,
+      "_command_cursor_0070": 112,
+      "_write_command_fd4e": {
+        "segment": 4031,
+        "offset": 350
+      }
+    },
+    "rea_evidence": "evidence/rea_board_action_next_22c5_original.json",
+    "boundary_evidence": "Complete fresh CodeView extents in natural legalWORD2322 source contribution1CFA..260C, all199 actual OMF fields/all26 MZ sites/fourbases exact. Four compiler-resolved internal CALLs target actual ownPUBLIC refresh87/CV88 and native1D51; no syntheticfixups. Fixedinputwait607/native605+2gap/fullCFG/restoredfalseboundaries and board496/37fields at987 require fullsource-ownedobjectproof. HistoricalTU unknown."
+  },
+  {
+    "id": "pump_input_2301",
+    "source": "src/input_wait_command_context_match.c",
+    "symbol": "_pump_input_2301",
+    "flags": [
+      "/AS",
+      "/Zi"
+    ],
+    "image_offset": "0x2301",
+    "size": 548,
+    "language": "c",
+    "backend": "msc500-omf",
+    "rea_evidence": "evidence/rea_position_command_next_2301_original.json",
+    "boundary_evidence": "Complete fresh CodeView extents in natural legalWORD2322 source contribution1CFA..260C, all199 actual OMF fields/all26 MZ sites/fourbases exact. Four compiler-resolved internal CALLs target actual ownPUBLIC refresh87/CV88 and native1D51; no syntheticfixups. Fixedinputwait607/native605+2gap/fullCFG/restoredfalseboundaries and board496/37fields at987 require fullsource-ownedobjectproof. HistoricalTU unknown.",
+    "externals": {
+      "__chkstk": 60586,
+      "_input_control_1c77": 7287,
+      "_command_cursor_0070": 112,
+      "_write_command_fd4e": {
+        "segment": 4031,
+        "offset": 350
+      },
+      "_event_tick_0072": 114,
+      "_modal_0054": 84,
+      "_poll_event": 59954,
+      "_last_event_ticks_b07a": 45178,
+      "_current_ticks_9884": 39044,
+      "_ticks_ea5b": 59995,
+      "_previous_buttons_9888": 39048,
+      "_buttons_8d04": 36100,
+      "_input_x_005c": 92,
+      "_input_y_005e": 94,
+      "_pointer_y": 37726,
+      "_pointer_x": 37690,
+      "_input_poll_11ef_00b9": {
+        "segment": 4591,
+        "offset": 185
+      }
+    }
+  },
+  {
+    "id": "input_wait_1da9",
+    "source": "src/input_wait_command_context_match.c",
+    "symbol": "_input_wait_1da9",
+    "flags": [
+      "/AS",
+      "/Zi"
+    ],
+    "language": "c",
+    "backend": "msc500-omf",
+    "image_offset": "0x1da9",
+    "size": 607,
+    "rea_evidence": "evidence/rea_input_wait_1da9_original.json",
+    "extended_extent": {
+      "kind": "input_wait_restored_1da9_v1",
+      "original_raw_evidence": "evidence/rea_input_wait_full_next_original.json",
+      "expanded_raw_evidence": "evidence/rea_input_wait_full_next_expanded.json",
+      "expanded_body_evidence": "evidence/rea_input_wait_1da9_expanded.json",
+      "original_next_evidence": "evidence/rea_choose_action_2008_original.json",
+      "expanded_next_evidence": "evidence/rea_input_wait_next_2008_expanded.json",
+      "original_partial_evidence": [
+        "evidence/rea_input_wait_false_1ef0_original.json",
+        "evidence/rea_input_wait_false_11f0e_original.json",
+        "evidence/rea_input_wait_false_12002_original.json"
+      ],
+      "original_false_xrefs_evidence": [
+        "evidence/rea_input_wait_original_xref_11ef0.json",
+        "evidence/rea_input_wait_original_xref_11f0e.json",
+        "evidence/rea_input_wait_original_xref_11fa9.json"
+      ],
+      "expanded_false_xrefs_evidence": [
+        "evidence/rea_input_wait_expanded_xref_11ef0.json",
+        "evidence/rea_input_wait_expanded_xref_11f0e.json",
+        "evidence/rea_input_wait_expanded_xref_11fa9.json"
+      ],
+      "original_gap_xrefs_evidence": [
+        "evidence/rea_input_wait_original_xref_11eb8.json",
+        "evidence/rea_input_wait_original_xref_11eb9.json"
+      ],
+      "expanded_gap_xrefs_evidence": [
+        "evidence/rea_input_wait_expanded_xref_11eb8.json",
+        "evidence/rea_input_wait_expanded_xref_11eb9.json"
+      ],
+      "expanded_instruction_evidence": [
+        "evidence/rea_input_wait_expanded_instruction_11ef0.json",
+        "evidence/rea_input_wait_expanded_instruction_11f0e.json",
+        "evidence/rea_input_wait_expanded_instruction_11fa8.json",
+        "evidence/rea_input_wait_expanded_instruction_11fa9.json",
+        "evidence/rea_input_wait_expanded_instruction_12002.json",
+        "evidence/rea_input_wait_expanded_instruction_11eb5.json",
+        "evidence/rea_input_wait_expanded_instruction_11eb8.json"
+      ],
+      "original_instruction_evidence": [
+        "evidence/rea_input_wait_original_instruction_11eb5.json",
+        "evidence/rea_input_wait_original_instruction_11eb8.json"
+      ]
+    },
+    "boundary_evidence": "Complete fresh CodeView extents in natural legalWORD2322 source contribution1CFA..260C, all199 actual OMF fields/all26 MZ sites/fourbases exact. Four compiler-resolved internal CALLs target actual ownPUBLIC refresh87/CV88 and native1D51; no syntheticfixups. Fixedinputwait607/native605+2gap/fullCFG/restoredfalseboundaries and board496/37fields at987 require fullsource-ownedobjectproof. HistoricalTU unknown.",
+    "externals": {
+      "__chkstk": 60586,
+      "_command_cursor_0070": 112,
+      "_position_command_22c5": 8901,
+      "_menu_positions": 21498,
+      "_choose_action_2008": 8200,
+      "_menus": 36314,
+      "_selected_menu": 1150,
+      "_menu_last": 45274,
+      "_menu_rows": 1156,
+      "_write_command_fd4e": {
+        "segment": 4031,
+        "offset": 350
+      },
+      "_event_tick_0072": 114,
+      "_menu_row_selected": 1152
+    }
+  }
+]

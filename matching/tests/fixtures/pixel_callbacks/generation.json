@@ -1,0 +1,108 @@
+{
+  "pixel_callbacks": {
+    "source_tool_scratch_only": true,
+    "reads": [
+      "/home/kierzo/chess/matching/build/pen-callback-data-recovery/pixel_callbacks.c",
+      "/home/kierzo/chess/matching/config/msc500.json",
+      "/home/kierzo/chess/matching/config/msc500.json",
+      "/home/kierzo/chess/matching/config/msc500.json",
+      "/home/kierzo/chess/matching/toolchains/msc500/manifest.json",
+      "/home/kierzo/chess/matching/toolchains/msc500/CL.ERR",
+      "/home/kierzo/chess/matching/toolchains/msc500/CL.EXE",
+      "/home/kierzo/chess/matching/toolchains/msc500/C1.EXE",
+      "/home/kierzo/chess/matching/toolchains/msc500/C1.ERR",
+      "/home/kierzo/chess/matching/toolchains/msc500/C2.EXE",
+      "/home/kierzo/chess/matching/toolchains/msc500/C3.EXE",
+      "/home/kierzo/chess/matching/toolchains/msc500/C23.ERR",
+      "/tmp/battlechess-msc-d5y2ylp1/COMPILE.LOG",
+      "/tmp/battlechess-msc-d5y2ylp1/UNIT.OBJ"
+    ],
+    "denied_probes": [
+      "/home/kierzo/chess/CHESS.EXE",
+      "/home/kierzo/chess/matching/build/exepack/TRIM5_UNPACK.EXE",
+      "/home/kierzo/chess/matching/build/pen-callback-data-recovery/rea-context32.json"
+    ],
+    "compiler": {
+      "compiler_log": "C:\\UNIT.C\r\n",
+      "command": [
+        "T:\\CL.EXE",
+        "/c",
+        "/AS",
+        "/Zl",
+        "/FoC:\\UNIT.OBJ",
+        "C:\\UNIT.C"
+      ],
+      "source_sha256": "b5b2dcb228c2f5e418102ca53f5ac69a00520468661b469aecdab923d3039816",
+      "toolchain_manifest_sha256": "d2889507d0729b9d09fb92015fedccbb533c368d428c1612781c3ff980f00a82",
+      "tool_hashes": {
+        "CL.ERR": "b153605db3fbc0fa79e2f0d2ad5d814fbb70bfbebc1dbc0d2ed614194666621a",
+        "CL.EXE": "11e3c7d53b3efc085b7ad90c2190a1ddb395c8874f57aef3a5cfc0a4a0a0f504",
+        "C1.EXE": "3ef764476cb56dd14ae3c955a0b7717976d3b40f862fdff675ec8c6adc0ed791",
+        "C1.ERR": "dd02a004e8912c96b90a5b3317dcfeed6f9e76374edfd90979705035c8097233",
+        "C2.EXE": "19fbe7914ba6ebe929a0e98e012fd5e8522643e5e40b6fcd89bef0e5f650f1f1",
+        "C3.EXE": "ca4d82b90423086e68eb8d3af8f1c1c1034f164d0a0b98530c3b3a0fb0501669",
+        "C23.ERR": "75132883ac6507cccaa7d7105df6492f511ba029e4a12ee4a1fcc989517bfd18"
+      },
+      "flags": [
+        "/AS",
+        "/Zl"
+      ],
+      "compiler": "msc500",
+      "source_name": "UNIT.C"
+    },
+    "object_sha256": "a492cef0fbd83e34a912f190dfbf84b08dd83276ad0a68421495755f0076d95c"
+  },
+  "select_pixel_writer": {
+    "source_tool_scratch_only": true,
+    "reads": [
+      "/home/kierzo/chess/matching/build/pen-callback-data-recovery/select_pixel_writer.c",
+      "/home/kierzo/chess/matching/config/msc500.json",
+      "/home/kierzo/chess/matching/config/msc500.json",
+      "/home/kierzo/chess/matching/config/msc500.json",
+      "/home/kierzo/chess/matching/toolchains/msc500/manifest.json",
+      "/home/kierzo/chess/matching/toolchains/msc500/CL.ERR",
+      "/home/kierzo/chess/matching/toolchains/msc500/CL.EXE",
+      "/home/kierzo/chess/matching/toolchains/msc500/C1.EXE",
+      "/home/kierzo/chess/matching/toolchains/msc500/C1.ERR",
+      "/home/kierzo/chess/matching/toolchains/msc500/C2.EXE",
+      "/home/kierzo/chess/matching/toolchains/msc500/C3.EXE",
+      "/home/kierzo/chess/matching/toolchains/msc500/C23.ERR",
+      "/tmp/battlechess-msc-lo_q596b/COMPILE.LOG",
+      "/tmp/battlechess-msc-lo_q596b/UNIT.OBJ"
+    ],
+    "denied_probes": [
+      "/home/kierzo/chess/CHESS.EXE",
+      "/home/kierzo/chess/matching/build/exepack/TRIM5_UNPACK.EXE",
+      "/home/kierzo/chess/matching/build/pen-callback-data-recovery/rea-context32.json"
+    ],
+    "compiler": {
+      "compiler_log": "C:\\UNIT.C\r\n",
+      "command": [
+        "T:\\CL.EXE",
+        "/c",
+        "/AS",
+        "/Zi",
+        "/FoC:\\UNIT.OBJ",
+        "C:\\UNIT.C"
+      ],
+      "source_sha256": "cbaef649446c1073eaebdc65efbdde1457d9362ea79abfd1633ec46c658f9bd0",
+      "toolchain_manifest_sha256": "d2889507d0729b9d09fb92015fedccbb533c368d428c1612781c3ff980f00a82",
+      "tool_hashes": {
+        "CL.ERR": "b153605db3fbc0fa79e2f0d2ad5d814fbb70bfbebc1dbc0d2ed614194666621a",
+        "CL.EXE": "11e3c7d53b3efc085b7ad90c2190a1ddb395c8874f57aef3a5cfc0a4a0a0f504",
+        "C1.EXE": "3ef764476cb56dd14ae3c955a0b7717976d3b40f862fdff675ec8c6adc0ed791",
+        "C1.ERR": "dd02a004e8912c96b90a5b3317dcfeed6f9e76374edfd90979705035c8097233",
+        "C2.EXE": "19fbe7914ba6ebe929a0e98e012fd5e8522643e5e40b6fcd89bef0e5f650f1f1",
+        "C3.EXE": "ca4d82b90423086e68eb8d3af8f1c1c1034f164d0a0b98530c3b3a0fb0501669",
+        "C23.ERR": "75132883ac6507cccaa7d7105df6492f511ba029e4a12ee4a1fcc989517bfd18"
+      },
+      "flags": [
+        "/AS",
+        "/Zi"
+      ],
+      "compiler": "msc500",
+      "source_name": "UNIT.C"
+    },
+    "object_sha256": "cd5dce51526da55a50d9b02b702664f6e435492de78dd881f2d979e2cb42d36a"
+  }
+}

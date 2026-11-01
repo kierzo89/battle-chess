@@ -1,0 +1,77 @@
+{
+  "id": "select_asset_file_ca56",
+  "image_offset": "0xca56",
+  "size": 250,
+  "language": "c",
+  "backend": "msc500-omf",
+  "symbol": "_select_asset_file",
+  "rea_evidence": "evidence/rea_far_storage_1ca56.json",
+  "source": "src/asset_dispatch_file_context_match.c",
+  "flags": [
+    "/AS",
+    "/Os",
+    "/Zi"
+  ],
+  "externals": {
+    "__chkstk": 60586,
+    "_mode_11aa": 4522,
+    "_process_c868": 51304,
+    "_process_c924": 51492,
+    "__aNNaldiv": 62330,
+    "__aNlshl": 62306,
+    "__AHSHIFT": {
+      "absolute": 12
+    },
+    "_asset_frames": 3616,
+    "_mode_8176": 33142,
+    "_play_audio_10e3": {
+      "segment": 4323,
+      "offset": 0
+    },
+    "__aNlmul": 62254,
+    "_play_audio_alt_10e3": {
+      "segment": 4323,
+      "offset": 241
+    },
+    "__aNahdiff": 61910,
+    "_asset_file": 4534,
+    "_asset_drive_fallback": 22478,
+    "_asset_drive_count": 39050,
+    "_asset_drive_file": 20670,
+    "_asset_drive_error": 20679,
+    "_asset_drive_second_file": 20707,
+    "_open": 60762,
+    "_close": 60608,
+    "_prompt_1296": 4758,
+    "_exit_07f3": 2035,
+    "__bios_equiplist": 62230,
+    "__dos_getdrive": 62234,
+    "_strcat": 61698,
+    "_seek_asset": 52059,
+    "_probe_asset_file": 52239,
+    "_select_asset_drive": {
+      "segment": 4323,
+      "offset": 596
+    },
+    "_lseek": 60640,
+    "_print_error": 37914,
+    "_read": 61182,
+    "__AHINCR": {
+      "absolute": 4096
+    },
+    "_flag_11b8": 4536
+  },
+  "boundary_evidence": "Complete original REA body, fresh CV3, all function bytes/fixups/MZ sites verified. Genuine five-function496-byte contiguous CODE contribution CA56..CC45. Explicit continue in both selector prompt branches gives original backward suffix sharing. Proof evidence/asset-selector-flow-match.json. Canonical source uses existing caller public _load_asset_index at C9D0; no wrapper or byte edits. Review evidence/integrate-172-asset-contexts.json and fresh source audit. Uncredited natural adjacent-context migration candidate; see evidence/adjacent-contexts-193-control.json. Promoted reviewed source-context proof: build/asset-message-owner-review/review.json and strict asset_messages_1036_v1 gate; anonymous CONST112 credited zero",
+  "owned_const": {
+    "segment": 3,
+    "group": 1,
+    "size": 112,
+    "image_offset": "0x61d0c",
+    "data_address": {
+      "segment": 23746,
+      "offset": 20716
+    },
+    "rea_evidence": "build/asset-message-data-context/rea-whole112.json"
+  },
+  "owned_const_profile": "asset_messages_1036_v1"
+}

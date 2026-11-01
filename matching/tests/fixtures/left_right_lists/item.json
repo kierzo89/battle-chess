@@ -1,0 +1,99 @@
+{
+  "id": "left-right-lists-common",
+  "backend": "msc500-near-common-left-right-lists-v1",
+  "source": "src/link/left_right_lists.c",
+  "source_sha256": "d6523544e227efcd9eb94b12ff5cbd36eb4821ecb47d65fbd73b02720b6c7a82",
+  "compiler": "msc500",
+  "flags": [
+    "/AS",
+    "/Zl",
+    "/Zi"
+  ],
+  "toolchain_manifest_sha256": "d2889507d0729b9d09fb92015fedccbb533c368d428c1612781c3ff980f00a82",
+  "objects": [
+    {
+      "symbol": "_left_lists",
+      "size": 72,
+      "storage": "near-common"
+    },
+    {
+      "symbol": "_right_lists",
+      "size": 72,
+      "storage": "near-common"
+    }
+  ],
+  "evidence": {
+    "ownership": {
+      "path": "build/left-right-lists-source-profile-stage/comparison-context/native-ownership-proof.json",
+      "sha256": "85423d5b09eb7749eadc02e6fdf516128b68e44d1558b75c06995325b5ed0310"
+    },
+    "ownership_freeze": {
+      "path": "build/left-right-lists-source-profile-stage/comparison-context/ownership-freeze.json",
+      "sha256": "5f9dac49cc6f4f88412f141c5cc92c4056d826409567ff94c5aa1e561f89c1c8"
+    },
+    "boundaries": {
+      "path": "build/left-right-lists-source-profile-stage/comparison-context/boundary-anchors-review.json",
+      "sha256": "e0b765031153f519ed9fa95efe358f4a1cb4fa0fa18e0bd13a3e23e50e7a44ab"
+    },
+    "producer": {
+      "path": "build/left-right-lists-source-profile-stage/comparison-context/producer-proof.json",
+      "sha256": "f9a1a7bf3dd4d8bb122c7ded540c5942e4b543289de04bed2f314d9730a8a07a"
+    },
+    "generation": {
+      "path": "build/left-right-lists-source-profile-stage/comparison-context/generation.json",
+      "sha256": "aab56e629828e923797150ea09c715233a2b30834002ef9e203f1b8a31c24de8"
+    },
+    "producer_object": {
+      "path": "build/left-right-lists-source-profile-stage/comparison-context/provider.obj",
+      "sha256": "ba59e18bdf095f13d7c1f18c3fbbaa6c75d025a6ed4baa97c5654ed295769ba0"
+    },
+    "generation_receipt": {
+      "path": "build/left-right-lists-source-profile-stage/comparison-context/actual-control-tool-result.json",
+      "sha256": "4ef75d96c3dcb86d5beb631bce2dbaf739f9bce4dd27b08c8d2b78a92dc59612"
+    },
+    "consumer_object": {
+      "path": "build/left-right-lists-source-profile-stage/comparison-context/consumer.obj",
+      "sha256": "4dc97fb2c38d75506380846652b3f722a9ab32aa71eb5a08f128777af0b2f62d"
+    },
+    "consumer_source": {
+      "path": "build/left-right-lists-source-profile-stage/comparison-context/consumer.c",
+      "sha256": "cc32f43fd0d9e791cdc09d16b09562869095f5873f0c00c363626950ddf7e891"
+    },
+    "animation_object": {
+      "path": "build/left-right-lists-source-profile-stage/comparison-context/animation.obj",
+      "sha256": "27b6fe476e2fa4883dacbb645f8137c3c66533109813cd4469ce11bf46abbcf9"
+    },
+    "animation_source": {
+      "path": "build/left-right-lists-source-profile-stage/comparison-context/animation.asm",
+      "sha256": "07ccfe9879496ab5997b83b9323247f63afe4d12bbd381a82d200337d9a6df33"
+    },
+    "native_REA": {
+      "path": "build/left-right-lists-source-profile-stage/comparison-context/native-animation-REA.json",
+      "sha256": "2f41103dc1a69a4af21686537f03cf607423cefc0545843d9b949d862b3c0933"
+    },
+    "context": {
+      "path": "build/left-right-lists-source-profile-stage/comparison-context/context.json",
+      "sha256": "2447cf3aeed176041bfffac0bc1008a94f759e1421a50f0f403b35cdc68efdb8"
+    },
+    "source_model": {
+      "path": "build/left-right-lists-native-provider/left_right_lists.c",
+      "sha256": "d6523544e227efcd9eb94b12ff5cbd36eb4821ecb47d65fbd73b02720b6c7a82"
+    },
+    "anchor_object_0": {
+      "path": "build/left-right-lists-source-profile-stage/comparison-context/anchor_object_0.obj",
+      "sha256": "04b0353a4d85f2e66a1c6e1cb28a36b8b0610255e445eb808ed4796521ec3784"
+    },
+    "anchor_object_1": {
+      "path": "build/left-right-lists-source-profile-stage/comparison-context/anchor_object_1.obj",
+      "sha256": "28c227450f70a3e0dbb50ad9e0c3d4792cfb3985edb644f2e40aeadbdb2516e5"
+    },
+    "anchor_object_2": {
+      "path": "build/left-right-lists-source-profile-stage/comparison-context/anchor_object_2.obj",
+      "sha256": "79dd8d1274263a4bea91e2636115f4611da23af1e84dc8e8c132e664e67ad373"
+    },
+    "anchor_object_3": {
+      "path": "build/left-right-lists-source-profile-stage/comparison-context/anchor_object_3.obj",
+      "sha256": "cdb266b60dca42b6990f5538482d4415870f84e7680ce59e47a1558d258a4c22"
+    }
+  }
+}

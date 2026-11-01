@@ -1,0 +1,38 @@
+[
+  {
+    "fixture": "tests/fixtures/move8d12/provider.obj",
+    "origin": "matching/build/move8d12-ordinary-route-comparison-repair-v2/future-ordinary-route-output/objects/move8-state-common.obj",
+    "sha256": "02f193a1ca631b647f42ab5e0bd592ddac9e31ad0adbd2b5f950790ef1cb4ecb",
+    "comparison_only_not_generation_cache": true
+  },
+  {
+    "fixture": "tests/fixtures/move8d12/provider.c",
+    "origin": "matching/build/move8d12-rename-controls/provider/state_move8.c",
+    "sha256": "926b01ba7e41a506e741ba0f70cd123fbd9a10826ad3b8880508ac782a3c1507",
+    "comparison_only_not_generation_cache": true
+  },
+  {
+    "fixture": "tests/fixtures/move8d12/ordinary-result.json",
+    "origin": "matching/build/move8d12-ordinary-route-comparison-repair-v2/future-ordinary-route-output/result.json",
+    "sha256": "649289a728eb001e8a759427841d22af0c071fca8c7f245027970c2a1976d3c1",
+    "comparison_only_not_generation_cache": true
+  },
+  {
+    "fixture": "tests/fixtures/move8d12/ordinary-guard.json",
+    "origin": "matching/build/move8d12-ordinary-route-comparison-repair-v2/future-ordinary-route-output/generation-guard.json",
+    "sha256": "25c250755cba7036b1ee1565646b45c92fcf56a0a0c92813d21ea9472cdef66f",
+    "comparison_only_not_generation_cache": true
+  },
+  {
+    "fixture": "tests/fixtures/move8d12/provider-proof.json",
+    "origin": "matching/build/move8d12-rename-controls/provider/proof.json",
+    "sha256": "eb199496f39011e9b50a4e42b9f4b38b89134687c16cab7981ad4a350b191ffc",
+    "comparison_only_not_generation_cache": true
+  },
+  {
+    "fixture": "tests/fixtures/move8d12/range-proof.json",
+    "origin": "matching/build/move8d12-rename-controls/range-preflight.json",
+    "sha256": "6638c392dfdb019f49959265768777e18f10e0876a03a56de896067269906897",
+    "comparison_only_not_generation_cache": true
+  }
+]

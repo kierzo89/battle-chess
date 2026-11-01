@@ -1,0 +1,287 @@
+{
+  "library_sha256": "7eabd615308e9a05de24f6e6e82e61a65f733eb64d12b5318d8b3ed569e389b9",
+  "CRT0_row": {
+    "name": "CRT0",
+    "member_sha256": "c8fa9ca0b70762defb91b280d9676eafda5fceb47475344937eb3f281c9a8705",
+    "library_offset": 16,
+    "segment": 1,
+    "segments": {
+      "1": [
+        0,
+        60038
+      ],
+      "3": [
+        23746,
+        18776
+      ]
+    },
+    "groups": {
+      "1": 23746
+    },
+    "externals": {
+      "__FF_MSGBANNER": [
+        0,
+        62576
+      ],
+      "__NMSG_WRITE": [
+        0,
+        63191
+      ],
+      "__cinit": [
+        0,
+        60218
+      ],
+      "__setenvp": [
+        0,
+        63046
+      ],
+      "__setargv": [
+        0,
+        62648
+      ],
+      "_main": [
+        0,
+        16
+      ],
+      "_exit": [
+        0,
+        60414
+      ],
+      "_end": [
+        23746,
+        52192
+      ],
+      "_edata": [
+        23746,
+        21196
+      ],
+      "__psp": [
+        23746,
+        18895
+      ],
+      "_environ": [
+        23746,
+        18928
+      ],
+      "___argv": [
+        23746,
+        18926
+      ],
+      "___argc": [
+        23746,
+        18924
+      ]
+    },
+    "placement_evidence": "rea_crt_startup_500.json",
+    "boundary": "complete OMF SEGDEF _TEXT length 179, not next-public truncation"
+  },
+  "CRT0DAT_row": {
+    "name": "CRT0DAT",
+    "member_sha256": "7de3c7cc3fbe49972516b099306c89568daa34f6e46529b2c0ba79ba598952a5",
+    "library_offset": 880,
+    "segment": 1,
+    "segments": {
+      "1": [
+        0,
+        60218
+      ],
+      "3": [
+        23746,
+        18864
+      ],
+      "2": [
+        23746,
+        19368
+      ],
+      "4": [
+        23746,
+        19382
+      ],
+      "6": [
+        23746,
+        19382
+      ],
+      "7": [
+        23746,
+        19382
+      ],
+      "9": [
+        23746,
+        19382
+      ],
+      "10": [
+        23746,
+        21226
+      ],
+      "12": [
+        23746,
+        21226
+      ],
+      "13": [
+        23746,
+        19382
+      ],
+      "15": [
+        23746,
+        19382
+      ],
+      "16": [
+        23746,
+        19382
+      ],
+      "18": [
+        23746,
+        19382
+      ],
+      "19": [
+        23746,
+        19382
+      ],
+      "21": [
+        23746,
+        19382
+      ]
+    },
+    "groups": {
+      "1": 23746
+    },
+    "externals": {
+      "__cintDIV": [
+        0,
+        60187
+      ],
+      "__fptrap": [
+        0,
+        62608
+      ],
+      "__nullcheck": [
+        0,
+        62614
+      ]
+    },
+    "placement_evidence": "evidence/rea-runtime-more-crt0dat.json",
+    "boundary": "complete independently archived CODE SEGDEF with public at offsetzero",
+    "symbol": "__cinit",
+    "origin": 60218,
+    "size": 367
+  },
+  "profile": {
+    "name": "CRT0",
+    "member_sha256": "c8fa9ca0b70762defb91b280d9676eafda5fceb47475344937eb3f281c9a8705",
+    "library_offset": 16,
+    "segment": 3,
+    "segments": {
+      "1": [
+        0,
+        60038
+      ],
+      "3": [
+        23746,
+        18776
+      ]
+    },
+    "groups": {
+      "1": 23746
+    },
+    "externals": {
+      "__exit": [
+        0,
+        60437
+      ]
+    },
+    "placement_evidence": "evidence/rea-runtime-data-link.json",
+    "boundary": "Complete authentic CRT0 DATA88, genuine raw12 plus actual same-run fullLIB LINK FILEreservation76; exact deferred-policy callback only.",
+    "id": "CRT0_DATA_3",
+    "origin": 398712,
+    "size": 88,
+    "class_name": "DATA",
+    "segment_name": "_DATA",
+    "publics": {
+      "__abrkp": 86,
+      "__abrktb": 6,
+      "__abrktbe": 86,
+      "__aexit_rtn": 4,
+      "__asizds": 0,
+      "__atopsp": 2
+    },
+    "authentic_link_reservation_policy": "crt0-data88-literal12-reservation76-deferred-v2"
+  },
+  "unit": {
+    "image_offset": "0x61578",
+    "size": 88,
+    "reference_region": "exepack-expanded",
+    "id": "runtime_data_crt0_s3",
+    "language": "runtime",
+    "backend": "msc500-library",
+    "source": "config/runtime500.json",
+    "member": "CRT0_DATA_3",
+    "runtime_kind": "initialized_data",
+    "boundary_evidence": "Complete authentic CRT0 DATA88, genuine raw12 plus actual same-run fullLIB LINK FILEreservation76; exact deferred-policy callback only.",
+    "rea_evidence": "evidence/rea-runtime-data-link.json"
+  },
+  "DATA_fields": [
+    [
+      4,
+      2,
+      1,
+      true,
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        8
+      ],
+      null,
+      308,
+      "c404060108"
+    ],
+    [
+      8,
+      2,
+      2,
+      true,
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      null,
+      308,
+      "c808150101"
+    ],
+    [
+      86,
+      2,
+      1,
+      true,
+      [
+        1,
+        1
+      ],
+      [
+        0,
+        3
+      ],
+      6,
+      331,
+      "c4001001030600"
+    ]
+  ],
+  "native_start": 398712,
+  "native_size": 88,
+  "native_MZ": [
+    398720
+  ],
+  "REA": {
+    "path": "matching/evidence/rea-runtime-data-link.json",
+    "size": 3977,
+    "sha256": "b80796d035057678af92757eee8e049cd2bd29e121939fd2f6170f8632f82007"
+  },
+  "REA_canonical_sha256": "cdba65df428bdf66fdf34f55f311d7ab8a0ec26d794cf2ecdb78456ddda4fd0b",
+  "policy": "crt0-data88-literal12-reservation76-deferred-v2"
+}

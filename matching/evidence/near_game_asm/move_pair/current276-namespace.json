@@ -1,0 +1,2017 @@
+{
+  "rows": [
+    {
+      "slot": 0,
+      "source": "src/main_input_exit_match.c",
+      "raw_sha256": "cdb266b60dca42b6990f5538482d4415870f84e7680ce59e47a1558d258a4c22",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 1,
+      "source": "src/input_display_flow_match.c",
+      "raw_sha256": "67daf345384d97fe76d9e46852d3b08d9fda86ed16ea51388122808a8abb4eaf",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 2,
+      "source": "src/error_pointer_match.c",
+      "raw_sha256": "9c55b41e766cdfe4b3e8e1a86c01b6d04a9c93ed8a2d21b4bbc3627bf1509aed",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 3,
+      "source": "asm/link/begin_end_input180.asm",
+      "raw_sha256": "f47e156000d3011f973a0d46327f2878a9567d325579a1e67fe42b842fd8f4f6",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 4,
+      "source": "src/text_input_match.c",
+      "raw_sha256": "868872cbf1580e3396c7fb26b38747f3def8d3447862665e78d299ba64c26c92",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 5,
+      "source": "src/prompt_1296_match.c",
+      "raw_sha256": "28c7d17dcc91d47991e9f96e794ebbfe7a50812b4e0fcb710724eb83e44e213d",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 6,
+      "source": "src/refresh_1446_match.c",
+      "raw_sha256": "e0f2049608c41923138a05d165a8fd7ef66c10718da2259fa5080c7d0b499450",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 7,
+      "source": "src/write_controls_match.c",
+      "raw_sha256": "a9361e61a1df34546548cf00b20885e024387e941483be1a275ebe9e64a43b15",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 8,
+      "source": "src/select_promotion_match.c",
+      "raw_sha256": "f815374b3801f66863bd1c9443254ac253f1ada806f5cfad51c8bbfdd0e2b8a7",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 9,
+      "source": "src/fill_region_1780_match.c",
+      "raw_sha256": "7ad1064304b7fcbe0cd05df985285bdc5b795a7e43cc99d82c528d7d8183f78d",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 10,
+      "source": "src/next_event_184d_match.c",
+      "raw_sha256": "073966a6f3a9b1bd3f4e295e2983dfc0fcca0d0d47e61e0bd7eb98663dcf33d5",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 11,
+      "source": "src/keyboard_paused_context_match.c",
+      "raw_sha256": "fec4e6fdcf6147dfafe292855843b08a74860df4b646637a8dd2ac3709776637",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 12,
+      "source": "src/input_wait_command_context_match.c",
+      "raw_sha256": "73837e2a4ed0a503b819138d7e9f9d020f7fcc8347aede1f52729801e942ab7f",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 13,
+      "source": "src/input_dialog_match.c",
+      "raw_sha256": "045c61a2b31b748e16f7fbe7cd22583df53e9fc5ccdb7438f8c5792cc589ffbd",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 14,
+      "source": "src/argument_splash_flow_match.c",
+      "raw_sha256": "7e5dcb9e9a6bf761e95d0be634ef4480774bebaa8a4de86f562fe604e19d526c",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 15,
+      "source": "src/asset_storage_surface_context_match.c",
+      "raw_sha256": "319d35bac387d9300be0ab01206087007b625ed35f79b9780a28155b46052577",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 16,
+      "source": "src/save_active_arena_match.c",
+      "raw_sha256": "212f4ead6faeb6ed1d91fca4dc5bfc6ccc444d183f9eab8f81fdb62dfd5b4076",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 17,
+      "source": "src/restore_active_arena_match.c",
+      "raw_sha256": "117bac4bb6f0c2fc424bd03a20ee6517ab91aaefd048953f46ac12d45a57c448",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 18,
+      "source": "src/unload_asset_group_match.c",
+      "raw_sha256": "e2a7279b4791da64865407610ae9392aee39c81399442e354aed9c5c47875c32",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 19,
+      "source": "src/asset_arena_flow_match.c",
+      "raw_sha256": "4dc97fb2c38d75506380846652b3f722a9ab32aa71eb5a08f128777af0b2f62d",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 20,
+      "source": "src/graphics_actor_menu_match.c",
+      "raw_sha256": "bbf21cc9175467d80a2fbc3ed8471b94a7893c11f27d2cac46f3a563d2022dc3",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 21,
+      "source": "src/restore_region_match.c",
+      "raw_sha256": "9003918c5dd9b236653a03a7061ca78c1c822b7f0e5773822b54629430a20608",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 22,
+      "source": "src/empty_argument_match.c",
+      "raw_sha256": "db40d6687874c7afce9ec2d55a7ce445625b255609e6dfab185f21b1f3a87744",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 23,
+      "source": "src/empty_callbacks_5a37_match.c",
+      "raw_sha256": "71f6e77c29d7bddda7bb7b448854ccd56c3ec7c2443b25e88e80e7a2be775d78",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 24,
+      "source": "src/fill_far_match.c",
+      "raw_sha256": "237ca613dbe7e0e05d3fc9408f5f9c5ac86b1b985ee5eed1a0ff8f9060929cb9",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 25,
+      "source": "src/plot_region_match.c",
+      "raw_sha256": "41c88fd0bb02c8ca7fe6b51ce7515469abc6d75e40ec4dc9bf516a87c660f6c9",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 26,
+      "source": "src/select_pixel_writer_match.c",
+      "raw_sha256": "cd5dce51526da55a50d9b02b702664f6e435492de78dd881f2d979e2cb42d36a",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 27,
+      "source": "src/pen_selector_drawing_copy_match.c",
+      "raw_sha256": "4a668b6d90e26b91041603bda50b40006db1c9908561f50a591b7a58dace5ae0",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 28,
+      "source": "src/event_text_unsigned_match.c",
+      "raw_sha256": "608785b1e941c71be9da039f6ffed25b4638e5ca0db556844edbe8a30a699ea9",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 29,
+      "source": "src/command_task_flow_match.c",
+      "raw_sha256": "fcaeb3ba2041a72fe2ed895877f4175e492b8f1a255f6709eec86421224f76de",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 30,
+      "source": "src/motion_effect_tasks_match.c",
+      "raw_sha256": "1fdfffc1880fc09a222427e7ff18093754b1c7da419bcc374a39953d42c5b627",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 31,
+      "source": "asm/link/init_animation_6cb4.asm",
+      "raw_sha256": "27b6fe476e2fa4883dacbb645f8137c3c66533109813cd4469ce11bf46abbcf9",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 32,
+      "source": "src/offset_task_match.c",
+      "raw_sha256": "9fccc0a753ce855837a2adc79de2e4c81507d6a2da133f4d504f0e9fb7780eb6",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 33,
+      "source": "src/face_task_match.c",
+      "raw_sha256": "329e22205310cb708fd6e5d91f8ad5a7682efc1f3745f19e86b619fcf9e4f1d2",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 34,
+      "source": "src/task_tail_handlers_match.c",
+      "raw_sha256": "b9495d381a1bec760a840b793905d9a0390281da3bcc663c1a4684514ab03daf",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 35,
+      "source": "src/redraw_piece_match.c",
+      "raw_sha256": "bdb1debe7863dd99c684fe4cd893741f2263fafacb4d7a62a63368973f947b11",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 36,
+      "source": "src/queue_piece_match.c",
+      "raw_sha256": "ee785422aa095afa5e1fc97416b8c3910f004c98dbeffe0396014a7f2f1095d3",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 37,
+      "source": "src/display_history_flow_match.c",
+      "raw_sha256": "21b7627a5d05c51abc7cce9cb6b2251c6e2fa46faea46a5f28d2edf3c0609acb",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 38,
+      "source": "src/shared_turn_book_literals_match.c",
+      "raw_sha256": "1163a5c8e4e05e565805bda572a771b63e61343f9bc6bbcb68c8ff9512768c50",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": [
+        {
+          "segment": 1,
+          "offset": 732,
+          "width": 2,
+          "location_type": 1,
+          "segment_relative": false,
+          "frame": [
+            5,
+            null
+          ],
+          "target": [
+            2,
+            7
+          ],
+          "displacement": null,
+          "record_offset": 4913,
+          "raw": "84bb5607",
+          "symbol": "_undo_animation"
+        },
+        {
+          "segment": 1,
+          "offset": 669,
+          "width": 2,
+          "location_type": 1,
+          "segment_relative": false,
+          "frame": [
+            5,
+            null
+          ],
+          "target": [
+            2,
+            6
+          ],
+          "displacement": null,
+          "record_offset": 4913,
+          "raw": "847c5606",
+          "symbol": "_animate_move"
+        }
+      ]
+    },
+    {
+      "slot": 39,
+      "source": "src/clock_command_context_match.c",
+      "raw_sha256": "04b0353a4d85f2e66a1c6e1cb28a36b8b0610255e445eb808ed4796521ec3784",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 40,
+      "source": "build/coordinate-parse-8856/coordinate_parse.c",
+      "raw_sha256": "fcb18a86de119952a6304ef0e5c8156c054380448908e3cd88208bd7e0bdfcf2",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 41,
+      "source": "src/flash_move_match.c",
+      "raw_sha256": "4352ff591696569bf4303f6d6a8a9cb9ddab0169c9c57adeb37e94e17a7ed075",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 42,
+      "source": "src/hint_limit_turn_context_match.c",
+      "raw_sha256": "79dd8d1274263a4bea91e2636115f4611da23af1e84dc8e8c132e664e67ad373",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 43,
+      "source": "src/fill_8a96_match.c",
+      "raw_sha256": "e051e8a395f3f86a9262e0fb8c814f0a3b154ce6719019dbdffed2a02b793552",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 44,
+      "source": "src/poll_input_match.c",
+      "raw_sha256": "ab8ba21c9573ff8bb74b3fd019c610d93f10d9e02cf5abf9c064bebcb8ddaa90",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 45,
+      "source": "src/board_codec_match.c",
+      "raw_sha256": "71522daec4646a82195649cb014b0e5bc56d5dcbfd9699c3379e225fde40e2fa",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 46,
+      "source": "src/editor_state_flow_match.c",
+      "raw_sha256": "b1b5b68b9cb0be623f4205000fad51ca722663fe9cf96b457d0c9f6c9fbb98b0",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": [
+        {
+          "segment": 1,
+          "offset": 866,
+          "width": 2,
+          "location_type": 1,
+          "segment_relative": false,
+          "frame": [
+            5,
+            null
+          ],
+          "target": [
+            2,
+            31
+          ],
+          "displacement": null,
+          "record_offset": 4106,
+          "raw": "84a6561f",
+          "symbol": "_animate_move"
+        },
+        {
+          "segment": 1,
+          "offset": 750,
+          "width": 2,
+          "location_type": 1,
+          "segment_relative": false,
+          "frame": [
+            5,
+            null
+          ],
+          "target": [
+            2,
+            31
+          ],
+          "displacement": null,
+          "record_offset": 4106,
+          "raw": "8432561f",
+          "symbol": "_animate_move"
+        }
+      ]
+    },
+    {
+      "slot": 47,
+      "source": "src/board_move_contribution_match.c",
+      "raw_sha256": "6bd289cff12e885ebb0537a068a63a2236a8273fac9e4cf42687d77ff462aee4",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 48,
+      "source": "src/piece_attacks_match.c",
+      "raw_sha256": "04770b583a401ebc044a4bfa1bd4b3505e2c7ae7bf53496b22d0f7c9323ea079",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 49,
+      "source": "src/pawn_attacks_match.c",
+      "raw_sha256": "f9f2746386cc3c0e98920b98fef835e24c854df54280df11b3a610ea56517168",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 50,
+      "source": "src/move_engine_9a50_tables_match.c",
+      "raw_sha256": "b37cbb13db59684e1a18f8789e5a2e4c1c57ddf1f2221bfac336975d77f9e250",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 51,
+      "source": "src/search_engine_move_count_match.c",
+      "raw_sha256": "d254ff76b448211aebbcddc3a92eee6ade22a6f865b07743928997144ce1866b",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 52,
+      "source": "src/history_input_full_match.c",
+      "raw_sha256": "35f3da8b35c922c0462f5772bc0e515dedcbfdc6879274a39350adc5a0f884ad",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 53,
+      "source": "src/animation_stage_match.c",
+      "raw_sha256": "3d5816a83a08a038df0f05bc8501d5a70db7210c7084c1b9da591072c803d40d",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 54,
+      "source": "src/asset_dispatch_drive_literals_match.c",
+      "raw_sha256": "2c51681185a687e74828f4f38031d4a94ee674c7c5c40e564283a80840cb91d0",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 55,
+      "source": "src/asset_table_select_match.c",
+      "raw_sha256": "771ea5a429d34df6126891dfb2fd1b1f493af1cdd8829859e2b98ce8a40e6278",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 56,
+      "source": "src/save_dialog_match.c",
+      "raw_sha256": "45b4df474b69e98a3e87450176d89a0e0c2831ade2ac5ca96866d0714fcd593d",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 57,
+      "source": "src/dialog_saved_game_context_match.c",
+      "raw_sha256": "ba6e93aa85d6da147ed4326606171c882a4654a3ae329644fbb48ff574c73f2b",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 58,
+      "source": "src/dialog_button_fields_match.c",
+      "raw_sha256": "597a2e736c07917856e6efb71edbbffd69190cd85173415dfe78c3758b5ba40d",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 59,
+      "source": "src/byte_io_serial_match.c",
+      "raw_sha256": "41362e17feec09ca98289a7ef2f673625a8afcd9845df315780743aef18d886a",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 60,
+      "source": "src/packet_context_match.c",
+      "raw_sha256": "3764668f6cf10f5c0e2f646933525956e03918f79823789ae26e44701e2a6cb7",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 61,
+      "source": "asm/link/huffman_core_dgroup_omf.asm",
+      "raw_sha256": "91cf3a2211cdeec9130d058f6471543629d8ec93399b740cac69836c4d6bbb0f",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 62,
+      "source": "asm/link/huff_helpers_window_omf.asm",
+      "raw_sha256": "12b974299cd3b9b9794888fccbd9cb136700e1009c97d9b5b93fceed9467932c",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 63,
+      "source": "asm/link/graphics_blit_text_dgroup_omf.asm",
+      "raw_sha256": "1801092250398ee23181943911cfdff5d50dbd2135e4da520c87b23650e9feb3",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 64,
+      "source": "asm/link/bios_input_omf.asm",
+      "raw_sha256": "3757a77804d66425b19b33a16f49243f71697defeb24627e86f6adade68bffb5",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 65,
+      "source": "asm/link/bios_pixel_word_ea64_omf.asm",
+      "raw_sha256": "1933a53090c31564efb92a9859cfd182c2aea2e1c880ace03d913997ee71ff96",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 66,
+      "source": "src/display_command_context_match.c",
+      "raw_sha256": "17d0f06dba02bbc2bf98784411a62978ac911d1b1c413537af8fc29002566097",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 67,
+      "source": "src/full_evaluation_match.c",
+      "raw_sha256": "9b14dde780f83bc713e1cc9fec4411cea60a874793cc0c1549598c1f35ec03c6",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 68,
+      "source": "asm/link/serial_context248_omf.asm",
+      "raw_sha256": "211f9133d685184d76409518b65000f044bc2b4e99cbb54e8bb6cf0e37a028df",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 69,
+      "source": "asm/link/platform_hardware_omf.asm",
+      "raw_sha256": "73892dbe3853dbf91824fd06678fc55adc0c292313e5bbb2608a6709c39ab230",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 70,
+      "source": "asm/link/graphics_driver_carrier.asm",
+      "raw_sha256": "c2f6da20327894eced3ee50645c70a4ed0375327858373b4921cf16fa6b71a4b",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 71,
+      "source": "build/input-flags4952-coherent/graphics_wrapper_flags.asm",
+      "raw_sha256": "99c55ba1bb2133492959a065507fa13067c726421eb373377ecd18bfc6818b05",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 72,
+      "source": "build/input-flags4952-coherent/input_poll_flags.asm",
+      "raw_sha256": "65db94c9429c15eec2e9b2637f71ca0a07ae36bb3d664cfa01d30a5984e3a8fe",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 73,
+      "source": "src/data/graphics_screen_view_workspace.asm",
+      "raw_sha256": "0a44eb20bc364a52fba29d5420546ead27ec61910548f1f4f813cbaec8e1eeb7",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 74,
+      "source": "src/data/ui_menu_open_0044.c",
+      "raw_sha256": "644c9a466767faac92f0e6f8109f470ab026e600d9c076a8aae91731ee806dd2",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 75,
+      "source": "build/input-mode-data-0046/input_mode.c",
+      "raw_sha256": "82634c4bc90d07313c55ac112ddc31b7f628ec5e256a00b7ba93b07ed23ee46a",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 76,
+      "source": "src/data/init_stage.c",
+      "raw_sha256": "79b40356807180c48b78457baea0c20d8741218c6bcd4eacd12c35dfe9aeb9b5",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 77,
+      "source": "src/data/ui_menu_buttons_004a.c",
+      "raw_sha256": "07c6ab79c39ed9bd59a7d12b6d5439ca0355937e5980f363441c99bd4418c391",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 78,
+      "source": "src/data/ui_scalars_0054.c",
+      "raw_sha256": "971f7f4031804d39e867d87381a0fb829bdff7b6845befa10fc8e57c592127c8",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 79,
+      "source": "src/data/control_bytes_0064.c",
+      "raw_sha256": "8c9cca186faa5745be4b67501104af1e1501c1b2bda16e9fc022417a947af054",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 80,
+      "source": "src/data/promotion_choices_queue.c",
+      "raw_sha256": "fae9f1532aeab28b3c6e2717ac487536586bf3341c9add39e708a9636a52ec0a",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 81,
+      "source": "build/tick-event-data-0072-root-review/event_tick.c",
+      "raw_sha256": "05af3876ead44177a7ba704c1b04256d20d32dc00c214f1a310ba5e2a776aa2f",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 82,
+      "source": "src/data/cursor_editor_state.c",
+      "raw_sha256": "620a9575d7daa0c307bf90e892dc5465b6eaa9566c5d5892d41b4941879bea55",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 83,
+      "source": "src/data/value_index.c",
+      "raw_sha256": "a025cf8c055debc811961551a74d909d928a66902f09e96b12a4d4107c37703c",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 84,
+      "source": "src/data/task_index.c",
+      "raw_sha256": "653fe46d7708cd210570183c4737f72389c8794baa92a0000112472ea6b503ce",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 85,
+      "source": "src/data/arena_counter_words_0092.c",
+      "raw_sha256": "6e1d042bd4a783807fc9f224090160d1dc370926a6b11f2c47a62e0ed6b700cb",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 86,
+      "source": "build/board-geometry-data-648-root-review/board_geometry.c",
+      "raw_sha256": "4503d0a5ea2c9fda7b6a426f68a4ba246d6b80bdce4345d86c22ccefe50a8007",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 87,
+      "source": "src/data/left_masks.c",
+      "raw_sha256": "baeff5c1a855de57a344fc4b2ddbede902da14ff89e23e57984afd59e1957fc6",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 88,
+      "source": "src/data/right_masks.c",
+      "raw_sha256": "5c310b8f7dd439a9621fbfeed8ae7296fc48f030467a3176438dcc07711a5936",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 89,
+      "source": "src/data/menu_selection_state.c",
+      "raw_sha256": "3b2b761ff280f0e19581a343002d2d75f7e72f93a1afad17077d17da1eeb65e5",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 90,
+      "source": "src/data/pixel_callbacks.c",
+      "raw_sha256": "a492cef0fbd83e34a912f190dfbf84b08dd83276ad0a68421495755f0076d95c",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 91,
+      "source": "src/data/command_cursor_scalar.c",
+      "raw_sha256": "086b690f325eb9ad911e97344274a229716a9fe3da949fb6274f90c60e01de9d",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 92,
+      "source": "src/data/capture_pending_scalar.c",
+      "raw_sha256": "fd3c2307f609cfc44045e5f9de5ef2eb40d37af07c4aeb9a45c8f91a3035f6c0",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 93,
+      "source": "src/data/game_initial_move.c",
+      "raw_sha256": "13dd45797d7fd1783986dd62569dc676cc0919966deae9209138af307602e497",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 94,
+      "source": "src/data/move_lookup_tables.c",
+      "raw_sha256": "70fd45f984a7332ea6c0649741aeac79d04b1fc04729091cad593948b1367251",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 95,
+      "source": "src/data/view_mode_053a.c",
+      "raw_sha256": "2dbee6907cb9b055f5d32497f7a0f94c70661e75507a716b356e07b70756d4c9",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 96,
+      "source": "src/data/ui_player_modes.c",
+      "raw_sha256": "ce0d9282f12d834caa17ef8d6eea2caded2f76810f3056029533113520e69835",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 97,
+      "source": "src/data/book_weights.c",
+      "raw_sha256": "fdfd5aca94edf3fd13a61177b16d18ee2939366e2093be08498c7cb7498b7212",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 98,
+      "source": "src/data/refresh_active_0548.c",
+      "raw_sha256": "e4886941d824d7b987f1ffa3004825cbb495d62431d8f5592892b65e611e2529",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 99,
+      "source": "src/data/evaluation_piece_values.c",
+      "raw_sha256": "a0bf8ec9702e9b727ab3ba35a801631b3a13f810c3da8c6437acab20bfd41129",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 100,
+      "source": "src/data/evaluation_center_distance.c",
+      "raw_sha256": "00327fb651fb3275e2a0eb281e909eed102126d346c17de00fdbf325824212ac",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 101,
+      "source": "src/data/evaluation_pawn_rank_bonus.c",
+      "raw_sha256": "fd7bc2a9ee382561024cca8024f4f7f9a4c9e1ff807d035b16330439e7349c23",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 102,
+      "source": "src/data/evaluation_passed_rank_bonus.c",
+      "raw_sha256": "3d2f3b63e6f9ce7232750d88b3a34717712a70ed857856b575d0edfb9dcddeda",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 103,
+      "source": "src/data/evaluation_pawn_file_weight.c",
+      "raw_sha256": "1058bb1d5b6520bcc93cc62232b7e30ee107a3eab843ad66ece351e35af9a398",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 104,
+      "source": "src/data/evaluation_castle_bonus.c",
+      "raw_sha256": "4cd36676ec0aa2f23a455480e889c6401093ee12b2f037031c7b10dbaf287ad9",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 105,
+      "source": "src/data/evaluation_rank_weight.c",
+      "raw_sha256": "6fe65fb0f85cca7d920e5043c4900ef7512a0b8c8bf088f8e50c2fc8c6be50ef",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 106,
+      "source": "src/data/evaluation_file_masks.c",
+      "raw_sha256": "83a7ba0f47248197bf7709823deb0e7b616c50450a10ae8cbdc871c9b04e07fd",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 107,
+      "source": "src/data/game_pawn_home.c",
+      "raw_sha256": "03e7478cf00810e2fad6033bdd0ad126e3e2604db599e89cbc2829fd7d431963",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 108,
+      "source": "src/data/search_frame_pointer.c",
+      "raw_sha256": "5153f9776cd555fb3befaf9261799d73373ace637340aebbad558ccaa3258405",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 109,
+      "source": "src/data/menu_text.c",
+      "raw_sha256": "0a1643a7913c993d72184e34feb2d9da0f2c1482277047eb2bf34a6016faacc9",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 110,
+      "source": "src/data/menu_title_text.c",
+      "raw_sha256": "463f6df6918eb650970a47221e26a2253b6b88533060d37e6aca5adce2a51aeb",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 111,
+      "source": "src/data/screen_pointer.c",
+      "raw_sha256": "fa688769a8e29de119fb2a55a1d157678a776595799deb710d83ed3eed85ee1a",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 112,
+      "source": "src/data/asset_metadata_record_counts.c",
+      "raw_sha256": "f2521b381d62e3259a03ec9be2b3bf9c180433f65e163dc444237703f0a4732f",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 113,
+      "source": "src/data/actors_head.c",
+      "raw_sha256": "cdb05b28142c1829d99f68ceb863a4dbbb6fdde55f7511de54733d267bd79888",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 114,
+      "source": "src/data/animation_done_scalar.c",
+      "raw_sha256": "19a6cf46ecf31c5f5e5d339ee56128565b286c0ab6fb29fb9d06f173592715fb",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 115,
+      "source": "src/data/asset_state.c",
+      "raw_sha256": "2c4aa3ebe69c60f6cbc75b1b3f7a9426c8026886ff69a7d525ee28f07f0c51a9",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 116,
+      "source": "src/data/asset_loaded_flags16.c",
+      "raw_sha256": "ca75215ce6efa4d9f0187cc3b0d1ed90e6403d3cd8fdb971766e456bd2329bc5",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 117,
+      "source": "src/data/asset_wanted_flags16.c",
+      "raw_sha256": "1b26c9bcf072c7576a1edca9e417b00b87e48b0a440f4ac6d7c2e4b79ea1320a",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 118,
+      "source": "src/data/ui_mode_words_0eee.c",
+      "raw_sha256": "3dae5fb4bd760862a53f8fca3776809f9dfae8ec858cd2449b5eed319ce850ff",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 119,
+      "source": "src/data/game_kind_map.c",
+      "raw_sha256": "610f1e6bb4513da69f52b2d0efc535f77619d0d49cc25a58389c7bb2d2e1ccc3",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 120,
+      "source": "src/data/animation_initial_stream.c",
+      "raw_sha256": "7808703c5f2ea319f177e4d7618abba599282a32d9bf973a2942267691053e4b",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 121,
+      "source": "src/menu_data/menu_items_1066.c",
+      "raw_sha256": "f8518e6c3f41492db7484d710f4d3b7c3fad3c01c7a572686fe639e70b4d6268",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 122,
+      "source": "src/menu_data/menu_items_108a.c",
+      "raw_sha256": "f175e005f152a2d3c25fc323c6cc76f310ca9783d875383f523677827cca3c74",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 123,
+      "source": "src/menu_data/menu_items_10a8.c",
+      "raw_sha256": "8f007d63938e6ab69c35a3db1713975cd398631d5ef0fcb24b8021e71a6f3c45",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 124,
+      "source": "src/menu_data/menu_items_10ea.c",
+      "raw_sha256": "bd8de25e7d4b990eaa7e6917959869b78b2134c1507ad76b2484342966f65115",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 125,
+      "source": "src/menu_data/menu_items_1132.c",
+      "raw_sha256": "0ba46ddcc173436532a94b55dd512a5da8d3ef84da15d6ed1a3ff3c4310a4c9d",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 126,
+      "source": "src/menu_data/main_menus_114a.c",
+      "raw_sha256": "2cb3852cc5950411464321e295271fb7389448d7df884bd7170d2db1b434b4ca",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 127,
+      "source": "src/menu_data/alternate_menus_115e.c",
+      "raw_sha256": "e1798b78bf936d2734837f3c7ad332af42e9c18a29e8a9ce4e4f897fe34d72c1",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 128,
+      "source": "src/data/refresh_stop_11a6.c",
+      "raw_sha256": "84310e06416cb0096ae7cc28322a78ac7b2f9dd8d23b1a9694e1b5a10a8fa8c8",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 129,
+      "source": "src/data/graphics_mode_bytes.c",
+      "raw_sha256": "aa62fa473e2c17610e23f5d5fb2b60454a64f442af278e30463e76a26b3ab689",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 130,
+      "source": "src/data/input_mask.c",
+      "raw_sha256": "7a82c7fa0217f3175d2ffd26775715c77b60279c31532fb3dfb1d2765be44fb6",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 131,
+      "source": "src/data/asset_file.c",
+      "raw_sha256": "636ff16aaee4f2391dac34984dd7df494b3006df450350abeceba466ccb78e32",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 132,
+      "source": "src/data/asset_file_kind.c",
+      "raw_sha256": "a8ac06fe53f35fe36cfbd7147cf40275a9ef904f37a58852d7846ad3093c7d17",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 133,
+      "source": "src/data/dialog_text.c",
+      "raw_sha256": "219ad3d5f32388d917b4c82943e1237222591554614c596a618b726d618becb1",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 134,
+      "source": "src/data/dialog_button_state_2b2c.c",
+      "raw_sha256": "e8ef2bdc8b42b5aec4add9548400a0f61311ad2c0079d7e07b710b64523a8fad",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 135,
+      "source": "asm/data/archive_index_tables.asm",
+      "raw_sha256": "4c2edaeeae2a5b68c8fb37c43b3c55bc72710de55b1590f867599084b6aa8b49",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 136,
+      "source": "build/platform-data-2eae/platform_state_grouped.asm",
+      "raw_sha256": "b90fcf273f1435d36c898d7a8c1cb1564d7909f244280e80005dfcfadf369e23",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 137,
+      "source": "src/data/serial_ring_end.c",
+      "raw_sha256": "683aaffe70a2f592c708306e560f60668f79dee7eaac4936974fa3b81456d798",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 138,
+      "source": "src/data/input_reset_state.c",
+      "raw_sha256": "7c0834e18a663ace24eaa4df272c41e6b0a2dd97af00bfe2d1651ac52bc06070",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 139,
+      "source": "src/data/huff_input_buffer.c",
+      "raw_sha256": "76d030489ed0c74452eca226bdb1f8d36f197052abd352ba5b8a3d29ebfc3c8d",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 140,
+      "source": "src/data/huff_scalar_state.c",
+      "raw_sha256": "5df4edb3feb842912b99e091d60f84ab98dd5c4f6677a8ad2435102f0cc08d58",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 141,
+      "source": "asm/link/huff_workspace5120_omf.asm",
+      "raw_sha256": "0e1c5ca70f121ad30c48a9a10b79ecee6a9bd05686744f6696fa249b0685531e",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 142,
+      "source": "src/data/huff_control_state.c",
+      "raw_sha256": "089cd82d5ae6ae305309baa93abf11efa7fd6a4abcdbbdcf625fd9f377d30c64",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 143,
+      "source": "build/text-colour-words-data-44e0/text_colour_words.c",
+      "raw_sha256": "d048e48c5279183b47e65bc19c3be619c5df0f3ab016ec1a27c11e7e77b9a005",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 144,
+      "source": "build/text-glyph-pixels-data-4500/text_glyph_pixels.c",
+      "raw_sha256": "b04eeaf70835a16b4e43d6ef4138bc08091748d1a22646d515805588404f70e5",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 145,
+      "source": "build/text-cursor-data-4520-root-review/text_cursor.c",
+      "raw_sha256": "b441a7c5a7f6e96ece41bb666a451f9c951a886f690e15a5f12944033f0191bf",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 146,
+      "source": "src/data/font_glyphs.c",
+      "raw_sha256": "6fe22f748571ce3f9a177e08db02b43a118f246d60197ce97a5cf64ecc4f6a6c",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 147,
+      "source": "src/data/blit_prefix.c",
+      "raw_sha256": "749a6e4f0967bc1febd83a70849b0f9b88e6b40997d05c77e368e83faad587d2",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 148,
+      "source": "src/data/blit_saved_word.c",
+      "raw_sha256": "f5b24eb9d40a5d5709bb2ed8e8dedebf72ce695909275dc49be298a901a7149f",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 149,
+      "source": "build/input-state4950-provider-followup/input_poll_handler.c",
+      "raw_sha256": "3eb56aaedf2cfe0ebbcb10937301779bddf5f015edc7ec0128815e05bec89a3f",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 150,
+      "source": "build/input-flags4952-coherent/input_flags.c",
+      "raw_sha256": "4d72d93c06a636eab6a6d8009eeaf6f2de90492f4f6f77a45af078e9b3aaf5a2",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 151,
+      "source": "build/joystick-centres4954-data/joystick_centres.c",
+      "raw_sha256": "bab2e61f168428216abd63950a6e37d590db88fd03c622719b9f015711afec0a",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 152,
+      "source": "src/data/arg_comp.c",
+      "raw_sha256": "89d9065c36c2dcc09a5fad9db7eedae2bb10afb0dd4a3ca64f6f42563f804e80",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 153,
+      "source": "src/data/arg_keyb.c",
+      "raw_sha256": "09427902a9a570420f0ffaf0c81cfc6dacea3a0822a80be71b8f13141fc6f330",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 154,
+      "source": "src/data/arg_com2.c",
+      "raw_sha256": "3e9b2059230c796d27909ac33478e5da50135b9b514a75fd382253f1fd9b1da5",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 155,
+      "source": "src/data/joystick_question.c",
+      "raw_sha256": "8e641445084ba34ef2c62c4a64565883ed64f6bf67a98d45bf18362aa206f940",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 156,
+      "source": "src/data/remote_strings_4be2.c",
+      "raw_sha256": "e65b96bd3383761241bfc4bac688c4b55299021f14113fa6052a115d87f57bfb",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 157,
+      "source": "src/data/prompt_accept_4c44.c",
+      "raw_sha256": "023cb7863487175e1d1e0db3e574a8f62f244e88210a1ff98265e1d7bdf68a8c",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 158,
+      "source": "src/data/prompt_choice_4c68.c",
+      "raw_sha256": "9d38720d12c92aaa0573c19880373f9e97e38773a6588de3d5a5f80b5bdbe32a",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 159,
+      "source": "src/data/prompt_save_4c8e.c",
+      "raw_sha256": "cff5f83ab79ba3ad783a9ea79811fcbed34d5cdd304e62d32b9b3b2eea02c444",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 160,
+      "source": "src/data/prompt_help_4cae.c",
+      "raw_sha256": "dfd74ef1707dbe656aea3e7e1bfa0b56080269e85966c50b960f72abe4904b82",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 161,
+      "source": "src/data/prompt_choice_help_4cce.c",
+      "raw_sha256": "cd1bfd70400371c9aabf3013ba52bc71dae01940a60d1122f2ea7bf0bc9e92e2",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 162,
+      "source": "src/data/prompt_save_help_4cf0.c",
+      "raw_sha256": "9ecc5d8b249a0e81b7cc82403c9c364f8a10d54d520ea26c87ca79b63c836da0",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 163,
+      "source": "src/data/banner_bytes_4d0e.c",
+      "raw_sha256": "541ded8797b7a52fedc5ba2ddce8186b07030a432b976e7a4e8f463e030de194",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 164,
+      "source": "src/data/promotion_prompt.c",
+      "raw_sha256": "399af3db8e67e893f65c660e4146153f4d11494ad379dea8eaeaadbd02df0e66",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 165,
+      "source": "src/data/asset_overflow.c",
+      "raw_sha256": "deb85c8a7a9c0747b0fbae0a57af21d05ea89f9e5cbc136dbd5c90266dd90314",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 166,
+      "source": "src/data/animation_labels.c",
+      "raw_sha256": "a7eb10f3b65425fb22367ba5c17f232a8b319fa515c22d6cb13a668fdcfd96ee",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 167,
+      "source": "src/data/ui_quit_prompt.c",
+      "raw_sha256": "eda95d94d2d8c47026e14b1f0132388fcedaca0d1e3e1537357d0c4ad52fb029",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 168,
+      "source": "src/menu_data/menu_label_4f1c.c",
+      "raw_sha256": "6e33bbfce4e2146e9b5b6b212f09c82ee83b8418ad2d2018722f72bce02a3810",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 169,
+      "source": "src/menu_data/menu_label_4f28.c",
+      "raw_sha256": "dfba34d69ce0ba22bdb228d64b50c7eff65d7724ba16312a49142f5992681704",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 170,
+      "source": "src/menu_data/menu_label_4f34.c",
+      "raw_sha256": "ceb115d6657bcba7817309b0ceda75481aa9367eb9a8b4f933d8de434bf38b69",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 171,
+      "source": "src/menu_data/menu_label_4f3e.c",
+      "raw_sha256": "4e903aacb1971858deaf6e9fbd53a244a917b954f04dc1315c19d48a406c0104",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 172,
+      "source": "src/menu_data/menu_label_4f4c.c",
+      "raw_sha256": "8af0d774ec0c71d5986048f26153364247cff115075dfa80ea41dc398ef862ea",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 173,
+      "source": "src/menu_data/menu_label_4f52.c",
+      "raw_sha256": "6210f1073d7774d7a828931868801f87ea63804591f663e39384f881cf07cbf4",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 174,
+      "source": "src/menu_data/menu_label_4f5e.c",
+      "raw_sha256": "191066ce0704113c2ea63522c83429a8866ad636d3beb1d9740f02e06837eb64",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 175,
+      "source": "src/menu_data/menu_label_4f6a.c",
+      "raw_sha256": "fa4268dbc0390ab1dc22c86dc4eff81828a8ee0a9f986cd99bee0476e5aabfbc",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 176,
+      "source": "src/menu_data/menu_label_4f72.c",
+      "raw_sha256": "f81d037bcd88d2ea1ac4bc0d16d8c52d0bd482834d8d93cc816e8566a099a66d",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 177,
+      "source": "src/menu_data/menu_label_4f80.c",
+      "raw_sha256": "0a86c4d7edd9004805898ef2609eab772641bd0be207b10a032188b35e4a4e68",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 178,
+      "source": "src/menu_data/menu_label_4f8a.c",
+      "raw_sha256": "0da4fe0e571a367d90c2152c73c24a2a52d61b25b5d493bf48c457feba56e1c6",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 179,
+      "source": "src/menu_data/menu_label_4f96.c",
+      "raw_sha256": "5d83ef685fae59072e93f407f04df18d317469e1963b996336cf6ea83a9e6234",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 180,
+      "source": "src/menu_data/menu_label_4fa0.c",
+      "raw_sha256": "513c70f6e0445ddb6e93b694f0d07b569275e8949370a4f26fd778260e7df441",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 181,
+      "source": "src/menu_data/menu_label_4faa.c",
+      "raw_sha256": "d6f0d0f2a606c0b4573f31b65a59f51610cd9f441bed7b4efcfb981ffb57136a",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 182,
+      "source": "src/menu_data/menu_label_4fb8.c",
+      "raw_sha256": "654259656d1e12a9db11a858ae1a3c759ef019b93d2046ca19263d6efafde881",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 183,
+      "source": "src/menu_data/menu_label_4fc6.c",
+      "raw_sha256": "9fd56e32ce6ed2466d5020b3fd3a7f4e9196210935d9c5d2aa3ca69a5b80fa65",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 184,
+      "source": "src/menu_data/menu_label_4fd4.c",
+      "raw_sha256": "a54771968921644b8e2c8d9d8c3500d06ac21784843b025147e37178e336a5c1",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 185,
+      "source": "src/menu_data/menu_label_4fe4.c",
+      "raw_sha256": "7c4f6e97a7fb44aa17e3cbe5b0dd69409c065c7c6340235a344eecd86f1559de",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 186,
+      "source": "src/menu_data/menu_label_4ff4.c",
+      "raw_sha256": "087445fa854ae7e702992521745c4296e65eb6c05c964af26f63397b39660e39",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 187,
+      "source": "src/menu_data/menu_label_5004.c",
+      "raw_sha256": "adea0405d8db6386d703d1ab524dbf040ab19962b12b6d96721b6d03f4a7cb86",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 188,
+      "source": "src/menu_data/menu_label_500c.c",
+      "raw_sha256": "b659d017c6c809e5a0c5244235d043c0d4b6c0b6df35984b3c5cbc89e51c2a64",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 189,
+      "source": "src/menu_data/menu_label_5016.c",
+      "raw_sha256": "84e7b2bcf09039c96e9267ccc6e628c8b80dd07a86ba91f08a2e4d79d0956650",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 190,
+      "source": "src/menu_data/menu_label_5020.c",
+      "raw_sha256": "200b31b92973c9265685946880cb0dce6d8c2e2ba87492630db2b917ca005652",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 191,
+      "source": "src/menu_data/menu_label_502a.c",
+      "raw_sha256": "b05130fdc79a51862349532dd6bb318b2b4781b7c627ede184132dd96fdcc8b9",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 192,
+      "source": "src/menu_data/menu_label_5034.c",
+      "raw_sha256": "af5a8ec0faaa1d9b4ad50e4633afc3b9e5f5359947ded63f2ef44d383cac6264",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 193,
+      "source": "src/menu_data/menu_label_503e.c",
+      "raw_sha256": "0eb09e4a808936e55143613ec54f5dd1b1ae9f68fce36928732fec588d64dba6",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 194,
+      "source": "src/menu_data/menu_label_5048.c",
+      "raw_sha256": "32b967df1c61a21b6bdc02b41455ca5ced83412b07b4396f87af28fa05d8eae9",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 195,
+      "source": "src/menu_data/menu_label_5052.c",
+      "raw_sha256": "97bdf6ae8bb9b5a24cf9a52561017d6190511de1d8c4a051cb9f0a0457995bb2",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 196,
+      "source": "src/menu_data/menu_label_505c.c",
+      "raw_sha256": "849b2be75f6db679c3e7aaea3b76aa72e156bffbc73074fe436443a74132df92",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 197,
+      "source": "src/menu_data/menu_label_5066.c",
+      "raw_sha256": "55120d65dbdd3f64d29de72c92dae086378429e8a1f19358a4506fc926415066",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 198,
+      "source": "src/menu_data/menu_label_5070.c",
+      "raw_sha256": "95c175baecad6e0d9d92a1eabd5f38cd115875fac9bbfde642344302a4e95819",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 199,
+      "source": "src/menu_data/menu_label_507e.c",
+      "raw_sha256": "a7e67144fd7ce59fd0e444f153156a5ce10b00368b4c8a44f5e22757111d5303",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 200,
+      "source": "src/menu_data/menu_label_508e.c",
+      "raw_sha256": "b109e41aab36071fdffdb746ef189e7e71bf57eded4530404f67a88923b73574",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 201,
+      "source": "src/menu_data/menu_label_5094.c",
+      "raw_sha256": "b77a82ab1835966b42ba43708d2fce5e74839cbcc0d4c9cfbfdee48d59f4de54",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 202,
+      "source": "src/menu_data/menu_label_509a.c",
+      "raw_sha256": "b48ad4a670e41f818bd705663727f74b8ef502f7d729585820d7a090fc89474f",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 203,
+      "source": "src/menu_data/menu_label_50a0.c",
+      "raw_sha256": "7cc0c1380415376bfee3ef72b1991ec48b749eac2eee8ad47d04b3e84a584427",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 204,
+      "source": "src/menu_data/menu_label_50aa.c",
+      "raw_sha256": "74f8926a55a4521b2acccf33269beeeda0c2240992f9a22ea957d0499a2497ab",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 205,
+      "source": "src/menu_data/menu_label_50b0.c",
+      "raw_sha256": "7a924769893a9e1ed8581089df6fd891f7743122e8a1484a7055383d1f5681b9",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 206,
+      "source": "src/data/dialog_actions_516c.c",
+      "raw_sha256": "7a8c41f02678c3bdad27ff55670586f715b7bee21741ff8d9511706b7cb05265",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 207,
+      "source": "src/data/dialog_strings_5176.c",
+      "raw_sha256": "31da3b0307746430aa9de7f96fa2a9d591641453373c4dc6b5bbacc9f8af71b4",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 208,
+      "source": "src/data/packet_error_51b4.c",
+      "raw_sha256": "9e3fb0d82013e6e0b82c23d15814ba014f1d263d4c5830c394e8ca5162714f2d",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 209,
+      "source": "src/data/packet_retry_error_51da.c",
+      "raw_sha256": "28c0d8e9152cedcdd64cf5f3ab199464b9e78379f4d16126d4650008b83c546e",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 210,
+      "source": "src/link/left_right_lists.c",
+      "raw_sha256": "ba59e18bdf095f13d7c1f18c3fbbaa6c75d025a6ed4baa97c5654ed295769ba0",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 211,
+      "source": "src/link/arena_snapshot_state.c",
+      "raw_sha256": "cafe5091d5ed442a2a661594d3d0e048ffef71609dfc3e4a96afb907a86e313f",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 212,
+      "source": "src/link/asset_fixed_arrays_state.c",
+      "raw_sha256": "8801be97f9712d06874fef0e29a2989031d66d25ffcfae85b2850a369beb96c7",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 213,
+      "source": "src/link/asset_mode_state.c",
+      "raw_sha256": "7264ae27af0748b3d75a06ab7044f55306b7d8fee49c8b0b3965365258cb520c",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 214,
+      "source": "src/link/asset_selectors.c",
+      "raw_sha256": "19ab4b9415bf6c0ccfee51acb3a36cf66267e83502fabba97ce8072a6df4e8de",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 215,
+      "source": "src/link/board_storage.c",
+      "raw_sha256": "b9770aaf9fc0effc46340f0ad329c1635d46ec17db1973c014f35e6ac5a058f0",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 216,
+      "source": "src/link/book_state.c",
+      "raw_sha256": "bc399610c9b25ffc8dbb99eeb4bac46bc1dd41f9922e09951f998788ef862eb3",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 217,
+      "source": "src/link/castle_dialog_event_state.c",
+      "raw_sha256": "649fc20b444bee37ac34d93e6e62744e7e3614681ccd9aeb3be84213f2e417e3",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 218,
+      "source": "src/link/clock_state.c",
+      "raw_sha256": "7d58ea231cc3aacca350419a4048dd18858e60d125ae6c76c31fb90ff850f116",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 219,
+      "source": "src/link/side_piece_counts_state.c",
+      "raw_sha256": "0ae2a0275833903acd444b42dc1a5ebc93bbeea6b46fec9cf9f49ca806424fb2",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 220,
+      "source": "src/link/current_controls_state.c",
+      "raw_sha256": "849fee4a654d2a6642dcdf1cfa28da6998b3b2ab781269334bbc2a0b10dce0a6",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 221,
+      "source": "src/link/dialog_state.c",
+      "raw_sha256": "81dd77153d4fb80e1e2a22203a68549a32d6ec1e3fb6784d72ef02b274f2d74b",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 222,
+      "source": "src/link/evaluation_control_state.c",
+      "raw_sha256": "effcc178dd6aa310f112c80c7195ee2505824c5beea422c8699d692fbfc5121f",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 223,
+      "source": "src/link/event_pointer_state.c",
+      "raw_sha256": "e8863fc7ee72b22c034f1aa7cb22162fb4a3b828c977567f4e0b0e2a0a9e8d61",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 224,
+      "source": "src/link/input_display_state.c",
+      "raw_sha256": "b8d5d335631d300880e96bcb5be17d2a37428785db6453d0df66189e523a3d44",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 225,
+      "source": "src/link/input_saved_bytes.c",
+      "raw_sha256": "17b5b5292a78adddc191f19965b70aa6cb540b3421cc6b716aa3eb2680e13e4a",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 226,
+      "source": "src/link/input_timer_state.c",
+      "raw_sha256": "c2ba57795b5671f3654e6f38fcfa544f3c0bcc8330a396a113410b4dc718ba32",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 227,
+      "source": "src/link/menu_paused_state.c",
+      "raw_sha256": "c8637cefb7d44da02b25cf7570e740743b54c8ca53fef64f24f3629479ad8902",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 228,
+      "source": "src/link/move_count.c",
+      "raw_sha256": "3725e8e0c7822c31412ecdf6c78fc850bfb93a36cc4f1462c7f85ef13957968d",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 229,
+      "source": "src/link/move_state_8d12.c",
+      "raw_sha256": "02f193a1ca631b647f42ab5e0bd592ddac9e31ad0adbd2b5f950790ef1cb4ecb",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 230,
+      "source": "src/link/far_capacity_state.c",
+      "raw_sha256": "aa1f2a781c21006040430270eb0b2a297ded7e6fa185ddd758a98a27e5748c01",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 231,
+      "source": "src/link/packed_pen_state.c",
+      "raw_sha256": "20d604811d236d891589b6d497cc8d41bd13e41ebdb52ff75ce16098bac0bd1a",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 232,
+      "source": "src/link/piece_square_state.c",
+      "raw_sha256": "c02f493be511252f5cf96fa79e1140ed01e294e85b08a6c498076501244b1b92",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 233,
+      "source": "src/link/ray_table_state.c",
+      "raw_sha256": "59aec888b16df45cabfb8ce15e8ec566aaed16a343ce67c5537b1581d4184f69",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 234,
+      "source": "src/link/requested_limit_state.c",
+      "raw_sha256": "4164bd8498ff190cf5bfe280973760f94193ed6845169444c6d3500af0fb09de",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 235,
+      "source": "src/link/screen_coordinate_pointer_state.c",
+      "raw_sha256": "0faf72323f8e52a6627374496672c7e0746743e2ab8f3e4cad560354f87eea00",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 236,
+      "source": "src/link/search_word_state.c",
+      "raw_sha256": "b7bd98e77f649197e234ab4440bb778ed24714b39d15fcf69d03b3044d04f8ae",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 237,
+      "source": "src/link/serial_state.c",
+      "raw_sha256": "c5ca09a1d525979b70a1805ee1ed2f9a34cbd093eba5d1378f3a5f0ac0321f58",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 238,
+      "source": "src/link/setup_cycle_state.c",
+      "raw_sha256": "e42d453853f093522e6d9a8365e9c82cd822f4c20dd0bbaa5510608457b4a776",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 239,
+      "source": "src/link/side_history_state.c",
+      "raw_sha256": "f19d359ef5f142aa9cf3fe0f6dac5ad6062132a772b116ec53490aedc1df547f",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 240,
+      "source": "src/link/turn_phase_state.c",
+      "raw_sha256": "684c243a7d82a394dfaa9b46ab79d73cecdf362edb8dbda80dcf7912392b68aa",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 241,
+      "source": "src/link/ui_word_state.c",
+      "raw_sha256": "1767aaf376b8d354c6e4c172c74a70da3a2bc7e65c8cee647f808051656da8cb",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 242,
+      "source": "src/link/cursor_actor_index.c",
+      "raw_sha256": "511ba5d775fcc6ef2321293242a6b1da5aa10080f9b4775ca1e3cac3dd5d7f48",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 243,
+      "source": "src/link/animation_counter.c",
+      "raw_sha256": "cafa64b936b5c2f8b28423b2ebba3911e7457f4edb9a28d133e81e2ec06ed4de",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 244,
+      "source": "src/data/capture_record_mapping_11ac.c",
+      "raw_sha256": "947057a17ad42990ac8b10b6df1fb09d28aa9aaec4626ae85110d4b41bf830e3",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 245,
+      "source": "src/link/ui_animation_scalars.c",
+      "raw_sha256": "1e1606364222ddfb5253ffd99b17ff84b2ca3a9bd400938ad1f539676fea285d",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 246,
+      "source": "asm/link/outline_piece578c.asm",
+      "raw_sha256": "76340e97bad3448a161aba1408cb55a0b78275f24e8083222010bbb8daa18b74",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 247,
+      "source": "src/link/square_coordinate_pointers.c",
+      "raw_sha256": "bf090448d34c5ba60901177d863abc128f600011468e4e4eea991f6621bcb95d",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 248,
+      "source": "src/data/active_tasks_04be.c",
+      "raw_sha256": "941bc8fffa3c9175174b2193cf934398c43c0d4413129fa970ac6fb0622e934e",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 249,
+      "source": "src/data/asset_table_11ba.c",
+      "raw_sha256": "99792cacd5e0d9731ea8565ceb3ed87ef6e3117e0e314734c5875c9bcc8e3e63",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 250,
+      "source": "asm/link/special_task6bf9.asm",
+      "raw_sha256": "b477ae16a4b5baf9992869faabeb71d2b54686b7cf5c859cbd41b1aaee7472e3",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 251,
+      "source": "asm/link/turn_task730c.asm",
+      "raw_sha256": "1029e3fdd184bd54f727026d29ceefdbeff96b050860491df7070d2880f9f75c",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 252,
+      "source": "src/data/asset_table_2010.c",
+      "raw_sha256": "a240d9e2a19a4131edb85773768c5ab8b92598d896d1914acd716b4840ee9047",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 253,
+      "source": "src/data/evaluation_delta_05be.c",
+      "raw_sha256": "4f63060bd4432e51e5caef428e3123f7de9a6ddf72c44f29e024c2368dea9c5f",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 254,
+      "source": "asm/link/remove_actor5934.asm",
+      "raw_sha256": "28306b56abecd5551412945c52cf5331ddff34c5a3721fba29c84036548c0e15",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 255,
+      "source": "src/data/asset_group_lengths_00be.c",
+      "raw_sha256": "34fc9c3f5d1db6f5eb781c27d002a5c2683ab8590396ba4c32a5106b2efc4e0a",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 256,
+      "source": "src/data/dissolve_masks_0486.c",
+      "raw_sha256": "435eaaf000debb83e5c9306b0509527dc183526e87c945e8a039d10817e9d672",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 257,
+      "source": "src/link/independent_control_cells.c",
+      "raw_sha256": "ce6679e1a38a07a1e19a054971e759408cbb690b348af16e5778c3b0a9b910a8",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 258,
+      "source": "asm/link/get_number1164.asm",
+      "raw_sha256": "64419dcd9d0896fbca1199bac63e24de25e592e07c04421006f68366de44beb8",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 259,
+      "source": "asm/link/dialog_button_d92e.asm",
+      "raw_sha256": "143b623f081a0cab260d07edbe03515b613d2d11a89d985e3bd88c3eec7edaf0",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 260,
+      "source": "src/data/number_label_4c28.c",
+      "raw_sha256": "5289979044a50053f567234b02446484f90cb5f3bb53f3f0fa32a32f199ef5c2",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 261,
+      "source": "src/data/asset_table_1c62.c",
+      "raw_sha256": "f424786ef8f3070e20d9b38bd778313227411f2d5ed54505d6110fbc8bd2740d",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 262,
+      "source": "src/data/asset_table_2a98.c",
+      "raw_sha256": "01a4e797f2b6c6bc9a55cf9171ba6edcf020905e3ef78aeb975ffd60cf2c333f",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 263,
+      "source": "src/data/cells_1166.c",
+      "raw_sha256": "b953fcd2101d67d6b4ea945258dd5fcc1587aead8a5070ea06a39253c62556c6",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 264,
+      "source": "src/data/actors_05e0.c",
+      "raw_sha256": "8d1acf0a7237d4d54dce04fe715df095db93615feefacb40253e3204c9c36e2e",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 265,
+      "source": "asm/link/select_mode17f9.asm",
+      "raw_sha256": "4991c497539f1af9bf2a689be672042c658f465d97a3f91d1e8e0b7576980777",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 266,
+      "source": "asm/link/init_rays9840.asm",
+      "raw_sha256": "251b46e81c882e2cd112fdf706ed39329765453c8660606991cf79c65e7a0eeb",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 267,
+      "source": "src/data/input_message_4f0a.c",
+      "raw_sha256": "7bfb916681c35755cab977e11bfcc55809a5ddcc41c98ad69bf3e4c035edfc5f",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 268,
+      "source": "src/data/overflow_message_4d8a.c",
+      "raw_sha256": "9e4ea0abe340f77a4e3ffd9c45c1206373a850d8fd0258b0a66e54f24bfced27",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 269,
+      "source": "asm/link/type_chat14c1.asm",
+      "raw_sha256": "ac2c14bf8adfb8094434ee871b31f0a9e0623044b3abb51df56f39492c025859",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 270,
+      "source": "asm/link/decode_frame_directory2d13.asm",
+      "raw_sha256": "0963ad9ff1fd545672cf2b55191da99213506c375cb55c8b20ef0235413239b6",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 271,
+      "source": "src/data/pair_lengths_00d6.c",
+      "raw_sha256": "4389112047cfe41b2a186627913c4bbb6e6e7c562bcd425a963b6c5d065a806f",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 272,
+      "source": "src/data/frame_index_flat_0166.c",
+      "raw_sha256": "ccbe1aa75d98bc26d455f5a71bae3c32a2f1e50ce84271563fad9ac710b4d942",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 273,
+      "source": "src/data/frame_index_tilted_01a6.c",
+      "raw_sha256": "ea3b6acb5f688980cae91661f399204190e4f25fa49e9e56794838ef300e10c0",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 274,
+      "source": "asm/link/load_group_frames2e34.asm",
+      "raw_sha256": "518afdf212241312ac7a92852e9032b21386d88bc60900311c3dc29c08a6ca6b",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    },
+    {
+      "slot": 275,
+      "source": "asm/link/load_asset_group35a0.asm",
+      "raw_sha256": "5bf98a527a057c1a595e7f2227f264392cfd7fe4fa054fec94c78e4090ac6410",
+      "provided_new_view_names": [],
+      "actual_incoming_fields": []
+    }
+  ],
+  "new_view_names_unprovided": [],
+  "animate_source_adds_real_undo_CALL_without_alias": true,
+  "no_missingcount_forecast": true
+}

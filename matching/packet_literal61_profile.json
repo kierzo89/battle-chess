@@ -1,0 +1,2763 @@
+{
+  "policy": "packet-literals61-alignment1-v1",
+  "backend": "msc500-packet-owned-literals61-omf-v1",
+  "source": "src/packet_literal_context_match.c",
+  "source_SHA256": "8a20f64ceaa2bd7fd5d7a7a5b23d119b770957d112ab3cb77b8d4db93c28b977",
+  "flags": [
+    "/AS",
+    "/Zi"
+  ],
+  "source_name": "UNIT.C",
+  "compiler": "msc500",
+  "raw_SHA256": "04121ceb6202e31bb93a9fa8ac0b7e04b8d953871cff970baf8ec2201c07313c",
+  "raw_size": 3886,
+  "whole_snapshot": {
+    "records": [
+      [
+        128,
+        0,
+        "09433a5c554e49542e43"
+      ],
+      [
+        136,
+        14,
+        "00004d532043"
+      ],
+      [
+        136,
+        24,
+        "009f534c49424345"
+      ],
+      [
+        136,
+        36,
+        "009d30734f"
+      ],
+      [
+        136,
+        45,
+        "00a1014356"
+      ],
+      [
+        150,
+        54,
+        "00064447524f5550055f5445585404434f4445055f44415441044441544105434f4e5354045f4253530342535307242454595045530644454254595009242453594d424f4c530644454253594d"
+      ],
+      [
+        152,
+        135,
+        "485803030401"
+      ],
+      [
+        152,
+        145,
+        "480000050601"
+      ],
+      [
+        152,
+        155,
+        "483e00070701"
+      ],
+      [
+        152,
+        165,
+        "480000080901"
+      ],
+      [
+        152,
+        175,
+        "2021020c0d01"
+      ],
+      [
+        152,
+        185,
+        "20c1010a0b01"
+      ],
+      [
+        154,
+        195,
+        "02ff03ff04ff02"
+      ],
+      [
+        156,
+        206,
+        "000301020201030440014501"
+      ],
+      [
+        140,
+        222,
+        "0a5f5f616372747573656401125f696e7075745f72657365745f73746174658084125f726566726573685f73746f705f313161368084105f726561645f62797465735f646265338214155f617661696c61626c655f62797465735f646339318216135f646973636172645f62797465735f6463376682180c5f7265636f72645f646661638233115f7265636f72645f6b696e645f646665338237115f696e7075745f72657365745f653030668238085f5f63686b73746b00115f77726974655f62797465735f646262358203145f726563656976655f7061636b65745f64646433821b0c5f70726f6d70745f313239368207115f73656e645f7061636b65745f64636532820c065f6d6f646573821f105f7061636b5f626f6172645f38636661820c0b5f72657365745f646637318221"
+      ],
+      [
+        144,
+        530,
+        "00010c5f7265636f72645f64666163ca028233115f7265636f72645f6b696e645f6466653301038237115f696e7075745f72657365745f653030662d038238145f726563656976655f7061636b65745f64646433f100821b115f73656e645f7061636b65745f646365320000820c0b5f72657365745f646637318f028221"
+      ],
+      [
+        136,
+        660,
+        "00a201"
+      ],
+      [
+        160,
+        667,
+        "03000053656e64696e67206174207468652073616d652074696d652e2e2e74727920616761696e00"
+      ],
+      [
+        160,
+        711,
+        "0326004f70706f6e656e74206e6f7420726573706f6e64696e6700"
+      ],
+      [
+        160,
+        742,
+        "0500001f0100000c020000000000000000001073656e645f7061636b65745f64636532"
+      ],
+      [
+        156,
+        781,
+        "c402560e"
+      ],
+      [
+        160,
+        789,
+        "010000558becb81200e800005756"
+      ],
+      [
+        156,
+        807,
+        "8407560a"
+      ],
+      [
+        160,
+        815,
+        "05200005000b0000000b040400a40005696e707574060da4000e01650704feff810001610704fcffa40001620704faff0d020163060d81000f01640704f4ff810001660704f2ff810001670704eeff86000168"
+      ],
+      [
+        156,
+        902,
+        "c402560e"
+      ],
+      [
+        160,
+        910,
+        "010b008b7604c646fa20c646fb308a44012ae42d0200257f008946f28976fc8bf8c746f40000eb054f8076f4010bff74128b5efcff46fc8a078b5ef403dd0047faebe5ff76f256e8000083c404b80200508d46fa50e8000083c404c746fe000056e8000083c40240751dc746eea604c746f0c634b80400508d46ee50e8000083c404c60400eb37803ca4751aff76f256e8000083c404b80200508d46fa50e8000083c404eb18803ca574132bc050b80c0050b8000050e8000083c406eb25ff46fe803ca57406837efe057c94837efe057c112bc050b80c0050b8260050e8000083c406"
+      ],
+      [
+        156,
+        1141,
+        "84db560dc4d79c84b4560dc4b09c849c560b848e560b847a560b845f560c8453560b8445560b"
+      ],
+      [
+        160,
+        1183,
+        "0570000102"
+      ],
+      [
+        160,
+        1192,
+        "052400e000"
+      ],
+      [
+        160,
+        1201,
+        "01eb005e5f8be55dc3"
+      ],
+      [
+        160,
+        1214,
+        "0500001f0100000c02f1000b00eb000000001073656e645f7061636b65745f64636532"
+      ],
+      [
+        156,
+        1253,
+        "c402560e"
+      ],
+      [
+        160,
+        1261,
+        "0572000102220100001b02f1000b00eb0000000013726563656976655f7061636b65745f64646433"
+      ],
+      [
+        156,
+        1305,
+        "c404560c"
+      ],
+      [
+        160,
+        1313,
+        "01f100558becb81000e8000057568b7604"
+      ],
+      [
+        156,
+        1334,
+        "8407560a"
+      ],
+      [
+        160,
+        1342,
+        "05970005000e0000000c040400a400067061636b65740b0da4000e067061636b6574060da4000f01610704fcff0d0201620704faff810001630704f8ff810001640704f6ff810001650704f4ff810001660704f0ff82000167"
+      ],
+      [
+        156,
+        1435,
+        "c402560c"
+      ],
+      [
+        160,
+        1443,
+        "01ff00c746fa0000b801005056e8000083c4040bc07403e965018a0424f03ca07403e9ed00b80100508d440150e8000083c4040bc07403e9d6008a44012ae4257f008946f43d28007c03e9bb002d0200508d440250e8000083c4040bc07403e9a400c646fc20c646fd308bfe8b46f42d02008946f8c746f60000eb07ff4ef88076f601837ef800740d8b5ef603dd8a05470047fcebe68a053846fc75618a45013846fd75598a042ae4eb39c606000001eb3e803e0000007408b8a404bac434eb06b8a504bac5348946f08956f2b80400508d46f050e8000083c404eb132bc0e9ab00eb0c3da60074c93daa0074bdebede800000bc07405c746fa0100eb08e80000c606000001eb08e80000c746fa0100eb6d803c807360803c0a744d8bfe803d0d7419"
+      ],
+      [
+        156,
+        1738,
+        "85065606c500560284fc560684ee560584d3560bc4b15602c4aa560384535604842b5604840b5604"
+      ],
+      [
+        148,
+        1782,
+        "00010500000007000b000f000e001000120011001600120024001300270015004b001600550017006300190068001a0072001b007c001c008a001d008f001e0094001f009e002000ae002100b3002200c4002400c6002500c9002600d4002700eb002e00f1003600ff003700040138001601390021013a0036013b0041013c0049013d005e013e0066013f006801410092014200a1014300a7014500ae014600c9014700d7014800d9014900de014a00ec014c00fa014e0002025000040252000c0253000e02540013025500180256001a02"
+      ],
+      [
+        160,
+        1996,
+        "011f02803d20720147b801005057e8000083c404407503c6050debe2c60500803c007425803c417512807c0154750c807c02457506807c0300740e2bc050b80c005056e8000083c406e800000bc07405c746fa0100eb08e80000c606000001837efa007403e97bfeb8ffffeb00"
+      ],
+      [
+        156,
+        2109,
+        "c459560284555606844756058441560d840c5604"
+      ],
+      [
+        160,
+        2133,
+        "05ed000102"
+      ],
+      [
+        160,
+        2142,
+        "059b008a01"
+      ],
+      [
+        160,
+        2151,
+        "0189025e5f8be55dc3"
+      ],
+      [
+        160,
+        2164,
+        "057400220100001b029e01ff00890200000013726563656976655f7061636b65745f64646433"
+      ],
+      [
+        156,
+        2206,
+        "c402560c"
+      ],
+      [
+        160,
+        2214,
+        "05ef0001021901000021028f02ff0089020000000a72657365745f64663731"
+      ],
+      [
+        156,
+        2249,
+        "c4045611"
+      ],
+      [
+        160,
+        2257,
+        "018f02558becb82a00e8000056"
+      ],
+      [
+        156,
+        2274,
+        "8407560a"
+      ],
+      [
+        160,
+        2282,
+        "050b0105000a000000060da4000e01610704d6ff22020162"
+      ],
+      [
+        156,
+        2310,
+        "c4025611"
+      ],
+      [
+        160,
+        2318,
+        "019902833e0000027407833e020002751e8d46d68bf0c604a146c604254656e8000083c4028d46d650e83efd83c402"
+      ],
+      [
+        156,
+        2369,
+        "841d5610c409560fc402560f"
+      ],
+      [
+        160,
+        2385,
+        "0520010102"
+      ],
+      [
+        160,
+        2394,
+        "050f012c00"
+      ],
+      [
+        160,
+        2403,
+        "01c5025e8be55dc3"
+      ],
+      [
+        160,
+        2415,
+        "05f1001901000021023b009902c5020000000a72657365745f64663731"
+      ],
+      [
+        156,
+        2448,
+        "c4025611"
+      ],
+      [
+        160,
+        2456,
+        "05220101021a0100003302ca029902c5020000000b7265636f72645f64666163"
+      ],
+      [
+        156,
+        2492,
+        "c4045607"
+      ],
+      [
+        160,
+        2500,
+        "01ca02558becb82a00e8000056"
+      ],
+      [
+        156,
+        2517,
+        "8407560a"
+      ],
+      [
+        160,
+        2525,
+        "053f0105000a0000000a0404002f02046d6f7665060da4000e01610704d6ff22020162"
+      ],
+      [
+        156,
+        2564,
+        "c4025607"
+      ],
+      [
+        160,
+        2572,
+        "01d4028d46d68bf0c604a246c60406468b5e048a078804468b5e048a47028804468d46d650e807fd83c402"
+      ],
+      [
+        160,
+        2619,
+        "055f010102"
+      ],
+      [
+        160,
+        2628,
+        "0543012800"
+      ],
+      [
+        160,
+        2637,
+        "01fc025e8be55dc3"
+      ],
+      [
+        160,
+        2649,
+        "0524011a01000033023700d402fc020000000b7265636f72645f64666163"
+      ],
+      [
+        156,
+        2683,
+        "c4025607"
+      ],
+      [
+        160,
+        2691,
+        "05610101021f01000037020103d402fc02000000107265636f72645f6b696e645f64666533"
+      ],
+      [
+        156,
+        2732,
+        "c4045608"
+      ],
+      [
+        160,
+        2740,
+        "010103558becb82a00e8000056"
+      ],
+      [
+        156,
+        2757,
+        "8407560a"
+      ],
+      [
+        160,
+        2765,
+        "05830105000a0000000a0404008100046b696e64060da4000e01610704d6ff22020162"
+      ],
+      [
+        156,
+        2804,
+        "c4025608"
+      ],
+      [
+        160,
+        2812,
+        "010b038d46d68bf0c604a946c60405468a46048804468d46d650e8dbfc83c402"
+      ],
+      [
+        160,
+        2848,
+        "05a3010102"
+      ],
+      [
+        160,
+        2857,
+        "0587011d00"
+      ],
+      [
+        160,
+        2866,
+        "0128035e8be55dc3"
+      ],
+      [
+        160,
+        2878,
+        "0563011f01000037022c000b032803000000107265636f72645f6b696e645f64666533"
+      ],
+      [
+        156,
+        2917,
+        "c4025608"
+      ],
+      [
+        160,
+        2925,
+        "05a50101021f01000038022d030b03280300000010696e7075745f72657365745f65303066"
+      ],
+      [
+        156,
+        2966,
+        "c4045609"
+      ],
+      [
+        160,
+        2974,
+        "012d03558becb80400e80000"
+      ],
+      [
+        156,
+        2990,
+        "8407560a"
+      ],
+      [
+        160,
+        2998,
+        "05c7010500090000000d04fcff390207636f6d6d616e64"
+      ],
+      [
+        156,
+        3025,
+        "c4025609"
+      ],
+      [
+        160,
+        3033,
+        "013603c746fca504c746fec534b80400508d46fc50e8000083c404c606000000"
+      ],
+      [
+        156,
+        3069,
+        "c41a56028413560b"
+      ],
+      [
+        160,
+        3081,
+        "05db010102"
+      ],
+      [
+        160,
+        3090,
+        "05cb011d00"
+      ],
+      [
+        160,
+        3099,
+        "0153038be55dc3"
+      ],
+      [
+        160,
+        3110,
+        "05a7011f01000038022a003603530300000010696e7075745f72657365745f65303066"
+      ],
+      [
+        156,
+        3149,
+        "c4025609"
+      ],
+      [
+        160,
+        3157,
+        "05dd010102"
+      ],
+      [
+        160,
+        3166,
+        "01570390"
+      ],
+      [
+        148,
+        3174,
+        "000157001f02580025025a0038025b003b025c0057025e0065026000730263007b0264008402650089026b008f026f0099027000a7027100ac027200b0027300b4027400bb027600c5027d00ca028000d4028100d9028200dd028300e1028400e9028500f2028600fc02890001038c000b038d0010038e0014038f00180390001e039100280397002d03990036039a003b039b0040039c004e039d005303"
+      ],
+      [
+        160,
+        3336,
+        "05df01190500000000840011696e7075745f72657365745f7374617465190500000000840011726566726573685f73746f705f313161360d05000000001f02056d6f646573"
+      ],
+      [
+        156,
+        3409,
+        "cc36560fcc1c5603cc025602"
+      ],
+      [
+        160,
+        3425,
+        "06000001010080010100800101008001010080010100800101008001010080010100800101008001010080010100800104007f83a4000108007580816301830b020105007810838000010100800101008001010080010700788528018380000107007885c000838000010100800101008001010080010100800101008001010080010100800104007f83a400010a0075808381006301831a0201010080010100800101008001050078008381000101008001080075808163008302020107007885380183800001010080010c007910028325028326028200690107007f8384008384000114007f82046b696e6488008207636170747572658801010c007910028328028329028200690107007f8385008324020112007f8204776f7264880082056279746573880001010080010c00794004832c02832d02820069010d007f8381008381008381008327020121007f8202746f8800820466726f6d88028204666c61678804820664657461696c8806010100800107007a74832b02820001010080010100800104007f832f02010800758081630183320201010080010100800104007f838100010800758081630183360201080075808163008302020105007820838100"
+      ],
+      [
+        138,
+        3881,
+        "00"
+      ]
+    ],
+    "names": [
+      "",
+      "",
+      "DGROUP",
+      "_TEXT",
+      "CODE",
+      "_DATA",
+      "DATA",
+      "CONST",
+      "_BSS",
+      "BSS",
+      "$$TYPES",
+      "DEBTYP",
+      "$$SYMBOLS",
+      "DEBSYM"
+    ],
+    "segments": {
+      "1": {
+        "index": 1,
+        "length": 856,
+        "name_index": 3,
+        "class_index": 4,
+        "overlay_index": 1,
+        "attributes": 72,
+        "chunks": [
+          [
+            0,
+            "558becb81200e800005756"
+          ],
+          [
+            11,
+            "8b7604c646fa20c646fb308a44012ae42d0200257f008946f28976fc8bf8c746f40000eb054f8076f4010bff74128b5efcff46fc8a078b5ef403dd0047faebe5ff76f256e8000083c404b80200508d46fa50e8000083c404c746fe000056e8000083c40240751dc746eea604c746f0c634b80400508d46ee50e8000083c404c60400eb37803ca4751aff76f256e8000083c404b80200508d46fa50e8000083c404eb18803ca574132bc050b80c0050b8000050e8000083c406eb25ff46fe803ca57406837efe057c94837efe057c112bc050b80c0050b8260050e8000083c406"
+          ],
+          [
+            235,
+            "5e5f8be55dc3"
+          ],
+          [
+            241,
+            "558becb81000e8000057568b7604"
+          ],
+          [
+            255,
+            "c746fa0000b801005056e8000083c4040bc07403e965018a0424f03ca07403e9ed00b80100508d440150e8000083c4040bc07403e9d6008a44012ae4257f008946f43d28007c03e9bb002d0200508d440250e8000083c4040bc07403e9a400c646fc20c646fd308bfe8b46f42d02008946f8c746f60000eb07ff4ef88076f601837ef800740d8b5ef603dd8a05470047fcebe68a053846fc75618a45013846fd75598a042ae4eb39c606000001eb3e803e0000007408b8a404bac434eb06b8a504bac5348946f08956f2b80400508d46f050e8000083c404eb132bc0e9ab00eb0c3da60074c93daa0074bdebede800000bc07405c746fa0100eb08e80000c606000001eb08e80000c746fa0100eb6d803c807360803c0a744d8bfe803d0d7419"
+          ],
+          [
+            543,
+            "803d20720147b801005057e8000083c404407503c6050debe2c60500803c007425803c417512807c0154750c807c02457506807c0300740e2bc050b80c005056e8000083c406e800000bc07405c746fa0100eb08e80000c606000001837efa007403e97bfeb8ffffeb00"
+          ],
+          [
+            649,
+            "5e5f8be55dc3"
+          ],
+          [
+            655,
+            "558becb82a00e8000056"
+          ],
+          [
+            665,
+            "833e0000027407833e020002751e8d46d68bf0c604a146c604254656e8000083c4028d46d650e83efd83c402"
+          ],
+          [
+            709,
+            "5e8be55dc3"
+          ],
+          [
+            714,
+            "558becb82a00e8000056"
+          ],
+          [
+            724,
+            "8d46d68bf0c604a246c60406468b5e048a078804468b5e048a47028804468d46d650e807fd83c402"
+          ],
+          [
+            764,
+            "5e8be55dc3"
+          ],
+          [
+            769,
+            "558becb82a00e8000056"
+          ],
+          [
+            779,
+            "8d46d68bf0c604a946c60405468a46048804468d46d650e8dbfc83c402"
+          ],
+          [
+            808,
+            "5e8be55dc3"
+          ],
+          [
+            813,
+            "558becb80400e80000"
+          ],
+          [
+            822,
+            "c746fca504c746fec534b80400508d46fc50e8000083c404c606000000"
+          ],
+          [
+            851,
+            "8be55dc3"
+          ],
+          [
+            855,
+            "90"
+          ]
+        ],
+        "unsupported_data": false,
+        "name": "_TEXT",
+        "class_name": "CODE"
+      },
+      "2": {
+        "index": 2,
+        "length": 0,
+        "name_index": 5,
+        "class_index": 6,
+        "overlay_index": 1,
+        "attributes": 72,
+        "chunks": [],
+        "unsupported_data": false,
+        "name": "_DATA",
+        "class_name": "DATA"
+      },
+      "3": {
+        "index": 3,
+        "length": 62,
+        "name_index": 7,
+        "class_index": 7,
+        "overlay_index": 1,
+        "attributes": 72,
+        "chunks": [
+          [
+            0,
+            "53656e64696e67206174207468652073616d652074696d652e2e2e74727920616761696e00"
+          ],
+          [
+            38,
+            "4f70706f6e656e74206e6f7420726573706f6e64696e6700"
+          ]
+        ],
+        "unsupported_data": false,
+        "name": "CONST",
+        "class_name": "CONST"
+      },
+      "4": {
+        "index": 4,
+        "length": 0,
+        "name_index": 8,
+        "class_index": 9,
+        "overlay_index": 1,
+        "attributes": 72,
+        "chunks": [],
+        "unsupported_data": false,
+        "name": "_BSS",
+        "class_name": "BSS"
+      },
+      "5": {
+        "index": 5,
+        "length": 545,
+        "name_index": 12,
+        "class_index": 13,
+        "overlay_index": 1,
+        "attributes": 32,
+        "chunks": [
+          [
+            0,
+            "1f0100000c020000000000000000001073656e645f7061636b65745f64636532"
+          ],
+          [
+            32,
+            "05000b0000000b040400a40005696e707574060da4000e01650704feff810001610704fcffa40001620704faff0d020163060d81000f01640704f4ff810001660704f2ff810001670704eeff86000168"
+          ],
+          [
+            112,
+            "0102"
+          ],
+          [
+            36,
+            "e000"
+          ],
+          [
+            0,
+            "1f0100000c02f1000b00eb000000001073656e645f7061636b65745f64636532"
+          ],
+          [
+            114,
+            "0102220100001b02f1000b00eb0000000013726563656976655f7061636b65745f64646433"
+          ],
+          [
+            151,
+            "05000e0000000c040400a400067061636b65740b0da4000e067061636b6574060da4000f01610704fcff0d0201620704faff810001630704f8ff810001640704f6ff810001650704f4ff810001660704f0ff82000167"
+          ],
+          [
+            237,
+            "0102"
+          ],
+          [
+            155,
+            "8a01"
+          ],
+          [
+            116,
+            "220100001b029e01ff00890200000013726563656976655f7061636b65745f64646433"
+          ],
+          [
+            239,
+            "01021901000021028f02ff0089020000000a72657365745f64663731"
+          ],
+          [
+            267,
+            "05000a000000060da4000e01610704d6ff22020162"
+          ],
+          [
+            288,
+            "0102"
+          ],
+          [
+            271,
+            "2c00"
+          ],
+          [
+            241,
+            "1901000021023b009902c5020000000a72657365745f64663731"
+          ],
+          [
+            290,
+            "01021a0100003302ca029902c5020000000b7265636f72645f64666163"
+          ],
+          [
+            319,
+            "05000a0000000a0404002f02046d6f7665060da4000e01610704d6ff22020162"
+          ],
+          [
+            351,
+            "0102"
+          ],
+          [
+            323,
+            "2800"
+          ],
+          [
+            292,
+            "1a01000033023700d402fc020000000b7265636f72645f64666163"
+          ],
+          [
+            353,
+            "01021f01000037020103d402fc02000000107265636f72645f6b696e645f64666533"
+          ],
+          [
+            387,
+            "05000a0000000a0404008100046b696e64060da4000e01610704d6ff22020162"
+          ],
+          [
+            419,
+            "0102"
+          ],
+          [
+            391,
+            "1d00"
+          ],
+          [
+            355,
+            "1f01000037022c000b032803000000107265636f72645f6b696e645f64666533"
+          ],
+          [
+            421,
+            "01021f01000038022d030b03280300000010696e7075745f72657365745f65303066"
+          ],
+          [
+            455,
+            "0500090000000d04fcff390207636f6d6d616e64"
+          ],
+          [
+            475,
+            "0102"
+          ],
+          [
+            459,
+            "1d00"
+          ],
+          [
+            423,
+            "1f01000038022a003603530300000010696e7075745f72657365745f65303066"
+          ],
+          [
+            477,
+            "0102"
+          ],
+          [
+            479,
+            "190500000000840011696e7075745f72657365745f7374617465190500000000840011726566726573685f73746f705f313161360d05000000001f02056d6f646573"
+          ]
+        ],
+        "unsupported_data": false,
+        "name": "$$SYMBOLS",
+        "class_name": "DEBSYM"
+      },
+      "6": {
+        "index": 6,
+        "length": 449,
+        "name_index": 10,
+        "class_index": 11,
+        "overlay_index": 1,
+        "attributes": 32,
+        "chunks": [
+          [
+            0,
+            "01010080010100800101008001010080010100800101008001010080010100800101008001010080010100800104007f83a4000108007580816301830b020105007810838000010100800101008001010080010700788528018380000107007885c000838000010100800101008001010080010100800101008001010080010100800104007f83a400010a0075808381006301831a0201010080010100800101008001050078008381000101008001080075808163008302020107007885380183800001010080010c007910028325028326028200690107007f8384008384000114007f82046b696e6488008207636170747572658801010c007910028328028329028200690107007f8385008324020112007f8204776f7264880082056279746573880001010080010c00794004832c02832d02820069010d007f8381008381008381008327020121007f8202746f8800820466726f6d88028204666c61678804820664657461696c8806010100800107007a74832b02820001010080010100800104007f832f02010800758081630183320201010080010100800104007f838100010800758081630183360201080075808163008302020105007820838100"
+          ]
+        ],
+        "unsupported_data": false,
+        "name": "$$TYPES",
+        "class_name": "DEBTYP"
+      }
+    },
+    "publics": {
+      "_record_dfac": {
+        "name": "_record_dfac",
+        "segment": 1,
+        "offset": 714,
+        "group": 0,
+        "type_index": 563
+      },
+      "_record_kind_dfe3": {
+        "name": "_record_kind_dfe3",
+        "segment": 1,
+        "offset": 769,
+        "group": 0,
+        "type_index": 567
+      },
+      "_input_reset_e00f": {
+        "name": "_input_reset_e00f",
+        "segment": 1,
+        "offset": 813,
+        "group": 0,
+        "type_index": 568
+      },
+      "_receive_packet_ddd3": {
+        "name": "_receive_packet_ddd3",
+        "segment": 1,
+        "offset": 241,
+        "group": 0,
+        "type_index": 539
+      },
+      "_send_packet_dce2": {
+        "name": "_send_packet_dce2",
+        "segment": 1,
+        "offset": 0,
+        "group": 0,
+        "type_index": 524
+      },
+      "_reset_df71": {
+        "name": "_reset_df71",
+        "segment": 1,
+        "offset": 655,
+        "group": 0,
+        "type_index": 545
+      }
+    },
+    "procedures": {
+      "_send_packet_dce2": {
+        "length": 241,
+        "debug_symbol_offset": 0,
+        "name": "send_packet_dce2",
+        "debug_segment": 5,
+        "relocation_record_offset": 1253
+      },
+      "_receive_packet_ddd3": {
+        "length": 414,
+        "debug_symbol_offset": 116,
+        "name": "receive_packet_ddd3",
+        "debug_segment": 5,
+        "relocation_record_offset": 2206
+      },
+      "_reset_df71": {
+        "length": 59,
+        "debug_symbol_offset": 241,
+        "name": "reset_df71",
+        "debug_segment": 5,
+        "relocation_record_offset": 2448
+      },
+      "_record_dfac": {
+        "length": 55,
+        "debug_symbol_offset": 292,
+        "name": "record_dfac",
+        "debug_segment": 5,
+        "relocation_record_offset": 2683
+      },
+      "_record_kind_dfe3": {
+        "length": 44,
+        "debug_symbol_offset": 355,
+        "name": "record_kind_dfe3",
+        "debug_segment": 5,
+        "relocation_record_offset": 2917
+      },
+      "_input_reset_e00f": {
+        "length": 42,
+        "debug_symbol_offset": 423,
+        "name": "input_reset_e00f",
+        "debug_segment": 5,
+        "relocation_record_offset": 3149
+      }
+    },
+    "fixups": [
+      {
+        "segment": 5,
+        "offset": 2,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          14
+        ],
+        "displacement": null,
+        "record_offset": 781,
+        "raw": "c402560e"
+      },
+      {
+        "segment": 1,
+        "offset": 7,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          10
+        ],
+        "displacement": null,
+        "record_offset": 807,
+        "raw": "8407560a"
+      },
+      {
+        "segment": 5,
+        "offset": 34,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          14
+        ],
+        "displacement": null,
+        "record_offset": 902,
+        "raw": "c402560e"
+      },
+      {
+        "segment": 1,
+        "offset": 230,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          13
+        ],
+        "displacement": null,
+        "record_offset": 1141,
+        "raw": "84db560d"
+      },
+      {
+        "segment": 1,
+        "offset": 226,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          0,
+          3
+        ],
+        "displacement": null,
+        "record_offset": 1141,
+        "raw": "c4d79c"
+      },
+      {
+        "segment": 1,
+        "offset": 191,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          13
+        ],
+        "displacement": null,
+        "record_offset": 1141,
+        "raw": "84b4560d"
+      },
+      {
+        "segment": 1,
+        "offset": 187,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          0,
+          3
+        ],
+        "displacement": null,
+        "record_offset": 1141,
+        "raw": "c4b09c"
+      },
+      {
+        "segment": 1,
+        "offset": 167,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          11
+        ],
+        "displacement": null,
+        "record_offset": 1141,
+        "raw": "849c560b"
+      },
+      {
+        "segment": 1,
+        "offset": 153,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          11
+        ],
+        "displacement": null,
+        "record_offset": 1141,
+        "raw": "848e560b"
+      },
+      {
+        "segment": 1,
+        "offset": 133,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          11
+        ],
+        "displacement": null,
+        "record_offset": 1141,
+        "raw": "847a560b"
+      },
+      {
+        "segment": 1,
+        "offset": 106,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          12
+        ],
+        "displacement": null,
+        "record_offset": 1141,
+        "raw": "845f560c"
+      },
+      {
+        "segment": 1,
+        "offset": 94,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          11
+        ],
+        "displacement": null,
+        "record_offset": 1141,
+        "raw": "8453560b"
+      },
+      {
+        "segment": 1,
+        "offset": 80,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          11
+        ],
+        "displacement": null,
+        "record_offset": 1141,
+        "raw": "8445560b"
+      },
+      {
+        "segment": 5,
+        "offset": 2,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          14
+        ],
+        "displacement": null,
+        "record_offset": 1253,
+        "raw": "c402560e"
+      },
+      {
+        "segment": 5,
+        "offset": 118,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          12
+        ],
+        "displacement": null,
+        "record_offset": 1305,
+        "raw": "c404560c"
+      },
+      {
+        "segment": 1,
+        "offset": 248,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          10
+        ],
+        "displacement": null,
+        "record_offset": 1334,
+        "raw": "8407560a"
+      },
+      {
+        "segment": 5,
+        "offset": 153,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          12
+        ],
+        "displacement": null,
+        "record_offset": 1435,
+        "raw": "c402560c"
+      },
+      {
+        "segment": 1,
+        "offset": 517,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          6
+        ],
+        "displacement": null,
+        "record_offset": 1738,
+        "raw": "85065606"
+      },
+      {
+        "segment": 1,
+        "offset": 511,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          2
+        ],
+        "displacement": null,
+        "record_offset": 1738,
+        "raw": "c5005602"
+      },
+      {
+        "segment": 1,
+        "offset": 507,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          6
+        ],
+        "displacement": null,
+        "record_offset": 1738,
+        "raw": "84fc5606"
+      },
+      {
+        "segment": 1,
+        "offset": 493,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          5
+        ],
+        "displacement": null,
+        "record_offset": 1738,
+        "raw": "84ee5605"
+      },
+      {
+        "segment": 1,
+        "offset": 466,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          11
+        ],
+        "displacement": null,
+        "record_offset": 1738,
+        "raw": "84d3560b"
+      },
+      {
+        "segment": 1,
+        "offset": 432,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          2
+        ],
+        "displacement": null,
+        "record_offset": 1738,
+        "raw": "c4b15602"
+      },
+      {
+        "segment": 1,
+        "offset": 425,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          3
+        ],
+        "displacement": null,
+        "record_offset": 1738,
+        "raw": "c4aa5603"
+      },
+      {
+        "segment": 1,
+        "offset": 338,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          4
+        ],
+        "displacement": null,
+        "record_offset": 1738,
+        "raw": "84535604"
+      },
+      {
+        "segment": 1,
+        "offset": 298,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          4
+        ],
+        "displacement": null,
+        "record_offset": 1738,
+        "raw": "842b5604"
+      },
+      {
+        "segment": 1,
+        "offset": 266,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          4
+        ],
+        "displacement": null,
+        "record_offset": 1738,
+        "raw": "840b5604"
+      },
+      {
+        "segment": 1,
+        "offset": 632,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          2
+        ],
+        "displacement": null,
+        "record_offset": 2109,
+        "raw": "c4595602"
+      },
+      {
+        "segment": 1,
+        "offset": 628,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          6
+        ],
+        "displacement": null,
+        "record_offset": 2109,
+        "raw": "84555606"
+      },
+      {
+        "segment": 1,
+        "offset": 614,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          5
+        ],
+        "displacement": null,
+        "record_offset": 2109,
+        "raw": "84475605"
+      },
+      {
+        "segment": 1,
+        "offset": 608,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          13
+        ],
+        "displacement": null,
+        "record_offset": 2109,
+        "raw": "8441560d"
+      },
+      {
+        "segment": 1,
+        "offset": 555,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          4
+        ],
+        "displacement": null,
+        "record_offset": 2109,
+        "raw": "840c5604"
+      },
+      {
+        "segment": 5,
+        "offset": 118,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          12
+        ],
+        "displacement": null,
+        "record_offset": 2206,
+        "raw": "c402560c"
+      },
+      {
+        "segment": 5,
+        "offset": 243,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          17
+        ],
+        "displacement": null,
+        "record_offset": 2249,
+        "raw": "c4045611"
+      },
+      {
+        "segment": 1,
+        "offset": 662,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          10
+        ],
+        "displacement": null,
+        "record_offset": 2274,
+        "raw": "8407560a"
+      },
+      {
+        "segment": 5,
+        "offset": 269,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          17
+        ],
+        "displacement": null,
+        "record_offset": 2310,
+        "raw": "c4025611"
+      },
+      {
+        "segment": 1,
+        "offset": 694,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          16
+        ],
+        "displacement": null,
+        "record_offset": 2369,
+        "raw": "841d5610"
+      },
+      {
+        "segment": 1,
+        "offset": 674,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          15
+        ],
+        "displacement": null,
+        "record_offset": 2369,
+        "raw": "c409560f"
+      },
+      {
+        "segment": 1,
+        "offset": 667,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          15
+        ],
+        "displacement": null,
+        "record_offset": 2369,
+        "raw": "c402560f"
+      },
+      {
+        "segment": 5,
+        "offset": 243,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          17
+        ],
+        "displacement": null,
+        "record_offset": 2448,
+        "raw": "c4025611"
+      },
+      {
+        "segment": 5,
+        "offset": 294,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          7
+        ],
+        "displacement": null,
+        "record_offset": 2492,
+        "raw": "c4045607"
+      },
+      {
+        "segment": 1,
+        "offset": 721,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          10
+        ],
+        "displacement": null,
+        "record_offset": 2517,
+        "raw": "8407560a"
+      },
+      {
+        "segment": 5,
+        "offset": 321,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          7
+        ],
+        "displacement": null,
+        "record_offset": 2564,
+        "raw": "c4025607"
+      },
+      {
+        "segment": 5,
+        "offset": 294,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          7
+        ],
+        "displacement": null,
+        "record_offset": 2683,
+        "raw": "c4025607"
+      },
+      {
+        "segment": 5,
+        "offset": 357,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          8
+        ],
+        "displacement": null,
+        "record_offset": 2732,
+        "raw": "c4045608"
+      },
+      {
+        "segment": 1,
+        "offset": 776,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          10
+        ],
+        "displacement": null,
+        "record_offset": 2757,
+        "raw": "8407560a"
+      },
+      {
+        "segment": 5,
+        "offset": 389,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          8
+        ],
+        "displacement": null,
+        "record_offset": 2804,
+        "raw": "c4025608"
+      },
+      {
+        "segment": 5,
+        "offset": 357,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          8
+        ],
+        "displacement": null,
+        "record_offset": 2917,
+        "raw": "c4025608"
+      },
+      {
+        "segment": 5,
+        "offset": 425,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          9
+        ],
+        "displacement": null,
+        "record_offset": 2966,
+        "raw": "c4045609"
+      },
+      {
+        "segment": 1,
+        "offset": 820,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          10
+        ],
+        "displacement": null,
+        "record_offset": 2990,
+        "raw": "8407560a"
+      },
+      {
+        "segment": 5,
+        "offset": 457,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          9
+        ],
+        "displacement": null,
+        "record_offset": 3025,
+        "raw": "c4025609"
+      },
+      {
+        "segment": 1,
+        "offset": 848,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          2
+        ],
+        "displacement": null,
+        "record_offset": 3069,
+        "raw": "c41a5602"
+      },
+      {
+        "segment": 1,
+        "offset": 841,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          11
+        ],
+        "displacement": null,
+        "record_offset": 3069,
+        "raw": "8413560b"
+      },
+      {
+        "segment": 5,
+        "offset": 425,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          9
+        ],
+        "displacement": null,
+        "record_offset": 3149,
+        "raw": "c4025609"
+      },
+      {
+        "segment": 5,
+        "offset": 533,
+        "width": 4,
+        "location_type": 3,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          15
+        ],
+        "displacement": null,
+        "record_offset": 3409,
+        "raw": "cc36560f"
+      },
+      {
+        "segment": 5,
+        "offset": 507,
+        "width": 4,
+        "location_type": 3,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          3
+        ],
+        "displacement": null,
+        "record_offset": 3409,
+        "raw": "cc1c5603"
+      },
+      {
+        "segment": 5,
+        "offset": 481,
+        "width": 4,
+        "location_type": 3,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          2
+        ],
+        "displacement": null,
+        "record_offset": 3409,
+        "raw": "cc025602"
+      }
+    ],
+    "data_writes": [
+      [
+        667,
+        3,
+        0,
+        37
+      ],
+      [
+        711,
+        3,
+        38,
+        24
+      ],
+      [
+        742,
+        5,
+        0,
+        32
+      ],
+      [
+        789,
+        1,
+        0,
+        11
+      ],
+      [
+        815,
+        5,
+        32,
+        80
+      ],
+      [
+        910,
+        1,
+        11,
+        224
+      ],
+      [
+        1183,
+        5,
+        112,
+        2
+      ],
+      [
+        1192,
+        5,
+        36,
+        2
+      ],
+      [
+        1201,
+        1,
+        235,
+        6
+      ],
+      [
+        1214,
+        5,
+        0,
+        32
+      ],
+      [
+        1261,
+        5,
+        114,
+        37
+      ],
+      [
+        1313,
+        1,
+        241,
+        14
+      ],
+      [
+        1342,
+        5,
+        151,
+        86
+      ],
+      [
+        1443,
+        1,
+        255,
+        288
+      ],
+      [
+        1996,
+        1,
+        543,
+        106
+      ],
+      [
+        2133,
+        5,
+        237,
+        2
+      ],
+      [
+        2142,
+        5,
+        155,
+        2
+      ],
+      [
+        2151,
+        1,
+        649,
+        6
+      ],
+      [
+        2164,
+        5,
+        116,
+        35
+      ],
+      [
+        2214,
+        5,
+        239,
+        28
+      ],
+      [
+        2257,
+        1,
+        655,
+        10
+      ],
+      [
+        2282,
+        5,
+        267,
+        21
+      ],
+      [
+        2318,
+        1,
+        665,
+        44
+      ],
+      [
+        2385,
+        5,
+        288,
+        2
+      ],
+      [
+        2394,
+        5,
+        271,
+        2
+      ],
+      [
+        2403,
+        1,
+        709,
+        5
+      ],
+      [
+        2415,
+        5,
+        241,
+        26
+      ],
+      [
+        2456,
+        5,
+        290,
+        29
+      ],
+      [
+        2500,
+        1,
+        714,
+        10
+      ],
+      [
+        2525,
+        5,
+        319,
+        32
+      ],
+      [
+        2572,
+        1,
+        724,
+        40
+      ],
+      [
+        2619,
+        5,
+        351,
+        2
+      ],
+      [
+        2628,
+        5,
+        323,
+        2
+      ],
+      [
+        2637,
+        1,
+        764,
+        5
+      ],
+      [
+        2649,
+        5,
+        292,
+        27
+      ],
+      [
+        2691,
+        5,
+        353,
+        34
+      ],
+      [
+        2740,
+        1,
+        769,
+        10
+      ],
+      [
+        2765,
+        5,
+        387,
+        32
+      ],
+      [
+        2812,
+        1,
+        779,
+        29
+      ],
+      [
+        2848,
+        5,
+        419,
+        2
+      ],
+      [
+        2857,
+        5,
+        391,
+        2
+      ],
+      [
+        2866,
+        1,
+        808,
+        5
+      ],
+      [
+        2878,
+        5,
+        355,
+        32
+      ],
+      [
+        2925,
+        5,
+        421,
+        34
+      ],
+      [
+        2974,
+        1,
+        813,
+        9
+      ],
+      [
+        2998,
+        5,
+        455,
+        20
+      ],
+      [
+        3033,
+        1,
+        822,
+        29
+      ],
+      [
+        3081,
+        5,
+        475,
+        2
+      ],
+      [
+        3090,
+        5,
+        459,
+        2
+      ],
+      [
+        3099,
+        1,
+        851,
+        4
+      ],
+      [
+        3110,
+        5,
+        423,
+        32
+      ],
+      [
+        3157,
+        5,
+        477,
+        2
+      ],
+      [
+        3166,
+        1,
+        855,
+        1
+      ],
+      [
+        3336,
+        5,
+        479,
+        66
+      ],
+      [
+        3425,
+        6,
+        0,
+        449
+      ]
+    ]
+  },
+  "whole_CODE": {
+    "segment": 1,
+    "bytes": 856,
+    "native_image": 56546,
+    "registered_CV_bytes": 855,
+    "tail": "90"
+  },
+  "CONST": {
+    "segment": 3,
+    "group": 1,
+    "extent": 62,
+    "native_DS": 20916,
+    "native_image": 400852,
+    "raw_writes": [
+      [
+        0,
+        37
+      ],
+      [
+        38,
+        24
+      ]
+    ],
+    "raw_unwritten": [
+      37
+    ],
+    "native_alignment_bytes": 1,
+    "alignment_credit": 0,
+    "literal_array_views": [
+      {
+        "offset": 0,
+        "size": 37,
+        "array_bits": 296,
+        "element_builtin": 128
+      },
+      {
+        "offset": 38,
+        "size": 24,
+        "array_bits": 192,
+        "element_builtin": 128
+      }
+    ],
+    "real_CODE_fields": [
+      [
+        187,
+        0
+      ],
+      [
+        226,
+        38
+      ]
+    ]
+  },
+  "owners": [
+    "packet_error_51b4",
+    "packet_retry_error_51da",
+    "send_packet_dce2",
+    "receive_packet_ddd3",
+    "reset_df71",
+    "record_dfac",
+    "record_kind_dfe3",
+    "input_reset_e00f"
+  ],
+  "all8_unit_contracts": [
+    {
+      "id": "packet_error_51b4",
+      "language": "c-data",
+      "backend": "msc500-packet-owned-literals61-omf-v1",
+      "source": "src/packet_literal_context_match.c",
+      "symbol": "_packet_error_51b4",
+      "flags": [
+        "/AS",
+        "/Zi"
+      ],
+      "image_offset": "0x61dd4",
+      "size": 37,
+      "reference_region": "exepack-expanded",
+      "rea_evidence": "build/packet-error-data/rea-error37.json",
+      "boundary_evidence": "Exact packet literal61 same-fresh-aggregate policy: unchanged six CV855/wholeCODE856/native tail90 and receiver412live/414span/15primary CFG proof; full raw3886/57fields with only187/226 ownCONST transitions. Anonymous C arrays37/24 are complete TYPE296/192/base80, no DATA PUBLICaliases. RawCONST62 writes0:37/38:24 leaves37unwritten. No final matched row before samefresh SOURCE/LINK verifies full62 and authentic uncredited zero37; originalTU/capacity/alias/globalimmutability held. Existing61payload credit counted once.",
+      "packet_literal_group": "packet-literals61-alignment1-v1",
+      "literal_array_view": {
+        "offset": 0,
+        "size": 37,
+        "array_bits": 296,
+        "element_builtin": 128,
+        "comparison_legacy_name": "_packet_error_51b4",
+        "anonymous_no_PUBLIC_alias": true
+      }
+    },
+    {
+      "id": "packet_retry_error_51da",
+      "language": "c-data",
+      "backend": "msc500-packet-owned-literals61-omf-v1",
+      "source": "src/packet_literal_context_match.c",
+      "symbol": "_packet_retry_error_51da",
+      "flags": [
+        "/AS",
+        "/Zi"
+      ],
+      "image_offset": "0x61dfa",
+      "size": 24,
+      "reference_region": "exepack-expanded",
+      "rea_evidence": "build/packet-error-data/rea-retry24.json",
+      "boundary_evidence": "Exact packet literal61 same-fresh-aggregate policy: unchanged six CV855/wholeCODE856/native tail90 and receiver412live/414span/15primary CFG proof; full raw3886/57fields with only187/226 ownCONST transitions. Anonymous C arrays37/24 are complete TYPE296/192/base80, no DATA PUBLICaliases. RawCONST62 writes0:37/38:24 leaves37unwritten. No final matched row before samefresh SOURCE/LINK verifies full62 and authentic uncredited zero37; originalTU/capacity/alias/globalimmutability held. Existing61payload credit counted once.",
+      "packet_literal_group": "packet-literals61-alignment1-v1",
+      "literal_array_view": {
+        "offset": 38,
+        "size": 24,
+        "array_bits": 192,
+        "element_builtin": 128,
+        "comparison_legacy_name": "_packet_retry_error_51da",
+        "anonymous_no_PUBLIC_alias": true
+      }
+    },
+    {
+      "id": "send_packet_dce2",
+      "language": "c",
+      "backend": "msc500-packet-owned-literals61-omf-v1",
+      "source": "src/packet_literal_context_match.c",
+      "symbol": "_send_packet_dce2",
+      "image_offset": "0xdce2",
+      "size": 241,
+      "flags": [
+        "/AS",
+        "/Zi"
+      ],
+      "externals": {
+        "__chkstk": 60586,
+        "_write_bytes_dbb5": 56245,
+        "_receive_packet_ddd3": 56787,
+        "_prompt_1296": 4758
+      },
+      "rea_evidence": "build/reset-df71-recovery/rea-sender.json",
+      "boundary_evidence": "Exact packet literal61 same-fresh-aggregate policy: unchanged six CV855/wholeCODE856/native tail90 and receiver412live/414span/15primary CFG proof; full raw3886/57fields with only187/226 ownCONST transitions. Anonymous C arrays37/24 are complete TYPE296/192/base80, no DATA PUBLICaliases. RawCONST62 writes0:37/38:24 leaves37unwritten. No final matched row before samefresh SOURCE/LINK verifies full62 and authentic uncredited zero37; originalTU/capacity/alias/globalimmutability held. Existing61payload credit counted once.",
+      "packet_literal_group": "packet-literals61-alignment1-v1"
+    },
+    {
+      "id": "receive_packet_ddd3",
+      "language": "c",
+      "backend": "msc500-packet-owned-literals61-omf-v1",
+      "source": "src/packet_literal_context_match.c",
+      "symbol": "_receive_packet_ddd3",
+      "image_offset": "0xddd3",
+      "size": 414,
+      "flags": [
+        "/AS",
+        "/Zi"
+      ],
+      "externals": {
+        "__chkstk": 60586,
+        "_input_reset_state": 11968,
+        "_refresh_stop_11a6": 4518,
+        "_read_bytes_dbe3": 56291,
+        "_available_bytes_dc91": 56465,
+        "_write_bytes_dbb5": 56245,
+        "_discard_bytes_dc7f": 56447,
+        "_prompt_1296": 4758
+      },
+      "rea_evidence": "evidence/rea_event0254_packet_receiver.json",
+      "extended_extent": {
+        "kind": "packet_receive_switch_cleanup_ddd3_v1",
+        "raw_span_evidence": "build/receive-packet-ddd3/rea-full473.json",
+        "next_entry_evidence": "build/reset-df71-recovery/rea-native.json",
+        "gap_xref_evidence": [
+          "build/receive-packet-ddd3/rea-gap-xref-1dec0.json",
+          "build/receive-packet-ddd3/rea-gap-xref-1dec1.json"
+        ],
+        "gap_decoder_evidence": "build/receive-packet-ddd3/rea-gap-instruction.json",
+        "preceding_jump_evidence": "build/receive-packet-ddd3/rea-preceding-instruction.json",
+        "context_span_evidence": "build/send-packet-dce2/rea-full655.json",
+        "context_entry_evidence": "build/reset-df71-recovery/rea-sender.json",
+        "following_entry_evidence": "build/reset-df71-recovery/rea-next.json",
+        "following_span_evidence": "build/reset-df71-recovery/rea-raw.json",
+        "context_kind": "packet856_v1",
+        "extended_context_evidence": "build/packet-adjacent-root-followup/rea-full203.json",
+        "kind_wrapper_evidence": "build/packet-adjacent-root-followup/rea-dfe3.json",
+        "input_reset_evidence": "evidence/rea-next-source-1e00f.json",
+        "huff_next_evidence": "evidence/rea_huff_frame.json"
+      },
+      "boundary_evidence": "Exact packet literal61 same-fresh-aggregate policy: unchanged six CV855/wholeCODE856/native tail90 and receiver412live/414span/15primary CFG proof; full raw3886/57fields with only187/226 ownCONST transitions. Anonymous C arrays37/24 are complete TYPE296/192/base80, no DATA PUBLICaliases. RawCONST62 writes0:37/38:24 leaves37unwritten. No final matched row before samefresh SOURCE/LINK verifies full62 and authentic uncredited zero37; originalTU/capacity/alias/globalimmutability held. Existing61payload credit counted once.",
+      "packet_literal_group": "packet-literals61-alignment1-v1"
+    },
+    {
+      "id": "reset_df71",
+      "language": "c",
+      "backend": "msc500-packet-owned-literals61-omf-v1",
+      "source": "src/packet_literal_context_match.c",
+      "symbol": "_reset_df71",
+      "image_offset": "0xdf71",
+      "size": 59,
+      "flags": [
+        "/AS",
+        "/Zi"
+      ],
+      "externals": {
+        "__chkstk": 60586,
+        "_modes": 1340,
+        "_pack_board_8cfa": 36090
+      },
+      "rea_evidence": "build/reset-df71-recovery/rea-native.json",
+      "boundary_evidence": "Exact packet literal61 same-fresh-aggregate policy: unchanged six CV855/wholeCODE856/native tail90 and receiver412live/414span/15primary CFG proof; full raw3886/57fields with only187/226 ownCONST transitions. Anonymous C arrays37/24 are complete TYPE296/192/base80, no DATA PUBLICaliases. RawCONST62 writes0:37/38:24 leaves37unwritten. No final matched row before samefresh SOURCE/LINK verifies full62 and authentic uncredited zero37; originalTU/capacity/alias/globalimmutability held. Existing61payload credit counted once.",
+      "packet_literal_group": "packet-literals61-alignment1-v1"
+    },
+    {
+      "id": "record_dfac",
+      "symbol": "_record_dfac",
+      "source": "src/packet_literal_context_match.c",
+      "language": "c",
+      "backend": "msc500-packet-owned-literals61-omf-v1",
+      "image_offset": "0xdfac",
+      "size": 55,
+      "flags": [
+        "/AS",
+        "/Zi"
+      ],
+      "externals": {
+        "__chkstk": 60586
+      },
+      "rea_evidence": "build/reset-df71-recovery/rea-next.json",
+      "boundary_evidence": "Exact packet literal61 same-fresh-aggregate policy: unchanged six CV855/wholeCODE856/native tail90 and receiver412live/414span/15primary CFG proof; full raw3886/57fields with only187/226 ownCONST transitions. Anonymous C arrays37/24 are complete TYPE296/192/base80, no DATA PUBLICaliases. RawCONST62 writes0:37/38:24 leaves37unwritten. No final matched row before samefresh SOURCE/LINK verifies full62 and authentic uncredited zero37; originalTU/capacity/alias/globalimmutability held. Existing61payload credit counted once.",
+      "packet_literal_group": "packet-literals61-alignment1-v1"
+    },
+    {
+      "id": "record_kind_dfe3",
+      "symbol": "_record_kind_dfe3",
+      "source": "src/packet_literal_context_match.c",
+      "language": "c",
+      "backend": "msc500-packet-owned-literals61-omf-v1",
+      "image_offset": "0xdfe3",
+      "size": 44,
+      "flags": [
+        "/AS",
+        "/Zi"
+      ],
+      "externals": {
+        "__chkstk": 60586
+      },
+      "rea_evidence": "build/packet-adjacent-root-followup/rea-dfe3.json",
+      "boundary_evidence": "Exact packet literal61 same-fresh-aggregate policy: unchanged six CV855/wholeCODE856/native tail90 and receiver412live/414span/15primary CFG proof; full raw3886/57fields with only187/226 ownCONST transitions. Anonymous C arrays37/24 are complete TYPE296/192/base80, no DATA PUBLICaliases. RawCONST62 writes0:37/38:24 leaves37unwritten. No final matched row before samefresh SOURCE/LINK verifies full62 and authentic uncredited zero37; originalTU/capacity/alias/globalimmutability held. Existing61payload credit counted once.",
+      "packet_literal_group": "packet-literals61-alignment1-v1"
+    },
+    {
+      "language": "c",
+      "backend": "msc500-packet-owned-literals61-omf-v1",
+      "id": "input_reset_e00f",
+      "source": "src/packet_literal_context_match.c",
+      "symbol": "_input_reset_e00f",
+      "flags": [
+        "/AS",
+        "/Zi"
+      ],
+      "image_offset": "0xe00f",
+      "size": 42,
+      "externals": {
+        "__chkstk": 60586,
+        "_write_bytes_dbb5": 56245,
+        "_input_reset_state": 11968
+      },
+      "rea_evidence": "evidence/rea-next-source-1e00f.json",
+      "boundary_evidence": "Exact packet literal61 same-fresh-aggregate policy: unchanged six CV855/wholeCODE856/native tail90 and receiver412live/414span/15primary CFG proof; full raw3886/57fields with only187/226 ownCONST transitions. Anonymous C arrays37/24 are complete TYPE296/192/base80, no DATA PUBLICaliases. RawCONST62 writes0:37/38:24 leaves37unwritten. No final matched row before samefresh SOURCE/LINK verifies full62 and authentic uncredited zero37; originalTU/capacity/alias/globalimmutability held. Existing61payload credit counted once.",
+      "packet_literal_group": "packet-literals61-alignment1-v1"
+    }
+  ],
+  "old8_unit_contracts": [
+    {
+      "id": "packet_error_51b4",
+      "language": "c-data",
+      "backend": "msc500-data-omf",
+      "source": "src/data/packet_error_51b4.c",
+      "symbol": "_packet_error_51b4",
+      "flags": [
+        "/AS",
+        "/Zl",
+        "/Zi"
+      ],
+      "image_offset": "0x61dd4",
+      "size": 37,
+      "reference_region": "exepack-expanded",
+      "rea_evidence": "build/packet-error-data/rea-error37.json",
+      "boundary_evidence": "Complete NUL-terminated char array consumed by original DCE2 sender and prompt1296 byte-until-zero loop. Whole independent initialized compilerDATA, onePUBLIC/typechar[N], no other allocation/fixup/MZ; exact carrier read and context. No following gapbyte or historicalTUownership assigned."
+    },
+    {
+      "id": "packet_retry_error_51da",
+      "language": "c-data",
+      "backend": "msc500-data-omf",
+      "source": "src/data/packet_retry_error_51da.c",
+      "symbol": "_packet_retry_error_51da",
+      "flags": [
+        "/AS",
+        "/Zl",
+        "/Zi"
+      ],
+      "image_offset": "0x61dfa",
+      "size": 24,
+      "reference_region": "exepack-expanded",
+      "rea_evidence": "build/packet-error-data/rea-retry24.json",
+      "boundary_evidence": "Complete NUL-terminated char array consumed by original DCE2 sender and prompt1296 byte-until-zero loop. Whole independent initialized compilerDATA, onePUBLIC/typechar[N], no other allocation/fixup/MZ; exact carrier read and context. No following gapbyte or historicalTUownership assigned."
+    },
+    {
+      "id": "send_packet_dce2",
+      "language": "c",
+      "backend": "msc500-omf",
+      "source": "src/packet_context_match.c",
+      "symbol": "_send_packet_dce2",
+      "image_offset": "0xdce2",
+      "size": 241,
+      "flags": [
+        "/AS",
+        "/Zi"
+      ],
+      "externals": {
+        "__chkstk": 60586,
+        "_write_bytes_dbb5": 56245,
+        "_receive_packet_ddd3": 56787,
+        "_prompt_1296": 4758,
+        "_packet_error_51b4": 20916,
+        "_packet_retry_error_51da": 20954
+      },
+      "rea_evidence": "build/reset-df71-recovery/rea-sender.json",
+      "boundary_evidence": "Genuine C5.00 /AS /Zi whole WORD CODE856 at DCE2..E03A: six actual PUBLIC/CV offsets0/241/655/714/769/813, sizes241/414/59/55/44/42; all36 actual fields (11/16/4/1/1/3) and three compiler-resolved backward sender calls. All855 function bytes plus nativeE03990 exact; alignment byte earns zero C credit. Overlapping complete original REA655/473/203 reads and nextHuff61 boundary; MZ0, independentmanual relocation and four actual loader bases verified. Receiver412live/414span requires exact packet856_v1 extent gate/57CFG/gap checks. Consumed39 valid-binary buffer model uses real compiler rounding; historical capacity/TU remain nonunique and native ASCII/lowerlength bugs preserved. Existing input_reset_e00f42 is a source replacement and counted once. Evidence build/packet-context-856-root/proof.json and build/packet-receiver-root-review/review.json."
+    },
+    {
+      "id": "receive_packet_ddd3",
+      "language": "c",
+      "backend": "msc500-omf",
+      "source": "src/packet_context_match.c",
+      "symbol": "_receive_packet_ddd3",
+      "image_offset": "0xddd3",
+      "size": 414,
+      "flags": [
+        "/AS",
+        "/Zi"
+      ],
+      "externals": {
+        "__chkstk": 60586,
+        "_input_reset_state": 11968,
+        "_refresh_stop_11a6": 4518,
+        "_read_bytes_dbe3": 56291,
+        "_available_bytes_dc91": 56465,
+        "_write_bytes_dbb5": 56245,
+        "_discard_bytes_dc7f": 56447,
+        "_prompt_1296": 4758
+      },
+      "rea_evidence": "evidence/rea_event0254_packet_receiver.json",
+      "extended_extent": {
+        "kind": "packet_receive_switch_cleanup_ddd3_v1",
+        "raw_span_evidence": "build/receive-packet-ddd3/rea-full473.json",
+        "next_entry_evidence": "build/reset-df71-recovery/rea-native.json",
+        "gap_xref_evidence": [
+          "build/receive-packet-ddd3/rea-gap-xref-1dec0.json",
+          "build/receive-packet-ddd3/rea-gap-xref-1dec1.json"
+        ],
+        "gap_decoder_evidence": "build/receive-packet-ddd3/rea-gap-instruction.json",
+        "preceding_jump_evidence": "build/receive-packet-ddd3/rea-preceding-instruction.json",
+        "context_span_evidence": "build/send-packet-dce2/rea-full655.json",
+        "context_entry_evidence": "build/reset-df71-recovery/rea-sender.json",
+        "following_entry_evidence": "build/reset-df71-recovery/rea-next.json",
+        "following_span_evidence": "build/reset-df71-recovery/rea-raw.json",
+        "context_kind": "packet856_v1",
+        "extended_context_evidence": "build/packet-adjacent-root-followup/rea-full203.json",
+        "kind_wrapper_evidence": "build/packet-adjacent-root-followup/rea-dfe3.json",
+        "input_reset_evidence": "evidence/rea-next-source-1e00f.json",
+        "huff_next_evidence": "evidence/rea_huff_frame.json"
+      },
+      "boundary_evidence": "Genuine C5.00 /AS /Zi whole WORD CODE856 at DCE2..E03A: six actual PUBLIC/CV offsets0/241/655/714/769/813, sizes241/414/59/55/44/42; all36 actual fields (11/16/4/1/1/3) and three compiler-resolved backward sender calls. All855 function bytes plus nativeE03990 exact; alignment byte earns zero C credit. Overlapping complete original REA655/473/203 reads and nextHuff61 boundary; MZ0, independentmanual relocation and four actual loader bases verified. Receiver412live/414span requires exact packet856_v1 extent gate/57CFG/gap checks. Consumed39 valid-binary buffer model uses real compiler rounding; historical capacity/TU remain nonunique and native ASCII/lowerlength bugs preserved. Existing input_reset_e00f42 is a source replacement and counted once. Evidence build/packet-context-856-root/proof.json and build/packet-receiver-root-review/review.json."
+    },
+    {
+      "id": "reset_df71",
+      "language": "c",
+      "backend": "msc500-omf",
+      "source": "src/packet_context_match.c",
+      "symbol": "_reset_df71",
+      "image_offset": "0xdf71",
+      "size": 59,
+      "flags": [
+        "/AS",
+        "/Zi"
+      ],
+      "externals": {
+        "__chkstk": 60586,
+        "_modes": 1340,
+        "_pack_board_8cfa": 36090
+      },
+      "rea_evidence": "build/reset-df71-recovery/rea-native.json",
+      "boundary_evidence": "Genuine C5.00 /AS /Zi whole WORD CODE856 at DCE2..E03A: six actual PUBLIC/CV offsets0/241/655/714/769/813, sizes241/414/59/55/44/42; all36 actual fields (11/16/4/1/1/3) and three compiler-resolved backward sender calls. All855 function bytes plus nativeE03990 exact; alignment byte earns zero C credit. Overlapping complete original REA655/473/203 reads and nextHuff61 boundary; MZ0, independentmanual relocation and four actual loader bases verified. Receiver412live/414span requires exact packet856_v1 extent gate/57CFG/gap checks. Consumed39 valid-binary buffer model uses real compiler rounding; historical capacity/TU remain nonunique and native ASCII/lowerlength bugs preserved. Existing input_reset_e00f42 is a source replacement and counted once. Evidence build/packet-context-856-root/proof.json and build/packet-receiver-root-review/review.json."
+    },
+    {
+      "id": "record_dfac",
+      "symbol": "_record_dfac",
+      "source": "src/packet_context_match.c",
+      "language": "c",
+      "backend": "msc500-omf",
+      "image_offset": "0xdfac",
+      "size": 55,
+      "flags": [
+        "/AS",
+        "/Zi"
+      ],
+      "externals": {
+        "__chkstk": 60586
+      },
+      "rea_evidence": "build/reset-df71-recovery/rea-next.json",
+      "boundary_evidence": "Genuine C5.00 /AS /Zi whole WORD CODE856 at DCE2..E03A: six actual PUBLIC/CV offsets0/241/655/714/769/813, sizes241/414/59/55/44/42; all36 actual fields (11/16/4/1/1/3) and three compiler-resolved backward sender calls. All855 function bytes plus nativeE03990 exact; alignment byte earns zero C credit. Overlapping complete original REA655/473/203 reads and nextHuff61 boundary; MZ0, independentmanual relocation and four actual loader bases verified. Receiver412live/414span requires exact packet856_v1 extent gate/57CFG/gap checks. Consumed39 valid-binary buffer model uses real compiler rounding; historical capacity/TU remain nonunique and native ASCII/lowerlength bugs preserved. Existing input_reset_e00f42 is a source replacement and counted once. Evidence build/packet-context-856-root/proof.json and build/packet-receiver-root-review/review.json."
+    },
+    {
+      "id": "record_kind_dfe3",
+      "symbol": "_record_kind_dfe3",
+      "source": "src/packet_context_match.c",
+      "language": "c",
+      "backend": "msc500-omf",
+      "image_offset": "0xdfe3",
+      "size": 44,
+      "flags": [
+        "/AS",
+        "/Zi"
+      ],
+      "externals": {
+        "__chkstk": 60586
+      },
+      "rea_evidence": "build/packet-adjacent-root-followup/rea-dfe3.json",
+      "boundary_evidence": "Genuine C5.00 /AS /Zi whole WORD CODE856 at DCE2..E03A: six actual PUBLIC/CV offsets0/241/655/714/769/813, sizes241/414/59/55/44/42; all36 actual fields (11/16/4/1/1/3) and three compiler-resolved backward sender calls. All855 function bytes plus nativeE03990 exact; alignment byte earns zero C credit. Overlapping complete original REA655/473/203 reads and nextHuff61 boundary; MZ0, independentmanual relocation and four actual loader bases verified. Receiver412live/414span requires exact packet856_v1 extent gate/57CFG/gap checks. Consumed39 valid-binary buffer model uses real compiler rounding; historical capacity/TU remain nonunique and native ASCII/lowerlength bugs preserved. Existing input_reset_e00f42 is a source replacement and counted once. Evidence build/packet-context-856-root/proof.json and build/packet-receiver-root-review/review.json."
+    },
+    {
+      "language": "c",
+      "backend": "msc500-omf",
+      "id": "input_reset_e00f",
+      "source": "src/packet_context_match.c",
+      "symbol": "_input_reset_e00f",
+      "flags": [
+        "/AS",
+        "/Zi"
+      ],
+      "image_offset": "0xe00f",
+      "size": 42,
+      "externals": {
+        "__chkstk": 60586,
+        "_write_bytes_dbb5": 56245,
+        "_input_reset_state": 11968
+      },
+      "rea_evidence": "evidence/rea-next-source-1e00f.json",
+      "boundary_evidence": "Genuine C5.00 /AS /Zi whole WORD CODE856 at DCE2..E03A: six actual PUBLIC/CV offsets0/241/655/714/769/813, sizes241/414/59/55/44/42; all36 actual fields (11/16/4/1/1/3) and three compiler-resolved backward sender calls. All855 function bytes plus nativeE03990 exact; alignment byte earns zero C credit. Overlapping complete original REA655/473/203 reads and nextHuff61 boundary; MZ0, independentmanual relocation and four actual loader bases verified. Receiver412live/414span requires exact packet856_v1 extent gate/57CFG/gap checks. Consumed39 valid-binary buffer model uses real compiler rounding; historical capacity/TU remain nonunique and native ASCII/lowerlength bugs preserved. Existing input_reset_e00f42 is a source replacement and counted once. Evidence build/packet-context-856-root/proof.json and build/packet-receiver-root-review/review.json."
+    }
+  ],
+  "private_pending_group_required_before_SOURCE_seal": true,
+  "same_fresh_ClosedAggregateSealV1_required_before_final_rows": true,
+  "retained_calibration_cannot_mint_capability": true,
+  "no_raw62_materializer_or_generic_hole_policy_change": true,
+  "data61_existing_credit_counted_once_alignment1_context_only": true,
+  "toolchain_manifest_SHA256": "d2889507d0729b9d09fb92015fedccbb533c368d428c1612781c3ff980f00a82",
+  "tool_hashes": {
+    "CL.ERR": "b153605db3fbc0fa79e2f0d2ad5d814fbb70bfbebc1dbc0d2ed614194666621a",
+    "CL.EXE": "11e3c7d53b3efc085b7ad90c2190a1ddb395c8874f57aef3a5cfc0a4a0a0f504",
+    "C1.EXE": "3ef764476cb56dd14ae3c955a0b7717976d3b40f862fdff675ec8c6adc0ed791",
+    "C1.ERR": "dd02a004e8912c96b90a5b3317dcfeed6f9e76374edfd90979705035c8097233",
+    "C2.EXE": "19fbe7914ba6ebe929a0e98e012fd5e8522643e5e40b6fcd89bef0e5f650f1f1",
+    "C3.EXE": "ca4d82b90423086e68eb8d3af8f1c1c1034f164d0a0b98530c3b3a0fb0501669",
+    "C23.ERR": "75132883ac6507cccaa7d7105df6492f511ba029e4a12ee4a1fcc989517bfd18"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "qualification": "ONE actual MASM process, parser syntax failure before wholebody comparison; no bytecredit",
+  "actual_host_PID": 796614,
+  "DOSBox_terminal_reaped": true,
+  "MASM_log_error": "A2106 line9 rejected at actual502 bytes; no guessed global limit; undefined symbol cascade after rejected declaration",
+  "no_actual_wholebody_comparison_or_credit": true,
+  "old_frame_source_flags_unchanged": true,
+  "artifacts": [
+    {
+      "path": "/home/kierzo/chess/matching/build/save-cc72-authored610-one-MASM-preparation/freeze-manifest.json",
+      "sha256": "5c938b338ebf67721ad5a2238aa63d1d838ec3d0205e622fac48f032544a57a3"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/save-cc72-authored610-one-MASM-root-actual/generation-receipt.json",
+      "sha256": "3213a400e64709162ff41f795c6c0302768c6c28511b199e6326fef785703805"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/save-cc72-authored610-one-MASM-root-actual/root-generation-REA.json",
+      "sha256": "386aa4a153cc01c1dc561d7d720a111e52c33c4f916a279d4a270ddd4a7ebb1a"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/save-cc72-authored610-one-MASM-root-actual/scratch/MASM.LOG",
+      "sha256": "82fae3b328147b5b0278bdeac993b4b7cc5d5dde4d5b550dc9fa044fbb8a70a6"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/save-cc72-authored610-one-MASM-root-actual/scratch/UNIT.ASM",
+      "sha256": "1d195b2b0cf7715c8a4cf0368d64ca6457a672a8fca0a3118ac21cee0c04ee9c"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/save-cc72-authored610-one-MASM-root-actual/root-terminal-receipt.json",
+      "sha256": "756a24d5ec3d3c8146d034e8e378900bd128be75c02fda0062f9581359138734"
+    }
+  ]
+}

@@ -1,0 +1,1392 @@
+[
+  {
+    "evidence_id": "ev_35df109ecf6613c6fdfab4dde601ed0cd7f8e0bc9d8c097f32091785061bf2e7",
+    "subject": {
+      "name": "CHESS.EXE",
+      "digest": {
+        "sha256": "c32d4f6bc732b67efa65d55bc5813bc74dcfb52b8616894b57ed7aeeeed2a1cd"
+      },
+      "format": "dos-mz",
+      "architecture": "x86",
+      "local_path": "/home/kierzo/chess/CHESS.EXE"
+    },
+    "provider": {
+      "id": "ghidra",
+      "name": "Ghidra",
+      "version": "12.1.4"
+    },
+    "analysis_profile": {
+      "provider": {
+        "id": "ghidra",
+        "name": "Ghidra",
+        "version": "12.1.4"
+      },
+      "parameters": {
+        "target_kind": "executable",
+        "target_format": "dos-mz",
+        "architecture": "x86",
+        "available_architectures": [
+          "x86"
+        ],
+        "import_mode": "ephemeral-source-immutable",
+        "annotation_policy": "atomic-function-entry-metadata-v1",
+        "load_image_observations": "source-mappings-entry-context-v2",
+        "function_body_evidence": "complete-inclusive-ranges-v1",
+        "function_references": "complete-body-and-entry-reference-manager-v2",
+        "location_resolution": "explicit-address-exact-entry-symbol-first-v3",
+        "instruction_flow_evidence": "decoded-return-pcode-v1",
+        "process_launch": "inspected-jvm-launch-support-v1",
+        "load_image_evidence": "independent-mz-mapping-relocations-v1",
+        "jump_table_evidence": "typed-case-default-blocks-v1",
+        "decompiler_jump_loads": true,
+        "loader": "MzLoader",
+        "language_id": "x86:LE:16:Real Mode",
+        "compiler_spec_id": "default",
+        "load_segment": "0x1000",
+        "address_coordinates": "linear-byte-offset",
+        "analyzer_preset": "ghidra-default"
+      },
+      "digest": "894e458d232de9bdeb2a5d661cd2b4791ee9e10f88d297423fc0c7553a7a66d8"
+    },
+    "predicate_type": "rea.analysis",
+    "operation": "inspect_native_instruction",
+    "parameters": {
+      "address": "0x18577"
+    },
+    "raw_result": {
+      "address": "0x18577",
+      "procedure": "0x18577",
+      "architecture": "x86:LE:16:Real Mode",
+      "mode": "Real Mode",
+      "status": "decoded",
+      "bytes": "eb03",
+      "length": 2,
+      "mnemonic": "JMP",
+      "raw_disassembly": "JMP 0x1000:857c",
+      "operands": [
+        {
+          "index": 0,
+          "raw": "0x1000:857c",
+          "provider_type": 8256,
+          "memory_addressing": "unavailable",
+          "components": [
+            {
+              "text": "1000:857c",
+              "value": "0x1857c",
+              "bit_width": null,
+              "kind": "address"
+            }
+          ]
+        }
+      ],
+      "flow": {
+        "kind": "jump",
+        "conditional": false,
+        "computed": false,
+        "direct_destinations": [
+          "0x1857c"
+        ],
+        "classification_evidence": [
+          {
+            "source": "ghidra-listing-flow-type",
+            "value": "UNCONDITIONAL_JUMP"
+          }
+        ]
+      },
+      "references": [
+        {
+          "target_address": "0x1857c",
+          "type": "UNCONDITIONAL_JUMP",
+          "call": false,
+          "jump": true,
+          "indirect": false,
+          "computed": false,
+          "operand_index": 0
+        }
+      ],
+      "limitations": [
+        "Operand components are Ghidra Listing decoder tokens; effective memory base/index/displacement roles and per-instruction context mode are unavailable. The mode field is the program language variant."
+      ]
+    },
+    "normalized_result": {
+      "address": "0x18577",
+      "status": "decoded",
+      "procedure": "0x18577",
+      "architecture": "x86:LE:16:Real Mode",
+      "mode": "Real Mode",
+      "bytes": "eb03",
+      "length": 2,
+      "mnemonic": "JMP",
+      "raw_disassembly": "JMP 0x1000:857c",
+      "operands": [
+        {
+          "index": 0,
+          "raw": "0x1000:857c",
+          "provider_type": 8256,
+          "components": [
+            {
+              "kind": "address",
+              "text": "1000:857c",
+              "value": "0x1857c",
+              "bit_width": null
+            }
+          ],
+          "memory_addressing": "unavailable"
+        }
+      ],
+      "flow": {
+        "kind": "jump",
+        "conditional": false,
+        "computed": false,
+        "direct_destinations": [
+          "0x1857c"
+        ],
+        "classification_evidence": [
+          {
+            "source": "ghidra-listing-flow-type",
+            "value": "UNCONDITIONAL_JUMP"
+          }
+        ]
+      },
+      "references": [
+        {
+          "target_address": "0x1857c",
+          "type": "UNCONDITIONAL_JUMP",
+          "call": false,
+          "jump": true,
+          "indirect": false,
+          "computed": false,
+          "operand_index": 0
+        }
+      ],
+      "limitations": [
+        "Operand components are Ghidra Listing decoder tokens; effective memory base/index/displacement roles and per-instruction context mode are unavailable. The mode field is the program language variant."
+      ]
+    },
+    "confidence": "observed",
+    "authority": "shipped-artifact",
+    "environment": null,
+    "limitations": [
+      "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+      "The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.",
+      "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+      "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+      "DOS MZ uses 16-bit x86 real mode with the Ghidra load segment 0x1000. Returned addresses are linear byte coordinates; they do not identify a unique segment:offset alias.",
+      "Static DOS analysis does not emulate BIOS, DOS interrupts, device ports, or self-modifying unpacking code. Packed targets require a separately identified unpacked artifact for original-program analysis; appended overlays are not the initialized load module."
+    ],
+    "locations": [],
+    "evidence_links": []
+  },
+  {
+    "evidence_id": "ev_7736f854164c7c51485a6f8d9a261420d6bdae3d160c9fc34f1afd8186f8c5fb",
+    "subject": {
+      "name": "CHESS.EXE",
+      "digest": {
+        "sha256": "c32d4f6bc732b67efa65d55bc5813bc74dcfb52b8616894b57ed7aeeeed2a1cd"
+      },
+      "format": "dos-mz",
+      "architecture": "x86",
+      "local_path": "/home/kierzo/chess/CHESS.EXE"
+    },
+    "provider": {
+      "id": "ghidra",
+      "name": "Ghidra",
+      "version": "12.1.4"
+    },
+    "analysis_profile": {
+      "provider": {
+        "id": "ghidra",
+        "name": "Ghidra",
+        "version": "12.1.4"
+      },
+      "parameters": {
+        "target_kind": "executable",
+        "target_format": "dos-mz",
+        "architecture": "x86",
+        "available_architectures": [
+          "x86"
+        ],
+        "import_mode": "ephemeral-source-immutable",
+        "annotation_policy": "atomic-function-entry-metadata-v1",
+        "load_image_observations": "source-mappings-entry-context-v2",
+        "function_body_evidence": "complete-inclusive-ranges-v1",
+        "function_references": "complete-body-and-entry-reference-manager-v2",
+        "location_resolution": "explicit-address-exact-entry-symbol-first-v3",
+        "instruction_flow_evidence": "decoded-return-pcode-v1",
+        "process_launch": "inspected-jvm-launch-support-v1",
+        "load_image_evidence": "independent-mz-mapping-relocations-v1",
+        "jump_table_evidence": "typed-case-default-blocks-v1",
+        "decompiler_jump_loads": true,
+        "loader": "MzLoader",
+        "language_id": "x86:LE:16:Real Mode",
+        "compiler_spec_id": "default",
+        "load_segment": "0x1000",
+        "address_coordinates": "linear-byte-offset",
+        "analyzer_preset": "ghidra-default"
+      },
+      "digest": "894e458d232de9bdeb2a5d661cd2b4791ee9e10f88d297423fc0c7553a7a66d8"
+    },
+    "predicate_type": "rea.analysis",
+    "operation": "inspect_native_instruction",
+    "parameters": {
+      "address": "0x18579"
+    },
+    "raw_result": {
+      "address": "0x18579",
+      "procedure": "0x1857c",
+      "architecture": "x86:LE:16:Real Mode",
+      "mode": "Real Mode",
+      "status": "decoded",
+      "bytes": "e81100",
+      "length": 3,
+      "mnemonic": "CALL",
+      "raw_disassembly": "CALL 0x1000:858d",
+      "operands": [
+        {
+          "index": 0,
+          "raw": "0x1000:858d",
+          "provider_type": 8256,
+          "memory_addressing": "unavailable",
+          "components": [
+            {
+              "text": "1000:858d",
+              "value": "0x1858d",
+              "bit_width": null,
+              "kind": "address"
+            }
+          ]
+        }
+      ],
+      "flow": {
+        "kind": "call",
+        "conditional": false,
+        "computed": false,
+        "direct_destinations": [
+          "0x1858d"
+        ],
+        "classification_evidence": [
+          {
+            "source": "ghidra-listing-flow-type",
+            "value": "UNCONDITIONAL_CALL"
+          }
+        ]
+      },
+      "references": [
+        {
+          "target_address": "0x1858d",
+          "type": "UNCONDITIONAL_CALL",
+          "call": true,
+          "jump": false,
+          "indirect": false,
+          "computed": false,
+          "operand_index": 0
+        }
+      ],
+      "limitations": [
+        "Operand components are Ghidra Listing decoder tokens; effective memory base/index/displacement roles and per-instruction context mode are unavailable. The mode field is the program language variant."
+      ]
+    },
+    "normalized_result": {
+      "address": "0x18579",
+      "status": "decoded",
+      "procedure": "0x1857c",
+      "architecture": "x86:LE:16:Real Mode",
+      "mode": "Real Mode",
+      "bytes": "e81100",
+      "length": 3,
+      "mnemonic": "CALL",
+      "raw_disassembly": "CALL 0x1000:858d",
+      "operands": [
+        {
+          "index": 0,
+          "raw": "0x1000:858d",
+          "provider_type": 8256,
+          "components": [
+            {
+              "kind": "address",
+              "text": "1000:858d",
+              "value": "0x1858d",
+              "bit_width": null
+            }
+          ],
+          "memory_addressing": "unavailable"
+        }
+      ],
+      "flow": {
+        "kind": "call",
+        "conditional": false,
+        "computed": false,
+        "direct_destinations": [
+          "0x1858d"
+        ],
+        "classification_evidence": [
+          {
+            "source": "ghidra-listing-flow-type",
+            "value": "UNCONDITIONAL_CALL"
+          }
+        ]
+      },
+      "references": [
+        {
+          "target_address": "0x1858d",
+          "type": "UNCONDITIONAL_CALL",
+          "call": true,
+          "jump": false,
+          "indirect": false,
+          "computed": false,
+          "operand_index": 0
+        }
+      ],
+      "limitations": [
+        "Operand components are Ghidra Listing decoder tokens; effective memory base/index/displacement roles and per-instruction context mode are unavailable. The mode field is the program language variant."
+      ]
+    },
+    "confidence": "observed",
+    "authority": "shipped-artifact",
+    "environment": null,
+    "limitations": [
+      "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+      "The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.",
+      "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+      "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+      "DOS MZ uses 16-bit x86 real mode with the Ghidra load segment 0x1000. Returned addresses are linear byte coordinates; they do not identify a unique segment:offset alias.",
+      "Static DOS analysis does not emulate BIOS, DOS interrupts, device ports, or self-modifying unpacking code. Packed targets require a separately identified unpacked artifact for original-program analysis; appended overlays are not the initialized load module."
+    ],
+    "locations": [],
+    "evidence_links": []
+  },
+  {
+    "evidence_id": "ev_2d5e06b0210e291b0fa153aa348e33a478c7b7d848ee244b83390ea9b0252e85",
+    "subject": {
+      "name": "CHESS.EXE",
+      "digest": {
+        "sha256": "c32d4f6bc732b67efa65d55bc5813bc74dcfb52b8616894b57ed7aeeeed2a1cd"
+      },
+      "format": "dos-mz",
+      "architecture": "x86",
+      "local_path": "/home/kierzo/chess/CHESS.EXE"
+    },
+    "provider": {
+      "id": "ghidra",
+      "name": "Ghidra",
+      "version": "12.1.4"
+    },
+    "analysis_profile": {
+      "provider": {
+        "id": "ghidra",
+        "name": "Ghidra",
+        "version": "12.1.4"
+      },
+      "parameters": {
+        "target_kind": "executable",
+        "target_format": "dos-mz",
+        "architecture": "x86",
+        "available_architectures": [
+          "x86"
+        ],
+        "import_mode": "ephemeral-source-immutable",
+        "annotation_policy": "atomic-function-entry-metadata-v1",
+        "load_image_observations": "source-mappings-entry-context-v2",
+        "function_body_evidence": "complete-inclusive-ranges-v1",
+        "function_references": "complete-body-and-entry-reference-manager-v2",
+        "location_resolution": "explicit-address-exact-entry-symbol-first-v3",
+        "instruction_flow_evidence": "decoded-return-pcode-v1",
+        "process_launch": "inspected-jvm-launch-support-v1",
+        "load_image_evidence": "independent-mz-mapping-relocations-v1",
+        "jump_table_evidence": "typed-case-default-blocks-v1",
+        "decompiler_jump_loads": true,
+        "loader": "MzLoader",
+        "language_id": "x86:LE:16:Real Mode",
+        "compiler_spec_id": "default",
+        "load_segment": "0x1000",
+        "address_coordinates": "linear-byte-offset",
+        "analyzer_preset": "ghidra-default"
+      },
+      "digest": "894e458d232de9bdeb2a5d661cd2b4791ee9e10f88d297423fc0c7553a7a66d8"
+    },
+    "predicate_type": "rea.analysis",
+    "operation": "inspect_native_instruction",
+    "parameters": {
+      "address": "0x1857c"
+    },
+    "raw_result": {
+      "address": "0x1857c",
+      "procedure": "0x1857c",
+      "architecture": "x86:LE:16:Real Mode",
+      "mode": "Real Mode",
+      "status": "decoded",
+      "bytes": "8b1ed2b0",
+      "length": 4,
+      "mnemonic": "MOV",
+      "raw_disassembly": "MOV BX,word ptr [0xb0d2]",
+      "operands": [
+        {
+          "index": 0,
+          "raw": "BX",
+          "provider_type": 512,
+          "memory_addressing": "unavailable",
+          "components": [
+            {
+              "text": "BX",
+              "value": "BX",
+              "bit_width": 16,
+              "kind": "register"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "raw": "word ptr [0xb0d2]",
+          "provider_type": 4194304,
+          "memory_addressing": "unavailable",
+          "components": [
+            {
+              "text": "0xb0d2",
+              "value": "0xb0d2",
+              "bit_width": 16,
+              "kind": "immediate"
+            }
+          ]
+        }
+      ],
+      "flow": {
+        "kind": "fallthrough",
+        "conditional": false,
+        "computed": false,
+        "direct_destinations": [],
+        "classification_evidence": [
+          {
+            "source": "ghidra-listing-flow-type",
+            "value": "FALL_THROUGH"
+          }
+        ]
+      },
+      "references": [],
+      "limitations": [
+        "Operand components are Ghidra Listing decoder tokens; effective memory base/index/displacement roles and per-instruction context mode are unavailable. The mode field is the program language variant."
+      ]
+    },
+    "normalized_result": {
+      "address": "0x1857c",
+      "status": "decoded",
+      "procedure": "0x1857c",
+      "architecture": "x86:LE:16:Real Mode",
+      "mode": "Real Mode",
+      "bytes": "8b1ed2b0",
+      "length": 4,
+      "mnemonic": "MOV",
+      "raw_disassembly": "MOV BX,word ptr [0xb0d2]",
+      "operands": [
+        {
+          "index": 0,
+          "raw": "BX",
+          "provider_type": 512,
+          "components": [
+            {
+              "kind": "register",
+              "text": "BX",
+              "value": "BX",
+              "bit_width": 16
+            }
+          ],
+          "memory_addressing": "unavailable"
+        },
+        {
+          "index": 1,
+          "raw": "word ptr [0xb0d2]",
+          "provider_type": 4194304,
+          "components": [
+            {
+              "kind": "immediate",
+              "text": "0xb0d2",
+              "value": "0xb0d2",
+              "bit_width": 16
+            }
+          ],
+          "memory_addressing": "unavailable"
+        }
+      ],
+      "flow": {
+        "kind": "fallthrough",
+        "conditional": false,
+        "computed": false,
+        "direct_destinations": [],
+        "classification_evidence": [
+          {
+            "source": "ghidra-listing-flow-type",
+            "value": "FALL_THROUGH"
+          }
+        ]
+      },
+      "references": [],
+      "limitations": [
+        "Operand components are Ghidra Listing decoder tokens; effective memory base/index/displacement roles and per-instruction context mode are unavailable. The mode field is the program language variant."
+      ]
+    },
+    "confidence": "observed",
+    "authority": "shipped-artifact",
+    "environment": null,
+    "limitations": [
+      "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+      "The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.",
+      "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+      "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+      "DOS MZ uses 16-bit x86 real mode with the Ghidra load segment 0x1000. Returned addresses are linear byte coordinates; they do not identify a unique segment:offset alias.",
+      "Static DOS analysis does not emulate BIOS, DOS interrupts, device ports, or self-modifying unpacking code. Packed targets require a separately identified unpacked artifact for original-program analysis; appended overlays are not the initialized load module."
+    ],
+    "locations": [],
+    "evidence_links": []
+  },
+  {
+    "evidence_id": "ev_ee44d38714f73b6fcf875997a78a842cb8149c38b1cbc71f38f2c9fea805476b",
+    "subject": {
+      "name": "CHESS.EXE",
+      "digest": {
+        "sha256": "c32d4f6bc732b67efa65d55bc5813bc74dcfb52b8616894b57ed7aeeeed2a1cd"
+      },
+      "format": "dos-mz",
+      "architecture": "x86",
+      "local_path": "/home/kierzo/chess/CHESS.EXE"
+    },
+    "provider": {
+      "id": "ghidra",
+      "name": "Ghidra",
+      "version": "12.1.4"
+    },
+    "analysis_profile": {
+      "provider": {
+        "id": "ghidra",
+        "name": "Ghidra",
+        "version": "12.1.4"
+      },
+      "parameters": {
+        "target_kind": "executable",
+        "target_format": "dos-mz",
+        "architecture": "x86",
+        "available_architectures": [
+          "x86"
+        ],
+        "import_mode": "ephemeral-source-immutable",
+        "annotation_policy": "atomic-function-entry-metadata-v1",
+        "load_image_observations": "source-mappings-entry-context-v2",
+        "function_body_evidence": "complete-inclusive-ranges-v1",
+        "function_references": "complete-body-and-entry-reference-manager-v2",
+        "location_resolution": "explicit-address-exact-entry-symbol-first-v3",
+        "instruction_flow_evidence": "decoded-return-pcode-v1",
+        "process_launch": "inspected-jvm-launch-support-v1",
+        "load_image_evidence": "independent-mz-mapping-relocations-v1",
+        "jump_table_evidence": "typed-case-default-blocks-v1",
+        "decompiler_jump_loads": true,
+        "loader": "MzLoader",
+        "language_id": "x86:LE:16:Real Mode",
+        "compiler_spec_id": "default",
+        "load_segment": "0x1000",
+        "address_coordinates": "linear-byte-offset",
+        "analyzer_preset": "ghidra-default"
+      },
+      "digest": "894e458d232de9bdeb2a5d661cd2b4791ee9e10f88d297423fc0c7553a7a66d8"
+    },
+    "predicate_type": "rea.analysis",
+    "operation": "inspect_native_instruction",
+    "parameters": {
+      "address": "0x18580"
+    },
+    "raw_result": {
+      "address": "0x18580",
+      "procedure": "0x1857c",
+      "architecture": "x86:LE:16:Real Mode",
+      "mode": "Real Mode",
+      "status": "decoded",
+      "bytes": "8e06a64d",
+      "length": 4,
+      "mnemonic": "MOV",
+      "raw_disassembly": "MOV ES,word ptr [0x4da6]",
+      "operands": [
+        {
+          "index": 0,
+          "raw": "ES",
+          "provider_type": 512,
+          "memory_addressing": "unavailable",
+          "components": [
+            {
+              "text": "ES",
+              "value": "ES",
+              "bit_width": 16,
+              "kind": "register"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "raw": "word ptr [0x4da6]",
+          "provider_type": 4194304,
+          "memory_addressing": "unavailable",
+          "components": [
+            {
+              "text": "0x4da6",
+              "value": "0x4da6",
+              "bit_width": 16,
+              "kind": "immediate"
+            }
+          ]
+        }
+      ],
+      "flow": {
+        "kind": "fallthrough",
+        "conditional": false,
+        "computed": false,
+        "direct_destinations": [],
+        "classification_evidence": [
+          {
+            "source": "ghidra-listing-flow-type",
+            "value": "FALL_THROUGH"
+          }
+        ]
+      },
+      "references": [],
+      "limitations": [
+        "Operand components are Ghidra Listing decoder tokens; effective memory base/index/displacement roles and per-instruction context mode are unavailable. The mode field is the program language variant."
+      ]
+    },
+    "normalized_result": {
+      "address": "0x18580",
+      "status": "decoded",
+      "procedure": "0x1857c",
+      "architecture": "x86:LE:16:Real Mode",
+      "mode": "Real Mode",
+      "bytes": "8e06a64d",
+      "length": 4,
+      "mnemonic": "MOV",
+      "raw_disassembly": "MOV ES,word ptr [0x4da6]",
+      "operands": [
+        {
+          "index": 0,
+          "raw": "ES",
+          "provider_type": 512,
+          "components": [
+            {
+              "kind": "register",
+              "text": "ES",
+              "value": "ES",
+              "bit_width": 16
+            }
+          ],
+          "memory_addressing": "unavailable"
+        },
+        {
+          "index": 1,
+          "raw": "word ptr [0x4da6]",
+          "provider_type": 4194304,
+          "components": [
+            {
+              "kind": "immediate",
+              "text": "0x4da6",
+              "value": "0x4da6",
+              "bit_width": 16
+            }
+          ],
+          "memory_addressing": "unavailable"
+        }
+      ],
+      "flow": {
+        "kind": "fallthrough",
+        "conditional": false,
+        "computed": false,
+        "direct_destinations": [],
+        "classification_evidence": [
+          {
+            "source": "ghidra-listing-flow-type",
+            "value": "FALL_THROUGH"
+          }
+        ]
+      },
+      "references": [],
+      "limitations": [
+        "Operand components are Ghidra Listing decoder tokens; effective memory base/index/displacement roles and per-instruction context mode are unavailable. The mode field is the program language variant."
+      ]
+    },
+    "confidence": "observed",
+    "authority": "shipped-artifact",
+    "environment": null,
+    "limitations": [
+      "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+      "The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.",
+      "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+      "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+      "DOS MZ uses 16-bit x86 real mode with the Ghidra load segment 0x1000. Returned addresses are linear byte coordinates; they do not identify a unique segment:offset alias.",
+      "Static DOS analysis does not emulate BIOS, DOS interrupts, device ports, or self-modifying unpacking code. Packed targets require a separately identified unpacked artifact for original-program analysis; appended overlays are not the initialized load module."
+    ],
+    "locations": [],
+    "evidence_links": []
+  },
+  {
+    "evidence_id": "ev_85920f08e2b7d6a791f58f83bce6ab1258259ba263f784ec719018ca6902b654",
+    "subject": {
+      "name": "CHESS.EXE",
+      "digest": {
+        "sha256": "c32d4f6bc732b67efa65d55bc5813bc74dcfb52b8616894b57ed7aeeeed2a1cd"
+      },
+      "format": "dos-mz",
+      "architecture": "x86",
+      "local_path": "/home/kierzo/chess/CHESS.EXE"
+    },
+    "provider": {
+      "id": "ghidra",
+      "name": "Ghidra",
+      "version": "12.1.4"
+    },
+    "analysis_profile": {
+      "provider": {
+        "id": "ghidra",
+        "name": "Ghidra",
+        "version": "12.1.4"
+      },
+      "parameters": {
+        "target_kind": "executable",
+        "target_format": "dos-mz",
+        "architecture": "x86",
+        "available_architectures": [
+          "x86"
+        ],
+        "import_mode": "ephemeral-source-immutable",
+        "annotation_policy": "atomic-function-entry-metadata-v1",
+        "load_image_observations": "source-mappings-entry-context-v2",
+        "function_body_evidence": "complete-inclusive-ranges-v1",
+        "function_references": "complete-body-and-entry-reference-manager-v2",
+        "location_resolution": "explicit-address-exact-entry-symbol-first-v3",
+        "instruction_flow_evidence": "decoded-return-pcode-v1",
+        "process_launch": "inspected-jvm-launch-support-v1",
+        "load_image_evidence": "independent-mz-mapping-relocations-v1",
+        "jump_table_evidence": "typed-case-default-blocks-v1",
+        "decompiler_jump_loads": true,
+        "loader": "MzLoader",
+        "language_id": "x86:LE:16:Real Mode",
+        "compiler_spec_id": "default",
+        "load_segment": "0x1000",
+        "address_coordinates": "linear-byte-offset",
+        "analyzer_preset": "ghidra-default"
+      },
+      "digest": "894e458d232de9bdeb2a5d661cd2b4791ee9e10f88d297423fc0c7553a7a66d8"
+    },
+    "predicate_type": "rea.analysis",
+    "operation": "inspect_native_instruction",
+    "parameters": {
+      "address": "0x18584"
+    },
+    "raw_result": {
+      "address": "0x18584",
+      "procedure": "0x1857c",
+      "architecture": "x86:LE:16:Real Mode",
+      "mode": "Real Mode",
+      "status": "decoded",
+      "bytes": "26f687ffff40",
+      "length": 6,
+      "mnemonic": "TEST",
+      "raw_disassembly": "TEST byte ptr ES:[BX + 0xffff],0x40",
+      "operands": [
+        {
+          "index": 0,
+          "raw": "byte ptr ES:[BX + 0xffff]",
+          "provider_type": 4194304,
+          "memory_addressing": "unavailable",
+          "components": [
+            {
+              "text": "ES",
+              "value": "ES",
+              "bit_width": 16,
+              "kind": "register"
+            },
+            {
+              "text": "BX",
+              "value": "BX",
+              "bit_width": 16,
+              "kind": "register"
+            },
+            {
+              "text": "0xffff",
+              "value": "0xffff",
+              "bit_width": 16,
+              "kind": "immediate"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "raw": "0x40",
+          "provider_type": 16384,
+          "memory_addressing": "unavailable",
+          "components": [
+            {
+              "text": "0x40",
+              "value": "0x40",
+              "bit_width": 8,
+              "kind": "immediate"
+            }
+          ]
+        }
+      ],
+      "flow": {
+        "kind": "fallthrough",
+        "conditional": false,
+        "computed": false,
+        "direct_destinations": [],
+        "classification_evidence": [
+          {
+            "source": "ghidra-listing-flow-type",
+            "value": "FALL_THROUGH"
+          }
+        ]
+      },
+      "references": [],
+      "limitations": [
+        "Operand components are Ghidra Listing decoder tokens; effective memory base/index/displacement roles and per-instruction context mode are unavailable. The mode field is the program language variant."
+      ]
+    },
+    "normalized_result": {
+      "address": "0x18584",
+      "status": "decoded",
+      "procedure": "0x1857c",
+      "architecture": "x86:LE:16:Real Mode",
+      "mode": "Real Mode",
+      "bytes": "26f687ffff40",
+      "length": 6,
+      "mnemonic": "TEST",
+      "raw_disassembly": "TEST byte ptr ES:[BX + 0xffff],0x40",
+      "operands": [
+        {
+          "index": 0,
+          "raw": "byte ptr ES:[BX + 0xffff]",
+          "provider_type": 4194304,
+          "components": [
+            {
+              "kind": "register",
+              "text": "ES",
+              "value": "ES",
+              "bit_width": 16
+            },
+            {
+              "kind": "register",
+              "text": "BX",
+              "value": "BX",
+              "bit_width": 16
+            },
+            {
+              "kind": "immediate",
+              "text": "0xffff",
+              "value": "0xffff",
+              "bit_width": 16
+            }
+          ],
+          "memory_addressing": "unavailable"
+        },
+        {
+          "index": 1,
+          "raw": "0x40",
+          "provider_type": 16384,
+          "components": [
+            {
+              "kind": "immediate",
+              "text": "0x40",
+              "value": "0x40",
+              "bit_width": 8
+            }
+          ],
+          "memory_addressing": "unavailable"
+        }
+      ],
+      "flow": {
+        "kind": "fallthrough",
+        "conditional": false,
+        "computed": false,
+        "direct_destinations": [],
+        "classification_evidence": [
+          {
+            "source": "ghidra-listing-flow-type",
+            "value": "FALL_THROUGH"
+          }
+        ]
+      },
+      "references": [],
+      "limitations": [
+        "Operand components are Ghidra Listing decoder tokens; effective memory base/index/displacement roles and per-instruction context mode are unavailable. The mode field is the program language variant."
+      ]
+    },
+    "confidence": "observed",
+    "authority": "shipped-artifact",
+    "environment": null,
+    "limitations": [
+      "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+      "The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.",
+      "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+      "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+      "DOS MZ uses 16-bit x86 real mode with the Ghidra load segment 0x1000. Returned addresses are linear byte coordinates; they do not identify a unique segment:offset alias.",
+      "Static DOS analysis does not emulate BIOS, DOS interrupts, device ports, or self-modifying unpacking code. Packed targets require a separately identified unpacked artifact for original-program analysis; appended overlays are not the initialized load module."
+    ],
+    "locations": [],
+    "evidence_links": []
+  },
+  {
+    "evidence_id": "ev_ddc55929ac80a85c68786a199d06f83bc8b0afecf4a413d9ae78bd57b5b3f21c",
+    "subject": {
+      "name": "CHESS.EXE",
+      "digest": {
+        "sha256": "c32d4f6bc732b67efa65d55bc5813bc74dcfb52b8616894b57ed7aeeeed2a1cd"
+      },
+      "format": "dos-mz",
+      "architecture": "x86",
+      "local_path": "/home/kierzo/chess/CHESS.EXE"
+    },
+    "provider": {
+      "id": "ghidra",
+      "name": "Ghidra",
+      "version": "12.1.4"
+    },
+    "analysis_profile": {
+      "provider": {
+        "id": "ghidra",
+        "name": "Ghidra",
+        "version": "12.1.4"
+      },
+      "parameters": {
+        "target_kind": "executable",
+        "target_format": "dos-mz",
+        "architecture": "x86",
+        "available_architectures": [
+          "x86"
+        ],
+        "import_mode": "ephemeral-source-immutable",
+        "annotation_policy": "atomic-function-entry-metadata-v1",
+        "load_image_observations": "source-mappings-entry-context-v2",
+        "function_body_evidence": "complete-inclusive-ranges-v1",
+        "function_references": "complete-body-and-entry-reference-manager-v2",
+        "location_resolution": "explicit-address-exact-entry-symbol-first-v3",
+        "instruction_flow_evidence": "decoded-return-pcode-v1",
+        "process_launch": "inspected-jvm-launch-support-v1",
+        "load_image_evidence": "independent-mz-mapping-relocations-v1",
+        "jump_table_evidence": "typed-case-default-blocks-v1",
+        "decompiler_jump_loads": true,
+        "loader": "MzLoader",
+        "language_id": "x86:LE:16:Real Mode",
+        "compiler_spec_id": "default",
+        "load_segment": "0x1000",
+        "address_coordinates": "linear-byte-offset",
+        "analyzer_preset": "ghidra-default"
+      },
+      "digest": "894e458d232de9bdeb2a5d661cd2b4791ee9e10f88d297423fc0c7553a7a66d8"
+    },
+    "predicate_type": "rea.analysis",
+    "operation": "inspect_native_instruction",
+    "parameters": {
+      "address": "0x1858a"
+    },
+    "raw_result": {
+      "address": "0x1858a",
+      "procedure": "0x1857c",
+      "architecture": "x86:LE:16:Real Mode",
+      "mode": "Real Mode",
+      "status": "decoded",
+      "bytes": "74ed",
+      "length": 2,
+      "mnemonic": "JZ",
+      "raw_disassembly": "JZ 0x1000:8579",
+      "operands": [
+        {
+          "index": 0,
+          "raw": "0x1000:8579",
+          "provider_type": 8256,
+          "memory_addressing": "unavailable",
+          "components": [
+            {
+              "text": "1000:8579",
+              "value": "0x18579",
+              "bit_width": null,
+              "kind": "address"
+            }
+          ]
+        }
+      ],
+      "flow": {
+        "kind": "jump",
+        "conditional": true,
+        "computed": false,
+        "direct_destinations": [
+          "0x18579"
+        ],
+        "classification_evidence": [
+          {
+            "source": "ghidra-listing-flow-type",
+            "value": "CONDITIONAL_JUMP"
+          }
+        ]
+      },
+      "references": [
+        {
+          "target_address": "0x18579",
+          "type": "CONDITIONAL_JUMP",
+          "call": false,
+          "jump": true,
+          "indirect": false,
+          "computed": false,
+          "operand_index": 0
+        }
+      ],
+      "limitations": [
+        "Operand components are Ghidra Listing decoder tokens; effective memory base/index/displacement roles and per-instruction context mode are unavailable. The mode field is the program language variant."
+      ]
+    },
+    "normalized_result": {
+      "address": "0x1858a",
+      "status": "decoded",
+      "procedure": "0x1857c",
+      "architecture": "x86:LE:16:Real Mode",
+      "mode": "Real Mode",
+      "bytes": "74ed",
+      "length": 2,
+      "mnemonic": "JZ",
+      "raw_disassembly": "JZ 0x1000:8579",
+      "operands": [
+        {
+          "index": 0,
+          "raw": "0x1000:8579",
+          "provider_type": 8256,
+          "components": [
+            {
+              "kind": "address",
+              "text": "1000:8579",
+              "value": "0x18579",
+              "bit_width": null
+            }
+          ],
+          "memory_addressing": "unavailable"
+        }
+      ],
+      "flow": {
+        "kind": "jump",
+        "conditional": true,
+        "computed": false,
+        "direct_destinations": [
+          "0x18579"
+        ],
+        "classification_evidence": [
+          {
+            "source": "ghidra-listing-flow-type",
+            "value": "CONDITIONAL_JUMP"
+          }
+        ]
+      },
+      "references": [
+        {
+          "target_address": "0x18579",
+          "type": "CONDITIONAL_JUMP",
+          "call": false,
+          "jump": true,
+          "indirect": false,
+          "computed": false,
+          "operand_index": 0
+        }
+      ],
+      "limitations": [
+        "Operand components are Ghidra Listing decoder tokens; effective memory base/index/displacement roles and per-instruction context mode are unavailable. The mode field is the program language variant."
+      ]
+    },
+    "confidence": "observed",
+    "authority": "shipped-artifact",
+    "environment": null,
+    "limitations": [
+      "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+      "The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.",
+      "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+      "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+      "DOS MZ uses 16-bit x86 real mode with the Ghidra load segment 0x1000. Returned addresses are linear byte coordinates; they do not identify a unique segment:offset alias.",
+      "Static DOS analysis does not emulate BIOS, DOS interrupts, device ports, or self-modifying unpacking code. Packed targets require a separately identified unpacked artifact for original-program analysis; appended overlays are not the initialized load module."
+    ],
+    "locations": [],
+    "evidence_links": []
+  },
+  {
+    "evidence_id": "ev_519607dd8c76a48645c7ac058a206950e07b4a1cb641eea71efcb4d2176be36c",
+    "subject": {
+      "name": "CHESS.EXE",
+      "digest": {
+        "sha256": "c32d4f6bc732b67efa65d55bc5813bc74dcfb52b8616894b57ed7aeeeed2a1cd"
+      },
+      "format": "dos-mz",
+      "architecture": "x86",
+      "local_path": "/home/kierzo/chess/CHESS.EXE"
+    },
+    "provider": {
+      "id": "ghidra",
+      "name": "Ghidra",
+      "version": "12.1.4"
+    },
+    "analysis_profile": {
+      "provider": {
+        "id": "ghidra",
+        "name": "Ghidra",
+        "version": "12.1.4"
+      },
+      "parameters": {
+        "target_kind": "executable",
+        "target_format": "dos-mz",
+        "architecture": "x86",
+        "available_architectures": [
+          "x86"
+        ],
+        "import_mode": "ephemeral-source-immutable",
+        "annotation_policy": "atomic-function-entry-metadata-v1",
+        "load_image_observations": "source-mappings-entry-context-v2",
+        "function_body_evidence": "complete-inclusive-ranges-v1",
+        "function_references": "complete-body-and-entry-reference-manager-v2",
+        "location_resolution": "explicit-address-exact-entry-symbol-first-v3",
+        "instruction_flow_evidence": "decoded-return-pcode-v1",
+        "process_launch": "inspected-jvm-launch-support-v1",
+        "load_image_evidence": "independent-mz-mapping-relocations-v1",
+        "jump_table_evidence": "typed-case-default-blocks-v1",
+        "decompiler_jump_loads": true,
+        "loader": "MzLoader",
+        "language_id": "x86:LE:16:Real Mode",
+        "compiler_spec_id": "default",
+        "load_segment": "0x1000",
+        "address_coordinates": "linear-byte-offset",
+        "analyzer_preset": "ghidra-default"
+      },
+      "digest": "894e458d232de9bdeb2a5d661cd2b4791ee9e10f88d297423fc0c7553a7a66d8"
+    },
+    "predicate_type": "rea.analysis",
+    "operation": "inspect_native_instruction",
+    "parameters": {
+      "address": "0x1858c"
+    },
+    "raw_result": {
+      "address": "0x1858c",
+      "procedure": "0x1857c",
+      "architecture": "x86:LE:16:Real Mode",
+      "mode": "Real Mode",
+      "status": "decoded",
+      "bytes": "c3",
+      "length": 1,
+      "mnemonic": "RET",
+      "raw_disassembly": "RET",
+      "operands": [],
+      "flow": {
+        "kind": "return",
+        "conditional": false,
+        "computed": false,
+        "direct_destinations": [],
+        "classification_evidence": [
+          {
+            "source": "ghidra-listing-flow-type",
+            "value": "TERMINATOR"
+          },
+          {
+            "source": "ghidra-instruction-pcode",
+            "value": "RETURN"
+          }
+        ]
+      },
+      "references": [],
+      "limitations": [
+        "Operand components are Ghidra Listing decoder tokens; effective memory base/index/displacement roles and per-instruction context mode are unavailable. The mode field is the program language variant."
+      ]
+    },
+    "normalized_result": {
+      "address": "0x1858c",
+      "status": "decoded",
+      "procedure": "0x1857c",
+      "architecture": "x86:LE:16:Real Mode",
+      "mode": "Real Mode",
+      "bytes": "c3",
+      "length": 1,
+      "mnemonic": "RET",
+      "raw_disassembly": "RET",
+      "operands": [],
+      "flow": {
+        "kind": "return",
+        "conditional": false,
+        "computed": false,
+        "direct_destinations": [],
+        "classification_evidence": [
+          {
+            "source": "ghidra-listing-flow-type",
+            "value": "TERMINATOR"
+          },
+          {
+            "source": "ghidra-instruction-pcode",
+            "value": "RETURN"
+          }
+        ]
+      },
+      "references": [],
+      "limitations": [
+        "Operand components are Ghidra Listing decoder tokens; effective memory base/index/displacement roles and per-instruction context mode are unavailable. The mode field is the program language variant."
+      ]
+    },
+    "confidence": "observed",
+    "authority": "shipped-artifact",
+    "environment": null,
+    "limitations": [
+      "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+      "The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.",
+      "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+      "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+      "DOS MZ uses 16-bit x86 real mode with the Ghidra load segment 0x1000. Returned addresses are linear byte coordinates; they do not identify a unique segment:offset alias.",
+      "Static DOS analysis does not emulate BIOS, DOS interrupts, device ports, or self-modifying unpacking code. Packed targets require a separately identified unpacked artifact for original-program analysis; appended overlays are not the initialized load module."
+    ],
+    "locations": [],
+    "evidence_links": []
+  },
+  {
+    "evidence_id": "ev_8a2f0c80d1720cb30d5f6d1a59022b70f022141965b14a85f28010ecf0f33675",
+    "subject": {
+      "name": "CHESS.EXE",
+      "digest": {
+        "sha256": "c32d4f6bc732b67efa65d55bc5813bc74dcfb52b8616894b57ed7aeeeed2a1cd"
+      },
+      "format": "dos-mz",
+      "architecture": "x86",
+      "local_path": "/home/kierzo/chess/CHESS.EXE"
+    },
+    "provider": {
+      "id": "ghidra",
+      "name": "Ghidra",
+      "version": "12.1.4"
+    },
+    "analysis_profile": {
+      "provider": {
+        "id": "ghidra",
+        "name": "Ghidra",
+        "version": "12.1.4"
+      },
+      "parameters": {
+        "target_kind": "executable",
+        "target_format": "dos-mz",
+        "architecture": "x86",
+        "available_architectures": [
+          "x86"
+        ],
+        "import_mode": "ephemeral-source-immutable",
+        "annotation_policy": "atomic-function-entry-metadata-v1",
+        "load_image_observations": "source-mappings-entry-context-v2",
+        "function_body_evidence": "complete-inclusive-ranges-v1",
+        "function_references": "complete-body-and-entry-reference-manager-v2",
+        "location_resolution": "explicit-address-exact-entry-symbol-first-v3",
+        "instruction_flow_evidence": "decoded-return-pcode-v1",
+        "process_launch": "inspected-jvm-launch-support-v1",
+        "load_image_evidence": "independent-mz-mapping-relocations-v1",
+        "jump_table_evidence": "typed-case-default-blocks-v1",
+        "decompiler_jump_loads": true,
+        "loader": "MzLoader",
+        "language_id": "x86:LE:16:Real Mode",
+        "compiler_spec_id": "default",
+        "load_segment": "0x1000",
+        "address_coordinates": "linear-byte-offset",
+        "analyzer_preset": "ghidra-default"
+      },
+      "digest": "894e458d232de9bdeb2a5d661cd2b4791ee9e10f88d297423fc0c7553a7a66d8"
+    },
+    "predicate_type": "rea.analysis",
+    "operation": "inspect_native_instruction",
+    "parameters": {
+      "address": "0x1858d"
+    },
+    "raw_result": {
+      "address": "0x1858d",
+      "procedure": "0x1858d",
+      "architecture": "x86:LE:16:Real Mode",
+      "mode": "Real Mode",
+      "status": "decoded",
+      "bytes": "55",
+      "length": 1,
+      "mnemonic": "PUSH",
+      "raw_disassembly": "PUSH BP",
+      "operands": [
+        {
+          "index": 0,
+          "raw": "BP",
+          "provider_type": 512,
+          "memory_addressing": "unavailable",
+          "components": [
+            {
+              "text": "BP",
+              "value": "BP",
+              "bit_width": 16,
+              "kind": "register"
+            }
+          ]
+        }
+      ],
+      "flow": {
+        "kind": "fallthrough",
+        "conditional": false,
+        "computed": false,
+        "direct_destinations": [],
+        "classification_evidence": [
+          {
+            "source": "ghidra-listing-flow-type",
+            "value": "FALL_THROUGH"
+          }
+        ]
+      },
+      "references": [],
+      "limitations": [
+        "Operand components are Ghidra Listing decoder tokens; effective memory base/index/displacement roles and per-instruction context mode are unavailable. The mode field is the program language variant."
+      ]
+    },
+    "normalized_result": {
+      "address": "0x1858d",
+      "status": "decoded",
+      "procedure": "0x1858d",
+      "architecture": "x86:LE:16:Real Mode",
+      "mode": "Real Mode",
+      "bytes": "55",
+      "length": 1,
+      "mnemonic": "PUSH",
+      "raw_disassembly": "PUSH BP",
+      "operands": [
+        {
+          "index": 0,
+          "raw": "BP",
+          "provider_type": 512,
+          "components": [
+            {
+              "kind": "register",
+              "text": "BP",
+              "value": "BP",
+              "bit_width": 16
+            }
+          ],
+          "memory_addressing": "unavailable"
+        }
+      ],
+      "flow": {
+        "kind": "fallthrough",
+        "conditional": false,
+        "computed": false,
+        "direct_destinations": [],
+        "classification_evidence": [
+          {
+            "source": "ghidra-listing-flow-type",
+            "value": "FALL_THROUGH"
+          }
+        ]
+      },
+      "references": [],
+      "limitations": [
+        "Operand components are Ghidra Listing decoder tokens; effective memory base/index/displacement roles and per-instruction context mode are unavailable. The mode field is the program language variant."
+      ]
+    },
+    "confidence": "observed",
+    "authority": "shipped-artifact",
+    "environment": null,
+    "limitations": [
+      "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+      "The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.",
+      "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+      "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+      "DOS MZ uses 16-bit x86 real mode with the Ghidra load segment 0x1000. Returned addresses are linear byte coordinates; they do not identify a unique segment:offset alias.",
+      "Static DOS analysis does not emulate BIOS, DOS interrupts, device ports, or self-modifying unpacking code. Packed targets require a separately identified unpacked artifact for original-program analysis; appended overlays are not the initialized load module."
+    ],
+    "locations": [],
+    "evidence_links": []
+  }
+]

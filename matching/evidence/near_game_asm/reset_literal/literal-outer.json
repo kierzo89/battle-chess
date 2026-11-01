@@ -1,0 +1,20 @@
+{
+  "schema": "root-observed-no-saved-games16-C5-terminal-v1",
+  "terminal": true,
+  "reaped": true,
+  "exit_code": 0,
+  "tool_session_id": "ev_294aa39277ff7922e966e9a2f15267a73ed7cf17f931cc6245ebf0fd1013aeb5",
+  "initial_chunk": "REA event {\"capture_order\": 0, \"collection\": \"filesystem_checkpoints\", \"index\": 0}",
+  "terminal_chunk": "REA exit {\"code\": 0, \"reason\": \"exited\", \"signal\": 0}",
+  "actual_root": "/home/kierzo/chess/matching/build/no-saved-games515c-literal16-one-C5-root-actual",
+  "generation_receipt_sha256": "9ff51aee7877ca9f18f4645000d9d3a7730c0de932bb886e3e29e3961754c8b3",
+  "preparation_freeze_sha256": "84c972097f5758ad21430de881e5530dfecc03ab73519aa008ad1819f3bf70c0",
+  "driver_sha256": "558adf27ef6b4db71321ad1ac17808607c3dc6bb26ee7d7b7474b8db0a747b43",
+  "source_sha256": "0165b0af4823289c481fb7cdff854fe46b74d2f89d41d15a9c77816de247bef1",
+  "raw_whole_object_sha256": "f77cb935dab2fdbea6915b2ae4537e8315ed3325a16e2c0b3ae5584316aa73b3",
+  "actual_C5_calls": 1,
+  "DOSBox_pid": 874460,
+  "tool_session_id_kind": "REA capture evidence; no unified exec session used",
+  "root_REA_sha256": "86dec12980784789b0845768027d9e0b839a311c9bf0cdb67c844bb56d63bf57",
+  "template_stale_hash_placeholders_replaced_with_actual": true
+}

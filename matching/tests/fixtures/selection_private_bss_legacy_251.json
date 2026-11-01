@@ -1,0 +1,125 @@
+{
+  "classification": "Historical fixture metadata only; original probe sources/objects remain unchanged; no canonical alias mapping",
+  "baseline": "evidence/checkpoints/251-blit-storage/config/units.json",
+  "baseline_sha256": "61f8c747abce7233f3e4a72239b42e3fef3fbe954cc5c8907f2a65bb9e8929e7",
+  "units": [
+    {
+      "id": "show_error_0d6e",
+      "language": "c",
+      "backend": "msc500-omf",
+      "source": "src/error_pointer_match.c",
+      "symbol": "_show_error_0d6e",
+      "flags": [
+        "/AS",
+        "/Zi"
+      ],
+      "image_offset": "0xd6e",
+      "size": 31,
+      "externals": {
+        "__chkstk": 60586,
+        "_prompt_1296": 4758,
+        "_exit_07f3": 2035
+      },
+      "rea_evidence": "evidence/rea_low_ui_show_error_0d6e.json",
+      "boundary_evidence": "Fresh original complete contiguous REA body; independent full MSC5.00 CV3 extent; raw, linked and original full-byte equality; exact MZ accounting."
+    },
+    {
+      "id": "error_message_0d8d",
+      "language": "c",
+      "backend": "msc500-omf",
+      "source": "src/error_pointer_match.c",
+      "symbol": "_error_message",
+      "flags": [
+        "/AS",
+        "/Zi"
+      ],
+      "image_offset": "0xd8d",
+      "size": 34,
+      "externals": {
+        "__chkstk": 60586,
+        "_prompt_1296": 4758,
+        "_exit_07f3": 2035
+      },
+      "rea_evidence": "evidence/rea_error_message_0d8d.json",
+      "boundary_evidence": "Fresh original complete contiguous REA body; independent full MSC5.00 CV3 extent; raw, linked and original full-byte equality; exact MZ accounting."
+    },
+    {
+      "id": "board_pointer_0daf",
+      "source": "src/error_pointer_match.c",
+      "symbol": "_board_pointer_0daf",
+      "flags": [
+        "/AS",
+        "/Zi"
+      ],
+      "image_offset": "0xdaf",
+      "size": 513,
+      "language": "c",
+      "backend": "msc500-omf",
+      "externals": {
+        "__chkstk": 60586,
+        "_square_x": 36102,
+        "_square_y": 36108,
+        "_selected_square_0efa": 3834,
+        "_cursor_square_0efc": 3836,
+        "_hover_square_0efe": 3838,
+        "_menu_state": 36318,
+        "_marked_square_8dd6": 36310,
+        "_mode_005a": 90,
+        "_row_mask_9230": 37424,
+        "_outline_square_543a": 21562,
+        "_input_select_11ef_001e": {
+          "segment": 4591,
+          "offset": 30
+        },
+        "_input_init_11ef_0000": {
+          "segment": 4591,
+          "offset": 0
+        }
+      },
+      "rea_evidence": "evidence/rea_board_pointer_0daf_original.json",
+      "extended_extent": {
+        "kind": "board_pointer_expanded_0daf_v1",
+        "original_raw_evidence": "evidence/rea_board_pointer_full_original_context.json",
+        "original_next_evidence": "evidence/rea_newinput_begin_0fb0.json",
+        "original_overlap_evidence": "evidence/rea_byte_setup_0e0d.json",
+        "original_false_xrefs_evidence": [
+          "evidence/rea_board_pointer_original_xrefs_10de6.json",
+          "evidence/rea_board_pointer_original_xrefs_10e0d.json"
+        ],
+        "expanded_body_evidence": "evidence/rea_board_pointer_0daf_expanded.json",
+        "expanded_raw_evidence": "evidence/rea_board_pointer_full_expanded_context.json",
+        "expanded_next_evidence": "evidence/rea_board_pointer_next_0fb0_expanded.json",
+        "expanded_false_xrefs_evidence": [
+          "evidence/rea_board_pointer_expanded_xrefs_10de6.json",
+          "evidence/rea_board_pointer_expanded_xrefs_10e0d.json"
+        ],
+        "expanded_instruction_evidence": "evidence/rea_board_pointer_expanded_instruction_10de5.json",
+        "expanded_interior_evidence": "evidence/rea_board_pointer_expanded_instruction_10de6.json",
+        "expanded_branch_evidence": "evidence/rea_board_pointer_expanded_instruction_10e0d.json"
+      },
+      "boundary_evidence": "Original full raw513+next125 authenticated independently; original split93/94 is retained as negative. Pinned expanded image has independently contiguous513/44 closedCFG plus complete next125/4CFG, with all DOS loader relocations accounted. Original false DE6 immediate-byte gap and E0D interior branch entry are explained by relocated far aliases. Full CV513 at source offset65 completes natural CODE578 without holes/tails.",
+      "owned_bss": {
+        "segment": 4,
+        "group": 1,
+        "size": 4,
+        "image_offset": "0x61eec",
+        "data_address": {
+          "segment": 23746,
+          "offset": 21196
+        },
+        "owner_symbol": "_board_pointer_0daf",
+        "scalars": {
+          "_selection_xor_52cc": {
+            "offset": 0,
+            "size": 2
+          },
+          "_selection_colour_52ce": {
+            "offset": 2,
+            "size": 2
+          }
+        },
+        "rea_evidence": "evidence/rea_crt_startup_500.json"
+      }
+    }
+  ]
+}

@@ -1,0 +1,446 @@
+{
+  "status": "COMPLETE",
+  "error": null,
+  "guard_closed": true,
+  "preparation_freeze_sha256": "e9b597fd61bc15c90ecb9adeb3c6ce9bb9257f065691d029d00b9822ee1da805",
+  "driver_sha256": "edb05766307af05785e96737e6012509b21d86510cd9a7a985c45ef49b327f67",
+  "source_sha256": "60ac7430e073061e15d2d081cbcd8c69741255cd1b68df31ffcec7d065a2907e",
+  "actual_root": "/home/kierzo/chess/matching/build/animate-move78f6-authored363-one-MASM-root-actual",
+  "stage_once_claim": "/home/kierzo/chess/matching/build/animate-move78f6-authored363-one-MASM-root-actual/animate-move78f6-authored363-MASM.claim",
+  "stage_once_claim_sha256": "dcbf4c6371dd18b4b4271844f91c512ac4c7cccf06995262cc7d7e4fa4e92d6e",
+  "root_release_sha256": "ea5ca4b77c440731fc060c7922a1f293aef09573249e59d551ef82d2a9280b9b",
+  "assembler": "masm510",
+  "flags": [
+    "/Mx"
+  ],
+  "source_name": "UNIT.ASM",
+  "tool_hashes": {
+    "toolchains/msc510/MASM.EXE": "1c6286c69b616160b8475ad17453ee872702a2c98075c2159ec792a1c745275f",
+    "toolchains/msc510/manifest.json": "f98c55eaf97fff792dfa8f131d9ea255008c5d97311dd6837cd4fda79c2ebef4",
+    "toolchains/msc510/LICENSE": "b5179f780ec212a434efcc989a2295a140deb0bdb17182d2bf9c5f6f1f1a01c4",
+    "config/msc510.json": "058abeace2a0466b843094d84d5d909a0f2a8e671f357df6e39988199383c618"
+  },
+  "actual_MASM_calls": 1,
+  "host_PID_is_DOSBox_not_DOS_MASM_PID": true,
+  "calls": [
+    {
+      "pid": 755665,
+      "argv": [
+        "/usr/bin/dosbox",
+        "-conf",
+        "/home/kierzo/chess/matching/build/animate-move78f6-authored363-one-MASM-root-actual/scratch/dosbox.conf",
+        "-noconsole"
+      ],
+      "command": "T:\\MASM /Mx UNIT.ASM,UNIT.OBJ,UNIT.LST,UNIT.CRF;",
+      "terminal": true,
+      "reaped": true,
+      "returncode": 0,
+      "stdout": "DOSBox version 0.74-3\nCopyright 2002-2019 DOSBox Team, published under GNU GPL.\n---\nCONFIG:Loading primary settings from config file /home/kierzo/chess/matching/build/animate-move78f6-authored363-one-MASM-root-actual/scratch/dosbox.conf\nMIXER:No Sound Mode Selected.\nALSA:Can't subscribe to MIDI port (65:0) nor (17:0)\nMIDI:Opened device:none\nOne joystick reported, initializing with 4axis\nUsing joystick Generic X-Box pad with 6 axes, 11 buttons and 1 hat(s)\nSHELL:Redirect output to C:\\MASM.LOG\nSHELL:Redirect output to C:\\SUCCESS.TXT\n",
+      "stderr": ""
+    }
+  ],
+  "raw_whole_object_sha256": "cf9c3a936c8efaf005f94198275b422c452ee9d44cbcfe7ffe07cc6a11da4b5a",
+  "allowed_reads": {
+    "/home/kierzo/chess/matching/build/animate-move78f6-authored363-one-MASM-preparation/animate_move78f6.asm": "60ac7430e073061e15d2d081cbcd8c69741255cd1b68df31ffcec7d065a2907e",
+    "/usr/bin/dosbox": "2a1cafe5dbbe7c4c1ab957756c2135435087ee8fb5d1f7bbe4bd29cb02c30477",
+    "/home/kierzo/chess/matching/toolchains/msc510/MASM.EXE": "1c6286c69b616160b8475ad17453ee872702a2c98075c2159ec792a1c745275f",
+    "/home/kierzo/chess/matching/toolchains/msc510/manifest.json": "f98c55eaf97fff792dfa8f131d9ea255008c5d97311dd6837cd4fda79c2ebef4",
+    "/home/kierzo/chess/matching/toolchains/msc510/LICENSE": "b5179f780ec212a434efcc989a2295a140deb0bdb17182d2bf9c5f6f1f1a01c4",
+    "/home/kierzo/chess/matching/config/msc510.json": "058abeace2a0466b843094d84d5d909a0f2a8e671f357df6e39988199383c618"
+  },
+  "reads": [
+    {
+      "path": "/home/kierzo/chess/matching/build/animate-move78f6-authored363-one-MASM-preparation/animate_move78f6.asm",
+      "api": "Path.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/animate-move78f6-authored363-one-MASM-preparation/animate_move78f6.asm",
+      "api": "io.open"
+    },
+    {
+      "path": "/usr/bin/dosbox",
+      "api": "Path.open"
+    },
+    {
+      "path": "/usr/bin/dosbox",
+      "api": "io.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/toolchains/msc510/MASM.EXE",
+      "api": "Path.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/toolchains/msc510/MASM.EXE",
+      "api": "io.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/toolchains/msc510/manifest.json",
+      "api": "Path.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/toolchains/msc510/manifest.json",
+      "api": "io.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/toolchains/msc510/LICENSE",
+      "api": "Path.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/toolchains/msc510/LICENSE",
+      "api": "io.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/config/msc510.json",
+      "api": "Path.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/config/msc510.json",
+      "api": "io.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/animate-move78f6-authored363-one-MASM-preparation/animate_move78f6.asm",
+      "api": "Path.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/animate-move78f6-authored363-one-MASM-preparation/animate_move78f6.asm",
+      "api": "io.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/toolchains/msc510/MASM.EXE",
+      "api": "Path.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/toolchains/msc510/MASM.EXE",
+      "api": "io.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/animate-move78f6-authored363-one-MASM-root-actual/scratch/MASM.LOG",
+      "api": "Path.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/animate-move78f6-authored363-one-MASM-root-actual/scratch/MASM.LOG",
+      "api": "io.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/animate-move78f6-authored363-one-MASM-root-actual/scratch/UNIT.OBJ",
+      "api": "Path.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/animate-move78f6-authored363-one-MASM-root-actual/scratch/UNIT.OBJ",
+      "api": "io.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/animate-move78f6-authored363-one-MASM-preparation/animate_move78f6.asm",
+      "api": "Path.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/animate-move78f6-authored363-one-MASM-preparation/animate_move78f6.asm",
+      "api": "io.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/animate-move78f6-authored363-one-MASM-preparation/animate_move78f6.asm",
+      "api": "Path.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/animate-move78f6-authored363-one-MASM-preparation/animate_move78f6.asm",
+      "api": "io.open"
+    },
+    {
+      "path": "/usr/bin/dosbox",
+      "api": "Path.open"
+    },
+    {
+      "path": "/usr/bin/dosbox",
+      "api": "io.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/toolchains/msc510/MASM.EXE",
+      "api": "Path.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/toolchains/msc510/MASM.EXE",
+      "api": "io.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/toolchains/msc510/manifest.json",
+      "api": "Path.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/toolchains/msc510/manifest.json",
+      "api": "io.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/toolchains/msc510/LICENSE",
+      "api": "Path.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/toolchains/msc510/LICENSE",
+      "api": "io.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/config/msc510.json",
+      "api": "Path.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/config/msc510.json",
+      "api": "io.open"
+    }
+  ],
+  "writes": [
+    {
+      "path": "/home/kierzo/chess/matching/build/animate-move78f6-authored363-one-MASM-root-actual/scratch/UNIT.ASM",
+      "api": "Path.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/animate-move78f6-authored363-one-MASM-root-actual/scratch/UNIT.ASM",
+      "api": "io.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/animate-move78f6-authored363-one-MASM-root-actual/scratch/tools/MASM.EXE",
+      "api": "Path.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/animate-move78f6-authored363-one-MASM-root-actual/scratch/tools/MASM.EXE",
+      "api": "io.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/animate-move78f6-authored363-one-MASM-root-actual/scratch/BUILD.BAT",
+      "api": "Path.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/animate-move78f6-authored363-one-MASM-root-actual/scratch/BUILD.BAT",
+      "api": "io.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/animate-move78f6-authored363-one-MASM-root-actual/scratch/dosbox.conf",
+      "api": "Path.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/animate-move78f6-authored363-one-MASM-root-actual/scratch/dosbox.conf",
+      "api": "io.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/animate-move78f6-authored363-one-MASM-root-actual/scratch/DOSBOX.STDOUT.bin",
+      "api": "Path.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/animate-move78f6-authored363-one-MASM-root-actual/scratch/DOSBOX.STDOUT.bin",
+      "api": "io.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/animate-move78f6-authored363-one-MASM-root-actual/scratch/DOSBOX.STDERR.bin",
+      "api": "Path.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/animate-move78f6-authored363-one-MASM-root-actual/scratch/DOSBOX.STDERR.bin",
+      "api": "io.open"
+    }
+  ],
+  "blocked_probes": [
+    {
+      "path": "/home/kierzo/chess/CHESS.EXE",
+      "api": "Path.open",
+      "write": false
+    },
+    {
+      "path": "/home/kierzo/chess/CHESS.EXE",
+      "api": "io.open",
+      "write": false
+    },
+    {
+      "path": "/home/kierzo/chess/CHESS.EXE",
+      "api": "builtins.open",
+      "write": false
+    },
+    {
+      "path": "/home/kierzo/chess/CHESS.EXE",
+      "api": "os.open",
+      "write": false
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/exepack/TRIM5_UNPACK.EXE",
+      "api": "Path.open",
+      "write": false
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/exepack/TRIM5_UNPACK.EXE",
+      "api": "io.open",
+      "write": false
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/exepack/TRIM5_UNPACK.EXE",
+      "api": "builtins.open",
+      "write": false
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/exepack/TRIM5_UNPACK.EXE",
+      "api": "os.open",
+      "write": false
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/load-group-35a0-two-boundary-caches-control/candidate.obj",
+      "api": "Path.open",
+      "write": false
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/load-group-35a0-two-boundary-caches-control/candidate.obj",
+      "api": "io.open",
+      "write": false
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/load-group-35a0-two-boundary-caches-control/candidate.obj",
+      "api": "builtins.open",
+      "write": false
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/load-group-35a0-two-boundary-caches-control/candidate.obj",
+      "api": "os.open",
+      "write": false
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/animate-move78f6-authored363-one-MASM-preparation/operand-contract.json",
+      "api": "Path.open",
+      "write": false
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/animate-move78f6-authored363-one-MASM-preparation/operand-contract.json",
+      "api": "io.open",
+      "write": false
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/animate-move78f6-authored363-one-MASM-preparation/operand-contract.json",
+      "api": "builtins.open",
+      "write": false
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/animate-move78f6-authored363-one-MASM-preparation/operand-contract.json",
+      "api": "os.open",
+      "write": false
+    },
+    {
+      "path": "/home/kierzo/chess/matching/config/units.json",
+      "api": "Path.open",
+      "write": false
+    },
+    {
+      "path": "/home/kierzo/chess/matching/config/units.json",
+      "api": "io.open",
+      "write": false
+    },
+    {
+      "path": "/home/kierzo/chess/matching/config/units.json",
+      "api": "builtins.open",
+      "write": false
+    },
+    {
+      "path": "/home/kierzo/chess/matching/config/units.json",
+      "api": "os.open",
+      "write": false
+    }
+  ],
+  "distinct_forbidden_probe_paths": [
+    "/home/kierzo/chess/CHESS.EXE",
+    "/home/kierzo/chess/matching/build/animate-move78f6-authored363-one-MASM-preparation/operand-contract.json",
+    "/home/kierzo/chess/matching/build/exepack/TRIM5_UNPACK.EXE",
+    "/home/kierzo/chess/matching/build/load-group-35a0-two-boundary-caches-control/candidate.obj",
+    "/home/kierzo/chess/matching/config/units.json"
+  ],
+  "FIFO_observations": [
+    {
+      "fd": 4,
+      "api": "os.write",
+      "kind": "FIFO"
+    },
+    {
+      "fd": 3,
+      "api": "os.read",
+      "kind": "FIFO"
+    },
+    {
+      "fd": 3,
+      "api": "io.open",
+      "kind": "FIFO"
+    },
+    {
+      "fd": 5,
+      "api": "io.open",
+      "kind": "FIFO"
+    },
+    {
+      "fd": 7,
+      "api": "os.read",
+      "kind": "FIFO"
+    },
+    {
+      "fd": 3,
+      "api": "os.read",
+      "kind": "FIFO"
+    },
+    {
+      "fd": 3,
+      "api": "os.read",
+      "kind": "FIFO"
+    },
+    {
+      "fd": 5,
+      "api": "os.read",
+      "kind": "FIFO"
+    }
+  ],
+  "runtime_prewarmed_before_GEN": {
+    "tempdir": "/tmp",
+    "locale": "UTF-8",
+    "utf8_codec": "utf-8",
+    "cp437_codec": "cp437"
+  },
+  "scratch_inventory": {
+    "BUILD.BAT": {
+      "size": 211,
+      "sha256": "968dcf43c7db9ac2482c3fde826d9e26d1a686d43a63830a051520d5c2bfcd24"
+    },
+    "DOSBOX.STDERR.bin": {
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "DOSBOX.STDOUT.bin": {
+      "size": 537,
+      "sha256": "ae9041a501739b6553a5997b1803cd295c7124ff0129df4ac69161497f3152cc"
+    },
+    "MASM.LOG": {
+      "size": 205,
+      "sha256": "9b7512049096a6b0910bbba67dbe06820515e2ee90bc07317166344172cb0692"
+    },
+    "SUCCESS.TXT": {
+      "size": 9,
+      "sha256": "2728816679bc1bf75a02b5dd2100085783b3686793b4029186793a0dfcc1e410"
+    },
+    "UNIT.ASM": {
+      "size": 5819,
+      "sha256": "60ac7430e073061e15d2d081cbcd8c69741255cd1b68df31ffcec7d065a2907e"
+    },
+    "UNIT.CRF": {
+      "size": 1903,
+      "sha256": "32dd7d4c0a537fda9090f1f98c1de2c9fb5a70bcff498a8eccc938b1593be2d1"
+    },
+    "UNIT.LST": {
+      "size": 12946,
+      "sha256": "550fd30f869544c6d7ea2241256d635fe7326b5672bbbcb0c159815edfee714e"
+    },
+    "UNIT.OBJ": {
+      "size": 655,
+      "sha256": "cf9c3a936c8efaf005f94198275b422c452ee9d44cbcfe7ffe07cc6a11da4b5a"
+    },
+    "dosbox.conf": {
+      "size": 346,
+      "sha256": "055183208949f6696d1c710ec3a74d89d7aa35b036438d9d560bb4750abcf27a"
+    },
+    "tools/MASM.EXE": {
+      "size": 110703,
+      "sha256": "1c6286c69b616160b8475ad17453ee872702a2c98075c2159ec792a1c745275f"
+    }
+  },
+  "source_tools_new_scratch_only": true,
+  "native_original_oldOBJ_comparison_inputs_inside_GEN": false,
+  "source_variants_retries_patches_LINK_canonical_changes": false,
+  "credit": 0
+}

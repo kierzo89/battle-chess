@@ -1,0 +1,88 @@
+{
+  "id": "skip_book_8577",
+  "symbol": "_skip_book_8577",
+  "language": "c",
+  "backend": "msc500-omf",
+  "flags": [
+    "/AS",
+    "/Gs",
+    "/Os",
+    "/Zi"
+  ],
+  "source": "src/shared_turn_book_context_match.c",
+  "image_offset": "0x8577",
+  "size": 22,
+  "rea_evidence": "tests/fixtures/shared_book_skip2418/native/rea-entry.json",
+  "externals": {
+    "_select_asset_file": 51798,
+    "_seek_asset": 52059,
+    "_read_asset": 52111,
+    "_startup_offsets_9648": 38472,
+    "_startup_lengths_a8b6": 43190,
+    "_splash_buffer": {
+      "segment": 7945,
+      "offset": 0
+    },
+    "_graphics_end": {
+      "segment": 4591,
+      "offset": 0
+    },
+    "_graphics_begin": {
+      "segment": 4591,
+      "offset": 30
+    },
+    "_rand": 62192,
+    "_book_weights": 1344,
+    "_book_choice_offset": 45266,
+    "_best": 36320,
+    "_iteration": 36328,
+    "_input_state": 38996,
+    "_working_move": 35758,
+    "_working_follow_8bb6": 35766,
+    "_initial_move": 1250,
+    "_rotate_book_8515": 34069,
+    "_generate_a348": 41800,
+    "_advance": 42196,
+    "_search_active": 38394,
+    "_history_move_counter": 38988,
+    "_state_8fde": 36830,
+    "_history_index": 39040,
+    "_book_saved_index": 37734,
+    "_book_matches": 45260,
+    "_history": 35036,
+    "_select_mode": 6137,
+    "_trim_history": 31737,
+    "_notify_86a1": 34465,
+    "_notify_866d": 34413,
+    "_scan_book_843f": 33855,
+    "_equal_state": 37960,
+    "_skip_book_8577": 34167,
+    "_previous_book_858d": 34189,
+    "_book_state_index": 36094,
+    "_state_8d12": 36114
+  },
+  "owned_selector_const": {
+    "kind": "shared_turn_book_selector_2418_v1",
+    "segment": 3,
+    "group": 1,
+    "size": 2,
+    "image_offset": "0x619c6",
+    "data_address": {
+      "segment": 23746,
+      "offset": 19878
+    },
+    "rea_evidence": "build/owned-selector-const-stage/rea-selector2.json",
+    "code_evidence": "build/book-selector-context-stage/rea-code800.json",
+    "target_symbol": "_splash_buffer"
+  },
+  "extended_extent": {
+    "kind": "shared_book_skip_8577_v1",
+    "interior_evidence": "tests/fixtures/shared_book_skip2418/native/rea-interior.json",
+    "raw_span_evidence": "tests/fixtures/shared_book_skip2418/native/rea-raw23.json",
+    "next_entry_evidence": "tests/fixtures/shared_book_skip2418/native/rea-next.json",
+    "next_raw_evidence": "tests/fixtures/shared_book_skip2418/native/rea-next-raw55.json",
+    "instructions_evidence": "tests/fixtures/shared_book_skip2418/native/rea-instructions.json",
+    "all_byte_xrefs_evidence": "tests/fixtures/shared_book_skip2418/native/rea-xrefs-all22.json"
+  },
+  "boundary_evidence": "Complete ordinary eight-function CODE800 with CV1/54/169/187/214/98/22/55, all117 actual CODE fields and original3 MZ sites; anonymous CONST2 has one genuine external BASE16 field and original MZ619C6, zero extra byte/function credit. Whole CODE/CONST and four load bases verified; see frozen build/book-scan-843f/release800-review.json and build/book-selector-context-stage/production-result.json. The skip8577 unit requires its separately authenticated native thunk2/interior20 CFG union and four real compiler fields; no provider boundary rewritten. Backing storage/capacity and final global MAP remain unproved. Native book state atDS8CFE is distinct from engine state atDSA852; coherent global name book_state_index preserves whole800 and all118 fields. See build/book-name-coherent/proof.json."
+}

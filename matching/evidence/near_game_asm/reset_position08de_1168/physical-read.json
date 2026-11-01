@@ -1,0 +1,84 @@
+{
+  "evidence_id": "ev_2950f4d7482e34276eefd72df179d21f9c822e8a490980f5998b0e3d79bab123",
+  "subject": {
+    "name": "TRIM5_UNPACK.EXE",
+    "digest": {
+      "sha256": "faf3516d0e72e30005ad90cb2da165081af5fe6871f5e8c3663980a5d725ef02"
+    },
+    "format": "dos-mz",
+    "architecture": "x86",
+    "local_path": "/home/kierzo/chess/matching/build/exepack/TRIM5_UNPACK.EXE"
+  },
+  "provider": {
+    "id": "ghidra",
+    "name": "Ghidra",
+    "version": "12.1.4"
+  },
+  "analysis_profile": {
+    "provider": {
+      "id": "ghidra",
+      "name": "Ghidra",
+      "version": "12.1.4"
+    },
+    "parameters": {
+      "target_kind": "executable",
+      "target_format": "dos-mz",
+      "architecture": "x86",
+      "available_architectures": [
+        "x86"
+      ],
+      "import_mode": "ephemeral-source-immutable",
+      "annotation_policy": "atomic-function-entry-metadata-v1",
+      "load_image_observations": "source-mappings-entry-context-v2",
+      "function_body_evidence": "complete-inclusive-ranges-v1",
+      "function_references": "complete-body-and-entry-reference-manager-v2",
+      "location_resolution": "explicit-address-exact-entry-symbol-first-v3",
+      "instruction_flow_evidence": "decoded-return-pcode-v1",
+      "process_launch": "inspected-jvm-launch-support-v1",
+      "load_image_evidence": "independent-mz-mapping-relocations-v1",
+      "jump_table_evidence": "typed-case-default-blocks-v1",
+      "decompiler_jump_loads": true,
+      "loader": "MzLoader",
+      "language_id": "x86:LE:16:Real Mode",
+      "compiler_spec_id": "default",
+      "load_segment": "0x1000",
+      "address_coordinates": "linear-byte-offset",
+      "analyzer_preset": "ghidra-default"
+    },
+    "digest": "894e458d232de9bdeb2a5d661cd2b4791ee9e10f88d297423fc0c7553a7a66d8"
+  },
+  "predicate_type": "rea.analysis",
+  "operation": "read_bytes",
+  "parameters": {
+    "address": "0x108de",
+    "length": 1199
+  },
+  "raw_result": {
+    "address": "0x108de",
+    "requested_bytes": 1199,
+    "returned_bytes": 1199,
+    "bytes_hex": "558becb81800e8c3e35756c706f20e0100c706da8d5e11a1f60e8946f4a1ee0e8946f2833ef60e007509c706f60e0100e80921e83d14c606590001c6066b0900c746f00000eb03ff46f0837ef0067d65c70674090000b86009508b5ef08a87010f2ae4b103d3e0050e82502bc050b81800f7eb05100050b8100050e8b33583c40ac70674090000b86009508b5ef08a87010f2ae4b103d3e0050e8250b8010050b81800f7eb05100050b8300150e8813583c40aeb92c606590000b8600950e8aa3583c402e8aa34e8bdfec746f00000eb0b8b5ef0ff46f0c6873092ff837ef0087d02ebeda138928b163a928946fc8956feb8baa88946f68c5ef8c746f00000eb03ff46f0817ef0e0017d24c45ef68346f60173058146f80010268a07c45efc8346fc0173058146fe0010268807ebd2c606440001e83ff88946fa0bc074f1e91c03a1fa0ed1e025700034708b0efa0e81e107000bc18946ee833ef40e007503e9b5008b1efa0e80bf6611007410b01cf6a7a48a05e00550e8f13483c402b81c00f72ed0578bf083bcf40500740a05e00550e8d73483c402b81c00f72ed05705e00550a1f40eb103d3e0050e8250ff3650988b1efa0ed3fbd1e38b3ec8b0ff318b1efa0ed1e38b3ec6b0ff31e8633483c40a8b1efa0ea05098b106d2e00a06f40e888766118b1efa0ea0d0578887a48a8b76eeb102d3e6833e5098011bc0f7d88884bba88b1ef40e8a874c008884baa8c706f40e0000eb3a8b1efa0e80bf661100742f8a8766112ae48bf0250700a3f40e8bc6b106d3e8a350988a87a48a2ae4a3d05788a766118b5eeed1e3d1e388a7baa8e93302833ef40e007420b81c00f72ed0578bf083bcf40500741005e00550e8f93383c402c706f40e0000a15e932d040099b91800f7f98946ee0bc07c483d05007f43833e3a93197d1a833e3a93077e138bd88a87010f2ae4a3f40ec70650980000eb22813e3a9327017e1a813e3a9339017d128b5eee8a87010f2ae4a3f40ec70650980100833ef40e00746ac746ee0000eb03ff46ee837eee207d11b81c00f76eee8bd883bff405007402ebe6837eee207512c706f40e0000b8004c50e87f0183c402eb318b46eea3d057b81c00f72ed05705e00550a1f40eb103d3e0050e8250ff365098a15e9305c80050ff363a93e8ed3283c40ae93d01b8010050b80c0050b8124c50e85f0683c4063d0310753ee83d33c746f00000eb03ff46f0837ef0407d2b8b5ef0c6876611008b46f0d1e025700034708b4ef081e107000bc18946ec8bd8d1e3d1e3c687baa800ebcce9e500a138928b163a928946fc8956feb8baa88946f68c5ef8c746f00000eb03ff46f0817ef0e0017d24c45efc8346fc0173058146fe0010268a07c45ef68346f60173058146f80010268807ebd2e8b132c706f40e0000e88efbe98b00e859818946e80bc0740fc706f40e000050e8800083c402eb44c706da8d4a11c706f40e0000c706f20e00008b46f4a3f60e8b46f2a3ee0ee8061de83831e84bfbe854d2833eee0e00740cff3646989af800bf1f83c402c606440000eb31eb2ceb2a3d02107503e9dcfc3d03107503e9e7fd3d00307503e9d5fe3d02307503e925ff3d03307503e977ffeb00e9a5fc5e5f8be55dc3558bec33c0e834df568b76042bc050b80c005056e8110583c4065e8be55dc3",
+    "complete": true
+  },
+  "normalized_result": {
+    "address": "0x108de",
+    "requested_bytes": 1199,
+    "returned_bytes": 1199,
+    "bytes_hex": "558becb81800e8c3e35756c706f20e0100c706da8d5e11a1f60e8946f4a1ee0e8946f2833ef60e007509c706f60e0100e80921e83d14c606590001c6066b0900c746f00000eb03ff46f0837ef0067d65c70674090000b86009508b5ef08a87010f2ae4b103d3e0050e82502bc050b81800f7eb05100050b8100050e8b33583c40ac70674090000b86009508b5ef08a87010f2ae4b103d3e0050e8250b8010050b81800f7eb05100050b8300150e8813583c40aeb92c606590000b8600950e8aa3583c402e8aa34e8bdfec746f00000eb0b8b5ef0ff46f0c6873092ff837ef0087d02ebeda138928b163a928946fc8956feb8baa88946f68c5ef8c746f00000eb03ff46f0817ef0e0017d24c45ef68346f60173058146f80010268a07c45efc8346fc0173058146fe0010268807ebd2c606440001e83ff88946fa0bc074f1e91c03a1fa0ed1e025700034708b0efa0e81e107000bc18946ee833ef40e007503e9b5008b1efa0e80bf6611007410b01cf6a7a48a05e00550e8f13483c402b81c00f72ed0578bf083bcf40500740a05e00550e8d73483c402b81c00f72ed05705e00550a1f40eb103d3e0050e8250ff3650988b1efa0ed3fbd1e38b3ec8b0ff318b1efa0ed1e38b3ec6b0ff31e8633483c40a8b1efa0ea05098b106d2e00a06f40e888766118b1efa0ea0d0578887a48a8b76eeb102d3e6833e5098011bc0f7d88884bba88b1ef40e8a874c008884baa8c706f40e0000eb3a8b1efa0e80bf661100742f8a8766112ae48bf0250700a3f40e8bc6b106d3e8a350988a87a48a2ae4a3d05788a766118b5eeed1e3d1e388a7baa8e93302833ef40e007420b81c00f72ed0578bf083bcf40500741005e00550e8f93383c402c706f40e0000a15e932d040099b91800f7f98946ee0bc07c483d05007f43833e3a93197d1a833e3a93077e138bd88a87010f2ae4a3f40ec70650980000eb22813e3a9327017e1a813e3a9339017d128b5eee8a87010f2ae4a3f40ec70650980100833ef40e00746ac746ee0000eb03ff46ee837eee207d11b81c00f76eee8bd883bff405007402ebe6837eee207512c706f40e0000b8004c50e87f0183c402eb318b46eea3d057b81c00f72ed05705e00550a1f40eb103d3e0050e8250ff365098a15e9305c80050ff363a93e8ed3283c40ae93d01b8010050b80c0050b8124c50e85f0683c4063d0310753ee83d33c746f00000eb03ff46f0837ef0407d2b8b5ef0c6876611008b46f0d1e025700034708b4ef081e107000bc18946ec8bd8d1e3d1e3c687baa800ebcce9e500a138928b163a928946fc8956feb8baa88946f68c5ef8c746f00000eb03ff46f0817ef0e0017d24c45efc8346fc0173058146fe0010268a07c45ef68346f60173058146f80010268807ebd2e8b132c706f40e0000e88efbe98b00e859818946e80bc0740fc706f40e000050e8800083c402eb44c706da8d4a11c706f40e0000c706f20e00008b46f4a3f60e8b46f2a3ee0ee8061de83831e84bfbe854d2833eee0e00740cff3646989af800bf1f83c402c606440000eb31eb2ceb2a3d02107503e9dcfc3d03107503e9e7fd3d00307503e9d5fe3d02307503e925ff3d03307503e977ffeb00e9a5fc5e5f8be55dc3558bec33c0e834df568b76042bc050b80c005056e8110583c4065e8be55dc3",
+    "complete": true
+  },
+  "confidence": "observed",
+  "authority": "shipped-artifact",
+  "environment": null,
+  "limitations": [
+    "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+    "The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.",
+    "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+    "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+    "Bytes reflect Ghidra's initialized memory, including loader fixups. Reads stop at an unmapped or uninitialized byte and report completeness explicitly.",
+    "DOS MZ uses 16-bit x86 real mode with the Ghidra load segment 0x1000. Returned addresses are linear byte coordinates; they do not identify a unique segment:offset alias.",
+    "Static DOS analysis does not emulate BIOS, DOS interrupts, device ports, or self-modifying unpacking code. Packed targets require a separately identified unpacked artifact for original-program analysis; appended overlays are not the initialized load module."
+  ],
+  "locations": [],
+  "evidence_links": []
+}

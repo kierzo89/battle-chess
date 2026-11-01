@@ -1,0 +1,10 @@
+{
+  "root": "evidence/mixed_restore_decoder340",
+  "files": {
+    "generation.json": "6a7982c52f3f95e3b4132894dc8f7cb8e67ca6eafc0c3dd8c70b3383dae34ee9",
+    "generation-terminal.json": "2c4ecc98ab3eb1230ef904c4c7b9a5521587004bd26177538b527a83b82ebf59",
+    "comparison.json": "ce19e25937781a96417fdf62a8dc3349b37438a5c6232c155e30d4fdcb5ee338",
+    "comparison-terminal.json": "0204a2fbab9870e96ab3a99de99db482458c1520d57218b550f04d3f5789c3f6"
+  },
+  "calibration_only_not_freshness_authority": true
+}

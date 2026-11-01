@@ -1,0 +1,186 @@
+{
+  "authentic_member_sha256": "7de3c7cc3fbe49972516b099306c89568daa34f6e46529b2c0ba79ba598952a5",
+  "authentic_member_BSS_SEGDEFs": [
+    {
+      "index": 10,
+      "name": "XOB",
+      "class": "BSS",
+      "bytes": 0,
+      "attributes": 72
+    },
+    {
+      "index": 11,
+      "name": "XO",
+      "class": "BSS",
+      "bytes": 0,
+      "attributes": 72
+    },
+    {
+      "index": 12,
+      "name": "XOE",
+      "class": "BSS",
+      "bytes": 0,
+      "attributes": 72
+    }
+  ],
+  "authentic_groups": [
+    {
+      "group_index": 1,
+      "name_index": 6,
+      "segment_members": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21
+      ],
+      "raw": "06ff02ff03ff04ff05ff06ff07ff08ff09ff0aff0bff0cff0dff0eff0fff10ff11ff12ff13ff14ff15"
+    }
+  ],
+  "native_marker_fields": [
+    {
+      "segment": 1,
+      "object_offset": 200,
+      "image_offset": 60418,
+      "mode": "offset16",
+      "frame": [
+        1,
+        1
+      ],
+      "target": [
+        0,
+        10
+      ],
+      "target_symbol": null,
+      "target_paragraph": 23746,
+      "target_offset": 21226,
+      "frame_paragraph": 23746,
+      "original_addend": 0,
+      "displacement": 0,
+      "arithmetic_result": 21226,
+      "encoded_value": 21226,
+      "raw_fixupp": "c4c814010a",
+      "record_offset": 959,
+      "mz_relocation_image_offset": null
+    },
+    {
+      "segment": 1,
+      "object_offset": 203,
+      "image_offset": 60421,
+      "mode": "offset16",
+      "frame": [
+        1,
+        1
+      ],
+      "target": [
+        0,
+        12
+      ],
+      "target_symbol": null,
+      "target_paragraph": 23746,
+      "target_offset": 21226,
+      "frame_paragraph": 23746,
+      "original_addend": 0,
+      "displacement": 0,
+      "arithmetic_result": 21226,
+      "encoded_value": 21226,
+      "raw_fixupp": "c4cb14010c",
+      "record_offset": 959,
+      "mz_relocation_image_offset": null
+    }
+  ],
+  "actual_current_CRT0DAT_marker_fields": [
+    {
+      "actual_image_site": 56724,
+      "actual_WORD": 20536,
+      "expected_actual_zero_marker_DS": 20536,
+      "native_WORD": 21226
+    },
+    {
+      "actual_image_site": 56727,
+      "actual_WORD": 20536,
+      "expected_actual_zero_marker_DS": 20536,
+      "native_WORD": 21226
+    }
+  ],
+  "native_clear": {
+    "clear_DS": [
+      21196,
+      52192
+    ],
+    "clear_bytes": 30996,
+    "decoded_FILE_end_exclusive": 401131,
+    "paragraph_FILE_end": 401136,
+    "original_saved_stack_SS": 27008,
+    "original_saved_stack_SP": 4096,
+    "stack_top_image": 436224,
+    "inferred_prepack_minalloc_paragraphs": 2194,
+    "inferred_minalloc_end": 436240,
+    "qualification": "saved EXEPACK/prepack reconstruction and retained primary, not sourceBSSclass proof"
+  },
+  "native_30prefix": {
+    "range": [
+      21196,
+      21226
+    ],
+    "bytes": 30,
+    "views": [
+      {
+        "DS": 21196,
+        "bytes": 2,
+        "view": "selection_xor",
+        "status": "genuine private C BSS"
+      },
+      {
+        "DS": 21198,
+        "bytes": 2,
+        "view": "selection_colour",
+        "status": "genuine private C BSS"
+      },
+      {
+        "DS": 21200,
+        "bytes": 2,
+        "view": "castle_owner",
+        "status": "nativeint view, unprovided"
+      },
+      {
+        "DS": 21202,
+        "bytes": 2,
+        "view": "dialog_selected",
+        "status": "currentnearCOMMON logicalprovider, historicalclassunknown"
+      },
+      {
+        "DS": 21204,
+        "bytes": 2,
+        "view": "saved_name_count",
+        "status": "currentnearCOMMON logicalprovider, historicalclassunknown"
+      },
+      {
+        "DS": 21206,
+        "bytes": 20,
+        "view": "DialogEvent",
+        "status": "nativeCX10 REP MOVSW complete20, semanticfieldnamespartial"
+      }
+    ],
+    "beyond_existing_private4": 26,
+    "26_not_automatically_private_BSS_sourceownership": true
+  },
+  "selected_authentic_positive_BSS_oldproof": 0,
+  "marker_is_not_COMMONstart": true,
+  "raw_member_unchanged": true
+}

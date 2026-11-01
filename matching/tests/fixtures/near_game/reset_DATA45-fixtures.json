@@ -1,0 +1,75 @@
+{
+  "noactor17": {
+    "unit_id": "no_actor_message_4c00",
+    "object_sha256": "b3c579b953b83616442a4b90fa58c88c0ff8aca3df91c6da904537e7fed26846",
+    "source_sha256": "c4566f52426db5bc8e1d673d8d748676efbfa7d5f833b59e5fae3ae8aa3b0646",
+    "actual_TYPE": {
+      "0x200": "80",
+      "0x201": "80",
+      "0x202": "80",
+      "0x203": "80",
+      "0x204": "80",
+      "0x205": "78858800838000"
+    },
+    "actual_PUBLIC": {
+      "name": "_no_actor_message_4c00",
+      "segment": 2,
+      "offset": 0,
+      "group": 1,
+      "type_index": 517
+    },
+    "symbol": "_no_actor_message_4c00",
+    "size": 17,
+    "image": 399392,
+    "source": "src/data/no_actor_message_4c00.c",
+    "primary": "evidence/readonly_messages/REA-no-actor17.json"
+  },
+  "clear21": {
+    "unit_id": "clear_board_question_4c12",
+    "object_sha256": "d10b53f5dd4de435de084096a1167e7542e8afa6caddbc1edb25b1fc02761641",
+    "source_sha256": "cce3a0a3ce0a549e5aa7c31d169a841a5b1a6b2b680a02f5f1c97ffab9acfb40",
+    "actual_TYPE": {
+      "0x200": "80",
+      "0x201": "80",
+      "0x202": "80",
+      "0x203": "80",
+      "0x204": "80",
+      "0x205": "7885a800838000"
+    },
+    "actual_PUBLIC": {
+      "name": "_clear_board_question_4c12",
+      "segment": 2,
+      "offset": 0,
+      "group": 1,
+      "type_index": 517
+    },
+    "symbol": "_clear_board_question_4c12",
+    "size": 21,
+    "image": 399410,
+    "source": "src/data/clear_board_question_4c12.c",
+    "primary": "evidence/readonly_messages/REA-clear-question21.json"
+  },
+  "editormap7": {
+    "unit_id": "editor_piece_map_004c",
+    "object_sha256": "75bde046c033f39655a79709a468399b4471f35c111c4793451f3918761e61e9",
+    "source_sha256": "9cf4b750d650f7da899962ffff91f14816835bf297d8fef83d6a021f35d737c6",
+    "actual_TYPE": {
+      "0x200": "80",
+      "0x201": "80",
+      "0x202": "80",
+      "0x203": "7838838000"
+    },
+    "actual_PUBLIC": {
+      "name": "_editor_piece_map_004c",
+      "segment": 2,
+      "offset": 0,
+      "group": 1,
+      "type_index": 515
+    },
+    "symbol": "_editor_piece_map_004c",
+    "size": 7,
+    "image": 380012,
+    "source": "src/data/editor_piece_map_004c.c",
+    "primary": "evidence/readonly_messages/REA-editor-map7.json"
+  }
+}

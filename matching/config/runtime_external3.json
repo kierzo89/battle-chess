@@ -1,0 +1,39 @@
+{
+  "schema": "runtime-external3-closed-overlap-v1",
+  "library_sha256": "768bfe171ebcad6d44aeca830ec8d19b31f02ce84ab35c81fc48fcf3f1e14858",
+  "members": [
+    {
+      "id": "near_ldiv",
+      "name": "LDIV",
+      "member_sha256": "6e210aff6aee94d45d3c8a9c8d91710fa77473eafbba5175ac64e9a064169af9",
+      "library_offset": 7056,
+      "segment": 1,
+      "size": 163,
+      "symbol": "__aNldiv",
+      "native_image_offset": 63612,
+      "native_LMUL": 62254
+    },
+    {
+      "id": "near_uldiv",
+      "name": "ULDIV",
+      "member_sha256": "f89682360fe20794f53b64becf9fb0f5a6e95e324d17e41ff59cef184dd83c6c",
+      "library_offset": 9872,
+      "segment": 1,
+      "size": 101,
+      "symbol": "__aNuldiv",
+      "native_image_offset": 62364,
+      "native_LMUL": 62254
+    },
+    {
+      "id": "near_ulrem",
+      "name": "ULREM",
+      "member_sha256": "0b97e465ea3efb91d49c994f67e12a5daedc68b1fdd1b9905c40f4b154e6c356",
+      "library_offset": 10128,
+      "segment": 1,
+      "size": 109,
+      "symbol": "__aNulrem",
+      "native_image_offset": 62466,
+      "native_LMUL": 62254
+    }
+  ]
+}

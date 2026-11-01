@@ -1,0 +1,968 @@
+{
+  "code_object_sha256": "91cf3a2211cdeec9130d058f6471543629d8ec93399b740cac69836c4d6bbb0f",
+  "code_source": "asm/link/huffman_core_dgroup_omf.asm",
+  "code_source_sha256": "b96de66fb9f30286a1efb2e6f5c789a7c9a1e97e5066abf630f4e90562a1fc0e",
+  "code_raw_sha256": "10b77a9a2c050398aef8bcf1f5d632c59597d561fa85cfa8cd6525735f710512",
+  "PUBLICS": {
+    "_prepare_asset_decode": 0,
+    "_huff_tree_build_recursive": 61,
+    "_huff_read_byte": 110,
+    "_huff_get_bit": 124,
+    "_huff_build_lookup": 158,
+    "_huff_frame_decode": 349,
+    "_huff_decode_stream": 584,
+    "_huff_window_save": 858,
+    "_huff_window_init": 896
+  },
+  "EXTERNALS": {
+    "_huff_refill_e3ea": 58346,
+    "_huff_depth_trap_e410": 58384,
+    "_huff_shift_word": 12482,
+    "_huff_bits_left": 12484,
+    "_huff_input_cursor": 12486,
+    "_huff_remaining": 12488,
+    "_huff_code_table": 12492,
+    "_huff_fast_lookup": 13516,
+    "_huff_long_records": 14540,
+    "_huff_long_masks": 17612,
+    "_huff_prefix_byte": 17621,
+    "_huff_pending_count": 17622,
+    "_huff_saved_extent": 17624,
+    "_huff_checksum": 17631
+  },
+  "code_semantic_fields": [
+    {
+      "offset": 4,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": false,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_refill_e3ea",
+      "displacement": null
+    },
+    {
+      "offset": 8,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_remaining",
+      "displacement": null
+    },
+    {
+      "offset": 12,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_remaining",
+      "displacement": null
+    },
+    {
+      "offset": 22,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        1,
+        1
+      ],
+      "target_symbol": "_huff_code_table",
+      "displacement": null
+    },
+    {
+      "offset": 45,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_input_cursor",
+      "displacement": null
+    },
+    {
+      "offset": 48,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_shift_word",
+      "displacement": null
+    },
+    {
+      "offset": 52,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_bits_left",
+      "displacement": null
+    },
+    {
+      "offset": 94,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        1,
+        1
+      ],
+      "target_symbol": "_huff_code_table",
+      "displacement": null
+    },
+    {
+      "offset": 107,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": false,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_depth_trap_e410",
+      "displacement": null
+    },
+    {
+      "offset": 135,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_shift_word",
+      "displacement": null
+    },
+    {
+      "offset": 148,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": false,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_refill_e3ea",
+      "displacement": null
+    },
+    {
+      "offset": 159,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        1,
+        1
+      ],
+      "target_symbol": "_huff_code_table",
+      "displacement": null
+    },
+    {
+      "offset": 162,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        1,
+        1
+      ],
+      "target_symbol": "_huff_long_records",
+      "displacement": null
+    },
+    {
+      "offset": 197,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        1,
+        1
+      ],
+      "target_symbol": "_huff_fast_lookup",
+      "displacement": null
+    },
+    {
+      "offset": 262,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_prefix_byte",
+      "displacement": null
+    },
+    {
+      "offset": 273,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        1,
+        1
+      ],
+      "target_symbol": "_huff_fast_lookup",
+      "displacement": null
+    },
+    {
+      "offset": 301,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_prefix_byte",
+      "displacement": null
+    },
+    {
+      "offset": 321,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_long_masks",
+      "displacement": null
+    },
+    {
+      "offset": 365,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": false,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_depth_trap_e410",
+      "displacement": null
+    },
+    {
+      "offset": 369,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_remaining",
+      "displacement": null
+    },
+    {
+      "offset": 375,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_remaining",
+      "displacement": null
+    },
+    {
+      "offset": 380,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_remaining",
+      "displacement": null
+    },
+    {
+      "offset": 384,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_remaining",
+      "displacement": null
+    },
+    {
+      "offset": 388,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_remaining",
+      "displacement": null
+    },
+    {
+      "offset": 392,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_remaining",
+      "displacement": null
+    },
+    {
+      "offset": 395,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_saved_extent",
+      "displacement": null
+    },
+    {
+      "offset": 398,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_pending_count",
+      "displacement": null
+    },
+    {
+      "offset": 405,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_input_cursor",
+      "displacement": null
+    },
+    {
+      "offset": 414,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_input_cursor",
+      "displacement": null
+    },
+    {
+      "offset": 418,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_shift_word",
+      "displacement": null
+    },
+    {
+      "offset": 426,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_bits_left",
+      "displacement": null
+    },
+    {
+      "offset": 434,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_saved_extent",
+      "displacement": null
+    },
+    {
+      "offset": 439,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_pending_count",
+      "displacement": null
+    },
+    {
+      "offset": 453,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        1,
+        1
+      ],
+      "target_symbol": "_huff_fast_lookup",
+      "displacement": null
+    },
+    {
+      "offset": 464,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_checksum",
+      "displacement": null
+    },
+    {
+      "offset": 505,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_shift_word",
+      "displacement": null
+    },
+    {
+      "offset": 510,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": false,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_refill_e3ea",
+      "displacement": null
+    },
+    {
+      "offset": 526,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_shift_word",
+      "displacement": null
+    },
+    {
+      "offset": 531,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": false,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_refill_e3ea",
+      "displacement": null
+    },
+    {
+      "offset": 539,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        1,
+        1
+      ],
+      "target_symbol": "_huff_fast_lookup",
+      "displacement": null
+    },
+    {
+      "offset": 560,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_checksum",
+      "displacement": null
+    },
+    {
+      "offset": 600,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": false,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_depth_trap_e410",
+      "displacement": null
+    },
+    {
+      "offset": 604,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_remaining",
+      "displacement": null
+    },
+    {
+      "offset": 610,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_remaining",
+      "displacement": null
+    },
+    {
+      "offset": 615,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_remaining",
+      "displacement": null
+    },
+    {
+      "offset": 619,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_remaining",
+      "displacement": null
+    },
+    {
+      "offset": 623,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_remaining",
+      "displacement": null
+    },
+    {
+      "offset": 627,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_remaining",
+      "displacement": null
+    },
+    {
+      "offset": 630,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_saved_extent",
+      "displacement": null
+    },
+    {
+      "offset": 633,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_pending_count",
+      "displacement": null
+    },
+    {
+      "offset": 640,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_input_cursor",
+      "displacement": null
+    },
+    {
+      "offset": 647,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_saved_extent",
+      "displacement": null
+    },
+    {
+      "offset": 656,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_input_cursor",
+      "displacement": null
+    },
+    {
+      "offset": 660,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_shift_word",
+      "displacement": null
+    },
+    {
+      "offset": 668,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_bits_left",
+      "displacement": null
+    },
+    {
+      "offset": 683,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_saved_extent",
+      "displacement": null
+    },
+    {
+      "offset": 713,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_pending_count",
+      "displacement": null
+    },
+    {
+      "offset": 727,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        1,
+        1
+      ],
+      "target_symbol": "_huff_fast_lookup",
+      "displacement": null
+    },
+    {
+      "offset": 738,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_checksum",
+      "displacement": null
+    },
+    {
+      "offset": 779,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_shift_word",
+      "displacement": null
+    },
+    {
+      "offset": 784,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": false,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_refill_e3ea",
+      "displacement": null
+    },
+    {
+      "offset": 800,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_shift_word",
+      "displacement": null
+    },
+    {
+      "offset": 805,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": false,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_refill_e3ea",
+      "displacement": null
+    },
+    {
+      "offset": 813,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        1,
+        1
+      ],
+      "target_symbol": "_huff_fast_lookup",
+      "displacement": null
+    },
+    {
+      "offset": 834,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_checksum",
+      "displacement": null
+    },
+    {
+      "offset": 862,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": false,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_refill_e3ea",
+      "displacement": null
+    },
+    {
+      "offset": 875,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_shift_word",
+      "displacement": null
+    },
+    {
+      "offset": 879,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_bits_left",
+      "displacement": null
+    },
+    {
+      "offset": 883,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_input_cursor",
+      "displacement": null
+    },
+    {
+      "offset": 887,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_checksum",
+      "displacement": null
+    },
+    {
+      "offset": 898,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_shift_word",
+      "displacement": null
+    },
+    {
+      "offset": 902,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_bits_left",
+      "displacement": null
+    },
+    {
+      "offset": 913,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_input_cursor",
+      "displacement": null
+    },
+    {
+      "offset": 917,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_shift_word",
+      "displacement": null
+    },
+    {
+      "offset": 922,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": false,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_refill_e3ea",
+      "displacement": null
+    },
+    {
+      "offset": 929,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_shift_word",
+      "displacement": null
+    },
+    {
+      "offset": 934,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": false,
+      "frame": [
+        5,
+        null
+      ],
+      "target_symbol": "_huff_refill_e3ea",
+      "displacement": null
+    }
+  ],
+  "data_object_sha256": "0e1c5ca70f121ad30c48a9a10b79ecee6a9bd05686744f6696fa249b0685531e",
+  "data_source": "asm/link/huff_workspace5120_omf.asm",
+  "data_source_sha256": "a2ffebf6ccbeb1d543d6b09bcd42b6a56694dad65171eb5fb8932773fc642218",
+  "data_sha256": "a11937f356a9b0ba592c82f5290bac8016cb33a3f9bc68d3490147c158ebb10d",
+  "group_names": [
+    "_huff_code_table",
+    "_huff_fast_lookup",
+    "_huff_long_records"
+  ]
+}

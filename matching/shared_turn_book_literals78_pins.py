@@ -1,0 +1,5 @@
+"""Closed exact mixedpool comparison pins; never generation inputs."""
+PROFILE_SHA256='0cfd4dd9e6f3a60e6a9376fe66f89b27c7925cb55ea49ddb07a22622a84ce8fe'
+SOURCE_SHA256='8647747ee40d0778b16a74618dc6a9556db8192e766031d7a875d37e81ad60db'
+OBJECT_SHA256='1163a5c8e4e05e565805bda572a771b63e61343f9bc6bbcb68c8ff9512768c50'
+EVIDENCE={'generation': {'path': 'evidence/shared_turn_book_literals78/generation-receipt.json', 'sha256': 'ea1d284b6cc5e12fdd0f9782e07299f35b515437cf7e30a9f0ca9d3d389981e2'}, 'terminal': {'path': 'evidence/shared_turn_book_literals78/actual-root-tool-result.json', 'sha256': '4ad1703dd380cb48feba2bddb269479359106429d737a6bf7b32ef438a2fb7f6'}, 'comparison': {'path': 'evidence/shared_turn_book_literals78/comparison.json', 'sha256': 'afc77c97f44f7e3fddf53b56753c8dc527d7e8e2565ee28b27eb252e40efff6f'}, 'fields': {'path': 'evidence/shared_turn_book_literals78/all-fields-and-shape.json', 'sha256': '8c16cdfb94b69eee1b898be0f69c25bfa269acebeacc8d309bec4083e731472b'}, 'pool': {'path': 'evidence/shared_turn_book_literals78/pool78.json', 'sha256': 'f12edb366cbcf888d7c81807bb5715f8185eeb616d7578968debe146867f1a81'}}

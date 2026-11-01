@@ -1,0 +1,22 @@
+{
+  "status": "PASS_FRESH_SOURCE_DERIVED_EXACT_EXECUTABLE",
+  "base_run_id": "38db78a812814ba09a6a35035fc86da9",
+  "object_count": 225,
+  "object_manifest_sha256": "4ddedf224392f0bd851de7fb171f63716a8f09a7f3c09312d4aab17a5907bc1a",
+  "fresh_runtime_receipt_sha256": "6fad46e686623ed0aee80cd701a58f23699ce0323a187a40f182a97fef4d4239",
+  "elapsed_seconds": 2.6364817140001833,
+  "whole_expanded_image_equal": true,
+  "image_size": 401131,
+  "relocation_order_domain": "Original EXEPACK 64-KiB block emission order",
+  "relocation_count": 173,
+  "relocation_order_exact": true,
+  "packed_bytes_equal": true,
+  "packed_size": 83415,
+  "packed_sha256": "c32d4f6bc732b67efa65d55bc5813bc74dcfb52b8616894b57ed7aeeeed2a1cd",
+  "native_sha256": "c32d4f6bc732b67efa65d55bc5813bc74dcfb52b8616894b57ed7aeeeed2a1cd",
+  "gameplay_verified": false,
+  "canonical_admission": false,
+  "canonical_credit_added": 0,
+  "total_seconds": 224.8651601599995,
+  "bundle_manifest_sha256": "7bd2a762b329ef8d9af414d99e13d733460db8d7c2cfd97dabd8d2184edf64ff"
+}

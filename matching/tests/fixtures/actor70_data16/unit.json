@@ -1,0 +1,17 @@
+{
+  "id": "actors_05e0",
+  "source": "src/data/actors_05e0.c",
+  "symbol": "_actors",
+  "image_offset": "0x5d200",
+  "size": 1960,
+  "language": "c-data",
+  "backend": "msc500-actor70-lidata-omf",
+  "flags": [
+    "/AS",
+    "/Zl",
+    "/Zi"
+  ],
+  "reference_region": "exepack-expanded",
+  "rea_evidence": "evidence/actors70-data1960/rea-actors1960.json",
+  "boundary_evidence": "Complete source Actor[70] minimum logical1960: matching native advance_menu68/69 plus insert_actor WORDnext26; genuineC5 LEDATA2+LIDATA1958, exactwhole14fieldActor224bit/ARRAY15680; authenticfullLIBLINK calibration physicallymaterializesall1960. Historicalcapacity/dynamicdomain/TU/class/absoluteplacement unproved."
+}

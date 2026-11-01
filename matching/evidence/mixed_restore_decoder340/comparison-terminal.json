@@ -1,0 +1,15 @@
+{
+  "schema": "root-observed-pure-comparison-terminal-v1",
+  "terminal": true,
+  "exit_code": 0,
+  "REA_EvidenceID": "ev_9e9a2ccad1327738263b10da2d1bb3b2c3d2081c7174bcfd1377125318e1439a",
+  "REA_record": "/home/kierzo/chess/matching/build/restore-decoder-fresh340-calibration-root-CMP-REA-v3.json",
+  "REA_SHA256": "9700308f8ea8705ced61970b30cea0c758e783a624165302a914d2ced793f1cb",
+  "comparison_path": "/home/kierzo/chess/matching/build/restore-decoder-fresh340-calibration-root-actual/comparison.v3.json",
+  "comparison_SHA256": "ce19e25937781a96417fdf62a8dc3349b37438a5c6232c155e30d4fdcb5ee338",
+  "GEN_LINK_calls": 0,
+  "tool_session_id": null,
+  "initial_chunk": null,
+  "terminal_chunk": null,
+  "outer_unified_exec_session_used": false
+}

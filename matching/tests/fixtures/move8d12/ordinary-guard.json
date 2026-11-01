@@ -1,0 +1,27 @@
+{
+  "actual_calls": 1,
+  "reads": [
+    "/home/kierzo/chess/matching/build/move8d12-ordinary-route-comparison-repair-v2/future-ordinary-route-output/project/matching/src/link/move_state_8d12.c",
+    "/home/kierzo/chess/matching/config/msc500.json",
+    "/home/kierzo/chess/matching/config/msc500.json",
+    "/home/kierzo/chess/matching/config/msc500.json",
+    "/home/kierzo/chess/matching/toolchains/msc500/manifest.json",
+    "/home/kierzo/chess/matching/toolchains/msc500/CL.ERR",
+    "/home/kierzo/chess/matching/toolchains/msc500/CL.EXE",
+    "/home/kierzo/chess/matching/toolchains/msc500/C1.EXE",
+    "/home/kierzo/chess/matching/toolchains/msc500/C1.ERR",
+    "/home/kierzo/chess/matching/toolchains/msc500/C2.EXE",
+    "/home/kierzo/chess/matching/toolchains/msc500/C3.EXE",
+    "/home/kierzo/chess/matching/toolchains/msc500/C23.ERR",
+    "/tmp/battlechess-msc-dvf3bere/COMPILE.LOG",
+    "/tmp/battlechess-msc-dvf3bere/UNIT.OBJ"
+  ],
+  "blocked_reads": [
+    "/home/kierzo/chess/CHESS.EXE",
+    "/home/kierzo/chess/matching/build/exepack/TRIM5_UNPACK.EXE",
+    "/home/kierzo/chess/matching/build/move8d12-ordinary-route-comparison-repair-v2/future-ordinary-route-output/project/matching/build/move8d12-rename-controls/provider/state_move8.obj"
+  ],
+  "source_tools_scratch_only": true,
+  "comparison_reads_separate": true,
+  "new_matching_credit": 0
+}

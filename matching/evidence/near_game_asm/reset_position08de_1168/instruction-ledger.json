@@ -1,0 +1,3530 @@
+[
+  {
+    "image": 2270,
+    "relative_offset": 0,
+    "size": 1,
+    "native_hex": "55",
+    "instruction": "PUSH BP",
+    "source": "PUSH BP",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2271,
+    "relative_offset": 1,
+    "size": 2,
+    "native_hex": "8bec",
+    "instruction": "MOV BP, SP",
+    "source": "MOV BP, SP",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2273,
+    "relative_offset": 3,
+    "size": 3,
+    "native_hex": "b81800",
+    "instruction": "MOV AX, 0x18",
+    "source": "MOV AX, 018h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2276,
+    "relative_offset": 6,
+    "size": 3,
+    "native_hex": "e8c3e3",
+    "instruction": "CALL 0x1000:ecaa",
+    "source": "CALL NEAR PTR __chkstk",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2279,
+    "relative_offset": 9,
+    "size": 1,
+    "native_hex": "57",
+    "instruction": "PUSH DI",
+    "source": "PUSH DI",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2280,
+    "relative_offset": 10,
+    "size": 1,
+    "native_hex": "56",
+    "instruction": "PUSH SI",
+    "source": "PUSH SI",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2281,
+    "relative_offset": 11,
+    "size": 6,
+    "native_hex": "c706f20e0100",
+    "instruction": "MOV word ptr [0xef2], 0x1",
+    "source": "MOV WORD PTR _board_input_0ef2, 01h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2287,
+    "relative_offset": 17,
+    "size": 6,
+    "native_hex": "c706da8d5e11",
+    "instruction": "MOV word ptr [0x8dda], 0x115e",
+    "source": "MOV WORD PTR _menus, OFFSET DGROUP:_alternate_menus_115e",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2293,
+    "relative_offset": 23,
+    "size": 3,
+    "native_hex": "a1f60e",
+    "instruction": "MOV AX, [0xef6]",
+    "source": "MOV AX, WORD PTR _command_active",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2296,
+    "relative_offset": 26,
+    "size": 3,
+    "native_hex": "8946f4",
+    "instruction": "MOV word ptr [BP + -0xc], AX",
+    "source": "MOV WORD PTR [BP-0Ch], AX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2299,
+    "relative_offset": 29,
+    "size": 3,
+    "native_hex": "a1ee0e",
+    "instruction": "MOV AX, [0xeee]",
+    "source": "MOV AX, WORD PTR _waiting_0eee",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2302,
+    "relative_offset": 32,
+    "size": 3,
+    "native_hex": "8946f2",
+    "instruction": "MOV word ptr [BP + -0xe], AX",
+    "source": "MOV WORD PTR [BP-0Eh], AX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2305,
+    "relative_offset": 35,
+    "size": 5,
+    "native_hex": "833ef60e00",
+    "instruction": "CMP word ptr [0xef6], 0x0",
+    "source": "CMP WORD PTR _command_active, 00h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2310,
+    "relative_offset": 40,
+    "size": 2,
+    "native_hex": "7509",
+    "instruction": "JNZ 0x1000:0911",
+    "source": "JNZ SHORT code_0911",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2312,
+    "relative_offset": 42,
+    "size": 6,
+    "native_hex": "c706f60e0100",
+    "instruction": "MOV word ptr [0xef6], 0x1",
+    "source": "MOV WORD PTR _command_active, 01h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2318,
+    "relative_offset": 48,
+    "size": 3,
+    "native_hex": "e80921",
+    "instruction": "CALL 0x1000:2a1a",
+    "source": "CALL NEAR PTR _init_surface",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2321,
+    "relative_offset": 51,
+    "size": 3,
+    "native_hex": "e83d14",
+    "instruction": "CALL 0x1000:1d51",
+    "source": "CALL NEAR PTR _refresh_panel_1d51",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2324,
+    "relative_offset": 54,
+    "size": 5,
+    "native_hex": "c606590001",
+    "instruction": "MOV byte ptr [0x59], 0x1",
+    "source": "MOV BYTE PTR _page_mode, 01h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2329,
+    "relative_offset": 59,
+    "size": 5,
+    "native_hex": "c6066b0900",
+    "instruction": "MOV byte ptr [0x96b], 0x0",
+    "source": "MOV BYTE PTR _actors+907, 00h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2334,
+    "relative_offset": 64,
+    "size": 5,
+    "native_hex": "c746f00000",
+    "instruction": "MOV word ptr [BP + -0x10], 0x0",
+    "source": "MOV WORD PTR [BP-010h], 00h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2339,
+    "relative_offset": 69,
+    "size": 2,
+    "native_hex": "eb03",
+    "instruction": "JMP 0x1000:0928",
+    "source": "JMP SHORT code_0928",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2341,
+    "relative_offset": 71,
+    "size": 3,
+    "native_hex": "ff46f0",
+    "instruction": "INC word ptr [BP + -0x10]",
+    "source": "INC WORD PTR [BP-010h]",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2344,
+    "relative_offset": 74,
+    "size": 4,
+    "native_hex": "837ef006",
+    "instruction": "CMP word ptr [BP + -0x10], 0x6",
+    "source": "CMP WORD PTR [BP-010h], 06h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2348,
+    "relative_offset": 78,
+    "size": 2,
+    "native_hex": "7d65",
+    "instruction": "JGE 0x1000:0993",
+    "source": "JGE SHORT code_0993",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2350,
+    "relative_offset": 80,
+    "size": 6,
+    "native_hex": "c70674090000",
+    "instruction": "MOV word ptr [0x974], 0x0",
+    "source": "MOV WORD PTR _actors+916, 00h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2356,
+    "relative_offset": 86,
+    "size": 3,
+    "native_hex": "b86009",
+    "instruction": "MOV AX, 0x960",
+    "source": "MOV AX, OFFSET DGROUP:_actors+896",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2359,
+    "relative_offset": 89,
+    "size": 1,
+    "native_hex": "50",
+    "instruction": "PUSH AX",
+    "source": "PUSH AX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2360,
+    "relative_offset": 90,
+    "size": 3,
+    "native_hex": "8b5ef0",
+    "instruction": "MOV BX, word ptr [BP + -0x10]",
+    "source": "MOV BX, WORD PTR [BP-010h]",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2363,
+    "relative_offset": 93,
+    "size": 4,
+    "native_hex": "8a87010f",
+    "instruction": "MOV AL, byte ptr [BX + 0xf01]",
+    "source": "MOV AL, BYTE PTR _palette_kinds_0f01[BX]",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2367,
+    "relative_offset": 97,
+    "size": 2,
+    "native_hex": "2ae4",
+    "instruction": "SUB AH, AH",
+    "source": "SUB AH, AH",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2369,
+    "relative_offset": 99,
+    "size": 2,
+    "native_hex": "b103",
+    "instruction": "MOV CL, 0x3",
+    "source": "MOV CL, 03h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2371,
+    "relative_offset": 101,
+    "size": 2,
+    "native_hex": "d3e0",
+    "instruction": "SHL AX, CL",
+    "source": "SHL AX, CL",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2373,
+    "relative_offset": 103,
+    "size": 3,
+    "native_hex": "050e82",
+    "instruction": "ADD AX, 0x820e",
+    "source": "ADD AX, OFFSET DGROUP:_cursor_frames_820e",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2376,
+    "relative_offset": 106,
+    "size": 1,
+    "native_hex": "50",
+    "instruction": "PUSH AX",
+    "source": "PUSH AX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2377,
+    "relative_offset": 107,
+    "size": 2,
+    "native_hex": "2bc0",
+    "instruction": "SUB AX, AX",
+    "source": "SUB AX, AX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2379,
+    "relative_offset": 109,
+    "size": 1,
+    "native_hex": "50",
+    "instruction": "PUSH AX",
+    "source": "PUSH AX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2380,
+    "relative_offset": 110,
+    "size": 3,
+    "native_hex": "b81800",
+    "instruction": "MOV AX, 0x18",
+    "source": "MOV AX, 018h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2383,
+    "relative_offset": 113,
+    "size": 2,
+    "native_hex": "f7eb",
+    "instruction": "IMUL BX",
+    "source": "IMUL BX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2385,
+    "relative_offset": 115,
+    "size": 3,
+    "native_hex": "051000",
+    "instruction": "ADD AX, 0x10",
+    "source": "ADD AX, 010h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2388,
+    "relative_offset": 118,
+    "size": 1,
+    "native_hex": "50",
+    "instruction": "PUSH AX",
+    "source": "PUSH AX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2389,
+    "relative_offset": 119,
+    "size": 3,
+    "native_hex": "b81000",
+    "instruction": "MOV AX, 0x10",
+    "source": "MOV AX, 010h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2392,
+    "relative_offset": 122,
+    "size": 1,
+    "native_hex": "50",
+    "instruction": "PUSH AX",
+    "source": "PUSH AX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2393,
+    "relative_offset": 123,
+    "size": 3,
+    "native_hex": "e8b335",
+    "instruction": "CALL 0x1000:3f0f",
+    "source": "CALL NEAR PTR _attach_actor",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2396,
+    "relative_offset": 126,
+    "size": 3,
+    "native_hex": "83c40a",
+    "instruction": "ADD SP, 0xa",
+    "source": "ADD SP, 0Ah",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2399,
+    "relative_offset": 129,
+    "size": 6,
+    "native_hex": "c70674090000",
+    "instruction": "MOV word ptr [0x974], 0x0",
+    "source": "MOV WORD PTR _actors+916, 00h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2405,
+    "relative_offset": 135,
+    "size": 3,
+    "native_hex": "b86009",
+    "instruction": "MOV AX, 0x960",
+    "source": "MOV AX, OFFSET DGROUP:_actors+896",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2408,
+    "relative_offset": 138,
+    "size": 1,
+    "native_hex": "50",
+    "instruction": "PUSH AX",
+    "source": "PUSH AX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2409,
+    "relative_offset": 139,
+    "size": 3,
+    "native_hex": "8b5ef0",
+    "instruction": "MOV BX, word ptr [BP + -0x10]",
+    "source": "MOV BX, WORD PTR [BP-010h]",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2412,
+    "relative_offset": 142,
+    "size": 4,
+    "native_hex": "8a87010f",
+    "instruction": "MOV AL, byte ptr [BX + 0xf01]",
+    "source": "MOV AL, BYTE PTR _palette_kinds_0f01[BX]",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2416,
+    "relative_offset": 146,
+    "size": 2,
+    "native_hex": "2ae4",
+    "instruction": "SUB AH, AH",
+    "source": "SUB AH, AH",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2418,
+    "relative_offset": 148,
+    "size": 2,
+    "native_hex": "b103",
+    "instruction": "MOV CL, 0x3",
+    "source": "MOV CL, 03h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2420,
+    "relative_offset": 150,
+    "size": 2,
+    "native_hex": "d3e0",
+    "instruction": "SHL AX, CL",
+    "source": "SHL AX, CL",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2422,
+    "relative_offset": 152,
+    "size": 3,
+    "native_hex": "050e82",
+    "instruction": "ADD AX, 0x820e",
+    "source": "ADD AX, OFFSET DGROUP:_cursor_frames_820e",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2425,
+    "relative_offset": 155,
+    "size": 1,
+    "native_hex": "50",
+    "instruction": "PUSH AX",
+    "source": "PUSH AX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2426,
+    "relative_offset": 156,
+    "size": 3,
+    "native_hex": "b80100",
+    "instruction": "MOV AX, 0x1",
+    "source": "MOV AX, 01h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2429,
+    "relative_offset": 159,
+    "size": 1,
+    "native_hex": "50",
+    "instruction": "PUSH AX",
+    "source": "PUSH AX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2430,
+    "relative_offset": 160,
+    "size": 3,
+    "native_hex": "b81800",
+    "instruction": "MOV AX, 0x18",
+    "source": "MOV AX, 018h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2433,
+    "relative_offset": 163,
+    "size": 2,
+    "native_hex": "f7eb",
+    "instruction": "IMUL BX",
+    "source": "IMUL BX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2435,
+    "relative_offset": 165,
+    "size": 3,
+    "native_hex": "051000",
+    "instruction": "ADD AX, 0x10",
+    "source": "ADD AX, 010h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2438,
+    "relative_offset": 168,
+    "size": 1,
+    "native_hex": "50",
+    "instruction": "PUSH AX",
+    "source": "PUSH AX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2439,
+    "relative_offset": 169,
+    "size": 3,
+    "native_hex": "b83001",
+    "instruction": "MOV AX, 0x130",
+    "source": "MOV AX, 0130h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2442,
+    "relative_offset": 172,
+    "size": 1,
+    "native_hex": "50",
+    "instruction": "PUSH AX",
+    "source": "PUSH AX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2443,
+    "relative_offset": 173,
+    "size": 3,
+    "native_hex": "e88135",
+    "instruction": "CALL 0x1000:3f0f",
+    "source": "CALL NEAR PTR _attach_actor",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2446,
+    "relative_offset": 176,
+    "size": 3,
+    "native_hex": "83c40a",
+    "instruction": "ADD SP, 0xa",
+    "source": "ADD SP, 0Ah",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2449,
+    "relative_offset": 179,
+    "size": 2,
+    "native_hex": "eb92",
+    "instruction": "JMP 0x1000:0925",
+    "source": "JMP SHORT code_0925",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2451,
+    "relative_offset": 181,
+    "size": 5,
+    "native_hex": "c606590000",
+    "instruction": "MOV byte ptr [0x59], 0x0",
+    "source": "MOV BYTE PTR _page_mode, 00h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2456,
+    "relative_offset": 186,
+    "size": 3,
+    "native_hex": "b86009",
+    "instruction": "MOV AX, 0x960",
+    "source": "MOV AX, OFFSET DGROUP:_actors+896",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2459,
+    "relative_offset": 189,
+    "size": 1,
+    "native_hex": "50",
+    "instruction": "PUSH AX",
+    "source": "PUSH AX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2460,
+    "relative_offset": 190,
+    "size": 3,
+    "native_hex": "e8aa35",
+    "instruction": "CALL 0x1000:3f49",
+    "source": "CALL NEAR PTR _detach_actor",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2463,
+    "relative_offset": 193,
+    "size": 3,
+    "native_hex": "83c402",
+    "instruction": "ADD SP, 0x2",
+    "source": "ADD SP, 02h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2466,
+    "relative_offset": 196,
+    "size": 3,
+    "native_hex": "e8aa34",
+    "instruction": "CALL 0x1000:3e4f",
+    "source": "CALL NEAR PTR _reset_graphics_3e4f",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2469,
+    "relative_offset": 199,
+    "size": 3,
+    "native_hex": "e8bdfe",
+    "instruction": "CALL 0x1000:0865",
+    "source": "CALL NEAR PTR _reset_display_0865",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2472,
+    "relative_offset": 202,
+    "size": 5,
+    "native_hex": "c746f00000",
+    "instruction": "MOV word ptr [BP + -0x10], 0x0",
+    "source": "MOV WORD PTR [BP-010h], 00h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2477,
+    "relative_offset": 207,
+    "size": 2,
+    "native_hex": "eb0b",
+    "instruction": "JMP 0x1000:09ba",
+    "source": "JMP SHORT code_09ba",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2479,
+    "relative_offset": 209,
+    "size": 3,
+    "native_hex": "8b5ef0",
+    "instruction": "MOV BX, word ptr [BP + -0x10]",
+    "source": "MOV BX, WORD PTR [BP-010h]",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2482,
+    "relative_offset": 212,
+    "size": 3,
+    "native_hex": "ff46f0",
+    "instruction": "INC word ptr [BP + -0x10]",
+    "source": "INC WORD PTR [BP-010h]",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2485,
+    "relative_offset": 215,
+    "size": 5,
+    "native_hex": "c6873092ff",
+    "instruction": "MOV byte ptr [BX + 0x9230], 0xff",
+    "source": "MOV BYTE PTR _row_mask_9230[BX], 0FFh",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2490,
+    "relative_offset": 220,
+    "size": 4,
+    "native_hex": "837ef008",
+    "instruction": "CMP word ptr [BP + -0x10], 0x8",
+    "source": "CMP WORD PTR [BP-010h], 08h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2494,
+    "relative_offset": 224,
+    "size": 2,
+    "native_hex": "7d02",
+    "instruction": "JGE 0x1000:09c2",
+    "source": "JGE SHORT code_09c2",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2496,
+    "relative_offset": 226,
+    "size": 2,
+    "native_hex": "ebed",
+    "instruction": "JMP 0x1000:09af",
+    "source": "JMP SHORT code_09af",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2498,
+    "relative_offset": 228,
+    "size": 3,
+    "native_hex": "a13892",
+    "instruction": "MOV AX, [0x9238]",
+    "source": "MOV AX, WORD PTR _arena_cursor",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2501,
+    "relative_offset": 231,
+    "size": 4,
+    "native_hex": "8b163a92",
+    "instruction": "MOV DX, word ptr [0x923a]",
+    "source": "MOV DX, WORD PTR _arena_cursor+2",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2505,
+    "relative_offset": 235,
+    "size": 3,
+    "native_hex": "8946fc",
+    "instruction": "MOV word ptr [BP + -0x4], AX",
+    "source": "MOV WORD PTR [BP-04h], AX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2508,
+    "relative_offset": 238,
+    "size": 3,
+    "native_hex": "8956fe",
+    "instruction": "MOV word ptr [BP + -0x2], DX",
+    "source": "MOV WORD PTR [BP-02h], DX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2511,
+    "relative_offset": 241,
+    "size": 3,
+    "native_hex": "b8baa8",
+    "instruction": "MOV AX, 0xa8ba",
+    "source": "MOV AX, OFFSET DGROUP:_board",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2514,
+    "relative_offset": 244,
+    "size": 3,
+    "native_hex": "8946f6",
+    "instruction": "MOV word ptr [BP + -0xa], AX",
+    "source": "MOV WORD PTR [BP-0Ah], AX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2517,
+    "relative_offset": 247,
+    "size": 3,
+    "native_hex": "8c5ef8",
+    "instruction": "MOV word ptr [BP + -0x8], DS",
+    "source": "MOV WORD PTR [BP-08h], DS",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2520,
+    "relative_offset": 250,
+    "size": 5,
+    "native_hex": "c746f00000",
+    "instruction": "MOV word ptr [BP + -0x10], 0x0",
+    "source": "MOV WORD PTR [BP-010h], 00h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2525,
+    "relative_offset": 255,
+    "size": 2,
+    "native_hex": "eb03",
+    "instruction": "JMP 0x1000:09e2",
+    "source": "JMP SHORT code_09e2",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2527,
+    "relative_offset": 257,
+    "size": 3,
+    "native_hex": "ff46f0",
+    "instruction": "INC word ptr [BP + -0x10]",
+    "source": "INC WORD PTR [BP-010h]",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2530,
+    "relative_offset": 260,
+    "size": 5,
+    "native_hex": "817ef0e001",
+    "instruction": "CMP word ptr [BP + -0x10], 0x1e0",
+    "source": "CMP WORD PTR [BP-010h], 01E0h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2535,
+    "relative_offset": 265,
+    "size": 2,
+    "native_hex": "7d24",
+    "instruction": "JGE 0x1000:0a0d",
+    "source": "JGE SHORT code_0a0d",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2537,
+    "relative_offset": 267,
+    "size": 3,
+    "native_hex": "c45ef6",
+    "instruction": "LES BX, [BP + -0xa]",
+    "source": "LES BX, DWORD PTR [BP-0Ah]",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2540,
+    "relative_offset": 270,
+    "size": 4,
+    "native_hex": "8346f601",
+    "instruction": "ADD word ptr [BP + -0xa], 0x1",
+    "source": "ADD WORD PTR [BP-0Ah], 01h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2544,
+    "relative_offset": 274,
+    "size": 2,
+    "native_hex": "7305",
+    "instruction": "JNC 0x1000:09f7",
+    "source": "JNC SHORT code_09f7",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2546,
+    "relative_offset": 276,
+    "size": 5,
+    "native_hex": "8146f80010",
+    "instruction": "ADD word ptr [BP + -0x8], 0x1000",
+    "source": "ADD WORD PTR [BP-08h], 01000h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2551,
+    "relative_offset": 281,
+    "size": 3,
+    "native_hex": "268a07",
+    "instruction": "MOV AL, byte ptr ES:[BX]",
+    "source": "MOV AL, BYTE PTR ES:[BX]",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2554,
+    "relative_offset": 284,
+    "size": 3,
+    "native_hex": "c45efc",
+    "instruction": "LES BX, [BP + -0x4]",
+    "source": "LES BX, DWORD PTR [BP-04h]",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2557,
+    "relative_offset": 287,
+    "size": 4,
+    "native_hex": "8346fc01",
+    "instruction": "ADD word ptr [BP + -0x4], 0x1",
+    "source": "ADD WORD PTR [BP-04h], 01h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2561,
+    "relative_offset": 291,
+    "size": 2,
+    "native_hex": "7305",
+    "instruction": "JNC 0x1000:0a08",
+    "source": "JNC SHORT code_0a08",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2563,
+    "relative_offset": 293,
+    "size": 5,
+    "native_hex": "8146fe0010",
+    "instruction": "ADD word ptr [BP + -0x2], 0x1000",
+    "source": "ADD WORD PTR [BP-02h], 01000h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2568,
+    "relative_offset": 298,
+    "size": 3,
+    "native_hex": "268807",
+    "instruction": "MOV byte ptr ES:[BX], AL",
+    "source": "MOV BYTE PTR ES:[BX], AL",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2571,
+    "relative_offset": 301,
+    "size": 2,
+    "native_hex": "ebd2",
+    "instruction": "JMP 0x1000:09df",
+    "source": "JMP SHORT code_09df",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2573,
+    "relative_offset": 303,
+    "size": 5,
+    "native_hex": "c606440001",
+    "instruction": "MOV byte ptr [0x44], 0x1",
+    "source": "MOV BYTE PTR _menu_open_0044, 01h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2578,
+    "relative_offset": 308,
+    "size": 3,
+    "native_hex": "e83ff8",
+    "instruction": "CALL 0x1000:0254",
+    "source": "CALL NEAR PTR _obtain_input",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2581,
+    "relative_offset": 311,
+    "size": 3,
+    "native_hex": "8946fa",
+    "instruction": "MOV word ptr [BP + -0x6], AX",
+    "source": "MOV WORD PTR [BP-06h], AX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2584,
+    "relative_offset": 314,
+    "size": 2,
+    "native_hex": "0bc0",
+    "instruction": "OR AX, AX",
+    "source": "OR AX, AX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2586,
+    "relative_offset": 316,
+    "size": 2,
+    "native_hex": "74f1",
+    "instruction": "JZ 0x1000:0a0d",
+    "source": "JZ SHORT code_0a0d",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2588,
+    "relative_offset": 318,
+    "size": 3,
+    "native_hex": "e91c03",
+    "instruction": "JMP 0x1000:0d3b",
+    "source": "JMP NEAR PTR code_0d3b",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2591,
+    "relative_offset": 321,
+    "size": 3,
+    "native_hex": "a1fa0e",
+    "instruction": "MOV AX, [0xefa]",
+    "source": "MOV AX, WORD PTR _selected_square_0efa",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2594,
+    "relative_offset": 324,
+    "size": 2,
+    "native_hex": "d1e0",
+    "instruction": "SHL AX, 0x1",
+    "source": "SHL AX, 01h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2596,
+    "relative_offset": 326,
+    "size": 3,
+    "native_hex": "257000",
+    "instruction": "AND AX, 0x70",
+    "source": "AND AX, 070h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2599,
+    "relative_offset": 329,
+    "size": 2,
+    "native_hex": "3470",
+    "instruction": "XOR AL, 0x70",
+    "source": "XOR AL, 070h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2601,
+    "relative_offset": 331,
+    "size": 4,
+    "native_hex": "8b0efa0e",
+    "instruction": "MOV CX, word ptr [0xefa]",
+    "source": "MOV CX, WORD PTR _selected_square_0efa",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2605,
+    "relative_offset": 335,
+    "size": 4,
+    "native_hex": "81e10700",
+    "instruction": "AND CX, 0x7",
+    "source": "AND CX, FULLWORD_IMMEDIATE_ZERO + 07h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2609,
+    "relative_offset": 339,
+    "size": 2,
+    "native_hex": "0bc1",
+    "instruction": "OR AX, CX",
+    "source": "OR AX, CX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2611,
+    "relative_offset": 341,
+    "size": 3,
+    "native_hex": "8946ee",
+    "instruction": "MOV word ptr [BP + -0x12], AX",
+    "source": "MOV WORD PTR [BP-012h], AX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2614,
+    "relative_offset": 344,
+    "size": 5,
+    "native_hex": "833ef40e00",
+    "instruction": "CMP word ptr [0xef4], 0x0",
+    "source": "CMP WORD PTR _cursor_kind_0ef4, 00h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2619,
+    "relative_offset": 349,
+    "size": 2,
+    "native_hex": "7503",
+    "instruction": "JNZ 0x1000:0a40",
+    "source": "JNZ SHORT code_0a40",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2621,
+    "relative_offset": 351,
+    "size": 3,
+    "native_hex": "e9b500",
+    "instruction": "JMP 0x1000:0af5",
+    "source": "JMP NEAR PTR code_0af5",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2624,
+    "relative_offset": 354,
+    "size": 4,
+    "native_hex": "8b1efa0e",
+    "instruction": "MOV BX, word ptr [0xefa]",
+    "source": "MOV BX, WORD PTR _selected_square_0efa",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2628,
+    "relative_offset": 358,
+    "size": 5,
+    "native_hex": "80bf661100",
+    "instruction": "CMP byte ptr [BX + 0x1166], 0x0",
+    "source": "CMP BYTE PTR _cells[BX], 00h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2633,
+    "relative_offset": 363,
+    "size": 2,
+    "native_hex": "7410",
+    "instruction": "JZ 0x1000:0a5b",
+    "source": "JZ SHORT code_0a5b",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2635,
+    "relative_offset": 365,
+    "size": 2,
+    "native_hex": "b01c",
+    "instruction": "MOV AL, 0x1c",
+    "source": "MOV AL, 01Ch",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2637,
+    "relative_offset": 367,
+    "size": 4,
+    "native_hex": "f6a7a48a",
+    "instruction": "MUL byte ptr [BX + 0x8aa4]",
+    "source": "MUL BYTE PTR _actor_map[BX]",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2641,
+    "relative_offset": 371,
+    "size": 3,
+    "native_hex": "05e005",
+    "instruction": "ADD AX, 0x5e0",
+    "source": "ADD AX, OFFSET DGROUP:_actors",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2644,
+    "relative_offset": 374,
+    "size": 1,
+    "native_hex": "50",
+    "instruction": "PUSH AX",
+    "source": "PUSH AX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2645,
+    "relative_offset": 375,
+    "size": 3,
+    "native_hex": "e8f134",
+    "instruction": "CALL 0x1000:3f49",
+    "source": "CALL NEAR PTR _detach_actor",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2648,
+    "relative_offset": 378,
+    "size": 3,
+    "native_hex": "83c402",
+    "instruction": "ADD SP, 0x2",
+    "source": "ADD SP, 02h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2651,
+    "relative_offset": 381,
+    "size": 3,
+    "native_hex": "b81c00",
+    "instruction": "MOV AX, 0x1c",
+    "source": "MOV AX, 01Ch",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2654,
+    "relative_offset": 384,
+    "size": 4,
+    "native_hex": "f72ed057",
+    "instruction": "IMUL word ptr [0x57d0]",
+    "source": "IMUL WORD PTR _cursor_actor_57d0",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2658,
+    "relative_offset": 388,
+    "size": 2,
+    "native_hex": "8bf0",
+    "instruction": "MOV SI, AX",
+    "source": "MOV SI, AX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2660,
+    "relative_offset": 390,
+    "size": 5,
+    "native_hex": "83bcf40500",
+    "instruction": "CMP word ptr [SI + 0x5f4], 0x0",
+    "source": "CMP WORD PTR [SI + 05F4h], 00h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2665,
+    "relative_offset": 395,
+    "size": 2,
+    "native_hex": "740a",
+    "instruction": "JZ 0x1000:0a75",
+    "source": "JZ SHORT code_0a75",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2667,
+    "relative_offset": 397,
+    "size": 3,
+    "native_hex": "05e005",
+    "instruction": "ADD AX, 0x5e0",
+    "source": "ADD AX, OFFSET DGROUP:_actors",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2670,
+    "relative_offset": 400,
+    "size": 1,
+    "native_hex": "50",
+    "instruction": "PUSH AX",
+    "source": "PUSH AX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2671,
+    "relative_offset": 401,
+    "size": 3,
+    "native_hex": "e8d734",
+    "instruction": "CALL 0x1000:3f49",
+    "source": "CALL NEAR PTR _detach_actor",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2674,
+    "relative_offset": 404,
+    "size": 3,
+    "native_hex": "83c402",
+    "instruction": "ADD SP, 0x2",
+    "source": "ADD SP, 02h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2677,
+    "relative_offset": 407,
+    "size": 3,
+    "native_hex": "b81c00",
+    "instruction": "MOV AX, 0x1c",
+    "source": "MOV AX, 01Ch",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2680,
+    "relative_offset": 410,
+    "size": 4,
+    "native_hex": "f72ed057",
+    "instruction": "IMUL word ptr [0x57d0]",
+    "source": "IMUL WORD PTR _cursor_actor_57d0",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2684,
+    "relative_offset": 414,
+    "size": 3,
+    "native_hex": "05e005",
+    "instruction": "ADD AX, 0x5e0",
+    "source": "ADD AX, OFFSET DGROUP:_actors",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2687,
+    "relative_offset": 417,
+    "size": 1,
+    "native_hex": "50",
+    "instruction": "PUSH AX",
+    "source": "PUSH AX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2688,
+    "relative_offset": 418,
+    "size": 3,
+    "native_hex": "a1f40e",
+    "instruction": "MOV AX, [0xef4]",
+    "source": "MOV AX, WORD PTR _cursor_kind_0ef4",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2691,
+    "relative_offset": 421,
+    "size": 2,
+    "native_hex": "b103",
+    "instruction": "MOV CL, 0x3",
+    "source": "MOV CL, 03h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2693,
+    "relative_offset": 423,
+    "size": 2,
+    "native_hex": "d3e0",
+    "instruction": "SHL AX, CL",
+    "source": "SHL AX, CL",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2695,
+    "relative_offset": 425,
+    "size": 3,
+    "native_hex": "050e82",
+    "instruction": "ADD AX, 0x820e",
+    "source": "ADD AX, OFFSET DGROUP:_cursor_frames_820e",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2698,
+    "relative_offset": 428,
+    "size": 1,
+    "native_hex": "50",
+    "instruction": "PUSH AX",
+    "source": "PUSH AX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2699,
+    "relative_offset": 429,
+    "size": 4,
+    "native_hex": "ff365098",
+    "instruction": "PUSH word ptr [0x9850]",
+    "source": "PUSH WORD PTR _cursor_colour_9850",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2703,
+    "relative_offset": 433,
+    "size": 4,
+    "native_hex": "8b1efa0e",
+    "instruction": "MOV BX, word ptr [0xefa]",
+    "source": "MOV BX, WORD PTR _selected_square_0efa",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2707,
+    "relative_offset": 437,
+    "size": 2,
+    "native_hex": "d3fb",
+    "instruction": "SAR BX, CL",
+    "source": "SAR BX, CL",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2709,
+    "relative_offset": 439,
+    "size": 2,
+    "native_hex": "d1e3",
+    "instruction": "SHL BX, 0x1",
+    "source": "SHL BX, 01h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2711,
+    "relative_offset": 441,
+    "size": 4,
+    "native_hex": "8b3ec8b0",
+    "instruction": "MOV DI, word ptr [0xb0c8]",
+    "source": "MOV DI, WORD PTR _screen_y",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2715,
+    "relative_offset": 445,
+    "size": 2,
+    "native_hex": "ff31",
+    "instruction": "PUSH word ptr [BX + DI]",
+    "source": "PUSH WORD PTR [BX + DI]",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2717,
+    "relative_offset": 447,
+    "size": 4,
+    "native_hex": "8b1efa0e",
+    "instruction": "MOV BX, word ptr [0xefa]",
+    "source": "MOV BX, WORD PTR _selected_square_0efa",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2721,
+    "relative_offset": 451,
+    "size": 2,
+    "native_hex": "d1e3",
+    "instruction": "SHL BX, 0x1",
+    "source": "SHL BX, 01h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2723,
+    "relative_offset": 453,
+    "size": 4,
+    "native_hex": "8b3ec6b0",
+    "instruction": "MOV DI, word ptr [0xb0c6]",
+    "source": "MOV DI, WORD PTR _screen_x",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2727,
+    "relative_offset": 457,
+    "size": 2,
+    "native_hex": "ff31",
+    "instruction": "PUSH word ptr [BX + DI]",
+    "source": "PUSH WORD PTR [BX + DI]",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2729,
+    "relative_offset": 459,
+    "size": 3,
+    "native_hex": "e86334",
+    "instruction": "CALL 0x1000:3f0f",
+    "source": "CALL NEAR PTR _attach_actor",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2732,
+    "relative_offset": 462,
+    "size": 3,
+    "native_hex": "83c40a",
+    "instruction": "ADD SP, 0xa",
+    "source": "ADD SP, 0Ah",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2735,
+    "relative_offset": 465,
+    "size": 4,
+    "native_hex": "8b1efa0e",
+    "instruction": "MOV BX, word ptr [0xefa]",
+    "source": "MOV BX, WORD PTR _selected_square_0efa",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2739,
+    "relative_offset": 469,
+    "size": 3,
+    "native_hex": "a05098",
+    "instruction": "MOV AL, [0x9850]",
+    "source": "MOV AL, BYTE PTR _cursor_colour_9850",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2742,
+    "relative_offset": 472,
+    "size": 2,
+    "native_hex": "b106",
+    "instruction": "MOV CL, 0x6",
+    "source": "MOV CL, 06h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2744,
+    "relative_offset": 474,
+    "size": 2,
+    "native_hex": "d2e0",
+    "instruction": "SHL AL, CL",
+    "source": "SHL AL, CL",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2746,
+    "relative_offset": 476,
+    "size": 4,
+    "native_hex": "0a06f40e",
+    "instruction": "OR AL, byte ptr [0xef4]",
+    "source": "OR AL, BYTE PTR _cursor_kind_0ef4",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2750,
+    "relative_offset": 480,
+    "size": 4,
+    "native_hex": "88876611",
+    "instruction": "MOV byte ptr [BX + 0x1166], AL",
+    "source": "MOV BYTE PTR _cells[BX], AL",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2754,
+    "relative_offset": 484,
+    "size": 4,
+    "native_hex": "8b1efa0e",
+    "instruction": "MOV BX, word ptr [0xefa]",
+    "source": "MOV BX, WORD PTR _selected_square_0efa",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2758,
+    "relative_offset": 488,
+    "size": 3,
+    "native_hex": "a0d057",
+    "instruction": "MOV AL, [0x57d0]",
+    "source": "MOV AL, BYTE PTR _cursor_actor_57d0",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2761,
+    "relative_offset": 491,
+    "size": 4,
+    "native_hex": "8887a48a",
+    "instruction": "MOV byte ptr [BX + 0x8aa4], AL",
+    "source": "MOV BYTE PTR _actor_map[BX], AL",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2765,
+    "relative_offset": 495,
+    "size": 3,
+    "native_hex": "8b76ee",
+    "instruction": "MOV SI, word ptr [BP + -0x12]",
+    "source": "MOV SI, WORD PTR [BP-012h]",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2768,
+    "relative_offset": 498,
+    "size": 2,
+    "native_hex": "b102",
+    "instruction": "MOV CL, 0x2",
+    "source": "MOV CL, 02h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2770,
+    "relative_offset": 500,
+    "size": 2,
+    "native_hex": "d3e6",
+    "instruction": "SHL SI, CL",
+    "source": "SHL SI, CL",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2772,
+    "relative_offset": 502,
+    "size": 5,
+    "native_hex": "833e509801",
+    "instruction": "CMP word ptr [0x9850], 0x1",
+    "source": "CMP WORD PTR _cursor_colour_9850, 01h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2777,
+    "relative_offset": 507,
+    "size": 2,
+    "native_hex": "1bc0",
+    "instruction": "SBB AX, AX",
+    "source": "SBB AX, AX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2779,
+    "relative_offset": 509,
+    "size": 2,
+    "native_hex": "f7d8",
+    "instruction": "NEG AX",
+    "source": "NEG AX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2781,
+    "relative_offset": 511,
+    "size": 4,
+    "native_hex": "8884bba8",
+    "instruction": "MOV byte ptr [SI + 0xa8bb], AL",
+    "source": "MOV BYTE PTR [SI + 0A8BBh], AL",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2785,
+    "relative_offset": 515,
+    "size": 4,
+    "native_hex": "8b1ef40e",
+    "instruction": "MOV BX, word ptr [0xef4]",
+    "source": "MOV BX, WORD PTR _cursor_kind_0ef4",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2789,
+    "relative_offset": 519,
+    "size": 4,
+    "native_hex": "8a874c00",
+    "instruction": "MOV AL, byte ptr [BX + 0x4c]",
+    "source": "MOV AL, BYTE PTR _editor_piece_map_004c[BX]",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2793,
+    "relative_offset": 523,
+    "size": 4,
+    "native_hex": "8884baa8",
+    "instruction": "MOV byte ptr [SI + 0xa8ba], AL",
+    "source": "MOV BYTE PTR [SI + 0A8BAh], AL",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2797,
+    "relative_offset": 527,
+    "size": 6,
+    "native_hex": "c706f40e0000",
+    "instruction": "MOV word ptr [0xef4], 0x0",
+    "source": "MOV WORD PTR _cursor_kind_0ef4, 00h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2803,
+    "relative_offset": 533,
+    "size": 2,
+    "native_hex": "eb3a",
+    "instruction": "JMP 0x1000:0b2f",
+    "source": "JMP SHORT code_0b2f",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2805,
+    "relative_offset": 535,
+    "size": 4,
+    "native_hex": "8b1efa0e",
+    "instruction": "MOV BX, word ptr [0xefa]",
+    "source": "MOV BX, WORD PTR _selected_square_0efa",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2809,
+    "relative_offset": 539,
+    "size": 5,
+    "native_hex": "80bf661100",
+    "instruction": "CMP byte ptr [BX + 0x1166], 0x0",
+    "source": "CMP BYTE PTR _cells[BX], 00h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2814,
+    "relative_offset": 544,
+    "size": 2,
+    "native_hex": "742f",
+    "instruction": "JZ 0x1000:0b2f",
+    "source": "JZ SHORT code_0b2f",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2816,
+    "relative_offset": 546,
+    "size": 4,
+    "native_hex": "8a876611",
+    "instruction": "MOV AL, byte ptr [BX + 0x1166]",
+    "source": "MOV AL, BYTE PTR _cells[BX]",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2820,
+    "relative_offset": 550,
+    "size": 2,
+    "native_hex": "2ae4",
+    "instruction": "SUB AH, AH",
+    "source": "SUB AH, AH",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2822,
+    "relative_offset": 552,
+    "size": 2,
+    "native_hex": "8bf0",
+    "instruction": "MOV SI, AX",
+    "source": "MOV SI, AX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2824,
+    "relative_offset": 554,
+    "size": 3,
+    "native_hex": "250700",
+    "instruction": "AND AX, 0x7",
+    "source": "AND AX, 07h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2827,
+    "relative_offset": 557,
+    "size": 3,
+    "native_hex": "a3f40e",
+    "instruction": "MOV [0xef4], AX",
+    "source": "MOV WORD PTR _cursor_kind_0ef4, AX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2830,
+    "relative_offset": 560,
+    "size": 2,
+    "native_hex": "8bc6",
+    "instruction": "MOV AX, SI",
+    "source": "MOV AX, SI",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2832,
+    "relative_offset": 562,
+    "size": 2,
+    "native_hex": "b106",
+    "instruction": "MOV CL, 0x6",
+    "source": "MOV CL, 06h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2834,
+    "relative_offset": 564,
+    "size": 2,
+    "native_hex": "d3e8",
+    "instruction": "SHR AX, CL",
+    "source": "SHR AX, CL",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2836,
+    "relative_offset": 566,
+    "size": 3,
+    "native_hex": "a35098",
+    "instruction": "MOV [0x9850], AX",
+    "source": "MOV WORD PTR _cursor_colour_9850, AX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2839,
+    "relative_offset": 569,
+    "size": 4,
+    "native_hex": "8a87a48a",
+    "instruction": "MOV AL, byte ptr [BX + 0x8aa4]",
+    "source": "MOV AL, BYTE PTR _actor_map[BX]",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2843,
+    "relative_offset": 573,
+    "size": 2,
+    "native_hex": "2ae4",
+    "instruction": "SUB AH, AH",
+    "source": "SUB AH, AH",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2845,
+    "relative_offset": 575,
+    "size": 3,
+    "native_hex": "a3d057",
+    "instruction": "MOV [0x57d0], AX",
+    "source": "MOV WORD PTR _cursor_actor_57d0, AX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2848,
+    "relative_offset": 578,
+    "size": 4,
+    "native_hex": "88a76611",
+    "instruction": "MOV byte ptr [BX + 0x1166], AH",
+    "source": "MOV BYTE PTR _cells[BX], AH",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2852,
+    "relative_offset": 582,
+    "size": 3,
+    "native_hex": "8b5eee",
+    "instruction": "MOV BX, word ptr [BP + -0x12]",
+    "source": "MOV BX, WORD PTR [BP-012h]",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2855,
+    "relative_offset": 585,
+    "size": 2,
+    "native_hex": "d1e3",
+    "instruction": "SHL BX, 0x1",
+    "source": "SHL BX, 01h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2857,
+    "relative_offset": 587,
+    "size": 2,
+    "native_hex": "d1e3",
+    "instruction": "SHL BX, 0x1",
+    "source": "SHL BX, 01h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2859,
+    "relative_offset": 589,
+    "size": 4,
+    "native_hex": "88a7baa8",
+    "instruction": "MOV byte ptr [BX + 0xa8ba], AH",
+    "source": "MOV BYTE PTR _board[BX], AH",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2863,
+    "relative_offset": 593,
+    "size": 3,
+    "native_hex": "e93302",
+    "instruction": "JMP 0x1000:0d65",
+    "source": "JMP NEAR PTR code_0d65",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2866,
+    "relative_offset": 596,
+    "size": 5,
+    "native_hex": "833ef40e00",
+    "instruction": "CMP word ptr [0xef4], 0x0",
+    "source": "CMP WORD PTR _cursor_kind_0ef4, 00h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2871,
+    "relative_offset": 601,
+    "size": 2,
+    "native_hex": "7420",
+    "instruction": "JZ 0x1000:0b59",
+    "source": "JZ SHORT code_0b59",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2873,
+    "relative_offset": 603,
+    "size": 3,
+    "native_hex": "b81c00",
+    "instruction": "MOV AX, 0x1c",
+    "source": "MOV AX, 01Ch",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2876,
+    "relative_offset": 606,
+    "size": 4,
+    "native_hex": "f72ed057",
+    "instruction": "IMUL word ptr [0x57d0]",
+    "source": "IMUL WORD PTR _cursor_actor_57d0",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2880,
+    "relative_offset": 610,
+    "size": 2,
+    "native_hex": "8bf0",
+    "instruction": "MOV SI, AX",
+    "source": "MOV SI, AX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2882,
+    "relative_offset": 612,
+    "size": 5,
+    "native_hex": "83bcf40500",
+    "instruction": "CMP word ptr [SI + 0x5f4], 0x0",
+    "source": "CMP WORD PTR [SI + 05F4h], 00h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2887,
+    "relative_offset": 617,
+    "size": 2,
+    "native_hex": "7410",
+    "instruction": "JZ 0x1000:0b59",
+    "source": "JZ SHORT code_0b59",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2889,
+    "relative_offset": 619,
+    "size": 3,
+    "native_hex": "05e005",
+    "instruction": "ADD AX, 0x5e0",
+    "source": "ADD AX, OFFSET DGROUP:_actors",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2892,
+    "relative_offset": 622,
+    "size": 1,
+    "native_hex": "50",
+    "instruction": "PUSH AX",
+    "source": "PUSH AX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2893,
+    "relative_offset": 623,
+    "size": 3,
+    "native_hex": "e8f933",
+    "instruction": "CALL 0x1000:3f49",
+    "source": "CALL NEAR PTR _detach_actor",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2896,
+    "relative_offset": 626,
+    "size": 3,
+    "native_hex": "83c402",
+    "instruction": "ADD SP, 0x2",
+    "source": "ADD SP, 02h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2899,
+    "relative_offset": 629,
+    "size": 6,
+    "native_hex": "c706f40e0000",
+    "instruction": "MOV word ptr [0xef4], 0x0",
+    "source": "MOV WORD PTR _cursor_kind_0ef4, 00h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2905,
+    "relative_offset": 635,
+    "size": 3,
+    "native_hex": "a15e93",
+    "instruction": "MOV AX, [0x935e]",
+    "source": "MOV AX, WORD PTR _pointer_y",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2908,
+    "relative_offset": 638,
+    "size": 3,
+    "native_hex": "2d0400",
+    "instruction": "SUB AX, 0x4",
+    "source": "SUB AX, 04h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2911,
+    "relative_offset": 641,
+    "size": 1,
+    "native_hex": "99",
+    "instruction": "CWD",
+    "source": "CWD",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2912,
+    "relative_offset": 642,
+    "size": 3,
+    "native_hex": "b91800",
+    "instruction": "MOV CX, 0x18",
+    "source": "MOV CX, 018h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2915,
+    "relative_offset": 645,
+    "size": 2,
+    "native_hex": "f7f9",
+    "instruction": "IDIV CX",
+    "source": "IDIV CX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2917,
+    "relative_offset": 647,
+    "size": 3,
+    "native_hex": "8946ee",
+    "instruction": "MOV word ptr [BP + -0x12], AX",
+    "source": "MOV WORD PTR [BP-012h], AX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2920,
+    "relative_offset": 650,
+    "size": 2,
+    "native_hex": "0bc0",
+    "instruction": "OR AX, AX",
+    "source": "OR AX, AX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2922,
+    "relative_offset": 652,
+    "size": 2,
+    "native_hex": "7c48",
+    "instruction": "JL 0x1000:0bb4",
+    "source": "JL SHORT code_0bb4",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2924,
+    "relative_offset": 654,
+    "size": 3,
+    "native_hex": "3d0500",
+    "instruction": "CMP AX, 0x5",
+    "source": "CMP AX, 05h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2927,
+    "relative_offset": 657,
+    "size": 2,
+    "native_hex": "7f43",
+    "instruction": "JG 0x1000:0bb4",
+    "source": "JG SHORT code_0bb4",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2929,
+    "relative_offset": 659,
+    "size": 5,
+    "native_hex": "833e3a9319",
+    "instruction": "CMP word ptr [0x933a], 0x19",
+    "source": "CMP WORD PTR _pointer_x, 019h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2934,
+    "relative_offset": 664,
+    "size": 2,
+    "native_hex": "7d1a",
+    "instruction": "JGE 0x1000:0b92",
+    "source": "JGE SHORT code_0b92",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2936,
+    "relative_offset": 666,
+    "size": 5,
+    "native_hex": "833e3a9307",
+    "instruction": "CMP word ptr [0x933a], 0x7",
+    "source": "CMP WORD PTR _pointer_x, 07h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2941,
+    "relative_offset": 671,
+    "size": 2,
+    "native_hex": "7e13",
+    "instruction": "JLE 0x1000:0b92",
+    "source": "JLE SHORT code_0b92",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2943,
+    "relative_offset": 673,
+    "size": 2,
+    "native_hex": "8bd8",
+    "instruction": "MOV BX, AX",
+    "source": "MOV BX, AX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2945,
+    "relative_offset": 675,
+    "size": 4,
+    "native_hex": "8a87010f",
+    "instruction": "MOV AL, byte ptr [BX + 0xf01]",
+    "source": "MOV AL, BYTE PTR _palette_kinds_0f01[BX]",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2949,
+    "relative_offset": 679,
+    "size": 2,
+    "native_hex": "2ae4",
+    "instruction": "SUB AH, AH",
+    "source": "SUB AH, AH",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2951,
+    "relative_offset": 681,
+    "size": 3,
+    "native_hex": "a3f40e",
+    "instruction": "MOV [0xef4], AX",
+    "source": "MOV WORD PTR _cursor_kind_0ef4, AX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2954,
+    "relative_offset": 684,
+    "size": 6,
+    "native_hex": "c70650980000",
+    "instruction": "MOV word ptr [0x9850], 0x0",
+    "source": "MOV WORD PTR _cursor_colour_9850, 00h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2960,
+    "relative_offset": 690,
+    "size": 2,
+    "native_hex": "eb22",
+    "instruction": "JMP 0x1000:0bb4",
+    "source": "JMP SHORT code_0bb4",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2962,
+    "relative_offset": 692,
+    "size": 6,
+    "native_hex": "813e3a932701",
+    "instruction": "CMP word ptr [0x933a], 0x127",
+    "source": "CMP WORD PTR _pointer_x, 0127h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2968,
+    "relative_offset": 698,
+    "size": 2,
+    "native_hex": "7e1a",
+    "instruction": "JLE 0x1000:0bb4",
+    "source": "JLE SHORT code_0bb4",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2970,
+    "relative_offset": 700,
+    "size": 6,
+    "native_hex": "813e3a933901",
+    "instruction": "CMP word ptr [0x933a], 0x139",
+    "source": "CMP WORD PTR _pointer_x, 0139h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2976,
+    "relative_offset": 706,
+    "size": 2,
+    "native_hex": "7d12",
+    "instruction": "JGE 0x1000:0bb4",
+    "source": "JGE SHORT code_0bb4",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2978,
+    "relative_offset": 708,
+    "size": 3,
+    "native_hex": "8b5eee",
+    "instruction": "MOV BX, word ptr [BP + -0x12]",
+    "source": "MOV BX, WORD PTR [BP-012h]",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2981,
+    "relative_offset": 711,
+    "size": 4,
+    "native_hex": "8a87010f",
+    "instruction": "MOV AL, byte ptr [BX + 0xf01]",
+    "source": "MOV AL, BYTE PTR _palette_kinds_0f01[BX]",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2985,
+    "relative_offset": 715,
+    "size": 2,
+    "native_hex": "2ae4",
+    "instruction": "SUB AH, AH",
+    "source": "SUB AH, AH",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2987,
+    "relative_offset": 717,
+    "size": 3,
+    "native_hex": "a3f40e",
+    "instruction": "MOV [0xef4], AX",
+    "source": "MOV WORD PTR _cursor_kind_0ef4, AX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2990,
+    "relative_offset": 720,
+    "size": 6,
+    "native_hex": "c70650980100",
+    "instruction": "MOV word ptr [0x9850], 0x1",
+    "source": "MOV WORD PTR _cursor_colour_9850, 01h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 2996,
+    "relative_offset": 726,
+    "size": 5,
+    "native_hex": "833ef40e00",
+    "instruction": "CMP word ptr [0xef4], 0x0",
+    "source": "CMP WORD PTR _cursor_kind_0ef4, 00h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3001,
+    "relative_offset": 731,
+    "size": 2,
+    "native_hex": "746a",
+    "instruction": "JZ 0x1000:0c25",
+    "source": "JZ SHORT code_0c25",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3003,
+    "relative_offset": 733,
+    "size": 5,
+    "native_hex": "c746ee0000",
+    "instruction": "MOV word ptr [BP + -0x12], 0x0",
+    "source": "MOV WORD PTR [BP-012h], 00h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3008,
+    "relative_offset": 738,
+    "size": 2,
+    "native_hex": "eb03",
+    "instruction": "JMP 0x1000:0bc5",
+    "source": "JMP SHORT code_0bc5",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3010,
+    "relative_offset": 740,
+    "size": 3,
+    "native_hex": "ff46ee",
+    "instruction": "INC word ptr [BP + -0x12]",
+    "source": "INC WORD PTR [BP-012h]",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3013,
+    "relative_offset": 743,
+    "size": 4,
+    "native_hex": "837eee20",
+    "instruction": "CMP word ptr [BP + -0x12], 0x20",
+    "source": "CMP WORD PTR [BP-012h], 020h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3017,
+    "relative_offset": 747,
+    "size": 2,
+    "native_hex": "7d11",
+    "instruction": "JGE 0x1000:0bdc",
+    "source": "JGE SHORT code_0bdc",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3019,
+    "relative_offset": 749,
+    "size": 3,
+    "native_hex": "b81c00",
+    "instruction": "MOV AX, 0x1c",
+    "source": "MOV AX, 01Ch",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3022,
+    "relative_offset": 752,
+    "size": 3,
+    "native_hex": "f76eee",
+    "instruction": "IMUL word ptr [BP + -0x12]",
+    "source": "IMUL WORD PTR [BP-012h]",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3025,
+    "relative_offset": 755,
+    "size": 2,
+    "native_hex": "8bd8",
+    "instruction": "MOV BX, AX",
+    "source": "MOV BX, AX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3027,
+    "relative_offset": 757,
+    "size": 5,
+    "native_hex": "83bff40500",
+    "instruction": "CMP word ptr [BX + 0x5f4], 0x0",
+    "source": "CMP WORD PTR _actors+20[BX], 00h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3032,
+    "relative_offset": 762,
+    "size": 2,
+    "native_hex": "7402",
+    "instruction": "JZ 0x1000:0bdc",
+    "source": "JZ SHORT code_0bdc",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3034,
+    "relative_offset": 764,
+    "size": 2,
+    "native_hex": "ebe6",
+    "instruction": "JMP 0x1000:0bc2",
+    "source": "JMP SHORT code_0bc2",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3036,
+    "relative_offset": 766,
+    "size": 4,
+    "native_hex": "837eee20",
+    "instruction": "CMP word ptr [BP + -0x12], 0x20",
+    "source": "CMP WORD PTR [BP-012h], 020h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3040,
+    "relative_offset": 770,
+    "size": 2,
+    "native_hex": "7512",
+    "instruction": "JNZ 0x1000:0bf4",
+    "source": "JNZ SHORT code_0bf4",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3042,
+    "relative_offset": 772,
+    "size": 6,
+    "native_hex": "c706f40e0000",
+    "instruction": "MOV word ptr [0xef4], 0x0",
+    "source": "MOV WORD PTR _cursor_kind_0ef4, 00h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3048,
+    "relative_offset": 778,
+    "size": 3,
+    "native_hex": "b8004c",
+    "instruction": "MOV AX, 0x4c00",
+    "source": "MOV AX, OFFSET DGROUP:_no_actor_message_4c00",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3051,
+    "relative_offset": 781,
+    "size": 1,
+    "native_hex": "50",
+    "instruction": "PUSH AX",
+    "source": "PUSH AX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3052,
+    "relative_offset": 782,
+    "size": 3,
+    "native_hex": "e87f01",
+    "instruction": "CALL 0x1000:0d6e",
+    "source": "CALL NEAR PTR _show_error_0d6e",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3055,
+    "relative_offset": 785,
+    "size": 3,
+    "native_hex": "83c402",
+    "instruction": "ADD SP, 0x2",
+    "source": "ADD SP, 02h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3058,
+    "relative_offset": 788,
+    "size": 2,
+    "native_hex": "eb31",
+    "instruction": "JMP 0x1000:0c25",
+    "source": "JMP SHORT code_0c25",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3060,
+    "relative_offset": 790,
+    "size": 3,
+    "native_hex": "8b46ee",
+    "instruction": "MOV AX, word ptr [BP + -0x12]",
+    "source": "MOV AX, WORD PTR [BP-012h]",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3063,
+    "relative_offset": 793,
+    "size": 3,
+    "native_hex": "a3d057",
+    "instruction": "MOV [0x57d0], AX",
+    "source": "MOV WORD PTR _cursor_actor_57d0, AX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3066,
+    "relative_offset": 796,
+    "size": 3,
+    "native_hex": "b81c00",
+    "instruction": "MOV AX, 0x1c",
+    "source": "MOV AX, 01Ch",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3069,
+    "relative_offset": 799,
+    "size": 4,
+    "native_hex": "f72ed057",
+    "instruction": "IMUL word ptr [0x57d0]",
+    "source": "IMUL WORD PTR _cursor_actor_57d0",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3073,
+    "relative_offset": 803,
+    "size": 3,
+    "native_hex": "05e005",
+    "instruction": "ADD AX, 0x5e0",
+    "source": "ADD AX, OFFSET DGROUP:_actors",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3076,
+    "relative_offset": 806,
+    "size": 1,
+    "native_hex": "50",
+    "instruction": "PUSH AX",
+    "source": "PUSH AX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3077,
+    "relative_offset": 807,
+    "size": 3,
+    "native_hex": "a1f40e",
+    "instruction": "MOV AX, [0xef4]",
+    "source": "MOV AX, WORD PTR _cursor_kind_0ef4",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3080,
+    "relative_offset": 810,
+    "size": 2,
+    "native_hex": "b103",
+    "instruction": "MOV CL, 0x3",
+    "source": "MOV CL, 03h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3082,
+    "relative_offset": 812,
+    "size": 2,
+    "native_hex": "d3e0",
+    "instruction": "SHL AX, CL",
+    "source": "SHL AX, CL",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3084,
+    "relative_offset": 814,
+    "size": 3,
+    "native_hex": "050e82",
+    "instruction": "ADD AX, 0x820e",
+    "source": "ADD AX, OFFSET DGROUP:_cursor_frames_820e",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3087,
+    "relative_offset": 817,
+    "size": 1,
+    "native_hex": "50",
+    "instruction": "PUSH AX",
+    "source": "PUSH AX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3088,
+    "relative_offset": 818,
+    "size": 4,
+    "native_hex": "ff365098",
+    "instruction": "PUSH word ptr [0x9850]",
+    "source": "PUSH WORD PTR _cursor_colour_9850",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3092,
+    "relative_offset": 822,
+    "size": 3,
+    "native_hex": "a15e93",
+    "instruction": "MOV AX, [0x935e]",
+    "source": "MOV AX, WORD PTR _pointer_y",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3095,
+    "relative_offset": 825,
+    "size": 3,
+    "native_hex": "05c800",
+    "instruction": "ADD AX, 0xc8",
+    "source": "ADD AX, 0C8h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3098,
+    "relative_offset": 828,
+    "size": 1,
+    "native_hex": "50",
+    "instruction": "PUSH AX",
+    "source": "PUSH AX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3099,
+    "relative_offset": 829,
+    "size": 4,
+    "native_hex": "ff363a93",
+    "instruction": "PUSH word ptr [0x933a]",
+    "source": "PUSH WORD PTR _pointer_x",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3103,
+    "relative_offset": 833,
+    "size": 3,
+    "native_hex": "e8ed32",
+    "instruction": "CALL 0x1000:3f0f",
+    "source": "CALL NEAR PTR _attach_actor",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3106,
+    "relative_offset": 836,
+    "size": 3,
+    "native_hex": "83c40a",
+    "instruction": "ADD SP, 0xa",
+    "source": "ADD SP, 0Ah",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3109,
+    "relative_offset": 839,
+    "size": 3,
+    "native_hex": "e93d01",
+    "instruction": "JMP 0x1000:0d65",
+    "source": "JMP NEAR PTR code_0d65",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3112,
+    "relative_offset": 842,
+    "size": 3,
+    "native_hex": "b80100",
+    "instruction": "MOV AX, 0x1",
+    "source": "MOV AX, 01h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3115,
+    "relative_offset": 845,
+    "size": 1,
+    "native_hex": "50",
+    "instruction": "PUSH AX",
+    "source": "PUSH AX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3116,
+    "relative_offset": 846,
+    "size": 3,
+    "native_hex": "b80c00",
+    "instruction": "MOV AX, 0xc",
+    "source": "MOV AX, 0Ch",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3119,
+    "relative_offset": 849,
+    "size": 1,
+    "native_hex": "50",
+    "instruction": "PUSH AX",
+    "source": "PUSH AX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3120,
+    "relative_offset": 850,
+    "size": 3,
+    "native_hex": "b8124c",
+    "instruction": "MOV AX, 0x4c12",
+    "source": "MOV AX, OFFSET DGROUP:_clear_board_question_4c12",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3123,
+    "relative_offset": 853,
+    "size": 1,
+    "native_hex": "50",
+    "instruction": "PUSH AX",
+    "source": "PUSH AX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3124,
+    "relative_offset": 854,
+    "size": 3,
+    "native_hex": "e85f06",
+    "instruction": "CALL 0x1000:1296",
+    "source": "CALL NEAR PTR _prompt_1296",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3127,
+    "relative_offset": 857,
+    "size": 3,
+    "native_hex": "83c406",
+    "instruction": "ADD SP, 0x6",
+    "source": "ADD SP, 06h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3130,
+    "relative_offset": 860,
+    "size": 3,
+    "native_hex": "3d0310",
+    "instruction": "CMP AX, 0x1003",
+    "source": "CMP AX, 01003h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3133,
+    "relative_offset": 863,
+    "size": 2,
+    "native_hex": "753e",
+    "instruction": "JNZ 0x1000:0c7d",
+    "source": "JNZ SHORT code_0c7d",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3135,
+    "relative_offset": 865,
+    "size": 3,
+    "native_hex": "e83d33",
+    "instruction": "CALL 0x1000:3f7f",
+    "source": "CALL NEAR PTR _detach_all",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3138,
+    "relative_offset": 868,
+    "size": 5,
+    "native_hex": "c746f00000",
+    "instruction": "MOV word ptr [BP + -0x10], 0x0",
+    "source": "MOV WORD PTR [BP-010h], 00h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3143,
+    "relative_offset": 873,
+    "size": 2,
+    "native_hex": "eb03",
+    "instruction": "JMP 0x1000:0c4c",
+    "source": "JMP SHORT code_0c4c",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3145,
+    "relative_offset": 875,
+    "size": 3,
+    "native_hex": "ff46f0",
+    "instruction": "INC word ptr [BP + -0x10]",
+    "source": "INC WORD PTR [BP-010h]",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3148,
+    "relative_offset": 878,
+    "size": 4,
+    "native_hex": "837ef040",
+    "instruction": "CMP word ptr [BP + -0x10], 0x40",
+    "source": "CMP WORD PTR [BP-010h], 040h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3152,
+    "relative_offset": 882,
+    "size": 2,
+    "native_hex": "7d2b",
+    "instruction": "JGE 0x1000:0c7d",
+    "source": "JGE SHORT code_0c7d",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3154,
+    "relative_offset": 884,
+    "size": 3,
+    "native_hex": "8b5ef0",
+    "instruction": "MOV BX, word ptr [BP + -0x10]",
+    "source": "MOV BX, WORD PTR [BP-010h]",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3157,
+    "relative_offset": 887,
+    "size": 5,
+    "native_hex": "c687661100",
+    "instruction": "MOV byte ptr [BX + 0x1166], 0x0",
+    "source": "MOV BYTE PTR _cells[BX], 00h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3162,
+    "relative_offset": 892,
+    "size": 3,
+    "native_hex": "8b46f0",
+    "instruction": "MOV AX, word ptr [BP + -0x10]",
+    "source": "MOV AX, WORD PTR [BP-010h]",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3165,
+    "relative_offset": 895,
+    "size": 2,
+    "native_hex": "d1e0",
+    "instruction": "SHL AX, 0x1",
+    "source": "SHL AX, 01h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3167,
+    "relative_offset": 897,
+    "size": 3,
+    "native_hex": "257000",
+    "instruction": "AND AX, 0x70",
+    "source": "AND AX, 070h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3170,
+    "relative_offset": 900,
+    "size": 2,
+    "native_hex": "3470",
+    "instruction": "XOR AL, 0x70",
+    "source": "XOR AL, 070h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3172,
+    "relative_offset": 902,
+    "size": 3,
+    "native_hex": "8b4ef0",
+    "instruction": "MOV CX, word ptr [BP + -0x10]",
+    "source": "MOV CX, WORD PTR [BP-010h]",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3175,
+    "relative_offset": 905,
+    "size": 4,
+    "native_hex": "81e10700",
+    "instruction": "AND CX, 0x7",
+    "source": "AND CX, FULLWORD_IMMEDIATE_ZERO + 07h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3179,
+    "relative_offset": 909,
+    "size": 2,
+    "native_hex": "0bc1",
+    "instruction": "OR AX, CX",
+    "source": "OR AX, CX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3181,
+    "relative_offset": 911,
+    "size": 3,
+    "native_hex": "8946ec",
+    "instruction": "MOV word ptr [BP + -0x14], AX",
+    "source": "MOV WORD PTR [BP-014h], AX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3184,
+    "relative_offset": 914,
+    "size": 2,
+    "native_hex": "8bd8",
+    "instruction": "MOV BX, AX",
+    "source": "MOV BX, AX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3186,
+    "relative_offset": 916,
+    "size": 2,
+    "native_hex": "d1e3",
+    "instruction": "SHL BX, 0x1",
+    "source": "SHL BX, 01h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3188,
+    "relative_offset": 918,
+    "size": 2,
+    "native_hex": "d1e3",
+    "instruction": "SHL BX, 0x1",
+    "source": "SHL BX, 01h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3190,
+    "relative_offset": 920,
+    "size": 5,
+    "native_hex": "c687baa800",
+    "instruction": "MOV byte ptr [BX + 0xa8ba], 0x0",
+    "source": "MOV BYTE PTR _board[BX], 00h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3195,
+    "relative_offset": 925,
+    "size": 2,
+    "native_hex": "ebcc",
+    "instruction": "JMP 0x1000:0c49",
+    "source": "JMP SHORT code_0c49",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3197,
+    "relative_offset": 927,
+    "size": 3,
+    "native_hex": "e9e500",
+    "instruction": "JMP 0x1000:0d65",
+    "source": "JMP NEAR PTR code_0d65",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3200,
+    "relative_offset": 930,
+    "size": 3,
+    "native_hex": "a13892",
+    "instruction": "MOV AX, [0x9238]",
+    "source": "MOV AX, WORD PTR _arena_cursor",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3203,
+    "relative_offset": 933,
+    "size": 4,
+    "native_hex": "8b163a92",
+    "instruction": "MOV DX, word ptr [0x923a]",
+    "source": "MOV DX, WORD PTR _arena_cursor+2",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3207,
+    "relative_offset": 937,
+    "size": 3,
+    "native_hex": "8946fc",
+    "instruction": "MOV word ptr [BP + -0x4], AX",
+    "source": "MOV WORD PTR [BP-04h], AX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3210,
+    "relative_offset": 940,
+    "size": 3,
+    "native_hex": "8956fe",
+    "instruction": "MOV word ptr [BP + -0x2], DX",
+    "source": "MOV WORD PTR [BP-02h], DX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3213,
+    "relative_offset": 943,
+    "size": 3,
+    "native_hex": "b8baa8",
+    "instruction": "MOV AX, 0xa8ba",
+    "source": "MOV AX, OFFSET DGROUP:_board",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3216,
+    "relative_offset": 946,
+    "size": 3,
+    "native_hex": "8946f6",
+    "instruction": "MOV word ptr [BP + -0xa], AX",
+    "source": "MOV WORD PTR [BP-0Ah], AX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3219,
+    "relative_offset": 949,
+    "size": 3,
+    "native_hex": "8c5ef8",
+    "instruction": "MOV word ptr [BP + -0x8], DS",
+    "source": "MOV WORD PTR [BP-08h], DS",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3222,
+    "relative_offset": 952,
+    "size": 5,
+    "native_hex": "c746f00000",
+    "instruction": "MOV word ptr [BP + -0x10], 0x0",
+    "source": "MOV WORD PTR [BP-010h], 00h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3227,
+    "relative_offset": 957,
+    "size": 2,
+    "native_hex": "eb03",
+    "instruction": "JMP 0x1000:0ca0",
+    "source": "JMP SHORT code_0ca0",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3229,
+    "relative_offset": 959,
+    "size": 3,
+    "native_hex": "ff46f0",
+    "instruction": "INC word ptr [BP + -0x10]",
+    "source": "INC WORD PTR [BP-010h]",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3232,
+    "relative_offset": 962,
+    "size": 5,
+    "native_hex": "817ef0e001",
+    "instruction": "CMP word ptr [BP + -0x10], 0x1e0",
+    "source": "CMP WORD PTR [BP-010h], 01E0h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3237,
+    "relative_offset": 967,
+    "size": 2,
+    "native_hex": "7d24",
+    "instruction": "JGE 0x1000:0ccb",
+    "source": "JGE SHORT code_0ccb",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3239,
+    "relative_offset": 969,
+    "size": 3,
+    "native_hex": "c45efc",
+    "instruction": "LES BX, [BP + -0x4]",
+    "source": "LES BX, DWORD PTR [BP-04h]",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3242,
+    "relative_offset": 972,
+    "size": 4,
+    "native_hex": "8346fc01",
+    "instruction": "ADD word ptr [BP + -0x4], 0x1",
+    "source": "ADD WORD PTR [BP-04h], 01h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3246,
+    "relative_offset": 976,
+    "size": 2,
+    "native_hex": "7305",
+    "instruction": "JNC 0x1000:0cb5",
+    "source": "JNC SHORT code_0cb5",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3248,
+    "relative_offset": 978,
+    "size": 5,
+    "native_hex": "8146fe0010",
+    "instruction": "ADD word ptr [BP + -0x2], 0x1000",
+    "source": "ADD WORD PTR [BP-02h], 01000h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3253,
+    "relative_offset": 983,
+    "size": 3,
+    "native_hex": "268a07",
+    "instruction": "MOV AL, byte ptr ES:[BX]",
+    "source": "MOV AL, BYTE PTR ES:[BX]",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3256,
+    "relative_offset": 986,
+    "size": 3,
+    "native_hex": "c45ef6",
+    "instruction": "LES BX, [BP + -0xa]",
+    "source": "LES BX, DWORD PTR [BP-0Ah]",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3259,
+    "relative_offset": 989,
+    "size": 4,
+    "native_hex": "8346f601",
+    "instruction": "ADD word ptr [BP + -0xa], 0x1",
+    "source": "ADD WORD PTR [BP-0Ah], 01h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3263,
+    "relative_offset": 993,
+    "size": 2,
+    "native_hex": "7305",
+    "instruction": "JNC 0x1000:0cc6",
+    "source": "JNC SHORT code_0cc6",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3265,
+    "relative_offset": 995,
+    "size": 5,
+    "native_hex": "8146f80010",
+    "instruction": "ADD word ptr [BP + -0x8], 0x1000",
+    "source": "ADD WORD PTR [BP-08h], 01000h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3270,
+    "relative_offset": 1000,
+    "size": 3,
+    "native_hex": "268807",
+    "instruction": "MOV byte ptr ES:[BX], AL",
+    "source": "MOV BYTE PTR ES:[BX], AL",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3273,
+    "relative_offset": 1003,
+    "size": 2,
+    "native_hex": "ebd2",
+    "instruction": "JMP 0x1000:0c9d",
+    "source": "JMP SHORT code_0c9d",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3275,
+    "relative_offset": 1005,
+    "size": 3,
+    "native_hex": "e8b132",
+    "instruction": "CALL 0x1000:3f7f",
+    "source": "CALL NEAR PTR _detach_all",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3278,
+    "relative_offset": 1008,
+    "size": 6,
+    "native_hex": "c706f40e0000",
+    "instruction": "MOV word ptr [0xef4], 0x0",
+    "source": "MOV WORD PTR _cursor_kind_0ef4, 00h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3284,
+    "relative_offset": 1014,
+    "size": 3,
+    "native_hex": "e88efb",
+    "instruction": "CALL 0x1000:0865",
+    "source": "CALL NEAR PTR _reset_display_0865",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3287,
+    "relative_offset": 1017,
+    "size": 3,
+    "native_hex": "e98b00",
+    "instruction": "JMP 0x1000:0d65",
+    "source": "JMP NEAR PTR code_0d65",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3290,
+    "relative_offset": 1020,
+    "size": 3,
+    "native_hex": "e85981",
+    "instruction": "CALL 0x1000:8e36",
+    "source": "CALL NEAR PTR _validate_editor_8e36",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3293,
+    "relative_offset": 1023,
+    "size": 3,
+    "native_hex": "8946e8",
+    "instruction": "MOV word ptr [BP + -0x18], AX",
+    "source": "MOV WORD PTR [BP-018h], AX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3296,
+    "relative_offset": 1026,
+    "size": 2,
+    "native_hex": "0bc0",
+    "instruction": "OR AX, AX",
+    "source": "OR AX, AX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3298,
+    "relative_offset": 1028,
+    "size": 2,
+    "native_hex": "740f",
+    "instruction": "JZ 0x1000:0cf3",
+    "source": "JZ SHORT code_0cf3",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3300,
+    "relative_offset": 1030,
+    "size": 6,
+    "native_hex": "c706f40e0000",
+    "instruction": "MOV word ptr [0xef4], 0x0",
+    "source": "MOV WORD PTR _cursor_kind_0ef4, 00h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3306,
+    "relative_offset": 1036,
+    "size": 1,
+    "native_hex": "50",
+    "instruction": "PUSH AX",
+    "source": "PUSH AX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3307,
+    "relative_offset": 1037,
+    "size": 3,
+    "native_hex": "e88000",
+    "instruction": "CALL 0x1000:0d6e",
+    "source": "CALL NEAR PTR _show_error_0d6e",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3310,
+    "relative_offset": 1040,
+    "size": 3,
+    "native_hex": "83c402",
+    "instruction": "ADD SP, 0x2",
+    "source": "ADD SP, 02h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3313,
+    "relative_offset": 1043,
+    "size": 2,
+    "native_hex": "eb44",
+    "instruction": "JMP 0x1000:0d37",
+    "source": "JMP SHORT code_0d37",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3315,
+    "relative_offset": 1045,
+    "size": 6,
+    "native_hex": "c706da8d4a11",
+    "instruction": "MOV word ptr [0x8dda], 0x114a",
+    "source": "MOV WORD PTR _menus, OFFSET DGROUP:_main_menus_114a",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3321,
+    "relative_offset": 1051,
+    "size": 6,
+    "native_hex": "c706f40e0000",
+    "instruction": "MOV word ptr [0xef4], 0x0",
+    "source": "MOV WORD PTR _cursor_kind_0ef4, 00h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3327,
+    "relative_offset": 1057,
+    "size": 6,
+    "native_hex": "c706f20e0000",
+    "instruction": "MOV word ptr [0xef2], 0x0",
+    "source": "MOV WORD PTR _board_input_0ef2, 00h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3333,
+    "relative_offset": 1063,
+    "size": 3,
+    "native_hex": "8b46f4",
+    "instruction": "MOV AX, word ptr [BP + -0xc]",
+    "source": "MOV AX, WORD PTR [BP-0Ch]",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3336,
+    "relative_offset": 1066,
+    "size": 3,
+    "native_hex": "a3f60e",
+    "instruction": "MOV [0xef6], AX",
+    "source": "MOV WORD PTR _command_active, AX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3339,
+    "relative_offset": 1069,
+    "size": 3,
+    "native_hex": "8b46f2",
+    "instruction": "MOV AX, word ptr [BP + -0xe]",
+    "source": "MOV AX, WORD PTR [BP-0Eh]",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3342,
+    "relative_offset": 1072,
+    "size": 3,
+    "native_hex": "a3ee0e",
+    "instruction": "MOV [0xeee], AX",
+    "source": "MOV WORD PTR _waiting_0eee, AX",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3345,
+    "relative_offset": 1075,
+    "size": 3,
+    "native_hex": "e8061d",
+    "instruction": "CALL 0x1000:2a1a",
+    "source": "CALL NEAR PTR _init_surface",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3348,
+    "relative_offset": 1078,
+    "size": 3,
+    "native_hex": "e83831",
+    "instruction": "CALL 0x1000:3e4f",
+    "source": "CALL NEAR PTR _reset_graphics_3e4f",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3351,
+    "relative_offset": 1081,
+    "size": 3,
+    "native_hex": "e84bfb",
+    "instruction": "CALL 0x1000:0865",
+    "source": "CALL NEAR PTR _reset_display_0865",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3354,
+    "relative_offset": 1084,
+    "size": 3,
+    "native_hex": "e854d2",
+    "instruction": "CALL 0x1000:df71",
+    "source": "CALL NEAR PTR _reset_df71",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3357,
+    "relative_offset": 1087,
+    "size": 5,
+    "native_hex": "833eee0e00",
+    "instruction": "CMP word ptr [0xeee], 0x0",
+    "source": "CMP WORD PTR _waiting_0eee, 00h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3362,
+    "relative_offset": 1092,
+    "size": 2,
+    "native_hex": "740c",
+    "instruction": "JZ 0x1000:0d30",
+    "source": "JZ SHORT code_0d30",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3364,
+    "relative_offset": 1094,
+    "size": 4,
+    "native_hex": "ff364698",
+    "instruction": "PUSH word ptr [0x9846]",
+    "source": "PUSH WORD PTR _current_side",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3368,
+    "relative_offset": 1098,
+    "size": 5,
+    "native_hex": "9af800bf0f",
+    "instruction": "CALLF 0x1000:fce8",
+    "source": "CALL FAR PTR _draw_fce8",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3373,
+    "relative_offset": 1103,
+    "size": 3,
+    "native_hex": "83c402",
+    "instruction": "ADD SP, 0x2",
+    "source": "ADD SP, 02h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3376,
+    "relative_offset": 1106,
+    "size": 5,
+    "native_hex": "c606440000",
+    "instruction": "MOV byte ptr [0x44], 0x0",
+    "source": "MOV BYTE PTR _menu_open_0044, 00h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3381,
+    "relative_offset": 1111,
+    "size": 2,
+    "native_hex": "eb31",
+    "instruction": "JMP 0x1000:0d68",
+    "source": "JMP SHORT code_0d68",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3383,
+    "relative_offset": 1113,
+    "size": 2,
+    "native_hex": "eb2c",
+    "instruction": "JMP 0x1000:0d65",
+    "source": "JMP SHORT code_0d65",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3385,
+    "relative_offset": 1115,
+    "size": 2,
+    "native_hex": "eb2a",
+    "instruction": "JMP SHORT native_0d65",
+    "source": "JMP SHORT code_0d65",
+    "instruction_provenance": "analyst decoding of independently authenticated raw bytes EB rel8; target=(0D39+2)+signed(2A)=0D65. Ghidra exact inspection returned undecodable/not owned, not a provider-decoded instruction."
+  },
+  {
+    "image": 3387,
+    "relative_offset": 1117,
+    "size": 3,
+    "native_hex": "3d0210",
+    "instruction": "CMP AX, 0x1002",
+    "source": "CMP AX, 01002h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3390,
+    "relative_offset": 1120,
+    "size": 2,
+    "native_hex": "7503",
+    "instruction": "JNZ 0x1000:0d43",
+    "source": "JNZ SHORT code_0d43",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3392,
+    "relative_offset": 1122,
+    "size": 3,
+    "native_hex": "e9dcfc",
+    "instruction": "JMP 0x1000:0a1f",
+    "source": "JMP NEAR PTR code_0a1f",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3395,
+    "relative_offset": 1125,
+    "size": 3,
+    "native_hex": "3d0310",
+    "instruction": "CMP AX, 0x1003",
+    "source": "CMP AX, 01003h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3398,
+    "relative_offset": 1128,
+    "size": 2,
+    "native_hex": "7503",
+    "instruction": "JNZ 0x1000:0d4b",
+    "source": "JNZ SHORT code_0d4b",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3400,
+    "relative_offset": 1130,
+    "size": 3,
+    "native_hex": "e9e7fd",
+    "instruction": "JMP 0x1000:0b32",
+    "source": "JMP NEAR PTR code_0b32",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3403,
+    "relative_offset": 1133,
+    "size": 3,
+    "native_hex": "3d0030",
+    "instruction": "CMP AX, 0x3000",
+    "source": "CMP AX, 03000h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3406,
+    "relative_offset": 1136,
+    "size": 2,
+    "native_hex": "7503",
+    "instruction": "JNZ 0x1000:0d53",
+    "source": "JNZ SHORT code_0d53",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3408,
+    "relative_offset": 1138,
+    "size": 3,
+    "native_hex": "e9d5fe",
+    "instruction": "JMP 0x1000:0c28",
+    "source": "JMP NEAR PTR code_0c28",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3411,
+    "relative_offset": 1141,
+    "size": 3,
+    "native_hex": "3d0230",
+    "instruction": "CMP AX, 0x3002",
+    "source": "CMP AX, 03002h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3414,
+    "relative_offset": 1144,
+    "size": 2,
+    "native_hex": "7503",
+    "instruction": "JNZ 0x1000:0d5b",
+    "source": "JNZ SHORT code_0d5b",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3416,
+    "relative_offset": 1146,
+    "size": 3,
+    "native_hex": "e925ff",
+    "instruction": "JMP 0x1000:0c80",
+    "source": "JMP NEAR PTR code_0c80",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3419,
+    "relative_offset": 1149,
+    "size": 3,
+    "native_hex": "3d0330",
+    "instruction": "CMP AX, 0x3003",
+    "source": "CMP AX, 03003h",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3422,
+    "relative_offset": 1152,
+    "size": 2,
+    "native_hex": "7503",
+    "instruction": "JNZ 0x1000:0d63",
+    "source": "JNZ SHORT code_0d63",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3424,
+    "relative_offset": 1154,
+    "size": 3,
+    "native_hex": "e977ff",
+    "instruction": "JMP 0x1000:0cda",
+    "source": "JMP NEAR PTR code_0cda",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3427,
+    "relative_offset": 1157,
+    "size": 2,
+    "native_hex": "eb00",
+    "instruction": "JMP 0x1000:0d65",
+    "source": "JMP SHORT code_0d65",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3429,
+    "relative_offset": 1159,
+    "size": 3,
+    "native_hex": "e9a5fc",
+    "instruction": "JMP 0x1000:0a0d",
+    "source": "JMP NEAR PTR code_0a0d",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3432,
+    "relative_offset": 1162,
+    "size": 1,
+    "native_hex": "5e",
+    "instruction": "POP SI",
+    "source": "POP SI",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3433,
+    "relative_offset": 1163,
+    "size": 1,
+    "native_hex": "5f",
+    "instruction": "POP DI",
+    "source": "POP DI",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3434,
+    "relative_offset": 1164,
+    "size": 2,
+    "native_hex": "8be5",
+    "instruction": "MOV SP, BP",
+    "source": "MOV SP, BP",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3436,
+    "relative_offset": 1166,
+    "size": 1,
+    "native_hex": "5d",
+    "instruction": "POP BP",
+    "source": "POP BP",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  },
+  {
+    "image": 3437,
+    "relative_offset": 1167,
+    "size": 1,
+    "native_hex": "c3",
+    "instruction": "RET",
+    "source": "RET",
+    "instruction_provenance": "retained complete REA live instruction listing"
+  }
+]

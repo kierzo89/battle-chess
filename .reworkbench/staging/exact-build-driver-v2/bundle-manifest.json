@@ -1,0 +1,195 @@
+{
+  "schema": "exact-build-source-bundle-v1",
+  "status": "STAGED_NOT_ADOPTED",
+  "files": [
+    {
+      "path": "build_exact.py",
+      "sha256": "1526c95f3e185687b1d9f933e0f2013bbfc581e099ff9b2325d21d3c3d74e2c1"
+    },
+    {
+      "path": "compound-recipes.json",
+      "sha256": "655632e94dade5c47889e9d0a14edfa3ed574ad1533aff1a9faac1a926596ab5"
+    },
+    {
+      "path": "compound_worker.py",
+      "sha256": "02f17adcd6b6c66971d588539e0bbdc1d64b67c1aa168ef573743388f9e46f79"
+    },
+    {
+      "path": "final-order-recipe.json",
+      "sha256": "4ef04dc5fba89483f24eebf7741c68d67ade7c48a4ad8cb1438fa5a8ebae4238"
+    },
+    {
+      "path": "link_pack.py",
+      "sha256": "1c06792fbc43f1eab7641197ffc6f27fe9d32c54e9f7f56bf9afb8e48070c5ef"
+    },
+    {
+      "path": "ordinary_worker.py",
+      "sha256": "764db4f16bbfedcf3424e4cd8d52c0188953bd30b6f072da4f159147ed3db4de"
+    },
+    {
+      "path": "runtime_library.py",
+      "sha256": "7e2ab275321530f1b4534d281a806eefde8ef9944e87c9dbc54e17396f000c22"
+    },
+    {
+      "path": "source-inputs/0.c",
+      "sha256": "60020ed4a08b8760fc361f2edfa996c23024349cc8272cdffdeff9ae372ff575"
+    },
+    {
+      "path": "source-inputs/126.c",
+      "sha256": "0c400a67ae2b9315d7bf786840345081d734b9a1175da01b74080727686e894e"
+    },
+    {
+      "path": "source-inputs/175.c",
+      "sha256": "babe6b458ebf5eaa10e70314b13d6caeab32807eda289a3fd1a8534c01719f07"
+    },
+    {
+      "path": "source-inputs/176.c",
+      "sha256": "6bb2d85d9e09dc040b6e94afc99d3ec9740bc76afa7eb84e6f123ceb466ca039"
+    },
+    {
+      "path": "source-inputs/177.c",
+      "sha256": "892ba5506530bafc2009cd77c6cc86ffadd8a52765b5e8bd99a7e4b639a339db"
+    },
+    {
+      "path": "source-inputs/18.c",
+      "sha256": "d3e37f7914968a01a9c5c2a97336846dc06668a8737e37e802b8a0201c476f0a"
+    },
+    {
+      "path": "source-inputs/184.c",
+      "sha256": "18bd6e91017dead7145c3a7a894799e3ef136e75f789d86bfa919ec83fa3f912"
+    },
+    {
+      "path": "source-inputs/185.c",
+      "sha256": "a3aa8ad69f2b12b97de8180b9b30cbad75d89777d11290e1d0b00ef7d9a3ee93"
+    },
+    {
+      "path": "source-inputs/186.c",
+      "sha256": "c23d711705fabc404f31bf245827e49491758bbccc4616259a45a4b80e41ed52"
+    },
+    {
+      "path": "source-inputs/187.c",
+      "sha256": "96cf3321a54e9bd6a4efdbc6a7a18e0ed8f30be98f85a0a9d1c0031095cbc85a"
+    },
+    {
+      "path": "source-inputs/188.c",
+      "sha256": "2c0d718a194818205cb75a0ebce937f05b72a601983d76b98d5b3b23584c5021"
+    },
+    {
+      "path": "source-inputs/189.c",
+      "sha256": "818696a84fd204ad19c2be14d0d701b942d316a917748b75bd5154a742f2716c"
+    },
+    {
+      "path": "source-inputs/23.c",
+      "sha256": "986246d266024e7b1b22737043e114c91cab44eee24b8921afa1113cd31f54a0"
+    },
+    {
+      "path": "source-inputs/265.c",
+      "sha256": "ad3880d11f35a8266839d4fa44ee034470f3008ae702eac9d9ce8c3190dc367e"
+    },
+    {
+      "path": "source-inputs/266.asm",
+      "sha256": "01ea9339ba81a320d25c19b16c561d0bd57197166f2b3c5be4e2b55cb98002b8"
+    },
+    {
+      "path": "source-inputs/267.asm",
+      "sha256": "381337667c8f4f9d290ad874750a7226625147cbf6d759a46f3b0c1242706293"
+    },
+    {
+      "path": "source-inputs/27.c",
+      "sha256": "648f53343f6b29692b364fbfd7a191a49ed57a86f5e3ea54eb085245660f8a61"
+    },
+    {
+      "path": "source-inputs/32.c",
+      "sha256": "b10804c85d13a98bc79e90531a4eb210ed8f8b23ca2aae05e8949120f34e1592"
+    },
+    {
+      "path": "source-inputs/45-authored.asm",
+      "sha256": "3cec97ffa116e1ecad457e0faa5bda7be81da8124337111a37baa9c3c6390ef9"
+    },
+    {
+      "path": "source-inputs/45.c",
+      "sha256": "8647747ee40d0778b16a74618dc6a9556db8192e766031d7a875d37e81ad60db"
+    },
+    {
+      "path": "source-inputs/54-authored.asm",
+      "sha256": "cfb32de17ed8a50ced978277034fc78f37250c8a2be0bef0791d165c46f83d45"
+    },
+    {
+      "path": "source-inputs/54.c",
+      "sha256": "b867c070e824e8066ec38269a37ffade2d597a5671ef4f1497fc3e4ff5432b60"
+    },
+    {
+      "path": "source-inputs/57-authored.asm",
+      "sha256": "7a3978676378633ff95662dcc30c03fa0841cb46fb632aaf5b1e8f8797c8dba3"
+    },
+    {
+      "path": "source-inputs/57.c",
+      "sha256": "34dd19d69ba7d0a0bb1f67468d63a0f3780f0211e5a5c0af547f2c365a66001b"
+    },
+    {
+      "path": "source-inputs/62.asm",
+      "sha256": "1f5e1e821170ade5fde5a95ee314d8c2ac9bc3ffd537f76e3f7c82ecef918726"
+    },
+    {
+      "path": "source-inputs/67.c",
+      "sha256": "59901c075404ad672878b01a275bb84ecc6b4145a662ef753c6d45749723a085"
+    },
+    {
+      "path": "source-inputs/BINMODE.OBJ",
+      "sha256": "f373b6ee1096e1e8e92f3a6d57ad0a28eaca7329b574f6b47480c98b0d668673"
+    },
+    {
+      "path": "source-inputs/H000.asm",
+      "sha256": "c703c78d8d520dbb302ee655e1857391fe596826f66934d69b4857738aeaab7c"
+    },
+    {
+      "path": "source-inputs/H001.asm",
+      "sha256": "70b9fa34a49ff3ad422bc1334d73ba547a026b6d1a97790ea9ffee1a6c714740"
+    },
+    {
+      "path": "source-inputs/H002.asm",
+      "sha256": "2d83e333c3dfcde68a6bc2bb85809321a8b69b5abf3964e6ecb6e5e654b6dbf0"
+    },
+    {
+      "path": "source-inputs/H003.asm",
+      "sha256": "ac6333fbff64b1ee55aa0ffd1e679e602b9cec957546241f3948d95793636b47"
+    },
+    {
+      "path": "source-inputs/H004.asm",
+      "sha256": "738f07a78c53e12391f7495fdfc93e276bca80255e9cf84999611430dabb0df4"
+    },
+    {
+      "path": "source-inputs/H005.asm",
+      "sha256": "65885c0a2262eb2e5df7eb8ae2522fc1f6dcc8fb211b11bc43283bf4fce24278"
+    },
+    {
+      "path": "source-inputs/H006.asm",
+      "sha256": "fe29e8890059d0c4d5d40a00c586bd7812808c80db87b8418c536cd073d49fed"
+    },
+    {
+      "path": "source-inputs/H007.asm",
+      "sha256": "f80505fefe49d291cc7cce282a67a7f5167f4bdfbb522e081334dd9b34cf56ad"
+    },
+    {
+      "path": "source-inputs/H008.asm",
+      "sha256": "23e4fb4ff098dcc9d38f106abcac6129656d4913fa731d207e50fb35081b3b2a"
+    },
+    {
+      "path": "source-inputs/H009.asm",
+      "sha256": "6c781ed84914f189e3f577355327e48572db687ac76c23b32b23de01040f8ea4"
+    },
+    {
+      "path": "source-inputs/H010.asm",
+      "sha256": "232b908fab7ce5b8f10765a0dcb4176fb7ff2e3ad699f546881720a7b611531b"
+    },
+    {
+      "path": "source-inputs/placement_v2.py",
+      "sha256": "1f799564ed55a2d19f0619abe947da56b7ffb307a13840c10cc09f882f9f89ae"
+    },
+    {
+      "path": "source-overrides.json",
+      "sha256": "9ff0cbf5de975b97d25121fa93f2ce9f946838149872bab63ee3b1ad7cab756d"
+    }
+  ],
+  "canonical_credit_added": 0
+}

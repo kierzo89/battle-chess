@@ -1,0 +1,37 @@
+{
+  "id": "huff_refill_source_window_code",
+  "language": "asm-code",
+  "backend": "nasm-code-contribution-omf",
+  "object_profile": "huff_source_window_120",
+  "source": "asm/link/huff_helpers_window_omf.asm",
+  "source_sha256": "8332530bad5d3f2b50ddca362cd8d63c6111b29bdd23f4e9854c9ef4f9a6c67d",
+  "assembler_sha256": "57b8fc5957237b0d9b1ff48c8f5823780fb8ce968d9b8434850c06941ad5d5f5",
+  "public_symbols": [
+    "_huff_refill_e3ea",
+    "_huff_depth_trap_e410",
+    "_begin_asset_decode",
+    "_end_asset_decode"
+  ],
+  "image_offset": "0xe3ea",
+  "size": 120,
+  "externals": {
+    "_huff_memory_mode": {
+      "segment": 23746,
+      "offset": 17630
+    },
+    "_huff_memory_cursor": {
+      "segment": 23746,
+      "offset": 17626
+    },
+    "_huff_input_buffer": {
+      "segment": 23746,
+      "offset": 11970
+    },
+    "_read_asset": {
+      "segment": 0,
+      "offset": 52111
+    }
+  },
+  "rea_evidence": "build/huff-source-window-wrappers/rea-whole-120.json",
+  "boundary_evidence": "Complete independently authored relocatable CODE120/four actual entries, legacy94disjoint+INT3 and adjacent begin19/end6; no fabricatedfunction partitions. Full14actualfields/MZ1/fourbases and two actualLINKorders; zeroCcredit. Replaces existing95allocation, not duplicateprovider. Canonical-path admission overlay preflight: build/huff-source-window-120-admission/preflight.json; replaces previous95 allocation, no C/functioncredit."
+}

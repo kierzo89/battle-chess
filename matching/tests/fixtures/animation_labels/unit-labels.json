@@ -1,0 +1,17 @@
+{
+  "id": "animation_label_pair_4d96",
+  "language": "c-data",
+  "backend": "msc500-link-initialized-animation-labels15-v1",
+  "source": "src/data/animation_labels.c",
+  "symbol": "_animation_black_label_4d96",
+  "image_offset": "0x619b6",
+  "size": 15,
+  "reference_region": "exepack-expanded",
+  "flags": [
+    "/AS",
+    "/Zl"
+  ],
+  "rea_evidence": "build/animation-command-data-recovery/rea-labels16.json",
+  "externals": {},
+  "boundary_evidence": "Exact whole DATA15/WORD from untouched actual C unsized7+7 source literals; one raw gap@7 only. Bytes15 must be actual sole-newOBJ authentic LINK/MAP output:14C initialized +1LINK natural alignment. Raw generic cdata remains strict and rejects gap. Retained REA16 observed, byte16 excluded. OriginalTU/placement held, no function credit."
+}

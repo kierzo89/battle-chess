@@ -1,0 +1,1087 @@
+{
+  "records": [
+    {
+      "record": 0,
+      "DS_start": 3848,
+      "payload": [
+        0,
+        1,
+        2,
+        3,
+        6,
+        10
+      ],
+      "payload_length": 6,
+      "terminator_DS": 3854,
+      "operational_destination_bytes": 7
+    },
+    {
+      "record": 1,
+      "DS_start": 3855,
+      "payload": [
+        11
+      ],
+      "payload_length": 1,
+      "terminator_DS": 3856,
+      "operational_destination_bytes": 2
+    },
+    {
+      "record": 2,
+      "DS_start": 3857,
+      "payload": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "payload_length": 6,
+      "terminator_DS": 3863,
+      "operational_destination_bytes": 7
+    },
+    {
+      "record": 3,
+      "DS_start": 3864,
+      "payload": [
+        1,
+        3,
+        6,
+        7
+      ],
+      "payload_length": 4,
+      "terminator_DS": 3868,
+      "operational_destination_bytes": 5
+    },
+    {
+      "record": 4,
+      "DS_start": 3869,
+      "payload": [
+        0,
+        9
+      ],
+      "payload_length": 2,
+      "terminator_DS": 3871,
+      "operational_destination_bytes": 3
+    },
+    {
+      "record": 5,
+      "DS_start": 3872,
+      "payload": [
+        8
+      ],
+      "payload_length": 1,
+      "terminator_DS": 3873,
+      "operational_destination_bytes": 2
+    },
+    {
+      "record": 6,
+      "DS_start": 3874,
+      "payload": [
+        0,
+        1,
+        1,
+        6
+      ],
+      "payload_length": 4,
+      "terminator_DS": 3878,
+      "operational_destination_bytes": 5
+    },
+    {
+      "record": 7,
+      "DS_start": 3879,
+      "payload": [],
+      "payload_length": 0,
+      "terminator_DS": 3879,
+      "operational_destination_bytes": 1
+    },
+    {
+      "record": 8,
+      "DS_start": 3880,
+      "payload": [
+        0,
+        1,
+        1,
+        2,
+        3
+      ],
+      "payload_length": 5,
+      "terminator_DS": 3885,
+      "operational_destination_bytes": 6
+    },
+    {
+      "record": 9,
+      "DS_start": 3886,
+      "payload": [
+        0,
+        5
+      ],
+      "payload_length": 2,
+      "terminator_DS": 3888,
+      "operational_destination_bytes": 3
+    },
+    {
+      "record": 10,
+      "DS_start": 3889,
+      "payload": [
+        0,
+        1,
+        1,
+        8,
+        7
+      ],
+      "payload_length": 5,
+      "terminator_DS": 3894,
+      "operational_destination_bytes": 6
+    },
+    {
+      "record": 11,
+      "DS_start": 3895,
+      "payload": [
+        4
+      ],
+      "payload_length": 1,
+      "terminator_DS": 3896,
+      "operational_destination_bytes": 2
+    },
+    {
+      "record": 12,
+      "DS_start": 3897,
+      "payload": [
+        0,
+        1,
+        2,
+        11,
+        7
+      ],
+      "payload_length": 5,
+      "terminator_DS": 3902,
+      "operational_destination_bytes": 6
+    },
+    {
+      "record": 13,
+      "DS_start": 3903,
+      "payload": [
+        0,
+        10,
+        8
+      ],
+      "payload_length": 3,
+      "terminator_DS": 3906,
+      "operational_destination_bytes": 4
+    },
+    {
+      "record": 14,
+      "DS_start": 3907,
+      "payload": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "payload_length": 5,
+      "terminator_DS": 3912,
+      "operational_destination_bytes": 6
+    },
+    {
+      "record": 15,
+      "DS_start": 3913,
+      "payload": [
+        5
+      ],
+      "payload_length": 1,
+      "terminator_DS": 3914,
+      "operational_destination_bytes": 2
+    },
+    {
+      "record": 16,
+      "DS_start": 3915,
+      "payload": [
+        6
+      ],
+      "payload_length": 1,
+      "terminator_DS": 3916,
+      "operational_destination_bytes": 2
+    },
+    {
+      "record": 17,
+      "DS_start": 3917,
+      "payload": [
+        9
+      ],
+      "payload_length": 1,
+      "terminator_DS": 3918,
+      "operational_destination_bytes": 2
+    },
+    {
+      "record": 18,
+      "DS_start": 3919,
+      "payload": [
+        0,
+        3,
+        6,
+        4,
+        9
+      ],
+      "payload_length": 5,
+      "terminator_DS": 3924,
+      "operational_destination_bytes": 6
+    },
+    {
+      "record": 19,
+      "DS_start": 3925,
+      "payload": [
+        12
+      ],
+      "payload_length": 1,
+      "terminator_DS": 3926,
+      "operational_destination_bytes": 2
+    },
+    {
+      "record": 20,
+      "DS_start": 3927,
+      "payload": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "payload_length": 8,
+      "terminator_DS": 3935,
+      "operational_destination_bytes": 9
+    },
+    {
+      "record": 21,
+      "DS_start": 3936,
+      "payload": [
+        10
+      ],
+      "payload_length": 1,
+      "terminator_DS": 3937,
+      "operational_destination_bytes": 2
+    },
+    {
+      "record": 22,
+      "DS_start": 3938,
+      "payload": [
+        8
+      ],
+      "payload_length": 1,
+      "terminator_DS": 3939,
+      "operational_destination_bytes": 2
+    },
+    {
+      "record": 23,
+      "DS_start": 3940,
+      "payload": [
+        11
+      ],
+      "payload_length": 1,
+      "terminator_DS": 3941,
+      "operational_destination_bytes": 2
+    },
+    {
+      "record": 24,
+      "DS_start": 3942,
+      "payload": [
+        0,
+        8,
+        9,
+        2,
+        6,
+        12,
+        14
+      ],
+      "payload_length": 7,
+      "terminator_DS": 3949,
+      "operational_destination_bytes": 8
+    },
+    {
+      "record": 25,
+      "DS_start": 3950,
+      "payload": [
+        17
+      ],
+      "payload_length": 1,
+      "terminator_DS": 3951,
+      "operational_destination_bytes": 2
+    },
+    {
+      "record": 26,
+      "DS_start": 3952,
+      "payload": [
+        0,
+        1,
+        2,
+        2,
+        2,
+        6,
+        9,
+        6,
+        13
+      ],
+      "payload_length": 9,
+      "terminator_DS": 3961,
+      "operational_destination_bytes": 10
+    },
+    {
+      "record": 27,
+      "DS_start": 3962,
+      "payload": [
+        16
+      ],
+      "payload_length": 1,
+      "terminator_DS": 3963,
+      "operational_destination_bytes": 2
+    },
+    {
+      "record": 28,
+      "DS_start": 3964,
+      "payload": [
+        15
+      ],
+      "payload_length": 1,
+      "terminator_DS": 3965,
+      "operational_destination_bytes": 2
+    },
+    {
+      "record": 29,
+      "DS_start": 3966,
+      "payload": [
+        18
+      ],
+      "payload_length": 1,
+      "terminator_DS": 3967,
+      "operational_destination_bytes": 2
+    },
+    {
+      "record": 30,
+      "DS_start": 3968,
+      "payload": [
+        3
+      ],
+      "payload_length": 1,
+      "terminator_DS": 3969,
+      "operational_destination_bytes": 2
+    },
+    {
+      "record": 31,
+      "DS_start": 3970,
+      "payload": [
+        6
+      ],
+      "payload_length": 1,
+      "terminator_DS": 3971,
+      "operational_destination_bytes": 2
+    },
+    {
+      "record": 32,
+      "DS_start": 3972,
+      "payload": [
+        0,
+        1,
+        1,
+        0,
+        7
+      ],
+      "payload_length": 5,
+      "terminator_DS": 3977,
+      "operational_destination_bytes": 6
+    },
+    {
+      "record": 33,
+      "DS_start": 3978,
+      "payload": [
+        1,
+        5
+      ],
+      "payload_length": 2,
+      "terminator_DS": 3980,
+      "operational_destination_bytes": 3
+    },
+    {
+      "record": 34,
+      "DS_start": 3981,
+      "payload": [
+        2
+      ],
+      "payload_length": 1,
+      "terminator_DS": 3982,
+      "operational_destination_bytes": 2
+    },
+    {
+      "record": 35,
+      "DS_start": 3983,
+      "payload": [
+        0,
+        1,
+        1,
+        0,
+        4
+      ],
+      "payload_length": 5,
+      "terminator_DS": 3988,
+      "operational_destination_bytes": 6
+    },
+    {
+      "record": 36,
+      "DS_start": 3989,
+      "payload": [
+        4,
+        17,
+        2,
+        15
+      ],
+      "payload_length": 4,
+      "terminator_DS": 3993,
+      "operational_destination_bytes": 5
+    },
+    {
+      "record": 37,
+      "DS_start": 3994,
+      "payload": [
+        16,
+        14
+      ],
+      "payload_length": 2,
+      "terminator_DS": 3996,
+      "operational_destination_bytes": 3
+    },
+    {
+      "record": 38,
+      "DS_start": 3997,
+      "payload": [
+        4,
+        4,
+        17,
+        15
+      ],
+      "payload_length": 4,
+      "terminator_DS": 4001,
+      "operational_destination_bytes": 5
+    },
+    {
+      "record": 39,
+      "DS_start": 4002,
+      "payload": [
+        13,
+        2,
+        5,
+        3,
+        15,
+        0,
+        13,
+        15
+      ],
+      "payload_length": 8,
+      "terminator_DS": 4010,
+      "operational_destination_bytes": 9
+    },
+    {
+      "record": 40,
+      "DS_start": 4011,
+      "payload": [
+        0,
+        13,
+        15,
+        3,
+        15
+      ],
+      "payload_length": 5,
+      "terminator_DS": 4016,
+      "operational_destination_bytes": 6
+    },
+    {
+      "record": 41,
+      "DS_start": 4017,
+      "payload": [
+        0,
+        8,
+        9,
+        12,
+        1
+      ],
+      "payload_length": 5,
+      "terminator_DS": 4022,
+      "operational_destination_bytes": 6
+    },
+    {
+      "record": 42,
+      "DS_start": 4023,
+      "payload": [
+        1,
+        4
+      ],
+      "payload_length": 2,
+      "terminator_DS": 4025,
+      "operational_destination_bytes": 3
+    },
+    {
+      "record": 43,
+      "DS_start": 4026,
+      "payload": [],
+      "payload_length": 0,
+      "terminator_DS": 4026,
+      "operational_destination_bytes": 1
+    },
+    {
+      "record": 44,
+      "DS_start": 4027,
+      "payload": [
+        1,
+        0
+      ],
+      "payload_length": 2,
+      "terminator_DS": 4029,
+      "operational_destination_bytes": 3
+    },
+    {
+      "record": 45,
+      "DS_start": 4030,
+      "payload": [
+        5
+      ],
+      "payload_length": 1,
+      "terminator_DS": 4031,
+      "operational_destination_bytes": 2
+    },
+    {
+      "record": 46,
+      "DS_start": 4032,
+      "payload": [
+        2
+      ],
+      "payload_length": 1,
+      "terminator_DS": 4033,
+      "operational_destination_bytes": 2
+    },
+    {
+      "record": 47,
+      "DS_start": 4034,
+      "payload": [
+        1,
+        3
+      ],
+      "payload_length": 2,
+      "terminator_DS": 4036,
+      "operational_destination_bytes": 3
+    },
+    {
+      "record": 48,
+      "DS_start": 4037,
+      "payload": [
+        12,
+        9,
+        7,
+        9,
+        8
+      ],
+      "payload_length": 5,
+      "terminator_DS": 4042,
+      "operational_destination_bytes": 6
+    },
+    {
+      "record": 49,
+      "DS_start": 4043,
+      "payload": [
+        9,
+        8,
+        9,
+        8,
+        10,
+        1,
+        4,
+        11
+      ],
+      "payload_length": 8,
+      "terminator_DS": 4051,
+      "operational_destination_bytes": 9
+    },
+    {
+      "record": 50,
+      "DS_start": 4052,
+      "payload": [
+        5,
+        4,
+        12,
+        6,
+        16,
+        0,
+        4,
+        0,
+        4,
+        9,
+        8
+      ],
+      "payload_length": 11,
+      "terminator_DS": 4063,
+      "operational_destination_bytes": 12
+    },
+    {
+      "record": 51,
+      "DS_start": 4064,
+      "payload": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        4,
+        6,
+        7
+      ],
+      "payload_length": 9,
+      "terminator_DS": 4073,
+      "operational_destination_bytes": 10
+    },
+    {
+      "record": 52,
+      "DS_start": 4074,
+      "payload": [
+        15
+      ],
+      "payload_length": 1,
+      "terminator_DS": 4075,
+      "operational_destination_bytes": 2
+    },
+    {
+      "record": 53,
+      "DS_start": 4076,
+      "payload": [
+        12,
+        9,
+        7,
+        10,
+        1,
+        4,
+        9,
+        8
+      ],
+      "payload_length": 8,
+      "terminator_DS": 4084,
+      "operational_destination_bytes": 9
+    },
+    {
+      "record": 54,
+      "DS_start": 4085,
+      "payload": [
+        0,
+        3,
+        11,
+        7
+      ],
+      "payload_length": 4,
+      "terminator_DS": 4089,
+      "operational_destination_bytes": 5
+    },
+    {
+      "record": 55,
+      "DS_start": 4090,
+      "payload": [
+        9
+      ],
+      "payload_length": 1,
+      "terminator_DS": 4091,
+      "operational_destination_bytes": 2
+    },
+    {
+      "record": 56,
+      "DS_start": 4092,
+      "payload": [
+        1,
+        10
+      ],
+      "payload_length": 2,
+      "terminator_DS": 4094,
+      "operational_destination_bytes": 3
+    },
+    {
+      "record": 57,
+      "DS_start": 4095,
+      "payload": [
+        0,
+        7,
+        2
+      ],
+      "payload_length": 3,
+      "terminator_DS": 4098,
+      "operational_destination_bytes": 4
+    },
+    {
+      "record": 58,
+      "DS_start": 4099,
+      "payload": [
+        6
+      ],
+      "payload_length": 1,
+      "terminator_DS": 4100,
+      "operational_destination_bytes": 2
+    },
+    {
+      "record": 59,
+      "DS_start": 4101,
+      "payload": [
+        0,
+        4,
+        5,
+        11,
+        7,
+        11,
+        8
+      ],
+      "payload_length": 7,
+      "terminator_DS": 4108,
+      "operational_destination_bytes": 8
+    },
+    {
+      "record": 60,
+      "DS_start": 4109,
+      "payload": [
+        0,
+        1,
+        7,
+        9
+      ],
+      "payload_length": 4,
+      "terminator_DS": 4113,
+      "operational_destination_bytes": 5
+    },
+    {
+      "record": 61,
+      "DS_start": 4114,
+      "payload": [
+        0,
+        1,
+        7,
+        2
+      ],
+      "payload_length": 4,
+      "terminator_DS": 4118,
+      "operational_destination_bytes": 5
+    },
+    {
+      "record": 62,
+      "DS_start": 4119,
+      "payload": [
+        0,
+        1,
+        6,
+        6,
+        4
+      ],
+      "payload_length": 5,
+      "terminator_DS": 4124,
+      "operational_destination_bytes": 6
+    },
+    {
+      "record": 63,
+      "DS_start": 4125,
+      "payload": [
+        0,
+        1,
+        7,
+        3,
+        2,
+        5,
+        3
+      ],
+      "payload_length": 7,
+      "terminator_DS": 4132,
+      "operational_destination_bytes": 8
+    },
+    {
+      "record": 64,
+      "DS_start": 4133,
+      "payload": [
+        0,
+        1,
+        4
+      ],
+      "payload_length": 3,
+      "terminator_DS": 4136,
+      "operational_destination_bytes": 4
+    },
+    {
+      "record": 65,
+      "DS_start": 4137,
+      "payload": [
+        0,
+        1,
+        7,
+        5
+      ],
+      "payload_length": 4,
+      "terminator_DS": 4141,
+      "operational_destination_bytes": 5
+    },
+    {
+      "record": 66,
+      "DS_start": 4142,
+      "payload": [
+        0,
+        0
+      ],
+      "payload_length": 2,
+      "terminator_DS": 4144,
+      "operational_destination_bytes": 3
+    },
+    {
+      "record": 67,
+      "DS_start": 4145,
+      "payload": [
+        1
+      ],
+      "payload_length": 1,
+      "terminator_DS": 4146,
+      "operational_destination_bytes": 2
+    },
+    {
+      "record": 68,
+      "DS_start": 4147,
+      "payload": [
+        0
+      ],
+      "payload_length": 1,
+      "terminator_DS": 4148,
+      "operational_destination_bytes": 2
+    },
+    {
+      "record": 69,
+      "DS_start": 4149,
+      "payload": [
+        0
+      ],
+      "payload_length": 1,
+      "terminator_DS": 4150,
+      "operational_destination_bytes": 2
+    },
+    {
+      "record": 70,
+      "DS_start": 4151,
+      "payload": [
+        2
+      ],
+      "payload_length": 1,
+      "terminator_DS": 4152,
+      "operational_destination_bytes": 2
+    },
+    {
+      "record": 71,
+      "DS_start": 4153,
+      "payload": [
+        0,
+        0,
+        0
+      ],
+      "payload_length": 3,
+      "terminator_DS": 4156,
+      "operational_destination_bytes": 4
+    }
+  ],
+  "stream_DS": [
+    3848,
+    4157
+  ],
+  "init_native_loop": [
+    27953,
+    28026
+  ],
+  "linear_assignment": "left_lists[6][6] then right_lists[6][6], 72 near pointers; source in executable initialized DATA, not asset-file bytes",
+  "valid_selector_domain": "b,f in0..5 from manager left/right selectors1..6; malformed selectors held",
+  "left_max_payload": 9,
+  "right_max_payload": 11,
+  "minimum_valid_operational_storage": [
+    10,
+    12
+  ],
+  "native_writer": "2F79 resets input pointer and DI=0 for each metadata list; 2EE7 writes dest[DI], 2EF5 increments DI per source BYTE, 2F06 writes FF at input FF index",
+  "resource_independence": "file metadata controls whether and which values are written, not destination index bound; every completed inner scan uses the immutable selected FF record length",
+  "zero_metadata_lists": "native outer loop can skip output entirely; no claim initial FF is always overwritten or read",
+  "no_direct_scratch_reader_proved": true,
+  "physical_fragment": {
+    "DS": [
+      4158,
+      4198
+    ],
+    "size": 40,
+    "PUBLIC_views": {
+      "_left_list_scratch": 0,
+      "_right_list_scratch": 20
+    },
+    "bytes_hex": "ff00000000000000000000000000000000000000ff00000000000000000000000000000000000000",
+    "sha256": "08075a14d783e5e8ae70721b3af167ce853ffc0f965463adb5f390c22e1b7cd4",
+    "MZ": [],
+    "primary": "ev_44e5d811399391ab10fb2c879b31444ef389e025f3b5d890c60cccd2d63c18ec",
+    "left_operational_bytes": [
+      0,
+      10
+    ],
+    "left_opaque_bytes": [
+      10,
+      20
+    ],
+    "right_operational_bytes": [
+      20,
+      32
+    ],
+    "right_opaque_bytes": [
+      32,
+      40
+    ],
+    "partition_authority": "engineering physical-fragment partition between real machine-address view103E and independently owned menu_items1066; aggregate initialized DATA contains every byte; not an original object boundary",
+    "prefix_103d_excluded": "unowned zero following309-byte stream, not silently appended as padding",
+    "client_default_frame": "FRAME5 near DGROUP operand must be proved by actual group1 PUBLIC and authentic LINK; no assumed original absolute placement"
+  },
+  "closed507_client_bridge": [
+    {
+      "name": "_left_list_scratch",
+      "closed507_slot": 19,
+      "source": "src/asset_arena_flow_match.c",
+      "source_sha256": "cc32f43fd0d9e791cdc09d16b09562869095f5873f0c00c363626950ddf7e891",
+      "whole_object_sha256": "4dc97fb2c38d75506380846652b3f722a9ab32aa71eb5a08f128777af0b2f62d",
+      "all_actual_fields": [
+        {
+          "segment": 1,
+          "offset": 781,
+          "width": 2,
+          "location_type": 1,
+          "segment_relative": true,
+          "frame": [
+            5,
+            null
+          ],
+          "target": [
+            2,
+            18
+          ],
+          "displacement": null,
+          "record_offset": 2611,
+          "raw": "c6445612",
+          "class": "CODE",
+          "selected_owners": [
+            {
+              "id": "manage_asset_arena_3713",
+              "native_field_image": 14687,
+              "native_DS_base": 4158,
+              "source_addend": 0,
+              "actual_native_encoded_WORD": 4158,
+              "unwrapped_base_plus_addend": 4158,
+              "whole_C_or_ASM_match_from_closed504": "c_matched"
+            }
+          ],
+          "object_addend": 0
+        },
+        {
+          "segment": 5,
+          "offset": 665,
+          "width": 4,
+          "location_type": 3,
+          "segment_relative": true,
+          "frame": [
+            5,
+            null
+          ],
+          "target": [
+            2,
+            18
+          ],
+          "displacement": null,
+          "record_offset": 4987,
+          "raw": "cd3a5612",
+          "class": "DEBSYM",
+          "selected_owners": []
+        }
+      ],
+      "global_CV": [
+        {
+          "offset": 663,
+          "type": 520,
+          "raw": "05000000000802116c6566745f6c6973745f73637261746368"
+        }
+      ]
+    },
+    {
+      "name": "_right_list_scratch",
+      "closed507_slot": 19,
+      "source": "src/asset_arena_flow_match.c",
+      "source_sha256": "cc32f43fd0d9e791cdc09d16b09562869095f5873f0c00c363626950ddf7e891",
+      "whole_object_sha256": "4dc97fb2c38d75506380846652b3f722a9ab32aa71eb5a08f128777af0b2f62d",
+      "all_actual_fields": [
+        {
+          "segment": 1,
+          "offset": 893,
+          "width": 2,
+          "location_type": 1,
+          "segment_relative": true,
+          "frame": [
+            5,
+            null
+          ],
+          "target": [
+            2,
+            19
+          ],
+          "displacement": null,
+          "record_offset": 3297,
+          "raw": "c4165613",
+          "class": "CODE",
+          "selected_owners": [
+            {
+              "id": "manage_asset_arena_3713",
+              "native_field_image": 14799,
+              "native_DS_base": 4178,
+              "source_addend": 0,
+              "actual_native_encoded_WORD": 4178,
+              "unwrapped_base_plus_addend": 4178,
+              "whole_C_or_ASM_match_from_closed504": "c_matched"
+            }
+          ],
+          "object_addend": 0
+        },
+        {
+          "segment": 5,
+          "offset": 691,
+          "width": 4,
+          "location_type": 3,
+          "segment_relative": true,
+          "frame": [
+            5,
+            null
+          ],
+          "target": [
+            2,
+            19
+          ],
+          "displacement": null,
+          "record_offset": 4987,
+          "raw": "cd545613",
+          "class": "DEBSYM",
+          "selected_owners": []
+        }
+      ],
+      "global_CV": [
+        {
+          "offset": 689,
+          "type": 520,
+          "raw": "050000000008021272696768745f6c6973745f73637261746368"
+        }
+      ]
+    }
+  ],
+  "holds": [
+    "original C array capacity",
+    "all malformed resources/selectors",
+    "original TU/storageclass",
+    "initial scratch FF reader",
+    "unused opaque-byte semantics",
+    "absolute final placement"
+  ],
+  "C_function_credit": 0,
+  "new_matching_credit": 0
+}

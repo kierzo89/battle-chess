@@ -1,0 +1,1467 @@
+{
+  "base": 2270,
+  "size": 1168,
+  "instructions": 392,
+  "live_analyzed_instructions": 391,
+  "analyzed_live_bytes": 1166,
+  "physical_dead_gap": {
+    "offset": 3385,
+    "size": 2,
+    "bytes": "eb2a",
+    "derived_instruction": "JMP SHORT code_0d65",
+    "Ghidra_instruction_query": "undecodable/no owner",
+    "not_NOP_or_filler": true
+  },
+  "fields": [
+    {
+      "offset": 7,
+      "width": 2,
+      "symbol": "__chkstk",
+      "kind": "near-CALL",
+      "native_target": 60586,
+      "source_addend": 0
+    },
+    {
+      "offset": 13,
+      "width": 2,
+      "symbol": "_board_input_0ef2",
+      "kind": "DS-offset",
+      "native_target": 3826,
+      "source_addend": 0
+    },
+    {
+      "offset": 19,
+      "width": 2,
+      "symbol": "_menus",
+      "kind": "DS-offset",
+      "native_target": 36314,
+      "source_addend": 0
+    },
+    {
+      "offset": 21,
+      "width": 2,
+      "symbol": "_alternate_menus_115e",
+      "kind": "DS-offset",
+      "native_target": 4446,
+      "source_addend": 0
+    },
+    {
+      "offset": 24,
+      "width": 2,
+      "symbol": "_command_active",
+      "kind": "DS-offset",
+      "native_target": 3830,
+      "source_addend": 0
+    },
+    {
+      "offset": 30,
+      "width": 2,
+      "symbol": "_waiting_0eee",
+      "kind": "DS-offset",
+      "native_target": 3822,
+      "source_addend": 0
+    },
+    {
+      "offset": 37,
+      "width": 2,
+      "symbol": "_command_active",
+      "kind": "DS-offset",
+      "native_target": 3830,
+      "source_addend": 0
+    },
+    {
+      "offset": 44,
+      "width": 2,
+      "symbol": "_command_active",
+      "kind": "DS-offset",
+      "native_target": 3830,
+      "source_addend": 0
+    },
+    {
+      "offset": 49,
+      "width": 2,
+      "symbol": "_init_surface",
+      "kind": "near-CALL",
+      "native_target": 10778,
+      "source_addend": 0
+    },
+    {
+      "offset": 52,
+      "width": 2,
+      "symbol": "_refresh_panel_1d51",
+      "kind": "near-CALL",
+      "native_target": 7505,
+      "source_addend": 0
+    },
+    {
+      "offset": 56,
+      "width": 2,
+      "symbol": "_page_mode",
+      "kind": "DS-offset",
+      "native_target": 89,
+      "source_addend": 0
+    },
+    {
+      "offset": 61,
+      "width": 2,
+      "symbol": "_actors",
+      "kind": "DS-offset",
+      "native_target": 1504,
+      "source_addend": 907
+    },
+    {
+      "offset": 82,
+      "width": 2,
+      "symbol": "_actors",
+      "kind": "DS-offset",
+      "native_target": 1504,
+      "source_addend": 916
+    },
+    {
+      "offset": 87,
+      "width": 2,
+      "symbol": "_actors",
+      "kind": "DS-offset",
+      "native_target": 1504,
+      "source_addend": 896
+    },
+    {
+      "offset": 95,
+      "width": 2,
+      "symbol": "_palette_kinds_0f01",
+      "kind": "DS-offset",
+      "native_target": 3841,
+      "source_addend": 0
+    },
+    {
+      "offset": 104,
+      "width": 2,
+      "symbol": "_cursor_frames_820e",
+      "kind": "DS-offset",
+      "native_target": 33294,
+      "source_addend": 0
+    },
+    {
+      "offset": 124,
+      "width": 2,
+      "symbol": "_attach_actor",
+      "kind": "near-CALL",
+      "native_target": 16143,
+      "source_addend": 0
+    },
+    {
+      "offset": 131,
+      "width": 2,
+      "symbol": "_actors",
+      "kind": "DS-offset",
+      "native_target": 1504,
+      "source_addend": 916
+    },
+    {
+      "offset": 136,
+      "width": 2,
+      "symbol": "_actors",
+      "kind": "DS-offset",
+      "native_target": 1504,
+      "source_addend": 896
+    },
+    {
+      "offset": 144,
+      "width": 2,
+      "symbol": "_palette_kinds_0f01",
+      "kind": "DS-offset",
+      "native_target": 3841,
+      "source_addend": 0
+    },
+    {
+      "offset": 153,
+      "width": 2,
+      "symbol": "_cursor_frames_820e",
+      "kind": "DS-offset",
+      "native_target": 33294,
+      "source_addend": 0
+    },
+    {
+      "offset": 174,
+      "width": 2,
+      "symbol": "_attach_actor",
+      "kind": "near-CALL",
+      "native_target": 16143,
+      "source_addend": 0
+    },
+    {
+      "offset": 183,
+      "width": 2,
+      "symbol": "_page_mode",
+      "kind": "DS-offset",
+      "native_target": 89,
+      "source_addend": 0
+    },
+    {
+      "offset": 187,
+      "width": 2,
+      "symbol": "_actors",
+      "kind": "DS-offset",
+      "native_target": 1504,
+      "source_addend": 896
+    },
+    {
+      "offset": 191,
+      "width": 2,
+      "symbol": "_detach_actor",
+      "kind": "near-CALL",
+      "native_target": 16201,
+      "source_addend": 0
+    },
+    {
+      "offset": 197,
+      "width": 2,
+      "symbol": "_reset_graphics_3e4f",
+      "kind": "near-CALL",
+      "native_target": 15951,
+      "source_addend": 0
+    },
+    {
+      "offset": 200,
+      "width": 2,
+      "symbol": "_reset_display_0865",
+      "kind": "near-CALL",
+      "native_target": 2149,
+      "source_addend": 0
+    },
+    {
+      "offset": 217,
+      "width": 2,
+      "symbol": "_row_mask_9230",
+      "kind": "DS-offset",
+      "native_target": 37424,
+      "source_addend": 0
+    },
+    {
+      "offset": 229,
+      "width": 2,
+      "symbol": "_arena_cursor",
+      "kind": "DS-offset",
+      "native_target": 37432,
+      "source_addend": 0
+    },
+    {
+      "offset": 233,
+      "width": 2,
+      "symbol": "_arena_cursor",
+      "kind": "DS-offset",
+      "native_target": 37432,
+      "source_addend": 2
+    },
+    {
+      "offset": 242,
+      "width": 2,
+      "symbol": "_board",
+      "kind": "DS-offset",
+      "native_target": 43194,
+      "source_addend": 0
+    },
+    {
+      "offset": 305,
+      "width": 2,
+      "symbol": "_menu_open_0044",
+      "kind": "DS-offset",
+      "native_target": 68,
+      "source_addend": 0
+    },
+    {
+      "offset": 309,
+      "width": 2,
+      "symbol": "_obtain_input",
+      "kind": "near-CALL",
+      "native_target": 596,
+      "source_addend": 0
+    },
+    {
+      "offset": 322,
+      "width": 2,
+      "symbol": "_selected_square_0efa",
+      "kind": "DS-offset",
+      "native_target": 3834,
+      "source_addend": 0
+    },
+    {
+      "offset": 333,
+      "width": 2,
+      "symbol": "_selected_square_0efa",
+      "kind": "DS-offset",
+      "native_target": 3834,
+      "source_addend": 0
+    },
+    {
+      "offset": 346,
+      "width": 2,
+      "symbol": "_cursor_kind_0ef4",
+      "kind": "DS-offset",
+      "native_target": 3828,
+      "source_addend": 0
+    },
+    {
+      "offset": 356,
+      "width": 2,
+      "symbol": "_selected_square_0efa",
+      "kind": "DS-offset",
+      "native_target": 3834,
+      "source_addend": 0
+    },
+    {
+      "offset": 360,
+      "width": 2,
+      "symbol": "_cells",
+      "kind": "DS-offset",
+      "native_target": 4454,
+      "source_addend": 0
+    },
+    {
+      "offset": 369,
+      "width": 2,
+      "symbol": "_actor_map",
+      "kind": "DS-offset",
+      "native_target": 35492,
+      "source_addend": 0
+    },
+    {
+      "offset": 372,
+      "width": 2,
+      "symbol": "_actors",
+      "kind": "DS-offset",
+      "native_target": 1504,
+      "source_addend": 0
+    },
+    {
+      "offset": 376,
+      "width": 2,
+      "symbol": "_detach_actor",
+      "kind": "near-CALL",
+      "native_target": 16201,
+      "source_addend": 0
+    },
+    {
+      "offset": 386,
+      "width": 2,
+      "symbol": "_cursor_actor_57d0",
+      "kind": "DS-offset",
+      "native_target": 22480,
+      "source_addend": 0
+    },
+    {
+      "offset": 398,
+      "width": 2,
+      "symbol": "_actors",
+      "kind": "DS-offset",
+      "native_target": 1504,
+      "source_addend": 0
+    },
+    {
+      "offset": 402,
+      "width": 2,
+      "symbol": "_detach_actor",
+      "kind": "near-CALL",
+      "native_target": 16201,
+      "source_addend": 0
+    },
+    {
+      "offset": 412,
+      "width": 2,
+      "symbol": "_cursor_actor_57d0",
+      "kind": "DS-offset",
+      "native_target": 22480,
+      "source_addend": 0
+    },
+    {
+      "offset": 415,
+      "width": 2,
+      "symbol": "_actors",
+      "kind": "DS-offset",
+      "native_target": 1504,
+      "source_addend": 0
+    },
+    {
+      "offset": 419,
+      "width": 2,
+      "symbol": "_cursor_kind_0ef4",
+      "kind": "DS-offset",
+      "native_target": 3828,
+      "source_addend": 0
+    },
+    {
+      "offset": 426,
+      "width": 2,
+      "symbol": "_cursor_frames_820e",
+      "kind": "DS-offset",
+      "native_target": 33294,
+      "source_addend": 0
+    },
+    {
+      "offset": 431,
+      "width": 2,
+      "symbol": "_cursor_colour_9850",
+      "kind": "DS-offset",
+      "native_target": 38992,
+      "source_addend": 0
+    },
+    {
+      "offset": 435,
+      "width": 2,
+      "symbol": "_selected_square_0efa",
+      "kind": "DS-offset",
+      "native_target": 3834,
+      "source_addend": 0
+    },
+    {
+      "offset": 443,
+      "width": 2,
+      "symbol": "_screen_y",
+      "kind": "DS-offset",
+      "native_target": 45256,
+      "source_addend": 0
+    },
+    {
+      "offset": 449,
+      "width": 2,
+      "symbol": "_selected_square_0efa",
+      "kind": "DS-offset",
+      "native_target": 3834,
+      "source_addend": 0
+    },
+    {
+      "offset": 455,
+      "width": 2,
+      "symbol": "_screen_x",
+      "kind": "DS-offset",
+      "native_target": 45254,
+      "source_addend": 0
+    },
+    {
+      "offset": 460,
+      "width": 2,
+      "symbol": "_attach_actor",
+      "kind": "near-CALL",
+      "native_target": 16143,
+      "source_addend": 0
+    },
+    {
+      "offset": 467,
+      "width": 2,
+      "symbol": "_selected_square_0efa",
+      "kind": "DS-offset",
+      "native_target": 3834,
+      "source_addend": 0
+    },
+    {
+      "offset": 470,
+      "width": 2,
+      "symbol": "_cursor_colour_9850",
+      "kind": "DS-offset",
+      "native_target": 38992,
+      "source_addend": 0
+    },
+    {
+      "offset": 478,
+      "width": 2,
+      "symbol": "_cursor_kind_0ef4",
+      "kind": "DS-offset",
+      "native_target": 3828,
+      "source_addend": 0
+    },
+    {
+      "offset": 482,
+      "width": 2,
+      "symbol": "_cells",
+      "kind": "DS-offset",
+      "native_target": 4454,
+      "source_addend": 0
+    },
+    {
+      "offset": 486,
+      "width": 2,
+      "symbol": "_selected_square_0efa",
+      "kind": "DS-offset",
+      "native_target": 3834,
+      "source_addend": 0
+    },
+    {
+      "offset": 489,
+      "width": 2,
+      "symbol": "_cursor_actor_57d0",
+      "kind": "DS-offset",
+      "native_target": 22480,
+      "source_addend": 0
+    },
+    {
+      "offset": 493,
+      "width": 2,
+      "symbol": "_actor_map",
+      "kind": "DS-offset",
+      "native_target": 35492,
+      "source_addend": 0
+    },
+    {
+      "offset": 504,
+      "width": 2,
+      "symbol": "_cursor_colour_9850",
+      "kind": "DS-offset",
+      "native_target": 38992,
+      "source_addend": 0
+    },
+    {
+      "offset": 517,
+      "width": 2,
+      "symbol": "_cursor_kind_0ef4",
+      "kind": "DS-offset",
+      "native_target": 3828,
+      "source_addend": 0
+    },
+    {
+      "offset": 521,
+      "width": 2,
+      "symbol": "_editor_piece_map_004c",
+      "kind": "DS-offset",
+      "native_target": 76,
+      "source_addend": 0
+    },
+    {
+      "offset": 529,
+      "width": 2,
+      "symbol": "_cursor_kind_0ef4",
+      "kind": "DS-offset",
+      "native_target": 3828,
+      "source_addend": 0
+    },
+    {
+      "offset": 537,
+      "width": 2,
+      "symbol": "_selected_square_0efa",
+      "kind": "DS-offset",
+      "native_target": 3834,
+      "source_addend": 0
+    },
+    {
+      "offset": 541,
+      "width": 2,
+      "symbol": "_cells",
+      "kind": "DS-offset",
+      "native_target": 4454,
+      "source_addend": 0
+    },
+    {
+      "offset": 548,
+      "width": 2,
+      "symbol": "_cells",
+      "kind": "DS-offset",
+      "native_target": 4454,
+      "source_addend": 0
+    },
+    {
+      "offset": 558,
+      "width": 2,
+      "symbol": "_cursor_kind_0ef4",
+      "kind": "DS-offset",
+      "native_target": 3828,
+      "source_addend": 0
+    },
+    {
+      "offset": 567,
+      "width": 2,
+      "symbol": "_cursor_colour_9850",
+      "kind": "DS-offset",
+      "native_target": 38992,
+      "source_addend": 0
+    },
+    {
+      "offset": 571,
+      "width": 2,
+      "symbol": "_actor_map",
+      "kind": "DS-offset",
+      "native_target": 35492,
+      "source_addend": 0
+    },
+    {
+      "offset": 576,
+      "width": 2,
+      "symbol": "_cursor_actor_57d0",
+      "kind": "DS-offset",
+      "native_target": 22480,
+      "source_addend": 0
+    },
+    {
+      "offset": 580,
+      "width": 2,
+      "symbol": "_cells",
+      "kind": "DS-offset",
+      "native_target": 4454,
+      "source_addend": 0
+    },
+    {
+      "offset": 591,
+      "width": 2,
+      "symbol": "_board",
+      "kind": "DS-offset",
+      "native_target": 43194,
+      "source_addend": 0
+    },
+    {
+      "offset": 598,
+      "width": 2,
+      "symbol": "_cursor_kind_0ef4",
+      "kind": "DS-offset",
+      "native_target": 3828,
+      "source_addend": 0
+    },
+    {
+      "offset": 608,
+      "width": 2,
+      "symbol": "_cursor_actor_57d0",
+      "kind": "DS-offset",
+      "native_target": 22480,
+      "source_addend": 0
+    },
+    {
+      "offset": 620,
+      "width": 2,
+      "symbol": "_actors",
+      "kind": "DS-offset",
+      "native_target": 1504,
+      "source_addend": 0
+    },
+    {
+      "offset": 624,
+      "width": 2,
+      "symbol": "_detach_actor",
+      "kind": "near-CALL",
+      "native_target": 16201,
+      "source_addend": 0
+    },
+    {
+      "offset": 631,
+      "width": 2,
+      "symbol": "_cursor_kind_0ef4",
+      "kind": "DS-offset",
+      "native_target": 3828,
+      "source_addend": 0
+    },
+    {
+      "offset": 636,
+      "width": 2,
+      "symbol": "_pointer_y",
+      "kind": "DS-offset",
+      "native_target": 37726,
+      "source_addend": 0
+    },
+    {
+      "offset": 661,
+      "width": 2,
+      "symbol": "_pointer_x",
+      "kind": "DS-offset",
+      "native_target": 37690,
+      "source_addend": 0
+    },
+    {
+      "offset": 668,
+      "width": 2,
+      "symbol": "_pointer_x",
+      "kind": "DS-offset",
+      "native_target": 37690,
+      "source_addend": 0
+    },
+    {
+      "offset": 677,
+      "width": 2,
+      "symbol": "_palette_kinds_0f01",
+      "kind": "DS-offset",
+      "native_target": 3841,
+      "source_addend": 0
+    },
+    {
+      "offset": 682,
+      "width": 2,
+      "symbol": "_cursor_kind_0ef4",
+      "kind": "DS-offset",
+      "native_target": 3828,
+      "source_addend": 0
+    },
+    {
+      "offset": 686,
+      "width": 2,
+      "symbol": "_cursor_colour_9850",
+      "kind": "DS-offset",
+      "native_target": 38992,
+      "source_addend": 0
+    },
+    {
+      "offset": 694,
+      "width": 2,
+      "symbol": "_pointer_x",
+      "kind": "DS-offset",
+      "native_target": 37690,
+      "source_addend": 0
+    },
+    {
+      "offset": 702,
+      "width": 2,
+      "symbol": "_pointer_x",
+      "kind": "DS-offset",
+      "native_target": 37690,
+      "source_addend": 0
+    },
+    {
+      "offset": 713,
+      "width": 2,
+      "symbol": "_palette_kinds_0f01",
+      "kind": "DS-offset",
+      "native_target": 3841,
+      "source_addend": 0
+    },
+    {
+      "offset": 718,
+      "width": 2,
+      "symbol": "_cursor_kind_0ef4",
+      "kind": "DS-offset",
+      "native_target": 3828,
+      "source_addend": 0
+    },
+    {
+      "offset": 722,
+      "width": 2,
+      "symbol": "_cursor_colour_9850",
+      "kind": "DS-offset",
+      "native_target": 38992,
+      "source_addend": 0
+    },
+    {
+      "offset": 728,
+      "width": 2,
+      "symbol": "_cursor_kind_0ef4",
+      "kind": "DS-offset",
+      "native_target": 3828,
+      "source_addend": 0
+    },
+    {
+      "offset": 759,
+      "width": 2,
+      "symbol": "_actors",
+      "kind": "DS-offset",
+      "native_target": 1504,
+      "source_addend": 20
+    },
+    {
+      "offset": 774,
+      "width": 2,
+      "symbol": "_cursor_kind_0ef4",
+      "kind": "DS-offset",
+      "native_target": 3828,
+      "source_addend": 0
+    },
+    {
+      "offset": 779,
+      "width": 2,
+      "symbol": "_no_actor_message_4c00",
+      "kind": "DS-offset",
+      "native_target": 19456,
+      "source_addend": 0
+    },
+    {
+      "offset": 783,
+      "width": 2,
+      "symbol": "_show_error_0d6e",
+      "kind": "near-CALL",
+      "native_target": 3438,
+      "source_addend": 0
+    },
+    {
+      "offset": 794,
+      "width": 2,
+      "symbol": "_cursor_actor_57d0",
+      "kind": "DS-offset",
+      "native_target": 22480,
+      "source_addend": 0
+    },
+    {
+      "offset": 801,
+      "width": 2,
+      "symbol": "_cursor_actor_57d0",
+      "kind": "DS-offset",
+      "native_target": 22480,
+      "source_addend": 0
+    },
+    {
+      "offset": 804,
+      "width": 2,
+      "symbol": "_actors",
+      "kind": "DS-offset",
+      "native_target": 1504,
+      "source_addend": 0
+    },
+    {
+      "offset": 808,
+      "width": 2,
+      "symbol": "_cursor_kind_0ef4",
+      "kind": "DS-offset",
+      "native_target": 3828,
+      "source_addend": 0
+    },
+    {
+      "offset": 815,
+      "width": 2,
+      "symbol": "_cursor_frames_820e",
+      "kind": "DS-offset",
+      "native_target": 33294,
+      "source_addend": 0
+    },
+    {
+      "offset": 820,
+      "width": 2,
+      "symbol": "_cursor_colour_9850",
+      "kind": "DS-offset",
+      "native_target": 38992,
+      "source_addend": 0
+    },
+    {
+      "offset": 823,
+      "width": 2,
+      "symbol": "_pointer_y",
+      "kind": "DS-offset",
+      "native_target": 37726,
+      "source_addend": 0
+    },
+    {
+      "offset": 831,
+      "width": 2,
+      "symbol": "_pointer_x",
+      "kind": "DS-offset",
+      "native_target": 37690,
+      "source_addend": 0
+    },
+    {
+      "offset": 834,
+      "width": 2,
+      "symbol": "_attach_actor",
+      "kind": "near-CALL",
+      "native_target": 16143,
+      "source_addend": 0
+    },
+    {
+      "offset": 851,
+      "width": 2,
+      "symbol": "_clear_board_question_4c12",
+      "kind": "DS-offset",
+      "native_target": 19474,
+      "source_addend": 0
+    },
+    {
+      "offset": 855,
+      "width": 2,
+      "symbol": "_prompt_1296",
+      "kind": "near-CALL",
+      "native_target": 4758,
+      "source_addend": 0
+    },
+    {
+      "offset": 866,
+      "width": 2,
+      "symbol": "_detach_all",
+      "kind": "near-CALL",
+      "native_target": 16255,
+      "source_addend": 0
+    },
+    {
+      "offset": 889,
+      "width": 2,
+      "symbol": "_cells",
+      "kind": "DS-offset",
+      "native_target": 4454,
+      "source_addend": 0
+    },
+    {
+      "offset": 922,
+      "width": 2,
+      "symbol": "_board",
+      "kind": "DS-offset",
+      "native_target": 43194,
+      "source_addend": 0
+    },
+    {
+      "offset": 931,
+      "width": 2,
+      "symbol": "_arena_cursor",
+      "kind": "DS-offset",
+      "native_target": 37432,
+      "source_addend": 0
+    },
+    {
+      "offset": 935,
+      "width": 2,
+      "symbol": "_arena_cursor",
+      "kind": "DS-offset",
+      "native_target": 37432,
+      "source_addend": 2
+    },
+    {
+      "offset": 944,
+      "width": 2,
+      "symbol": "_board",
+      "kind": "DS-offset",
+      "native_target": 43194,
+      "source_addend": 0
+    },
+    {
+      "offset": 1006,
+      "width": 2,
+      "symbol": "_detach_all",
+      "kind": "near-CALL",
+      "native_target": 16255,
+      "source_addend": 0
+    },
+    {
+      "offset": 1010,
+      "width": 2,
+      "symbol": "_cursor_kind_0ef4",
+      "kind": "DS-offset",
+      "native_target": 3828,
+      "source_addend": 0
+    },
+    {
+      "offset": 1015,
+      "width": 2,
+      "symbol": "_reset_display_0865",
+      "kind": "near-CALL",
+      "native_target": 2149,
+      "source_addend": 0
+    },
+    {
+      "offset": 1021,
+      "width": 2,
+      "symbol": "_validate_editor_8e36",
+      "kind": "near-CALL",
+      "native_target": 36406,
+      "source_addend": 0
+    },
+    {
+      "offset": 1032,
+      "width": 2,
+      "symbol": "_cursor_kind_0ef4",
+      "kind": "DS-offset",
+      "native_target": 3828,
+      "source_addend": 0
+    },
+    {
+      "offset": 1038,
+      "width": 2,
+      "symbol": "_show_error_0d6e",
+      "kind": "near-CALL",
+      "native_target": 3438,
+      "source_addend": 0
+    },
+    {
+      "offset": 1047,
+      "width": 2,
+      "symbol": "_menus",
+      "kind": "DS-offset",
+      "native_target": 36314,
+      "source_addend": 0
+    },
+    {
+      "offset": 1049,
+      "width": 2,
+      "symbol": "_main_menus_114a",
+      "kind": "DS-offset",
+      "native_target": 4426,
+      "source_addend": 0
+    },
+    {
+      "offset": 1053,
+      "width": 2,
+      "symbol": "_cursor_kind_0ef4",
+      "kind": "DS-offset",
+      "native_target": 3828,
+      "source_addend": 0
+    },
+    {
+      "offset": 1059,
+      "width": 2,
+      "symbol": "_board_input_0ef2",
+      "kind": "DS-offset",
+      "native_target": 3826,
+      "source_addend": 0
+    },
+    {
+      "offset": 1067,
+      "width": 2,
+      "symbol": "_command_active",
+      "kind": "DS-offset",
+      "native_target": 3830,
+      "source_addend": 0
+    },
+    {
+      "offset": 1073,
+      "width": 2,
+      "symbol": "_waiting_0eee",
+      "kind": "DS-offset",
+      "native_target": 3822,
+      "source_addend": 0
+    },
+    {
+      "offset": 1076,
+      "width": 2,
+      "symbol": "_init_surface",
+      "kind": "near-CALL",
+      "native_target": 10778,
+      "source_addend": 0
+    },
+    {
+      "offset": 1079,
+      "width": 2,
+      "symbol": "_reset_graphics_3e4f",
+      "kind": "near-CALL",
+      "native_target": 15951,
+      "source_addend": 0
+    },
+    {
+      "offset": 1082,
+      "width": 2,
+      "symbol": "_reset_display_0865",
+      "kind": "near-CALL",
+      "native_target": 2149,
+      "source_addend": 0
+    },
+    {
+      "offset": 1085,
+      "width": 2,
+      "symbol": "_reset_df71",
+      "kind": "near-CALL",
+      "native_target": 57201,
+      "source_addend": 0
+    },
+    {
+      "offset": 1089,
+      "width": 2,
+      "symbol": "_waiting_0eee",
+      "kind": "DS-offset",
+      "native_target": 3822,
+      "source_addend": 0
+    },
+    {
+      "offset": 1096,
+      "width": 2,
+      "symbol": "_current_side",
+      "kind": "DS-offset",
+      "native_target": 38982,
+      "source_addend": 0
+    },
+    {
+      "offset": 1099,
+      "width": 4,
+      "symbol": "_draw_fce8",
+      "kind": "FAR-CALL",
+      "native_target": 248,
+      "native_frame": 4031,
+      "source_addend": 0,
+      "native_MZ_site": 3371
+    },
+    {
+      "offset": 1108,
+      "width": 2,
+      "symbol": "_menu_open_0044",
+      "kind": "DS-offset",
+      "native_target": 68,
+      "source_addend": 0
+    }
+  ],
+  "internal_NEAR_branches": [
+    {
+      "offset": 319,
+      "target_offset": 1117,
+      "native_target": 3387,
+      "native_rel16": "1c03"
+    },
+    {
+      "offset": 352,
+      "target_offset": 535,
+      "native_target": 2805,
+      "native_rel16": "b500"
+    },
+    {
+      "offset": 594,
+      "target_offset": 1159,
+      "native_target": 3429,
+      "native_rel16": "3302"
+    },
+    {
+      "offset": 840,
+      "target_offset": 1159,
+      "native_target": 3429,
+      "native_rel16": "3d01"
+    },
+    {
+      "offset": 928,
+      "target_offset": 1159,
+      "native_target": 3429,
+      "native_rel16": "e500"
+    },
+    {
+      "offset": 1018,
+      "target_offset": 1159,
+      "native_target": 3429,
+      "native_rel16": "8b00"
+    },
+    {
+      "offset": 1123,
+      "target_offset": 321,
+      "native_target": 2591,
+      "native_rel16": "dcfc"
+    },
+    {
+      "offset": 1131,
+      "target_offset": 596,
+      "native_target": 2866,
+      "native_rel16": "e7fd"
+    },
+    {
+      "offset": 1139,
+      "target_offset": 842,
+      "native_target": 3112,
+      "native_rel16": "d5fe"
+    },
+    {
+      "offset": 1147,
+      "target_offset": 930,
+      "native_target": 3200,
+      "native_rel16": "25ff"
+    },
+    {
+      "offset": 1155,
+      "target_offset": 1020,
+      "native_target": 3290,
+      "native_rel16": "77ff"
+    },
+    {
+      "offset": 1160,
+      "target_offset": 303,
+      "native_target": 2573,
+      "native_rel16": "a5fc"
+    }
+  ],
+  "short_and_near_branches": {
+    "2310": [
+      2321,
+      2
+    ],
+    "2339": [
+      2344,
+      2
+    ],
+    "2348": [
+      2451,
+      2
+    ],
+    "2449": [
+      2341,
+      2
+    ],
+    "2477": [
+      2490,
+      2
+    ],
+    "2494": [
+      2498,
+      2
+    ],
+    "2496": [
+      2479,
+      2
+    ],
+    "2525": [
+      2530,
+      2
+    ],
+    "2535": [
+      2573,
+      2
+    ],
+    "2544": [
+      2551,
+      2
+    ],
+    "2561": [
+      2568,
+      2
+    ],
+    "2571": [
+      2527,
+      2
+    ],
+    "2586": [
+      2573,
+      2
+    ],
+    "2588": [
+      3387,
+      3
+    ],
+    "2619": [
+      2624,
+      2
+    ],
+    "2621": [
+      2805,
+      3
+    ],
+    "2633": [
+      2651,
+      2
+    ],
+    "2665": [
+      2677,
+      2
+    ],
+    "2803": [
+      2863,
+      2
+    ],
+    "2814": [
+      2863,
+      2
+    ],
+    "2863": [
+      3429,
+      3
+    ],
+    "2871": [
+      2905,
+      2
+    ],
+    "2887": [
+      2905,
+      2
+    ],
+    "2922": [
+      2996,
+      2
+    ],
+    "2927": [
+      2996,
+      2
+    ],
+    "2934": [
+      2962,
+      2
+    ],
+    "2941": [
+      2962,
+      2
+    ],
+    "2960": [
+      2996,
+      2
+    ],
+    "2968": [
+      2996,
+      2
+    ],
+    "2976": [
+      2996,
+      2
+    ],
+    "3001": [
+      3109,
+      2
+    ],
+    "3008": [
+      3013,
+      2
+    ],
+    "3017": [
+      3036,
+      2
+    ],
+    "3032": [
+      3036,
+      2
+    ],
+    "3034": [
+      3010,
+      2
+    ],
+    "3040": [
+      3060,
+      2
+    ],
+    "3058": [
+      3109,
+      2
+    ],
+    "3109": [
+      3429,
+      3
+    ],
+    "3133": [
+      3197,
+      2
+    ],
+    "3143": [
+      3148,
+      2
+    ],
+    "3152": [
+      3197,
+      2
+    ],
+    "3195": [
+      3145,
+      2
+    ],
+    "3197": [
+      3429,
+      3
+    ],
+    "3227": [
+      3232,
+      2
+    ],
+    "3237": [
+      3275,
+      2
+    ],
+    "3246": [
+      3253,
+      2
+    ],
+    "3263": [
+      3270,
+      2
+    ],
+    "3273": [
+      3229,
+      2
+    ],
+    "3287": [
+      3429,
+      3
+    ],
+    "3298": [
+      3315,
+      2
+    ],
+    "3313": [
+      3383,
+      2
+    ],
+    "3362": [
+      3376,
+      2
+    ],
+    "3381": [
+      3432,
+      2
+    ],
+    "3383": [
+      3429,
+      2
+    ],
+    "3385": [
+      3429,
+      2
+    ],
+    "3390": [
+      3395,
+      2
+    ],
+    "3392": [
+      2591,
+      3
+    ],
+    "3398": [
+      3403,
+      2
+    ],
+    "3400": [
+      2866,
+      3
+    ],
+    "3406": [
+      3411,
+      2
+    ],
+    "3408": [
+      3112,
+      3
+    ],
+    "3414": [
+      3419,
+      2
+    ],
+    "3416": [
+      3200,
+      3
+    ],
+    "3422": [
+      3427,
+      2
+    ],
+    "3424": [
+      3290,
+      3
+    ],
+    "3427": [
+      3429,
+      2
+    ],
+    "3429": [
+      2573,
+      3
+    ]
+  },
+  "external_names": [
+    "_actor_map",
+    "_actors",
+    "_alternate_menus_115e",
+    "_arena_cursor",
+    "_board",
+    "_board_input_0ef2",
+    "_cells",
+    "_clear_board_question_4c12",
+    "_command_active",
+    "_current_side",
+    "_cursor_actor_57d0",
+    "_cursor_colour_9850",
+    "_cursor_frames_820e",
+    "_cursor_kind_0ef4",
+    "_editor_piece_map_004c",
+    "_main_menus_114a",
+    "_menu_open_0044",
+    "_menus",
+    "_no_actor_message_4c00",
+    "_page_mode",
+    "_palette_kinds_0f01",
+    "_pointer_x",
+    "_pointer_y",
+    "_row_mask_9230",
+    "_screen_x",
+    "_screen_y",
+    "_selected_square_0efa",
+    "_waiting_0eee",
+    "__chkstk",
+    "_attach_actor",
+    "_detach_actor",
+    "_detach_all",
+    "_init_surface",
+    "_obtain_input",
+    "_prompt_1296",
+    "_refresh_panel_1d51",
+    "_reset_df71",
+    "_reset_display_0865",
+    "_reset_graphics_3e4f",
+    "_show_error_0d6e",
+    "_validate_editor_8e36",
+    "_draw_fce8"
+  ],
+  "native_MZ": [
+    3371
+  ],
+  "CODE_alignment": "WORD; no padding or0D6E bytes"
+}

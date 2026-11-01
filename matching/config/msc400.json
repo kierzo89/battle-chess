@@ -1,0 +1,52 @@
+{
+  "name": "Microsoft C 4.00 (archived installation disk)",
+  "provenance": {
+    "classification": "Historical proprietary Microsoft C 4.00 distribution preserved by PCjs. No MIT license or redistribution permission is claimed.",
+    "catalog_url": "https://www.pcjs.org/machines/pcx86/diskettes.json",
+    "catalog_path": "lang/microsoft/c/@versions/4.00",
+    "compiler_version": "4.00"
+  },
+  "archives": [
+    {
+      "name": "MSC400-DISK1.json",
+      "url": "https://miscdisks.pcjs.org/pcx86/lang/microsoft/c/4.00/MSC-048014-400-DISK1-COMPILER.json",
+      "sha256": "75f9510af9a2dc9c6e21861729b7938c18c54c02e350ae0fe6b821d8bf51b520"
+    }
+  ],
+  "files": [
+    {
+      "name": "MSC.EXE",
+      "size": 27269,
+      "sha256": "bbcf5788dc29062d77e22ebc5f65078dfcf878564c12b5bbdf889941681eb371",
+      "archive": "https://miscdisks.pcjs.org/pcx86/lang/microsoft/c/4.00/MSC-048014-400-DISK1-COMPILER.json"
+    },
+    {
+      "name": "C1.EXE",
+      "size": 130757,
+      "sha256": "954628c81041f3479c834d1df4e572ac0271a523e6bde59911cf1361e6b70c20",
+      "archive": "https://miscdisks.pcjs.org/pcx86/lang/microsoft/c/4.00/MSC-048014-400-DISK1-COMPILER.json"
+    },
+    {
+      "name": "C2.EXE",
+      "size": 116991,
+      "sha256": "8c3bcd55b4ad97dad66ddb4342a07335b10900d820f0c07450b8d331be5f9ee9",
+      "archive": "https://miscdisks.pcjs.org/pcx86/lang/microsoft/c/4.00/MSC-048014-400-DISK1-COMPILER.json"
+    },
+    {
+      "name": "C3.EXE",
+      "size": 83481,
+      "sha256": "eb2d5361e9142a72561845898aae7c3afadbfd1a28f34ae590d051feb3afd0e0",
+      "archive": "https://miscdisks.pcjs.org/pcx86/lang/microsoft/c/4.00/MSC-048014-400-DISK1-COMPILER.json"
+    }
+  ],
+  "allowed_flags": [
+    "/AS",
+    "/Gs",
+    "/O",
+    "/Ot",
+    "/Os",
+    "/Ox",
+    "/Od",
+    "/Zi"
+  ]
+}

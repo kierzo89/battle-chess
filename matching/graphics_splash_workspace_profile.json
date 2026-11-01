@@ -1,0 +1,106 @@
+{
+  "schema": "graphics-splash-workspace-physical-data-v1",
+  "backend": "masm510-graphics-splash-workspace-physical-data-omf",
+  "unit": {
+    "id": "graphics_workspace_physical_data86000",
+    "language": "asm-data",
+    "backend": "masm510-graphics-splash-workspace-physical-data-omf",
+    "source": "src/data/graphics_splash_workspace.asm",
+    "source_sha256": "596cfdca4229773b9b182b0bb10c3f339846845f50a086bb565e8390719ae7ad",
+    "assembler_sha256": "1c6286c69b616160b8475ad17453ee872702a2c98075c2159ec792a1c745275f",
+    "symbols": [
+      "_graphics_workspace",
+      "_metadata_workspace",
+      "_splash_buffer"
+    ],
+    "image_offset": "0x120d0",
+    "size": 86000,
+    "reference_region": "exepack-expanded",
+    "rea_evidence": "evidence/rea_graphics_workspace_86000.json",
+    "boundary_evidence": "Complete explicit EXEPACK-decoded initialized FILE-image span120D0..270C0, verified independently by REA read_bytes86000 and genuine MASM whole228-byte object; two engineering private PARA pieces53184+32816 supply native splash SEG1F09:OFFSET0 while retaining prior graphics/metadata views and all86000 initialized bytes; original TU/C capacity and full absolute LINK placement remain unproved; zero additional byte or C credit."
+  },
+  "whole_object_sha256": "e9e03ae41cd7c8e1de971bf946e0d66e61f7d3f85e2b1d8067a91f45ba1ec8d7",
+  "segments": [
+    {
+      "name": "GRAPHICS_WORKSPACE_0",
+      "class": "FAR_DATA",
+      "attributes": 96,
+      "bytes": 53184
+    },
+    {
+      "name": "GRAPHICS_WORKSPACE_1",
+      "class": "FAR_DATA",
+      "attributes": 96,
+      "bytes": 32816
+    }
+  ],
+  "publics": {
+    "_graphics_workspace": [
+      1,
+      0
+    ],
+    "_metadata_workspace": [
+      1,
+      52332
+    ],
+    "_splash_buffer": [
+      2,
+      0
+    ]
+  },
+  "complete_initialized_bytes": 86000,
+  "native_image_interval": [
+    73936,
+    159936
+  ],
+  "no_extra_bytes_storage_or_internal_MZ": true,
+  "proof_pins": [
+    {
+      "path": "build/splash-workspace-production-stage/actual-input-and-LINK-review.json",
+      "sha256": "020ccd20624abca7fdbcc98438b54ce2aca5dcaf1512b365d937183bc4735f8f"
+    },
+    {
+      "path": "build/splash-workspace-segmentation-proposal/freeze-manifest.json",
+      "sha256": "eaefa9b6a874aeaaacfb3caa499df56c3f64a26940e2ff4e6e0fff4378fd9910"
+    },
+    {
+      "path": "build/splash-workspace-segmentation-proposal/review.json",
+      "sha256": "c68015021bf0c39985330645ac108d4830c5f1c53815d281ce3a0d61a22b622d"
+    },
+    {
+      "path": "build/splash-workspace-segmentation-root-actual/generation-receipt.json",
+      "sha256": "b45f480f8394cc4adb1b5040a07c46f20111ef099e5d37939034ba03a7909256"
+    },
+    {
+      "path": "build/splash-workspace-segmentation-root-actual/comparison.json",
+      "sha256": "6350e8e1734dd47c7caf2d2fb0c8bc1753059a3931c3302792300edb3f3d9f67"
+    },
+    {
+      "path": "build/splash-workspace-segmentation-root-actual/scratch/UNIT.OBJ",
+      "sha256": "e9e03ae41cd7c8e1de971bf946e0d66e61f7d3f85e2b1d8067a91f45ba1ec8d7"
+    },
+    {
+      "path": "build/splash-refined238-native-order-LINK/result.json",
+      "sha256": "2f26213aae5326c530829bfb17788dd453b00be0c5d0d0a2e1c7a4d58a0a572f"
+    },
+    {
+      "path": "build/splash-refined238-native-order-LINK/LINK/PARTIAL.MAP",
+      "sha256": "8ffb7849f8619b3e187b9f6d4225423564c01b6a1aaa59eb2488a08f99e01170"
+    },
+    {
+      "path": "build/splash-refined238-native-order-LINK/LINK/PARTIAL.EXE",
+      "sha256": "669f179d04c3988d770a74e6e814a9167f34993c177907dc3688463359edf72d"
+    },
+    {
+      "path": "build/graphics-workspace-loaded-carrier-proposal/loaded-span-proof.json",
+      "sha256": "20a2d0fff5804120650cb553ddd8bc924dc2280ce0d938b2ff269dd2b70457f4"
+    },
+    {
+      "path": "evidence/rea_graphics_workspace_86000.json",
+      "sha256": "c4dbd9bf0d3c5455e30aba6a775c0378e74962650a5f5cf861667aa0a3b03aae"
+    }
+  ],
+  "generation_reads": "exact source/pinnedtools/freshscratch only; comparison proof pins excluded from generation",
+  "historical_TU_segment_capacity_or_logical_ownership_proven": false,
+  "new_matching_credit": 0
+}

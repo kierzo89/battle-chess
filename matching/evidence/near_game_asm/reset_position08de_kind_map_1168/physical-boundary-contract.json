@@ -1,0 +1,33 @@
+{
+  "live_bytes": 1166,
+  "physical_bytes": 1168,
+  "live_instructions": 391,
+  "physical_instructions": 392,
+  "live_ranges": [
+    {
+      "start": "0x108de",
+      "end": "0x10d38"
+    },
+    {
+      "start": "0x10d3b",
+      "end": "0x10d6d"
+    }
+  ],
+  "gap": {
+    "native_offset": "0xd39",
+    "bytes": "eb2a",
+    "derived_instruction": "JMP SHORT D65",
+    "primary_exact_instruction_outcome": "undecodable/no analyzed owner",
+    "analyzed_xrefs": [],
+    "non_padding": true
+  },
+  "native_MZ": [
+    3371
+  ],
+  "native_FAR_frame": 4031,
+  "carrier_loaded_FAR_frame": 8127,
+  "normalization": "exact nativeMZ D2B word only subtract0x1000; no opcode normalization",
+  "boundary_review_freeze_sha256": "21515860f37cf6a480e2df92343fb454702aba4ac3ec4cac95720d07289c2595",
+  "no_contiguous_Ghidra_body1168_claim": true,
+  "no_original_TU_or_C_unrepresentability_claim": true
+}

@@ -1,0 +1,28 @@
+{
+  "id": "pop_value",
+  "symbol": "_pop_value",
+  "source": "evidence/checkpoints/231-source-contexts/src/asset_arena_flow_match.c",
+  "image_offset": "0x3ac2",
+  "size": 33,
+  "rea_evidence": "evidence/rea_compiler_candidate_3ac2.json",
+  "language": "c",
+  "backend": "msc500-omf",
+  "flags": [
+    "/AS",
+    "/Gs",
+    "/Os",
+    "/Zi"
+  ],
+  "externals": {
+    "_value_index": 142,
+    "_values": 36122,
+    "_task_index": 144,
+    "_task_pool": 45246,
+    "_error_message": 3469,
+    "_value_return_message": 19809,
+    "_exhausted_message": 19819,
+    "_task_return_message": 19829,
+    "_task_exhausted_message": 19839
+  },
+  "boundary_evidence": "Complete original REA function extent, fresh independent CV3, all relocated bytes and complete MZ site set compared. Proof evidence/asset-directory-next-match.json. Function credit only; enclosing original TU/alignment remain unresolved."
+}

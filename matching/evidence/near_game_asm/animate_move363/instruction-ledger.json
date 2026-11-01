@@ -1,0 +1,1146 @@
+[
+  {
+    "image": 30966,
+    "relative_offset": 0,
+    "size": 1,
+    "native_hex": "55",
+    "instruction": "PUSH BP",
+    "source": "PUSH BP"
+  },
+  {
+    "image": 30967,
+    "relative_offset": 1,
+    "size": 2,
+    "native_hex": "8bec",
+    "instruction": "MOV BP, SP",
+    "source": "MOV BP, SP"
+  },
+  {
+    "image": 30969,
+    "relative_offset": 3,
+    "size": 3,
+    "native_hex": "b81400",
+    "instruction": "MOV AX, 0x14",
+    "source": "MOV AX, 014h"
+  },
+  {
+    "image": 30972,
+    "relative_offset": 6,
+    "size": 3,
+    "native_hex": "e8ab73",
+    "instruction": "CALL 0x1000:ecaa",
+    "source": "CALL NEAR PTR __chkstk"
+  },
+  {
+    "image": 30975,
+    "relative_offset": 9,
+    "size": 1,
+    "native_hex": "57",
+    "instruction": "PUSH DI",
+    "source": "PUSH DI"
+  },
+  {
+    "image": 30976,
+    "relative_offset": 10,
+    "size": 1,
+    "native_hex": "56",
+    "instruction": "PUSH SI",
+    "source": "PUSH SI"
+  },
+  {
+    "image": 30977,
+    "relative_offset": 11,
+    "size": 3,
+    "native_hex": "8b7604",
+    "instruction": "MOV SI, word ptr [BP + 0x4]",
+    "source": "MOV SI, word ptr [BP + 04h]"
+  },
+  {
+    "image": 30980,
+    "relative_offset": 14,
+    "size": 4,
+    "native_hex": "c646fe00",
+    "instruction": "MOV byte ptr [BP + -0x2], 0x0",
+    "source": "MOV byte ptr [BP-02h], 00h"
+  },
+  {
+    "image": 30984,
+    "relative_offset": 18,
+    "size": 3,
+    "native_hex": "8b4402",
+    "instruction": "MOV AX, word ptr [SI + 0x2]",
+    "source": "MOV AX, word ptr [SI + 02h]"
+  },
+  {
+    "image": 30987,
+    "relative_offset": 21,
+    "size": 2,
+    "native_hex": "d1f8",
+    "instruction": "SAR AX, 0x1",
+    "source": "SAR AX, 01h"
+  },
+  {
+    "image": 30989,
+    "relative_offset": 23,
+    "size": 2,
+    "native_hex": "2438",
+    "instruction": "AND AL, 0x38",
+    "source": "AND AL, 038h"
+  },
+  {
+    "image": 30991,
+    "relative_offset": 25,
+    "size": 2,
+    "native_hex": "3438",
+    "instruction": "XOR AL, 0x38",
+    "source": "XOR AL, 038h"
+  },
+  {
+    "image": 30993,
+    "relative_offset": 27,
+    "size": 3,
+    "native_hex": "8a4c02",
+    "instruction": "MOV CL, byte ptr [SI + 0x2]",
+    "source": "MOV CL, byte ptr [SI + 02h]"
+  },
+  {
+    "image": 30996,
+    "relative_offset": 30,
+    "size": 3,
+    "native_hex": "80e107",
+    "instruction": "AND CL, 0x7",
+    "source": "AND CL, 07h"
+  },
+  {
+    "image": 30999,
+    "relative_offset": 33,
+    "size": 2,
+    "native_hex": "0ac1",
+    "instruction": "OR AL, CL",
+    "source": "OR AL, CL"
+  },
+  {
+    "image": 31001,
+    "relative_offset": 35,
+    "size": 3,
+    "native_hex": "8846f6",
+    "instruction": "MOV byte ptr [BP + -0xa], AL",
+    "source": "MOV byte ptr [BP-0Ah], AL"
+  },
+  {
+    "image": 31004,
+    "relative_offset": 38,
+    "size": 2,
+    "native_hex": "8b04",
+    "instruction": "MOV AX, word ptr [SI]",
+    "source": "MOV AX, word ptr [SI]"
+  },
+  {
+    "image": 31006,
+    "relative_offset": 40,
+    "size": 2,
+    "native_hex": "d1f8",
+    "instruction": "SAR AX, 0x1",
+    "source": "SAR AX, 01h"
+  },
+  {
+    "image": 31008,
+    "relative_offset": 42,
+    "size": 2,
+    "native_hex": "2438",
+    "instruction": "AND AL, 0x38",
+    "source": "AND AL, 038h"
+  },
+  {
+    "image": 31010,
+    "relative_offset": 44,
+    "size": 2,
+    "native_hex": "3438",
+    "instruction": "XOR AL, 0x38",
+    "source": "XOR AL, 038h"
+  },
+  {
+    "image": 31012,
+    "relative_offset": 46,
+    "size": 2,
+    "native_hex": "8a0c",
+    "instruction": "MOV CL, byte ptr [SI]",
+    "source": "MOV CL, byte ptr [SI]"
+  },
+  {
+    "image": 31014,
+    "relative_offset": 48,
+    "size": 3,
+    "native_hex": "80e107",
+    "instruction": "AND CL, 0x7",
+    "source": "AND CL, 07h"
+  },
+  {
+    "image": 31017,
+    "relative_offset": 51,
+    "size": 2,
+    "native_hex": "0ac1",
+    "instruction": "OR AL, CL",
+    "source": "OR AL, CL"
+  },
+  {
+    "image": 31019,
+    "relative_offset": 53,
+    "size": 3,
+    "native_hex": "8846f4",
+    "instruction": "MOV byte ptr [BP + -0xc], AL",
+    "source": "MOV byte ptr [BP-0Ch], AL"
+  },
+  {
+    "image": 31022,
+    "relative_offset": 56,
+    "size": 2,
+    "native_hex": "8ad8",
+    "instruction": "MOV BL, AL",
+    "source": "MOV BL, AL"
+  },
+  {
+    "image": 31024,
+    "relative_offset": 58,
+    "size": 2,
+    "native_hex": "2aff",
+    "instruction": "SUB BH, BH",
+    "source": "SUB BH, BH"
+  },
+  {
+    "image": 31026,
+    "relative_offset": 60,
+    "size": 2,
+    "native_hex": "b01c",
+    "instruction": "MOV AL, 0x1c",
+    "source": "MOV AL, 01Ch"
+  },
+  {
+    "image": 31028,
+    "relative_offset": 62,
+    "size": 4,
+    "native_hex": "f6a7a48a",
+    "instruction": "MUL byte ptr [BX + 0x8aa4]",
+    "source": "MUL byte ptr _actor_map[BX]"
+  },
+  {
+    "image": 31032,
+    "relative_offset": 66,
+    "size": 3,
+    "native_hex": "05e005",
+    "instruction": "ADD AX, 0x5e0",
+    "source": "ADD AX, OFFSET DGROUP:_actors"
+  },
+  {
+    "image": 31035,
+    "relative_offset": 69,
+    "size": 1,
+    "native_hex": "50",
+    "instruction": "PUSH AX",
+    "source": "PUSH AX"
+  },
+  {
+    "image": 31036,
+    "relative_offset": 70,
+    "size": 3,
+    "native_hex": "e80ac6",
+    "instruction": "CALL 0x1000:3f49",
+    "source": "CALL NEAR PTR _detach_actor"
+  },
+  {
+    "image": 31039,
+    "relative_offset": 73,
+    "size": 3,
+    "native_hex": "83c402",
+    "instruction": "ADD SP, 0x2",
+    "source": "ADD SP, 02h"
+  },
+  {
+    "image": 31042,
+    "relative_offset": 76,
+    "size": 4,
+    "native_hex": "837c0400",
+    "instruction": "CMP word ptr [SI + 0x4], 0x0",
+    "source": "CMP word ptr [SI + 04h], 00h"
+  },
+  {
+    "image": 31046,
+    "relative_offset": 80,
+    "size": 2,
+    "native_hex": "741f",
+    "instruction": "JZ 0x1000:7967",
+    "source": "JZ SHORT code_7967"
+  },
+  {
+    "image": 31048,
+    "relative_offset": 82,
+    "size": 4,
+    "native_hex": "807c0606",
+    "instruction": "CMP byte ptr [SI + 0x6], 0x6",
+    "source": "CMP byte ptr [SI + 06h], 06h"
+  },
+  {
+    "image": 31052,
+    "relative_offset": 86,
+    "size": 2,
+    "native_hex": "7419",
+    "instruction": "JZ 0x1000:7967",
+    "source": "JZ SHORT code_7967"
+  },
+  {
+    "image": 31054,
+    "relative_offset": 88,
+    "size": 4,
+    "native_hex": "807c0601",
+    "instruction": "CMP byte ptr [SI + 0x6], 0x1",
+    "source": "CMP byte ptr [SI + 06h], 01h"
+  },
+  {
+    "image": 31058,
+    "relative_offset": 92,
+    "size": 2,
+    "native_hex": "7413",
+    "instruction": "JZ 0x1000:7967",
+    "source": "JZ SHORT code_7967"
+  },
+  {
+    "image": 31060,
+    "relative_offset": 94,
+    "size": 3,
+    "native_hex": "8a46f4",
+    "instruction": "MOV AL, byte ptr [BP + -0xc]",
+    "source": "MOV AL, byte ptr [BP-0Ch]"
+  },
+  {
+    "image": 31063,
+    "relative_offset": 97,
+    "size": 2,
+    "native_hex": "2ae4",
+    "instruction": "SUB AH, AH",
+    "source": "SUB AH, AH"
+  },
+  {
+    "image": 31065,
+    "relative_offset": 99,
+    "size": 2,
+    "native_hex": "8bf8",
+    "instruction": "MOV DI, AX",
+    "source": "MOV DI, AX"
+  },
+  {
+    "image": 31067,
+    "relative_offset": 101,
+    "size": 4,
+    "native_hex": "81c76611",
+    "instruction": "ADD DI, 0x1166",
+    "source": "ADD DI, OFFSET DGROUP:_cells"
+  },
+  {
+    "image": 31071,
+    "relative_offset": 105,
+    "size": 2,
+    "native_hex": "8a05",
+    "instruction": "MOV AL, byte ptr [DI]",
+    "source": "MOV AL, byte ptr [DI]"
+  },
+  {
+    "image": 31073,
+    "relative_offset": 107,
+    "size": 2,
+    "native_hex": "2478",
+    "instruction": "AND AL, 0x78",
+    "source": "AND AL, 078h"
+  },
+  {
+    "image": 31075,
+    "relative_offset": 109,
+    "size": 2,
+    "native_hex": "0c04",
+    "instruction": "OR AL, 0x4",
+    "source": "OR AL, 04h"
+  },
+  {
+    "image": 31077,
+    "relative_offset": 111,
+    "size": 2,
+    "native_hex": "8805",
+    "instruction": "MOV byte ptr [DI], AL",
+    "source": "MOV byte ptr [DI], AL"
+  },
+  {
+    "image": 31079,
+    "relative_offset": 113,
+    "size": 3,
+    "native_hex": "8a46f4",
+    "instruction": "MOV AL, byte ptr [BP + -0xc]",
+    "source": "MOV AL, byte ptr [BP-0Ch]"
+  },
+  {
+    "image": 31082,
+    "relative_offset": 116,
+    "size": 2,
+    "native_hex": "2ae4",
+    "instruction": "SUB AH, AH",
+    "source": "SUB AH, AH"
+  },
+  {
+    "image": 31084,
+    "relative_offset": 118,
+    "size": 2,
+    "native_hex": "8bf8",
+    "instruction": "MOV DI, AX",
+    "source": "MOV DI, AX"
+  },
+  {
+    "image": 31086,
+    "relative_offset": 120,
+    "size": 4,
+    "native_hex": "8a856611",
+    "instruction": "MOV AL, byte ptr [DI + 0x1166]",
+    "source": "MOV AL, byte ptr _cells[DI]"
+  },
+  {
+    "image": 31090,
+    "relative_offset": 124,
+    "size": 2,
+    "native_hex": "2440",
+    "instruction": "AND AL, 0x40",
+    "source": "AND AL, 040h"
+  },
+  {
+    "image": 31092,
+    "relative_offset": 126,
+    "size": 3,
+    "native_hex": "8846fa",
+    "instruction": "MOV byte ptr [BP + -0x6], AL",
+    "source": "MOV byte ptr [BP-06h], AL"
+  },
+  {
+    "image": 31095,
+    "relative_offset": 129,
+    "size": 3,
+    "native_hex": "8a46f6",
+    "instruction": "MOV AL, byte ptr [BP + -0xa]",
+    "source": "MOV AL, byte ptr [BP-0Ah]"
+  },
+  {
+    "image": 31098,
+    "relative_offset": 132,
+    "size": 1,
+    "native_hex": "50",
+    "instruction": "PUSH AX",
+    "source": "PUSH AX"
+  },
+  {
+    "image": 31099,
+    "relative_offset": 133,
+    "size": 4,
+    "native_hex": "8a85a48a",
+    "instruction": "MOV AL, byte ptr [DI + 0x8aa4]",
+    "source": "MOV AL, byte ptr _actor_map[DI]"
+  },
+  {
+    "image": 31103,
+    "relative_offset": 137,
+    "size": 1,
+    "native_hex": "50",
+    "instruction": "PUSH AX",
+    "source": "PUSH AX"
+  },
+  {
+    "image": 31104,
+    "relative_offset": 138,
+    "size": 3,
+    "native_hex": "8a46fa",
+    "instruction": "MOV AL, byte ptr [BP + -0x6]",
+    "source": "MOV AL, byte ptr [BP-06h]"
+  },
+  {
+    "image": 31107,
+    "relative_offset": 141,
+    "size": 1,
+    "native_hex": "50",
+    "instruction": "PUSH AX",
+    "source": "PUSH AX"
+  },
+  {
+    "image": 31108,
+    "relative_offset": 142,
+    "size": 4,
+    "native_hex": "8a856611",
+    "instruction": "MOV AL, byte ptr [DI + 0x1166]",
+    "source": "MOV AL, byte ptr _cells[DI]"
+  },
+  {
+    "image": 31112,
+    "relative_offset": 146,
+    "size": 3,
+    "native_hex": "250700",
+    "instruction": "AND AX, 0x7",
+    "source": "AND AX, 07h"
+  },
+  {
+    "image": 31115,
+    "relative_offset": 149,
+    "size": 1,
+    "native_hex": "50",
+    "instruction": "PUSH AX",
+    "source": "PUSH AX"
+  },
+  {
+    "image": 31116,
+    "relative_offset": 150,
+    "size": 3,
+    "native_hex": "e81801",
+    "instruction": "CALL 0x1000:7aa7",
+    "source": "CALL NEAR PTR _queue_piece"
+  },
+  {
+    "image": 31119,
+    "relative_offset": 153,
+    "size": 3,
+    "native_hex": "83c408",
+    "instruction": "ADD SP, 0x8",
+    "source": "ADD SP, 08h"
+  },
+  {
+    "image": 31122,
+    "relative_offset": 156,
+    "size": 3,
+    "native_hex": "8a5ef4",
+    "instruction": "MOV BL, byte ptr [BP + -0xc]",
+    "source": "MOV BL, byte ptr [BP-0Ch]"
+  },
+  {
+    "image": 31125,
+    "relative_offset": 159,
+    "size": 2,
+    "native_hex": "2aff",
+    "instruction": "SUB BH, BH",
+    "source": "SUB BH, BH"
+  },
+  {
+    "image": 31127,
+    "relative_offset": 161,
+    "size": 4,
+    "native_hex": "88bf6611",
+    "instruction": "MOV byte ptr [BX + 0x1166], BH",
+    "source": "MOV byte ptr _cells[BX], BH"
+  },
+  {
+    "image": 31131,
+    "relative_offset": 165,
+    "size": 4,
+    "native_hex": "837c0400",
+    "instruction": "CMP word ptr [SI + 0x4], 0x0",
+    "source": "CMP word ptr [SI + 04h], 00h"
+  },
+  {
+    "image": 31135,
+    "relative_offset": 169,
+    "size": 2,
+    "native_hex": "741a",
+    "instruction": "JZ 0x1000:79bb",
+    "source": "JZ SHORT code_79bb"
+  },
+  {
+    "image": 31137,
+    "relative_offset": 171,
+    "size": 4,
+    "native_hex": "807c0606",
+    "instruction": "CMP byte ptr [SI + 0x6], 0x6",
+    "source": "CMP byte ptr [SI + 06h], 06h"
+  },
+  {
+    "image": 31141,
+    "relative_offset": 175,
+    "size": 2,
+    "native_hex": "7514",
+    "instruction": "JNZ 0x1000:79bb",
+    "source": "JNZ SHORT code_79bb"
+  },
+  {
+    "image": 31143,
+    "relative_offset": 177,
+    "size": 4,
+    "native_hex": "c646fe04",
+    "instruction": "MOV byte ptr [BP + -0x2], 0x4",
+    "source": "MOV byte ptr [BP-02h], 04h"
+  },
+  {
+    "image": 31147,
+    "relative_offset": 181,
+    "size": 3,
+    "native_hex": "8a46f4",
+    "instruction": "MOV AL, byte ptr [BP + -0xc]",
+    "source": "MOV AL, byte ptr [BP-0Ch]"
+  },
+  {
+    "image": 31150,
+    "relative_offset": 184,
+    "size": 2,
+    "native_hex": "2407",
+    "instruction": "AND AL, 0x7",
+    "source": "AND AL, 07h"
+  },
+  {
+    "image": 31152,
+    "relative_offset": 186,
+    "size": 3,
+    "native_hex": "8a4ef6",
+    "instruction": "MOV CL, byte ptr [BP + -0xa]",
+    "source": "MOV CL, byte ptr [BP-0Ah]"
+  },
+  {
+    "image": 31155,
+    "relative_offset": 189,
+    "size": 3,
+    "native_hex": "80e138",
+    "instruction": "AND CL, 0x38",
+    "source": "AND CL, 038h"
+  },
+  {
+    "image": 31158,
+    "relative_offset": 192,
+    "size": 2,
+    "native_hex": "0ac1",
+    "instruction": "OR AL, CL",
+    "source": "OR AL, CL"
+  },
+  {
+    "image": 31160,
+    "relative_offset": 194,
+    "size": 3,
+    "native_hex": "8846f4",
+    "instruction": "MOV byte ptr [BP + -0xc], AL",
+    "source": "MOV byte ptr [BP-0Ch], AL"
+  },
+  {
+    "image": 31163,
+    "relative_offset": 197,
+    "size": 4,
+    "native_hex": "807c0700",
+    "instruction": "CMP byte ptr [SI + 0x7], 0x0",
+    "source": "CMP byte ptr [SI + 07h], 00h"
+  },
+  {
+    "image": 31167,
+    "relative_offset": 201,
+    "size": 2,
+    "native_hex": "740c",
+    "instruction": "JZ 0x1000:79cd",
+    "source": "JZ SHORT code_79cd"
+  },
+  {
+    "image": 31169,
+    "relative_offset": 203,
+    "size": 3,
+    "native_hex": "8a5c07",
+    "instruction": "MOV BL, byte ptr [SI + 0x7]",
+    "source": "MOV BL, byte ptr [SI + 07h]"
+  },
+  {
+    "image": 31172,
+    "relative_offset": 206,
+    "size": 2,
+    "native_hex": "2aff",
+    "instruction": "SUB BH, BH",
+    "source": "SUB BH, BH"
+  },
+  {
+    "image": 31174,
+    "relative_offset": 208,
+    "size": 4,
+    "native_hex": "8a87000f",
+    "instruction": "MOV AL, byte ptr [BX + 0xf00]",
+    "source": "MOV AL, byte ptr _kind_map[BX]"
+  },
+  {
+    "image": 31178,
+    "relative_offset": 212,
+    "size": 3,
+    "native_hex": "8846fe",
+    "instruction": "MOV byte ptr [BP + -0x2], AL",
+    "source": "MOV byte ptr [BP-02h], AL"
+  },
+  {
+    "image": 31181,
+    "relative_offset": 215,
+    "size": 4,
+    "native_hex": "807efe00",
+    "instruction": "CMP byte ptr [BP + -0x2], 0x0",
+    "source": "CMP byte ptr [BP-02h], 00h"
+  },
+  {
+    "image": 31185,
+    "relative_offset": 219,
+    "size": 2,
+    "native_hex": "7439",
+    "instruction": "JZ 0x1000:7a0c",
+    "source": "JZ SHORT code_7a0c"
+  },
+  {
+    "image": 31187,
+    "relative_offset": 221,
+    "size": 4,
+    "native_hex": "c646f600",
+    "instruction": "MOV byte ptr [BP + -0xa], 0x0",
+    "source": "MOV byte ptr [BP-0Ah], 00h"
+  },
+  {
+    "image": 31191,
+    "relative_offset": 225,
+    "size": 2,
+    "native_hex": "eb03",
+    "instruction": "JMP 0x1000:79dc",
+    "source": "JMP SHORT code_79dc"
+  },
+  {
+    "image": 31193,
+    "relative_offset": 227,
+    "size": 3,
+    "native_hex": "fe46f6",
+    "instruction": "INC byte ptr [BP + -0xa]",
+    "source": "INC byte ptr [BP-0Ah]"
+  },
+  {
+    "image": 31196,
+    "relative_offset": 230,
+    "size": 4,
+    "native_hex": "807ef620",
+    "instruction": "CMP byte ptr [BP + -0xa], 0x20",
+    "source": "CMP byte ptr [BP-0Ah], 020h"
+  },
+  {
+    "image": 31200,
+    "relative_offset": 234,
+    "size": 2,
+    "native_hex": "7310",
+    "instruction": "JNC 0x1000:79f2",
+    "source": "JNC SHORT code_79f2"
+  },
+  {
+    "image": 31202,
+    "relative_offset": 236,
+    "size": 2,
+    "native_hex": "b01c",
+    "instruction": "MOV AL, 0x1c",
+    "source": "MOV AL, 01Ch"
+  },
+  {
+    "image": 31204,
+    "relative_offset": 238,
+    "size": 3,
+    "native_hex": "f666f6",
+    "instruction": "MUL byte ptr [BP + -0xa]",
+    "source": "MUL byte ptr [BP-0Ah]"
+  },
+  {
+    "image": 31207,
+    "relative_offset": 241,
+    "size": 2,
+    "native_hex": "8bd8",
+    "instruction": "MOV BX, AX",
+    "source": "MOV BX, AX"
+  },
+  {
+    "image": 31209,
+    "relative_offset": 243,
+    "size": 5,
+    "native_hex": "83bff40500",
+    "instruction": "CMP word ptr [BX + 0x5f4], 0x0",
+    "source": "CMP word ptr _actors+20[BX], 00h"
+  },
+  {
+    "image": 31214,
+    "relative_offset": 248,
+    "size": 2,
+    "native_hex": "7402",
+    "instruction": "JZ 0x1000:79f2",
+    "source": "JZ SHORT code_79f2"
+  },
+  {
+    "image": 31216,
+    "relative_offset": 250,
+    "size": 2,
+    "native_hex": "ebe7",
+    "instruction": "JMP 0x1000:79d9",
+    "source": "JMP SHORT code_79d9"
+  },
+  {
+    "image": 31218,
+    "relative_offset": 252,
+    "size": 3,
+    "native_hex": "8a46f4",
+    "instruction": "MOV AL, byte ptr [BP + -0xc]",
+    "source": "MOV AL, byte ptr [BP-0Ch]"
+  },
+  {
+    "image": 31221,
+    "relative_offset": 255,
+    "size": 2,
+    "native_hex": "2ae4",
+    "instruction": "SUB AH, AH",
+    "source": "SUB AH, AH"
+  },
+  {
+    "image": 31223,
+    "relative_offset": 257,
+    "size": 1,
+    "native_hex": "50",
+    "instruction": "PUSH AX",
+    "source": "PUSH AX"
+  },
+  {
+    "image": 31224,
+    "relative_offset": 258,
+    "size": 3,
+    "native_hex": "8a46f6",
+    "instruction": "MOV AL, byte ptr [BP + -0xa]",
+    "source": "MOV AL, byte ptr [BP-0Ah]"
+  },
+  {
+    "image": 31227,
+    "relative_offset": 261,
+    "size": 1,
+    "native_hex": "50",
+    "instruction": "PUSH AX",
+    "source": "PUSH AX"
+  },
+  {
+    "image": 31228,
+    "relative_offset": 262,
+    "size": 3,
+    "native_hex": "8a46fa",
+    "instruction": "MOV AL, byte ptr [BP + -0x6]",
+    "source": "MOV AL, byte ptr [BP-06h]"
+  },
+  {
+    "image": 31231,
+    "relative_offset": 265,
+    "size": 2,
+    "native_hex": "3440",
+    "instruction": "XOR AL, 0x40",
+    "source": "XOR AL, 040h"
+  },
+  {
+    "image": 31233,
+    "relative_offset": 267,
+    "size": 1,
+    "native_hex": "50",
+    "instruction": "PUSH AX",
+    "source": "PUSH AX"
+  },
+  {
+    "image": 31234,
+    "relative_offset": 268,
+    "size": 3,
+    "native_hex": "8a46fe",
+    "instruction": "MOV AL, byte ptr [BP + -0x2]",
+    "source": "MOV AL, byte ptr [BP-02h]"
+  },
+  {
+    "image": 31237,
+    "relative_offset": 271,
+    "size": 1,
+    "native_hex": "50",
+    "instruction": "PUSH AX",
+    "source": "PUSH AX"
+  },
+  {
+    "image": 31238,
+    "relative_offset": 272,
+    "size": 3,
+    "native_hex": "e89e00",
+    "instruction": "CALL 0x1000:7aa7",
+    "source": "CALL NEAR PTR _queue_piece"
+  },
+  {
+    "image": 31241,
+    "relative_offset": 275,
+    "size": 3,
+    "native_hex": "83c408",
+    "instruction": "ADD SP, 0x8",
+    "source": "ADD SP, 08h"
+  },
+  {
+    "image": 31244,
+    "relative_offset": 278,
+    "size": 4,
+    "native_hex": "837c0400",
+    "instruction": "CMP word ptr [SI + 0x4], 0x0",
+    "source": "CMP word ptr [SI + 04h], 00h"
+  },
+  {
+    "image": 31248,
+    "relative_offset": 282,
+    "size": 2,
+    "native_hex": "7449",
+    "instruction": "JZ 0x1000:7a5b",
+    "source": "JZ SHORT code_7a5b"
+  },
+  {
+    "image": 31250,
+    "relative_offset": 284,
+    "size": 4,
+    "native_hex": "807c0601",
+    "instruction": "CMP byte ptr [SI + 0x6], 0x1",
+    "source": "CMP byte ptr [SI + 06h], 01h"
+  },
+  {
+    "image": 31254,
+    "relative_offset": 288,
+    "size": 2,
+    "native_hex": "7543",
+    "instruction": "JNZ 0x1000:7a5b",
+    "source": "JNZ SHORT code_7a5b"
+  },
+  {
+    "image": 31256,
+    "relative_offset": 290,
+    "size": 4,
+    "native_hex": "c646f203",
+    "instruction": "MOV byte ptr [BP + -0xe], 0x3",
+    "source": "MOV byte ptr [BP-0Eh], 03h"
+  },
+  {
+    "image": 31260,
+    "relative_offset": 294,
+    "size": 5,
+    "native_hex": "c746f00000",
+    "instruction": "MOV word ptr [BP + -0x10], 0x0",
+    "source": "MOV word ptr [BP-010h], 00h"
+  },
+  {
+    "image": 31265,
+    "relative_offset": 299,
+    "size": 2,
+    "native_hex": "8a04",
+    "instruction": "MOV AL, byte ptr [SI]",
+    "source": "MOV AL, byte ptr [SI]"
+  },
+  {
+    "image": 31267,
+    "relative_offset": 301,
+    "size": 2,
+    "native_hex": "2407",
+    "instruction": "AND AL, 0x7",
+    "source": "AND AL, 07h"
+  },
+  {
+    "image": 31269,
+    "relative_offset": 303,
+    "size": 2,
+    "native_hex": "3c06",
+    "instruction": "CMP AL, 0x6",
+    "source": "CMP AL, 06h"
+  },
+  {
+    "image": 31271,
+    "relative_offset": 305,
+    "size": 2,
+    "native_hex": "7516",
+    "instruction": "JNZ 0x1000:7a3f",
+    "source": "JNZ SHORT code_7a3f"
+  },
+  {
+    "image": 31273,
+    "relative_offset": 307,
+    "size": 2,
+    "native_hex": "8b04",
+    "instruction": "MOV AX, word ptr [SI]",
+    "source": "MOV AX, word ptr [SI]"
+  },
+  {
+    "image": 31275,
+    "relative_offset": 309,
+    "size": 3,
+    "native_hex": "25f000",
+    "instruction": "AND AX, 0xf0",
+    "source": "AND AX, 0F0h"
+  },
+  {
+    "image": 31278,
+    "relative_offset": 312,
+    "size": 2,
+    "native_hex": "0c07",
+    "instruction": "OR AL, 0x7",
+    "source": "OR AL, 07h"
+  },
+  {
+    "image": 31280,
+    "relative_offset": 314,
+    "size": 3,
+    "native_hex": "8946ec",
+    "instruction": "MOV word ptr [BP + -0x14], AX",
+    "source": "MOV word ptr [BP-014h], AX"
+  },
+  {
+    "image": 31283,
+    "relative_offset": 317,
+    "size": 2,
+    "native_hex": "8b04",
+    "instruction": "MOV AX, word ptr [SI]",
+    "source": "MOV AX, word ptr [SI]"
+  },
+  {
+    "image": 31285,
+    "relative_offset": 319,
+    "size": 3,
+    "native_hex": "25f000",
+    "instruction": "AND AX, 0xf0",
+    "source": "AND AX, 0F0h"
+  },
+  {
+    "image": 31288,
+    "relative_offset": 322,
+    "size": 2,
+    "native_hex": "0c05",
+    "instruction": "OR AL, 0x5",
+    "source": "OR AL, 05h"
+  },
+  {
+    "image": 31290,
+    "relative_offset": 324,
+    "size": 3,
+    "native_hex": "8946ee",
+    "instruction": "MOV word ptr [BP + -0x12], AX",
+    "source": "MOV word ptr [BP-012h], AX"
+  },
+  {
+    "image": 31293,
+    "relative_offset": 327,
+    "size": 2,
+    "native_hex": "eb12",
+    "instruction": "JMP 0x1000:7a51",
+    "source": "JMP SHORT code_7a51"
+  },
+  {
+    "image": 31295,
+    "relative_offset": 329,
+    "size": 2,
+    "native_hex": "8b04",
+    "instruction": "MOV AX, word ptr [SI]",
+    "source": "MOV AX, word ptr [SI]"
+  },
+  {
+    "image": 31297,
+    "relative_offset": 331,
+    "size": 3,
+    "native_hex": "25f000",
+    "instruction": "AND AX, 0xf0",
+    "source": "AND AX, 0F0h"
+  },
+  {
+    "image": 31300,
+    "relative_offset": 334,
+    "size": 3,
+    "native_hex": "8946ec",
+    "instruction": "MOV word ptr [BP + -0x14], AX",
+    "source": "MOV word ptr [BP-014h], AX"
+  },
+  {
+    "image": 31303,
+    "relative_offset": 337,
+    "size": 2,
+    "native_hex": "8b04",
+    "instruction": "MOV AX, word ptr [SI]",
+    "source": "MOV AX, word ptr [SI]"
+  },
+  {
+    "image": 31305,
+    "relative_offset": 339,
+    "size": 3,
+    "native_hex": "25f000",
+    "instruction": "AND AX, 0xf0",
+    "source": "AND AX, 0F0h"
+  },
+  {
+    "image": 31308,
+    "relative_offset": 342,
+    "size": 2,
+    "native_hex": "0c03",
+    "instruction": "OR AL, 0x3",
+    "source": "OR AL, 03h"
+  },
+  {
+    "image": 31310,
+    "relative_offset": 344,
+    "size": 3,
+    "native_hex": "8946ee",
+    "instruction": "MOV word ptr [BP + -0x12], AX",
+    "source": "MOV word ptr [BP-012h], AX"
+  },
+  {
+    "image": 31313,
+    "relative_offset": 347,
+    "size": 3,
+    "native_hex": "8d46ec",
+    "instruction": "LEA AX, [BP + -0x14]",
+    "source": "LEA AX, [BP-014h]"
+  },
+  {
+    "image": 31316,
+    "relative_offset": 350,
+    "size": 1,
+    "native_hex": "50",
+    "instruction": "PUSH AX",
+    "source": "PUSH AX"
+  },
+  {
+    "image": 31317,
+    "relative_offset": 351,
+    "size": 3,
+    "native_hex": "e857fd",
+    "instruction": "CALL 0x1000:77af",
+    "source": "CALL NEAR PTR _undo_animation"
+  },
+  {
+    "image": 31320,
+    "relative_offset": 354,
+    "size": 3,
+    "native_hex": "83c402",
+    "instruction": "ADD SP, 0x2",
+    "source": "ADD SP, 02h"
+  },
+  {
+    "image": 31323,
+    "relative_offset": 357,
+    "size": 1,
+    "native_hex": "5e",
+    "instruction": "POP SI",
+    "source": "POP SI"
+  },
+  {
+    "image": 31324,
+    "relative_offset": 358,
+    "size": 1,
+    "native_hex": "5f",
+    "instruction": "POP DI",
+    "source": "POP DI"
+  },
+  {
+    "image": 31325,
+    "relative_offset": 359,
+    "size": 2,
+    "native_hex": "8be5",
+    "instruction": "MOV SP, BP",
+    "source": "MOV SP, BP"
+  },
+  {
+    "image": 31327,
+    "relative_offset": 361,
+    "size": 1,
+    "native_hex": "5d",
+    "instruction": "POP BP",
+    "source": "POP BP"
+  },
+  {
+    "image": 31328,
+    "relative_offset": 362,
+    "size": 1,
+    "native_hex": "c3",
+    "instruction": "RET",
+    "source": "RET"
+  }
+]

@@ -1,0 +1,64 @@
+{
+  "source_sha256": "92e38b699c75618a8eaa0ef7087b59a9efc2d13ae7fac897a6a620f65bd542c9",
+  "raw_object_sha256": "8d1acf0a7237d4d54dce04fe715df095db93615feefacb40253e3204c9c36e2e",
+  "manifest_sha256": "d2889507d0729b9d09fb92015fedccbb533c368d428c1612781c3ff980f00a82",
+  "tools": {
+    "CL.ERR": "b153605db3fbc0fa79e2f0d2ad5d814fbb70bfbebc1dbc0d2ed614194666621a",
+    "CL.EXE": "11e3c7d53b3efc085b7ad90c2190a1ddb395c8874f57aef3a5cfc0a4a0a0f504",
+    "C1.EXE": "3ef764476cb56dd14ae3c955a0b7717976d3b40f862fdff675ec8c6adc0ed791",
+    "C1.ERR": "dd02a004e8912c96b90a5b3317dcfeed6f9e76374edfd90979705035c8097233",
+    "C2.EXE": "19fbe7914ba6ebe929a0e98e012fd5e8522643e5e40b6fcd89bef0e5f650f1f1",
+    "C3.EXE": "ca4d82b90423086e68eb8d3af8f1c1c1034f164d0a0b98530c3b3a0fb0501669",
+    "C23.ERR": "75132883ac6507cccaa7d7105df6492f511ba029e4a12ee4a1fcc989517bfd18"
+  },
+  "unit": {
+    "id": "actors_05e0",
+    "source": "src/data/actors_05e0.c",
+    "symbol": "_actors",
+    "image_offset": "0x5d200",
+    "size": 1960,
+    "language": "c-data",
+    "backend": "msc500-actor70-lidata-omf",
+    "flags": [
+      "/AS",
+      "/Zl",
+      "/Zi"
+    ],
+    "reference_region": "exepack-expanded",
+    "rea_evidence": "evidence/actors70-data1960/rea-actors1960.json",
+    "boundary_evidence": "Complete source Actor[70] minimum logical1960: matching native advance_menu68/69 plus insert_actor WORDnext26; genuineC5 LEDATA2+LIDATA1958, exactwhole14fieldActor224bit/ARRAY15680; authenticfullLIBLINK calibration physicallymaterializesall1960. Historicalcapacity/dynamicdomain/TU/class/absoluteplacement unproved."
+  },
+  "owned_evidence": {
+    "evidence/actors70-data1960/Actor.OBJ": "8d1acf0a7237d4d54dce04fe715df095db93615feefacb40253e3204c9c36e2e",
+    "evidence/actors70-data1960/CONTROL.EXE": "ca4024878734b6d8916965d42d956941ff4f3ae47100d2b1e425bb53c3e385b0",
+    "evidence/actors70-data1960/CONTROL.MAP": "1c899b05b70c0ba7ca16d198ca02b29fa62d6c2e26b9d27c61786eab4333febb",
+    "evidence/actors70-data1960/INPUTS.RSP": "9cc6df15c097d345195cb9b2ff3a90f1286c767c865175e0c31dd34015ce7eea",
+    "evidence/actors70-data1960/LINK-generation.json": "6e22cfba778eca7b45e54a982074a6be179aa5ec3e5db60293b9ab6e69032766",
+    "evidence/actors70-data1960/LINK-root-terminal.json": "beb99a7101f2d89a19ec692101cc581e618ee272eed1a5aff11b60e643e5971b",
+    "evidence/actors70-data1960/LINK.LOG": "c69f5f2b43addc7dd4f9c3b1a1cfded612e4077960a8b893b16e095ea49028fe",
+    "evidence/actors70-data1960/MAIN-generation.json": "fb816fd74b89ab4b9c323aa8132f67c4b5c70c8c2072096408e05760efdc0f00",
+    "evidence/actors70-data1960/MAIN-root-terminal.json": "a244907daf5ed0dd902897bfed15528693b1c381367c6290dae628279d9b8ba2",
+    "evidence/actors70-data1960/MAIN.OBJ": "00112d91e989bc854f298732df60d815612f541103590beac35fef6689c11462",
+    "evidence/actors70-data1960/actor-generation.json": "b255ba00a1be420228b2ecbc3e47259681e76db697e62644454d79a2c71cabb3",
+    "evidence/actors70-data1960/actor-root-terminal.json": "33d102824c35efb784aaa9224cae66734895245d8db0e7c81c159885049ed2bc",
+    "evidence/actors70-data1960/assessment-conclusion.json": "385da7678bca3285c47c6ebe7d1cf1e0aa6c1822e7ec29dbad4aed74f32b7bf6",
+    "evidence/actors70-data1960/calibration.json": "d5c1c3c49548c51c65a5c5277fdacafece5b745c264d9ca4fdf004ca34f9c714",
+    "evidence/actors70-data1960/comparison-v2.diff": "419116fa71689dd51a2c923800f66a6f89461e3582df85bb222b803e2e21c542",
+    "evidence/actors70-data1960/logical-minimum-proof.json": "3e77da81a7540f616bcf6132967cfae6663e85fac8c4c36d432e109bd258384f",
+    "evidence/actors70-data1960/main.c": "66ef0e14ec13a6d0d67051b6797a25a52690e110843375f4213abb3224b3428c",
+    "evidence/actors70-data1960/rea-actors1960.json": "d859db6351bd02f1666773c7843e0ec1d5dbedeb07d631fcf72d2438b439887e",
+    "evidence/actors70-data1960/rea-advance.json": "0d9416c913a6f55defa993744d1a283cf78f68cca5e09740b278f5d8ccdc46ea",
+    "evidence/actors70-data1960/rea-attach.json": "a26e53967308cb63fc43156c0d1c065a7ba036990c7777fb9abc25dcd0a5cc2a",
+    "evidence/actors70-data1960/rea-insert.json": "adb0ee022b3dabaf60779bb79015bb37f18f60babab5fa86cb5a3ad4f715c08d"
+  },
+  "DATA_accounting": {
+    "literal": 2,
+    "iterated": 1958,
+    "LINK_alignment": 0,
+    "hole_fill": 0,
+    "Cfunctions": 0,
+    "MZ": 0
+  },
+  "config_sha256": "2e7ca2bc19d665b35f60e651b65f536d1f35e94d8af8463600d5d30500f01d66",
+  "dosbox_sha256": "2a1cafe5dbbe7c4c1ab957756c2135435087ee8fb5d1f7bbe4bd29cb02c30477"
+}

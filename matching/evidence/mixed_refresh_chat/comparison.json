@@ -1,0 +1,537 @@
+{
+  "status": "PASS_FRESH_MIXED_PROTOTYPE_NOT_ADMISSION",
+  "mixed_SHA256": "1585a54ced233f1f841f93afc4761614731246997e2a73290254ca867920f963",
+  "C5_sidecar_SHA256": "e0f2049608c41923138a05d165a8fd7ef66c10718da2259fa5080c7d0b499450",
+  "C123_native_SHA256": "010ea2d232bc61be030c074b8523422e065e5de4bf206ff1b49b728d7f255f1f",
+  "ASM161_native_SHA256": "917fcc01a9862e7304d5be3e8f0706082ad804855798282f0fa3c374c9cfe5f9",
+  "C5_CV_size123": true,
+  "C5_types_genuine_reconstructed_source_not_original_debug": true,
+  "CODE284": true,
+  "PUBLIC0_123": true,
+  "all26_actual_fields": [
+    {
+      "segment": 1,
+      "offset": 7,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": false,
+      "frame": [
+        0,
+        1
+      ],
+      "target": [
+        2,
+        7
+      ],
+      "displacement": null,
+      "record_offset": 724,
+      "raw": "8407060107",
+      "symbol": "__chkstk",
+      "source_addend": 0
+    },
+    {
+      "segment": 1,
+      "offset": 11,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        2,
+        2
+      ],
+      "target": [
+        2,
+        2
+      ],
+      "displacement": null,
+      "record_offset": 724,
+      "raw": "c40b260202",
+      "symbol": "_modes",
+      "source_addend": 0
+    },
+    {
+      "segment": 1,
+      "offset": 18,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        2,
+        2
+      ],
+      "target": [
+        2,
+        2
+      ],
+      "displacement": 2,
+      "record_offset": 724,
+      "raw": "c4122202020200",
+      "symbol": "_modes",
+      "source_addend": 2
+    },
+    {
+      "segment": 1,
+      "offset": 25,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        2,
+        3
+      ],
+      "target": [
+        2,
+        3
+      ],
+      "displacement": null,
+      "record_offset": 724,
+      "raw": "c419260303",
+      "symbol": "_waiting_0eee",
+      "source_addend": 0
+    },
+    {
+      "segment": 1,
+      "offset": 48,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": false,
+      "frame": [
+        0,
+        1
+      ],
+      "target": [
+        2,
+        15
+      ],
+      "displacement": null,
+      "record_offset": 724,
+      "raw": "843006010f",
+      "symbol": "_write_bytes_dbb5",
+      "source_addend": 0
+    },
+    {
+      "segment": 1,
+      "offset": 55,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        2,
+        4
+      ],
+      "target": [
+        2,
+        4
+      ],
+      "displacement": null,
+      "record_offset": 724,
+      "raw": "c437260404",
+      "symbol": "_refresh_active_0548",
+      "source_addend": 0
+    },
+    {
+      "segment": 1,
+      "offset": 60,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": false,
+      "frame": [
+        0,
+        1
+      ],
+      "target": [
+        2,
+        17
+      ],
+      "displacement": null,
+      "record_offset": 724,
+      "raw": "843c060111",
+      "symbol": "_poll_input",
+      "source_addend": 0
+    },
+    {
+      "segment": 1,
+      "offset": 64,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        2,
+        2
+      ],
+      "target": [
+        2,
+        2
+      ],
+      "displacement": null,
+      "record_offset": 724,
+      "raw": "c440260202",
+      "symbol": "_modes",
+      "source_addend": 0
+    },
+    {
+      "segment": 1,
+      "offset": 71,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        2,
+        2
+      ],
+      "target": [
+        2,
+        2
+      ],
+      "displacement": 2,
+      "record_offset": 724,
+      "raw": "c4472202020200",
+      "symbol": "_modes",
+      "source_addend": 2
+    },
+    {
+      "segment": 1,
+      "offset": 78,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        2,
+        1
+      ],
+      "target": [
+        2,
+        1
+      ],
+      "displacement": null,
+      "record_offset": 724,
+      "raw": "c44e260101",
+      "symbol": "_refresh_stop_11a6",
+      "source_addend": 0
+    },
+    {
+      "segment": 1,
+      "offset": 85,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        2,
+        11
+      ],
+      "target": [
+        2,
+        11
+      ],
+      "displacement": null,
+      "record_offset": 724,
+      "raw": "c455260b0b",
+      "symbol": "_ready_9856",
+      "source_addend": 0
+    },
+    {
+      "segment": 1,
+      "offset": 91,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": false,
+      "frame": [
+        0,
+        1
+      ],
+      "target": [
+        2,
+        5
+      ],
+      "displacement": null,
+      "record_offset": 724,
+      "raw": "845b060105",
+      "symbol": "_obtain_input",
+      "source_addend": 0
+    },
+    {
+      "segment": 1,
+      "offset": 94,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        2,
+        11
+      ],
+      "target": [
+        2,
+        11
+      ],
+      "displacement": null,
+      "record_offset": 724,
+      "raw": "c45e260b0b",
+      "symbol": "_ready_9856",
+      "source_addend": 0
+    },
+    {
+      "segment": 1,
+      "offset": 98,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        2,
+        11
+      ],
+      "target": [
+        2,
+        11
+      ],
+      "displacement": null,
+      "record_offset": 724,
+      "raw": "c462260b0b",
+      "symbol": "_ready_9856",
+      "source_addend": 0
+    },
+    {
+      "segment": 1,
+      "offset": 104,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": false,
+      "frame": [
+        0,
+        1
+      ],
+      "target": [
+        2,
+        9
+      ],
+      "displacement": null,
+      "record_offset": 724,
+      "raw": "8468060109",
+      "symbol": "_step_872a",
+      "source_addend": 0
+    },
+    {
+      "segment": 1,
+      "offset": 110,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        2,
+        4
+      ],
+      "target": [
+        2,
+        4
+      ],
+      "displacement": null,
+      "record_offset": 724,
+      "raw": "c46e260404",
+      "symbol": "_refresh_active_0548",
+      "source_addend": 0
+    },
+    {
+      "segment": 1,
+      "offset": 116,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        2,
+        1
+      ],
+      "target": [
+        2,
+        1
+      ],
+      "displacement": null,
+      "record_offset": 724,
+      "raw": "c474260101",
+      "symbol": "_refresh_stop_11a6",
+      "source_addend": 0
+    },
+    {
+      "segment": 1,
+      "offset": 130,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": false,
+      "frame": [
+        0,
+        1
+      ],
+      "target": [
+        2,
+        7
+      ],
+      "displacement": null,
+      "record_offset": 724,
+      "raw": "8482060107",
+      "symbol": "__chkstk",
+      "source_addend": 0
+    },
+    {
+      "segment": 1,
+      "offset": 138,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": false,
+      "frame": [
+        0,
+        1
+      ],
+      "target": [
+        2,
+        14
+      ],
+      "displacement": null,
+      "record_offset": 724,
+      "raw": "848a06010e",
+      "symbol": "_begin_input_0fb0",
+      "source_addend": 0
+    },
+    {
+      "segment": 1,
+      "offset": 142,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        2,
+        16
+      ],
+      "target": [
+        2,
+        16
+      ],
+      "displacement": null,
+      "record_offset": 724,
+      "raw": "c48e261010",
+      "symbol": "_menu_state",
+      "source_addend": 0
+    },
+    {
+      "segment": 1,
+      "offset": 160,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": false,
+      "frame": [
+        0,
+        1
+      ],
+      "target": [
+        2,
+        12
+      ],
+      "displacement": null,
+      "record_offset": 724,
+      "raw": "84a006010c",
+      "symbol": "_fill_region_1780",
+      "source_addend": 0
+    },
+    {
+      "segment": 1,
+      "offset": 183,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": false,
+      "frame": [
+        0,
+        1
+      ],
+      "target": [
+        2,
+        10
+      ],
+      "displacement": null,
+      "record_offset": 724,
+      "raw": "84b706010a",
+      "symbol": "_text_input_1064",
+      "source_addend": 0
+    },
+    {
+      "segment": 1,
+      "offset": 215,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": false,
+      "frame": [
+        0,
+        1
+      ],
+      "target": [
+        2,
+        6
+      ],
+      "displacement": null,
+      "record_offset": 724,
+      "raw": "84d7060106",
+      "symbol": "_restore_region_58b0",
+      "source_addend": 0
+    },
+    {
+      "segment": 1,
+      "offset": 257,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": false,
+      "frame": [
+        0,
+        1
+      ],
+      "target": [
+        2,
+        15
+      ],
+      "displacement": null,
+      "record_offset": 724,
+      "raw": "850106010f",
+      "symbol": "_write_bytes_dbb5",
+      "source_addend": 0
+    },
+    {
+      "segment": 1,
+      "offset": 270,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": false,
+      "frame": [
+        0,
+        1
+      ],
+      "target": [
+        2,
+        15
+      ],
+      "displacement": null,
+      "record_offset": 724,
+      "raw": "850e06010f",
+      "symbol": "_write_bytes_dbb5",
+      "source_addend": 0
+    },
+    {
+      "segment": 1,
+      "offset": 276,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": false,
+      "frame": [
+        0,
+        1
+      ],
+      "target": [
+        2,
+        8
+      ],
+      "displacement": null,
+      "record_offset": 724,
+      "raw": "8514060108",
+      "symbol": "_end_input_102d",
+      "source_addend": 0
+    }
+  ],
+  "native_MZ": [],
+  "all4bases": true,
+  "C_function_credit_change": 0,
+  "LINK_or_fresh_SOURCE_seal_claim": false
+}

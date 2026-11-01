@@ -1,0 +1,205 @@
+{
+  "note": "Pinned inputs omitted from this source-only publication. Also requires the original game, system tools, runtime LIB tool and local Python environment documented in README.",
+  "inputs": [
+    {
+      "path": "matching/tests/fixtures/asset_records_DW/archive-DD.obj",
+      "sha256": "4c2edaeeae2a5b68c8fb37c43b3c55bc72710de55b1590f867599084b6aa8b49",
+      "reason": "External tool/runtime or binary evidence; supply locally"
+    },
+    {
+      "path": "matching/tests/fixtures/asset_records_DW/frames160.obj",
+      "sha256": "3bbe4ed116da770fdc9b7c894ddb2bbcfde497537241e1e59660093cb93ab9b9",
+      "reason": "External tool/runtime or binary evidence; supply locally"
+    },
+    {
+      "path": "matching/tests/fixtures/asset_records_DW/groups120.obj",
+      "sha256": "e7b20abfca8a7f248b332bafe4c29ec4c3a9eafed71ab47ee8f76267936b738a",
+      "reason": "External tool/runtime or binary evidence; supply locally"
+    },
+    {
+      "path": "matching/tests/fixtures/list_scratch_physical40/actual196.obj",
+      "sha256": "929f17c234fdf248bb0fdc7e4dbd12f6328af1d7b8c7361e87030ddba93025eb",
+      "reason": "External tool/runtime or binary evidence; supply locally"
+    },
+    {
+      "path": "matching/tests/fixtures/mixed_refresh_chat/C5.obj",
+      "sha256": "e0f2049608c41923138a05d165a8fd7ef66c10718da2259fa5080c7d0b499450",
+      "reason": "External tool/runtime or binary evidence; supply locally"
+    },
+    {
+      "path": "matching/tests/fixtures/mixed_refresh_chat/mixed.obj",
+      "sha256": "1585a54ced233f1f841f93afc4761614731246997e2a73290254ca867920f963",
+      "reason": "External tool/runtime or binary evidence; supply locally"
+    },
+    {
+      "path": "matching/tests/fixtures/near_bss_layout190/mixed284.OBJ",
+      "sha256": "1585a54ced233f1f841f93afc4761614731246997e2a73290254ca867920f963",
+      "reason": "External tool/runtime or binary evidence; supply locally"
+    },
+    {
+      "path": "matching/tests/fixtures/near_bss_layout190/native_near_bss190.OBJ",
+      "sha256": "1f908f7bfe9115a07f485fe206e70f072455e72eb118150a97b98bbc7d64522c",
+      "reason": "External tool/runtime or binary evidence; supply locally"
+    },
+    {
+      "path": "matching/tests/fixtures/near_game/animate_move363.obj",
+      "sha256": "cf9c3a936c8efaf005f94198275b422c452ee9d44cbcfe7ffe07cc6a11da4b5a",
+      "reason": "External tool/runtime or binary evidence; supply locally"
+    },
+    {
+      "path": "matching/tests/fixtures/near_game/clear21.obj",
+      "sha256": "d10b53f5dd4de435de084096a1167e7542e8afa6caddbc1edb25b1fc02761641",
+      "reason": "External tool/runtime or binary evidence; supply locally"
+    },
+    {
+      "path": "matching/tests/fixtures/near_game/editormap7.obj",
+      "sha256": "75bde046c033f39655a79709a468399b4471f35c111c4793451f3918761e61e9",
+      "reason": "External tool/runtime or binary evidence; supply locally"
+    },
+    {
+      "path": "matching/tests/fixtures/near_game/no_saved_games515c.obj",
+      "sha256": "f77cb935dab2fdbea6915b2ae4537e8315ed3325a16e2c0b3ae5584316aa73b3",
+      "reason": "External tool/runtime or binary evidence; supply locally"
+    },
+    {
+      "path": "matching/tests/fixtures/near_game/noactor17.obj",
+      "sha256": "b3c579b953b83616442a4b90fa58c88c0ff8aca3df91c6da904537e7fed26846",
+      "reason": "External tool/runtime or binary evidence; supply locally"
+    },
+    {
+      "path": "matching/tests/fixtures/near_game/reset_position08de_1168.obj",
+      "sha256": "86165796a07c053f739488660098e8a91691a48897b400d0a78e0321e4421bf6",
+      "reason": "External tool/runtime or binary evidence; supply locally"
+    },
+    {
+      "path": "matching/tests/fixtures/near_game/reset_position08de_kind_map_1168.obj",
+      "sha256": "eb5f2907a22277990278bfc944aeb8c03935c98af58e0c3b4b92fc47f39e10c7",
+      "reason": "External tool/runtime or binary evidence; supply locally"
+    },
+    {
+      "path": "matching/tests/fixtures/near_game/save_cc72_610.obj",
+      "sha256": "01f04c5f6a80c77c166a26429aabfa544fd2aa28c6d630d725d69a707826ebc6",
+      "reason": "External tool/runtime or binary evidence; supply locally"
+    },
+    {
+      "path": "matching/tests/fixtures/near_game/undo_animation327.obj",
+      "sha256": "91f649ae0ba0a08b55157d6c6c08af0870a14057b346340a0a9f9ea197e602df",
+      "reason": "External tool/runtime or binary evidence; supply locally"
+    },
+    {
+      "path": "matching/tests/fixtures/restore_decoder340/C5.obj",
+      "sha256": "117bac4bb6f0c2fc424bd03a20ee6517ab91aaefd048953f46ac12d45a57c448",
+      "reason": "External tool/runtime or binary evidence; supply locally"
+    },
+    {
+      "path": "matching/tests/fixtures/restore_decoder340/mixed.obj",
+      "sha256": "3b7173bc90908bc424cd47d3bb680bd5303833af65d7567f2bfbab8848e8b0f5",
+      "reason": "External tool/runtime or binary evidence; supply locally"
+    },
+    {
+      "path": "matching/tests/fixtures/serial248_dgroup/serial248-DGROUP.OBJ",
+      "sha256": "5988f0f3344eadda3961609db62be85d4ab0ade0301335f248bf4de5a2e87726",
+      "reason": "External tool/runtime or binary evidence; supply locally"
+    },
+    {
+      "path": "matching/tests/fixtures/serial248_dgroup/serial248-original-F0.OBJ",
+      "sha256": "211f9133d685184d76409518b65000f044bc2b4e99cbb54e8bb6cf0e37a028df",
+      "reason": "External tool/runtime or binary evidence; supply locally"
+    },
+    {
+      "path": "matching/tests/fixtures/tail_undo874/C5.obj",
+      "sha256": "b9495d381a1bec760a840b793905d9a0390281da3bcc663c1a4684514ab03daf",
+      "reason": "External tool/runtime or binary evidence; supply locally"
+    },
+    {
+      "path": "matching/tests/fixtures/tail_undo874/mixed.obj",
+      "sha256": "6f8a60b9a234f7597f2c2778ad0ea319a534c31235b4d9343a564c9182c9770c",
+      "reason": "External tool/runtime or binary evidence; supply locally"
+    },
+    {
+      "path": "matching/toolchains/msc500/C1.ERR",
+      "sha256": "dd02a004e8912c96b90a5b3317dcfeed6f9e76374edfd90979705035c8097233",
+      "reason": "External tool/runtime or binary evidence; supply locally"
+    },
+    {
+      "path": "matching/toolchains/msc500/C1.EXE",
+      "sha256": "3ef764476cb56dd14ae3c955a0b7717976d3b40f862fdff675ec8c6adc0ed791",
+      "reason": "External tool/runtime or binary evidence; supply locally"
+    },
+    {
+      "path": "matching/toolchains/msc500/C2.EXE",
+      "sha256": "19fbe7914ba6ebe929a0e98e012fd5e8522643e5e40b6fcd89bef0e5f650f1f1",
+      "reason": "External tool/runtime or binary evidence; supply locally"
+    },
+    {
+      "path": "matching/toolchains/msc500/C23.ERR",
+      "sha256": "75132883ac6507cccaa7d7105df6492f511ba029e4a12ee4a1fcc989517bfd18",
+      "reason": "External tool/runtime or binary evidence; supply locally"
+    },
+    {
+      "path": "matching/toolchains/msc500/C3.EXE",
+      "sha256": "ca4d82b90423086e68eb8d3af8f1c1c1034f164d0a0b98530c3b3a0fb0501669",
+      "reason": "External tool/runtime or binary evidence; supply locally"
+    },
+    {
+      "path": "matching/toolchains/msc500/CL.ERR",
+      "sha256": "b153605db3fbc0fa79e2f0d2ad5d814fbb70bfbebc1dbc0d2ed614194666621a",
+      "reason": "External tool/runtime or binary evidence; supply locally"
+    },
+    {
+      "path": "matching/toolchains/msc500/CL.EXE",
+      "sha256": "11e3c7d53b3efc085b7ad90c2190a1ddb395c8874f57aef3a5cfc0a4a0a0f504",
+      "reason": "External tool/runtime or binary evidence; supply locally"
+    },
+    {
+      "path": "matching/toolchains/msc500/manifest.json",
+      "sha256": "d2889507d0729b9d09fb92015fedccbb533c368d428c1612781c3ff980f00a82",
+      "reason": "External tool/runtime or binary evidence; supply locally"
+    },
+    {
+      "path": "matching/toolchains/msc510/LICENSE",
+      "sha256": "b5179f780ec212a434efcc989a2295a140deb0bdb17182d2bf9c5f6f1f1a01c4",
+      "reason": "External tool/runtime or binary evidence; supply locally"
+    },
+    {
+      "path": "matching/toolchains/msc510/LINK.EXE",
+      "sha256": "124a3c800edc16b60f696d35a9dfec798b68b78fe2ca90c5988ea76bdeab1a8a",
+      "reason": "External tool/runtime or binary evidence; supply locally"
+    },
+    {
+      "path": "matching/toolchains/msc510/MASM.EXE",
+      "sha256": "1c6286c69b616160b8475ad17453ee872702a2c98075c2159ec792a1c745275f",
+      "reason": "External tool/runtime or binary evidence; supply locally"
+    },
+    {
+      "path": "matching/toolchains/msc510/manifest.json",
+      "sha256": "f98c55eaf97fff792dfa8f131d9ea255008c5d97311dd6837cd4fda79c2ebef4",
+      "reason": "External tool/runtime or binary evidence; supply locally"
+    },
+    {
+      "path": "matching/toolchains/runtime-libh/LIBH.LIB",
+      "sha256": "768bfe171ebcad6d44aeca830ec8d19b31f02ce84ab35c81fc48fcf3f1e14858",
+      "reason": "External tool/runtime or binary evidence; supply locally"
+    },
+    {
+      "path": "matching/toolchains/runtime-libh/manifest.json",
+      "sha256": "2cb7bd61ed0cc45bdb6a8b3d28469100e3d181f2a8e42ce3f84490fe5a41af51",
+      "reason": "External tool/runtime or binary evidence; supply locally"
+    },
+    {
+      "path": "matching/toolchains/runtime500/SLIBC.LIB",
+      "sha256": "7eabd615308e9a05de24f6e6e82e61a65f733eb64d12b5318d8b3ed569e389b9",
+      "reason": "External tool/runtime or binary evidence; supply locally"
+    },
+    {
+      "path": "matching/toolchains/runtime500/manifest.json",
+      "sha256": "d45e895f351afa4173ec80e527c862efeecaa1f5088b0fbfcbd70cbf77afb637",
+      "reason": "External tool/runtime or binary evidence; supply locally"
+    },
+    {
+      "path": ".reworkbench/staging/exact-build-driver-v2/source-inputs/BINMODE.OBJ",
+      "sha256": "f373b6ee1096e1e8e92f3a6d57ad0a28eaca7329b574f6b47480c98b0d668673",
+      "reason": "Authentic runtime/tool input; supply locally"
+    }
+  ]
+}

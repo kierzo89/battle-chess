@@ -1,0 +1,66 @@
+{
+  "schema": "graphics-screen-view-workspace-v1",
+  "backend": "masm510-graphics-screen-view-workspace-data-omf",
+  "unit": {
+    "id": "graphics_workspace_physical_data86000",
+    "language": "asm-data",
+    "backend": "masm510-graphics-screen-view-workspace-data-omf",
+    "source": "src/data/graphics_screen_view_workspace.asm",
+    "source_sha256": "15afff3a47714d772582b2c91a8a675411d324dbdeeccf24a2ade564392e6b22",
+    "assembler_sha256": "1c6286c69b616160b8475ad17453ee872702a2c98075c2159ec792a1c745275f",
+    "symbols": [
+      "_graphics_workspace",
+      "_color_buffer",
+      "_region_buffer",
+      "_metadata_workspace",
+      "_splash_buffer",
+      "_screen_pixels"
+    ],
+    "image_offset": "0x120d0",
+    "size": 86000,
+    "reference_region": "exepack-expanded",
+    "rea_evidence": "evidence/graphics_buffer_views/rea_graphics_workspace_86000.json",
+    "boundary_evidence": "Same86000 complete initialized EXEPACK FILE bytes in PRIVATE PARA53184+32816 with exact five real BYTE PUBLICs: graphics0,color32E0,region3F90,metadataCC6C,splash second1F09:0. All21 actual whole-client fields (18CODE/3debug), nine existing nativeMZ and fourbases independently checked from owned raw snapshots. Incomplete char-array views establish no capacity. No extra storage/byte/C/function/MZ credit; original globalMAP/historical TU/capacity held. Sixth distinct BYTE view screen_pixels is first PRIVATE segment offset4C40; actual whole267 LINK preserves all old PUBLICs/segments/86000bytes and the genuine noncanonical FAR pointer representation. No added storage or matching credit."
+  },
+  "whole_object_sha256": "0a44eb20bc364a52fba29d5420546ead27ec61910548f1f4f813cbaec8e1eeb7",
+  "source_sha256": "15afff3a47714d772582b2c91a8a675411d324dbdeeccf24a2ade564392e6b22",
+  "complete_initialized_bytes": 86000,
+  "publics": {
+    "_graphics_workspace": [
+      1,
+      0
+    ],
+    "_color_buffer": [
+      1,
+      13024
+    ],
+    "_region_buffer": [
+      1,
+      16272
+    ],
+    "_metadata_workspace": [
+      1,
+      52332
+    ],
+    "_splash_buffer": [
+      2,
+      0
+    ],
+    "_screen_pixels": [
+      1,
+      19520
+    ]
+  },
+  "evidence_pins": {
+    "evidence/graphics_screen_view/component.json": "a638d895eecd65ad4df87268c4c8e90ece2d7b57a4dfdc504dad4b7dddc7f253",
+    "evidence/graphics_screen_view/component-terminal.json": "1b7ffc60ceee9624251ffcf612b3a6f91c6a08361c4e76ec93fb9a0930f4b41e",
+    "evidence/graphics_screen_view/generation.json": "c6f32e2e9dd651e902c6c86ce170f0588e12f2a7a0b975d5f248c96644d4b1a5",
+    "evidence/graphics_screen_view/generation-terminal.json": "bb05d599227b26b95dcd59669f7eb331b1a3349479361d8113c8705b468043f3",
+    "evidence/graphics_screen_view/LINK-calibration.json": "207273ba4c60626ba2c2ae28daf53f46a073bf6048122e485711babb6ed5d23a",
+    "evidence/graphics_screen_view/LINK-comparison-terminal.json": "4a1a28b6b4868e1e2c2c537848e6ce9270dd14331cc53ca0e63efe8dddf1020c",
+    "evidence/graphics_screen_view/LINK-terminal.json": "13f94186dacb90d17696724fb1603810c13ea7a4bcd35eedc2dbaed2d825e9f8",
+    "evidence/graphics_screen_view/screen-pointer.obj": "fa688769a8e29de119fb2a55a1d157678a776595799deb710d83ed3eed85ee1a"
+  },
+  "old_five_profile_sha256": "655792622908846629be079e96ca677b462b5a5bb98ff0d0bf05fc9a249f4c78",
+  "new_credit": 0
+}

@@ -1,0 +1,5 @@
+"""Closed comparison-only source/object/profile/evidence identities."""
+PROFILE_SHA256='e2a66cc5df5f74264c9dfe8ecc50d65339bc0cea65f829956a21be23e854e498'
+SOURCE_SHA256='3c597b2d06218e9a8f53952af87c9f986f3c8837ef547b45e7c837c31cb5f3c5'
+OBJECT_SHA256='bfd5f0b5710a9ec4c0060a6f81ebf8e3ef276e29b005defc0ed5db6164ed8ad2'
+EVIDENCE={'comparison': {'path': 'evidence/shared_turn_book2418/comparison.json', 'sha256': '5daf7532e6f50b38102970eed05c5f159d25bef415280844c6329a507b06b172'}, 'generation': {'path': 'evidence/shared_turn_book2418/generation.json', 'sha256': '9dff60764902aefd195452851ffa4ce2505d03f1ae6ad51d1c247e44a7609c95'}, 'outer': {'path': 'evidence/shared_turn_book2418/actual-root-tool-result.json', 'sha256': '5a6d17379ca698597a63ff71368ca381621929dfbb082eef19e04e5c159d8382'}, 'selector': {'path': 'evidence/shared_turn_book2418/rea-selector2.json', 'sha256': 'b13ea84a0077557a35f03c24e4056d291490f50e14f886fa097f91273f5c32b2'}, 'declarations': {'path': 'evidence/shared_turn_book2418/declarations.json', 'sha256': '6a6699a6d4e3d94286b842674a52c49aac0b5f1c5465d6b5b5b553cbfff2ac3e'}}

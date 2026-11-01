@@ -1,0 +1,731 @@
+{
+  "kind": "arena_messages_1244_v1",
+  "source_sha256": "cc32f43fd0d9e791cdc09d16b09562869095f5873f0c00c363626950ddf7e891",
+  "object_sha256": "4dc97fb2c38d75506380846652b3f722a9ab32aa71eb5a08f128777af0b2f62d",
+  "descriptor": {
+    "segment": 3,
+    "group": 1,
+    "size": 65,
+    "image_offset": "0x61968",
+    "data_address": {
+      "segment": 23746,
+      "offset": 19784
+    },
+    "rea_evidence": "build/arena-error-data-context/rea-full65.json"
+  },
+  "units": [
+    {
+      "id": "pop_value",
+      "symbol": "_pop_value",
+      "source": "build/arena-literal65-context/arena_literals.c",
+      "image_offset": "0x3ac2",
+      "size": 33,
+      "rea_evidence": "evidence/rea_compiler_candidate_3ac2.json",
+      "language": "c",
+      "backend": "msc500-omf",
+      "flags": [
+        "/AS",
+        "/Gs",
+        "/Os",
+        "/Zi"
+      ],
+      "externals": {
+        "_value_index": 142,
+        "_values": 36122,
+        "_task_index": 144,
+        "_task_pool": 45246,
+        "_error_message": 3469,
+        "_asset_frames": 3616,
+        "_asset_loaded": 3790,
+        "_mode_11aa": 4522,
+        "_arena_cursor": 37432,
+        "_asset_offsets": 36324,
+        "_asset_buffer": {
+          "segment": 9996,
+          "offset": 0
+        },
+        "_begin_asset_decode": 58441,
+        "_prepare_asset_decode": 57402,
+        "_huff_frame_decode": 57751,
+        "_end_asset_decode": 58460,
+        "__AHSHIFT": {
+          "absolute": 12
+        },
+        "_asset_groups": 3496,
+        "_asset_wanted": 3806,
+        "_asset_group_lengths": 190,
+        "_pair_lengths": 214,
+        "_arena_capacity": 45236,
+        "_left_controls": 35950,
+        "_right_controls": 36022,
+        "_left_lists": 36678,
+        "_right_lists": 36750,
+        "_decoded_arena": {
+          "segment": 14371,
+          "offset": 0
+        },
+        "_arena_fallback": 3832,
+        "_frame_directory": 38480,
+        "_left_list_scratch": 4158,
+        "_right_list_scratch": 4178,
+        "_pair_offsets": 33148,
+        "_pair_directory_lengths": 36096,
+        "_unload_asset_group": 12858,
+        "_load_asset_group": 13728,
+        "_save_active_arena": 11436,
+        "_load_group_frames": 11828,
+        "_seek_asset": 52059,
+        "_read_asset": 52111,
+        "_decode_frame_directory": 11539,
+        "_cache_asset_frame": 13906,
+        "__aNahdiff": 61910,
+        "_current_controls": 45262,
+        "_asset_state": 3776
+      },
+      "boundary_evidence": "Complete original REA function extent, fresh independent CV3, all relocated bytes and complete MZ site set compared. Proof evidence/asset-directory-next-match.json. Function credit only; enclosing original TU/alignment remain unresolved. Future genuine literal-owner whole-context migration: all six CVs1243, fullCODE1244 including independently evidenced trailing90, anonymousCONST65; pool zero separate DATAcredit, no new functions. Retire five old string DATA units together if promoted.",
+      "owned_const": {
+        "segment": 3,
+        "group": 1,
+        "size": 65,
+        "image_offset": "0x61968",
+        "data_address": {
+          "segment": 23746,
+          "offset": 19784
+        },
+        "rea_evidence": "build/arena-error-data-context/rea-full65.json"
+      },
+      "owned_const_profile": "arena_messages_1244_v1"
+    },
+    {
+      "id": "allocate_task_3b0c",
+      "symbol": "_allocate_task_3b0c",
+      "source": "build/arena-literal65-context/arena_literals.c",
+      "image_offset": "0x3b0c",
+      "size": 33,
+      "rea_evidence": "evidence/rea_command_allocate_3b0c.json",
+      "language": "c",
+      "backend": "msc500-omf",
+      "flags": [
+        "/AS",
+        "/Gs",
+        "/Os",
+        "/Zi"
+      ],
+      "externals": {
+        "_value_index": 142,
+        "_values": 36122,
+        "_task_index": 144,
+        "_task_pool": 45246,
+        "_error_message": 3469,
+        "_asset_frames": 3616,
+        "_asset_loaded": 3790,
+        "_mode_11aa": 4522,
+        "_arena_cursor": 37432,
+        "_asset_offsets": 36324,
+        "_asset_buffer": {
+          "segment": 9996,
+          "offset": 0
+        },
+        "_begin_asset_decode": 58441,
+        "_prepare_asset_decode": 57402,
+        "_huff_frame_decode": 57751,
+        "_end_asset_decode": 58460,
+        "__AHSHIFT": {
+          "absolute": 12
+        },
+        "_asset_groups": 3496,
+        "_asset_wanted": 3806,
+        "_asset_group_lengths": 190,
+        "_pair_lengths": 214,
+        "_arena_capacity": 45236,
+        "_left_controls": 35950,
+        "_right_controls": 36022,
+        "_left_lists": 36678,
+        "_right_lists": 36750,
+        "_decoded_arena": {
+          "segment": 14371,
+          "offset": 0
+        },
+        "_arena_fallback": 3832,
+        "_frame_directory": 38480,
+        "_left_list_scratch": 4158,
+        "_right_list_scratch": 4178,
+        "_pair_offsets": 33148,
+        "_pair_directory_lengths": 36096,
+        "_unload_asset_group": 12858,
+        "_load_asset_group": 13728,
+        "_save_active_arena": 11436,
+        "_load_group_frames": 11828,
+        "_seek_asset": 52059,
+        "_read_asset": 52111,
+        "_decode_frame_directory": 11539,
+        "_cache_asset_frame": 13906,
+        "__aNahdiff": 61910,
+        "_current_controls": 45262,
+        "_asset_state": 3776
+      },
+      "boundary_evidence": "Complete original REA function extent, fresh independent CV3, all relocated bytes and complete MZ site set compared. Proof evidence/asset-directory-next-match.json. Function credit only; enclosing original TU/alignment remain unresolved. Future genuine literal-owner whole-context migration: all six CVs1243, fullCODE1244 including independently evidenced trailing90, anonymousCONST65; pool zero separate DATAcredit, no new functions. Retire five old string DATA units together if promoted.",
+      "owned_const": {
+        "segment": 3,
+        "group": 1,
+        "size": 65,
+        "image_offset": "0x61968",
+        "data_address": {
+          "segment": 23746,
+          "offset": 19784
+        },
+        "rea_evidence": "build/arena-error-data-context/rea-full65.json"
+      },
+      "owned_const_profile": "arena_messages_1244_v1"
+    },
+    {
+      "id": "cache_asset_frame_3652",
+      "source": "build/arena-literal65-context/arena_literals.c",
+      "symbol": "_cache_asset_frame",
+      "flags": [
+        "/AS",
+        "/Gs",
+        "/Os",
+        "/Zi"
+      ],
+      "image_offset": "0x3652",
+      "size": 193,
+      "rea_evidence": "evidence/rea_far_storage_13652.json",
+      "externals": {
+        "_value_index": 142,
+        "_values": 36122,
+        "_task_index": 144,
+        "_task_pool": 45246,
+        "_error_message": 3469,
+        "_asset_frames": 3616,
+        "_asset_loaded": 3790,
+        "_mode_11aa": 4522,
+        "_arena_cursor": 37432,
+        "_asset_offsets": 36324,
+        "_asset_buffer": {
+          "segment": 9996,
+          "offset": 0
+        },
+        "_begin_asset_decode": 58441,
+        "_prepare_asset_decode": 57402,
+        "_huff_frame_decode": 57751,
+        "_end_asset_decode": 58460,
+        "__AHSHIFT": {
+          "absolute": 12
+        },
+        "_asset_groups": 3496,
+        "_asset_wanted": 3806,
+        "_asset_group_lengths": 190,
+        "_pair_lengths": 214,
+        "_arena_capacity": 45236,
+        "_left_controls": 35950,
+        "_right_controls": 36022,
+        "_left_lists": 36678,
+        "_right_lists": 36750,
+        "_decoded_arena": {
+          "segment": 14371,
+          "offset": 0
+        },
+        "_arena_fallback": 3832,
+        "_frame_directory": 38480,
+        "_left_list_scratch": 4158,
+        "_right_list_scratch": 4178,
+        "_pair_offsets": 33148,
+        "_pair_directory_lengths": 36096,
+        "_unload_asset_group": 12858,
+        "_load_asset_group": 13728,
+        "_save_active_arena": 11436,
+        "_load_group_frames": 11828,
+        "_seek_asset": 52059,
+        "_read_asset": 52111,
+        "_decode_frame_directory": 11539,
+        "_cache_asset_frame": 13906,
+        "__aNahdiff": 61910,
+        "_current_controls": 45262,
+        "_asset_state": 3776
+      },
+      "language": "c",
+      "backend": "msc500-omf",
+      "boundary_evidence": "Fresh original REA complete contiguous function body and independent MSC5.00 CodeView3 extent; complete raw/linked/original equality, explicit full relocation accounting. Future genuine literal-owner whole-context migration: all six CVs1243, fullCODE1244 including independently evidenced trailing90, anonymousCONST65; pool zero separate DATAcredit, no new functions. Retire five old string DATA units together if promoted."
+    },
+    {
+      "id": "manage_asset_arena_3713",
+      "source": "build/arena-literal65-context/arena_literals.c",
+      "symbol": "_manage_asset_arena",
+      "flags": [
+        "/AS",
+        "/Gs",
+        "/Os",
+        "/Zi"
+      ],
+      "image_offset": "0x3713",
+      "size": 902,
+      "rea_evidence": "evidence/rea_asset_manager_3713.json",
+      "externals": {
+        "_value_index": 142,
+        "_values": 36122,
+        "_task_index": 144,
+        "_task_pool": 45246,
+        "_error_message": 3469,
+        "_asset_frames": 3616,
+        "_asset_loaded": 3790,
+        "_mode_11aa": 4522,
+        "_arena_cursor": 37432,
+        "_asset_offsets": 36324,
+        "_asset_buffer": {
+          "segment": 9996,
+          "offset": 0
+        },
+        "_begin_asset_decode": 58441,
+        "_prepare_asset_decode": 57402,
+        "_huff_frame_decode": 57751,
+        "_end_asset_decode": 58460,
+        "__AHSHIFT": {
+          "absolute": 12
+        },
+        "_asset_groups": 3496,
+        "_asset_wanted": 3806,
+        "_asset_group_lengths": 190,
+        "_pair_lengths": 214,
+        "_arena_capacity": 45236,
+        "_left_controls": 35950,
+        "_right_controls": 36022,
+        "_left_lists": 36678,
+        "_right_lists": 36750,
+        "_decoded_arena": {
+          "segment": 14371,
+          "offset": 0
+        },
+        "_arena_fallback": 3832,
+        "_frame_directory": 38480,
+        "_left_list_scratch": 4158,
+        "_right_list_scratch": 4178,
+        "_pair_offsets": 33148,
+        "_pair_directory_lengths": 36096,
+        "_unload_asset_group": 12858,
+        "_load_asset_group": 13728,
+        "_save_active_arena": 11436,
+        "_load_group_frames": 11828,
+        "_seek_asset": 52059,
+        "_read_asset": 52111,
+        "_decode_frame_directory": 11539,
+        "_cache_asset_frame": 13906,
+        "__aNahdiff": 61910,
+        "_current_controls": 45262,
+        "_asset_state": 3776
+      },
+      "language": "c",
+      "backend": "msc500-omf",
+      "boundary_evidence": "Fresh original REA complete contiguous function body and independent MSC5.00 CodeView3 extent; complete raw/linked/original equality, explicit full relocation accounting. Future genuine literal-owner whole-context migration: all six CVs1243, fullCODE1244 including independently evidenced trailing90, anonymousCONST65; pool zero separate DATAcredit, no new functions. Retire five old string DATA units together if promoted.",
+      "owned_const": {
+        "segment": 3,
+        "group": 1,
+        "size": 65,
+        "image_offset": "0x61968",
+        "data_address": {
+          "segment": 23746,
+          "offset": 19784
+        },
+        "rea_evidence": "build/arena-error-data-context/rea-full65.json"
+      },
+      "owned_const_profile": "arena_messages_1244_v1"
+    },
+    {
+      "id": "push_value_3a99",
+      "symbol": "_push_value",
+      "source": "build/arena-literal65-context/arena_literals.c",
+      "image_offset": "0x3a99",
+      "size": 41,
+      "rea_evidence": "evidence/rea_remaining_3a99.json",
+      "language": "c",
+      "backend": "msc500-omf",
+      "flags": [
+        "/AS",
+        "/Gs",
+        "/Os",
+        "/Zi"
+      ],
+      "externals": {
+        "_value_index": 142,
+        "_values": 36122,
+        "_task_index": 144,
+        "_task_pool": 45246,
+        "_error_message": 3469,
+        "_asset_frames": 3616,
+        "_asset_loaded": 3790,
+        "_mode_11aa": 4522,
+        "_arena_cursor": 37432,
+        "_asset_offsets": 36324,
+        "_asset_buffer": {
+          "segment": 9996,
+          "offset": 0
+        },
+        "_begin_asset_decode": 58441,
+        "_prepare_asset_decode": 57402,
+        "_huff_frame_decode": 57751,
+        "_end_asset_decode": 58460,
+        "__AHSHIFT": {
+          "absolute": 12
+        },
+        "_asset_groups": 3496,
+        "_asset_wanted": 3806,
+        "_asset_group_lengths": 190,
+        "_pair_lengths": 214,
+        "_arena_capacity": 45236,
+        "_left_controls": 35950,
+        "_right_controls": 36022,
+        "_left_lists": 36678,
+        "_right_lists": 36750,
+        "_decoded_arena": {
+          "segment": 14371,
+          "offset": 0
+        },
+        "_arena_fallback": 3832,
+        "_frame_directory": 38480,
+        "_left_list_scratch": 4158,
+        "_right_list_scratch": 4178,
+        "_pair_offsets": 33148,
+        "_pair_directory_lengths": 36096,
+        "_unload_asset_group": 12858,
+        "_load_asset_group": 13728,
+        "_save_active_arena": 11436,
+        "_load_group_frames": 11828,
+        "_seek_asset": 52059,
+        "_read_asset": 52111,
+        "_decode_frame_directory": 11539,
+        "_cache_asset_frame": 13906,
+        "__aNahdiff": 61910,
+        "_current_controls": 45262,
+        "_asset_state": 3776
+      },
+      "boundary_evidence": "Complete original REA function extent, fresh independent CV3, all relocated bytes and complete MZ site set compared. Proof evidence/asset-directory-next-match.json. Function credit only; enclosing original TU/alignment remain unresolved. Future genuine literal-owner whole-context migration: all six CVs1243, fullCODE1244 including independently evidenced trailing90, anonymousCONST65; pool zero separate DATAcredit, no new functions. Retire five old string DATA units together if promoted.",
+      "owned_const": {
+        "segment": 3,
+        "group": 1,
+        "size": 65,
+        "image_offset": "0x61968",
+        "data_address": {
+          "segment": 23746,
+          "offset": 19784
+        },
+        "rea_evidence": "build/arena-error-data-context/rea-full65.json"
+      },
+      "owned_const_profile": "arena_messages_1244_v1"
+    },
+    {
+      "id": "release_task_3ae3",
+      "symbol": "_release_task_3ae3",
+      "source": "build/arena-literal65-context/arena_literals.c",
+      "image_offset": "0x3ae3",
+      "size": 41,
+      "rea_evidence": "evidence/rea_remaining_3ae3.json",
+      "language": "c",
+      "backend": "msc500-omf",
+      "flags": [
+        "/AS",
+        "/Gs",
+        "/Os",
+        "/Zi"
+      ],
+      "externals": {
+        "_value_index": 142,
+        "_values": 36122,
+        "_task_index": 144,
+        "_task_pool": 45246,
+        "_error_message": 3469,
+        "_asset_frames": 3616,
+        "_asset_loaded": 3790,
+        "_mode_11aa": 4522,
+        "_arena_cursor": 37432,
+        "_asset_offsets": 36324,
+        "_asset_buffer": {
+          "segment": 9996,
+          "offset": 0
+        },
+        "_begin_asset_decode": 58441,
+        "_prepare_asset_decode": 57402,
+        "_huff_frame_decode": 57751,
+        "_end_asset_decode": 58460,
+        "__AHSHIFT": {
+          "absolute": 12
+        },
+        "_asset_groups": 3496,
+        "_asset_wanted": 3806,
+        "_asset_group_lengths": 190,
+        "_pair_lengths": 214,
+        "_arena_capacity": 45236,
+        "_left_controls": 35950,
+        "_right_controls": 36022,
+        "_left_lists": 36678,
+        "_right_lists": 36750,
+        "_decoded_arena": {
+          "segment": 14371,
+          "offset": 0
+        },
+        "_arena_fallback": 3832,
+        "_frame_directory": 38480,
+        "_left_list_scratch": 4158,
+        "_right_list_scratch": 4178,
+        "_pair_offsets": 33148,
+        "_pair_directory_lengths": 36096,
+        "_unload_asset_group": 12858,
+        "_load_asset_group": 13728,
+        "_save_active_arena": 11436,
+        "_load_group_frames": 11828,
+        "_seek_asset": 52059,
+        "_read_asset": 52111,
+        "_decode_frame_directory": 11539,
+        "_cache_asset_frame": 13906,
+        "__aNahdiff": 61910,
+        "_current_controls": 45262,
+        "_asset_state": 3776
+      },
+      "boundary_evidence": "Complete original REA function extent, fresh independent CV3, all relocated bytes and complete MZ site set compared. Proof evidence/asset-directory-next-match.json. Function credit only; enclosing original TU/alignment remain unresolved. Future genuine literal-owner whole-context migration: all six CVs1243, fullCODE1244 including independently evidenced trailing90, anonymousCONST65; pool zero separate DATAcredit, no new functions. Retire five old string DATA units together if promoted.",
+      "owned_const": {
+        "segment": 3,
+        "group": 1,
+        "size": 65,
+        "image_offset": "0x61968",
+        "data_address": {
+          "segment": 23746,
+          "offset": 19784
+        },
+        "rea_evidence": "build/arena-error-data-context/rea-full65.json"
+      },
+      "owned_const_profile": "arena_messages_1244_v1"
+    }
+  ],
+  "CV": [
+    {
+      "symbol": "_pop_value",
+      "segment": 1,
+      "offset": 1136,
+      "end": 1169,
+      "size": 33,
+      "boundary": "codeview3_procedure"
+    },
+    {
+      "symbol": "_allocate_task_3b0c",
+      "segment": 1,
+      "offset": 1210,
+      "end": 1243,
+      "size": 33,
+      "boundary": "codeview3_procedure"
+    },
+    {
+      "symbol": "_cache_asset_frame",
+      "segment": 1,
+      "offset": 0,
+      "end": 193,
+      "size": 193,
+      "boundary": "codeview3_procedure"
+    },
+    {
+      "symbol": "_manage_asset_arena",
+      "segment": 1,
+      "offset": 193,
+      "end": 1095,
+      "size": 902,
+      "boundary": "codeview3_procedure"
+    },
+    {
+      "symbol": "_push_value",
+      "segment": 1,
+      "offset": 1095,
+      "end": 1136,
+      "size": 41,
+      "boundary": "codeview3_procedure"
+    },
+    {
+      "symbol": "_release_task_3ae3",
+      "segment": 1,
+      "offset": 1169,
+      "end": 1210,
+      "size": 41,
+      "boundary": "codeview3_procedure"
+    }
+  ],
+  "compiler": {
+    "compiler_log": "C:\\UNIT.C\r\n",
+    "command": [
+      "T:\\CL.EXE",
+      "/c",
+      "/AS",
+      "/Gs",
+      "/Os",
+      "/Zi",
+      "/FoC:\\UNIT.OBJ",
+      "C:\\UNIT.C"
+    ],
+    "source_sha256": "cc32f43fd0d9e791cdc09d16b09562869095f5873f0c00c363626950ddf7e891",
+    "toolchain_manifest_sha256": "d2889507d0729b9d09fb92015fedccbb533c368d428c1612781c3ff980f00a82",
+    "tool_hashes": {
+      "CL.ERR": "b153605db3fbc0fa79e2f0d2ad5d814fbb70bfbebc1dbc0d2ed614194666621a",
+      "CL.EXE": "11e3c7d53b3efc085b7ad90c2190a1ddb395c8874f57aef3a5cfc0a4a0a0f504",
+      "C1.EXE": "3ef764476cb56dd14ae3c955a0b7717976d3b40f862fdff675ec8c6adc0ed791",
+      "C1.ERR": "dd02a004e8912c96b90a5b3317dcfeed6f9e76374edfd90979705035c8097233",
+      "C2.EXE": "19fbe7914ba6ebe929a0e98e012fd5e8522643e5e40b6fcd89bef0e5f650f1f1",
+      "C3.EXE": "ca4d82b90423086e68eb8d3af8f1c1c1034f164d0a0b98530c3b3a0fb0501669",
+      "C23.ERR": "75132883ac6507cccaa7d7105df6492f511ba029e4a12ee4a1fcc989517bfd18"
+    },
+    "flags": [
+      "/AS",
+      "/Gs",
+      "/Os",
+      "/Zi"
+    ],
+    "compiler": "msc500",
+    "source_name": "UNIT.C"
+  },
+  "pins": {
+    "build/arena-error-data-context/rea-full65.json": "d7c5878fb21aa987aa771c5983842d31c086c7d7f71fc8c15e73576b267f4460",
+    "build/arena-literal65-context/README.md": "f8862b3120a9f92f317d944c54fe252130e8b4336efb3a772a1a01fa5c0d52ce",
+    "build/arena-literal65-context/arena_literals.c": "cc32f43fd0d9e791cdc09d16b09562869095f5873f0c00c363626950ddf7e891",
+    "build/arena-literal65-context/baseline-units.json": "d9a1c4a72f7f83ce7a7e1cad72a3b75e1bf191b7e3332ef2f0d627ca4ebac99c",
+    "build/arena-literal65-context/before_source.c": "83aed3c0756252ba1db0b9588ae8ea87efba9ea713699564aff55e0ab5bf552b",
+    "build/arena-literal65-context/positive-final.obj": "4dc97fb2c38d75506380846652b3f722a9ab32aa71eb5a08f128777af0b2f62d",
+    "build/arena-literal65-context/positive-v2.obj": "4dc97fb2c38d75506380846652b3f722a9ab32aa71eb5a08f128777af0b2f62d",
+    "build/arena-literal65-context/positive.obj": "4dc97fb2c38d75506380846652b3f722a9ab32aa71eb5a08f128777af0b2f62d",
+    "build/arena-literal65-context/primary-owners-review-raw.json": "571355ef94076246d561c09b751495acb4de564934c57c97360d2cd32cb31e1b",
+    "build/arena-literal65-context/prove-final.log": "478c7a613e222aa9d21296aaf7effd382746fa3e0c8d69c964f2ddba9d19884a",
+    "build/arena-literal65-context/prove-v2.log": "ba6e6ded9e5ac00912455106025fd9b23f2735c7795322cad7312561a6e0de31",
+    "build/arena-literal65-context/prove.log": "ba94754b8d198a319c6d40015e7b9dc354afab0b3b3ac4e1d729db72b21b51ef",
+    "build/arena-literal65-context/prove.py": "f81f8967a5b37e40d320ab9d14a30e9c1a9a01a2cc2554fd7fc2aa9ac36affb0",
+    "build/arena-literal65-context/prove_final.py": "e0c55269b0fcc46f68cf1210b11107a0c870e91cc7181b8821386f0f87ffe92e",
+    "build/arena-literal65-context/prove_v2.py": "6884127d4ac334b6c9833b69227aefba94ac2794c1820597bae13b9dc2b90686",
+    "build/arena-literal65-context/rea-original.snapshot.json": "535437c1c1eb9d5f070e06af10297984f0737cd23eb178a15ebcb20f9c6b9b09",
+    "build/arena-literal65-context/rea-whole-code1244.json": "2c178908b91a1d9ee1e80c5e19bf8da4d850c5dc7a16e578f0649febc83dce72",
+    "build/arena-literal65-context/relocate_whole.py": "0b765a47dc4a55c0631ab1c8c44550947626aae7ca1311fd221121b523bcb155",
+    "build/arena-literal65-context/relocate_whole_final.py": "df0ceaf21ff9107b5a6bdf1c7f2c55d037ef8fa6bbf65222c79fae4c4aabec3c",
+    "build/arena-literal65-context/relocate_whole_final_v2.py": "499f12e9baae608f17b9cf38d33db379b6e87429d8c1a95d7020d7ac897b0238",
+    "build/arena-literal65-context/verify_primary.py": "9cd67a18cd79f3055d944d3a45b13bf56a7a57f8e43c770fcdb70cf75c75c6b7",
+    "build/arena-literal65-context/verify_primary_raw.py": "71816b6d308da7111f8530b34c361cd4ad58a10898bacc5f72cac3d54c14d6f4",
+    "build/arena-literal65-context/whole-proof-v2.json": "eb0a9538fd1d82344aed6f354ad7c4d1cba9595f713ec2f0ba5bbd3e852a9dfa",
+    "build/arena-literal65-context/wrong-literal-final.obj": "05a2109cbb269bf5bd18177c901899d170206b150d372a2d5887e701670a040e",
+    "build/arena-literal65-context/wrong-literal-v2.obj": "05a2109cbb269bf5bd18177c901899d170206b150d372a2d5887e701670a040e",
+    "build/arena-literal65-context/wrong_literal.c": "ad493c873e626168d7c5839abfe5ea5dba020a75923cfc7c1afb258a86555281",
+    "build/arena-literal65-context/wrong_literal.obj": "05a2109cbb269bf5bd18177c901899d170206b150d372a2d5887e701670a040e",
+    "evidence/asset_arena_flow_match-contribution.json": "3d7b413a6b2ae4e5698fb4b1ebaa994dc0d298f32f104d575359917ddb0d92dc",
+    "build/arena-literal65-context/freeze-manifest.json": "ccf7b2d5f5aef54071316d503d4c8cf47b43d108bb9271bd34a221e6db131990",
+    "evidence/rea_compiler_candidate_3ac2.json": "963a7eb66ecac9eed8052d4487e6a2a5674782bdcc025245b3fba31f10bf735c",
+    "evidence/rea_command_allocate_3b0c.json": "6df139bc39857afebeec3dcec658e21eca6426e89fb86a0b56f566602b4fad56",
+    "evidence/rea_far_storage_13652.json": "1a02647e86dde93558937ded852104432b328cd8ffa6ada8da905398142ec205",
+    "evidence/rea_asset_manager_3713.json": "fe6b05506cb4cffcfd9819e561be30bff7674c8bf5de7fdedb9b61f72654e455",
+    "evidence/rea_remaining_3a99.json": "c36d7f5b41f645c640efeb8c399ee98102e1e36c45bcce53203ffa3f691feb9b",
+    "evidence/rea_remaining_3ae3.json": "4a8cdfdc9e4742fcaf277b4762134d16e433e8af6a69c4d59b187ea76df13a6e"
+  },
+  "MZ": [
+    14008,
+    14111,
+    14586,
+    14962
+  ],
+  "code_primary": "build/arena-literal65-context/rea-whole-code1244.json",
+  "code_image_offset": 13906,
+  "code_size": 1244,
+  "CV_bytes": 1243,
+  "uncredited_tail": {
+    "offset": 1243,
+    "size": 1,
+    "bytes_hex": "90"
+  },
+  "old_literal_names": [
+    "_arena_exhausted_message",
+    "_exhausted_message",
+    "_task_exhausted_message",
+    "_task_return_message",
+    "_value_return_message"
+  ],
+  "retire_DATA_units": [
+    {
+      "id": "value_return_message",
+      "language": "c-data",
+      "backend": "msc500-data-omf",
+      "source": "src/data/value_return_message.c",
+      "symbol": "_value_return_message",
+      "image_offset": "0x61981",
+      "size": 10,
+      "reference_region": "exepack-expanded",
+      "flags": [
+        "/AS",
+        "/Zl",
+        "/Zi"
+      ],
+      "externals": {},
+      "rea_evidence": "evidence/rea-pool-data-value_return_message.json",
+      "boundary_evidence": "Complete independent typed initialized C DATA SEGDEF/public0/DGROUP, no fixups/holes/other nondebug allocations. complete NUL-terminated value-return error. Full rawREA expanded-reference bytes equal compileroutput; no function/packed-file credit. Original aggregate ownership and final link placement remain unresolved. Proof evidence/pool-initialized-data-experiment.json."
+    },
+    {
+      "id": "exhausted_message",
+      "language": "c-data",
+      "backend": "msc500-data-omf",
+      "source": "src/data/exhausted_message.c",
+      "symbol": "_exhausted_message",
+      "image_offset": "0x6198b",
+      "size": 10,
+      "reference_region": "exepack-expanded",
+      "flags": [
+        "/AS",
+        "/Zl",
+        "/Zi"
+      ],
+      "externals": {},
+      "rea_evidence": "evidence/rea-pool-data-exhausted_message.json",
+      "boundary_evidence": "Complete independent typed initialized C DATA SEGDEF/public0/DGROUP, no fixups/holes/other nondebug allocations. complete NUL-terminated empty-value-pool error. Full rawREA expanded-reference bytes equal compileroutput; no function/packed-file credit. Original aggregate ownership and final link placement remain unresolved. Proof evidence/pool-initialized-data-experiment.json."
+    },
+    {
+      "id": "task_return_message",
+      "language": "c-data",
+      "backend": "msc500-data-omf",
+      "source": "src/data/task_return_message.c",
+      "symbol": "_task_return_message",
+      "image_offset": "0x61995",
+      "size": 10,
+      "reference_region": "exepack-expanded",
+      "flags": [
+        "/AS",
+        "/Zl",
+        "/Zi"
+      ],
+      "externals": {},
+      "rea_evidence": "evidence/rea-pool-data-task_return_message.json",
+      "boundary_evidence": "Complete independent typed initialized C DATA SEGDEF/public0/DGROUP, no fixups/holes/other nondebug allocations. complete NUL-terminated task-return error. Full rawREA expanded-reference bytes equal compileroutput; no function/packed-file credit. Original aggregate ownership and final link placement remain unresolved. Proof evidence/pool-initialized-data-experiment.json."
+    },
+    {
+      "id": "task_exhausted_message",
+      "language": "c-data",
+      "backend": "msc500-data-omf",
+      "source": "src/data/task_exhausted_message.c",
+      "symbol": "_task_exhausted_message",
+      "image_offset": "0x6199f",
+      "size": 10,
+      "reference_region": "exepack-expanded",
+      "flags": [
+        "/AS",
+        "/Zl",
+        "/Zi"
+      ],
+      "externals": {},
+      "rea_evidence": "evidence/rea-pool-data-task_exhausted_message.json",
+      "boundary_evidence": "Complete independent typed initialized C DATA SEGDEF/public0/DGROUP, no fixups/holes/other nondebug allocations. complete NUL-terminated empty-task-pool error. Full rawREA expanded-reference bytes equal compileroutput; no function/packed-file credit. Original aggregate ownership and final link placement remain unresolved. Proof evidence/pool-initialized-data-experiment.json."
+    },
+    {
+      "id": "arena_exhausted_message_initialized",
+      "language": "c-data",
+      "backend": "msc500-data-omf",
+      "source": "src/data/arena_exhausted_message.c",
+      "symbol": "_arena_exhausted_message",
+      "image_offset": "0x61968",
+      "size": 25,
+      "reference_region": "exepack-expanded",
+      "flags": [
+        "/AS",
+        "/Zl",
+        "/Zi"
+      ],
+      "externals": {},
+      "rea_evidence": "build/arena-error-data-context/rea-full25.json",
+      "boundary_evidence": "Complete genuine unsigned-char NUL-terminated diagnostic DATA25. Actual arena exhaustion consumer passes this address to the error routine; unsigned Byte[] view preserved. Complete independently emitted initialized segment has no padding/holes/relocs/other allocations. Original TU ownership remains unknown. No grouped65 DATA claim: that separate attempt honestly emits66 with a hole."
+    }
+  ]
+}

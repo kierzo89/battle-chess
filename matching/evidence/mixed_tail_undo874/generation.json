@@ -1,0 +1,690 @@
+{
+  "status": "COMPLETE",
+  "error": null,
+  "kind": "mixed-c-fa-authored-asm-whole-omf",
+  "backend": "msc500-fa-masm510-tail-undo-mixed-diagnostic-v1",
+  "source_SHA256": "04bbd276676732e28baf30a60c2be1d7e512e4f6ae0231fc445e0f99559705d0",
+  "authored_ASM_SHA256": "d904072821c84fa1672f6c22632ac1160962fd5d4bab1e424565f12dde075ad1",
+  "flags": [
+    "/AS",
+    "/Zi"
+  ],
+  "listing_flag": "/FaC:\\UNIT.ASM",
+  "MASM_flags": [
+    "/Mx"
+  ],
+  "tool_hashes": {
+    "toolchains/msc500/CL.ERR": "b153605db3fbc0fa79e2f0d2ad5d814fbb70bfbebc1dbc0d2ed614194666621a",
+    "toolchains/msc500/CL.EXE": "11e3c7d53b3efc085b7ad90c2190a1ddb395c8874f57aef3a5cfc0a4a0a0f504",
+    "toolchains/msc500/C1.EXE": "3ef764476cb56dd14ae3c955a0b7717976d3b40f862fdff675ec8c6adc0ed791",
+    "toolchains/msc500/C1.ERR": "dd02a004e8912c96b90a5b3317dcfeed6f9e76374edfd90979705035c8097233",
+    "toolchains/msc500/C2.EXE": "19fbe7914ba6ebe929a0e98e012fd5e8522643e5e40b6fcd89bef0e5f650f1f1",
+    "toolchains/msc500/C3.EXE": "ca4d82b90423086e68eb8d3af8f1c1c1034f164d0a0b98530c3b3a0fb0501669",
+    "toolchains/msc500/C23.ERR": "75132883ac6507cccaa7d7105df6492f511ba029e4a12ee4a1fcc989517bfd18",
+    "toolchains/msc500/manifest.json": "d2889507d0729b9d09fb92015fedccbb533c368d428c1612781c3ff980f00a82",
+    "config/msc500.json": "2e7ca2bc19d665b35f60e651b65f536d1f35e94d8af8463600d5d30500f01d66",
+    "toolchains/msc510/MASM.EXE": "1c6286c69b616160b8475ad17453ee872702a2c98075c2159ec792a1c745275f",
+    "toolchains/msc510/manifest.json": "f98c55eaf97fff792dfa8f131d9ea255008c5d97311dd6837cd4fda79c2ebef4",
+    "toolchains/msc510/LICENSE": "b5179f780ec212a434efcc989a2295a140deb0bdb17182d2bf9c5f6f1f1a01c4",
+    "config/msc510.json": "058abeace2a0466b843094d84d5d909a0f2a8e671f357df6e39988199383c618"
+  },
+  "compiler_manifest_SHA256": "d2889507d0729b9d09fb92015fedccbb533c368d428c1612781c3ff980f00a82",
+  "allowed_reads": {
+    "/home/kierzo/chess/matching/src/task_tail_handlers_match.c": "04bbd276676732e28baf30a60c2be1d7e512e4f6ae0231fc445e0f99559705d0",
+    "/home/kierzo/chess/matching/asm/link/undo_animation77af.asm": "d904072821c84fa1672f6c22632ac1160962fd5d4bab1e424565f12dde075ad1",
+    "/usr/bin/dosbox": "2a1cafe5dbbe7c4c1ab957756c2135435087ee8fb5d1f7bbe4bd29cb02c30477",
+    "/home/kierzo/chess/matching/toolchains/msc500/CL.ERR": "b153605db3fbc0fa79e2f0d2ad5d814fbb70bfbebc1dbc0d2ed614194666621a",
+    "/home/kierzo/chess/matching/toolchains/msc500/CL.EXE": "11e3c7d53b3efc085b7ad90c2190a1ddb395c8874f57aef3a5cfc0a4a0a0f504",
+    "/home/kierzo/chess/matching/toolchains/msc500/C1.EXE": "3ef764476cb56dd14ae3c955a0b7717976d3b40f862fdff675ec8c6adc0ed791",
+    "/home/kierzo/chess/matching/toolchains/msc500/C1.ERR": "dd02a004e8912c96b90a5b3317dcfeed6f9e76374edfd90979705035c8097233",
+    "/home/kierzo/chess/matching/toolchains/msc500/C2.EXE": "19fbe7914ba6ebe929a0e98e012fd5e8522643e5e40b6fcd89bef0e5f650f1f1",
+    "/home/kierzo/chess/matching/toolchains/msc500/C3.EXE": "ca4d82b90423086e68eb8d3af8f1c1c1034f164d0a0b98530c3b3a0fb0501669",
+    "/home/kierzo/chess/matching/toolchains/msc500/C23.ERR": "75132883ac6507cccaa7d7105df6492f511ba029e4a12ee4a1fcc989517bfd18",
+    "/home/kierzo/chess/matching/toolchains/msc500/manifest.json": "d2889507d0729b9d09fb92015fedccbb533c368d428c1612781c3ff980f00a82",
+    "/home/kierzo/chess/matching/config/msc500.json": "2e7ca2bc19d665b35f60e651b65f536d1f35e94d8af8463600d5d30500f01d66",
+    "/home/kierzo/chess/matching/toolchains/msc510/MASM.EXE": "1c6286c69b616160b8475ad17453ee872702a2c98075c2159ec792a1c745275f",
+    "/home/kierzo/chess/matching/toolchains/msc510/manifest.json": "f98c55eaf97fff792dfa8f131d9ea255008c5d97311dd6837cd4fda79c2ebef4",
+    "/home/kierzo/chess/matching/toolchains/msc510/LICENSE": "b5179f780ec212a434efcc989a2295a140deb0bdb17182d2bf9c5f6f1f1a01c4",
+    "/home/kierzo/chess/matching/config/msc510.json": "058abeace2a0466b843094d84d5d909a0f2a8e671f357df6e39988199383c618"
+  },
+  "processes": [
+    {
+      "phase": "C5",
+      "pid": 1511872,
+      "argv": [
+        "/usr/bin/dosbox",
+        "-conf",
+        "/tmp/bc-fresh-mixed-tail-undo-v2-ikoleiwi/C5/dosbox.conf",
+        "-noconsole"
+      ],
+      "command": "T:\\CL.EXE /c /AS /Zi /FaC:\\UNIT.ASM /FoC:\\UNIT.OBJ C:\\UNIT.C",
+      "terminal": true,
+      "reaped": true,
+      "returncode": 0
+    },
+    {
+      "phase": "MASM",
+      "pid": 1511910,
+      "argv": [
+        "/usr/bin/dosbox",
+        "-conf",
+        "/tmp/bc-fresh-mixed-tail-undo-v2-ikoleiwi/MASM/dosbox.conf",
+        "-noconsole"
+      ],
+      "command": "T:\\MASM /Mx UNIT.ASM,UNIT.OBJ,UNIT.LST,UNIT.CRF;",
+      "terminal": true,
+      "reaped": true,
+      "returncode": 0
+    }
+  ],
+  "guard": {
+    "reads": [
+      {
+        "path": "/home/kierzo/chess/matching/src/task_tail_handlers_match.c",
+        "api": "Path.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/src/task_tail_handlers_match.c",
+        "api": "io.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/asm/link/undo_animation77af.asm",
+        "api": "Path.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/asm/link/undo_animation77af.asm",
+        "api": "io.open"
+      },
+      {
+        "path": "/usr/bin/dosbox",
+        "api": "Path.open"
+      },
+      {
+        "path": "/usr/bin/dosbox",
+        "api": "io.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/toolchains/msc500/CL.ERR",
+        "api": "Path.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/toolchains/msc500/CL.ERR",
+        "api": "io.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/toolchains/msc500/CL.EXE",
+        "api": "Path.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/toolchains/msc500/CL.EXE",
+        "api": "io.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/toolchains/msc500/C1.EXE",
+        "api": "Path.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/toolchains/msc500/C1.EXE",
+        "api": "io.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/toolchains/msc500/C1.ERR",
+        "api": "Path.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/toolchains/msc500/C1.ERR",
+        "api": "io.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/toolchains/msc500/C2.EXE",
+        "api": "Path.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/toolchains/msc500/C2.EXE",
+        "api": "io.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/toolchains/msc500/C3.EXE",
+        "api": "Path.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/toolchains/msc500/C3.EXE",
+        "api": "io.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/toolchains/msc500/C23.ERR",
+        "api": "Path.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/toolchains/msc500/C23.ERR",
+        "api": "io.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/toolchains/msc500/manifest.json",
+        "api": "Path.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/toolchains/msc500/manifest.json",
+        "api": "io.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/config/msc500.json",
+        "api": "Path.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/config/msc500.json",
+        "api": "io.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/toolchains/msc510/MASM.EXE",
+        "api": "Path.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/toolchains/msc510/MASM.EXE",
+        "api": "io.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/toolchains/msc510/manifest.json",
+        "api": "Path.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/toolchains/msc510/manifest.json",
+        "api": "io.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/toolchains/msc510/LICENSE",
+        "api": "Path.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/toolchains/msc510/LICENSE",
+        "api": "io.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/config/msc510.json",
+        "api": "Path.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/config/msc510.json",
+        "api": "io.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/src/task_tail_handlers_match.c",
+        "api": "Path.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/src/task_tail_handlers_match.c",
+        "api": "io.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/asm/link/undo_animation77af.asm",
+        "api": "Path.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/asm/link/undo_animation77af.asm",
+        "api": "io.open"
+      },
+      {
+        "path": "/tmp/bc-fresh-mixed-tail-undo-v2-ikoleiwi/C5/BUILD.LOG",
+        "api": "Path.open"
+      },
+      {
+        "path": "/tmp/bc-fresh-mixed-tail-undo-v2-ikoleiwi/C5/BUILD.LOG",
+        "api": "io.open"
+      },
+      {
+        "path": "/tmp/bc-fresh-mixed-tail-undo-v2-ikoleiwi/C5/UNIT.OBJ",
+        "api": "Path.open"
+      },
+      {
+        "path": "/tmp/bc-fresh-mixed-tail-undo-v2-ikoleiwi/C5/UNIT.OBJ",
+        "api": "io.open"
+      },
+      {
+        "path": "/tmp/bc-fresh-mixed-tail-undo-v2-ikoleiwi/C5/UNIT.ASM",
+        "api": "Path.open"
+      },
+      {
+        "path": "/tmp/bc-fresh-mixed-tail-undo-v2-ikoleiwi/C5/UNIT.ASM",
+        "api": "io.open"
+      },
+      {
+        "path": "/tmp/bc-fresh-mixed-tail-undo-v2-ikoleiwi/MASM/BUILD.LOG",
+        "api": "Path.open"
+      },
+      {
+        "path": "/tmp/bc-fresh-mixed-tail-undo-v2-ikoleiwi/MASM/BUILD.LOG",
+        "api": "io.open"
+      },
+      {
+        "path": "/tmp/bc-fresh-mixed-tail-undo-v2-ikoleiwi/MASM/UNIT.OBJ",
+        "api": "Path.open"
+      },
+      {
+        "path": "/tmp/bc-fresh-mixed-tail-undo-v2-ikoleiwi/MASM/UNIT.OBJ",
+        "api": "io.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/src/task_tail_handlers_match.c",
+        "api": "Path.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/src/task_tail_handlers_match.c",
+        "api": "io.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/asm/link/undo_animation77af.asm",
+        "api": "Path.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/asm/link/undo_animation77af.asm",
+        "api": "io.open"
+      },
+      {
+        "path": "/usr/bin/dosbox",
+        "api": "Path.open"
+      },
+      {
+        "path": "/usr/bin/dosbox",
+        "api": "io.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/toolchains/msc500/CL.ERR",
+        "api": "Path.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/toolchains/msc500/CL.ERR",
+        "api": "io.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/toolchains/msc500/CL.EXE",
+        "api": "Path.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/toolchains/msc500/CL.EXE",
+        "api": "io.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/toolchains/msc500/C1.EXE",
+        "api": "Path.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/toolchains/msc500/C1.EXE",
+        "api": "io.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/toolchains/msc500/C1.ERR",
+        "api": "Path.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/toolchains/msc500/C1.ERR",
+        "api": "io.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/toolchains/msc500/C2.EXE",
+        "api": "Path.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/toolchains/msc500/C2.EXE",
+        "api": "io.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/toolchains/msc500/C3.EXE",
+        "api": "Path.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/toolchains/msc500/C3.EXE",
+        "api": "io.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/toolchains/msc500/C23.ERR",
+        "api": "Path.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/toolchains/msc500/C23.ERR",
+        "api": "io.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/toolchains/msc500/manifest.json",
+        "api": "Path.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/toolchains/msc500/manifest.json",
+        "api": "io.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/config/msc500.json",
+        "api": "Path.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/config/msc500.json",
+        "api": "io.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/toolchains/msc510/MASM.EXE",
+        "api": "Path.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/toolchains/msc510/MASM.EXE",
+        "api": "io.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/toolchains/msc510/manifest.json",
+        "api": "Path.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/toolchains/msc510/manifest.json",
+        "api": "io.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/toolchains/msc510/LICENSE",
+        "api": "Path.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/toolchains/msc510/LICENSE",
+        "api": "io.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/config/msc510.json",
+        "api": "Path.open"
+      },
+      {
+        "path": "/home/kierzo/chess/matching/config/msc510.json",
+        "api": "io.open"
+      }
+    ],
+    "writes": [
+      {
+        "path": "/tmp/bc-fresh-mixed-tail-undo-v2-ikoleiwi/C5/UNIT.C",
+        "api": "Path.open"
+      },
+      {
+        "path": "/tmp/bc-fresh-mixed-tail-undo-v2-ikoleiwi/C5/UNIT.C",
+        "api": "io.open"
+      },
+      {
+        "path": "/tmp/bc-fresh-mixed-tail-undo-v2-ikoleiwi/C5/BUILD.BAT",
+        "api": "Path.open"
+      },
+      {
+        "path": "/tmp/bc-fresh-mixed-tail-undo-v2-ikoleiwi/C5/BUILD.BAT",
+        "api": "io.open"
+      },
+      {
+        "path": "/tmp/bc-fresh-mixed-tail-undo-v2-ikoleiwi/C5/dosbox.conf",
+        "api": "Path.open"
+      },
+      {
+        "path": "/tmp/bc-fresh-mixed-tail-undo-v2-ikoleiwi/C5/dosbox.conf",
+        "api": "io.open"
+      },
+      {
+        "path": "/tmp/bc-fresh-mixed-tail-undo-v2-ikoleiwi/C5/STDOUT.bin",
+        "api": "Path.open"
+      },
+      {
+        "path": "/tmp/bc-fresh-mixed-tail-undo-v2-ikoleiwi/C5/STDOUT.bin",
+        "api": "io.open"
+      },
+      {
+        "path": "/tmp/bc-fresh-mixed-tail-undo-v2-ikoleiwi/C5/STDERR.bin",
+        "api": "Path.open"
+      },
+      {
+        "path": "/tmp/bc-fresh-mixed-tail-undo-v2-ikoleiwi/C5/STDERR.bin",
+        "api": "io.open"
+      },
+      {
+        "path": "/tmp/bc-fresh-mixed-tail-undo-v2-ikoleiwi/MASM/UNIT.ASM",
+        "api": "Path.open"
+      },
+      {
+        "path": "/tmp/bc-fresh-mixed-tail-undo-v2-ikoleiwi/MASM/UNIT.ASM",
+        "api": "io.open"
+      },
+      {
+        "path": "/tmp/bc-fresh-mixed-tail-undo-v2-ikoleiwi/MASM/BUILD.BAT",
+        "api": "Path.open"
+      },
+      {
+        "path": "/tmp/bc-fresh-mixed-tail-undo-v2-ikoleiwi/MASM/BUILD.BAT",
+        "api": "io.open"
+      },
+      {
+        "path": "/tmp/bc-fresh-mixed-tail-undo-v2-ikoleiwi/MASM/dosbox.conf",
+        "api": "Path.open"
+      },
+      {
+        "path": "/tmp/bc-fresh-mixed-tail-undo-v2-ikoleiwi/MASM/dosbox.conf",
+        "api": "io.open"
+      },
+      {
+        "path": "/tmp/bc-fresh-mixed-tail-undo-v2-ikoleiwi/MASM/STDOUT.bin",
+        "api": "Path.open"
+      },
+      {
+        "path": "/tmp/bc-fresh-mixed-tail-undo-v2-ikoleiwi/MASM/STDOUT.bin",
+        "api": "io.open"
+      },
+      {
+        "path": "/tmp/bc-fresh-mixed-tail-undo-v2-ikoleiwi/MASM/STDERR.bin",
+        "api": "Path.open"
+      },
+      {
+        "path": "/tmp/bc-fresh-mixed-tail-undo-v2-ikoleiwi/MASM/STDERR.bin",
+        "api": "io.open"
+      }
+    ],
+    "blocked": [
+      {
+        "path": "/home/kierzo/chess/CHESS.EXE",
+        "api": "Path.open",
+        "writing": false
+      },
+      {
+        "path": "/home/kierzo/chess/CHESS.EXE",
+        "api": "io.open",
+        "writing": false
+      },
+      {
+        "path": "/home/kierzo/chess/CHESS.EXE",
+        "api": "builtins.open",
+        "writing": false
+      },
+      {
+        "path": "/home/kierzo/chess/CHESS.EXE",
+        "api": "os.open",
+        "writing": false
+      },
+      {
+        "path": "/home/kierzo/chess/matching/build/exepack/TRIM5_UNPACK.EXE",
+        "api": "Path.open",
+        "writing": false
+      },
+      {
+        "path": "/home/kierzo/chess/matching/build/exepack/TRIM5_UNPACK.EXE",
+        "api": "io.open",
+        "writing": false
+      },
+      {
+        "path": "/home/kierzo/chess/matching/build/exepack/TRIM5_UNPACK.EXE",
+        "api": "builtins.open",
+        "writing": false
+      },
+      {
+        "path": "/home/kierzo/chess/matching/build/exepack/TRIM5_UNPACK.EXE",
+        "api": "os.open",
+        "writing": false
+      },
+      {
+        "path": "/home/kierzo/chess/matching/build/finite513-mixed2-source289-root-actual/components/objects/msc500-04bbd276676732e2-e6eaca7e.obj",
+        "api": "Path.open",
+        "writing": false
+      },
+      {
+        "path": "/home/kierzo/chess/matching/build/finite513-mixed2-source289-root-actual/components/objects/msc500-04bbd276676732e2-e6eaca7e.obj",
+        "api": "io.open",
+        "writing": false
+      },
+      {
+        "path": "/home/kierzo/chess/matching/build/finite513-mixed2-source289-root-actual/components/objects/msc500-04bbd276676732e2-e6eaca7e.obj",
+        "api": "builtins.open",
+        "writing": false
+      },
+      {
+        "path": "/home/kierzo/chess/matching/build/finite513-mixed2-source289-root-actual/components/objects/msc500-04bbd276676732e2-e6eaca7e.obj",
+        "api": "os.open",
+        "writing": false
+      },
+      {
+        "path": "/home/kierzo/chess/matching/build/tail-undo-fresh874-calibration-preparation-v2/comparison-profile.json",
+        "api": "Path.open",
+        "writing": false
+      },
+      {
+        "path": "/home/kierzo/chess/matching/build/tail-undo-fresh874-calibration-preparation-v2/comparison-profile.json",
+        "api": "io.open",
+        "writing": false
+      },
+      {
+        "path": "/home/kierzo/chess/matching/build/tail-undo-fresh874-calibration-preparation-v2/comparison-profile.json",
+        "api": "builtins.open",
+        "writing": false
+      },
+      {
+        "path": "/home/kierzo/chess/matching/build/tail-undo-fresh874-calibration-preparation-v2/comparison-profile.json",
+        "api": "os.open",
+        "writing": false
+      },
+      {
+        "path": "/home/kierzo/chess/matching/config/units.json",
+        "api": "Path.open",
+        "writing": false
+      },
+      {
+        "path": "/home/kierzo/chess/matching/config/units.json",
+        "api": "io.open",
+        "writing": false
+      },
+      {
+        "path": "/home/kierzo/chess/matching/config/units.json",
+        "api": "builtins.open",
+        "writing": false
+      },
+      {
+        "path": "/home/kierzo/chess/matching/config/units.json",
+        "api": "os.open",
+        "writing": false
+      }
+    ],
+    "FIFO": [
+      {
+        "fd": 4,
+        "api": "os.write"
+      },
+      {
+        "fd": 3,
+        "api": "os.read"
+      },
+      {
+        "fd": 3,
+        "api": "io.open"
+      },
+      {
+        "fd": 5,
+        "api": "io.open"
+      },
+      {
+        "fd": 7,
+        "api": "os.read"
+      },
+      {
+        "fd": 3,
+        "api": "os.read"
+      },
+      {
+        "fd": 3,
+        "api": "os.read"
+      },
+      {
+        "fd": 5,
+        "api": "os.read"
+      },
+      {
+        "fd": 3,
+        "api": "io.open"
+      },
+      {
+        "fd": 5,
+        "api": "io.open"
+      },
+      {
+        "fd": 7,
+        "api": "os.read"
+      },
+      {
+        "fd": 3,
+        "api": "os.read"
+      },
+      {
+        "fd": 3,
+        "api": "os.read"
+      },
+      {
+        "fd": 5,
+        "api": "os.read"
+      }
+    ]
+  },
+  "guard_closed": true,
+  "source_tools_freshscratch_only": true,
+  "transform": {
+    "transform": "tail547-undo327-authenticated-C3-EOF-one-imm16-type-v2",
+    "fresh_FA_SHA256": "c2d3b9036c5880b2f2c3a2e9dd32039435e308c5250bf4cbe10700336c553fe9",
+    "C_source_SHA256": "04bbd276676732e28baf30a60c2be1d7e512e4f6ae0231fc445e0f99559705d0",
+    "authored_ASM_SHA256": "d904072821c84fa1672f6c22632ac1160962fd5d4bab1e424565f12dde075ad1",
+    "original_C_three_PROCs_SHA256": "91a371bd70778a6b46d3a67532ab06cce97dfbdd104fd1e1be5566e5e9fada87",
+    "qualified_C_three_PROCs_SHA256": "bce1328a85a9d54b81ec2ebe78256047aafaa4239689750d6b867c9ae97957c5",
+    "C_PROCs_exact_except_one_immediate_type_qualifier": true,
+    "only_qualifier_transition": {
+      "plain": "\tand\tbx,63\r\n",
+      "qualified": "\tand\tbx,WORD PTR 63\r\n",
+      "semantics": "AND BX, immediate WORD63",
+      "native_and_genuine_C3_encoding": "81e33f00",
+      "calibration": "MASM510-AND-immediate-width-calibration-root-actual"
+    },
+    "authored_ASM_PROC_remains_verbatim": true,
+    "ASM_PROC_verbatim_SHA256": "0bc9d8a36da4b6f55852203ce1c845d54d97738dd99d57a5725f16cb3ba22f44",
+    "composed_source_SHA256": "a4a06a9d8bb374a457564a4667549f2be06b50ee9e61240154847879bf31688f",
+    "inverse_reconstructs_full_fresh_FA": true,
+    "only_empty_debug_declarations_omitted": 4,
+    "only_outside_ENDP_C3_NOP_deferred": true,
+    "final_alignment_directive": "EVEN",
+    "new_real_external_declarations": [
+      "EXTRN\t_actor_map:BYTE",
+      "EXTRN\t_kind_map:BYTE",
+      "EXTRN\t_detach_actor:NEAR",
+      "EXTRN\t_queue_piece:NEAR"
+    ],
+    "shared_byte_views_unchanged": [
+      "_cells",
+      "_actors"
+    ],
+    "target_profile_oldOBJ_reads": false
+  },
+  "raw_mixed_SHA256": "6f8a60b9a234f7597f2c2778ad0ea319a534c31235b4d9343a564c9182c9770c",
+  "C5_sidecar_SHA256": "b9495d381a1bec760a840b793905d9a0390281da3bcc663c1a4684514ab03daf",
+  "fresh_FA_SHA256": "c2d3b9036c5880b2f2c3a2e9dd32039435e308c5250bf4cbe10700336c553fe9",
+  "mixed_ASM_SHA256": "a4a06a9d8bb374a457564a4667549f2be06b50ee9e61240154847879bf31688f",
+  "prewarm": {
+    "locale": "UTF-8",
+    "utf8": "utf-8",
+    "cp437": "cp437"
+  },
+  "native_original_oldOBJ_profile_inside_GEN": false,
+  "credit": 0,
+  "prototype_freeze_SHA256": "8ff593898c2ecc3bd70a6ba58ab686c31c3b496a98726ef0f0b4a5deab1914de",
+  "runner_SHA256": "e6a9bbd82ad6bef2c1c83bcfa397f4282aa1c80c63f9c4f92349a207457e9a9a",
+  "actual_root": "/home/kierzo/chess/matching/build/tail-undo-fresh874-calibration-v2-root-actual",
+  "LINK_calls": 0,
+  "canonical_changes": false
+}

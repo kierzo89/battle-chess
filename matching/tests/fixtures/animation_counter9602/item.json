@@ -1,0 +1,70 @@
+{
+  "id": "animation-counter-common",
+  "backend": "msc500-near-common-animation-counter9602-v1",
+  "source": "src/link/animation_counter.c",
+  "source_sha256": "00b6ee4acb92061497d4bd56b73f7633d08ec3784b29a5382a860939daaa5064",
+  "compiler": "msc500",
+  "flags": [
+    "/AS",
+    "/Zl",
+    "/Zi"
+  ],
+  "toolchain_manifest_sha256": "d2889507d0729b9d09fb92015fedccbb533c368d428c1612781c3ff980f00a82",
+  "objects": [
+    {
+      "symbol": "_animation_counter",
+      "size": 1,
+      "storage": "near-common"
+    }
+  ],
+  "evidence": {
+    "ownership": {
+      "path": "evidence/animation_counter9602/ownership.json",
+      "sha256": "3175760d078b77391058cc813bc7ef713a1d299faf04796bec2ef27b1d7bab3b"
+    },
+    "actual_generation": {
+      "path": "evidence/animation_counter9602/generation.json",
+      "sha256": "3fcd0147f7498f0acb7121003de5558303a9c67a03010f1741ac7e0ead0dbe8e"
+    },
+    "actual_comparison": {
+      "path": "evidence/animation_counter9602/comparison.json",
+      "sha256": "4dcd5084b245baf0d6906415895744082a249d39a5ebd2f3e7e8e3995ffb38b4"
+    },
+    "actual_tool": {
+      "path": "evidence/animation_counter9602/tool-result.json",
+      "sha256": "a950f17ad246065ff8ac9413823c5feb742d6802eadc5f1acd2a59f2ec20888d"
+    },
+    "producer_object": {
+      "path": "evidence/animation_counter9602/producer.obj",
+      "sha256": "cafa64b936b5c2f8b28423b2ebba3911e7457f4edb9a28d133e81e2ec06ed4de"
+    },
+    "client_29": {
+      "path": "evidence/animation_counter9602/client29.obj",
+      "sha256": "fcaeb3ba2041a72fe2ed895877f4175e492b8f1a255f6709eec86421224f76de"
+    },
+    "source_29": {
+      "path": "evidence/animation_counter9602/source29.txt",
+      "sha256": "c2d7bc3c1657c8548fff12641394736b17236bfcac60bddf4cabf26423bac18c"
+    },
+    "client_34": {
+      "path": "evidence/animation_counter9602/client34.obj",
+      "sha256": "b9495d381a1bec760a840b793905d9a0390281da3bcc663c1a4684514ab03daf"
+    },
+    "source_34": {
+      "path": "evidence/animation_counter9602/source34.txt",
+      "sha256": "04bbd276676732e28baf30a60c2be1d7e512e4f6ae0231fc445e0f99559705d0"
+    },
+    "command_native": {
+      "path": "evidence/animation_counter9602/rea_animation_driver_6167.json",
+      "sha256": "2474ba0c149a1a970844782ae1e0b52b7f9f7174fd4f12bc2ec8fa2932b4ffcc"
+    },
+    "capture_native": {
+      "path": "evidence/animation_counter9602/rea_task_handler_75f6.json",
+      "sha256": "969c3173ffd5324ec7a677e64615752cc217a2c94b284a4a6b5cd18b8bbf26af"
+    },
+    "crt_native": {
+      "path": "evidence/animation_counter9602/rea_crt_startup_500.json",
+      "sha256": "f1ef14871734df318dcf05a9ea366706a46bf2484a5623678271df7cf612d1ad"
+    }
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "base": 30639,
+  "size": 327,
+  "instructions": 127,
+  "external_fields": [
+    {
+      "offset": 7,
+      "width": 2,
+      "symbol": "__chkstk",
+      "kind": "near-CALL",
+      "native_target": 60586,
+      "source_addend": 0
+    },
+    {
+      "offset": 174,
+      "width": 2,
+      "symbol": "_cells",
+      "kind": "DS-offset",
+      "native_target": 4454,
+      "source_addend": 0
+    },
+    {
+      "offset": 182,
+      "width": 2,
+      "symbol": "_actor_map",
+      "kind": "DS-offset",
+      "native_target": 35492,
+      "source_addend": 0
+    },
+    {
+      "offset": 185,
+      "width": 2,
+      "symbol": "_actors",
+      "kind": "DS-offset",
+      "native_target": 1504,
+      "source_addend": 0
+    },
+    {
+      "offset": 189,
+      "width": 2,
+      "symbol": "_detach_actor",
+      "kind": "near-CALL",
+      "native_target": 16201,
+      "source_addend": 0
+    },
+    {
+      "offset": 203,
+      "width": 2,
+      "symbol": "_actor_map",
+      "kind": "DS-offset",
+      "native_target": 35492,
+      "source_addend": 0
+    },
+    {
+      "offset": 206,
+      "width": 2,
+      "symbol": "_actors",
+      "kind": "DS-offset",
+      "native_target": 1504,
+      "source_addend": 0
+    },
+    {
+      "offset": 210,
+      "width": 2,
+      "symbol": "_detach_actor",
+      "kind": "near-CALL",
+      "native_target": 16201,
+      "source_addend": 0
+    },
+    {
+      "offset": 228,
+      "width": 2,
+      "symbol": "_actor_map",
+      "kind": "DS-offset",
+      "native_target": 35492,
+      "source_addend": 0
+    },
+    {
+      "offset": 233,
+      "width": 2,
+      "symbol": "_cells",
+      "kind": "DS-offset",
+      "native_target": 4454,
+      "source_addend": 0
+    },
+    {
+      "offset": 246,
+      "width": 2,
+      "symbol": "_kind_map",
+      "kind": "DS-offset",
+      "native_target": 3840,
+      "source_addend": 0
+    },
+    {
+      "offset": 252,
+      "width": 2,
+      "symbol": "_queue_piece",
+      "kind": "near-CALL",
+      "native_target": 31399,
+      "source_addend": 0
+    },
+    {
+      "offset": 264,
+      "width": 2,
+      "symbol": "_cells",
+      "kind": "DS-offset",
+      "native_target": 4454,
+      "source_addend": 0
+    },
+    {
+      "offset": 300,
+      "width": 2,
+      "symbol": "_actor_map",
+      "kind": "DS-offset",
+      "native_target": 35492,
+      "source_addend": 0
+    },
+    {
+      "offset": 303,
+      "width": 2,
+      "symbol": "_actors",
+      "kind": "DS-offset",
+      "native_target": 1504,
+      "source_addend": 0
+    },
+    {
+      "offset": 307,
+      "width": 2,
+      "symbol": "_detach_actor",
+      "kind": "near-CALL",
+      "native_target": 16201,
+      "source_addend": 0
+    },
+    {
+      "offset": 319,
+      "width": 2,
+      "symbol": "_cells",
+      "kind": "DS-offset",
+      "native_target": 4454,
+      "source_addend": 0
+    }
+  ],
+  "internal_recursive_CALL": [
+    {
+      "offset": 57,
+      "kind": "own-recursive-CALL",
+      "target_offset": 0,
+      "native_target": 30639,
+      "source_addend": 0,
+      "raw_native_rel16": "c5ff"
+    }
+  ],
+  "short_branches": {
+    "30657": 30769,
+    "30663": 30769,
+    "30707": 30732,
+    "30730": 30751,
+    "30815": 30833,
+    "30909": 30960,
+    "30915": 30960
+  },
+  "external_names": [
+    "__chkstk",
+    "_actor_map",
+    "_actors",
+    "_cells",
+    "_detach_actor",
+    "_kind_map",
+    "_queue_piece"
+  ],
+  "native_MZ": [],
+  "CODE_alignment": "BYTE only; oddnativeentry and no filler"
+}

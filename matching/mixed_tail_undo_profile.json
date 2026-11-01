@@ -1,0 +1,6301 @@
+{
+  "units": {
+    "transfer_task_758c": {
+      "id": "transfer_task_758c",
+      "image_offset": "0x758c",
+      "size": 106,
+      "language": "c",
+      "backend": "msc500-fa-masm510-tail-undo-mixed-v1",
+      "source": "src/task_tail_handlers_match.c",
+      "symbol": "_transfer_task_758c",
+      "flags": [
+        "/AS",
+        "/Zi"
+      ],
+      "externals": {
+        "_dispatch_c83a": 51258,
+        "__chkstk": 60586,
+        "_compose_frame_3b3a": 15162,
+        "_actors": 1504,
+        "_attach_actor": 16143,
+        "_frame_index": 39056,
+        "_capture_pending": 1248,
+        "_animation_counter": 38402,
+        "_manage_asset_arena": 14099,
+        "_frame_lists": 33912,
+        "_cells": 4454,
+        "_pop_value": 15042,
+        "_remove_actor_5934": 22836,
+        "_frames": 33166,
+        "_restore_active_arena": 11488,
+        "_command_active": 3830,
+        "_asset_state": 3776,
+        "_task_ready_772d": 30509
+      },
+      "rea_evidence": "evidence/rea_task_handler_758c.json",
+      "boundary_evidence": "Complete independent fresh MSC5CV3 function and every original byte exact. Three contiguous CV extents106/311/130 cover547CV-ownedbytes758C..77AE with no holes or extra procedures. ActualCODESEGDEF548 has trailing90 outsideCV, uncredited anddiffersfromnextoriginal77AF55; nofullsegmentclaim. Full raw OMF fixup/MZemptyset/fourloadbases corroborateall547B. CanonicalTask24/AssetState14 retained. No oldqueue_move327sourceorcredit. Capturegap EB05 at7650 andall311bytesretainedwithstrictproof. Fullproof evidence/task-tail-handlers-758c-77ae-match.json.",
+      "mixed_profile": "tail_undo874_v1"
+    },
+    "capture_task_75f6": {
+      "id": "capture_task_75f6",
+      "image_offset": "0x75f6",
+      "size": 311,
+      "language": "c",
+      "backend": "msc500-fa-masm510-tail-undo-mixed-v1",
+      "source": "src/task_tail_handlers_match.c",
+      "symbol": "_capture_task_75f6",
+      "flags": [
+        "/AS",
+        "/Zi"
+      ],
+      "externals": {
+        "_dispatch_c83a": 51258,
+        "__chkstk": 60586,
+        "_compose_frame_3b3a": 15162,
+        "_actors": 1504,
+        "_attach_actor": 16143,
+        "_frame_index": 39056,
+        "_capture_pending": 1248,
+        "_animation_counter": 38402,
+        "_manage_asset_arena": 14099,
+        "_frame_lists": 33912,
+        "_cells": 4454,
+        "_pop_value": 15042,
+        "_remove_actor_5934": 22836,
+        "_frames": 33166,
+        "_restore_active_arena": 11488,
+        "_command_active": 3830,
+        "_asset_state": 3776,
+        "_task_ready_772d": 30509
+      },
+      "rea_evidence": "evidence/rea_task_handler_75f6.json",
+      "boundary_evidence": "Complete independent fresh MSC5CV3 function and every original byte exact. Three contiguous CV extents106/311/130 cover547CV-ownedbytes758C..77AE with no holes or extra procedures. ActualCODESEGDEF548 has trailing90 outsideCV, uncredited anddiffersfromnextoriginal77AF55; nofullsegmentclaim. Full raw OMF fixup/MZemptyset/fourloadbases corroborateall547B. CanonicalTask24/AssetState14 retained. No oldqueue_move327sourceorcredit. Capturegap EB05 at7650 andall311bytesretainedwithstrictproof. Fullproof evidence/task-tail-handlers-758c-77ae-match.json.",
+      "extended_extent": {
+        "kind": "capture_task_gap_75f6_v1",
+        "raw_span_evidence": "evidence/rea_capture_task_75f6_full_context.json",
+        "next_entry_evidence": "evidence/rea_task_readiness_772d.json",
+        "gap_xref_evidence": [
+          "evidence/rea_capture_task_xrefs_17650.json",
+          "evidence/rea_capture_task_xrefs_17651.json"
+        ]
+      },
+      "mixed_profile": "tail_undo874_v1"
+    },
+    "task_ready_772d": {
+      "id": "task_ready_772d",
+      "image_offset": "0x772d",
+      "size": 130,
+      "language": "c",
+      "backend": "msc500-fa-masm510-tail-undo-mixed-v1",
+      "source": "src/task_tail_handlers_match.c",
+      "symbol": "_task_ready_772d",
+      "flags": [
+        "/AS",
+        "/Zi"
+      ],
+      "externals": {
+        "_dispatch_c83a": 51258,
+        "__chkstk": 60586,
+        "_compose_frame_3b3a": 15162,
+        "_actors": 1504,
+        "_attach_actor": 16143,
+        "_frame_index": 39056,
+        "_capture_pending": 1248,
+        "_animation_counter": 38402,
+        "_manage_asset_arena": 14099,
+        "_frame_lists": 33912,
+        "_cells": 4454,
+        "_pop_value": 15042,
+        "_remove_actor_5934": 22836,
+        "_frames": 33166,
+        "_restore_active_arena": 11488,
+        "_command_active": 3830,
+        "_asset_state": 3776,
+        "_task_ready_772d": 30509
+      },
+      "rea_evidence": "evidence/rea_task_readiness_772d.json",
+      "boundary_evidence": "Complete independent fresh MSC5CV3 function and every original byte exact. Three contiguous CV extents106/311/130 cover547CV-ownedbytes758C..77AE with no holes or extra procedures. ActualCODESEGDEF548 has trailing90 outsideCV, uncredited anddiffersfromnextoriginal77AF55; nofullsegmentclaim. Full raw OMF fixup/MZemptyset/fourloadbases corroborateall547B. CanonicalTask24/AssetState14 retained. No oldqueue_move327sourceorcredit. Capturegap EB05 at7650 andall311bytesretainedwithstrictproof. Fullproof evidence/task-tail-handlers-758c-77ae-match.json.",
+      "mixed_profile": "tail_undo874_v1"
+    },
+    "undo_animation_code327": {
+      "id": "undo_animation_code327",
+      "language": "asm-code",
+      "backend": "msc500-fa-masm510-tail-undo-mixed-v1",
+      "object_profile": "tail_undo874_v1",
+      "source": "asm/link/undo_animation77af.asm",
+      "source_sha256": "d904072821c84fa1672f6c22632ac1160962fd5d4bab1e424565f12dde075ad1",
+      "assembler_sha256": "1c6286c69b616160b8475ad17453ee872702a2c98075c2159ec792a1c745275f",
+      "public_symbols": [
+        "_undo_animation"
+      ],
+      "image_offset": "0x77af",
+      "size": 327,
+      "externals": {
+        "__chkstk": 60586,
+        "_cells": 4454,
+        "_actor_map": 35492,
+        "_actors": 1504,
+        "_detach_actor": 16201,
+        "_kind_map": 3840,
+        "_queue_piece": 31399
+      },
+      "rea_evidence": "evidence/near_game_asm/undo_animation327/primary.json",
+      "reference_region": "unchanged-prefix",
+      "boundary_evidence": "Complete native77AF..78F6/327/127instructions,17external+one actual ownrecursiveCALL/MZ0/fourbases; genuine622-byte raw91f649, BYTE CODEalign/realframe18. Actual selected Move8* caller plus held nativecaller; use real_undo_animation not legacy_queue_move alias. All actual fields/stack state preserved; prior padded C positives/unpadded controls remain qualified. No C/ASMfunction credit or historical language/TU/capacity proof.",
+      "mixed_profile": "tail_undo874_v1"
+    }
+  },
+  "original_units": {
+    "transfer_task_758c": {
+      "id": "transfer_task_758c",
+      "image_offset": "0x758c",
+      "size": 106,
+      "language": "c",
+      "backend": "msc500-omf",
+      "source": "src/task_tail_handlers_match.c",
+      "symbol": "_transfer_task_758c",
+      "flags": [
+        "/AS",
+        "/Zi"
+      ],
+      "externals": {
+        "_dispatch_c83a": 51258,
+        "__chkstk": 60586,
+        "_compose_frame_3b3a": 15162,
+        "_actors": 1504,
+        "_attach_actor": 16143,
+        "_frame_index": 39056,
+        "_capture_pending": 1248,
+        "_animation_counter": 38402,
+        "_manage_asset_arena": 14099,
+        "_frame_lists": 33912,
+        "_cells": 4454,
+        "_pop_value": 15042,
+        "_remove_actor_5934": 22836,
+        "_frames": 33166,
+        "_restore_active_arena": 11488,
+        "_command_active": 3830,
+        "_asset_state": 3776,
+        "_task_ready_772d": 30509
+      },
+      "rea_evidence": "evidence/rea_task_handler_758c.json",
+      "boundary_evidence": "Complete independent fresh MSC5CV3 function and every original byte exact. Three contiguous CV extents106/311/130 cover547CV-ownedbytes758C..77AE with no holes or extra procedures. ActualCODESEGDEF548 has trailing90 outsideCV, uncredited anddiffersfromnextoriginal77AF55; nofullsegmentclaim. Full raw OMF fixup/MZemptyset/fourloadbases corroborateall547B. CanonicalTask24/AssetState14 retained. No oldqueue_move327sourceorcredit. Capturegap EB05 at7650 andall311bytesretainedwithstrictproof. Fullproof evidence/task-tail-handlers-758c-77ae-match.json."
+    },
+    "capture_task_75f6": {
+      "id": "capture_task_75f6",
+      "image_offset": "0x75f6",
+      "size": 311,
+      "language": "c",
+      "backend": "msc500-omf",
+      "source": "src/task_tail_handlers_match.c",
+      "symbol": "_capture_task_75f6",
+      "flags": [
+        "/AS",
+        "/Zi"
+      ],
+      "externals": {
+        "_dispatch_c83a": 51258,
+        "__chkstk": 60586,
+        "_compose_frame_3b3a": 15162,
+        "_actors": 1504,
+        "_attach_actor": 16143,
+        "_frame_index": 39056,
+        "_capture_pending": 1248,
+        "_animation_counter": 38402,
+        "_manage_asset_arena": 14099,
+        "_frame_lists": 33912,
+        "_cells": 4454,
+        "_pop_value": 15042,
+        "_remove_actor_5934": 22836,
+        "_frames": 33166,
+        "_restore_active_arena": 11488,
+        "_command_active": 3830,
+        "_asset_state": 3776,
+        "_task_ready_772d": 30509
+      },
+      "rea_evidence": "evidence/rea_task_handler_75f6.json",
+      "boundary_evidence": "Complete independent fresh MSC5CV3 function and every original byte exact. Three contiguous CV extents106/311/130 cover547CV-ownedbytes758C..77AE with no holes or extra procedures. ActualCODESEGDEF548 has trailing90 outsideCV, uncredited anddiffersfromnextoriginal77AF55; nofullsegmentclaim. Full raw OMF fixup/MZemptyset/fourloadbases corroborateall547B. CanonicalTask24/AssetState14 retained. No oldqueue_move327sourceorcredit. Capturegap EB05 at7650 andall311bytesretainedwithstrictproof. Fullproof evidence/task-tail-handlers-758c-77ae-match.json.",
+      "extended_extent": {
+        "kind": "capture_task_gap_75f6_v1",
+        "raw_span_evidence": "evidence/rea_capture_task_75f6_full_context.json",
+        "next_entry_evidence": "evidence/rea_task_readiness_772d.json",
+        "gap_xref_evidence": [
+          "evidence/rea_capture_task_xrefs_17650.json",
+          "evidence/rea_capture_task_xrefs_17651.json"
+        ]
+      }
+    },
+    "task_ready_772d": {
+      "id": "task_ready_772d",
+      "image_offset": "0x772d",
+      "size": 130,
+      "language": "c",
+      "backend": "msc500-omf",
+      "source": "src/task_tail_handlers_match.c",
+      "symbol": "_task_ready_772d",
+      "flags": [
+        "/AS",
+        "/Zi"
+      ],
+      "externals": {
+        "_dispatch_c83a": 51258,
+        "__chkstk": 60586,
+        "_compose_frame_3b3a": 15162,
+        "_actors": 1504,
+        "_attach_actor": 16143,
+        "_frame_index": 39056,
+        "_capture_pending": 1248,
+        "_animation_counter": 38402,
+        "_manage_asset_arena": 14099,
+        "_frame_lists": 33912,
+        "_cells": 4454,
+        "_pop_value": 15042,
+        "_remove_actor_5934": 22836,
+        "_frames": 33166,
+        "_restore_active_arena": 11488,
+        "_command_active": 3830,
+        "_asset_state": 3776,
+        "_task_ready_772d": 30509
+      },
+      "rea_evidence": "evidence/rea_task_readiness_772d.json",
+      "boundary_evidence": "Complete independent fresh MSC5CV3 function and every original byte exact. Three contiguous CV extents106/311/130 cover547CV-ownedbytes758C..77AE with no holes or extra procedures. ActualCODESEGDEF548 has trailing90 outsideCV, uncredited anddiffersfromnextoriginal77AF55; nofullsegmentclaim. Full raw OMF fixup/MZemptyset/fourloadbases corroborateall547B. CanonicalTask24/AssetState14 retained. No oldqueue_move327sourceorcredit. Capturegap EB05 at7650 andall311bytesretainedwithstrictproof. Fullproof evidence/task-tail-handlers-758c-77ae-match.json."
+    },
+    "undo_animation_code327": {
+      "id": "undo_animation_code327",
+      "language": "asm-code",
+      "backend": "masm510-near-game-authored-code-omf-v1",
+      "object_profile": "undo_animation327",
+      "source": "asm/link/undo_animation77af.asm",
+      "source_sha256": "d904072821c84fa1672f6c22632ac1160962fd5d4bab1e424565f12dde075ad1",
+      "assembler_sha256": "1c6286c69b616160b8475ad17453ee872702a2c98075c2159ec792a1c745275f",
+      "public_symbols": [
+        "_undo_animation"
+      ],
+      "image_offset": "0x77af",
+      "size": 327,
+      "externals": {
+        "__chkstk": 60586,
+        "_cells": 4454,
+        "_actor_map": 35492,
+        "_actors": 1504,
+        "_detach_actor": 16201,
+        "_kind_map": 3840,
+        "_queue_piece": 31399
+      },
+      "rea_evidence": "evidence/near_game_asm/undo_animation327/primary.json",
+      "reference_region": "unchanged-prefix",
+      "boundary_evidence": "Complete native77AF..78F6/327/127instructions,17external+one actual ownrecursiveCALL/MZ0/fourbases; genuine622-byte raw91f649, BYTE CODEalign/realframe18. Actual selected Move8* caller plus held nativecaller; use real_undo_animation not legacy_queue_move alias. All actual fields/stack state preserved; prior padded C positives/unpadded controls remain qualified. No C/ASMfunction credit or historical language/TU/capacity proof."
+    }
+  },
+  "owner_order": [
+    "transfer_task_758c",
+    "capture_task_75f6",
+    "task_ready_772d",
+    "undo_animation_code327"
+  ],
+  "PUBLICs": {
+    "_transfer_task_758c": 0,
+    "_capture_task_75f6": 106,
+    "_task_ready_772d": 417,
+    "_undo_animation": 547
+  },
+  "bindings": {
+    "_dispatch_c83a": 51258,
+    "__chkstk": 60586,
+    "_compose_frame_3b3a": 15162,
+    "_actors": 1504,
+    "_attach_actor": 16143,
+    "_frame_index": 39056,
+    "_capture_pending": 1248,
+    "_animation_counter": 38402,
+    "_manage_asset_arena": 14099,
+    "_frame_lists": 33912,
+    "_cells": 4454,
+    "_pop_value": 15042,
+    "_remove_actor_5934": 22836,
+    "_frames": 33166,
+    "_restore_active_arena": 11488,
+    "_command_active": 3830,
+    "_asset_state": 3776,
+    "_task_ready_772d": 30509,
+    "_actor_map": 35492,
+    "_detach_actor": 16201,
+    "_kind_map": 3840,
+    "_queue_piece": 31399
+  },
+  "native_origin": 30092,
+  "CODE_size": 874,
+  "C_extent_contracts": {
+    "transfer_task_758c": {
+      "symbol": "_transfer_task_758c",
+      "offset": 0,
+      "size": 106
+    },
+    "capture_task_75f6": {
+      "symbol": "_capture_task_75f6",
+      "offset": 106,
+      "size": 311
+    },
+    "task_ready_772d": {
+      "symbol": "_task_ready_772d",
+      "offset": 417,
+      "size": 130
+    }
+  },
+  "field_categories": {
+    "external_near_CALL_own_CODE": 17,
+    "actual_direct_MEMORY_GROUP1": 12,
+    "other_external_DATA_target_frame": 11,
+    "compiler_unqualified_OFFSET_external_target_frame": 3,
+    "compiler_FA_symbolic_local_E9": 5,
+    "actual_local_PUBLIC_near_CALL": 2,
+    "authored_explicit_OFFSET_DGROUP_WORD": 3
+  },
+  "actual_fields": [
+    {
+      "segment": 1,
+      "offset": 6,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": false,
+      "frame": [
+        0,
+        1
+      ],
+      "target": [
+        2,
+        14
+      ],
+      "displacement": null,
+      "record_offset": 1420,
+      "raw": "840606010e",
+      "symbol": "__chkstk",
+      "effective_addend": 0,
+      "category": "external_near_CALL_own_CODE",
+      "original_field": {
+        "module_offset": 6,
+        "owner_source": "src/task_tail_handlers_match.c",
+        "owner_offset": 6,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "old_frame": [
+          5,
+          null
+        ],
+        "old_target": [
+          2,
+          11
+        ],
+        "old_raw": "8406560b",
+        "symbol": "__chkstk",
+        "effective_addend": 0
+      }
+    },
+    {
+      "segment": 1,
+      "offset": 21,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        1,
+        1
+      ],
+      "target": [
+        2,
+        1
+      ],
+      "displacement": null,
+      "record_offset": 1420,
+      "raw": "c415160101",
+      "symbol": "_cells",
+      "effective_addend": 0,
+      "category": "actual_direct_MEMORY_GROUP1",
+      "original_field": {
+        "module_offset": 21,
+        "owner_source": "src/task_tail_handlers_match.c",
+        "owner_offset": 21,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "old_frame": [
+          5,
+          null
+        ],
+        "old_target": [
+          2,
+          20
+        ],
+        "old_raw": "c4085614",
+        "symbol": "_cells",
+        "effective_addend": 0
+      }
+    },
+    {
+      "segment": 1,
+      "offset": 29,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        2,
+        2
+      ],
+      "target": [
+        2,
+        2
+      ],
+      "displacement": null,
+      "record_offset": 1420,
+      "raw": "c41d260202",
+      "symbol": "_frame_index",
+      "effective_addend": 0,
+      "category": "other_external_DATA_target_frame",
+      "original_field": {
+        "module_offset": 29,
+        "owner_source": "src/task_tail_handlers_match.c",
+        "owner_offset": 29,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "old_frame": [
+          5,
+          null
+        ],
+        "old_target": [
+          2,
+          3
+        ],
+        "old_raw": "c4105603",
+        "symbol": "_frame_index",
+        "effective_addend": 0
+      }
+    },
+    {
+      "segment": 1,
+      "offset": 40,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        2,
+        8
+      ],
+      "target": [
+        2,
+        8
+      ],
+      "displacement": null,
+      "record_offset": 1420,
+      "raw": "c428260808",
+      "symbol": "_frames",
+      "effective_addend": 0,
+      "category": "compiler_unqualified_OFFSET_external_target_frame",
+      "original_field": {
+        "module_offset": 40,
+        "owner_source": "src/task_tail_handlers_match.c",
+        "owner_offset": 40,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "old_frame": [
+          5,
+          null
+        ],
+        "old_target": [
+          2,
+          18
+        ],
+        "old_raw": "c41b5612",
+        "symbol": "_frames",
+        "effective_addend": 0
+      }
+    },
+    {
+      "segment": 1,
+      "offset": 59,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": false,
+      "frame": [
+        0,
+        1
+      ],
+      "target": [
+        2,
+        11
+      ],
+      "displacement": null,
+      "record_offset": 1420,
+      "raw": "843b06010b",
+      "symbol": "_attach_actor",
+      "effective_addend": 0,
+      "category": "external_near_CALL_own_CODE",
+      "original_field": {
+        "module_offset": 59,
+        "owner_source": "src/task_tail_handlers_match.c",
+        "owner_offset": 59,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "old_frame": [
+          5,
+          null
+        ],
+        "old_target": [
+          2,
+          7
+        ],
+        "old_raw": "842e5607",
+        "symbol": "_attach_actor",
+        "effective_addend": 0
+      }
+    },
+    {
+      "segment": 1,
+      "offset": 78,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        2,
+        12
+      ],
+      "target": [
+        2,
+        12
+      ],
+      "displacement": null,
+      "record_offset": 1420,
+      "raw": "c44e260c0c",
+      "symbol": "_actors",
+      "effective_addend": 0,
+      "category": "compiler_unqualified_OFFSET_external_target_frame",
+      "original_field": {
+        "module_offset": 78,
+        "owner_source": "src/task_tail_handlers_match.c",
+        "owner_offset": 78,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "old_frame": [
+          5,
+          null
+        ],
+        "old_target": [
+          2,
+          17
+        ],
+        "old_raw": "c4415611",
+        "symbol": "_actors",
+        "effective_addend": 0
+      }
+    },
+    {
+      "segment": 1,
+      "offset": 82,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": false,
+      "frame": [
+        0,
+        1
+      ],
+      "target": [
+        2,
+        22
+      ],
+      "displacement": null,
+      "record_offset": 1420,
+      "raw": "8452060116",
+      "symbol": "_remove_actor_5934",
+      "effective_addend": 0,
+      "category": "external_near_CALL_own_CODE",
+      "original_field": {
+        "module_offset": 82,
+        "owner_source": "src/task_tail_handlers_match.c",
+        "owner_offset": 82,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "old_frame": [
+          5,
+          null
+        ],
+        "old_target": [
+          2,
+          6
+        ],
+        "old_raw": "84455606",
+        "symbol": "_remove_actor_5934",
+        "effective_addend": 0
+      }
+    },
+    {
+      "segment": 1,
+      "offset": 113,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": false,
+      "frame": [
+        0,
+        1
+      ],
+      "target": [
+        2,
+        14
+      ],
+      "displacement": null,
+      "record_offset": 1420,
+      "raw": "847106010e",
+      "symbol": "__chkstk",
+      "effective_addend": 0,
+      "category": "external_near_CALL_own_CODE",
+      "original_field": {
+        "module_offset": 113,
+        "owner_source": "src/task_tail_handlers_match.c",
+        "owner_offset": 113,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "old_frame": [
+          5,
+          null
+        ],
+        "old_target": [
+          2,
+          11
+        ],
+        "old_raw": "8407560b",
+        "symbol": "__chkstk",
+        "effective_addend": 0
+      }
+    },
+    {
+      "segment": 1,
+      "offset": 122,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        2,
+        18
+      ],
+      "target": [
+        2,
+        18
+      ],
+      "displacement": null,
+      "record_offset": 1420,
+      "raw": "c47a261212",
+      "symbol": "_capture_pending",
+      "effective_addend": 0,
+      "category": "other_external_DATA_target_frame",
+      "original_field": {
+        "module_offset": 122,
+        "owner_source": "src/task_tail_handlers_match.c",
+        "owner_offset": 122,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "old_frame": [
+          5,
+          null
+        ],
+        "old_target": [
+          2,
+          21
+        ],
+        "old_raw": "c4025615",
+        "symbol": "_capture_pending",
+        "effective_addend": 0
+      }
+    },
+    {
+      "segment": 1,
+      "offset": 130,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": false,
+      "frame": [
+        0,
+        1
+      ],
+      "target": [
+        0,
+        1
+      ],
+      "displacement": 411,
+      "record_offset": 1420,
+      "raw": "84820001019b01",
+      "symbol": "internal_CODE_label",
+      "effective_addend": 411,
+      "category": "compiler_FA_symbolic_local_E9",
+      "original_field": null
+    },
+    {
+      "segment": 1,
+      "offset": 140,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        2,
+        18
+      ],
+      "target": [
+        2,
+        18
+      ],
+      "displacement": null,
+      "record_offset": 1420,
+      "raw": "c48c261212",
+      "symbol": "_capture_pending",
+      "effective_addend": 0,
+      "category": "other_external_DATA_target_frame",
+      "original_field": {
+        "module_offset": 140,
+        "owner_source": "src/task_tail_handlers_match.c",
+        "owner_offset": 140,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "old_frame": [
+          5,
+          null
+        ],
+        "old_target": [
+          2,
+          21
+        ],
+        "old_raw": "c4145615",
+        "symbol": "_capture_pending",
+        "effective_addend": 0
+      }
+    },
+    {
+      "segment": 1,
+      "offset": 152,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        2,
+        18
+      ],
+      "target": [
+        2,
+        18
+      ],
+      "displacement": null,
+      "record_offset": 1420,
+      "raw": "c498261212",
+      "symbol": "_capture_pending",
+      "effective_addend": 0,
+      "category": "other_external_DATA_target_frame",
+      "original_field": {
+        "module_offset": 152,
+        "owner_source": "src/task_tail_handlers_match.c",
+        "owner_offset": 152,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "old_frame": [
+          5,
+          null
+        ],
+        "old_target": [
+          2,
+          21
+        ],
+        "old_raw": "c4205615",
+        "symbol": "_capture_pending",
+        "effective_addend": 0
+      }
+    },
+    {
+      "segment": 1,
+      "offset": 156,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        2,
+        5
+      ],
+      "target": [
+        2,
+        5
+      ],
+      "displacement": null,
+      "record_offset": 1420,
+      "raw": "c49c260505",
+      "symbol": "_animation_counter",
+      "effective_addend": 0,
+      "category": "other_external_DATA_target_frame",
+      "original_field": {
+        "module_offset": 156,
+        "owner_source": "src/task_tail_handlers_match.c",
+        "owner_offset": 156,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "old_frame": [
+          5,
+          null
+        ],
+        "old_target": [
+          2,
+          2
+        ],
+        "old_raw": "c4245602",
+        "symbol": "_animation_counter",
+        "effective_addend": 0
+      }
+    },
+    {
+      "segment": 1,
+      "offset": 160,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        2,
+        15
+      ],
+      "target": [
+        2,
+        15
+      ],
+      "displacement": null,
+      "record_offset": 1420,
+      "raw": "c4a0260f0f",
+      "symbol": "_command_active",
+      "effective_addend": 0,
+      "category": "other_external_DATA_target_frame",
+      "original_field": {
+        "module_offset": 160,
+        "owner_source": "src/task_tail_handlers_match.c",
+        "owner_offset": 160,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "old_frame": [
+          5,
+          null
+        ],
+        "old_target": [
+          2,
+          12
+        ],
+        "old_raw": "c428560c",
+        "symbol": "_command_active",
+        "effective_addend": 0
+      }
+    },
+    {
+      "segment": 1,
+      "offset": 166,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": false,
+      "frame": [
+        0,
+        1
+      ],
+      "target": [
+        2,
+        17
+      ],
+      "displacement": null,
+      "record_offset": 1420,
+      "raw": "84a6060111",
+      "symbol": "_restore_active_arena",
+      "effective_addend": 0,
+      "category": "external_near_CALL_own_CODE",
+      "original_field": {
+        "module_offset": 166,
+        "owner_source": "src/task_tail_handlers_match.c",
+        "owner_offset": 166,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "old_frame": [
+          5,
+          null
+        ],
+        "old_target": [
+          2,
+          4
+        ],
+        "old_raw": "842e5604",
+        "symbol": "_restore_active_arena",
+        "effective_addend": 0
+      }
+    },
+    {
+      "segment": 1,
+      "offset": 170,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        2,
+        6
+      ],
+      "target": [
+        2,
+        6
+      ],
+      "displacement": 13,
+      "record_offset": 1420,
+      "raw": "c4aa2206060d00",
+      "symbol": "_asset_state",
+      "effective_addend": 13,
+      "category": "other_external_DATA_target_frame",
+      "original_field": {
+        "module_offset": 170,
+        "owner_source": "src/task_tail_handlers_match.c",
+        "owner_offset": 170,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "old_frame": [
+          5,
+          null
+        ],
+        "old_target": [
+          2,
+          19
+        ],
+        "old_raw": "c4325613",
+        "symbol": "_asset_state",
+        "effective_addend": 13
+      }
+    },
+    {
+      "segment": 1,
+      "offset": 176,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        1,
+        1
+      ],
+      "target": [
+        2,
+        6
+      ],
+      "displacement": 5,
+      "record_offset": 1420,
+      "raw": "c4b01201060500",
+      "symbol": "_asset_state",
+      "effective_addend": 5,
+      "category": "actual_direct_MEMORY_GROUP1",
+      "original_field": {
+        "module_offset": 176,
+        "owner_source": "src/task_tail_handlers_match.c",
+        "owner_offset": 176,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "old_frame": [
+          5,
+          null
+        ],
+        "old_target": [
+          2,
+          19
+        ],
+        "old_raw": "c4385613",
+        "symbol": "_asset_state",
+        "effective_addend": 5
+      }
+    },
+    {
+      "segment": 1,
+      "offset": 182,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        2,
+        6
+      ],
+      "target": [
+        2,
+        6
+      ],
+      "displacement": 13,
+      "record_offset": 1420,
+      "raw": "c4b62206060d00",
+      "symbol": "_asset_state",
+      "effective_addend": 13,
+      "category": "other_external_DATA_target_frame",
+      "original_field": {
+        "module_offset": 182,
+        "owner_source": "src/task_tail_handlers_match.c",
+        "owner_offset": 182,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "old_frame": [
+          5,
+          null
+        ],
+        "old_target": [
+          2,
+          19
+        ],
+        "old_raw": "c43e5613",
+        "symbol": "_asset_state",
+        "effective_addend": 13
+      }
+    },
+    {
+      "segment": 1,
+      "offset": 185,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        2,
+        6
+      ],
+      "target": [
+        2,
+        6
+      ],
+      "displacement": 12,
+      "record_offset": 1420,
+      "raw": "c4b92206060c00",
+      "symbol": "_asset_state",
+      "effective_addend": 12,
+      "category": "other_external_DATA_target_frame",
+      "original_field": {
+        "module_offset": 185,
+        "owner_source": "src/task_tail_handlers_match.c",
+        "owner_offset": 185,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "old_frame": [
+          5,
+          null
+        ],
+        "old_target": [
+          2,
+          19
+        ],
+        "old_raw": "c4415613",
+        "symbol": "_asset_state",
+        "effective_addend": 12
+      }
+    },
+    {
+      "segment": 1,
+      "offset": 188,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": false,
+      "frame": [
+        0,
+        1
+      ],
+      "target": [
+        2,
+        10
+      ],
+      "displacement": null,
+      "record_offset": 1420,
+      "raw": "84bc06010a",
+      "symbol": "_manage_asset_arena",
+      "effective_addend": 0,
+      "category": "external_near_CALL_own_CODE",
+      "original_field": {
+        "module_offset": 188,
+        "owner_source": "src/task_tail_handlers_match.c",
+        "owner_offset": 188,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "old_frame": [
+          5,
+          null
+        ],
+        "old_target": [
+          2,
+          5
+        ],
+        "old_raw": "84445605",
+        "symbol": "_manage_asset_arena",
+        "effective_addend": 0
+      }
+    },
+    {
+      "segment": 1,
+      "offset": 194,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": false,
+      "frame": [
+        0,
+        1
+      ],
+      "target": [
+        0,
+        1
+      ],
+      "displacement": 411,
+      "record_offset": 1420,
+      "raw": "84c20001019b01",
+      "symbol": "internal_CODE_label",
+      "effective_addend": 411,
+      "category": "compiler_FA_symbolic_local_E9",
+      "original_field": null
+    },
+    {
+      "segment": 1,
+      "offset": 201,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": false,
+      "frame": [
+        0,
+        1
+      ],
+      "target": [
+        0,
+        1
+      ],
+      "displacement": 411,
+      "record_offset": 1420,
+      "raw": "84c90001019b01",
+      "symbol": "internal_CODE_label",
+      "effective_addend": 411,
+      "category": "compiler_FA_symbolic_local_E9",
+      "original_field": null
+    },
+    {
+      "segment": 1,
+      "offset": 205,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": false,
+      "frame": [
+        0,
+        1
+      ],
+      "target": [
+        0,
+        1
+      ],
+      "displacement": 417,
+      "record_offset": 1420,
+      "raw": "84cd000101a101",
+      "symbol": "internal_CODE_label",
+      "effective_addend": 417,
+      "category": "actual_local_PUBLIC_near_CALL",
+      "original_field": {
+        "module_offset": 205,
+        "owner_source": "src/task_tail_handlers_match.c",
+        "owner_offset": 205,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "old_frame": [
+          5,
+          null
+        ],
+        "old_target": [
+          2,
+          14
+        ],
+        "old_raw": "8455560e",
+        "symbol": "_task_ready_772d",
+        "effective_addend": 0
+      }
+    },
+    {
+      "segment": 1,
+      "offset": 217,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": false,
+      "frame": [
+        0,
+        1
+      ],
+      "target": [
+        0,
+        1
+      ],
+      "displacement": 411,
+      "record_offset": 1420,
+      "raw": "84d90001019b01",
+      "symbol": "internal_CODE_label",
+      "effective_addend": 411,
+      "category": "compiler_FA_symbolic_local_E9",
+      "original_field": null
+    },
+    {
+      "segment": 1,
+      "offset": 252,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        2,
+        18
+      ],
+      "target": [
+        2,
+        18
+      ],
+      "displacement": null,
+      "record_offset": 1420,
+      "raw": "c4fc261212",
+      "symbol": "_capture_pending",
+      "effective_addend": 0,
+      "category": "other_external_DATA_target_frame",
+      "original_field": {
+        "module_offset": 252,
+        "owner_source": "src/task_tail_handlers_match.c",
+        "owner_offset": 252,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "old_frame": [
+          5,
+          null
+        ],
+        "old_target": [
+          2,
+          21
+        ],
+        "old_raw": "c4845615",
+        "symbol": "_capture_pending",
+        "effective_addend": 0
+      }
+    },
+    {
+      "segment": 1,
+      "offset": 257,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": false,
+      "frame": [
+        0,
+        1
+      ],
+      "target": [
+        0,
+        1
+      ],
+      "displacement": 411,
+      "record_offset": 1420,
+      "raw": "85010001019b01",
+      "symbol": "internal_CODE_label",
+      "effective_addend": 411,
+      "category": "compiler_FA_symbolic_local_E9",
+      "original_field": null
+    },
+    {
+      "segment": 1,
+      "offset": 273,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        1,
+        1
+      ],
+      "target": [
+        2,
+        4
+      ],
+      "displacement": null,
+      "record_offset": 1420,
+      "raw": "c511160104",
+      "symbol": "_frame_lists",
+      "effective_addend": 0,
+      "category": "actual_direct_MEMORY_GROUP1",
+      "original_field": {
+        "module_offset": 273,
+        "owner_source": "src/task_tail_handlers_match.c",
+        "owner_offset": 273,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "old_frame": [
+          5,
+          null
+        ],
+        "old_target": [
+          2,
+          13
+        ],
+        "old_raw": "c499560d",
+        "symbol": "_frame_lists",
+        "effective_addend": 0
+      }
+    },
+    {
+      "segment": 1,
+      "offset": 291,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        2,
+        8
+      ],
+      "target": [
+        2,
+        8
+      ],
+      "displacement": null,
+      "record_offset": 1420,
+      "raw": "c523260808",
+      "symbol": "_frames",
+      "effective_addend": 0,
+      "category": "compiler_unqualified_OFFSET_external_target_frame",
+      "original_field": {
+        "module_offset": 291,
+        "owner_source": "src/task_tail_handlers_match.c",
+        "owner_offset": 291,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "old_frame": [
+          5,
+          null
+        ],
+        "old_target": [
+          2,
+          18
+        ],
+        "old_raw": "c4ab5612",
+        "symbol": "_frames",
+        "effective_addend": 0
+      }
+    },
+    {
+      "segment": 1,
+      "offset": 310,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": false,
+      "frame": [
+        0,
+        1
+      ],
+      "target": [
+        2,
+        11
+      ],
+      "displacement": null,
+      "record_offset": 1420,
+      "raw": "853606010b",
+      "symbol": "_attach_actor",
+      "effective_addend": 0,
+      "category": "external_near_CALL_own_CODE",
+      "original_field": {
+        "module_offset": 310,
+        "owner_source": "src/task_tail_handlers_match.c",
+        "owner_offset": 310,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "old_frame": [
+          5,
+          null
+        ],
+        "old_target": [
+          2,
+          7
+        ],
+        "old_raw": "84be5607",
+        "symbol": "_attach_actor",
+        "effective_addend": 0
+      }
+    },
+    {
+      "segment": 1,
+      "offset": 329,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": false,
+      "frame": [
+        0,
+        1
+      ],
+      "target": [
+        2,
+        21
+      ],
+      "displacement": null,
+      "record_offset": 1420,
+      "raw": "8549060115",
+      "symbol": "_pop_value",
+      "effective_addend": 0,
+      "category": "external_near_CALL_own_CODE",
+      "original_field": {
+        "module_offset": 329,
+        "owner_source": "src/task_tail_handlers_match.c",
+        "owner_offset": 329,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "old_frame": [
+          5,
+          null
+        ],
+        "old_target": [
+          2,
+          15
+        ],
+        "old_raw": "84d1560f",
+        "symbol": "_pop_value",
+        "effective_addend": 0
+      }
+    },
+    {
+      "segment": 1,
+      "offset": 348,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": false,
+      "frame": [
+        0,
+        1
+      ],
+      "target": [
+        2,
+        7
+      ],
+      "displacement": null,
+      "record_offset": 1420,
+      "raw": "855c060107",
+      "symbol": "_compose_frame_3b3a",
+      "effective_addend": 0,
+      "category": "external_near_CALL_own_CODE",
+      "original_field": {
+        "module_offset": 348,
+        "owner_source": "src/task_tail_handlers_match.c",
+        "owner_offset": 348,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "old_frame": [
+          5,
+          null
+        ],
+        "old_target": [
+          2,
+          16
+        ],
+        "old_raw": "84e45610",
+        "symbol": "_compose_frame_3b3a",
+        "effective_addend": 0
+      }
+    },
+    {
+      "segment": 1,
+      "offset": 373,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": false,
+      "frame": [
+        0,
+        1
+      ],
+      "target": [
+        2,
+        11
+      ],
+      "displacement": null,
+      "record_offset": 1420,
+      "raw": "857506010b",
+      "symbol": "_attach_actor",
+      "effective_addend": 0,
+      "category": "external_near_CALL_own_CODE",
+      "original_field": {
+        "module_offset": 373,
+        "owner_source": "src/task_tail_handlers_match.c",
+        "owner_offset": 373,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "old_frame": [
+          5,
+          null
+        ],
+        "old_target": [
+          2,
+          7
+        ],
+        "old_raw": "84fd5607",
+        "symbol": "_attach_actor",
+        "effective_addend": 0
+      }
+    },
+    {
+      "segment": 1,
+      "offset": 424,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": false,
+      "frame": [
+        0,
+        1
+      ],
+      "target": [
+        2,
+        14
+      ],
+      "displacement": null,
+      "record_offset": 1420,
+      "raw": "85a806010e",
+      "symbol": "__chkstk",
+      "effective_addend": 0,
+      "category": "external_near_CALL_own_CODE",
+      "original_field": {
+        "module_offset": 424,
+        "owner_source": "src/task_tail_handlers_match.c",
+        "owner_offset": 424,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "old_frame": [
+          5,
+          null
+        ],
+        "old_target": [
+          2,
+          11
+        ],
+        "old_raw": "8407560b",
+        "symbol": "__chkstk",
+        "effective_addend": 0
+      }
+    },
+    {
+      "segment": 1,
+      "offset": 445,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        2,
+        15
+      ],
+      "target": [
+        2,
+        15
+      ],
+      "displacement": null,
+      "record_offset": 1420,
+      "raw": "c5bd260f0f",
+      "symbol": "_command_active",
+      "effective_addend": 0,
+      "category": "other_external_DATA_target_frame",
+      "original_field": {
+        "module_offset": 445,
+        "owner_source": "src/task_tail_handlers_match.c",
+        "owner_offset": 445,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "old_frame": [
+          5,
+          null
+        ],
+        "old_target": [
+          2,
+          12
+        ],
+        "old_raw": "c40f560c",
+        "symbol": "_command_active",
+        "effective_addend": 0
+      }
+    },
+    {
+      "segment": 1,
+      "offset": 495,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": false,
+      "frame": [
+        0,
+        1
+      ],
+      "target": [
+        2,
+        13
+      ],
+      "displacement": null,
+      "record_offset": 1420,
+      "raw": "85ef06010d",
+      "symbol": "_dispatch_c83a",
+      "effective_addend": 0,
+      "category": "external_near_CALL_own_CODE",
+      "original_field": {
+        "module_offset": 495,
+        "owner_source": "src/task_tail_handlers_match.c",
+        "owner_offset": 495,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "old_frame": [
+          5,
+          null
+        ],
+        "old_target": [
+          2,
+          8
+        ],
+        "old_raw": "84415608",
+        "symbol": "_dispatch_c83a",
+        "effective_addend": 0
+      }
+    },
+    {
+      "segment": 1,
+      "offset": 554,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": false,
+      "frame": [
+        0,
+        1
+      ],
+      "target": [
+        2,
+        14
+      ],
+      "displacement": null,
+      "record_offset": 1420,
+      "raw": "862a06010e",
+      "symbol": "__chkstk",
+      "effective_addend": 0,
+      "category": "external_near_CALL_own_CODE",
+      "original_field": {
+        "module_offset": 554,
+        "owner_source": "asm/link/undo_animation77af.asm",
+        "owner_offset": 7,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "old_frame": [
+          2,
+          5
+        ],
+        "old_target": [
+          2,
+          5
+        ],
+        "old_raw": "8407260505",
+        "symbol": "__chkstk",
+        "effective_addend": 0
+      }
+    },
+    {
+      "segment": 1,
+      "offset": 604,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": false,
+      "frame": [
+        0,
+        1
+      ],
+      "target": [
+        0,
+        1
+      ],
+      "displacement": 547,
+      "record_offset": 1420,
+      "raw": "865c0001012302",
+      "symbol": "internal_CODE_label",
+      "effective_addend": 547,
+      "category": "actual_local_PUBLIC_near_CALL",
+      "original_field": {
+        "module_offset": 604,
+        "owner_source": "asm/link/undo_animation77af.asm",
+        "owner_offset": 57,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "old_frame": [
+          0,
+          2
+        ],
+        "old_target": [
+          0,
+          2
+        ],
+        "old_raw": "8439040202",
+        "symbol": null,
+        "effective_addend": 0
+      }
+    },
+    {
+      "segment": 1,
+      "offset": 721,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        1,
+        1
+      ],
+      "target": [
+        2,
+        1
+      ],
+      "displacement": null,
+      "record_offset": 1420,
+      "raw": "c6d1160101",
+      "symbol": "_cells",
+      "effective_addend": 0,
+      "category": "actual_direct_MEMORY_GROUP1",
+      "original_field": {
+        "module_offset": 721,
+        "owner_source": "asm/link/undo_animation77af.asm",
+        "owner_offset": 174,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "old_frame": [
+          1,
+          1
+        ],
+        "old_target": [
+          2,
+          1
+        ],
+        "old_raw": "c4ae160101",
+        "symbol": "_cells",
+        "effective_addend": 0
+      }
+    },
+    {
+      "segment": 1,
+      "offset": 729,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        1,
+        1
+      ],
+      "target": [
+        2,
+        19
+      ],
+      "displacement": null,
+      "record_offset": 1420,
+      "raw": "c6d9160113",
+      "symbol": "_actor_map",
+      "effective_addend": 0,
+      "category": "actual_direct_MEMORY_GROUP1",
+      "original_field": {
+        "module_offset": 729,
+        "owner_source": "asm/link/undo_animation77af.asm",
+        "owner_offset": 182,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "old_frame": [
+          1,
+          1
+        ],
+        "old_target": [
+          2,
+          7
+        ],
+        "old_raw": "c4b6160107",
+        "symbol": "_actor_map",
+        "effective_addend": 0
+      }
+    },
+    {
+      "segment": 1,
+      "offset": 732,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        1,
+        1
+      ],
+      "target": [
+        2,
+        12
+      ],
+      "displacement": null,
+      "record_offset": 1420,
+      "raw": "c6dc16010c",
+      "symbol": "_actors",
+      "effective_addend": 0,
+      "category": "authored_explicit_OFFSET_DGROUP_WORD",
+      "original_field": {
+        "module_offset": 732,
+        "owner_source": "asm/link/undo_animation77af.asm",
+        "owner_offset": 185,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "old_frame": [
+          1,
+          1
+        ],
+        "old_target": [
+          2,
+          4
+        ],
+        "old_raw": "c4b9160104",
+        "symbol": "_actors",
+        "effective_addend": 0
+      }
+    },
+    {
+      "segment": 1,
+      "offset": 736,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": false,
+      "frame": [
+        0,
+        1
+      ],
+      "target": [
+        2,
+        9
+      ],
+      "displacement": null,
+      "record_offset": 1420,
+      "raw": "86e0060109",
+      "symbol": "_detach_actor",
+      "effective_addend": 0,
+      "category": "external_near_CALL_own_CODE",
+      "original_field": {
+        "module_offset": 736,
+        "owner_source": "asm/link/undo_animation77af.asm",
+        "owner_offset": 189,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "old_frame": [
+          2,
+          3
+        ],
+        "old_target": [
+          2,
+          3
+        ],
+        "old_raw": "84bd260303",
+        "symbol": "_detach_actor",
+        "effective_addend": 0
+      }
+    },
+    {
+      "segment": 1,
+      "offset": 750,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        1,
+        1
+      ],
+      "target": [
+        2,
+        19
+      ],
+      "displacement": null,
+      "record_offset": 1420,
+      "raw": "c6ee160113",
+      "symbol": "_actor_map",
+      "effective_addend": 0,
+      "category": "actual_direct_MEMORY_GROUP1",
+      "original_field": {
+        "module_offset": 750,
+        "owner_source": "asm/link/undo_animation77af.asm",
+        "owner_offset": 203,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "old_frame": [
+          1,
+          1
+        ],
+        "old_target": [
+          2,
+          7
+        ],
+        "old_raw": "c4cb160107",
+        "symbol": "_actor_map",
+        "effective_addend": 0
+      }
+    },
+    {
+      "segment": 1,
+      "offset": 753,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        1,
+        1
+      ],
+      "target": [
+        2,
+        12
+      ],
+      "displacement": null,
+      "record_offset": 1420,
+      "raw": "c6f116010c",
+      "symbol": "_actors",
+      "effective_addend": 0,
+      "category": "authored_explicit_OFFSET_DGROUP_WORD",
+      "original_field": {
+        "module_offset": 753,
+        "owner_source": "asm/link/undo_animation77af.asm",
+        "owner_offset": 206,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "old_frame": [
+          1,
+          1
+        ],
+        "old_target": [
+          2,
+          4
+        ],
+        "old_raw": "c4ce160104",
+        "symbol": "_actors",
+        "effective_addend": 0
+      }
+    },
+    {
+      "segment": 1,
+      "offset": 757,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": false,
+      "frame": [
+        0,
+        1
+      ],
+      "target": [
+        2,
+        9
+      ],
+      "displacement": null,
+      "record_offset": 1420,
+      "raw": "86f5060109",
+      "symbol": "_detach_actor",
+      "effective_addend": 0,
+      "category": "external_near_CALL_own_CODE",
+      "original_field": {
+        "module_offset": 757,
+        "owner_source": "asm/link/undo_animation77af.asm",
+        "owner_offset": 210,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "old_frame": [
+          2,
+          3
+        ],
+        "old_target": [
+          2,
+          3
+        ],
+        "old_raw": "84d2260303",
+        "symbol": "_detach_actor",
+        "effective_addend": 0
+      }
+    },
+    {
+      "segment": 1,
+      "offset": 775,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        1,
+        1
+      ],
+      "target": [
+        2,
+        19
+      ],
+      "displacement": null,
+      "record_offset": 1420,
+      "raw": "c707160113",
+      "symbol": "_actor_map",
+      "effective_addend": 0,
+      "category": "actual_direct_MEMORY_GROUP1",
+      "original_field": {
+        "module_offset": 775,
+        "owner_source": "asm/link/undo_animation77af.asm",
+        "owner_offset": 228,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "old_frame": [
+          1,
+          1
+        ],
+        "old_target": [
+          2,
+          7
+        ],
+        "old_raw": "c4e4160107",
+        "symbol": "_actor_map",
+        "effective_addend": 0
+      }
+    },
+    {
+      "segment": 1,
+      "offset": 780,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        1,
+        1
+      ],
+      "target": [
+        2,
+        1
+      ],
+      "displacement": null,
+      "record_offset": 1420,
+      "raw": "c70c160101",
+      "symbol": "_cells",
+      "effective_addend": 0,
+      "category": "actual_direct_MEMORY_GROUP1",
+      "original_field": {
+        "module_offset": 780,
+        "owner_source": "asm/link/undo_animation77af.asm",
+        "owner_offset": 233,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "old_frame": [
+          1,
+          1
+        ],
+        "old_target": [
+          2,
+          1
+        ],
+        "old_raw": "c4e9160101",
+        "symbol": "_cells",
+        "effective_addend": 0
+      }
+    },
+    {
+      "segment": 1,
+      "offset": 793,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        1,
+        1
+      ],
+      "target": [
+        2,
+        16
+      ],
+      "displacement": null,
+      "record_offset": 1420,
+      "raw": "c719160110",
+      "symbol": "_kind_map",
+      "effective_addend": 0,
+      "category": "actual_direct_MEMORY_GROUP1",
+      "original_field": {
+        "module_offset": 793,
+        "owner_source": "asm/link/undo_animation77af.asm",
+        "owner_offset": 246,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "old_frame": [
+          1,
+          1
+        ],
+        "old_target": [
+          2,
+          6
+        ],
+        "old_raw": "c4f6160106",
+        "symbol": "_kind_map",
+        "effective_addend": 0
+      }
+    },
+    {
+      "segment": 1,
+      "offset": 799,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": false,
+      "frame": [
+        0,
+        1
+      ],
+      "target": [
+        2,
+        3
+      ],
+      "displacement": null,
+      "record_offset": 1420,
+      "raw": "871f060103",
+      "symbol": "_queue_piece",
+      "effective_addend": 0,
+      "category": "external_near_CALL_own_CODE",
+      "original_field": {
+        "module_offset": 799,
+        "owner_source": "asm/link/undo_animation77af.asm",
+        "owner_offset": 252,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "old_frame": [
+          2,
+          2
+        ],
+        "old_target": [
+          2,
+          2
+        ],
+        "old_raw": "84fc260202",
+        "symbol": "_queue_piece",
+        "effective_addend": 0
+      }
+    },
+    {
+      "segment": 1,
+      "offset": 811,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        1,
+        1
+      ],
+      "target": [
+        2,
+        1
+      ],
+      "displacement": null,
+      "record_offset": 1420,
+      "raw": "c72b160101",
+      "symbol": "_cells",
+      "effective_addend": 0,
+      "category": "actual_direct_MEMORY_GROUP1",
+      "original_field": {
+        "module_offset": 811,
+        "owner_source": "asm/link/undo_animation77af.asm",
+        "owner_offset": 264,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "old_frame": [
+          1,
+          1
+        ],
+        "old_target": [
+          2,
+          1
+        ],
+        "old_raw": "c508160101",
+        "symbol": "_cells",
+        "effective_addend": 0
+      }
+    },
+    {
+      "segment": 1,
+      "offset": 847,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        1,
+        1
+      ],
+      "target": [
+        2,
+        19
+      ],
+      "displacement": null,
+      "record_offset": 1420,
+      "raw": "c74f160113",
+      "symbol": "_actor_map",
+      "effective_addend": 0,
+      "category": "actual_direct_MEMORY_GROUP1",
+      "original_field": {
+        "module_offset": 847,
+        "owner_source": "asm/link/undo_animation77af.asm",
+        "owner_offset": 300,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "old_frame": [
+          1,
+          1
+        ],
+        "old_target": [
+          2,
+          7
+        ],
+        "old_raw": "c52c160107",
+        "symbol": "_actor_map",
+        "effective_addend": 0
+      }
+    },
+    {
+      "segment": 1,
+      "offset": 850,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        1,
+        1
+      ],
+      "target": [
+        2,
+        12
+      ],
+      "displacement": null,
+      "record_offset": 1420,
+      "raw": "c75216010c",
+      "symbol": "_actors",
+      "effective_addend": 0,
+      "category": "authored_explicit_OFFSET_DGROUP_WORD",
+      "original_field": {
+        "module_offset": 850,
+        "owner_source": "asm/link/undo_animation77af.asm",
+        "owner_offset": 303,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "old_frame": [
+          1,
+          1
+        ],
+        "old_target": [
+          2,
+          4
+        ],
+        "old_raw": "c52f160104",
+        "symbol": "_actors",
+        "effective_addend": 0
+      }
+    },
+    {
+      "segment": 1,
+      "offset": 854,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": false,
+      "frame": [
+        0,
+        1
+      ],
+      "target": [
+        2,
+        9
+      ],
+      "displacement": null,
+      "record_offset": 1420,
+      "raw": "8756060109",
+      "symbol": "_detach_actor",
+      "effective_addend": 0,
+      "category": "external_near_CALL_own_CODE",
+      "original_field": {
+        "module_offset": 854,
+        "owner_source": "asm/link/undo_animation77af.asm",
+        "owner_offset": 307,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "old_frame": [
+          2,
+          3
+        ],
+        "old_target": [
+          2,
+          3
+        ],
+        "old_raw": "8533260303",
+        "symbol": "_detach_actor",
+        "effective_addend": 0
+      }
+    },
+    {
+      "segment": 1,
+      "offset": 866,
+      "width": 2,
+      "location_type": 1,
+      "segment_relative": true,
+      "frame": [
+        1,
+        1
+      ],
+      "target": [
+        2,
+        1
+      ],
+      "displacement": null,
+      "record_offset": 1420,
+      "raw": "c762160101",
+      "symbol": "_cells",
+      "effective_addend": 0,
+      "category": "actual_direct_MEMORY_GROUP1",
+      "original_field": {
+        "module_offset": 866,
+        "owner_source": "asm/link/undo_animation77af.asm",
+        "owner_offset": 319,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "old_frame": [
+          1,
+          1
+        ],
+        "old_target": [
+          2,
+          1
+        ],
+        "old_raw": "c53f160101",
+        "symbol": "_cells",
+        "effective_addend": 0
+      }
+    }
+  ],
+  "actual53_profile": {
+    "raw_sha256": "6f8a60b9a234f7597f2c2778ad0ea319a534c31235b4d9343a564c9182c9770c",
+    "raw_bytes": 1716,
+    "all53_actual_fields": [
+      {
+        "segment": 1,
+        "offset": 6,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          0,
+          1
+        ],
+        "target": [
+          2,
+          14
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "840606010e",
+        "symbol": "__chkstk",
+        "effective_addend": 0
+      },
+      {
+        "segment": 1,
+        "offset": 21,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          1
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "c415160101",
+        "symbol": "_cells",
+        "effective_addend": 0
+      },
+      {
+        "segment": 1,
+        "offset": 29,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          2
+        ],
+        "target": [
+          2,
+          2
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "c41d260202",
+        "symbol": "_frame_index",
+        "effective_addend": 0
+      },
+      {
+        "segment": 1,
+        "offset": 40,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          8
+        ],
+        "target": [
+          2,
+          8
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "c428260808",
+        "symbol": "_frames",
+        "effective_addend": 0
+      },
+      {
+        "segment": 1,
+        "offset": 59,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          0,
+          1
+        ],
+        "target": [
+          2,
+          11
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "843b06010b",
+        "symbol": "_attach_actor",
+        "effective_addend": 0
+      },
+      {
+        "segment": 1,
+        "offset": 78,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          12
+        ],
+        "target": [
+          2,
+          12
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "c44e260c0c",
+        "symbol": "_actors",
+        "effective_addend": 0
+      },
+      {
+        "segment": 1,
+        "offset": 82,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          0,
+          1
+        ],
+        "target": [
+          2,
+          22
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "8452060116",
+        "symbol": "_remove_actor_5934",
+        "effective_addend": 0
+      },
+      {
+        "segment": 1,
+        "offset": 113,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          0,
+          1
+        ],
+        "target": [
+          2,
+          14
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "847106010e",
+        "symbol": "__chkstk",
+        "effective_addend": 0
+      },
+      {
+        "segment": 1,
+        "offset": 122,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          18
+        ],
+        "target": [
+          2,
+          18
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "c47a261212",
+        "symbol": "_capture_pending",
+        "effective_addend": 0
+      },
+      {
+        "segment": 1,
+        "offset": 130,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          0,
+          1
+        ],
+        "target": [
+          0,
+          1
+        ],
+        "displacement": 411,
+        "record_offset": 1420,
+        "raw": "84820001019b01",
+        "symbol": null,
+        "effective_addend": 411
+      },
+      {
+        "segment": 1,
+        "offset": 140,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          18
+        ],
+        "target": [
+          2,
+          18
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "c48c261212",
+        "symbol": "_capture_pending",
+        "effective_addend": 0
+      },
+      {
+        "segment": 1,
+        "offset": 152,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          18
+        ],
+        "target": [
+          2,
+          18
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "c498261212",
+        "symbol": "_capture_pending",
+        "effective_addend": 0
+      },
+      {
+        "segment": 1,
+        "offset": 156,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          5
+        ],
+        "target": [
+          2,
+          5
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "c49c260505",
+        "symbol": "_animation_counter",
+        "effective_addend": 0
+      },
+      {
+        "segment": 1,
+        "offset": 160,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          15
+        ],
+        "target": [
+          2,
+          15
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "c4a0260f0f",
+        "symbol": "_command_active",
+        "effective_addend": 0
+      },
+      {
+        "segment": 1,
+        "offset": 166,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          0,
+          1
+        ],
+        "target": [
+          2,
+          17
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "84a6060111",
+        "symbol": "_restore_active_arena",
+        "effective_addend": 0
+      },
+      {
+        "segment": 1,
+        "offset": 170,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          6
+        ],
+        "target": [
+          2,
+          6
+        ],
+        "displacement": 13,
+        "record_offset": 1420,
+        "raw": "c4aa2206060d00",
+        "symbol": "_asset_state",
+        "effective_addend": 13
+      },
+      {
+        "segment": 1,
+        "offset": 176,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          6
+        ],
+        "displacement": 5,
+        "record_offset": 1420,
+        "raw": "c4b01201060500",
+        "symbol": "_asset_state",
+        "effective_addend": 5
+      },
+      {
+        "segment": 1,
+        "offset": 182,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          6
+        ],
+        "target": [
+          2,
+          6
+        ],
+        "displacement": 13,
+        "record_offset": 1420,
+        "raw": "c4b62206060d00",
+        "symbol": "_asset_state",
+        "effective_addend": 13
+      },
+      {
+        "segment": 1,
+        "offset": 185,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          6
+        ],
+        "target": [
+          2,
+          6
+        ],
+        "displacement": 12,
+        "record_offset": 1420,
+        "raw": "c4b92206060c00",
+        "symbol": "_asset_state",
+        "effective_addend": 12
+      },
+      {
+        "segment": 1,
+        "offset": 188,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          0,
+          1
+        ],
+        "target": [
+          2,
+          10
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "84bc06010a",
+        "symbol": "_manage_asset_arena",
+        "effective_addend": 0
+      },
+      {
+        "segment": 1,
+        "offset": 194,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          0,
+          1
+        ],
+        "target": [
+          0,
+          1
+        ],
+        "displacement": 411,
+        "record_offset": 1420,
+        "raw": "84c20001019b01",
+        "symbol": null,
+        "effective_addend": 411
+      },
+      {
+        "segment": 1,
+        "offset": 201,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          0,
+          1
+        ],
+        "target": [
+          0,
+          1
+        ],
+        "displacement": 411,
+        "record_offset": 1420,
+        "raw": "84c90001019b01",
+        "symbol": null,
+        "effective_addend": 411
+      },
+      {
+        "segment": 1,
+        "offset": 205,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          0,
+          1
+        ],
+        "target": [
+          0,
+          1
+        ],
+        "displacement": 417,
+        "record_offset": 1420,
+        "raw": "84cd000101a101",
+        "symbol": null,
+        "effective_addend": 417
+      },
+      {
+        "segment": 1,
+        "offset": 217,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          0,
+          1
+        ],
+        "target": [
+          0,
+          1
+        ],
+        "displacement": 411,
+        "record_offset": 1420,
+        "raw": "84d90001019b01",
+        "symbol": null,
+        "effective_addend": 411
+      },
+      {
+        "segment": 1,
+        "offset": 252,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          18
+        ],
+        "target": [
+          2,
+          18
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "c4fc261212",
+        "symbol": "_capture_pending",
+        "effective_addend": 0
+      },
+      {
+        "segment": 1,
+        "offset": 257,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          0,
+          1
+        ],
+        "target": [
+          0,
+          1
+        ],
+        "displacement": 411,
+        "record_offset": 1420,
+        "raw": "85010001019b01",
+        "symbol": null,
+        "effective_addend": 411
+      },
+      {
+        "segment": 1,
+        "offset": 273,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          4
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "c511160104",
+        "symbol": "_frame_lists",
+        "effective_addend": 0
+      },
+      {
+        "segment": 1,
+        "offset": 291,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          8
+        ],
+        "target": [
+          2,
+          8
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "c523260808",
+        "symbol": "_frames",
+        "effective_addend": 0
+      },
+      {
+        "segment": 1,
+        "offset": 310,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          0,
+          1
+        ],
+        "target": [
+          2,
+          11
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "853606010b",
+        "symbol": "_attach_actor",
+        "effective_addend": 0
+      },
+      {
+        "segment": 1,
+        "offset": 329,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          0,
+          1
+        ],
+        "target": [
+          2,
+          21
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "8549060115",
+        "symbol": "_pop_value",
+        "effective_addend": 0
+      },
+      {
+        "segment": 1,
+        "offset": 348,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          0,
+          1
+        ],
+        "target": [
+          2,
+          7
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "855c060107",
+        "symbol": "_compose_frame_3b3a",
+        "effective_addend": 0
+      },
+      {
+        "segment": 1,
+        "offset": 373,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          0,
+          1
+        ],
+        "target": [
+          2,
+          11
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "857506010b",
+        "symbol": "_attach_actor",
+        "effective_addend": 0
+      },
+      {
+        "segment": 1,
+        "offset": 424,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          0,
+          1
+        ],
+        "target": [
+          2,
+          14
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "85a806010e",
+        "symbol": "__chkstk",
+        "effective_addend": 0
+      },
+      {
+        "segment": 1,
+        "offset": 445,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          15
+        ],
+        "target": [
+          2,
+          15
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "c5bd260f0f",
+        "symbol": "_command_active",
+        "effective_addend": 0
+      },
+      {
+        "segment": 1,
+        "offset": 495,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          0,
+          1
+        ],
+        "target": [
+          2,
+          13
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "85ef06010d",
+        "symbol": "_dispatch_c83a",
+        "effective_addend": 0
+      },
+      {
+        "segment": 1,
+        "offset": 554,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          0,
+          1
+        ],
+        "target": [
+          2,
+          14
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "862a06010e",
+        "symbol": "__chkstk",
+        "effective_addend": 0
+      },
+      {
+        "segment": 1,
+        "offset": 604,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          0,
+          1
+        ],
+        "target": [
+          0,
+          1
+        ],
+        "displacement": 547,
+        "record_offset": 1420,
+        "raw": "865c0001012302",
+        "symbol": null,
+        "effective_addend": 547
+      },
+      {
+        "segment": 1,
+        "offset": 721,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          1
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "c6d1160101",
+        "symbol": "_cells",
+        "effective_addend": 0
+      },
+      {
+        "segment": 1,
+        "offset": 729,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          19
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "c6d9160113",
+        "symbol": "_actor_map",
+        "effective_addend": 0
+      },
+      {
+        "segment": 1,
+        "offset": 732,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          12
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "c6dc16010c",
+        "symbol": "_actors",
+        "effective_addend": 0
+      },
+      {
+        "segment": 1,
+        "offset": 736,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          0,
+          1
+        ],
+        "target": [
+          2,
+          9
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "86e0060109",
+        "symbol": "_detach_actor",
+        "effective_addend": 0
+      },
+      {
+        "segment": 1,
+        "offset": 750,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          19
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "c6ee160113",
+        "symbol": "_actor_map",
+        "effective_addend": 0
+      },
+      {
+        "segment": 1,
+        "offset": 753,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          12
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "c6f116010c",
+        "symbol": "_actors",
+        "effective_addend": 0
+      },
+      {
+        "segment": 1,
+        "offset": 757,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          0,
+          1
+        ],
+        "target": [
+          2,
+          9
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "86f5060109",
+        "symbol": "_detach_actor",
+        "effective_addend": 0
+      },
+      {
+        "segment": 1,
+        "offset": 775,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          19
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "c707160113",
+        "symbol": "_actor_map",
+        "effective_addend": 0
+      },
+      {
+        "segment": 1,
+        "offset": 780,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          1
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "c70c160101",
+        "symbol": "_cells",
+        "effective_addend": 0
+      },
+      {
+        "segment": 1,
+        "offset": 793,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          16
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "c719160110",
+        "symbol": "_kind_map",
+        "effective_addend": 0
+      },
+      {
+        "segment": 1,
+        "offset": 799,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          0,
+          1
+        ],
+        "target": [
+          2,
+          3
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "871f060103",
+        "symbol": "_queue_piece",
+        "effective_addend": 0
+      },
+      {
+        "segment": 1,
+        "offset": 811,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          1
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "c72b160101",
+        "symbol": "_cells",
+        "effective_addend": 0
+      },
+      {
+        "segment": 1,
+        "offset": 847,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          19
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "c74f160113",
+        "symbol": "_actor_map",
+        "effective_addend": 0
+      },
+      {
+        "segment": 1,
+        "offset": 850,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          12
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "c75216010c",
+        "symbol": "_actors",
+        "effective_addend": 0
+      },
+      {
+        "segment": 1,
+        "offset": 854,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          0,
+          1
+        ],
+        "target": [
+          2,
+          9
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "8756060109",
+        "symbol": "_detach_actor",
+        "effective_addend": 0
+      },
+      {
+        "segment": 1,
+        "offset": 866,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          1
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "c762160101",
+        "symbol": "_cells",
+        "effective_addend": 0
+      }
+    ],
+    "explicit_immediate_OFFSET_positions": [
+      40,
+      78,
+      291,
+      732,
+      753,
+      850
+    ],
+    "explicit_OFFSET_DGROUP_positions": [
+      732,
+      753,
+      850
+    ],
+    "unqualified_C_OFFSET_F2_positions": [
+      40,
+      78,
+      291
+    ],
+    "direct_MEMORY_GROUP1_positions": [
+      21,
+      176,
+      273,
+      721,
+      729,
+      750,
+      775,
+      780,
+      793,
+      811,
+      847,
+      866
+    ],
+    "all_GROUP1_positions": [
+      21,
+      176,
+      273,
+      721,
+      729,
+      732,
+      750,
+      753,
+      775,
+      780,
+      793,
+      811,
+      847,
+      850,
+      866
+    ],
+    "no_frame_fallback": true
+  },
+  "own_CODE_external_calls": [
+    "__chkstk",
+    "_attach_actor",
+    "_compose_frame_3b3a",
+    "_detach_actor",
+    "_dispatch_c83a",
+    "_manage_asset_arena",
+    "_pop_value",
+    "_queue_piece",
+    "_remove_actor_5934",
+    "_restore_active_arena"
+  ],
+  "comparison_only_expected_SHA256": {
+    "mixed": "6f8a60b9a234f7597f2c2778ad0ea319a534c31235b4d9343a564c9182c9770c",
+    "c5": "b9495d381a1bec760a840b793905d9a0390281da3bcc663c1a4684514ab03daf",
+    "fa": "c2d3b9036c5880b2f2c3a2e9dd32039435e308c5250bf4cbe10700336c553fe9",
+    "composed": "a4a06a9d8bb374a457564a4667549f2be06b50ee9e61240154847879bf31688f"
+  },
+  "whole_mixed_snapshot": {
+    "names": [
+      "",
+      "",
+      "DGROUP",
+      "BSS",
+      "DATA",
+      "CODE",
+      "_BSS",
+      "_DATA",
+      "CONST",
+      "_TEXT"
+    ],
+    "segments": [
+      {
+        "index": 1,
+        "length": 874,
+        "name_index": 9,
+        "class_index": 5,
+        "overlay_index": 1,
+        "attributes": 72,
+        "chunks": [
+          [
+            0,
+            "558bec33c0e8000057568b7604ff74068b5c0c8a9f000081e33f008b3e00008a012ae4b103d3e0050000508b5c068a470a2ae450ff7706ff7704e8000083c40a817c0eff007410b81c00f76c0e05000050e8000083c4028b5c06c747080000b80100eb005e5f8be55dc3558becb80a00e8000057568b7604803e00000175052bc0e90000807c02ff7541803e0000047535807c0e007427a0000000060000833e0000007519e800008a1e00002affc687000001b0ffa20000a20000e80000b80100e90000eb052bc0e9000056e8000083c4020bc075052bc0e900008b048946f68b7c068b440c8946fe837ef60075538bd8803fff750dc64402fffe0600002bc0e900008b5efeff46fe8a1f2affd1e38b8700008946f68bd88346f6028b07b103d3e00500008946fa57508a450a2ae450ff7502ff35e8000083c40ac745080000eb3d8b45148946fae800008946fc508b5ef68346f602ff37ff76fae8000083c4068b46fc8946fa57508a450a2ae450ff7502ff35e8000083c40ac7450801008b5ef6833fff7505c746f600008b46f689048b46fe89440c2bc0eb005e5f8be55dc3558becb80200e80000568b7604807c02007407fe4c022bc0eb63833e00000075538b5c048a078846fe3c7f762c3cff74288b5c048a47012ae42d4000508b5c068a470a2ae4508a46fe250f0050e8000083c40683440402ebc88b5c04803fff7506c6440200eb0b8b5c04ff44048a07884402eb04c6440200b80100eb005e8be55dc3558becb81200e8000057568b7604837c0400746e807c060175688b048946ee8b44028946f0c746f200008a44068846f4c646f5008d46ee50e8000083c4028a0424073c0675178b0425f0000c058946ee8b440225f0000c078946f0eb138b0425f0000c038946ee8b440225f0008946f0c646f403c646f500c746f200008d46ee8bf08b4402d1f8243834388a4c0280e1070ac18846f68b04d1f8243834388a0c80e1070ac18846f82ae48bf838a500007410b01cf6a5000005000050e8000083c4028a5ef62affb01cf6a7000005000050e8000083c4028a46f62ae48bf88a46f8508a850000508a850000254000508a5c062aff8a8700002ae450e8000083c4088a5ef62aff88bf0000837c04007431807c0606752b8a46f624388a4ef880e1070ac18846f68ad8b01cf6a7000005000050e8000083c4028a5ef62aff88bf00005e5f8be55dc3"
+          ]
+        ],
+        "unsupported_data": false,
+        "name": "_TEXT",
+        "class_name": "CODE"
+      },
+      {
+        "index": 2,
+        "length": 0,
+        "name_index": 7,
+        "class_index": 4,
+        "overlay_index": 1,
+        "attributes": 72,
+        "chunks": [],
+        "unsupported_data": false,
+        "name": "_DATA",
+        "class_name": "DATA"
+      },
+      {
+        "index": 3,
+        "length": 0,
+        "name_index": 8,
+        "class_index": 8,
+        "overlay_index": 1,
+        "attributes": 72,
+        "chunks": [],
+        "unsupported_data": false,
+        "name": "CONST",
+        "class_name": "CONST"
+      },
+      {
+        "index": 4,
+        "length": 0,
+        "name_index": 6,
+        "class_index": 3,
+        "overlay_index": 1,
+        "attributes": 72,
+        "chunks": [],
+        "unsupported_data": false,
+        "name": "_BSS",
+        "class_name": "BSS"
+      }
+    ],
+    "publics": {
+      "_capture_task_75f6": {
+        "name": "_capture_task_75f6",
+        "segment": 1,
+        "offset": 106,
+        "group": 0,
+        "type_index": 0
+      },
+      "_transfer_task_758c": {
+        "name": "_transfer_task_758c",
+        "segment": 1,
+        "offset": 0,
+        "group": 0,
+        "type_index": 0
+      },
+      "_undo_animation": {
+        "name": "_undo_animation",
+        "segment": 1,
+        "offset": 547,
+        "group": 0,
+        "type_index": 0
+      },
+      "_task_ready_772d": {
+        "name": "_task_ready_772d",
+        "segment": 1,
+        "offset": 417,
+        "group": 0,
+        "type_index": 0
+      }
+    },
+    "externals": [
+      [
+        1,
+        "_cells"
+      ],
+      [
+        2,
+        "_frame_index"
+      ],
+      [
+        3,
+        "_queue_piece"
+      ],
+      [
+        4,
+        "_frame_lists"
+      ],
+      [
+        5,
+        "_animation_counter"
+      ],
+      [
+        6,
+        "_asset_state"
+      ],
+      [
+        7,
+        "_compose_frame_3b3a"
+      ],
+      [
+        8,
+        "_frames"
+      ],
+      [
+        9,
+        "_detach_actor"
+      ],
+      [
+        10,
+        "_manage_asset_arena"
+      ],
+      [
+        11,
+        "_attach_actor"
+      ],
+      [
+        12,
+        "_actors"
+      ],
+      [
+        13,
+        "_dispatch_c83a"
+      ],
+      [
+        14,
+        "__chkstk"
+      ],
+      [
+        15,
+        "_command_active"
+      ],
+      [
+        16,
+        "_kind_map"
+      ],
+      [
+        17,
+        "_restore_active_arena"
+      ],
+      [
+        18,
+        "_capture_pending"
+      ],
+      [
+        19,
+        "_actor_map"
+      ],
+      [
+        20,
+        "__acrtused"
+      ],
+      [
+        21,
+        "_pop_value"
+      ],
+      [
+        22,
+        "_remove_actor_5934"
+      ]
+    ],
+    "procedures": {},
+    "fixups": [
+      {
+        "segment": 1,
+        "offset": 6,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          0,
+          1
+        ],
+        "target": [
+          2,
+          14
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "840606010e"
+      },
+      {
+        "segment": 1,
+        "offset": 21,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          1
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "c415160101"
+      },
+      {
+        "segment": 1,
+        "offset": 29,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          2
+        ],
+        "target": [
+          2,
+          2
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "c41d260202"
+      },
+      {
+        "segment": 1,
+        "offset": 40,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          8
+        ],
+        "target": [
+          2,
+          8
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "c428260808"
+      },
+      {
+        "segment": 1,
+        "offset": 59,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          0,
+          1
+        ],
+        "target": [
+          2,
+          11
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "843b06010b"
+      },
+      {
+        "segment": 1,
+        "offset": 78,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          12
+        ],
+        "target": [
+          2,
+          12
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "c44e260c0c"
+      },
+      {
+        "segment": 1,
+        "offset": 82,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          0,
+          1
+        ],
+        "target": [
+          2,
+          22
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "8452060116"
+      },
+      {
+        "segment": 1,
+        "offset": 113,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          0,
+          1
+        ],
+        "target": [
+          2,
+          14
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "847106010e"
+      },
+      {
+        "segment": 1,
+        "offset": 122,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          18
+        ],
+        "target": [
+          2,
+          18
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "c47a261212"
+      },
+      {
+        "segment": 1,
+        "offset": 130,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          0,
+          1
+        ],
+        "target": [
+          0,
+          1
+        ],
+        "displacement": 411,
+        "record_offset": 1420,
+        "raw": "84820001019b01"
+      },
+      {
+        "segment": 1,
+        "offset": 140,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          18
+        ],
+        "target": [
+          2,
+          18
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "c48c261212"
+      },
+      {
+        "segment": 1,
+        "offset": 152,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          18
+        ],
+        "target": [
+          2,
+          18
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "c498261212"
+      },
+      {
+        "segment": 1,
+        "offset": 156,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          5
+        ],
+        "target": [
+          2,
+          5
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "c49c260505"
+      },
+      {
+        "segment": 1,
+        "offset": 160,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          15
+        ],
+        "target": [
+          2,
+          15
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "c4a0260f0f"
+      },
+      {
+        "segment": 1,
+        "offset": 166,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          0,
+          1
+        ],
+        "target": [
+          2,
+          17
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "84a6060111"
+      },
+      {
+        "segment": 1,
+        "offset": 170,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          6
+        ],
+        "target": [
+          2,
+          6
+        ],
+        "displacement": 13,
+        "record_offset": 1420,
+        "raw": "c4aa2206060d00"
+      },
+      {
+        "segment": 1,
+        "offset": 176,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          6
+        ],
+        "displacement": 5,
+        "record_offset": 1420,
+        "raw": "c4b01201060500"
+      },
+      {
+        "segment": 1,
+        "offset": 182,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          6
+        ],
+        "target": [
+          2,
+          6
+        ],
+        "displacement": 13,
+        "record_offset": 1420,
+        "raw": "c4b62206060d00"
+      },
+      {
+        "segment": 1,
+        "offset": 185,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          6
+        ],
+        "target": [
+          2,
+          6
+        ],
+        "displacement": 12,
+        "record_offset": 1420,
+        "raw": "c4b92206060c00"
+      },
+      {
+        "segment": 1,
+        "offset": 188,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          0,
+          1
+        ],
+        "target": [
+          2,
+          10
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "84bc06010a"
+      },
+      {
+        "segment": 1,
+        "offset": 194,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          0,
+          1
+        ],
+        "target": [
+          0,
+          1
+        ],
+        "displacement": 411,
+        "record_offset": 1420,
+        "raw": "84c20001019b01"
+      },
+      {
+        "segment": 1,
+        "offset": 201,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          0,
+          1
+        ],
+        "target": [
+          0,
+          1
+        ],
+        "displacement": 411,
+        "record_offset": 1420,
+        "raw": "84c90001019b01"
+      },
+      {
+        "segment": 1,
+        "offset": 205,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          0,
+          1
+        ],
+        "target": [
+          0,
+          1
+        ],
+        "displacement": 417,
+        "record_offset": 1420,
+        "raw": "84cd000101a101"
+      },
+      {
+        "segment": 1,
+        "offset": 217,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          0,
+          1
+        ],
+        "target": [
+          0,
+          1
+        ],
+        "displacement": 411,
+        "record_offset": 1420,
+        "raw": "84d90001019b01"
+      },
+      {
+        "segment": 1,
+        "offset": 252,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          18
+        ],
+        "target": [
+          2,
+          18
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "c4fc261212"
+      },
+      {
+        "segment": 1,
+        "offset": 257,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          0,
+          1
+        ],
+        "target": [
+          0,
+          1
+        ],
+        "displacement": 411,
+        "record_offset": 1420,
+        "raw": "85010001019b01"
+      },
+      {
+        "segment": 1,
+        "offset": 273,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          4
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "c511160104"
+      },
+      {
+        "segment": 1,
+        "offset": 291,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          8
+        ],
+        "target": [
+          2,
+          8
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "c523260808"
+      },
+      {
+        "segment": 1,
+        "offset": 310,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          0,
+          1
+        ],
+        "target": [
+          2,
+          11
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "853606010b"
+      },
+      {
+        "segment": 1,
+        "offset": 329,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          0,
+          1
+        ],
+        "target": [
+          2,
+          21
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "8549060115"
+      },
+      {
+        "segment": 1,
+        "offset": 348,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          0,
+          1
+        ],
+        "target": [
+          2,
+          7
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "855c060107"
+      },
+      {
+        "segment": 1,
+        "offset": 373,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          0,
+          1
+        ],
+        "target": [
+          2,
+          11
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "857506010b"
+      },
+      {
+        "segment": 1,
+        "offset": 424,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          0,
+          1
+        ],
+        "target": [
+          2,
+          14
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "85a806010e"
+      },
+      {
+        "segment": 1,
+        "offset": 445,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          15
+        ],
+        "target": [
+          2,
+          15
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "c5bd260f0f"
+      },
+      {
+        "segment": 1,
+        "offset": 495,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          0,
+          1
+        ],
+        "target": [
+          2,
+          13
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "85ef06010d"
+      },
+      {
+        "segment": 1,
+        "offset": 554,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          0,
+          1
+        ],
+        "target": [
+          2,
+          14
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "862a06010e"
+      },
+      {
+        "segment": 1,
+        "offset": 604,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          0,
+          1
+        ],
+        "target": [
+          0,
+          1
+        ],
+        "displacement": 547,
+        "record_offset": 1420,
+        "raw": "865c0001012302"
+      },
+      {
+        "segment": 1,
+        "offset": 721,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          1
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "c6d1160101"
+      },
+      {
+        "segment": 1,
+        "offset": 729,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          19
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "c6d9160113"
+      },
+      {
+        "segment": 1,
+        "offset": 732,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          12
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "c6dc16010c"
+      },
+      {
+        "segment": 1,
+        "offset": 736,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          0,
+          1
+        ],
+        "target": [
+          2,
+          9
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "86e0060109"
+      },
+      {
+        "segment": 1,
+        "offset": 750,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          19
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "c6ee160113"
+      },
+      {
+        "segment": 1,
+        "offset": 753,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          12
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "c6f116010c"
+      },
+      {
+        "segment": 1,
+        "offset": 757,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          0,
+          1
+        ],
+        "target": [
+          2,
+          9
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "86f5060109"
+      },
+      {
+        "segment": 1,
+        "offset": 775,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          19
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "c707160113"
+      },
+      {
+        "segment": 1,
+        "offset": 780,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          1
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "c70c160101"
+      },
+      {
+        "segment": 1,
+        "offset": 793,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          16
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "c719160110"
+      },
+      {
+        "segment": 1,
+        "offset": 799,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          0,
+          1
+        ],
+        "target": [
+          2,
+          3
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "871f060103"
+      },
+      {
+        "segment": 1,
+        "offset": 811,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          1
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "c72b160101"
+      },
+      {
+        "segment": 1,
+        "offset": 847,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          19
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "c74f160113"
+      },
+      {
+        "segment": 1,
+        "offset": 850,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          12
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "c75216010c"
+      },
+      {
+        "segment": 1,
+        "offset": 854,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          0,
+          1
+        ],
+        "target": [
+          2,
+          9
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "8756060109"
+      },
+      {
+        "segment": 1,
+        "offset": 866,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          1
+        ],
+        "displacement": null,
+        "record_offset": 1420,
+        "raw": "c762160101"
+      }
+    ],
+    "records": [
+      [
+        128,
+        0,
+        "08554e49542e41534d"
+      ],
+      [
+        150,
+        13,
+        "00064447524f555003425353044441544104434f4445045f425353055f4441544105434f4e5354055f54455854"
+      ],
+      [
+        152,
+        62,
+        "486a03090501"
+      ],
+      [
+        152,
+        72,
+        "480000070401"
+      ],
+      [
+        152,
+        82,
+        "480000080801"
+      ],
+      [
+        152,
+        92,
+        "480000060301"
+      ],
+      [
+        154,
+        102,
+        "02ff03ff04ff02"
+      ],
+      [
+        140,
+        113,
+        "065f63656c6c73000c5f6672616d655f696e646578000c5f71756575655f7069656365000c5f6672616d655f6c6973747300125f616e696d6174696f6e5f636f756e746572000c5f61737365745f737461746500135f636f6d706f73655f6672616d655f3362336100075f6672616d6573000d5f6465746163685f6163746f7200135f6d616e6167655f61737365745f6172656e61000d5f6174746163685f6163746f7200075f6163746f7273000e5f64697370617463685f6338336100085f5f63686b73746b000f5f636f6d6d616e645f61637469766500095f6b696e645f6d617000155f726573746f72655f6163746976655f6172656e6100105f636170747572655f70656e64696e67000a5f6163746f725f6d6170000a5f5f6163727475736564000a5f706f705f76616c756500125f72656d6f76655f6163746f725f3539333400"
+      ],
+      [
+        144,
+        442,
+        "0001125f636170747572655f7461736b5f373566366a0000135f7472616e736665725f7461736b5f373538630000000f5f756e646f5f616e696d6174696f6e230200105f7461736b5f72656164795f37373264a10100"
+      ],
+      [
+        136,
+        532,
+        "00a201"
+      ],
+      [
+        160,
+        539,
+        "010000558bec33c0e8000057568b7604ff74068b5c0c8a9f000081e33f008b3e00008a012ae4b103d3e0050000508b5c068a470a2ae450ff7706ff7704e8000083c40a817c0eff007410b81c00f76c0e05000050e8000083c4028b5c06c747080000b80100eb005e5f8be55dc3558becb80a00e8000057568b7604803e00000175052bc0e90000807c02ff7541803e0000047535807c0e007427a0000000060000833e0000007519e800008a1e00002affc687000001b0ffa20000a20000e80000b80100e90000eb052bc0e9000056e8000083c4020bc075052bc0e900008b048946f68b7c068b440c8946fe837ef60075538bd8803fff750dc64402fffe0600002bc0e900008b5efeff46fe8a1f2affd1e38b8700008946f68bd88346f6028b07b103d3e00500008946fa57508a450a2ae450ff7502ff35e8000083c40ac745080000eb3d8b45148946fae800008946fc508b5ef68346f602ff37ff76fae8000083c4068b46fc8946fa57508a450a2ae450ff7502ff35e8000083c40ac7450801008b5ef6833fff7505c746f600008b46f689048b46fe89440c2bc0eb005e5f8be55dc3558becb80200e80000568b7604807c02007407fe4c022bc0eb63833e00000075538b5c048a078846fe3c7f762c3cff74288b5c048a47012ae42d4000508b5c068a470a2ae4508a46fe250f0050e8000083c40683440402ebc88b5c04803fff7506c6440200eb0b8b5c04ff44048a07884402eb04c6440200b80100eb005e8be55dc3558becb81200e8000057568b7604837c0400746e807c060175688b048946ee8b44028946f0c746f200008a44068846f4c646f5008d46ee50e8000083c4028a0424073c0675178b0425f0000c058946ee8b440225f0000c078946f0eb138b0425f0000c038946ee8b440225f0008946f0c646f403c646f500c746f200008d46ee8bf08b4402d1f8243834388a4c0280e1070ac18846f68b04d1f8243834388a0c80e1070ac18846f82ae48bf838a500007410b01cf6a5000005000050e8000083c4028a5ef62affb01cf6a7000005000050e8000083c4028a46f62ae48bf88a46f8508a850000508a850000254000508a5c062aff8a8700002ae450e8000083c4088a5ef62aff88bf0000837c04007431807c0606752b8a46f624388a4ef880e1070ac18846f68ad8b01cf6a7000005000050e8000083c4028a5ef62aff88bf00005e5f8be55dc3"
+      ],
+      [
+        156,
+        1420,
+        "840606010ec415160101c41d260202c428260808843b06010bc44e260c0c8452060116847106010ec47a26121284820001019b01c48c261212c498261212c49c260505c4a0260f0f84a6060111c4aa2206060d00c4b01201060500c4b62206060d00c4b92206060c0084bc06010a84c20001019b0184c90001019b0184cd000101a10184d90001019b01c4fc26121285010001019b01c511160104c523260808853606010b8549060115855c060107857506010b85a806010ec5bd260f0f85ef06010d862a06010e865c0001012302c6d1160101c6d9160113c6dc16010c86e0060109c6ee160113c6f116010c86f5060109c707160113c70c160101c719160110871f060103c72b160101c74f160113c75216010c8756060109c762160101"
+      ],
+      [
+        138,
+        1711,
+        "00"
+      ]
+    ]
+  },
+  "whole_C5_snapshot": {
+    "names": [
+      "",
+      "",
+      "DGROUP",
+      "_TEXT",
+      "CODE",
+      "_DATA",
+      "DATA",
+      "CONST",
+      "_BSS",
+      "BSS",
+      "$$TYPES",
+      "DEBTYP",
+      "$$SYMBOLS",
+      "DEBSYM"
+    ],
+    "segments": [
+      {
+        "index": 1,
+        "length": 548,
+        "name_index": 3,
+        "class_index": 4,
+        "overlay_index": 1,
+        "attributes": 72,
+        "chunks": [
+          [
+            0,
+            "558bec33c0e8000057568b7604"
+          ],
+          [
+            13,
+            "ff74068b5c0c8a9f000081e33f008b3e00008a012ae4b103d3e0050000508b5c068a470a2ae450ff7706ff7704e8000083c40a817c0eff007410b81c00f76c0e05000050e8000083c4028b5c06c747080000b80100eb00"
+          ],
+          [
+            100,
+            "5e5f8be55dc3"
+          ],
+          [
+            106,
+            "558becb80a00e8000057568b7604"
+          ],
+          [
+            120,
+            "803e00000175052bc0e91701807c02ff7541803e0000047535807c0e007427a0000000060000833e0000007519e800008a1e0d002affc687050001b0ffa20d00a20c00e80000b80100e9d700eb052bc0e9d00056e8000083c4020bc075052bc0e9c0008b048946f68b7c068b440c8946fe837ef60075538bd8803fff750dc64402fffe0600002bc0e998008b5efeff46fe8a1f2affd1e38b8700008946f68bd88346f6028b07b103d3e00500008946fa57508a450a2ae450ff7502ff35e8000083c40ac745080000eb3d8b45148946fae800008946fc508b5ef68346f602ff37ff76fae8000083c4068b46fc8946fa57508a450a2ae450ff7502ff35e8000083c40ac7450801008b5ef6833fff7505c746f600008b46f689048b46fe89440c2bc0eb00"
+          ],
+          [
+            411,
+            "5e5f8be55dc3"
+          ],
+          [
+            417,
+            "558becb80200e80000568b7604"
+          ],
+          [
+            430,
+            "807c02007407fe4c022bc0eb63833e00000075538b5c048a078846fe3c7f762c3cff74288b5c048a47012ae42d4000508b5c068a470a2ae4508a46fe250f0050e8000083c40683440402ebc88b5c04803fff7506c6440200eb0b8b5c04ff44048a07884402eb04c6440200b80100eb00"
+          ],
+          [
+            542,
+            "5e8be55dc3"
+          ],
+          [
+            547,
+            "90"
+          ]
+        ],
+        "unsupported_data": false,
+        "name": "_TEXT",
+        "class_name": "CODE"
+      },
+      {
+        "index": 2,
+        "length": 0,
+        "name_index": 5,
+        "class_index": 6,
+        "overlay_index": 1,
+        "attributes": 72,
+        "chunks": [],
+        "unsupported_data": false,
+        "name": "_DATA",
+        "class_name": "DATA"
+      },
+      {
+        "index": 3,
+        "length": 0,
+        "name_index": 7,
+        "class_index": 7,
+        "overlay_index": 1,
+        "attributes": 72,
+        "chunks": [],
+        "unsupported_data": false,
+        "name": "CONST",
+        "class_name": "CONST"
+      },
+      {
+        "index": 4,
+        "length": 0,
+        "name_index": 8,
+        "class_index": 9,
+        "overlay_index": 1,
+        "attributes": 72,
+        "chunks": [],
+        "unsupported_data": false,
+        "name": "_BSS",
+        "class_name": "BSS"
+      },
+      {
+        "index": 5,
+        "length": 415,
+        "name_index": 12,
+        "class_index": 13,
+        "overlay_index": 1,
+        "attributes": 32,
+        "chunks": [
+          [
+            0,
+            "210100003f02000000000000000000127472616e736665725f7461736b5f37353863"
+          ],
+          [
+            34,
+            "05000d0000000a0404001802047461736b090d18020e047461736b"
+          ],
+          [
+            61,
+            "0102"
+          ],
+          [
+            38,
+            "5700"
+          ],
+          [
+            0,
+            "210100003f026a000d006400000000127472616e736665725f7461736b5f37353863"
+          ],
+          [
+            63,
+            "01022001000043026a000d00640000000011636170747572655f7461736b5f37356636"
+          ],
+          [
+            98,
+            "05000e0000000a0404001802047461736b090d18020e047461736b0704feffa40001610704fcff080201620704faff08020163060d0a020f01640704f6ffa1000165"
+          ],
+          [
+            164,
+            "0102"
+          ],
+          [
+            102,
+            "2301"
+          ],
+          [
+            65,
+            "200100004302370178009b0100000011636170747572655f7461736b5f37356636"
+          ],
+          [
+            166,
+            "01021e0100004a02a10178009b010000000f7461736b5f72656164795f37373264"
+          ],
+          [
+            199,
+            "05000d0000000a0404001802047461736b090d18020e047461736b0704feff84000161"
+          ],
+          [
+            234,
+            "0102"
+          ],
+          [
+            203,
+            "7000"
+          ],
+          [
+            168,
+            "1e0100004a028200ae011e020000000f7461736b5f72656164795f37373264"
+          ],
+          [
+            236,
+            "0102"
+          ],
+          [
+            238,
+            "190500000000840011616e696d6174696f6e5f636f756e746572130500000000a4000b6672616d655f696e64657816050000000081000e636f6d6d616e645f61637469766513050000000026020b6672616d655f6c697374730e05000000000f02066163746f72730e05000000001002066672616d657313050000000034020b61737365745f73746174650d050000000011020563656c6c7317050000000084000f636170747572655f70656e64696e67"
+          ]
+        ],
+        "unsupported_data": false,
+        "name": "$$SYMBOLS",
+        "class_name": "DEBSYM"
+      },
+      {
+        "index": 6,
+        "length": 1120,
+        "name_index": 10,
+        "class_index": 11,
+        "overlay_index": 1,
+        "attributes": 32,
+        "chunks": [
+          [
+            0,
+            "01010080010100800101008001010080010c007940058305028306028200690110007f83840083840083800083800083e0000128007f82057769647468880082066865696768748801820178880282017988038206706978656c738804010100800107007a7483040282000107007a738385008200010c007a74830b0282054163746f720113007985e0000e830c02830d0282054163746f7269012b007f838100838100838100838100838100838400838400838100838100838100838100830802830902830a020178007f8201788800820179880282056f6c645f78880482056f6c645f7988068204666c616788088206636f6c6f7572880a8206737175617265880b82046c656674880c82057269676874880e8203746f7088108206626f74746f6d881282056672616d65881482087265736f75726365881682046e657874881a010100800105007800830b02010500780083040201050078008380000101008001010080010100800101008001010080010100800114007a74831902820d416e696d6174696f6e5461736b011b007985c0000a832302832402820d416e696d6174696f6e5461736b69010c00795009831b02831c02820069011c007f8384008384008384008384008384008384008384008384008381000152007f820466726f6d88008202746f880182046b696e648802820c6672616d65636f756e74657288038205737461676588048208696e76657274656488058201788806820179880782087461726765745f798808010c00795005831e02831f028200690110007f8381008381008381008381008381000129007f8206776f7264313488008206776f7264313688028206776f72643138880482017888068201798808010c007950028321028322028200690107007f831a02831d020113007f8205627974657388008205776f7264738800011f007f83810083840083840083a400830a028384008384008318028381008320020165007f8205776f726430880082057374617465880282047061643388038207636f6e74726f6c880482056163746f72880682096f7065726174696f6e88088207636f6d6d616e64880982046e657874880a820873657175656e6365880c820664657461696c880e01010080010500780083a10001010080010100800101008001010080010100800101008001010080010100800105007830838000010c00797004833102833202820069010d007f832f02832f02838400838400"
+          ],
+          [
+            905,
+            "0129007f82066c6f6164656488008209726571756573746564880682046c656674880c82057269676874880d0105007870838000010c007970028335028336028200690107007f8330028333020113007f82056e616d65648800820562797465738800010100800101008001010080010100800101008001010080010100800104007f831802010a0075808381006301833e0201010080010100800104007f831802010a007580838100630183420201010080010100800101008001010080010100800104007f831802010a0075808381006301834902"
+          ]
+        ],
+        "unsupported_data": false,
+        "name": "$$TYPES",
+        "class_name": "DEBTYP"
+      }
+    ],
+    "publics": {
+      "_transfer_task_758c": {
+        "name": "_transfer_task_758c",
+        "segment": 1,
+        "offset": 0,
+        "group": 0,
+        "type_index": 575
+      },
+      "_capture_task_75f6": {
+        "name": "_capture_task_75f6",
+        "segment": 1,
+        "offset": 106,
+        "group": 0,
+        "type_index": 579
+      },
+      "_task_ready_772d": {
+        "name": "_task_ready_772d",
+        "segment": 1,
+        "offset": 417,
+        "group": 0,
+        "type_index": 586
+      }
+    },
+    "externals": [
+      [
+        1,
+        "__acrtused"
+      ],
+      [
+        2,
+        "_animation_counter"
+      ],
+      [
+        3,
+        "_frame_index"
+      ],
+      [
+        4,
+        "_restore_active_arena"
+      ],
+      [
+        5,
+        "_manage_asset_arena"
+      ],
+      [
+        6,
+        "_remove_actor_5934"
+      ],
+      [
+        7,
+        "_attach_actor"
+      ],
+      [
+        8,
+        "_dispatch_c83a"
+      ],
+      [
+        9,
+        "_transfer_task_758c"
+      ],
+      [
+        10,
+        "_capture_task_75f6"
+      ],
+      [
+        11,
+        "__chkstk"
+      ],
+      [
+        12,
+        "_command_active"
+      ],
+      [
+        13,
+        "_frame_lists"
+      ],
+      [
+        14,
+        "_task_ready_772d"
+      ],
+      [
+        15,
+        "_pop_value"
+      ],
+      [
+        16,
+        "_compose_frame_3b3a"
+      ],
+      [
+        17,
+        "_actors"
+      ],
+      [
+        18,
+        "_frames"
+      ],
+      [
+        19,
+        "_asset_state"
+      ],
+      [
+        20,
+        "_cells"
+      ],
+      [
+        21,
+        "_capture_pending"
+      ]
+    ],
+    "procedures": {
+      "_transfer_task_758c": {
+        "length": 106,
+        "debug_symbol_offset": 0,
+        "name": "transfer_task_758c",
+        "debug_segment": 5,
+        "relocation_record_offset": 971
+      },
+      "_capture_task_75f6": {
+        "length": 311,
+        "debug_symbol_offset": 65,
+        "name": "capture_task_75f6",
+        "debug_segment": 5,
+        "relocation_record_offset": 1588
+      },
+      "_task_ready_772d": {
+        "length": 130,
+        "debug_symbol_offset": 168,
+        "name": "task_ready_772d",
+        "debug_segment": 5,
+        "relocation_record_offset": 1921
+      }
+    },
+    "fixups": [
+      {
+        "segment": 5,
+        "offset": 2,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          9
+        ],
+        "displacement": null,
+        "record_offset": 699,
+        "raw": "c4025609"
+      },
+      {
+        "segment": 1,
+        "offset": 6,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          11
+        ],
+        "displacement": null,
+        "record_offset": 727,
+        "raw": "8406560b"
+      },
+      {
+        "segment": 5,
+        "offset": 36,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          9
+        ],
+        "displacement": null,
+        "record_offset": 769,
+        "raw": "c4025609"
+      },
+      {
+        "segment": 1,
+        "offset": 82,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          6
+        ],
+        "displacement": null,
+        "record_offset": 871,
+        "raw": "84455606"
+      },
+      {
+        "segment": 1,
+        "offset": 78,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          17
+        ],
+        "displacement": null,
+        "record_offset": 871,
+        "raw": "c4415611"
+      },
+      {
+        "segment": 1,
+        "offset": 59,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          7
+        ],
+        "displacement": null,
+        "record_offset": 871,
+        "raw": "842e5607"
+      },
+      {
+        "segment": 1,
+        "offset": 40,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          18
+        ],
+        "displacement": null,
+        "record_offset": 871,
+        "raw": "c41b5612"
+      },
+      {
+        "segment": 1,
+        "offset": 29,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          3
+        ],
+        "displacement": null,
+        "record_offset": 871,
+        "raw": "c4105603"
+      },
+      {
+        "segment": 1,
+        "offset": 21,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          20
+        ],
+        "displacement": null,
+        "record_offset": 871,
+        "raw": "c4085614"
+      },
+      {
+        "segment": 5,
+        "offset": 2,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          9
+        ],
+        "displacement": null,
+        "record_offset": 971,
+        "raw": "c4025609"
+      },
+      {
+        "segment": 5,
+        "offset": 67,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          10
+        ],
+        "displacement": null,
+        "record_offset": 1021,
+        "raw": "c404560a"
+      },
+      {
+        "segment": 1,
+        "offset": 113,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          11
+        ],
+        "displacement": null,
+        "record_offset": 1050,
+        "raw": "8407560b"
+      },
+      {
+        "segment": 5,
+        "offset": 100,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          10
+        ],
+        "displacement": null,
+        "record_offset": 1131,
+        "raw": "c402560a"
+      },
+      {
+        "segment": 1,
+        "offset": 373,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          7
+        ],
+        "displacement": null,
+        "record_offset": 1437,
+        "raw": "84fd5607"
+      },
+      {
+        "segment": 1,
+        "offset": 348,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          16
+        ],
+        "displacement": null,
+        "record_offset": 1437,
+        "raw": "84e45610"
+      },
+      {
+        "segment": 1,
+        "offset": 329,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          15
+        ],
+        "displacement": null,
+        "record_offset": 1437,
+        "raw": "84d1560f"
+      },
+      {
+        "segment": 1,
+        "offset": 310,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          7
+        ],
+        "displacement": null,
+        "record_offset": 1437,
+        "raw": "84be5607"
+      },
+      {
+        "segment": 1,
+        "offset": 291,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          18
+        ],
+        "displacement": null,
+        "record_offset": 1437,
+        "raw": "c4ab5612"
+      },
+      {
+        "segment": 1,
+        "offset": 273,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          13
+        ],
+        "displacement": null,
+        "record_offset": 1437,
+        "raw": "c499560d"
+      },
+      {
+        "segment": 1,
+        "offset": 252,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          21
+        ],
+        "displacement": null,
+        "record_offset": 1437,
+        "raw": "c4845615"
+      },
+      {
+        "segment": 1,
+        "offset": 205,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          14
+        ],
+        "displacement": null,
+        "record_offset": 1437,
+        "raw": "8455560e"
+      },
+      {
+        "segment": 1,
+        "offset": 188,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          5
+        ],
+        "displacement": null,
+        "record_offset": 1437,
+        "raw": "84445605"
+      },
+      {
+        "segment": 1,
+        "offset": 185,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          19
+        ],
+        "displacement": null,
+        "record_offset": 1437,
+        "raw": "c4415613"
+      },
+      {
+        "segment": 1,
+        "offset": 182,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          19
+        ],
+        "displacement": null,
+        "record_offset": 1437,
+        "raw": "c43e5613"
+      },
+      {
+        "segment": 1,
+        "offset": 176,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          19
+        ],
+        "displacement": null,
+        "record_offset": 1437,
+        "raw": "c4385613"
+      },
+      {
+        "segment": 1,
+        "offset": 170,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          19
+        ],
+        "displacement": null,
+        "record_offset": 1437,
+        "raw": "c4325613"
+      },
+      {
+        "segment": 1,
+        "offset": 166,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          4
+        ],
+        "displacement": null,
+        "record_offset": 1437,
+        "raw": "842e5604"
+      },
+      {
+        "segment": 1,
+        "offset": 160,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          12
+        ],
+        "displacement": null,
+        "record_offset": 1437,
+        "raw": "c428560c"
+      },
+      {
+        "segment": 1,
+        "offset": 156,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          2
+        ],
+        "displacement": null,
+        "record_offset": 1437,
+        "raw": "c4245602"
+      },
+      {
+        "segment": 1,
+        "offset": 152,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          21
+        ],
+        "displacement": null,
+        "record_offset": 1437,
+        "raw": "c4205615"
+      },
+      {
+        "segment": 1,
+        "offset": 140,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          21
+        ],
+        "displacement": null,
+        "record_offset": 1437,
+        "raw": "c4145615"
+      },
+      {
+        "segment": 1,
+        "offset": 122,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          21
+        ],
+        "displacement": null,
+        "record_offset": 1437,
+        "raw": "c4025615"
+      },
+      {
+        "segment": 5,
+        "offset": 67,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          10
+        ],
+        "displacement": null,
+        "record_offset": 1588,
+        "raw": "c402560a"
+      },
+      {
+        "segment": 5,
+        "offset": 170,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          14
+        ],
+        "displacement": null,
+        "record_offset": 1636,
+        "raw": "c404560e"
+      },
+      {
+        "segment": 1,
+        "offset": 424,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          11
+        ],
+        "displacement": null,
+        "record_offset": 1664,
+        "raw": "8407560b"
+      },
+      {
+        "segment": 5,
+        "offset": 201,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          14
+        ],
+        "displacement": null,
+        "record_offset": 1714,
+        "raw": "c402560e"
+      },
+      {
+        "segment": 1,
+        "offset": 495,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          8
+        ],
+        "displacement": null,
+        "record_offset": 1841,
+        "raw": "84415608"
+      },
+      {
+        "segment": 1,
+        "offset": 445,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          12
+        ],
+        "displacement": null,
+        "record_offset": 1841,
+        "raw": "c40f560c"
+      },
+      {
+        "segment": 5,
+        "offset": 170,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          14
+        ],
+        "displacement": null,
+        "record_offset": 1921,
+        "raw": "c402560e"
+      },
+      {
+        "segment": 5,
+        "offset": 393,
+        "width": 4,
+        "location_type": 3,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          21
+        ],
+        "displacement": null,
+        "record_offset": 2272,
+        "raw": "cc9b5615"
+      },
+      {
+        "segment": 5,
+        "offset": 379,
+        "width": 4,
+        "location_type": 3,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          20
+        ],
+        "displacement": null,
+        "record_offset": 2272,
+        "raw": "cc8d5614"
+      },
+      {
+        "segment": 5,
+        "offset": 359,
+        "width": 4,
+        "location_type": 3,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          19
+        ],
+        "displacement": null,
+        "record_offset": 2272,
+        "raw": "cc795613"
+      },
+      {
+        "segment": 5,
+        "offset": 344,
+        "width": 4,
+        "location_type": 3,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          18
+        ],
+        "displacement": null,
+        "record_offset": 2272,
+        "raw": "cc6a5612"
+      },
+      {
+        "segment": 5,
+        "offset": 329,
+        "width": 4,
+        "location_type": 3,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          17
+        ],
+        "displacement": null,
+        "record_offset": 2272,
+        "raw": "cc5b5611"
+      },
+      {
+        "segment": 5,
+        "offset": 309,
+        "width": 4,
+        "location_type": 3,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          13
+        ],
+        "displacement": null,
+        "record_offset": 2272,
+        "raw": "cc47560d"
+      },
+      {
+        "segment": 5,
+        "offset": 286,
+        "width": 4,
+        "location_type": 3,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          12
+        ],
+        "displacement": null,
+        "record_offset": 2272,
+        "raw": "cc30560c"
+      },
+      {
+        "segment": 5,
+        "offset": 266,
+        "width": 4,
+        "location_type": 3,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          3
+        ],
+        "displacement": null,
+        "record_offset": 2272,
+        "raw": "cc1c5603"
+      },
+      {
+        "segment": 5,
+        "offset": 240,
+        "width": 4,
+        "location_type": 3,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          2
+        ],
+        "displacement": null,
+        "record_offset": 2272,
+        "raw": "cc025602"
+      }
+    ],
+    "records": [
+      [
+        128,
+        0,
+        "09433a5c554e49542e43"
+      ],
+      [
+        136,
+        14,
+        "00004d532043"
+      ],
+      [
+        136,
+        24,
+        "009f534c49424345"
+      ],
+      [
+        136,
+        36,
+        "009d30734f"
+      ],
+      [
+        136,
+        45,
+        "00a1014356"
+      ],
+      [
+        150,
+        54,
+        "00064447524f5550055f5445585404434f4445055f44415441044441544105434f4e5354045f4253530342535307242454595045530644454254595009242453594d424f4c530644454253594d"
+      ],
+      [
+        152,
+        135,
+        "482402030401"
+      ],
+      [
+        152,
+        145,
+        "480000050601"
+      ],
+      [
+        152,
+        155,
+        "480000070701"
+      ],
+      [
+        152,
+        165,
+        "480000080901"
+      ],
+      [
+        152,
+        175,
+        "209f010c0d01"
+      ],
+      [
+        152,
+        185,
+        "2060040a0b01"
+      ],
+      [
+        154,
+        195,
+        "02ff03ff04ff02"
+      ],
+      [
+        156,
+        206,
+        "000301020201030440014501"
+      ],
+      [
+        140,
+        222,
+        "0a5f5f616372747573656401125f616e696d6174696f6e5f636f756e74657280840c5f6672616d655f696e64657880a4155f726573746f72655f6163746976655f6172656e618238135f6d616e6167655f61737365745f6172656e618238125f72656d6f76655f6163746f725f35393334823a0d5f6174746163685f6163746f7282120e5f64697370617463685f63383361823c135f7472616e736665725f7461736b5f37353863823f125f636170747572655f7461736b5f373566368243085f5f63686b73746b000f5f636f6d6d616e645f61637469766580810c5f6672616d655f6c697374738226105f7461736b5f72656164795f37373264824a0a5f706f705f76616c75658229135f636f6d706f73655f6672616d655f33623361822b075f6163746f7273820f075f6672616d657382100c5f61737365745f73746174658234065f63656c6c738211105f636170747572655f70656e64696e678084"
+      ],
+      [
+        144,
+        577,
+        "0001135f7472616e736665725f7461736b5f373538630000823f125f636170747572655f7461736b5f373566366a008243105f7461736b5f72656164795f37373264a101824a"
+      ],
+      [
+        136,
+        651,
+        "00a201"
+      ],
+      [
+        160,
+        658,
+        "050000210100003f02000000000000000000127472616e736665725f7461736b5f37353863"
+      ],
+      [
+        156,
+        699,
+        "c4025609"
+      ],
+      [
+        160,
+        707,
+        "010000558bec33c0e8000057568b7604"
+      ],
+      [
+        156,
+        727,
+        "8406560b"
+      ],
+      [
+        160,
+        735,
+        "05220005000d0000000a0404001802047461736b090d18020e047461736b"
+      ],
+      [
+        156,
+        769,
+        "c4025609"
+      ],
+      [
+        160,
+        777,
+        "010d00ff74068b5c0c8a9f000081e33f008b3e00008a012ae4b103d3e0050000508b5c068a470a2ae450ff7706ff7704e8000083c40a817c0eff007410b81c00f76c0e05000050e8000083c4028b5c06c747080000b80100eb00"
+      ],
+      [
+        156,
+        871,
+        "84455606c4415611842e5607c41b5612c4105603c4085614"
+      ],
+      [
+        160,
+        899,
+        "053d000102"
+      ],
+      [
+        160,
+        908,
+        "0526005700"
+      ],
+      [
+        160,
+        917,
+        "0164005e5f8be55dc3"
+      ],
+      [
+        160,
+        930,
+        "050000210100003f026a000d006400000000127472616e736665725f7461736b5f37353863"
+      ],
+      [
+        156,
+        971,
+        "c4025609"
+      ],
+      [
+        160,
+        979,
+        "053f0001022001000043026a000d00640000000011636170747572655f7461736b5f37356636"
+      ],
+      [
+        156,
+        1021,
+        "c404560a"
+      ],
+      [
+        160,
+        1029,
+        "016a00558becb80a00e8000057568b7604"
+      ],
+      [
+        156,
+        1050,
+        "8407560b"
+      ],
+      [
+        160,
+        1058,
+        "05620005000e0000000a0404001802047461736b090d18020e047461736b0704feffa40001610704fcff080201620704faff08020163060d0a020f01640704f6ffa1000165"
+      ],
+      [
+        156,
+        1131,
+        "c402560a"
+      ],
+      [
+        160,
+        1139,
+        "017800803e00000175052bc0e91701807c02ff7541803e0000047535807c0e007427a0000000060000833e0000007519e800008a1e0d002affc687050001b0ffa20d00a20c00e80000b80100e9d700eb052bc0e9d00056e8000083c4020bc075052bc0e9c0008b048946f68b7c068b440c8946fe837ef60075538bd8803fff750dc64402fffe0600002bc0e998008b5efeff46fe8a1f2affd1e38b8700008946f68bd88346f6028b07b103d3e00500008946fa57508a450a2ae450ff7502ff35e8000083c40ac745080000eb3d8b45148946fae800008946fc508b5ef68346f602ff37ff76fae8000083c4068b46fc8946fa57508a450a2ae450ff7502ff35e8000083c40ac7450801008b5ef6833fff7505c746f600008b46f689048b46fe89440c2bc0eb00"
+      ],
+      [
+        156,
+        1437,
+        "84fd560784e4561084d1560f84be5607c4ab5612c499560dc48456158455560e84445605c4415613c43e5613c4385613c4325613842e5604c428560cc4245602c4205615c4145615c4025615"
+      ],
+      [
+        160,
+        1517,
+        "05a4000102"
+      ],
+      [
+        160,
+        1526,
+        "0566002301"
+      ],
+      [
+        160,
+        1535,
+        "019b015e5f8be55dc3"
+      ],
+      [
+        160,
+        1548,
+        "054100200100004302370178009b0100000011636170747572655f7461736b5f37356636"
+      ],
+      [
+        156,
+        1588,
+        "c402560a"
+      ],
+      [
+        160,
+        1596,
+        "05a60001021e0100004a02a10178009b010000000f7461736b5f72656164795f37373264"
+      ],
+      [
+        156,
+        1636,
+        "c404560e"
+      ],
+      [
+        160,
+        1644,
+        "01a101558becb80200e80000568b7604"
+      ],
+      [
+        156,
+        1664,
+        "8407560b"
+      ],
+      [
+        160,
+        1672,
+        "05c70005000d0000000a0404001802047461736b090d18020e047461736b0704feff84000161"
+      ],
+      [
+        156,
+        1714,
+        "c402560e"
+      ],
+      [
+        160,
+        1722,
+        "01ae01807c02007407fe4c022bc0eb63833e00000075538b5c048a078846fe3c7f762c3cff74288b5c048a47012ae42d4000508b5c068a470a2ae4508a46fe250f0050e8000083c40683440402ebc88b5c04803fff7506c6440200eb0b8b5c04ff44048a07884402eb04c6440200b80100eb00"
+      ],
+      [
+        156,
+        1841,
+        "84415608c40f560c"
+      ],
+      [
+        160,
+        1853,
+        "05ea000102"
+      ],
+      [
+        160,
+        1862,
+        "05cb007000"
+      ],
+      [
+        160,
+        1871,
+        "011e025e8be55dc3"
+      ],
+      [
+        160,
+        1883,
+        "05a8001e0100004a028200ae011e020000000f7461736b5f72656164795f37373264"
+      ],
+      [
+        156,
+        1921,
+        "c402560e"
+      ],
+      [
+        160,
+        1929,
+        "05ec000102"
+      ],
+      [
+        160,
+        1938,
+        "01230290"
+      ],
+      [
+        148,
+        1946,
+        "00011c0000001d000d001e0040001f0057002000640022006a00240078002500840026008a00270091002800970029009e002b00be002c00c6002e00cb002f00db003000e9003100ef0032000301340042013500670137007f0138008c0139009b013b00a1013d00ae013e00bb013f00c2014000d2014200fa0143000802440015024500190246001e02"
+      ],
+      [
+        160,
+        2088,
+        "05ee00190500000000840011616e696d6174696f6e5f636f756e746572130500000000a4000b6672616d655f696e64657816050000000081000e636f6d6d616e645f61637469766513050000000026020b6672616d655f6c697374730e05000000000f02066163746f72730e05000000001002066672616d657313050000000034020b61737365745f73746174650d050000000011020563656c6c7317050000000084000f636170747572655f70656e64696e67"
+      ],
+      [
+        156,
+        2272,
+        "cc9b5615cc8d5614cc795613cc6a5612cc5b5611cc47560dcc30560ccc1c5603cc025602"
+      ],
+      [
+        160,
+        2312,
+        "06000001010080010100800101008001010080010c007940058305028306028200690110007f83840083840083800083800083e0000128007f82057769647468880082066865696768748801820178880282017988038206706978656c738804010100800107007a7483040282000107007a738385008200010c007a74830b0282054163746f720113007985e0000e830c02830d0282054163746f7269012b007f838100838100838100838100838100838400838400838100838100838100838100830802830902830a020178007f8201788800820179880282056f6c645f78880482056f6c645f7988068204666c616788088206636f6c6f7572880a8206737175617265880b82046c656674880c82057269676874880e8203746f7088108206626f74746f6d881282056672616d65881482087265736f75726365881682046e657874881a010100800105007800830b02010500780083040201050078008380000101008001010080010100800101008001010080010100800114007a74831902820d416e696d6174696f6e5461736b011b007985c0000a832302832402820d416e696d6174696f6e5461736b69010c00795009831b02831c02820069011c007f8384008384008384008384008384008384008384008384008381000152007f820466726f6d88008202746f880182046b696e648802820c6672616d65636f756e74657288038205737461676588048208696e76657274656488058201788806820179880782087461726765745f798808010c00795005831e02831f028200690110007f8381008381008381008381008381000129007f8206776f7264313488008206776f7264313688028206776f72643138880482017888068201798808010c007950028321028322028200690107007f831a02831d020113007f8205627974657388008205776f7264738800011f007f83810083840083840083a400830a028384008384008318028381008320020165007f8205776f726430880082057374617465880282047061643388038207636f6e74726f6c880482056163746f72880682096f7065726174696f6e88088207636f6d6d616e64880982046e657874880a820873657175656e6365880c820664657461696c880e01010080010500780083a10001010080010100800101008001010080010100800101008001010080010100800105007830838000010c00797004833102833202820069010d007f832f02832f02838400838400"
+      ],
+      [
+        160,
+        3224,
+        "0689030129007f82066c6f6164656488008209726571756573746564880682046c656674880c82057269676874880d0105007870838000010c007970028335028336028200690107007f8330028333020113007f82056e616d65648800820562797465738800010100800101008001010080010100800101008001010080010100800104007f831802010a0075808381006301833e0201010080010100800104007f831802010a007580838100630183420201010080010100800101008001010080010100800104007f831802010a0075808381006301834902"
+      ],
+      [
+        138,
+        3446,
+        "00"
+      ]
+    ]
+  },
+  "source_transform": {
+    "transform": "tail547-undo327-authenticated-C3-EOF-one-imm16-type-v2",
+    "fresh_FA_SHA256": "c2d3b9036c5880b2f2c3a2e9dd32039435e308c5250bf4cbe10700336c553fe9",
+    "C_source_SHA256": "04bbd276676732e28baf30a60c2be1d7e512e4f6ae0231fc445e0f99559705d0",
+    "authored_ASM_SHA256": "d904072821c84fa1672f6c22632ac1160962fd5d4bab1e424565f12dde075ad1",
+    "original_C_three_PROCs_SHA256": "91a371bd70778a6b46d3a67532ab06cce97dfbdd104fd1e1be5566e5e9fada87",
+    "qualified_C_three_PROCs_SHA256": "bce1328a85a9d54b81ec2ebe78256047aafaa4239689750d6b867c9ae97957c5",
+    "C_PROCs_exact_except_one_immediate_type_qualifier": true,
+    "only_qualifier_transition": {
+      "plain": "\tand\tbx,63\r\n",
+      "qualified": "\tand\tbx,WORD PTR 63\r\n",
+      "semantics": "AND BX, immediate WORD63",
+      "native_and_genuine_C3_encoding": "81e33f00",
+      "calibration": "MASM510-AND-immediate-width-calibration-root-actual"
+    },
+    "authored_ASM_PROC_remains_verbatim": true,
+    "ASM_PROC_verbatim_SHA256": "0bc9d8a36da4b6f55852203ce1c845d54d97738dd99d57a5725f16cb3ba22f44",
+    "composed_source_SHA256": "a4a06a9d8bb374a457564a4667549f2be06b50ee9e61240154847879bf31688f",
+    "inverse_reconstructs_full_fresh_FA": true,
+    "only_empty_debug_declarations_omitted": 4,
+    "only_outside_ENDP_C3_NOP_deferred": true,
+    "final_alignment_directive": "EVEN",
+    "new_real_external_declarations": [
+      "EXTRN\t_actor_map:BYTE",
+      "EXTRN\t_kind_map:BYTE",
+      "EXTRN\t_detach_actor:NEAR",
+      "EXTRN\t_queue_piece:NEAR"
+    ],
+    "shared_byte_views_unchanged": [
+      "_cells",
+      "_actors"
+    ],
+    "target_profile_oldOBJ_reads": false
+  },
+  "C5_CODE548_final90_not_SOURCE": true,
+  "one_explicit_imm16_qualifier_CALIBRATED": true,
+  "historical_TU_or_source_language_claim": false
+}

@@ -1,0 +1,23 @@
+# Load-game dialog and rendering helpers
+
+This scope leaves CC72 uncredited and releases two genuine C helper matches326B. No canonical registry/core/tests were edited.
+
+## Exact helpers
+
+`src/probes/dialog_text_d551_match.c` emits the complete76-byte D551 procedure and76-byte CODE SEGDEF under genuine MSC5 `/AS /Gs /Os /Zi`. Its single used char automatic saves text[limit], the helper temporarily writes a NUL for bounded drawing, and then restores the byte. The compiler rounds that real char storage to two stack bytes. Existing pen_x/pen_y bindings and draw_text_e915 are preserved. OriginalD551 is odd, so genuine enclosing WORD placement is still needed; exact function/CODE bytes do not establish a historical standalone module.
+
+`src/probes/highlight_game_d66c_match.c` emits the complete250-byte D66C procedure and250-byte CODE SEGDEF with the same flags. It repaints the old and new selected row using menu/border attributes, copies labels with two real near cursors, and updates the selected-row global. Its20-byte frame contains two used pointers and a16-byte line buffer. That buffer is space-filled for15 positions; the rendering helper accesses slot15 as its temporary terminator and restores the prior byte. The source preserves this original behavior without inventing initialization or adding frame words. Even imageD66C permits the emitted segment's WORD placement; historical source ownership is not inferred.
+
+Proposals: `build/load-game-dialog/helper-units.json`. Complete fresh compiler/CV/whole-CODE/independent fixup/MZ/prod evidence: `evidence/dialog-rendering-helpers-match.json`. Reproduce: `python3 matching/build/load-game-dialog/verify_helpers.py`. All5+16 raw code fields independently relocate to the complete original bytes. Both emitted and complete original interval MZ sets are empty, and all bytes remain exact at load paragraphs0,1,1234h,EE10h. Both fresh production builds return c_matched. Complete original raw contexts also include all100 bytes of next D59D and all218 bytes of next D766 respectively. There are no existing canonical interval overlaps.
+
+Text atDS2B28 is an observed real4-byte Text view: D551 stores the near pointer at2B2A, then passes2B28 to E915; D66C writes its attribute byte2B29. The new int dialog_selected binding at52D2 stores the current row. Data allocation/initialization ownership receives no credit. Existing pen_x,pen_y,border and menu_state names/types are used unchanged.
+
+## Bounded CC72 reconstruction
+
+`src/probes/load_game_dialog_cc72_pending.c` implements the full read/select/keyboard/mouse/double-click/load/cleanup behavior with every local used. Its frame exactly matches658 bytes: near buffer pointer2, eight16-byte rows128, unsigned current tick4, event pointer2, clicked/state word2, selected word2, last tick4, saved-game bytes512, and previous-selection word2. There are no padding autos or artificial helper calls.
+
+Fresh MSC5 `/AS /Gs /Os /Zi` emits614 bytes versus the complete610-byte original. The prefix through the first event condition matches except the forward epilogue displacement, but the optimizer puts event-kind6 checks before the kind7 body. The original executes the kind7 body first. Full comparison has415 differing byte positions after the resulting branch/layout changes, plus a four-byte emitted excess; it is not a four-byte patch problem. A nested-status form emits611 with a different poll layout; an outer switch emits613; default/Ot and C5.10 controls also fail. All complete candidate binaries/objects are retained. No target trimming, masks, source bytes, filler or code credit is used.
+
+Full negative proof and controls: `evidence/load-game-dialog-cc72-negative.json`; reproduction: `build/load-game-dialog/verify_pending.py`. Complete original1626-byte context authenticates CC72/610 plus entire next CED4/1016. Canonical restore_ui_92ab(Byte*,Byte) emits the same original full-word argument push, so that interface no longer needs a mismatched int formal. The explicit `(int)ticks_ea5b()` conversion preserves the original16-bit truncation/sign extension despite the actual BIOS long return; unsigned long tick subtraction and comparison are retained. The pending event structure is only a consumed six-word prefix view: the D766 producer's alternate path actually copies ten words, so complete shared event type ownership remains future work.
+
+Original CHESS.EXE SHA256 c32d4f6bc732b67efa65d55bc5813bc74dcfb52b8616894b57ed7aeeeed2a1cd. Complete dossiers/raw contexts begin `evidence/rea_load_dialog_`; root's original primary CC72 dossier remains `evidence/rea-root-cc72.json` and was reused without repeating the same request.

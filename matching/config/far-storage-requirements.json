@@ -1,0 +1,89 @@
+{
+  "classification": "Future source-layout constraints and verified mechanism; no matching-byte credit",
+  "allocation_option": {
+    "classification": "future source-allocation option only; no matching unit or historical source claim",
+    "form": "one static uninitialized huge array per distinct named source module",
+    "compiler": "msc500",
+    "flags": [
+      "/AS",
+      "/Zi"
+    ],
+    "required_relative_link_order": [
+      "BUF70",
+      "BUF150"
+    ],
+    "object_order_effect": "verified reversible by two authentic LINK executable controls",
+    "initializer": null,
+    "required_original_first_anchor": "0x270c0",
+    "required_original_second_anchor": "0x38230",
+    "required_original_following_dgroup": "0x5cc20",
+    "absolute_original_placement_reproduced": false,
+    "source_partition_recovered": false,
+    "no_gap_filler": true,
+    "matching_credit": 0,
+    "objects": {
+      "BUF70": {
+        "source": "src/probes/layout/private_capacity70000.c",
+        "source_name": "BUF70.C",
+        "object_sha256": "9c5992aa4dc9685235214349327e7acbe2c29e53936f2a321b7ebe37641a2b96",
+        "segments": [
+          {
+            "name": "BUF707_DATA",
+            "length": 65536,
+            "attributes": 106
+          },
+          {
+            "name": "BUF708_DATA",
+            "length": 4464,
+            "attributes": 104
+          }
+        ]
+      },
+      "BUF150": {
+        "source": "src/probes/layout/private_capacity150000.c",
+        "source_name": "BUF150.C",
+        "object_sha256": "0cbdbd30c0584b898b3353b985bef3ca0b4a6ca768badecd451aefbfb6bbbe57",
+        "segments": [
+          {
+            "name": "BUF1507_DATA",
+            "length": 65536,
+            "attributes": 106
+          },
+          {
+            "name": "BUF1508_DATA",
+            "length": 65536,
+            "attributes": 106
+          },
+          {
+            "name": "BUF1509_DATA",
+            "length": 18928,
+            "attributes": 104
+          }
+        ]
+      }
+    }
+  },
+  "original_absolute_placement_reproduced": false,
+  "real_consumer_source_ownership_resolved": false,
+  "complete_source_link_available": false,
+  "real_consumers_reconstructed": {
+    "buffer": "0x270c0",
+    "size": 70000,
+    "functions": [
+      {
+        "unit": "load_asset_bank_2525",
+        "complete_C_bytes": 231,
+        "buffer_MZ_site": "0x25e2"
+      },
+      {
+        "unit": "cache_asset_frame_3652",
+        "complete_C_bytes": 193,
+        "buffer_MZ_site": "0x36b8"
+      }
+    ],
+    "proof": "evidence/far-storage-consumer-experiment.json",
+    "reproducer": "evidence/far-storage-consumer-probe.py",
+    "all_original_270c_segment_relocations_accounted_for": true,
+    "limitation": "Consumer byte matches prove real uses; original allocation source ownership and absolute placement remain unresolved. Comparison placements do not supply a linked C definition."
+  }
+}

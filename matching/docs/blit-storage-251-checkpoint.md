@@ -1,0 +1,21 @@
+# C251 blit and storage checkpoint
+
+The goal remains exact reconstruction of the original 83,415-byte CHESS.EXE from genuine source. The complete source-built executable is still absent.
+
+All 422 units pass: 251 complete functions / 47,218 bytes, 107 C DATA contributions /2,006 bytes, 11 assembly functions /994 bytes, three separately counted assembly CODE allocations /1,175 bytes, 896 assembly DATA bytes and 4,240 runtime bytes. The complete-executable check correctly exits 1.
+
+This checkpoint has its own single 1245-test regression, passing in 1063.427 seconds with zero skips and all 10305 direct input hashes unchanged. Earlier 1,130-test packet/serial results remain an immutable earlier baseline, not this run's result.
+
+The new symbolic MASM blit allocation contains exactly 873 CODE bytes and 67 actual fields. Its one genuine PUBLIC begins at offset 280, after consumed CS scratch, a functional transparency table and symbolic dispatch words. The whole allocation earns separate assembly CODE credit; PUBLIC position does not define a new function extent. The raw instruction region retains its native final NOP and 75 independently controlled execution cases. No C function, assembly function or DATA credit is assigned to these internal pieces. Original translation-unit ownership and global linker MAP remain unproved.
+
+The initialized Blit prefix is a meaningful ten-member C structure of 24 bytes, compiled naturally into complete LEDATA/LIDATA and retained CodeView records. The closed profile preserves raw OMF and all typed offsets. It supplies no inferred six-byte gap, trailing structure capacity or historical aggregate ownership. A separate genuine saved word contributes two bytes. Fifteen existing C bodies remain byte-identical under coherent struct views; their actual MZ set has nine sites. Serial storage adds a consumed-compatible 128-byte COMMON ring and three scalar definitions, zero matching credit, plus a genuine initialized two-byte pointer. Historical spare ring capacity, COMMON allocation order and final MAP remain unknown.
+
+Eight source-only COMMON objects provide 51 definitions /267 allocation bytes, with zero initialized-byte or matching credit. Authentic LINK uses 182 unchanged actual objects and pinned runtime libraries, and fails only with L2029 for 256 missing providers. Seven names resolve since the previous checkpoint and no new requirements appear. There are no stubs, automatic aliases, target-mounted generation, object edits or execution of the partial output.
+
+The earlier packet context retains its native-consumed 39-byte minimum receive buffer and 42-byte compiler frame with used pointer home and WORD rounding. Historical buffer capacity and safety of the native unbounded ASCII path are unproved. The earlier serial allocation retains field 150's actual empty-DATA segment frame constraint, its internal raw IRQ CFG and saved DS word inside CODE, without inventing an ordinary handler function or duplicate DATA credit.
+
+Verified original-file spans cover 53,457 bytes (64.085596%); expanded spans cover 56,529 bytes. These are span coverage figures, not whole-program completion. Verified MZ sites comprise 113 C, 1 assembly and 2 runtime sites. DATA has zero current alignment obligations, while CODE retains 12 alignment constraints, 13 unequal whole spans and five confirmed non-CodeView collisions. Four compiler-owned CONST allocations retain 443 uncredited bytes.
+
+All 23 previous checkpoint records, 69 producer/output files and 88,204 archived paths verify unchanged. Current source naming is independently recorded in the versioned symbol inventory, with no historical identifier-change log relabelled as new work. Publication streams individual files with exclusive creation and exact before/after hashes. The previous C246 standalone recovery and C251 metadata-only prelaunch attempt remain preserved; neither is repeated or relabelled as this regression.
+
+[Checkpoint](../evidence/verification-251-blit-storage-checkpoint.json) · [Coverage](../evidence/regression-251-blit-storage-coverage.json) · [Actual LINK](../build/blit-storage-251-preparation/outputs/actual-LINK.json) · [Dependency inventory](../build/blit-storage-251-preparation/outputs/manifest.json) · [Current symbol bindings](../evidence/c-symbol-bindings-251-blit-storage.json)

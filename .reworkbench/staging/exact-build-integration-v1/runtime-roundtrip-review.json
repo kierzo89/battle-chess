@@ -1,0 +1,17 @@
+{
+  "status": "SAVE_LOAD_SEPARATE_LAUNCH_VERIFIED",
+  "save_sha256": "fd087937d085175b67228058c0d8705ace9e4f244013b47d30b813ff49bb6c2e",
+  "save_bytes": 512,
+  "save_name": "match1",
+  "save_evidence": "ev_9a3a9d188526ec9931dca57d212644a3bf524757d029a809aed091f632131b4f",
+  "load_evidence": "ev_504340bc162a37f6fc6be30eae0542aba56328d22262e90dc9f3b090356e69c1",
+  "fresh_process_for_load": true,
+  "saved_file_unchanged_after_loading": true,
+  "observations": [
+    "Load dialog lists saved match1",
+    "Initial full board before load; red e4 and blue d5 pawns restored after load",
+    "Saved and restored board visually agree; cursor highlight differs"
+  ],
+  "scope": "Functional smoke: startup, assets, legal move, opponent response, save, load. Not exhaustive game-rule/audio validation.",
+  "canonical_credit_added": 0
+}

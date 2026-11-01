@@ -1,0 +1,47 @@
+{
+  "id": "init_animation_code1083",
+  "language": "asm-code",
+  "backend": "masm510-animation-init-code-omf",
+  "object_profile": "animation_init_395instructions_1083",
+  "source": "asm/link/init_animation_6cb4.asm",
+  "source_sha256": "07ccfe9879496ab5997b83b9323247f63afe4d12bbd381a82d200337d9a6df33",
+  "assembler_sha256": "1c6286c69b616160b8475ad17453ee872702a2c98075c2159ec792a1c745275f",
+  "public_symbols": [
+    "_init_animation"
+  ],
+  "image_offset": "0x6cb4",
+  "size": 1083,
+  "externals": {
+    "__chkstk": 60586,
+    "_begin_input_0fb0": 4016,
+    "_select_asset_file": 51798,
+    "_seek_asset": 52059,
+    "_prepare_asset_decode": 57402,
+    "_huff_frame_decode": 57751,
+    "_fill_region_1780": 6016,
+    "_rand": 62192,
+    "_draw_text_e915": 59669,
+    "_text_input_1064": 4196,
+    "_restore_region_58b0": 22704,
+    "_end_input_102d": 4141,
+    "_startup_offsets_9648": 38472,
+    "_splash_buffer": {
+      "segment": 7945,
+      "offset": 0
+    },
+    "_menu_state": 36318,
+    "_menu_text": 1478,
+    "_foreground": 36130,
+    "_left_lists": 36678,
+    "_animation_initial_stream_0f08": 3848,
+    "_animation_black_label_4d96": 19862,
+    "_animation_white_label_4d9e": 19870,
+    "_left_controls": 35950,
+    "_asset_table_53f8": 21496,
+    "_piece_controls": 36340,
+    "_asset_table_8ae4": 35556
+  },
+  "rea_evidence": "evidence/rea_animation_6cb4_instructions.json",
+  "reference_region": "unchanged-prefix",
+  "boundary_evidence": "Complete original/carrier1083 stream and395 real instruction interpretations: primary393/live1079 plus raw35-byte tail preserves the two NOPs and two dead jumps. Actual corrected source-only MASM wholeOBJ27b6 has39 typedfields (38external+1internal), native3MZ/fourbases. WORD alignment retained; odd70EF/724D neighbor join, historical source/patch attribution and three unresolved stream/text identities remain HELD. No C credit."
+}

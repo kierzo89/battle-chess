@@ -1,0 +1,137 @@
+{
+  "id": "ui-animation-scalars-common",
+  "backend": "msc500-near-common-ui-animation-scalars-v1",
+  "source": "src/link/ui_animation_scalars.c",
+  "source_sha256": "374fa41957d812859bab71d45ec79fa8ca6137f04d44f68adf040db8b055de57",
+  "compiler": "msc500",
+  "flags": [
+    "/AS",
+    "/Zl",
+    "/Zi"
+  ],
+  "toolchain_manifest_sha256": "d2889507d0729b9d09fb92015fedccbb533c368d428c1612781c3ff980f00a82",
+  "objects": [
+    {
+      "symbol": "_pointer_x",
+      "size": 2,
+      "storage": "near-common"
+    },
+    {
+      "symbol": "_pointer_y",
+      "size": 2,
+      "storage": "near-common"
+    },
+    {
+      "symbol": "_menu_blink",
+      "size": 1,
+      "storage": "near-common"
+    },
+    {
+      "symbol": "_animation_busy",
+      "size": 1,
+      "storage": "near-common"
+    }
+  ],
+  "evidence": {
+    "ownership": {
+      "path": "evidence/ui_animation_scalars/ownership.json",
+      "sha256": "80a33883bd3e3a5e69b4f92fc6bb99793e9017674020d2a80df7eac11ef19f60"
+    },
+    "actual_generation": {
+      "path": "evidence/ui_animation_scalars/generation.json",
+      "sha256": "5cd0a0127560599a7c04b84c5fde27abcf7ea3aab3ca917ad0fd06ad403e222c"
+    },
+    "actual_comparison": {
+      "path": "evidence/ui_animation_scalars/comparison.json",
+      "sha256": "c79c281df13a6fa5c89da57eccea4b679fb268dd10b46e4f356925b00cdd2f5a"
+    },
+    "actual_tool": {
+      "path": "evidence/ui_animation_scalars/tool-result.json",
+      "sha256": "284b50591c4a29b4150ebc4850e252b854d880e7e3832ef6f9fccfed07f2ef2f"
+    },
+    "producer_object": {
+      "path": "evidence/ui_animation_scalars/producer.obj",
+      "sha256": "1e1606364222ddfb5253ffd99b17ff84b2ca3a9bd400938ad1f539676fea285d"
+    },
+    "crt_native": {
+      "path": "evidence/ui_animation_scalars/crt-native.json",
+      "sha256": "f1ef14871734df318dcf05a9ea366706a46bf2484a5623678271df7cf612d1ad"
+    },
+    "client_0": {
+      "path": "evidence/ui_animation_scalars/client_0.obj",
+      "sha256": "cdb266b60dca42b6990f5538482d4415870f84e7680ce59e47a1558d258a4c22"
+    },
+    "source_0": {
+      "path": "evidence/ui_animation_scalars/source_0.txt",
+      "sha256": "6d330f15c851fa6f98e26e34893557c6563d186ce5d0799a45a8126d8cfc147f"
+    },
+    "client_8": {
+      "path": "evidence/ui_animation_scalars/client_8.obj",
+      "sha256": "f815374b3801f66863bd1c9443254ac253f1ada806f5cfad51c8bbfdd0e2b8a7"
+    },
+    "source_8": {
+      "path": "evidence/ui_animation_scalars/source_8.txt",
+      "sha256": "195c9915fde3da4ec77e319e8ba315e0444828554f4eeb44060956851c937e29"
+    },
+    "client_11": {
+      "path": "evidence/ui_animation_scalars/client_11.obj",
+      "sha256": "fec4e6fdcf6147dfafe292855843b08a74860df4b646637a8dd2ac3709776637"
+    },
+    "source_11": {
+      "path": "evidence/ui_animation_scalars/source_11.txt",
+      "sha256": "613a3908c613dac08599b0edf292482e07c3476feb1e260366765b0f839297ee"
+    },
+    "client_12": {
+      "path": "evidence/ui_animation_scalars/client_12.obj",
+      "sha256": "73837e2a4ed0a503b819138d7e9f9d020f7fcc8347aede1f52729801e942ab7f"
+    },
+    "source_12": {
+      "path": "evidence/ui_animation_scalars/source_12.txt",
+      "sha256": "b93358d6eca0fd0df04f8afa3c3fcf0956d1f47365d7a6a0e7d12946126cf49a"
+    },
+    "client_20": {
+      "path": "evidence/ui_animation_scalars/client_20.obj",
+      "sha256": "bbf21cc9175467d80a2fbc3ed8471b94a7893c11f27d2cac46f3a563d2022dc3"
+    },
+    "source_20": {
+      "path": "evidence/ui_animation_scalars/source_20.txt",
+      "sha256": "82a71178acab4b3999110b255e3d69a6999b0f5120e3b747dbf4d316ea9965be"
+    },
+    "client_28": {
+      "path": "evidence/ui_animation_scalars/client_28.obj",
+      "sha256": "2cb333839793d5e05d784be0437494896f9a51bd14d1b90624556074732de524"
+    },
+    "source_28": {
+      "path": "evidence/ui_animation_scalars/source_28.txt",
+      "sha256": "7a04ea10e16daac588f3586e61160124fcbe1f9a8af698b54e5992489b9a9e34"
+    },
+    "client_44": {
+      "path": "evidence/ui_animation_scalars/client_44.obj",
+      "sha256": "ab8ba21c9573ff8bb74b3fd019c610d93f10d9e02cf5abf9c064bebcb8ddaa90"
+    },
+    "source_44": {
+      "path": "evidence/ui_animation_scalars/source_44.txt",
+      "sha256": "57e3aa61ac1a0ef4ae2bd5f8d37121654e849ed2a705f43c122850635ef7590e"
+    },
+    "client_53": {
+      "path": "evidence/ui_animation_scalars/client_53.obj",
+      "sha256": "3d5816a83a08a038df0f05bc8501d5a70db7210c7084c1b9da591072c803d40d"
+    },
+    "source_53": {
+      "path": "evidence/ui_animation_scalars/source_53.txt",
+      "sha256": "b12558abe504d0e99530a23cbf15a2049793cbb77fd6def0745e8dfd2569fa40"
+    },
+    "client_56": {
+      "path": "evidence/ui_animation_scalars/client_56.obj",
+      "sha256": "45b4df474b69e98a3e87450176d89a0e0c2831ade2ac5ca96866d0714fcd593d"
+    },
+    "source_56": {
+      "path": "evidence/ui_animation_scalars/source_56.txt",
+      "sha256": "6aef11fb2031c979c71f6f45e8628d4c02b5281685c00ff05b4c072a745d0d10"
+    },
+    "current_scope": {
+      "path": "evidence/ui_animation_scalars/current245-scope.json",
+      "sha256": "d3bff5e93d9f7e8309e01732a73fd73ee1246607a53221a82576568b212ac0a1"
+    }
+  }
+}

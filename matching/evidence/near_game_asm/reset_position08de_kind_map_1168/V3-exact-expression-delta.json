@@ -1,0 +1,33 @@
+{
+  "root_reviewed_mechanism": "Microsoft Q69987 pre6 forwardzeroEQU to prevent signextend immediate shortening, same accepted remove_actor247 mechanism",
+  "source_before_sha256": "52923611c421e03370b7ebe42610b743a821af23305659eb449e19a51388030a",
+  "source_after_sha256": "35d6151b82627a83debf994dd69c753003fe1685c45a7fc8ca42a273c8c4c170",
+  "exact_two_expressions": [
+    {
+      "native_offset": 2605,
+      "before": "AND CX, 07h",
+      "after": "AND CX, FULLWORD_IMMEDIATE_ZERO + 07h",
+      "native_hex": "81e10700"
+    },
+    {
+      "native_offset": 3175,
+      "before": "AND CX, 07h",
+      "after": "AND CX, FULLWORD_IMMEDIATE_ZERO + 07h",
+      "native_hex": "81e10700"
+    }
+  ],
+  "sole_added_constant": {
+    "name": "FULLWORD_IMMEDIATE_ZERO",
+    "kind": "local nonPUBLIC EQU",
+    "value": 0,
+    "placement": "after _reset_position_08de ENDP",
+    "allocation": 0
+  },
+  "inverse_source_bytes_exact": true,
+  "all392_native_offsets_bytes_widths_controlflow_unchanged": true,
+  "all144_predicted_fixups_same_native_contract": true,
+  "native_MZ": [
+    3371
+  ],
+  "whole1168_never1166_required": true
+}

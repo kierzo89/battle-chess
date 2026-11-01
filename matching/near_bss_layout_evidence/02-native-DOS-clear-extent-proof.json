@@ -1,0 +1,42 @@
+{
+  "original_FILE_sha256": "c32d4f6bc732b67efa65d55bc5813bc74dcfb52b8616894b57ed7aeeeed2a1cd",
+  "original_FILE_size": 83415,
+  "original_MZ_header_words": [
+    23117,
+    471,
+    163,
+    0,
+    32,
+    22083,
+    65535,
+    25114,
+    128,
+    0,
+    18,
+    5139,
+    30,
+    0
+  ],
+  "original_load_image_bytes": 82903,
+  "paragraph_rounded_loaded_FILE_bytes": 82912,
+  "original_minalloc_paragraphs": 22083,
+  "DOS_minimum_allocated_bytes": 436240,
+  "native_DGROUP_base": 379936,
+  "native_CRT_clear_DS": [
+    21196,
+    52192
+  ],
+  "native_CRT_clear_IMAGE": [
+    401132,
+    432128
+  ],
+  "native_stack4096_end_if_nativeCBE0_start": 436224,
+  "clear_and4096_fit_DOS_minimum": true,
+  "native_expanded_initialized_image_end_exclusive": 401131,
+  "one_byte_before_BSS_not_credited_as_initialized_fill": true,
+  "no_per_gap_Ccapacity_inference": true,
+  "primary_clear_marker_proof": {
+    "path": "/home/kierzo/chess/matching/build/native-near-BSS272-ordering-feasibility/authentic-markers-and-native-prefix.json",
+    "sha256": "8b948fd196747aae69a8efe755a051da1e69c1d3eec408ad73383aff16c8c620"
+  }
+}

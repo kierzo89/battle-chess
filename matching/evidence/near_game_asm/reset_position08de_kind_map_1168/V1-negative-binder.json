@@ -1,0 +1,49 @@
+{
+  "V1_one_actual_MASM": "FAILED_STRICT_WARNINGS_NO_BODY_COMPARISON",
+  "warning_count": 17,
+  "warning_code": "A4031 Operand types must match",
+  "real_child": {
+    "pid": 908553,
+    "argv": [
+      "/usr/bin/dosbox",
+      "-conf",
+      "/home/kierzo/chess/matching/build/reset-position08de-physical1168-one-MASM-root-actual/scratch/dosbox.conf",
+      "-noconsole"
+    ],
+    "command": "T:\\MASM /Mx UNIT.ASM,UNIT.OBJ,UNIT.LST,UNIT.CRF;",
+    "terminal": true,
+    "reaped": true,
+    "returncode": 0,
+    "stdout": "DOSBox version 0.74-3\nCopyright 2002-2019 DOSBox Team, published under GNU GPL.\n---\nCONFIG:Loading primary settings from config file /home/kierzo/chess/matching/build/reset-position08de-physical1168-one-MASM-root-actual/scratch/dosbox.conf\nMIXER:No Sound Mode Selected.\nALSA:Can't subscribe to MIDI port (65:0) nor (17:0)\nMIDI:Opened device:none\nOne joystick reported, initializing with 4axis\nUsing joystick Generic X-Box pad with 6 axes, 11 buttons and 1 hat(s)\nSHELL:Redirect output to C:\\MASM.LOG\nSHELL:Redirect output to C:\\SUCCESS.TXT\n",
+    "stderr": ""
+  },
+  "V1_raw_warning_object_sha256": "4553a2a7a71ca5c571818c546968bcc8058e48df6f023ed83cb195bd5a28a30a",
+  "retained_files": [
+    {
+      "path": "/home/kierzo/chess/matching/build/reset-position08de-physical1168-one-MASM-preparation/freeze-manifest.json",
+      "sha256": "a3e785c5a520b3d688b6974c30faac14f81aa1562baf2d240eef1c9cee87d8bd"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/reset-position08de-physical1168-one-MASM-root-actual/generation-receipt.json",
+      "sha256": "d8714ba0a85fc585375d67f3ac2bfdd04bd15393c5ce0804902092e24a36a71e"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/reset-position08de-physical1168-one-MASM-root-actual/root-generation-REA.json",
+      "sha256": "0aa7b717eca72ec0e65e8df1bb06f8c65ac69ee31d400adfedffe73b65265bed"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/reset-position08de-physical1168-one-MASM-root-actual/scratch/UNIT.OBJ",
+      "sha256": "4553a2a7a71ca5c571818c546968bcc8058e48df6f023ed83cb195bd5a28a30a"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/reset-position08de-physical1168-one-MASM-root-actual/scratch/UNIT.LST",
+      "sha256": "461bbb7375f4d1c3c77ffb0480e6b971a526542c0513681b995ae98b4d416611"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/reset-position08de-physical1168-one-MASM-root-actual/scratch/MASM.LOG",
+      "sha256": "eb7ac5fefdc59ca922d1b536c9eb0c655a16f38e4ec64439c7e040f634fe3c14"
+    }
+  ],
+  "V2_one_new_MASM_not_one_total": true,
+  "no_warning_waiver_source_variant_matrix_or_old_file_mutation": true
+}

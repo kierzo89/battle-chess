@@ -1,0 +1,309 @@
+{
+  "status": "LINK_SUCCESS_WITH_POSTCHECK_SCHEMA_NEGATIVE",
+  "strict_actual_diagnostics": {
+    "policy": "link365-all-prefix-errors-unresolved-summary-v1",
+    "diagnostics": [],
+    "summary_error_count": null,
+    "undefined_symbols": [],
+    "undefined_object_cases": {},
+    "all_log_lines_examined": 297,
+    "status_marker": "success",
+    "non_unresolved_diagnostics": []
+  },
+  "producer_status_preserved": "FAILED",
+  "producer_outer_exit": 1,
+  "actual_DOSBox_exit": 0,
+  "exact_negative": {
+    "producer_status_preserved": "FAILED",
+    "producer_receipt_SHA256": "631b31b42ed6072558216a3ce68893d2b5a5180509f0ce9ae02f53a85194ac49",
+    "outer_exit": 1,
+    "actual_DOSBox_exit": 0,
+    "exact_postGEN_line": 40,
+    "frozen_runner_SHA256": "0cb71c10ebcdc8646c7e0a06899db272bdee26d7e509a1d0d7c5ec4aa688ce18",
+    "actual_parser_summary_error_count": null,
+    "no_rewrite_None_to_zero": true,
+    "expected_error": {
+      "error": "AssertionError()",
+      "traceback": "Traceback (most recent call last):\n  File \"/home/kierzo/chess/matching/build/scratch40-retained512-source290-LINK-preparation/link_once.py\", line 40, in <module>\n    diagnostics=parse_link_diagnostics((S/'LINK.LOG').read_text(encoding='cp437'),'success'if marker=='success'else'link_failed');assert diagnostics['undefined_symbols']==b['expected_undefined_symbols']and diagnostics['summary_error_count']==len(b['expected_undefined_symbols'])==0\n                                                                                                                                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+    },
+    "strict_success_audit_required": true,
+    "new_GEN_LINK": 0,
+    "credit": 0
+  },
+  "all290_whole_object_hashes_order_preserved": true,
+  "old289_retained_no_source_GENERATION_replay": true,
+  "actual_missing": 0,
+  "removed_only": [
+    "_left_list_scratch",
+    "_right_list_scratch"
+  ],
+  "added": [],
+  "whole_DATA40": {
+    "model": {
+      "PUBLICs": {
+        "_left_list_scratch": {
+          "name": "_left_list_scratch",
+          "segment": 1,
+          "offset": 0,
+          "group": 1,
+          "type_index": 0
+        },
+        "_right_list_scratch": {
+          "name": "_right_list_scratch",
+          "segment": 1,
+          "offset": 20,
+          "group": 1,
+          "type_index": 0
+        }
+      },
+      "groups": [
+        {
+          "name": "DGROUP",
+          "members": [
+            1
+          ]
+        }
+      ],
+      "initialized_LEDATAs": [
+        {
+          "offset": 0,
+          "bytes": "ff00000000000000000000000000000000000000ff00000000000000000000000000000000000000"
+        }
+      ],
+      "whole_DATA": 40,
+      "opaque_initialized": 18,
+      "valid_operational": [
+        10,
+        12
+      ],
+      "FIXUP_COMMON_CODE_CONST_BSS_DEBUG_MZ": 0,
+      "C_credit": 0,
+      "capacity_or_historical_owner_claim": false
+    },
+    "actual_MAP": [
+      23747,
+      19650
+    ],
+    "actual_image_interval": [
+      399602,
+      399642
+    ],
+    "native_image_interval": [
+      384094,
+      384134
+    ],
+    "bytes_hex": "ff00000000000000000000000000000000000000ff00000000000000000000000000000000000000",
+    "operational_bytes": 22,
+    "opaque_initialized_bytes": 18
+  },
+  "all2_CODE_fields": [
+    {
+      "name": "_left_list_scratch",
+      "actual_raw_field": {
+        "segment": 1,
+        "offset": 781,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          18
+        ],
+        "displacement": null,
+        "record_offset": 2611,
+        "raw": "c6445612",
+        "class": "CODE",
+        "selected_owners": [
+          {
+            "id": "manage_asset_arena_3713",
+            "native_field_image": 14687,
+            "native_DS_base": 4158,
+            "source_addend": 0,
+            "actual_native_encoded_WORD": 4158,
+            "unwrapped_base_plus_addend": 4158,
+            "whole_C_or_ASM_match_from_closed504": "c_matched"
+          }
+        ],
+        "object_addend": 0
+      },
+      "actual_MAP": [
+        23747,
+        19650
+      ],
+      "actual_image_field": 11635,
+      "actual_word": 19650,
+      "expected_default_frame": "PUBLIC group1/DGROUP",
+      "native_image_field": 14687,
+      "native_word": 4158,
+      "whole_MOV_instruction_actual": "b8c24c",
+      "whole_MOV_instruction_native": "b83e10",
+      "source_addend": 0,
+      "no_native_absolute_placement_claim": true
+    },
+    {
+      "name": "_right_list_scratch",
+      "actual_raw_field": {
+        "segment": 1,
+        "offset": 893,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          19
+        ],
+        "displacement": null,
+        "record_offset": 3297,
+        "raw": "c4165613",
+        "class": "CODE",
+        "selected_owners": [
+          {
+            "id": "manage_asset_arena_3713",
+            "native_field_image": 14799,
+            "native_DS_base": 4178,
+            "source_addend": 0,
+            "actual_native_encoded_WORD": 4178,
+            "unwrapped_base_plus_addend": 4178,
+            "whole_C_or_ASM_match_from_closed504": "c_matched"
+          }
+        ],
+        "object_addend": 0
+      },
+      "actual_MAP": [
+        23747,
+        19670
+      ],
+      "actual_image_field": 11747,
+      "actual_word": 19670,
+      "expected_default_frame": "PUBLIC group1/DGROUP",
+      "native_image_field": 14799,
+      "native_word": 4178,
+      "whole_MOV_instruction_actual": "b8d64c",
+      "whole_MOV_instruction_native": "b85210",
+      "source_addend": 0,
+      "no_native_absolute_placement_claim": true
+    }
+  ],
+  "all2_DEBUG_fields_comparison_only": [
+    {
+      "name": "_left_list_scratch",
+      "actual_raw_field": {
+        "segment": 5,
+        "offset": 665,
+        "width": 4,
+        "location_type": 3,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          18
+        ],
+        "displacement": null,
+        "record_offset": 4987,
+        "raw": "cd3a5612",
+        "class": "DEBSYM",
+        "selected_owners": []
+      },
+      "actual_MAP": [
+        23747,
+        19650
+      ],
+      "typed_CodeView_offset": 19650,
+      "typed_CodeView_segment": 23747,
+      "encoded_hex": "c24cc35c",
+      "late_overwrites": [],
+      "comparison_projection_only_no_EXE_debug_or_MZ_credit": true
+    },
+    {
+      "name": "_right_list_scratch",
+      "actual_raw_field": {
+        "segment": 5,
+        "offset": 691,
+        "width": 4,
+        "location_type": 3,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          19
+        ],
+        "displacement": null,
+        "record_offset": 4987,
+        "raw": "cd545613",
+        "class": "DEBSYM",
+        "selected_owners": []
+      },
+      "actual_MAP": [
+        23747,
+        19670
+      ],
+      "typed_CodeView_offset": 19670,
+      "typed_CodeView_segment": 23747,
+      "encoded_hex": "d64cc35c",
+      "late_overwrites": [],
+      "comparison_projection_only_no_EXE_debug_or_MZ_credit": true
+    }
+  ],
+  "fourbases": [
+    {
+      "load_paragraph": 0,
+      "DATA40_unchanged": true,
+      "CODE2_offsets_unchanged": true,
+      "DEBUG2_only_segment_projection": 23747,
+      "native_MZ": [],
+      "actual_provider_MZ": []
+    },
+    {
+      "load_paragraph": 1,
+      "DATA40_unchanged": true,
+      "CODE2_offsets_unchanged": true,
+      "DEBUG2_only_segment_projection": 23748,
+      "native_MZ": [],
+      "actual_provider_MZ": []
+    },
+    {
+      "load_paragraph": 4096,
+      "DATA40_unchanged": true,
+      "CODE2_offsets_unchanged": true,
+      "DEBUG2_only_segment_projection": 27843,
+      "native_MZ": [],
+      "actual_provider_MZ": []
+    },
+    {
+      "load_paragraph": 65535,
+      "DATA40_unchanged": true,
+      "CODE2_offsets_unchanged": true,
+      "DEBUG2_only_segment_projection": 23746,
+      "native_MZ": [],
+      "actual_provider_MZ": []
+    }
+  ],
+  "actual_MZ_count_not_native_coverage": 173,
+  "verified_native_MZ_credit_added": 0,
+  "C_function_credit": 0,
+  "original_capacity_TU_or_absolute_placement_proven": false,
+  "full_executable_match": false,
+  "actual_LINK_calls": 1,
+  "GEN_LINK_repeat": false,
+  "EXE_execution": false,
+  "root_real_process": {
+    "REA_EvidenceID": "ev_1c6be19680ce50392f8ef8fb1eb4584cf277f898484428f7c2d753a1cec71e17",
+    "REA_record_SHA256": "8f92a0754c7d7fcf8df55fa5906b60a0001e21b6a51c5715986606f8b419410b",
+    "PID": 1189060,
+    "unified_ids": null
+  }
+}

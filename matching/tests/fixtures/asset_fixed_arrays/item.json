@@ -1,0 +1,101 @@
+{
+  "id": "asset-fixed-arrays-common",
+  "backend": "msc500-near-common-asset-fixed-arrays-v1",
+  "source": "src/link/asset_fixed_arrays_state.c",
+  "source_sha256": "f732c2373bc459bd2a876650330d0be6859c0c76116d099dc68e96c1ff1f8428",
+  "compiler": "msc500",
+  "flags": [
+    "/AS",
+    "/Zl",
+    "/Zi"
+  ],
+  "toolchain_manifest_sha256": "d2889507d0729b9d09fb92015fedccbb533c368d428c1612781c3ff980f00a82",
+  "objects": [
+    {
+      "symbol": "_metadata_records",
+      "size": 16,
+      "storage": "near-common"
+    },
+    {
+      "symbol": "_frame_descriptors",
+      "size": 32,
+      "storage": "near-common"
+    },
+    {
+      "symbol": "_values",
+      "size": 8,
+      "storage": "near-common"
+    },
+    {
+      "symbol": "_task_pool",
+      "size": 8,
+      "storage": "near-common"
+    }
+  ],
+  "evidence": {
+    "ownership": {
+      "path": "build/asset-fixed-arrays-independent-ownership/proof.json",
+      "sha256": "c40fdc0ef15062edae71012460be1de06c30d4dc740d11f200f20b204a735d66"
+    },
+    "ownership_freeze": {
+      "path": "build/asset-fixed-arrays-independent-ownership/freeze-manifest.json",
+      "sha256": "686b9039c2ff21f7df271aea29a5935b70c981c91553df12aeeaf59dd9a04a44"
+    },
+    "producer_proof": {
+      "path": "build/asset-fixed-arrays-independent-ownership/producer-proof.json",
+      "sha256": "95d792159c7243fd4604385cde932e173e658fb9828fd070f43fe1a4d77f3441"
+    },
+    "generation": {
+      "path": "build/asset-fixed-arrays-independent-ownership/generation.json",
+      "sha256": "042d01ee28c1c7d288a49cdb10883f179aa2e44effe07491460990cbc3675f6a"
+    },
+    "producer_object": {
+      "path": "build/asset-fixed-arrays-independent-ownership/asset_fixed_arrays.obj",
+      "sha256": "8801be97f9712d06874fef0e29a2989031d66d25ffcfae85b2850a369beb96c7"
+    },
+    "source_model": {
+      "path": "build/asset-fixed-arrays-independent-ownership/asset_fixed_arrays.c",
+      "sha256": "f732c2373bc459bd2a876650330d0be6859c0c76116d099dc68e96c1ff1f8428"
+    },
+    "native_primary": {
+      "path": "evidence/rea_arena_next_128ae.json",
+      "sha256": "fabab06c2fd0de7fbb90e5e9ca67bbd099a5f86732ce35e10b0404b1015aadf4"
+    },
+    "native_context": {
+      "path": "build/asset-fixed-arrays-source-profile-stage/native-context.json",
+      "sha256": "21c38181712d525bc20a20b6828a345d44b473244fe403562cb34957594462ed"
+    },
+    "client_object_0": {
+      "path": "build/coherent455-canonical-validation/fresh-output/objects/msc500-655d01789fb7ee0a-a24fc804.obj",
+      "sha256": "319d35bac387d9300be0ab01206087007b625ed35f79b9780a28155b46052577"
+    },
+    "client_object_1": {
+      "path": "build/coherent455-canonical-validation/fresh-output/objects/msc500-cc32f43fd0d9e791-a24fc804.obj",
+      "sha256": "4dc97fb2c38d75506380846652b3f722a9ab32aa71eb5a08f128777af0b2f62d"
+    },
+    "anchor_object_0": {
+      "path": "build/coherent455-canonical-validation/fresh-output/objects/msc500-655d01789fb7ee0a-a24fc804.obj",
+      "sha256": "319d35bac387d9300be0ab01206087007b625ed35f79b9780a28155b46052577"
+    },
+    "anchor_object_1": {
+      "path": "build/coherent455-canonical-validation/fresh-output/objects/msc500-7df0efd9e7c26ca0-e6eaca7e.obj",
+      "sha256": "1fdfffc1880fc09a222427e7ff18093754b1c7da419bcc374a39953d42c5b627"
+    },
+    "anchor_object_2": {
+      "path": "build/coherent455-canonical-validation/fresh-output/objects/msc500-c2d7bc3c1657c854-e6eaca7e.obj",
+      "sha256": "fcaeb3ba2041a72fe2ed895877f4175e492b8f1a255f6709eec86421224f76de"
+    },
+    "anchor_object_3": {
+      "path": "build/coherent455-canonical-validation/fresh-output/objects/msc500-cf929768281d5083-e6eaca7e.obj",
+      "sha256": "ee785422aa095afa5e1fc97416b8c3910f004c98dbeffe0396014a7f2f1095d3"
+    },
+    "client_source_0": {
+      "path": "src/asset_arena_flow_match.c",
+      "sha256": "cc32f43fd0d9e791cdc09d16b09562869095f5873f0c00c363626950ddf7e891"
+    },
+    "client_source_1": {
+      "path": "src/asset_storage_surface_context_match.c",
+      "sha256": "655d01789fb7ee0a575ba66e3b301c140f9c9bfaf7fd94cc205719367db0384e"
+    }
+  }
+}

@@ -1,0 +1,386 @@
+{
+  "schema": "strict-mixed-refresh-chat-comparison-only-v1",
+  "comparison_only_expected_SHA256": {
+    "mixed": "1585a54ced233f1f841f93afc4761614731246997e2a73290254ca867920f963",
+    "c5": "e0f2049608c41923138a05d165a8fd7ef66c10718da2259fa5080c7d0b499450",
+    "fa": "a03dc8905b469ac642b9d2c074ab403dddec0d36a78292d79197446d94e39152",
+    "composed": "3c9cc99a94ac1536873a4e764bb6948a96ccfd053dbbd8fa73708001e9578cca"
+  },
+  "expected_fields": [
+    {
+      "owner": "compiler-produced-C-refresh123",
+      "module_offset": 7,
+      "owner_offset": 7,
+      "symbol": "__chkstk",
+      "kind": "nearCALL",
+      "width": 2,
+      "addend": 0
+    },
+    {
+      "owner": "compiler-produced-C-refresh123",
+      "module_offset": 11,
+      "owner_offset": 11,
+      "symbol": "_modes",
+      "kind": "DATA-DGROUP-OFFSET",
+      "width": 2,
+      "addend": 0
+    },
+    {
+      "owner": "compiler-produced-C-refresh123",
+      "module_offset": 18,
+      "owner_offset": 18,
+      "symbol": "_modes",
+      "kind": "DATA-DGROUP-OFFSET",
+      "width": 2,
+      "addend": 2
+    },
+    {
+      "owner": "compiler-produced-C-refresh123",
+      "module_offset": 25,
+      "owner_offset": 25,
+      "symbol": "_waiting_0eee",
+      "kind": "DATA-DGROUP-OFFSET",
+      "width": 2,
+      "addend": 0
+    },
+    {
+      "owner": "compiler-produced-C-refresh123",
+      "module_offset": 48,
+      "owner_offset": 48,
+      "symbol": "_write_bytes_dbb5",
+      "kind": "nearCALL",
+      "width": 2,
+      "addend": 0
+    },
+    {
+      "owner": "compiler-produced-C-refresh123",
+      "module_offset": 55,
+      "owner_offset": 55,
+      "symbol": "_refresh_active_0548",
+      "kind": "DATA-DGROUP-OFFSET",
+      "width": 2,
+      "addend": 0
+    },
+    {
+      "owner": "compiler-produced-C-refresh123",
+      "module_offset": 60,
+      "owner_offset": 60,
+      "symbol": "_poll_input",
+      "kind": "nearCALL",
+      "width": 2,
+      "addend": 0
+    },
+    {
+      "owner": "compiler-produced-C-refresh123",
+      "module_offset": 64,
+      "owner_offset": 64,
+      "symbol": "_modes",
+      "kind": "DATA-DGROUP-OFFSET",
+      "width": 2,
+      "addend": 0
+    },
+    {
+      "owner": "compiler-produced-C-refresh123",
+      "module_offset": 71,
+      "owner_offset": 71,
+      "symbol": "_modes",
+      "kind": "DATA-DGROUP-OFFSET",
+      "width": 2,
+      "addend": 2
+    },
+    {
+      "owner": "compiler-produced-C-refresh123",
+      "module_offset": 78,
+      "owner_offset": 78,
+      "symbol": "_refresh_stop_11a6",
+      "kind": "DATA-DGROUP-OFFSET",
+      "width": 2,
+      "addend": 0
+    },
+    {
+      "owner": "compiler-produced-C-refresh123",
+      "module_offset": 85,
+      "owner_offset": 85,
+      "symbol": "_ready_9856",
+      "kind": "DATA-DGROUP-OFFSET",
+      "width": 2,
+      "addend": 0
+    },
+    {
+      "owner": "compiler-produced-C-refresh123",
+      "module_offset": 91,
+      "owner_offset": 91,
+      "symbol": "_obtain_input",
+      "kind": "nearCALL",
+      "width": 2,
+      "addend": 0
+    },
+    {
+      "owner": "compiler-produced-C-refresh123",
+      "module_offset": 94,
+      "owner_offset": 94,
+      "symbol": "_ready_9856",
+      "kind": "DATA-DGROUP-OFFSET",
+      "width": 2,
+      "addend": 0
+    },
+    {
+      "owner": "compiler-produced-C-refresh123",
+      "module_offset": 98,
+      "owner_offset": 98,
+      "symbol": "_ready_9856",
+      "kind": "DATA-DGROUP-OFFSET",
+      "width": 2,
+      "addend": 0
+    },
+    {
+      "owner": "compiler-produced-C-refresh123",
+      "module_offset": 104,
+      "owner_offset": 104,
+      "symbol": "_step_872a",
+      "kind": "nearCALL",
+      "width": 2,
+      "addend": 0
+    },
+    {
+      "owner": "compiler-produced-C-refresh123",
+      "module_offset": 110,
+      "owner_offset": 110,
+      "symbol": "_refresh_active_0548",
+      "kind": "DATA-DGROUP-OFFSET",
+      "width": 2,
+      "addend": 0
+    },
+    {
+      "owner": "compiler-produced-C-refresh123",
+      "module_offset": 116,
+      "owner_offset": 116,
+      "symbol": "_refresh_stop_11a6",
+      "kind": "DATA-DGROUP-OFFSET",
+      "width": 2,
+      "addend": 0
+    },
+    {
+      "owner": "authored-ASM-chat161",
+      "module_offset": 130,
+      "owner_offset": 7,
+      "symbol": "__chkstk",
+      "kind": "nearCALL",
+      "width": 2,
+      "addend": 0
+    },
+    {
+      "owner": "authored-ASM-chat161",
+      "module_offset": 138,
+      "owner_offset": 15,
+      "symbol": "_begin_input_0fb0",
+      "kind": "nearCALL",
+      "width": 2,
+      "addend": 0
+    },
+    {
+      "owner": "authored-ASM-chat161",
+      "module_offset": 142,
+      "owner_offset": 19,
+      "symbol": "_menu_state",
+      "kind": "DATA-DGROUP-OFFSET",
+      "width": 2,
+      "addend": 0
+    },
+    {
+      "owner": "authored-ASM-chat161",
+      "module_offset": 160,
+      "owner_offset": 37,
+      "symbol": "_fill_region_1780",
+      "kind": "nearCALL",
+      "width": 2,
+      "addend": 0
+    },
+    {
+      "owner": "authored-ASM-chat161",
+      "module_offset": 183,
+      "owner_offset": 60,
+      "symbol": "_text_input_1064",
+      "kind": "nearCALL",
+      "width": 2,
+      "addend": 0
+    },
+    {
+      "owner": "authored-ASM-chat161",
+      "module_offset": 215,
+      "owner_offset": 92,
+      "symbol": "_restore_region_58b0",
+      "kind": "nearCALL",
+      "width": 2,
+      "addend": 0
+    },
+    {
+      "owner": "authored-ASM-chat161",
+      "module_offset": 257,
+      "owner_offset": 134,
+      "symbol": "_write_bytes_dbb5",
+      "kind": "nearCALL",
+      "width": 2,
+      "addend": 0
+    },
+    {
+      "owner": "authored-ASM-chat161",
+      "module_offset": 270,
+      "owner_offset": 147,
+      "symbol": "_write_bytes_dbb5",
+      "kind": "nearCALL",
+      "width": 2,
+      "addend": 0
+    },
+    {
+      "owner": "authored-ASM-chat161",
+      "module_offset": 276,
+      "owner_offset": 153,
+      "symbol": "_end_input_102d",
+      "kind": "nearCALL",
+      "width": 2,
+      "addend": 0
+    }
+  ],
+  "bindings": {
+    "__chkstk": 60586,
+    "_modes": 1340,
+    "_waiting_0eee": 3822,
+    "_write_bytes_dbb5": 56245,
+    "_refresh_active_0548": 1352,
+    "_refresh_stop_11a6": 4518,
+    "_ready_9856": 38998,
+    "_obtain_input": 596,
+    "_step_872a": 34602,
+    "_poll_input": 35498,
+    "_begin_input_0fb0": 4016,
+    "_menu_state": 36318,
+    "_fill_region_1780": 6016,
+    "_text_input_1064": 4196,
+    "_restore_region_58b0": 22704,
+    "_end_input_102d": 4141
+  },
+  "no_GENERATION_reader": true,
+  "original_units": {
+    "refresh_1446": {
+      "id": "refresh_1446",
+      "language": "c",
+      "backend": "msc500-omf",
+      "source": "src/refresh_1446_match.c",
+      "symbol": "_refresh_1446",
+      "flags": [
+        "/AS",
+        "/Zi"
+      ],
+      "image_offset": "0x1446",
+      "size": 123,
+      "externals": {
+        "__chkstk": 60586,
+        "_modes": 1340,
+        "_waiting_0eee": 3822,
+        "_write_bytes_dbb5": 56245,
+        "_refresh_active_0548": 1352,
+        "_refresh_stop_11a6": 4518,
+        "_ready_9856": 38998,
+        "_obtain_input": 596,
+        "_step_872a": 34602,
+        "_poll_input": 35498
+      },
+      "rea_evidence": "evidence/rea_chat_refresh_primary.json",
+      "boundary_evidence": "Original native complete contiguous123-byte REA body, independent full MSC5.00 CV3 extent; raw original285B body/next context; every field independently audited; complete empty MZ interval and four base checks. Standalone CODE124 retains an uncredited90 tail conflicting with next original55; no whole-contribution claim. Promoted reviewed source-context proof: build/poll-input-coherent/byte-proof.json; legacy animation poll_input(1) preserved",
+      "match_proof": "evidence/chat_refresh_1446_match.json"
+    },
+    "type_chat_code161": {
+      "id": "type_chat_code161",
+      "language": "asm-code",
+      "backend": "masm510-input-dialog-authored-code-omf-v1",
+      "object_profile": "type_chat161",
+      "source": "asm/link/type_chat14c1.asm",
+      "source_sha256": "70578a5d6b0e8105f27b88f3a8516faed832bd658729150f8df87a4c2e9c106c",
+      "assembler_sha256": "1c6286c69b616160b8475ad17453ee872702a2c98075c2159ec792a1c745275f",
+      "public_symbols": [
+        "_type_chat_14c1"
+      ],
+      "image_offset": "0x14c1",
+      "size": 161,
+      "externals": {
+        "__chkstk": 60586,
+        "_begin_input_0fb0": 4016,
+        "_menu_state": 36318,
+        "_fill_region_1780": 6016,
+        "_text_input_1064": 4196,
+        "_restore_region_58b0": 22704,
+        "_write_bytes_dbb5": 56245,
+        "_end_input_102d": 4141
+      },
+      "rea_evidence": "evidence/input_dialog_asm/chat161/primary.json",
+      "reference_region": "unchanged-prefix",
+      "boundary_evidence": "Complete original native14C1..1561/161/73 instructions; genuine MASM raw469/all9 symbolic fields/noMZ/fourbases, BYTEalignment preserves oddentry. Existing real provider names and two selected caller near void(int) ABI. Native frame48/BP-40 stores retained; C minimum-buffer38/frame40 and two-count288/CV287/tail90 negatives held. No C/standalone ASM function credit, tail trimming or historical source-language/TU/capacity/fullLINKadjacency claim."
+    }
+  },
+  "units": {
+    "refresh_1446": {
+      "id": "refresh_1446",
+      "language": "c",
+      "backend": "msc500-fa-masm510-refresh-chat-mixed-v1",
+      "source": "src/refresh_1446_match.c",
+      "symbol": "_refresh_1446",
+      "flags": [
+        "/AS",
+        "/Zi"
+      ],
+      "image_offset": "0x1446",
+      "size": 123,
+      "externals": {
+        "__chkstk": 60586,
+        "_modes": 1340,
+        "_waiting_0eee": 3822,
+        "_write_bytes_dbb5": 56245,
+        "_refresh_active_0548": 1352,
+        "_refresh_stop_11a6": 4518,
+        "_ready_9856": 38998,
+        "_obtain_input": 596,
+        "_step_872a": 34602,
+        "_poll_input": 35498
+      },
+      "rea_evidence": "evidence/rea_chat_refresh_primary.json",
+      "boundary_evidence": "Original native complete contiguous123-byte REA body, independent full MSC5.00 CV3 extent; raw original285B body/next context; every field independently audited; complete empty MZ interval and four base checks. Standalone CODE124 retains an uncredited90 tail conflicting with next original55; no whole-contribution claim. Promoted reviewed source-context proof: build/poll-input-coherent/byte-proof.json; legacy animation poll_input(1) preserved",
+      "match_proof": "evidence/chat_refresh_1446_match.json",
+      "mixed_profile": "refresh_chat284_v1"
+    },
+    "type_chat_code161": {
+      "id": "type_chat_code161",
+      "language": "asm-code",
+      "backend": "msc500-fa-masm510-refresh-chat-mixed-v1",
+      "object_profile": "refresh_chat284_v1",
+      "source": "asm/link/type_chat14c1.asm",
+      "source_sha256": "70578a5d6b0e8105f27b88f3a8516faed832bd658729150f8df87a4c2e9c106c",
+      "assembler_sha256": "1c6286c69b616160b8475ad17453ee872702a2c98075c2159ec792a1c745275f",
+      "public_symbols": [
+        "_type_chat_14c1"
+      ],
+      "image_offset": "0x14c1",
+      "size": 161,
+      "externals": {
+        "__chkstk": 60586,
+        "_begin_input_0fb0": 4016,
+        "_menu_state": 36318,
+        "_fill_region_1780": 6016,
+        "_text_input_1064": 4196,
+        "_restore_region_58b0": 22704,
+        "_write_bytes_dbb5": 56245,
+        "_end_input_102d": 4141
+      },
+      "rea_evidence": "evidence/input_dialog_asm/chat161/primary.json",
+      "reference_region": "unchanged-prefix",
+      "boundary_evidence": "Complete original native14C1..1561/161/73 instructions; genuine MASM raw469/all9 symbolic fields/noMZ/fourbases, BYTEalignment preserves oddentry. Existing real provider names and two selected caller near void(int) ABI. Native frame48/BP-40 stores retained; C minimum-buffer38/frame40 and two-count288/CV287/tail90 negatives held. No C/standalone ASM function credit, tail trimming or historical source-language/TU/capacity/fullLINKadjacency claim.",
+      "mixed_profile": "refresh_chat284_v1"
+    }
+  },
+  "source_identity": {
+    "C": "src/refresh_1446_match.c",
+    "ASM": "asm/link/type_chat14c1.asm"
+  },
+  "kind": "mixed-c-fa-authored-asm-whole-omf",
+  "profile_id": "refresh_chat284_v1"
+}

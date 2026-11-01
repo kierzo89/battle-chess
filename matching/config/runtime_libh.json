@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "classification": "independently archived runtime helpers, zero C/ASM credit",
+  "archive_url": "https://miscdisks.pcjs.org/pcx86/lang/microsoft/c/5.00/MSC500-DISK4-INCLIBS.json",
+  "archive_sha256": "18a0c57eadf4eea0eb236a0e16f57019c6fd05789dfc52d857b84f6bf7edf58c",
+  "archive_name": "MSC500-DISK4-INCLIBS.json",
+  "archive_path": "/LIB/LIBH.LIB",
+  "library_name": "LIBH.LIB",
+  "library_size": 13689,
+  "library_sha256": "768bfe171ebcad6d44aeca830ec8d19b31f02ce84ab35c81fc48fcf3f1e14858",
+  "destination": "toolchains/runtime-libh",
+  "linker_profile": "msc510",
+  "linker_name": "LINK.EXE",
+  "linker_sha256": "124a3c800edc16b60f696d35a9dfec798b68b78fe2ca90c5988ea76bdeab1a8a",
+  "linker_size": 65539,
+  "members": [
+    {
+      "id": "near_lmul",
+      "name": "LMUL",
+      "member_sha256": "b0e033a1674414d4a985ad87daee47357fc7730ed67800f20ab4de7f6384bb1d",
+      "library_offset": 7376,
+      "symbol": "__aNlmul",
+      "segment": 1,
+      "code_size": 52,
+      "image_offset": "0xf32e",
+      "rea_evidence": "evidence/rea-runtime-helper-lmulf32e.json"
+    },
+    {
+      "id": "near_lshl",
+      "name": "LSHL",
+      "member_sha256": "5b9131488ecf6f4cb12edbd99055fd000851a81acc4b742e67b6050db4ee8721",
+      "library_offset": 7904,
+      "symbol": "__aNlshl",
+      "segment": 1,
+      "code_size": 11,
+      "image_offset": "0xf362",
+      "rea_evidence": "evidence/rea-runtime-helper-lshlf362.json"
+    },
+    {
+      "id": "near_lshr",
+      "name": "LSHR",
+      "member_sha256": "6312cfc9cc193104ba978b613757b0749122a9aa8827b96785cd60c7c2b49839",
+      "library_offset": 8032,
+      "symbol": "__aNlshr",
+      "segment": 1,
+      "code_size": 11,
+      "image_offset": "0xf36e",
+      "rea_evidence": "evidence/rea-runtime-helper-lshrf36e.json"
+    },
+    {
+      "id": "near_hdiff",
+      "name": "HDIFF",
+      "member_sha256": "9d37d6053e8c54a51aba8dc188a685d05dbbe94b119bfd7fd2b441bd525ae1e5",
+      "library_offset": 39184,
+      "symbol": "__aNahdiff",
+      "segment": 1,
+      "code_size": 45,
+      "image_offset": "0xf1d6",
+      "rea_evidence": "evidence/rea-runtime-helper-hdiff-f1d6.json",
+      "library_profile": "runtime500"
+    }
+  ]
+}

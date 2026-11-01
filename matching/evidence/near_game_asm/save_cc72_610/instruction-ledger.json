@@ -1,0 +1,1666 @@
+[
+  {
+    "image": 52338,
+    "relative_offset": 0,
+    "size": 1,
+    "native_hex": "55",
+    "instruction": "PUSH BP",
+    "source": "PUSH BP"
+  },
+  {
+    "image": 52339,
+    "relative_offset": 1,
+    "size": 2,
+    "native_hex": "8bec",
+    "instruction": "MOV BP, SP",
+    "source": "MOV BP, SP"
+  },
+  {
+    "image": 52341,
+    "relative_offset": 3,
+    "size": 4,
+    "native_hex": "81ec9202",
+    "instruction": "SUB SP, 0x292",
+    "source": "SUB SP, 0292h"
+  },
+  {
+    "image": 52345,
+    "relative_offset": 7,
+    "size": 1,
+    "native_hex": "56",
+    "instruction": "PUSH SI",
+    "source": "PUSH SI"
+  },
+  {
+    "image": 52346,
+    "relative_offset": 8,
+    "size": 6,
+    "native_hex": "c78674ff0000",
+    "instruction": "MOV word ptr [BP + 0xff74], 0x0",
+    "source": "MOV word ptr [BP-08Ch], 00h"
+  },
+  {
+    "image": 52352,
+    "relative_offset": 14,
+    "size": 6,
+    "native_hex": "c7866efdffff",
+    "instruction": "MOV word ptr [BP + 0xfd6e], 0xffff",
+    "source": "MOV word ptr [BP-0292h], 0FFFFh"
+  },
+  {
+    "image": 52358,
+    "relative_offset": 20,
+    "size": 2,
+    "native_hex": "2bc0",
+    "instruction": "SUB AX, AX",
+    "source": "SUB AX, AX"
+  },
+  {
+    "image": 52360,
+    "relative_offset": 22,
+    "size": 4,
+    "native_hex": "898672ff",
+    "instruction": "MOV word ptr [BP + 0xff72], AX",
+    "source": "MOV word ptr [BP-08Eh], AX"
+  },
+  {
+    "image": 52364,
+    "relative_offset": 26,
+    "size": 4,
+    "native_hex": "898670ff",
+    "instruction": "MOV word ptr [BP + 0xff70], AX",
+    "source": "MOV word ptr [BP-090h], AX"
+  },
+  {
+    "image": 52368,
+    "relative_offset": 30,
+    "size": 3,
+    "native_hex": "a06093",
+    "instruction": "MOV AL, [0x9360]",
+    "source": "MOV AL, _background"
+  },
+  {
+    "image": 52371,
+    "relative_offset": 33,
+    "size": 3,
+    "native_hex": "a2282b",
+    "instruction": "MOV [0x2b28], AL",
+    "source": "MOV _dialog_text, AL"
+  },
+  {
+    "image": 52374,
+    "relative_offset": 36,
+    "size": 3,
+    "native_hex": "a0de8d",
+    "instruction": "MOV AL, [0x8dde]",
+    "source": "MOV AL, _menu_state"
+  },
+  {
+    "image": 52377,
+    "relative_offset": 39,
+    "size": 3,
+    "native_hex": "a2292b",
+    "instruction": "MOV [0x2b29], AL",
+    "source": "MOV _dialog_text+1, AL"
+  },
+  {
+    "image": 52380,
+    "relative_offset": 42,
+    "size": 4,
+    "native_hex": "8d8670fd",
+    "instruction": "LEA AX, [BP + 0xfd70]",
+    "source": "LEA AX, [BP-0290h]"
+  },
+  {
+    "image": 52384,
+    "relative_offset": 46,
+    "size": 1,
+    "native_hex": "50",
+    "instruction": "PUSH AX",
+    "source": "PUSH AX"
+  },
+  {
+    "image": 52385,
+    "relative_offset": 47,
+    "size": 3,
+    "native_hex": "e8f908",
+    "instruction": "CALL 0x1000:d59d",
+    "source": "CALL NEAR PTR _read_saved_games"
+  },
+  {
+    "image": 52388,
+    "relative_offset": 50,
+    "size": 3,
+    "native_hex": "83c402",
+    "instruction": "ADD SP, 0x2",
+    "source": "ADD SP, 02h"
+  },
+  {
+    "image": 52391,
+    "relative_offset": 53,
+    "size": 2,
+    "native_hex": "0bc0",
+    "instruction": "OR AX, AX",
+    "source": "OR AX, AX"
+  },
+  {
+    "image": 52393,
+    "relative_offset": 55,
+    "size": 2,
+    "native_hex": "7514",
+    "instruction": "JNZ 0x1000:ccbf",
+    "source": "JNZ SHORT code_ccbf"
+  },
+  {
+    "image": 52395,
+    "relative_offset": 57,
+    "size": 2,
+    "native_hex": "2bc0",
+    "instruction": "SUB AX, AX",
+    "source": "SUB AX, AX"
+  },
+  {
+    "image": 52397,
+    "relative_offset": 59,
+    "size": 1,
+    "native_hex": "50",
+    "instruction": "PUSH AX",
+    "source": "PUSH AX"
+  },
+  {
+    "image": 52398,
+    "relative_offset": 60,
+    "size": 3,
+    "native_hex": "b80c00",
+    "instruction": "MOV AX, 0xc",
+    "source": "MOV AX, 0Ch"
+  },
+  {
+    "image": 52401,
+    "relative_offset": 63,
+    "size": 1,
+    "native_hex": "50",
+    "instruction": "PUSH AX",
+    "source": "PUSH AX"
+  },
+  {
+    "image": 52402,
+    "relative_offset": 64,
+    "size": 3,
+    "native_hex": "b85c51",
+    "instruction": "MOV AX, 0x515c",
+    "source": "MOV AX, OFFSET DGROUP:_no_saved_games"
+  },
+  {
+    "image": 52405,
+    "relative_offset": 67,
+    "size": 1,
+    "native_hex": "50",
+    "instruction": "PUSH AX",
+    "source": "PUSH AX"
+  },
+  {
+    "image": 52406,
+    "relative_offset": 68,
+    "size": 3,
+    "native_hex": "e8dd45",
+    "instruction": "CALL 0x1000:1296",
+    "source": "CALL NEAR PTR _prompt_1296"
+  },
+  {
+    "image": 52409,
+    "relative_offset": 71,
+    "size": 3,
+    "native_hex": "83c406",
+    "instruction": "ADD SP, 0x6",
+    "source": "ADD SP, 06h"
+  },
+  {
+    "image": 52412,
+    "relative_offset": 74,
+    "size": 3,
+    "native_hex": "e91002",
+    "instruction": "JMP 0x1000:cecf",
+    "source": "JMP NEAR PTR code_cecf"
+  },
+  {
+    "image": 52415,
+    "relative_offset": 77,
+    "size": 4,
+    "native_hex": "8d8670fd",
+    "instruction": "LEA AX, [BP + 0xfd70]",
+    "source": "LEA AX, [BP-0290h]"
+  },
+  {
+    "image": 52419,
+    "relative_offset": 81,
+    "size": 3,
+    "native_hex": "8946fe",
+    "instruction": "MOV word ptr [BP + -0x2], AX",
+    "source": "MOV word ptr [BP-02h], AX"
+  },
+  {
+    "image": 52422,
+    "relative_offset": 84,
+    "size": 3,
+    "native_hex": "b80100",
+    "instruction": "MOV AX, 0x1",
+    "source": "MOV AX, 01h"
+  },
+  {
+    "image": 52425,
+    "relative_offset": 87,
+    "size": 1,
+    "native_hex": "50",
+    "instruction": "PUSH AX",
+    "source": "PUSH AX"
+  },
+  {
+    "image": 52426,
+    "relative_offset": 88,
+    "size": 3,
+    "native_hex": "e82c4b",
+    "instruction": "CALL 0x1000:17f9",
+    "source": "CALL NEAR PTR _select_mode"
+  },
+  {
+    "image": 52429,
+    "relative_offset": 91,
+    "size": 3,
+    "native_hex": "83c402",
+    "instruction": "ADD SP, 0x2",
+    "source": "ADD SP, 02h"
+  },
+  {
+    "image": 52432,
+    "relative_offset": 94,
+    "size": 5,
+    "native_hex": "9a1e00ef11",
+    "instruction": "CALLF 0x1000:1f0e",
+    "source": "CALL FAR PTR _graphics_begin"
+  },
+  {
+    "image": 52437,
+    "relative_offset": 99,
+    "size": 3,
+    "native_hex": "e8f405",
+    "instruction": "CALL 0x1000:d2cc",
+    "source": "CALL NEAR PTR _prepare_dialog_d2cc"
+  },
+  {
+    "image": 52440,
+    "relative_offset": 102,
+    "size": 4,
+    "native_hex": "8d867eff",
+    "instruction": "LEA AX, [BP + 0xff7e]",
+    "source": "LEA AX, [BP-082h]"
+  },
+  {
+    "image": 52444,
+    "relative_offset": 106,
+    "size": 1,
+    "native_hex": "50",
+    "instruction": "PUSH AX",
+    "source": "PUSH AX"
+  },
+  {
+    "image": 52445,
+    "relative_offset": 107,
+    "size": 3,
+    "native_hex": "ff76fe",
+    "instruction": "PUSH word ptr [BP + -0x2]",
+    "source": "PUSH word ptr [BP-02h]"
+  },
+  {
+    "image": 52448,
+    "relative_offset": 110,
+    "size": 3,
+    "native_hex": "e8fa05",
+    "instruction": "CALL 0x1000:d2dd",
+    "source": "CALL NEAR PTR _collect_saved_names_d2dd"
+  },
+  {
+    "image": 52451,
+    "relative_offset": 113,
+    "size": 3,
+    "native_hex": "83c404",
+    "instruction": "ADD SP, 0x4",
+    "source": "ADD SP, 04h"
+  },
+  {
+    "image": 52454,
+    "relative_offset": 116,
+    "size": 3,
+    "native_hex": "b86c51",
+    "instruction": "MOV AX, 0x516c",
+    "source": "MOV AX, OFFSET DGROUP:_dialog_actions_516c"
+  },
+  {
+    "image": 52457,
+    "relative_offset": 119,
+    "size": 1,
+    "native_hex": "50",
+    "instruction": "PUSH AX",
+    "source": "PUSH AX"
+  },
+  {
+    "image": 52458,
+    "relative_offset": 120,
+    "size": 4,
+    "native_hex": "8d867eff",
+    "instruction": "LEA AX, [BP + 0xff7e]",
+    "source": "LEA AX, [BP-082h]"
+  },
+  {
+    "image": 52462,
+    "relative_offset": 124,
+    "size": 1,
+    "native_hex": "50",
+    "instruction": "PUSH AX",
+    "source": "PUSH AX"
+  },
+  {
+    "image": 52463,
+    "relative_offset": 125,
+    "size": 3,
+    "native_hex": "e87306",
+    "instruction": "CALL 0x1000:d365",
+    "source": "CALL NEAR PTR _draw_saved_game_rows_d365"
+  },
+  {
+    "image": 52466,
+    "relative_offset": 128,
+    "size": 3,
+    "native_hex": "83c404",
+    "instruction": "ADD SP, 0x4",
+    "source": "ADD SP, 04h"
+  },
+  {
+    "image": 52469,
+    "relative_offset": 131,
+    "size": 4,
+    "native_hex": "8d867eff",
+    "instruction": "LEA AX, [BP + 0xff7e]",
+    "source": "LEA AX, [BP-082h]"
+  },
+  {
+    "image": 52473,
+    "relative_offset": 135,
+    "size": 1,
+    "native_hex": "50",
+    "instruction": "PUSH AX",
+    "source": "PUSH AX"
+  },
+  {
+    "image": 52474,
+    "relative_offset": 136,
+    "size": 4,
+    "native_hex": "ffb674ff",
+    "instruction": "PUSH word ptr [BP + 0xff74]",
+    "source": "PUSH word ptr [BP-08Ch]"
+  },
+  {
+    "image": 52478,
+    "relative_offset": 140,
+    "size": 3,
+    "native_hex": "e86b09",
+    "instruction": "CALL 0x1000:d66c",
+    "source": "CALL NEAR PTR _highlight_game_d66c"
+  },
+  {
+    "image": 52481,
+    "relative_offset": 143,
+    "size": 3,
+    "native_hex": "83c404",
+    "instruction": "ADD SP, 0x4",
+    "source": "ADD SP, 04h"
+  },
+  {
+    "image": 52484,
+    "relative_offset": 146,
+    "size": 5,
+    "native_hex": "9a0000ef11",
+    "instruction": "CALLF 0x1000:1ef0",
+    "source": "CALL FAR PTR _graphics_end"
+  },
+  {
+    "image": 52489,
+    "relative_offset": 151,
+    "size": 3,
+    "native_hex": "e85a0a",
+    "instruction": "CALL 0x1000:d766",
+    "source": "CALL NEAR PTR _next_dialog_event_d766"
+  },
+  {
+    "image": 52492,
+    "relative_offset": 154,
+    "size": 4,
+    "native_hex": "898678ff",
+    "instruction": "MOV word ptr [BP + 0xff78], AX",
+    "source": "MOV word ptr [BP-088h], AX"
+  },
+  {
+    "image": 52496,
+    "relative_offset": 158,
+    "size": 2,
+    "native_hex": "8bd8",
+    "instruction": "MOV BX, AX",
+    "source": "MOV BX, AX"
+  },
+  {
+    "image": 52498,
+    "relative_offset": 160,
+    "size": 3,
+    "native_hex": "833f07",
+    "instruction": "CMP word ptr [BX], 0x7",
+    "source": "CMP word ptr [BX], 07h"
+  },
+  {
+    "image": 52501,
+    "relative_offset": 163,
+    "size": 2,
+    "native_hex": "7545",
+    "instruction": "JNZ 0x1000:cd5c",
+    "source": "JNZ SHORT code_cd5c"
+  },
+  {
+    "image": 52503,
+    "relative_offset": 165,
+    "size": 4,
+    "native_hex": "837f0200",
+    "instruction": "CMP word ptr [BX + 0x2], 0x0",
+    "source": "CMP word ptr [BX + 02h], 00h"
+  },
+  {
+    "image": 52507,
+    "relative_offset": 169,
+    "size": 2,
+    "native_hex": "753f",
+    "instruction": "JNZ 0x1000:cd5c",
+    "source": "JNZ SHORT code_cd5c"
+  },
+  {
+    "image": 52509,
+    "relative_offset": 171,
+    "size": 3,
+    "native_hex": "8b4704",
+    "instruction": "MOV AX, word ptr [BX + 0x4]",
+    "source": "MOV AX, word ptr [BX + 04h]"
+  },
+  {
+    "image": 52512,
+    "relative_offset": 174,
+    "size": 3,
+    "native_hex": "3d8000",
+    "instruction": "CMP AX, 0x80",
+    "source": "CMP AX, 080h"
+  },
+  {
+    "image": 52515,
+    "relative_offset": 177,
+    "size": 2,
+    "native_hex": "7429",
+    "instruction": "JZ 0x1000:cd4e",
+    "source": "JZ SHORT code_cd4e"
+  },
+  {
+    "image": 52517,
+    "relative_offset": 179,
+    "size": 3,
+    "native_hex": "3d8100",
+    "instruction": "CMP AX, 0x81",
+    "source": "CMP AX, 081h"
+  },
+  {
+    "image": 52520,
+    "relative_offset": 182,
+    "size": 2,
+    "native_hex": "75df",
+    "instruction": "JNZ 0x1000:cd09",
+    "source": "JNZ SHORT code_cd09"
+  },
+  {
+    "image": 52522,
+    "relative_offset": 184,
+    "size": 4,
+    "native_hex": "ffb674ff",
+    "instruction": "PUSH word ptr [BP + 0xff74]",
+    "source": "PUSH word ptr [BP-08Ch]"
+  },
+  {
+    "image": 52526,
+    "relative_offset": 188,
+    "size": 4,
+    "native_hex": "8d867eff",
+    "instruction": "LEA AX, [BP + 0xff7e]",
+    "source": "LEA AX, [BP-082h]"
+  },
+  {
+    "image": 52530,
+    "relative_offset": 192,
+    "size": 1,
+    "native_hex": "50",
+    "instruction": "PUSH AX",
+    "source": "PUSH AX"
+  },
+  {
+    "image": 52531,
+    "relative_offset": 193,
+    "size": 3,
+    "native_hex": "e8070e",
+    "instruction": "CALL 0x1000:db3d",
+    "source": "CALL NEAR PTR _next_dialog_row_db3d"
+  },
+  {
+    "image": 52534,
+    "relative_offset": 196,
+    "size": 3,
+    "native_hex": "83c404",
+    "instruction": "ADD SP, 0x4",
+    "source": "ADD SP, 04h"
+  },
+  {
+    "image": 52537,
+    "relative_offset": 199,
+    "size": 4,
+    "native_hex": "898674ff",
+    "instruction": "MOV word ptr [BP + 0xff74], AX",
+    "source": "MOV word ptr [BP-08Ch], AX"
+  },
+  {
+    "image": 52541,
+    "relative_offset": 203,
+    "size": 4,
+    "native_hex": "8d867eff",
+    "instruction": "LEA AX, [BP + 0xff7e]",
+    "source": "LEA AX, [BP-082h]"
+  },
+  {
+    "image": 52545,
+    "relative_offset": 207,
+    "size": 1,
+    "native_hex": "50",
+    "instruction": "PUSH AX",
+    "source": "PUSH AX"
+  },
+  {
+    "image": 52546,
+    "relative_offset": 208,
+    "size": 4,
+    "native_hex": "ffb674ff",
+    "instruction": "PUSH word ptr [BP + 0xff74]",
+    "source": "PUSH word ptr [BP-08Ch]"
+  },
+  {
+    "image": 52550,
+    "relative_offset": 212,
+    "size": 3,
+    "native_hex": "e82309",
+    "instruction": "CALL 0x1000:d66c",
+    "source": "CALL NEAR PTR _highlight_game_d66c"
+  },
+  {
+    "image": 52553,
+    "relative_offset": 215,
+    "size": 3,
+    "native_hex": "83c404",
+    "instruction": "ADD SP, 0x4",
+    "source": "ADD SP, 04h"
+  },
+  {
+    "image": 52556,
+    "relative_offset": 218,
+    "size": 2,
+    "native_hex": "ebbb",
+    "instruction": "JMP 0x1000:cd09",
+    "source": "JMP SHORT code_cd09"
+  },
+  {
+    "image": 52558,
+    "relative_offset": 220,
+    "size": 4,
+    "native_hex": "ffb674ff",
+    "instruction": "PUSH word ptr [BP + 0xff74]",
+    "source": "PUSH word ptr [BP-08Ch]"
+  },
+  {
+    "image": 52562,
+    "relative_offset": 224,
+    "size": 4,
+    "native_hex": "8d867eff",
+    "instruction": "LEA AX, [BP + 0xff7e]",
+    "source": "LEA AX, [BP-082h]"
+  },
+  {
+    "image": 52566,
+    "relative_offset": 228,
+    "size": 1,
+    "native_hex": "50",
+    "instruction": "PUSH AX",
+    "source": "PUSH AX"
+  },
+  {
+    "image": 52567,
+    "relative_offset": 229,
+    "size": 3,
+    "native_hex": "e80b0e",
+    "instruction": "CALL 0x1000:db65",
+    "source": "CALL NEAR PTR _previous_dialog_row_db65"
+  },
+  {
+    "image": 52570,
+    "relative_offset": 232,
+    "size": 2,
+    "native_hex": "ebda",
+    "instruction": "JMP 0x1000:cd36",
+    "source": "JMP SHORT code_cd36"
+  },
+  {
+    "image": 52572,
+    "relative_offset": 234,
+    "size": 4,
+    "native_hex": "8b9e78ff",
+    "instruction": "MOV BX, word ptr [BP + 0xff78]",
+    "source": "MOV BX, word ptr [BP-088h]"
+  },
+  {
+    "image": 52576,
+    "relative_offset": 238,
+    "size": 3,
+    "native_hex": "833f06",
+    "instruction": "CMP word ptr [BX], 0x6",
+    "source": "CMP word ptr [BX], 06h"
+  },
+  {
+    "image": 52579,
+    "relative_offset": 241,
+    "size": 2,
+    "native_hex": "7577",
+    "instruction": "JNZ 0x1000:cddc",
+    "source": "JNZ SHORT code_cddc"
+  },
+  {
+    "image": 52581,
+    "relative_offset": 243,
+    "size": 4,
+    "native_hex": "837f0200",
+    "instruction": "CMP word ptr [BX + 0x2], 0x0",
+    "source": "CMP word ptr [BX + 02h], 00h"
+  },
+  {
+    "image": 52585,
+    "relative_offset": 247,
+    "size": 2,
+    "native_hex": "7571",
+    "instruction": "JNZ 0x1000:cddc",
+    "source": "JNZ SHORT code_cddc"
+  },
+  {
+    "image": 52587,
+    "relative_offset": 249,
+    "size": 3,
+    "native_hex": "8b4704",
+    "instruction": "MOV AX, word ptr [BX + 0x4]",
+    "source": "MOV AX, word ptr [BX + 04h]"
+  },
+  {
+    "image": 52590,
+    "relative_offset": 252,
+    "size": 3,
+    "native_hex": "3d0d00",
+    "instruction": "CMP AX, 0xd",
+    "source": "CMP AX, 0Dh"
+  },
+  {
+    "image": 52593,
+    "relative_offset": 255,
+    "size": 2,
+    "native_hex": "740d",
+    "instruction": "JZ 0x1000:cd80",
+    "source": "JZ SHORT code_cd80"
+  },
+  {
+    "image": 52595,
+    "relative_offset": 257,
+    "size": 3,
+    "native_hex": "3d1b00",
+    "instruction": "CMP AX, 0x1b",
+    "source": "CMP AX, 01Bh"
+  },
+  {
+    "image": 52598,
+    "relative_offset": 260,
+    "size": 2,
+    "native_hex": "7503",
+    "instruction": "JNZ 0x1000:cd7b",
+    "source": "JNZ SHORT code_cd7b"
+  },
+  {
+    "image": 52600,
+    "relative_offset": 262,
+    "size": 3,
+    "native_hex": "e94701",
+    "instruction": "JMP 0x1000:cec2",
+    "source": "JMP NEAR PTR code_cec2"
+  },
+  {
+    "image": 52603,
+    "relative_offset": 265,
+    "size": 3,
+    "native_hex": "3d2000",
+    "instruction": "CMP AX, 0x20",
+    "source": "CMP AX, 020h"
+  },
+  {
+    "image": 52606,
+    "relative_offset": 268,
+    "size": 2,
+    "native_hex": "7589",
+    "instruction": "JNZ 0x1000:cd09",
+    "source": "JNZ SHORT code_cd09"
+  },
+  {
+    "image": 52608,
+    "relative_offset": 270,
+    "size": 5,
+    "native_hex": "9a1e00ef11",
+    "instruction": "CALLF 0x1000:1f0e",
+    "source": "CALL FAR PTR _graphics_begin"
+  },
+  {
+    "image": 52613,
+    "relative_offset": 275,
+    "size": 3,
+    "native_hex": "e8860b",
+    "instruction": "CALL 0x1000:d90e",
+    "source": "CALL NEAR PTR _close_dialog_d90e"
+  },
+  {
+    "image": 52616,
+    "relative_offset": 278,
+    "size": 4,
+    "native_hex": "8bb674ff",
+    "instruction": "MOV SI, word ptr [BP + 0xff74]",
+    "source": "MOV SI, word ptr [BP-08Ch]"
+  },
+  {
+    "image": 52620,
+    "relative_offset": 282,
+    "size": 2,
+    "native_hex": "b104",
+    "instruction": "MOV CL, 0x4",
+    "source": "MOV CL, 04h"
+  },
+  {
+    "image": 52622,
+    "relative_offset": 284,
+    "size": 2,
+    "native_hex": "d3e6",
+    "instruction": "SHL SI, CL",
+    "source": "SHL SI, CL"
+  },
+  {
+    "image": 52624,
+    "relative_offset": 286,
+    "size": 3,
+    "native_hex": "8a428d",
+    "instruction": "MOV AL, byte ptr [BP + SI + -0x73]",
+    "source": "MOV AL, byte ptr [BP+SI-073h]"
+  },
+  {
+    "image": 52627,
+    "relative_offset": 289,
+    "size": 2,
+    "native_hex": "2ae4",
+    "instruction": "SUB AH, AH",
+    "source": "SUB AH, AH"
+  },
+  {
+    "image": 52629,
+    "relative_offset": 291,
+    "size": 4,
+    "native_hex": "898674ff",
+    "instruction": "MOV word ptr [BP + 0xff74], AX",
+    "source": "MOV word ptr [BP-08Ch], AX"
+  },
+  {
+    "image": 52633,
+    "relative_offset": 295,
+    "size": 3,
+    "native_hex": "b83000",
+    "instruction": "MOV AX, 0x30",
+    "source": "MOV AX, 030h"
+  },
+  {
+    "image": 52636,
+    "relative_offset": 298,
+    "size": 4,
+    "native_hex": "f7ae74ff",
+    "instruction": "IMUL word ptr [BP + 0xff74]",
+    "source": "IMUL word ptr [BP-08Ch]"
+  },
+  {
+    "image": 52640,
+    "relative_offset": 302,
+    "size": 3,
+    "native_hex": "0346fe",
+    "instruction": "ADD AX, word ptr [BP + -0x2]",
+    "source": "ADD AX, word ptr [BP-02h]"
+  },
+  {
+    "image": 52643,
+    "relative_offset": 305,
+    "size": 3,
+    "native_hex": "051f00",
+    "instruction": "ADD AX, 0x1f",
+    "source": "ADD AX, 01Fh"
+  },
+  {
+    "image": 52646,
+    "relative_offset": 308,
+    "size": 1,
+    "native_hex": "50",
+    "instruction": "PUSH AX",
+    "source": "PUSH AX"
+  },
+  {
+    "image": 52647,
+    "relative_offset": 309,
+    "size": 3,
+    "native_hex": "e8c9bf",
+    "instruction": "CALL 0x1000:8d73",
+    "source": "CALL NEAR PTR _dispatch_8d73"
+  },
+  {
+    "image": 52650,
+    "relative_offset": 312,
+    "size": 3,
+    "native_hex": "83c402",
+    "instruction": "ADD SP, 0x2",
+    "source": "ADD SP, 02h"
+  },
+  {
+    "image": 52653,
+    "relative_offset": 315,
+    "size": 3,
+    "native_hex": "e8c111",
+    "instruction": "CALL 0x1000:df71",
+    "source": "CALL NEAR PTR _reset_df71"
+  },
+  {
+    "image": 52656,
+    "relative_offset": 318,
+    "size": 3,
+    "native_hex": "a1f60e",
+    "instruction": "MOV AX, [0xef6]",
+    "source": "MOV AX, _command_active"
+  },
+  {
+    "image": 52659,
+    "relative_offset": 321,
+    "size": 4,
+    "native_hex": "898676ff",
+    "instruction": "MOV word ptr [BP + 0xff76], AX",
+    "source": "MOV word ptr [BP-08Ah], AX"
+  },
+  {
+    "image": 52663,
+    "relative_offset": 325,
+    "size": 4,
+    "native_hex": "ffb674ff",
+    "instruction": "PUSH word ptr [BP + 0xff74]",
+    "source": "PUSH word ptr [BP-08Ch]"
+  },
+  {
+    "image": 52667,
+    "relative_offset": 329,
+    "size": 3,
+    "native_hex": "ff76fe",
+    "instruction": "PUSH word ptr [BP + -0x2]",
+    "source": "PUSH word ptr [BP-02h]"
+  },
+  {
+    "image": 52670,
+    "relative_offset": 332,
+    "size": 3,
+    "native_hex": "e8eac4",
+    "instruction": "CALL 0x1000:92ab",
+    "source": "CALL NEAR PTR _restore_ui_92ab"
+  },
+  {
+    "image": 52673,
+    "relative_offset": 335,
+    "size": 3,
+    "native_hex": "83c404",
+    "instruction": "ADD SP, 0x4",
+    "source": "ADD SP, 04h"
+  },
+  {
+    "image": 52676,
+    "relative_offset": 338,
+    "size": 3,
+    "native_hex": "a1f60e",
+    "instruction": "MOV AX, [0xef6]",
+    "source": "MOV AX, _command_active"
+  },
+  {
+    "image": 52679,
+    "relative_offset": 341,
+    "size": 4,
+    "native_hex": "398676ff",
+    "instruction": "CMP word ptr [BP + 0xff76], AX",
+    "source": "CMP word ptr [BP-08Ah], AX"
+  },
+  {
+    "image": 52683,
+    "relative_offset": 345,
+    "size": 2,
+    "native_hex": "7503",
+    "instruction": "JNZ 0x1000:cdd0",
+    "source": "JNZ SHORT code_cdd0"
+  },
+  {
+    "image": 52685,
+    "relative_offset": 347,
+    "size": 3,
+    "native_hex": "e9fa00",
+    "instruction": "JMP 0x1000:ceca",
+    "source": "JMP NEAR PTR code_ceca"
+  },
+  {
+    "image": 52688,
+    "relative_offset": 350,
+    "size": 3,
+    "native_hex": "e8475c",
+    "instruction": "CALL 0x1000:2a1a",
+    "source": "CALL NEAR PTR _init_surface"
+  },
+  {
+    "image": 52691,
+    "relative_offset": 353,
+    "size": 3,
+    "native_hex": "e87970",
+    "instruction": "CALL 0x1000:3e4f",
+    "source": "CALL NEAR PTR _reset_graphics_3e4f"
+  },
+  {
+    "image": 52694,
+    "relative_offset": 356,
+    "size": 3,
+    "native_hex": "e88c3a",
+    "instruction": "CALL 0x1000:0865",
+    "source": "CALL NEAR PTR _reset_display_0865"
+  },
+  {
+    "image": 52697,
+    "relative_offset": 359,
+    "size": 3,
+    "native_hex": "e9ee00",
+    "instruction": "JMP 0x1000:ceca",
+    "source": "JMP NEAR PTR code_ceca"
+  },
+  {
+    "image": 52700,
+    "relative_offset": 362,
+    "size": 4,
+    "native_hex": "8b9e78ff",
+    "instruction": "MOV BX, word ptr [BP + 0xff78]",
+    "source": "MOV BX, word ptr [BP-088h]"
+  },
+  {
+    "image": 52704,
+    "relative_offset": 366,
+    "size": 2,
+    "native_hex": "8b07",
+    "instruction": "MOV AX, word ptr [BX]",
+    "source": "MOV AX, word ptr [BX]"
+  },
+  {
+    "image": 52706,
+    "relative_offset": 368,
+    "size": 3,
+    "native_hex": "3d0400",
+    "instruction": "CMP AX, 0x4",
+    "source": "CMP AX, 04h"
+  },
+  {
+    "image": 52709,
+    "relative_offset": 371,
+    "size": 2,
+    "native_hex": "740b",
+    "instruction": "JZ 0x1000:cdf2",
+    "source": "JZ SHORT code_cdf2"
+  },
+  {
+    "image": 52711,
+    "relative_offset": 373,
+    "size": 3,
+    "native_hex": "3d0500",
+    "instruction": "CMP AX, 0x5",
+    "source": "CMP AX, 05h"
+  },
+  {
+    "image": 52714,
+    "relative_offset": 376,
+    "size": 2,
+    "native_hex": "7503",
+    "instruction": "JNZ 0x1000:cdef",
+    "source": "JNZ SHORT code_cdef"
+  },
+  {
+    "image": 52716,
+    "relative_offset": 378,
+    "size": 3,
+    "native_hex": "e9bb00",
+    "instruction": "JMP 0x1000:ceaa",
+    "source": "JMP NEAR PTR code_ceaa"
+  },
+  {
+    "image": 52719,
+    "relative_offset": 381,
+    "size": 3,
+    "native_hex": "e917ff",
+    "instruction": "JMP 0x1000:cd09",
+    "source": "JMP NEAR PTR code_cd09"
+  },
+  {
+    "image": 52722,
+    "relative_offset": 384,
+    "size": 4,
+    "native_hex": "837f0401",
+    "instruction": "CMP word ptr [BX + 0x4], 0x1",
+    "source": "CMP word ptr [BX + 04h], 01h"
+  },
+  {
+    "image": 52726,
+    "relative_offset": 388,
+    "size": 2,
+    "native_hex": "7403",
+    "instruction": "JZ 0x1000:cdfb",
+    "source": "JZ SHORT code_cdfb"
+  },
+  {
+    "image": 52728,
+    "relative_offset": 390,
+    "size": 3,
+    "native_hex": "e90eff",
+    "instruction": "JMP 0x1000:cd09",
+    "source": "JMP NEAR PTR code_cd09"
+  },
+  {
+    "image": 52731,
+    "relative_offset": 393,
+    "size": 3,
+    "native_hex": "e85d1c",
+    "instruction": "CALL 0x1000:ea5b",
+    "source": "CALL NEAR PTR _ticks_ea5b"
+  },
+  {
+    "image": 52734,
+    "relative_offset": 396,
+    "size": 1,
+    "native_hex": "99",
+    "instruction": "CWD",
+    "source": "CWD"
+  },
+  {
+    "image": 52735,
+    "relative_offset": 397,
+    "size": 4,
+    "native_hex": "89867aff",
+    "instruction": "MOV word ptr [BP + 0xff7a], AX",
+    "source": "MOV word ptr [BP-086h], AX"
+  },
+  {
+    "image": 52739,
+    "relative_offset": 401,
+    "size": 4,
+    "native_hex": "89967cff",
+    "instruction": "MOV word ptr [BP + 0xff7c], DX",
+    "source": "MOV word ptr [BP-084h], DX"
+  },
+  {
+    "image": 52743,
+    "relative_offset": 405,
+    "size": 2,
+    "native_hex": "2bc0",
+    "instruction": "SUB AX, AX",
+    "source": "SUB AX, AX"
+  },
+  {
+    "image": 52745,
+    "relative_offset": 407,
+    "size": 1,
+    "native_hex": "50",
+    "instruction": "PUSH AX",
+    "source": "PUSH AX"
+  },
+  {
+    "image": 52746,
+    "relative_offset": 408,
+    "size": 4,
+    "native_hex": "ff365e93",
+    "instruction": "PUSH word ptr [0x935e]",
+    "source": "PUSH word ptr _pointer_y"
+  },
+  {
+    "image": 52750,
+    "relative_offset": 412,
+    "size": 4,
+    "native_hex": "ff363a93",
+    "instruction": "PUSH word ptr [0x933a]",
+    "source": "PUSH word ptr _pointer_x"
+  },
+  {
+    "image": 52754,
+    "relative_offset": 416,
+    "size": 3,
+    "native_hex": "e82b0a",
+    "instruction": "CALL 0x1000:d840",
+    "source": "CALL NEAR PTR _dialog_hit_d840"
+  },
+  {
+    "image": 52757,
+    "relative_offset": 419,
+    "size": 3,
+    "native_hex": "83c406",
+    "instruction": "ADD SP, 0x6",
+    "source": "ADD SP, 06h"
+  },
+  {
+    "image": 52760,
+    "relative_offset": 422,
+    "size": 4,
+    "native_hex": "898676ff",
+    "instruction": "MOV word ptr [BP + 0xff76], AX",
+    "source": "MOV word ptr [BP-08Ah], AX"
+  },
+  {
+    "image": 52764,
+    "relative_offset": 426,
+    "size": 3,
+    "native_hex": "3d0700",
+    "instruction": "CMP AX, 0x7",
+    "source": "CMP AX, 07h"
+  },
+  {
+    "image": 52767,
+    "relative_offset": 429,
+    "size": 2,
+    "native_hex": "7f21",
+    "instruction": "JG 0x1000:ce42",
+    "source": "JG SHORT code_ce42"
+  },
+  {
+    "image": 52769,
+    "relative_offset": 431,
+    "size": 2,
+    "native_hex": "8bf0",
+    "instruction": "MOV SI, AX",
+    "source": "MOV SI, AX"
+  },
+  {
+    "image": 52771,
+    "relative_offset": 433,
+    "size": 2,
+    "native_hex": "b104",
+    "instruction": "MOV CL, 0x4",
+    "source": "MOV CL, 04h"
+  },
+  {
+    "image": 52773,
+    "relative_offset": 435,
+    "size": 2,
+    "native_hex": "d3e6",
+    "instruction": "SHL SI, CL",
+    "source": "SHL SI, CL"
+  },
+  {
+    "image": 52775,
+    "relative_offset": 437,
+    "size": 4,
+    "native_hex": "807a8dff",
+    "instruction": "CMP byte ptr [BP + SI + -0x73], 0xff",
+    "source": "CMP byte ptr [BP+SI-073h], 0FFh"
+  },
+  {
+    "image": 52779,
+    "relative_offset": 441,
+    "size": 2,
+    "native_hex": "742d",
+    "instruction": "JZ 0x1000:ce5a",
+    "source": "JZ SHORT code_ce5a"
+  },
+  {
+    "image": 52781,
+    "relative_offset": 443,
+    "size": 4,
+    "native_hex": "898674ff",
+    "instruction": "MOV word ptr [BP + 0xff74], AX",
+    "source": "MOV word ptr [BP-08Ch], AX"
+  },
+  {
+    "image": 52785,
+    "relative_offset": 447,
+    "size": 4,
+    "native_hex": "8d867eff",
+    "instruction": "LEA AX, [BP + 0xff7e]",
+    "source": "LEA AX, [BP-082h]"
+  },
+  {
+    "image": 52789,
+    "relative_offset": 451,
+    "size": 1,
+    "native_hex": "50",
+    "instruction": "PUSH AX",
+    "source": "PUSH AX"
+  },
+  {
+    "image": 52790,
+    "relative_offset": 452,
+    "size": 4,
+    "native_hex": "ffb674ff",
+    "instruction": "PUSH word ptr [BP + 0xff74]",
+    "source": "PUSH word ptr [BP-08Ch]"
+  },
+  {
+    "image": 52794,
+    "relative_offset": 456,
+    "size": 3,
+    "native_hex": "e82f08",
+    "instruction": "CALL 0x1000:d66c",
+    "source": "CALL NEAR PTR _highlight_game_d66c"
+  },
+  {
+    "image": 52797,
+    "relative_offset": 459,
+    "size": 3,
+    "native_hex": "83c404",
+    "instruction": "ADD SP, 0x4",
+    "source": "ADD SP, 04h"
+  },
+  {
+    "image": 52800,
+    "relative_offset": 462,
+    "size": 2,
+    "native_hex": "eb18",
+    "instruction": "JMP 0x1000:ce5a",
+    "source": "JMP SHORT code_ce5a"
+  },
+  {
+    "image": 52802,
+    "relative_offset": 464,
+    "size": 5,
+    "native_hex": "83be76ff08",
+    "instruction": "CMP word ptr [BP + 0xff76], 0x8",
+    "source": "CMP word ptr [BP-08Ah], 08h"
+  },
+  {
+    "image": 52807,
+    "relative_offset": 469,
+    "size": 2,
+    "native_hex": "7511",
+    "instruction": "JNZ 0x1000:ce5a",
+    "source": "JNZ SHORT code_ce5a"
+  },
+  {
+    "image": 52809,
+    "relative_offset": 471,
+    "size": 2,
+    "native_hex": "2bc0",
+    "instruction": "SUB AX, AX",
+    "source": "SUB AX, AX"
+  },
+  {
+    "image": 52811,
+    "relative_offset": 473,
+    "size": 1,
+    "native_hex": "50",
+    "instruction": "PUSH AX",
+    "source": "PUSH AX"
+  },
+  {
+    "image": 52812,
+    "relative_offset": 474,
+    "size": 4,
+    "native_hex": "ffb676ff",
+    "instruction": "PUSH word ptr [BP + 0xff76]",
+    "source": "PUSH word ptr [BP-08Ah]"
+  },
+  {
+    "image": 52816,
+    "relative_offset": 478,
+    "size": 3,
+    "native_hex": "e8db0a",
+    "instruction": "CALL 0x1000:d92e",
+    "source": "CALL NEAR PTR _dialog_button_d92e"
+  },
+  {
+    "image": 52819,
+    "relative_offset": 481,
+    "size": 3,
+    "native_hex": "83c404",
+    "instruction": "ADD SP, 0x4",
+    "source": "ADD SP, 04h"
+  },
+  {
+    "image": 52822,
+    "relative_offset": 484,
+    "size": 2,
+    "native_hex": "0bc0",
+    "instruction": "OR AX, AX",
+    "source": "OR AX, AX"
+  },
+  {
+    "image": 52824,
+    "relative_offset": 486,
+    "size": 2,
+    "native_hex": "7568",
+    "instruction": "JNZ 0x1000:cec2",
+    "source": "JNZ SHORT code_cec2"
+  },
+  {
+    "image": 52826,
+    "relative_offset": 488,
+    "size": 4,
+    "native_hex": "8b8674ff",
+    "instruction": "MOV AX, word ptr [BP + 0xff74]",
+    "source": "MOV AX, word ptr [BP-08Ch]"
+  },
+  {
+    "image": 52830,
+    "relative_offset": 492,
+    "size": 4,
+    "native_hex": "398676ff",
+    "instruction": "CMP word ptr [BP + 0xff76], AX",
+    "source": "CMP word ptr [BP-08Ah], AX"
+  },
+  {
+    "image": 52834,
+    "relative_offset": 496,
+    "size": 2,
+    "native_hex": "7403",
+    "instruction": "JZ 0x1000:ce67",
+    "source": "JZ SHORT code_ce67"
+  },
+  {
+    "image": 52836,
+    "relative_offset": 498,
+    "size": 3,
+    "native_hex": "e9a2fe",
+    "instruction": "JMP 0x1000:cd09",
+    "source": "JMP NEAR PTR code_cd09"
+  },
+  {
+    "image": 52839,
+    "relative_offset": 501,
+    "size": 4,
+    "native_hex": "8b867aff",
+    "instruction": "MOV AX, word ptr [BP + 0xff7a]",
+    "source": "MOV AX, word ptr [BP-086h]"
+  },
+  {
+    "image": 52843,
+    "relative_offset": 505,
+    "size": 4,
+    "native_hex": "8b967cff",
+    "instruction": "MOV DX, word ptr [BP + 0xff7c]",
+    "source": "MOV DX, word ptr [BP-084h]"
+  },
+  {
+    "image": 52847,
+    "relative_offset": 509,
+    "size": 4,
+    "native_hex": "2b8670ff",
+    "instruction": "SUB AX, word ptr [BP + 0xff70]",
+    "source": "SUB AX, word ptr [BP-090h]"
+  },
+  {
+    "image": 52851,
+    "relative_offset": 513,
+    "size": 4,
+    "native_hex": "1b9672ff",
+    "instruction": "SBB DX, word ptr [BP + 0xff72]",
+    "source": "SBB DX, word ptr [BP-08Eh]"
+  },
+  {
+    "image": 52855,
+    "relative_offset": 517,
+    "size": 2,
+    "native_hex": "0bd2",
+    "instruction": "OR DX, DX",
+    "source": "OR DX, DX"
+  },
+  {
+    "image": 52857,
+    "relative_offset": 519,
+    "size": 2,
+    "native_hex": "7514",
+    "instruction": "JNZ 0x1000:ce8f",
+    "source": "JNZ SHORT code_ce8f"
+  },
+  {
+    "image": 52859,
+    "relative_offset": 521,
+    "size": 2,
+    "native_hex": "7205",
+    "instruction": "JC 0x1000:ce82",
+    "source": "JC SHORT code_ce82"
+  },
+  {
+    "image": 52861,
+    "relative_offset": 523,
+    "size": 3,
+    "native_hex": "3d0a00",
+    "instruction": "CMP AX, 0xa",
+    "source": "CMP AX, 0Ah"
+  },
+  {
+    "image": 52864,
+    "relative_offset": 526,
+    "size": 2,
+    "native_hex": "730d",
+    "instruction": "JNC 0x1000:ce8f",
+    "source": "JNC SHORT code_ce8f"
+  },
+  {
+    "image": 52866,
+    "relative_offset": 528,
+    "size": 4,
+    "native_hex": "8b8674ff",
+    "instruction": "MOV AX, word ptr [BP + 0xff74]",
+    "source": "MOV AX, word ptr [BP-08Ch]"
+  },
+  {
+    "image": 52870,
+    "relative_offset": 532,
+    "size": 4,
+    "native_hex": "39866efd",
+    "instruction": "CMP word ptr [BP + 0xfd6e], AX",
+    "source": "CMP word ptr [BP-0292h], AX"
+  },
+  {
+    "image": 52874,
+    "relative_offset": 536,
+    "size": 2,
+    "native_hex": "7503",
+    "instruction": "JNZ 0x1000:ce8f",
+    "source": "JNZ SHORT code_ce8f"
+  },
+  {
+    "image": 52876,
+    "relative_offset": 538,
+    "size": 3,
+    "native_hex": "e9f1fe",
+    "instruction": "JMP 0x1000:cd80",
+    "source": "JMP NEAR PTR code_cd80"
+  },
+  {
+    "image": 52879,
+    "relative_offset": 541,
+    "size": 4,
+    "native_hex": "8b867aff",
+    "instruction": "MOV AX, word ptr [BP + 0xff7a]",
+    "source": "MOV AX, word ptr [BP-086h]"
+  },
+  {
+    "image": 52883,
+    "relative_offset": 545,
+    "size": 4,
+    "native_hex": "8b967cff",
+    "instruction": "MOV DX, word ptr [BP + 0xff7c]",
+    "source": "MOV DX, word ptr [BP-084h]"
+  },
+  {
+    "image": 52887,
+    "relative_offset": 549,
+    "size": 4,
+    "native_hex": "898670ff",
+    "instruction": "MOV word ptr [BP + 0xff70], AX",
+    "source": "MOV word ptr [BP-090h], AX"
+  },
+  {
+    "image": 52891,
+    "relative_offset": 553,
+    "size": 4,
+    "native_hex": "899672ff",
+    "instruction": "MOV word ptr [BP + 0xff72], DX",
+    "source": "MOV word ptr [BP-08Eh], DX"
+  },
+  {
+    "image": 52895,
+    "relative_offset": 557,
+    "size": 4,
+    "native_hex": "8b8674ff",
+    "instruction": "MOV AX, word ptr [BP + 0xff74]",
+    "source": "MOV AX, word ptr [BP-08Ch]"
+  },
+  {
+    "image": 52899,
+    "relative_offset": 561,
+    "size": 4,
+    "native_hex": "89866efd",
+    "instruction": "MOV word ptr [BP + 0xfd6e], AX",
+    "source": "MOV word ptr [BP-0292h], AX"
+  },
+  {
+    "image": 52903,
+    "relative_offset": 565,
+    "size": 3,
+    "native_hex": "e95ffe",
+    "instruction": "JMP 0x1000:cd09",
+    "source": "JMP NEAR PTR code_cd09"
+  },
+  {
+    "image": 52906,
+    "relative_offset": 568,
+    "size": 4,
+    "native_hex": "8b9e78ff",
+    "instruction": "MOV BX, word ptr [BP + 0xff78]",
+    "source": "MOV BX, word ptr [BP-088h]"
+  },
+  {
+    "image": 52910,
+    "relative_offset": 572,
+    "size": 3,
+    "native_hex": "8b4708",
+    "instruction": "MOV AX, word ptr [BX + 0x8]",
+    "source": "MOV AX, word ptr [BX + 08h]"
+  },
+  {
+    "image": 52913,
+    "relative_offset": 575,
+    "size": 3,
+    "native_hex": "a33a93",
+    "instruction": "MOV [0x933a], AX",
+    "source": "MOV _pointer_x, AX"
+  },
+  {
+    "image": 52916,
+    "relative_offset": 578,
+    "size": 3,
+    "native_hex": "8b470a",
+    "instruction": "MOV AX, word ptr [BX + 0xa]",
+    "source": "MOV AX, word ptr [BX + 0Ah]"
+  },
+  {
+    "image": 52919,
+    "relative_offset": 581,
+    "size": 3,
+    "native_hex": "a35e93",
+    "instruction": "MOV [0x935e], AX",
+    "source": "MOV _pointer_y, AX"
+  },
+  {
+    "image": 52922,
+    "relative_offset": 584,
+    "size": 5,
+    "native_hex": "9a3000ef11",
+    "instruction": "CALLF 0x1000:1f20",
+    "source": "CALL FAR PTR _update_pointer_11ef_0030"
+  },
+  {
+    "image": 52927,
+    "relative_offset": 589,
+    "size": 3,
+    "native_hex": "e947fe",
+    "instruction": "JMP 0x1000:cd09",
+    "source": "JMP NEAR PTR code_cd09"
+  },
+  {
+    "image": 52930,
+    "relative_offset": 592,
+    "size": 5,
+    "native_hex": "9a1e00ef11",
+    "instruction": "CALLF 0x1000:1f0e",
+    "source": "CALL FAR PTR _graphics_begin"
+  },
+  {
+    "image": 52935,
+    "relative_offset": 597,
+    "size": 3,
+    "native_hex": "e8440a",
+    "instruction": "CALL 0x1000:d90e",
+    "source": "CALL NEAR PTR _close_dialog_d90e"
+  },
+  {
+    "image": 52938,
+    "relative_offset": 600,
+    "size": 5,
+    "native_hex": "9a0000ef11",
+    "instruction": "CALLF 0x1000:1ef0",
+    "source": "CALL FAR PTR _graphics_end"
+  },
+  {
+    "image": 52943,
+    "relative_offset": 605,
+    "size": 1,
+    "native_hex": "5e",
+    "instruction": "POP SI",
+    "source": "POP SI"
+  },
+  {
+    "image": 52944,
+    "relative_offset": 606,
+    "size": 2,
+    "native_hex": "8be5",
+    "instruction": "MOV SP, BP",
+    "source": "MOV SP, BP"
+  },
+  {
+    "image": 52946,
+    "relative_offset": 608,
+    "size": 1,
+    "native_hex": "5d",
+    "instruction": "POP BP",
+    "source": "POP BP"
+  },
+  {
+    "image": 52947,
+    "relative_offset": 609,
+    "size": 1,
+    "native_hex": "c3",
+    "instruction": "RET",
+    "source": "RET"
+  }
+]

@@ -1,0 +1,596 @@
+[
+  {
+    "id": "dispatch_c83a",
+    "image_offset": "0xc83a",
+    "size": 46,
+    "language": "c",
+    "backend": "msc500-omf",
+    "source": "src/asset_dispatch_drive_literals_match.c",
+    "symbol": "_dispatch_c83a",
+    "flags": [
+      "/AS",
+      "/Os",
+      "/Zi"
+    ],
+    "externals": {
+      "__chkstk": 60586,
+      "_mode_11aa": 4522,
+      "_process_c868": 51304,
+      "_process_c924": 51492,
+      "__aNNaldiv": 62330,
+      "__aNlshl": 62306,
+      "__AHSHIFT": {
+        "absolute": 12
+      },
+      "_asset_frames": 3616,
+      "_mode_8176": 33142,
+      "_play_audio_10e3": {
+        "segment": 4323,
+        "offset": 0
+      },
+      "__aNlmul": 62254,
+      "_play_audio_alt_10e3": {
+        "segment": 4323,
+        "offset": 241
+      },
+      "__aNahdiff": 61910,
+      "_asset_file": 4534,
+      "_asset_drive_fallback": 22478,
+      "_asset_drive_count": 39050,
+      "_open": 60762,
+      "_close": 60608,
+      "_prompt_1296": 4758,
+      "_exit_07f3": 2035,
+      "__bios_equiplist": 62230,
+      "__dos_getdrive": 62234,
+      "_strcat": 61698,
+      "_seek_asset": 52059,
+      "_probe_asset_file": 52239,
+      "_select_asset_drive": {
+        "segment": 4323,
+        "offset": 596
+      },
+      "_lseek": 60640,
+      "_print_error": 37914,
+      "_read": 61182,
+      "__AHINCR": {
+        "absolute": 4096
+      },
+      "_flag_11b8": 4536
+    },
+    "rea_evidence": "evidence/rea_moves_next_c83a.json",
+    "boundary_evidence": "REA ev_fbcb0c8ba6c7b52e870a9b421b3ab5a6820bce29488ce1c96220ad117792d697: complete contiguous46-byte C83A..C867 body with bothcallee branches converging on stackcleanup andPOPBP/RET; fresh independentMSC5CV3 and entireCODESEGDEF46 allbytesexact. Source/originalintervalMZsets empty; no padding ortrimming. Proof evidence/record-dispatch-c83a-match.json. Uncredited natural adjacent-context migration candidate; see evidence/adjacent-contexts-193-control.json. Promoted reviewed source-context proof: build/asset-message-owner-review/review.json and strict asset_messages_1036_v1 gate; anonymous CONST112 credited zero"
+  },
+  {
+    "id": "process_c868",
+    "image_offset": "0xc868",
+    "size": 188,
+    "language": "c",
+    "backend": "msc500-omf",
+    "source": "src/asset_dispatch_drive_literals_match.c",
+    "symbol": "_process_c868",
+    "flags": [
+      "/AS",
+      "/Os",
+      "/Zi"
+    ],
+    "externals": {
+      "__chkstk": 60586,
+      "_mode_11aa": 4522,
+      "_process_c868": 51304,
+      "_process_c924": 51492,
+      "__aNNaldiv": 62330,
+      "__aNlshl": 62306,
+      "__AHSHIFT": {
+        "absolute": 12
+      },
+      "_asset_frames": 3616,
+      "_mode_8176": 33142,
+      "_play_audio_10e3": {
+        "segment": 4323,
+        "offset": 0
+      },
+      "__aNlmul": 62254,
+      "_play_audio_alt_10e3": {
+        "segment": 4323,
+        "offset": 241
+      },
+      "__aNahdiff": 61910,
+      "_asset_file": 4534,
+      "_asset_drive_fallback": 22478,
+      "_asset_drive_count": 39050,
+      "_open": 60762,
+      "_close": 60608,
+      "_prompt_1296": 4758,
+      "_exit_07f3": 2035,
+      "__bios_equiplist": 62230,
+      "__dos_getdrive": 62234,
+      "_strcat": 61698,
+      "_seek_asset": 52059,
+      "_probe_asset_file": 52239,
+      "_select_asset_drive": {
+        "segment": 4323,
+        "offset": 596
+      },
+      "_lseek": 60640,
+      "_print_error": 37914,
+      "_read": 61182,
+      "__AHINCR": {
+        "absolute": 4096
+      },
+      "_flag_11b8": 4536
+    },
+    "rea_evidence": "evidence/rea_moves_next_c868.json",
+    "boundary_evidence": "Fresh original REA fullcontiguous body and independentMSC5CV3 procedure exact; bothCVextents188+172 cover entireeven360CODEC868..C9CF. AllrawCODEfixups independentlyreapplied; originalfaraliases10E3:0000/00F1 preserved, completeMZsets/fourloadbases match. Everyautomaticlocalused, no paddingautos/artificialhelpers/bytepatches/targettrimming. Fullproof evidence/audio-assets-c868-c9cf-match.json; historicalsourceownershipnotclaimed. Uncredited natural adjacent-context migration candidate; see evidence/adjacent-contexts-193-control.json. Promoted reviewed source-context proof: build/asset-message-owner-review/review.json and strict asset_messages_1036_v1 gate; anonymous CONST112 credited zero"
+  },
+  {
+    "id": "process_c924",
+    "image_offset": "0xc924",
+    "size": 172,
+    "language": "c",
+    "backend": "msc500-omf",
+    "source": "src/asset_dispatch_drive_literals_match.c",
+    "symbol": "_process_c924",
+    "flags": [
+      "/AS",
+      "/Os",
+      "/Zi"
+    ],
+    "externals": {
+      "__chkstk": 60586,
+      "_mode_11aa": 4522,
+      "_process_c868": 51304,
+      "_process_c924": 51492,
+      "__aNNaldiv": 62330,
+      "__aNlshl": 62306,
+      "__AHSHIFT": {
+        "absolute": 12
+      },
+      "_asset_frames": 3616,
+      "_mode_8176": 33142,
+      "_play_audio_10e3": {
+        "segment": 4323,
+        "offset": 0
+      },
+      "__aNlmul": 62254,
+      "_play_audio_alt_10e3": {
+        "segment": 4323,
+        "offset": 241
+      },
+      "__aNahdiff": 61910,
+      "_asset_file": 4534,
+      "_asset_drive_fallback": 22478,
+      "_asset_drive_count": 39050,
+      "_open": 60762,
+      "_close": 60608,
+      "_prompt_1296": 4758,
+      "_exit_07f3": 2035,
+      "__bios_equiplist": 62230,
+      "__dos_getdrive": 62234,
+      "_strcat": 61698,
+      "_seek_asset": 52059,
+      "_probe_asset_file": 52239,
+      "_select_asset_drive": {
+        "segment": 4323,
+        "offset": 596
+      },
+      "_lseek": 60640,
+      "_print_error": 37914,
+      "_read": 61182,
+      "__AHINCR": {
+        "absolute": 4096
+      },
+      "_flag_11b8": 4536
+    },
+    "rea_evidence": "evidence/rea_audio_next_c924.json",
+    "boundary_evidence": "Fresh original REA fullcontiguous body and independentMSC5CV3 procedure exact; bothCVextents188+172 cover entireeven360CODEC868..C9CF. AllrawCODEfixups independentlyreapplied; originalfaraliases10E3:0000/00F1 preserved, completeMZsets/fourloadbases match. Everyautomaticlocalused, no paddingautos/artificialhelpers/bytepatches/targettrimming. Fullproof evidence/audio-assets-c868-c9cf-match.json; historicalsourceownershipnotclaimed. Uncredited natural adjacent-context migration candidate; see evidence/adjacent-contexts-193-control.json. Promoted reviewed source-context proof: build/asset-message-owner-review/review.json and strict asset_messages_1036_v1 gate; anonymous CONST112 credited zero"
+  },
+  {
+    "id": "probe_asset_drives_c9d0",
+    "image_offset": "0xc9d0",
+    "size": 134,
+    "language": "c",
+    "backend": "msc500-omf",
+    "source": "src/asset_dispatch_drive_literals_match.c",
+    "symbol": "_load_asset_index",
+    "flags": [
+      "/AS",
+      "/Os",
+      "/Zi"
+    ],
+    "externals": {
+      "__chkstk": 60586,
+      "_mode_11aa": 4522,
+      "_process_c868": 51304,
+      "_process_c924": 51492,
+      "__aNNaldiv": 62330,
+      "__aNlshl": 62306,
+      "__AHSHIFT": {
+        "absolute": 12
+      },
+      "_asset_frames": 3616,
+      "_mode_8176": 33142,
+      "_play_audio_10e3": {
+        "segment": 4323,
+        "offset": 0
+      },
+      "__aNlmul": 62254,
+      "_play_audio_alt_10e3": {
+        "segment": 4323,
+        "offset": 241
+      },
+      "__aNahdiff": 61910,
+      "_asset_file": 4534,
+      "_asset_drive_fallback": 22478,
+      "_asset_drive_count": 39050,
+      "_open": 60762,
+      "_close": 60608,
+      "_prompt_1296": 4758,
+      "_exit_07f3": 2035,
+      "__bios_equiplist": 62230,
+      "__dos_getdrive": 62234,
+      "_strcat": 61698,
+      "_seek_asset": 52059,
+      "_probe_asset_file": 52239,
+      "_select_asset_drive": {
+        "segment": 4323,
+        "offset": 596
+      },
+      "_lseek": 60640,
+      "_print_error": 37914,
+      "_read": 61182,
+      "__AHINCR": {
+        "absolute": 4096
+      },
+      "_flag_11b8": 4536
+    },
+    "rea_evidence": "evidence/rea-root-c9d0.json",
+    "boundary_evidence": "Complete original REA contiguous body, complete adjacent native/raw context, independent C5 CV extent and whole initialized CODE SEGDEF all agree. Every CODE field independently reapplied; complete original/emitted MZ sets empty. Genuine used source expressions; no padding autos, expected-size slices, literal pointer addresses or generated-byte edits. Original source ownership/global order remain unresolved. See evidence/asset-startup-c178-match.json. Canonical source uses existing caller public _load_asset_index at C9D0; no wrapper or byte edits. Review evidence/integrate-172-asset-contexts.json and fresh source audit. Uncredited natural adjacent-context migration candidate; see evidence/adjacent-contexts-193-control.json. Promoted reviewed source-context proof: build/asset-message-owner-review/review.json and strict asset_messages_1036_v1 gate; anonymous CONST112 credited zero",
+    "owned_const": {
+      "segment": 3,
+      "group": 1,
+      "size": 158,
+      "image_offset": "0x61cde",
+      "data_address": {
+        "segment": 23746,
+        "offset": 20670
+      },
+      "rea_evidence": "evidence/asset_drive_literals158/pool158.json"
+    },
+    "owned_const_profile": "asset_drive_messages_1036_158_v2"
+  },
+  {
+    "id": "select_asset_file_ca56",
+    "image_offset": "0xca56",
+    "size": 250,
+    "language": "c",
+    "backend": "msc500-omf",
+    "symbol": "_select_asset_file",
+    "rea_evidence": "evidence/rea_far_storage_1ca56.json",
+    "source": "src/asset_dispatch_drive_literals_match.c",
+    "flags": [
+      "/AS",
+      "/Os",
+      "/Zi"
+    ],
+    "externals": {
+      "__chkstk": 60586,
+      "_mode_11aa": 4522,
+      "_process_c868": 51304,
+      "_process_c924": 51492,
+      "__aNNaldiv": 62330,
+      "__aNlshl": 62306,
+      "__AHSHIFT": {
+        "absolute": 12
+      },
+      "_asset_frames": 3616,
+      "_mode_8176": 33142,
+      "_play_audio_10e3": {
+        "segment": 4323,
+        "offset": 0
+      },
+      "__aNlmul": 62254,
+      "_play_audio_alt_10e3": {
+        "segment": 4323,
+        "offset": 241
+      },
+      "__aNahdiff": 61910,
+      "_asset_file": 4534,
+      "_asset_drive_fallback": 22478,
+      "_asset_drive_count": 39050,
+      "_open": 60762,
+      "_close": 60608,
+      "_prompt_1296": 4758,
+      "_exit_07f3": 2035,
+      "__bios_equiplist": 62230,
+      "__dos_getdrive": 62234,
+      "_strcat": 61698,
+      "_seek_asset": 52059,
+      "_probe_asset_file": 52239,
+      "_select_asset_drive": {
+        "segment": 4323,
+        "offset": 596
+      },
+      "_lseek": 60640,
+      "_print_error": 37914,
+      "_read": 61182,
+      "__AHINCR": {
+        "absolute": 4096
+      },
+      "_flag_11b8": 4536
+    },
+    "boundary_evidence": "Complete original REA body, fresh CV3, all function bytes/fixups/MZ sites verified. Genuine five-function496-byte contiguous CODE contribution CA56..CC45. Explicit continue in both selector prompt branches gives original backward suffix sharing. Proof evidence/asset-selector-flow-match.json. Canonical source uses existing caller public _load_asset_index at C9D0; no wrapper or byte edits. Review evidence/integrate-172-asset-contexts.json and fresh source audit. Uncredited natural adjacent-context migration candidate; see evidence/adjacent-contexts-193-control.json. Promoted reviewed source-context proof: build/asset-message-owner-review/review.json and strict asset_messages_1036_v1 gate; anonymous CONST112 credited zero",
+    "owned_const": {
+      "segment": 3,
+      "group": 1,
+      "size": 158,
+      "image_offset": "0x61cde",
+      "data_address": {
+        "segment": 23746,
+        "offset": 20670
+      },
+      "rea_evidence": "evidence/asset_drive_literals158/pool158.json"
+    },
+    "owned_const_profile": "asset_drive_messages_1036_158_v2"
+  },
+  {
+    "id": "set_flag_11b8",
+    "image_offset": "0xcb50",
+    "size": 11,
+    "language": "c",
+    "backend": "msc500-omf",
+    "source": "src/asset_dispatch_drive_literals_match.c",
+    "symbol": "_set_flag_11b8",
+    "flags": [
+      "/AS",
+      "/Os",
+      "/Zi"
+    ],
+    "externals": {
+      "__chkstk": 60586,
+      "_mode_11aa": 4522,
+      "_process_c868": 51304,
+      "_process_c924": 51492,
+      "__aNNaldiv": 62330,
+      "__aNlshl": 62306,
+      "__AHSHIFT": {
+        "absolute": 12
+      },
+      "_asset_frames": 3616,
+      "_mode_8176": 33142,
+      "_play_audio_10e3": {
+        "segment": 4323,
+        "offset": 0
+      },
+      "__aNlmul": 62254,
+      "_play_audio_alt_10e3": {
+        "segment": 4323,
+        "offset": 241
+      },
+      "__aNahdiff": 61910,
+      "_asset_file": 4534,
+      "_asset_drive_fallback": 22478,
+      "_asset_drive_count": 39050,
+      "_open": 60762,
+      "_close": 60608,
+      "_prompt_1296": 4758,
+      "_exit_07f3": 2035,
+      "__bios_equiplist": 62230,
+      "__dos_getdrive": 62234,
+      "_strcat": 61698,
+      "_seek_asset": 52059,
+      "_probe_asset_file": 52239,
+      "_select_asset_drive": {
+        "segment": 4323,
+        "offset": 596
+      },
+      "_lseek": 60640,
+      "_print_error": 37914,
+      "_read": 61182,
+      "__AHINCR": {
+        "absolute": 4096
+      },
+      "_flag_11b8": 4536
+    },
+    "rea_evidence": "evidence/rea_search_1cb50.json",
+    "boundary_evidence": "Complete original REA body, fresh CV3, all function bytes/fixups/MZ sites verified. Genuine five-function496-byte contiguous CODE contribution CA56..CC45. Explicit continue in both selector prompt branches gives original backward suffix sharing. Proof evidence/asset-selector-flow-match.json. Canonical source uses existing caller public _load_asset_index at C9D0; no wrapper or byte edits. Review evidence/integrate-172-asset-contexts.json and fresh source audit. Uncredited natural adjacent-context migration candidate; see evidence/adjacent-contexts-193-control.json. Promoted reviewed source-context proof: build/asset-message-owner-review/review.json and strict asset_messages_1036_v1 gate; anonymous CONST112 credited zero"
+  },
+  {
+    "id": "seek_asset_cb5b",
+    "image_offset": "0xcb5b",
+    "size": 52,
+    "language": "c",
+    "backend": "msc500-omf",
+    "source": "src/asset_dispatch_drive_literals_match.c",
+    "symbol": "_seek_asset",
+    "flags": [
+      "/AS",
+      "/Os",
+      "/Zi"
+    ],
+    "externals": {
+      "__chkstk": 60586,
+      "_mode_11aa": 4522,
+      "_process_c868": 51304,
+      "_process_c924": 51492,
+      "__aNNaldiv": 62330,
+      "__aNlshl": 62306,
+      "__AHSHIFT": {
+        "absolute": 12
+      },
+      "_asset_frames": 3616,
+      "_mode_8176": 33142,
+      "_play_audio_10e3": {
+        "segment": 4323,
+        "offset": 0
+      },
+      "__aNlmul": 62254,
+      "_play_audio_alt_10e3": {
+        "segment": 4323,
+        "offset": 241
+      },
+      "__aNahdiff": 61910,
+      "_asset_file": 4534,
+      "_asset_drive_fallback": 22478,
+      "_asset_drive_count": 39050,
+      "_open": 60762,
+      "_close": 60608,
+      "_prompt_1296": 4758,
+      "_exit_07f3": 2035,
+      "__bios_equiplist": 62230,
+      "__dos_getdrive": 62234,
+      "_strcat": 61698,
+      "_seek_asset": 52059,
+      "_probe_asset_file": 52239,
+      "_select_asset_drive": {
+        "segment": 4323,
+        "offset": 596
+      },
+      "_lseek": 60640,
+      "_print_error": 37914,
+      "_read": 61182,
+      "__AHINCR": {
+        "absolute": 4096
+      },
+      "_flag_11b8": 4536
+    },
+    "rea_evidence": "evidence/rea_far_storage_1cb5b.json",
+    "boundary_evidence": "Complete original REA body, fresh CV3, all function bytes/fixups/MZ sites verified. Genuine five-function496-byte contiguous CODE contribution CA56..CC45. Explicit continue in both selector prompt branches gives original backward suffix sharing. Proof evidence/asset-selector-flow-match.json. Canonical source uses existing caller public _load_asset_index at C9D0; no wrapper or byte edits. Review evidence/integrate-172-asset-contexts.json and fresh source audit. Uncredited natural adjacent-context migration candidate; see evidence/adjacent-contexts-193-control.json. Promoted reviewed source-context proof: build/asset-message-owner-review/review.json and strict asset_messages_1036_v1 gate; anonymous CONST112 credited zero",
+    "owned_const": {
+      "segment": 3,
+      "group": 1,
+      "size": 158,
+      "image_offset": "0x61cde",
+      "data_address": {
+        "segment": 23746,
+        "offset": 20670
+      },
+      "rea_evidence": "evidence/asset_drive_literals158/pool158.json"
+    },
+    "owned_const_profile": "asset_drive_messages_1036_158_v2"
+  },
+  {
+    "id": "read_asset_cb8f",
+    "image_offset": "0xcb8f",
+    "size": 128,
+    "language": "c",
+    "backend": "msc500-omf",
+    "source": "src/asset_dispatch_drive_literals_match.c",
+    "symbol": "_read_asset",
+    "flags": [
+      "/AS",
+      "/Os",
+      "/Zi"
+    ],
+    "externals": {
+      "__chkstk": 60586,
+      "_mode_11aa": 4522,
+      "_process_c868": 51304,
+      "_process_c924": 51492,
+      "__aNNaldiv": 62330,
+      "__aNlshl": 62306,
+      "__AHSHIFT": {
+        "absolute": 12
+      },
+      "_asset_frames": 3616,
+      "_mode_8176": 33142,
+      "_play_audio_10e3": {
+        "segment": 4323,
+        "offset": 0
+      },
+      "__aNlmul": 62254,
+      "_play_audio_alt_10e3": {
+        "segment": 4323,
+        "offset": 241
+      },
+      "__aNahdiff": 61910,
+      "_asset_file": 4534,
+      "_asset_drive_fallback": 22478,
+      "_asset_drive_count": 39050,
+      "_open": 60762,
+      "_close": 60608,
+      "_prompt_1296": 4758,
+      "_exit_07f3": 2035,
+      "__bios_equiplist": 62230,
+      "__dos_getdrive": 62234,
+      "_strcat": 61698,
+      "_seek_asset": 52059,
+      "_probe_asset_file": 52239,
+      "_select_asset_drive": {
+        "segment": 4323,
+        "offset": 596
+      },
+      "_lseek": 60640,
+      "_print_error": 37914,
+      "_read": 61182,
+      "__AHINCR": {
+        "absolute": 4096
+      },
+      "_flag_11b8": 4536
+    },
+    "rea_evidence": "evidence/rea_far_storage_1cb8f.json",
+    "boundary_evidence": "Complete original REA body, fresh CV3, all function bytes/fixups/MZ sites verified. Genuine five-function496-byte contiguous CODE contribution CA56..CC45. Explicit continue in both selector prompt branches gives original backward suffix sharing. Proof evidence/asset-selector-flow-match.json. Canonical source uses existing caller public _load_asset_index at C9D0; no wrapper or byte edits. Review evidence/integrate-172-asset-contexts.json and fresh source audit. Uncredited natural adjacent-context migration candidate; see evidence/adjacent-contexts-193-control.json. Promoted reviewed source-context proof: build/asset-message-owner-review/review.json and strict asset_messages_1036_v1 gate; anonymous CONST112 credited zero"
+  },
+  {
+    "id": "probe_asset_file",
+    "image_offset": "0xcc0f",
+    "size": 55,
+    "language": "c",
+    "backend": "msc500-omf",
+    "source": "src/asset_dispatch_drive_literals_match.c",
+    "symbol": "_probe_asset_file",
+    "flags": [
+      "/AS",
+      "/Os",
+      "/Zi"
+    ],
+    "externals": {
+      "__chkstk": 60586,
+      "_mode_11aa": 4522,
+      "_process_c868": 51304,
+      "_process_c924": 51492,
+      "__aNNaldiv": 62330,
+      "__aNlshl": 62306,
+      "__AHSHIFT": {
+        "absolute": 12
+      },
+      "_asset_frames": 3616,
+      "_mode_8176": 33142,
+      "_play_audio_10e3": {
+        "segment": 4323,
+        "offset": 0
+      },
+      "__aNlmul": 62254,
+      "_play_audio_alt_10e3": {
+        "segment": 4323,
+        "offset": 241
+      },
+      "__aNahdiff": 61910,
+      "_asset_file": 4534,
+      "_asset_drive_fallback": 22478,
+      "_asset_drive_count": 39050,
+      "_open": 60762,
+      "_close": 60608,
+      "_prompt_1296": 4758,
+      "_exit_07f3": 2035,
+      "__bios_equiplist": 62230,
+      "__dos_getdrive": 62234,
+      "_strcat": 61698,
+      "_seek_asset": 52059,
+      "_probe_asset_file": 52239,
+      "_select_asset_drive": {
+        "segment": 4323,
+        "offset": 596
+      },
+      "_lseek": 60640,
+      "_print_error": 37914,
+      "_read": 61182,
+      "__AHINCR": {
+        "absolute": 4096
+      },
+      "_flag_11b8": 4536
+    },
+    "rea_evidence": "evidence/rea_asset_probe_cc0f.json",
+    "boundary_evidence": "Complete original REA body, fresh CV3, all function bytes/fixups/MZ sites verified. Genuine five-function496-byte contiguous CODE contribution CA56..CC45. Explicit continue in both selector prompt branches gives original backward suffix sharing. Proof evidence/asset-selector-flow-match.json. Canonical source uses existing caller public _load_asset_index at C9D0; no wrapper or byte edits. Review evidence/integrate-172-asset-contexts.json and fresh source audit. Uncredited natural adjacent-context migration candidate; see evidence/adjacent-contexts-193-control.json. Promoted reviewed source-context proof: build/asset-message-owner-review/review.json and strict asset_messages_1036_v1 gate; anonymous CONST112 credited zero"
+  }
+]

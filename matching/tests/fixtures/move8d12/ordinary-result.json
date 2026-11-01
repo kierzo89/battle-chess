@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "objects": [
+    {
+      "id": "move8-state-common",
+      "source": "src/link/move_state_8d12.c",
+      "object": "/home/kierzo/chess/matching/build/move8d12-ordinary-route-comparison-repair-v2/future-ordinary-route-output/objects/move8-state-common.obj",
+      "object_sha256": "02f193a1ca631b647f42ab5e0bd592ddac9e31ad0adbd2b5f950790ef1cb4ecb",
+      "definitions": [
+        {
+          "symbol": "_state_8d12",
+          "type_index": 522,
+          "datatype": 98,
+          "size": 8
+        }
+      ],
+      "allocation_bytes": 8,
+      "initialized_bytes": 0,
+      "matching_credit": 0,
+      "authored_C_function_credit": 0,
+      "original_map_constraints": [
+        {
+          "symbol": "_state_8d12",
+          "dgroup_segment": "0x5cc2",
+          "dgroup_offset": "0x8d12",
+          "end_exclusive": "0x8d1a",
+          "size": 8,
+          "resolved": false,
+          "compatible_complete_Move_graph": {
+            "composite_leaf": 121,
+            "bits": 64,
+            "member_count": 4,
+            "members": {
+              "member_types": [
+                {
+                  "builtin": 129
+                },
+                {
+                  "builtin": 129
+                },
+                {
+                  "builtin": 129
+                },
+                {
+                  "composite_leaf": 121,
+                  "bits": 16,
+                  "member_count": 2,
+                  "members": {
+                    "member_types": [
+                      {
+                        "builtin": 133
+                      },
+                      {
+                        "composite_leaf": 121,
+                        "bits": 16,
+                        "member_count": 2,
+                        "members": {
+                          "member_types": [
+                            {
+                              "builtin": 132
+                            },
+                            {
+                              "builtin": 132
+                            }
+                          ]
+                        },
+                        "names_offsets": {
+                          "member_names_offsets": [
+                            {
+                              "name": "kind",
+                              "offset": 0
+                            },
+                            {
+                              "name": "capture",
+                              "offset": 1
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  "names_offsets": {
+                    "member_names_offsets": [
+                      {
+                        "name": "word",
+                        "offset": 0
+                      },
+                      {
+                        "name": "bytes",
+                        "offset": 0
+                      }
+                    ]
+                  }
+                }
+              ]
+            },
+            "names_offsets": {
+              "member_names_offsets": [
+                {
+                  "name": "to",
+                  "offset": 0
+                },
+                {
+                  "name": "from",
+                  "offset": 2
+                },
+                {
+                  "name": "flag",
+                  "offset": 4
+                },
+                {
+                  "name": "detail",
+                  "offset": 6
+                }
+              ]
+            }
+          },
+          "historical_physical_owner_class_TU_order_MAP_unique_capacity_proven": false,
+          "DF_global_invariant_or_reentrancy_proven": false
+        }
+      ],
+      "placement_proven": false,
+      "compiler": {
+        "compiler_log": "C:\\UNIT.C\r\n",
+        "command": [
+          "T:\\CL.EXE",
+          "/c",
+          "/AS",
+          "/Zl",
+          "/Zi",
+          "/FoC:\\UNIT.OBJ",
+          "C:\\UNIT.C"
+        ],
+        "source_sha256": "926b01ba7e41a506e741ba0f70cd123fbd9a10826ad3b8880508ac782a3c1507",
+        "toolchain_manifest_sha256": "d2889507d0729b9d09fb92015fedccbb533c368d428c1612781c3ff980f00a82",
+        "tool_hashes": {
+          "CL.ERR": "b153605db3fbc0fa79e2f0d2ad5d814fbb70bfbebc1dbc0d2ed614194666621a",
+          "CL.EXE": "11e3c7d53b3efc085b7ad90c2190a1ddb395c8874f57aef3a5cfc0a4a0a0f504",
+          "C1.EXE": "3ef764476cb56dd14ae3c955a0b7717976d3b40f862fdff675ec8c6adc0ed791",
+          "C1.ERR": "dd02a004e8912c96b90a5b3317dcfeed6f9e76374edfd90979705035c8097233",
+          "C2.EXE": "19fbe7914ba6ebe929a0e98e012fd5e8522643e5e40b6fcd89bef0e5f650f1f1",
+          "C3.EXE": "ca4d82b90423086e68eb8d3af8f1c1c1034f164d0a0b98530c3b3a0fb0501669",
+          "C23.ERR": "75132883ac6507cccaa7d7105df6492f511ba029e4a12ee4a1fcc989517bfd18"
+        },
+        "flags": [
+          "/AS",
+          "/Zl",
+          "/Zi"
+        ],
+        "compiler": "msc500",
+        "source_name": "UNIT.C"
+      },
+      "allocation_profile": "compatible_shared_Move8_no_historical_physical_owner_class_TU_order_MAP_claim"
+    }
+  ],
+  "placement_proven": false,
+  "matching_credit": 0
+}

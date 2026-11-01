@@ -1,0 +1,49 @@
+{
+  "id": "serial_irq_code248",
+  "language": "asm-code",
+  "backend": "masm510-code-contribution-omf",
+  "object_profile": "serial_irq248",
+  "source": "asm/link/serial_context248_omf.asm",
+  "source_sha256": "a161c0bb762af742ebd64812f86c6487f6c0b57116c62485e83559aefeeb294a",
+  "assembler_sha256": "1c6286c69b616160b8475ad17453ee872702a2c98075c2159ec792a1c745275f",
+  "public_symbols": [
+    "_enable_serial_irq_10d3_0023",
+    "_set_serial_format_10d3_0000",
+    "_write_byte_far",
+    "_restore_mode_10e0d"
+  ],
+  "image_offset": "0x10d30",
+  "size": 248,
+  "externals": {
+    "_serial_irq": {
+      "segment": 23746,
+      "offset": 11964
+    },
+    "_serial_base": {
+      "segment": 23746,
+      "offset": 11966
+    },
+    "_byte_write_cursor": {
+      "segment": 23746,
+      "offset": 37698
+    },
+    "_byte_read_cursor": {
+      "segment": 23746,
+      "offset": 35558
+    },
+    "_byte_ring_buffer": {
+      "segment": 23746,
+      "offset": 35630
+    },
+    "_serial_ring_end_2eba": {
+      "segment": 23746,
+      "offset": 11962
+    },
+    "_serial_irq_flags_b0d4": {
+      "segment": 23746,
+      "offset": 45268
+    }
+  },
+  "rea_evidence": "build/serial-enclosing-context/rea-original184.json",
+  "boundary_evidence": "Complete genuine MASM248 replaces182: first2ordinary35/74 entries, retainedIRQrawCFG71+savedDSword2, writer38reachable/span39(real90), cleanup27; wholeCODE248/all21fields/MZ0/fourbases. No C/function/DATA credit, historicalMODULE/MAP/uniqueCABI or following8zero allocation claim."
+}

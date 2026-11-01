@@ -1,0 +1,1598 @@
+[
+  {
+    "evidence_id": "ev_ce840f07fb6e214abb455878a45de8da9fcd99ca18b507caa5a90d223f38e74f",
+    "subject": {
+      "name": "CHESS.EXE",
+      "digest": {
+        "sha256": "c32d4f6bc732b67efa65d55bc5813bc74dcfb52b8616894b57ed7aeeeed2a1cd"
+      },
+      "format": "dos-mz",
+      "architecture": "x86",
+      "local_path": "/home/kierzo/chess/CHESS.EXE"
+    },
+    "provider": {
+      "id": "ghidra",
+      "name": "Ghidra",
+      "version": "12.1.4"
+    },
+    "analysis_profile": {
+      "provider": {
+        "id": "ghidra",
+        "name": "Ghidra",
+        "version": "12.1.4"
+      },
+      "parameters": {
+        "target_kind": "executable",
+        "target_format": "dos-mz",
+        "architecture": "x86",
+        "available_architectures": [
+          "x86"
+        ],
+        "import_mode": "ephemeral-source-immutable",
+        "annotation_policy": "atomic-function-entry-metadata-v1",
+        "load_image_observations": "source-mappings-entry-context-v2",
+        "function_body_evidence": "complete-inclusive-ranges-v1",
+        "function_references": "complete-body-and-entry-reference-manager-v2",
+        "location_resolution": "explicit-address-exact-entry-symbol-first-v3",
+        "instruction_flow_evidence": "decoded-return-pcode-v1",
+        "process_launch": "inspected-jvm-launch-support-v1",
+        "load_image_evidence": "independent-mz-mapping-relocations-v1",
+        "jump_table_evidence": "typed-case-default-blocks-v1",
+        "decompiler_jump_loads": true,
+        "loader": "MzLoader",
+        "language_id": "x86:LE:16:Real Mode",
+        "compiler_spec_id": "default",
+        "load_segment": "0x1000",
+        "address_coordinates": "linear-byte-offset",
+        "analyzer_preset": "ghidra-default"
+      },
+      "digest": "894e458d232de9bdeb2a5d661cd2b4791ee9e10f88d297423fc0c7553a7a66d8"
+    },
+    "predicate_type": "rea.analysis",
+    "operation": "xrefs",
+    "parameters": {
+      "address": "0x18577"
+    },
+    "raw_result": [
+      "0x18570"
+    ],
+    "normalized_result": [
+      "0x18570"
+    ],
+    "confidence": "observed",
+    "authority": "shipped-artifact",
+    "environment": null,
+    "limitations": [
+      "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+      "The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.",
+      "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+      "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+      "The direct address list projects exact Ghidra references to one address but does not expose their kinds; procedure_references and analyze_function preserve available kind metadata.",
+      "Synthetic Ghidra entry-point references without actionable memory sources are omitted.",
+      "DOS MZ uses 16-bit x86 real mode with the Ghidra load segment 0x1000. Returned addresses are linear byte coordinates; they do not identify a unique segment:offset alias.",
+      "Static DOS analysis does not emulate BIOS, DOS interrupts, device ports, or self-modifying unpacking code. Packed targets require a separately identified unpacked artifact for original-program analysis; appended overlays are not the initialized load module."
+    ],
+    "locations": [],
+    "evidence_links": []
+  },
+  {
+    "evidence_id": "ev_f4927aa993a98b0ed11987cf81efcc7de7fb0ed04a22013c9582def3fd677c3a",
+    "subject": {
+      "name": "CHESS.EXE",
+      "digest": {
+        "sha256": "c32d4f6bc732b67efa65d55bc5813bc74dcfb52b8616894b57ed7aeeeed2a1cd"
+      },
+      "format": "dos-mz",
+      "architecture": "x86",
+      "local_path": "/home/kierzo/chess/CHESS.EXE"
+    },
+    "provider": {
+      "id": "ghidra",
+      "name": "Ghidra",
+      "version": "12.1.4"
+    },
+    "analysis_profile": {
+      "provider": {
+        "id": "ghidra",
+        "name": "Ghidra",
+        "version": "12.1.4"
+      },
+      "parameters": {
+        "target_kind": "executable",
+        "target_format": "dos-mz",
+        "architecture": "x86",
+        "available_architectures": [
+          "x86"
+        ],
+        "import_mode": "ephemeral-source-immutable",
+        "annotation_policy": "atomic-function-entry-metadata-v1",
+        "load_image_observations": "source-mappings-entry-context-v2",
+        "function_body_evidence": "complete-inclusive-ranges-v1",
+        "function_references": "complete-body-and-entry-reference-manager-v2",
+        "location_resolution": "explicit-address-exact-entry-symbol-first-v3",
+        "instruction_flow_evidence": "decoded-return-pcode-v1",
+        "process_launch": "inspected-jvm-launch-support-v1",
+        "load_image_evidence": "independent-mz-mapping-relocations-v1",
+        "jump_table_evidence": "typed-case-default-blocks-v1",
+        "decompiler_jump_loads": true,
+        "loader": "MzLoader",
+        "language_id": "x86:LE:16:Real Mode",
+        "compiler_spec_id": "default",
+        "load_segment": "0x1000",
+        "address_coordinates": "linear-byte-offset",
+        "analyzer_preset": "ghidra-default"
+      },
+      "digest": "894e458d232de9bdeb2a5d661cd2b4791ee9e10f88d297423fc0c7553a7a66d8"
+    },
+    "predicate_type": "rea.analysis",
+    "operation": "xrefs",
+    "parameters": {
+      "address": "0x18578"
+    },
+    "raw_result": [],
+    "normalized_result": [],
+    "confidence": "observed",
+    "authority": "shipped-artifact",
+    "environment": null,
+    "limitations": [
+      "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+      "The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.",
+      "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+      "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+      "The direct address list projects exact Ghidra references to one address but does not expose their kinds; procedure_references and analyze_function preserve available kind metadata.",
+      "Synthetic Ghidra entry-point references without actionable memory sources are omitted.",
+      "DOS MZ uses 16-bit x86 real mode with the Ghidra load segment 0x1000. Returned addresses are linear byte coordinates; they do not identify a unique segment:offset alias.",
+      "Static DOS analysis does not emulate BIOS, DOS interrupts, device ports, or self-modifying unpacking code. Packed targets require a separately identified unpacked artifact for original-program analysis; appended overlays are not the initialized load module."
+    ],
+    "locations": [],
+    "evidence_links": []
+  },
+  {
+    "evidence_id": "ev_d899125404933ce4d831804c58183d60f6389118f052033826912f97038b3ee4",
+    "subject": {
+      "name": "CHESS.EXE",
+      "digest": {
+        "sha256": "c32d4f6bc732b67efa65d55bc5813bc74dcfb52b8616894b57ed7aeeeed2a1cd"
+      },
+      "format": "dos-mz",
+      "architecture": "x86",
+      "local_path": "/home/kierzo/chess/CHESS.EXE"
+    },
+    "provider": {
+      "id": "ghidra",
+      "name": "Ghidra",
+      "version": "12.1.4"
+    },
+    "analysis_profile": {
+      "provider": {
+        "id": "ghidra",
+        "name": "Ghidra",
+        "version": "12.1.4"
+      },
+      "parameters": {
+        "target_kind": "executable",
+        "target_format": "dos-mz",
+        "architecture": "x86",
+        "available_architectures": [
+          "x86"
+        ],
+        "import_mode": "ephemeral-source-immutable",
+        "annotation_policy": "atomic-function-entry-metadata-v1",
+        "load_image_observations": "source-mappings-entry-context-v2",
+        "function_body_evidence": "complete-inclusive-ranges-v1",
+        "function_references": "complete-body-and-entry-reference-manager-v2",
+        "location_resolution": "explicit-address-exact-entry-symbol-first-v3",
+        "instruction_flow_evidence": "decoded-return-pcode-v1",
+        "process_launch": "inspected-jvm-launch-support-v1",
+        "load_image_evidence": "independent-mz-mapping-relocations-v1",
+        "jump_table_evidence": "typed-case-default-blocks-v1",
+        "decompiler_jump_loads": true,
+        "loader": "MzLoader",
+        "language_id": "x86:LE:16:Real Mode",
+        "compiler_spec_id": "default",
+        "load_segment": "0x1000",
+        "address_coordinates": "linear-byte-offset",
+        "analyzer_preset": "ghidra-default"
+      },
+      "digest": "894e458d232de9bdeb2a5d661cd2b4791ee9e10f88d297423fc0c7553a7a66d8"
+    },
+    "predicate_type": "rea.analysis",
+    "operation": "xrefs",
+    "parameters": {
+      "address": "0x18579"
+    },
+    "raw_result": [
+      "0x1858a"
+    ],
+    "normalized_result": [
+      "0x1858a"
+    ],
+    "confidence": "observed",
+    "authority": "shipped-artifact",
+    "environment": null,
+    "limitations": [
+      "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+      "The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.",
+      "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+      "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+      "The direct address list projects exact Ghidra references to one address but does not expose their kinds; procedure_references and analyze_function preserve available kind metadata.",
+      "Synthetic Ghidra entry-point references without actionable memory sources are omitted.",
+      "DOS MZ uses 16-bit x86 real mode with the Ghidra load segment 0x1000. Returned addresses are linear byte coordinates; they do not identify a unique segment:offset alias.",
+      "Static DOS analysis does not emulate BIOS, DOS interrupts, device ports, or self-modifying unpacking code. Packed targets require a separately identified unpacked artifact for original-program analysis; appended overlays are not the initialized load module."
+    ],
+    "locations": [],
+    "evidence_links": []
+  },
+  {
+    "evidence_id": "ev_306e9d852437f5f851c55926602c0b5ecb27fe355cb93ca9852cd6aabf990e06",
+    "subject": {
+      "name": "CHESS.EXE",
+      "digest": {
+        "sha256": "c32d4f6bc732b67efa65d55bc5813bc74dcfb52b8616894b57ed7aeeeed2a1cd"
+      },
+      "format": "dos-mz",
+      "architecture": "x86",
+      "local_path": "/home/kierzo/chess/CHESS.EXE"
+    },
+    "provider": {
+      "id": "ghidra",
+      "name": "Ghidra",
+      "version": "12.1.4"
+    },
+    "analysis_profile": {
+      "provider": {
+        "id": "ghidra",
+        "name": "Ghidra",
+        "version": "12.1.4"
+      },
+      "parameters": {
+        "target_kind": "executable",
+        "target_format": "dos-mz",
+        "architecture": "x86",
+        "available_architectures": [
+          "x86"
+        ],
+        "import_mode": "ephemeral-source-immutable",
+        "annotation_policy": "atomic-function-entry-metadata-v1",
+        "load_image_observations": "source-mappings-entry-context-v2",
+        "function_body_evidence": "complete-inclusive-ranges-v1",
+        "function_references": "complete-body-and-entry-reference-manager-v2",
+        "location_resolution": "explicit-address-exact-entry-symbol-first-v3",
+        "instruction_flow_evidence": "decoded-return-pcode-v1",
+        "process_launch": "inspected-jvm-launch-support-v1",
+        "load_image_evidence": "independent-mz-mapping-relocations-v1",
+        "jump_table_evidence": "typed-case-default-blocks-v1",
+        "decompiler_jump_loads": true,
+        "loader": "MzLoader",
+        "language_id": "x86:LE:16:Real Mode",
+        "compiler_spec_id": "default",
+        "load_segment": "0x1000",
+        "address_coordinates": "linear-byte-offset",
+        "analyzer_preset": "ghidra-default"
+      },
+      "digest": "894e458d232de9bdeb2a5d661cd2b4791ee9e10f88d297423fc0c7553a7a66d8"
+    },
+    "predicate_type": "rea.analysis",
+    "operation": "xrefs",
+    "parameters": {
+      "address": "0x1857a"
+    },
+    "raw_result": [],
+    "normalized_result": [],
+    "confidence": "observed",
+    "authority": "shipped-artifact",
+    "environment": null,
+    "limitations": [
+      "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+      "The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.",
+      "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+      "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+      "The direct address list projects exact Ghidra references to one address but does not expose their kinds; procedure_references and analyze_function preserve available kind metadata.",
+      "Synthetic Ghidra entry-point references without actionable memory sources are omitted.",
+      "DOS MZ uses 16-bit x86 real mode with the Ghidra load segment 0x1000. Returned addresses are linear byte coordinates; they do not identify a unique segment:offset alias.",
+      "Static DOS analysis does not emulate BIOS, DOS interrupts, device ports, or self-modifying unpacking code. Packed targets require a separately identified unpacked artifact for original-program analysis; appended overlays are not the initialized load module."
+    ],
+    "locations": [],
+    "evidence_links": []
+  },
+  {
+    "evidence_id": "ev_0391a1b930c5750e090aaa55c19c8c49756a9ff9b77c839ac0d55282086ab9f0",
+    "subject": {
+      "name": "CHESS.EXE",
+      "digest": {
+        "sha256": "c32d4f6bc732b67efa65d55bc5813bc74dcfb52b8616894b57ed7aeeeed2a1cd"
+      },
+      "format": "dos-mz",
+      "architecture": "x86",
+      "local_path": "/home/kierzo/chess/CHESS.EXE"
+    },
+    "provider": {
+      "id": "ghidra",
+      "name": "Ghidra",
+      "version": "12.1.4"
+    },
+    "analysis_profile": {
+      "provider": {
+        "id": "ghidra",
+        "name": "Ghidra",
+        "version": "12.1.4"
+      },
+      "parameters": {
+        "target_kind": "executable",
+        "target_format": "dos-mz",
+        "architecture": "x86",
+        "available_architectures": [
+          "x86"
+        ],
+        "import_mode": "ephemeral-source-immutable",
+        "annotation_policy": "atomic-function-entry-metadata-v1",
+        "load_image_observations": "source-mappings-entry-context-v2",
+        "function_body_evidence": "complete-inclusive-ranges-v1",
+        "function_references": "complete-body-and-entry-reference-manager-v2",
+        "location_resolution": "explicit-address-exact-entry-symbol-first-v3",
+        "instruction_flow_evidence": "decoded-return-pcode-v1",
+        "process_launch": "inspected-jvm-launch-support-v1",
+        "load_image_evidence": "independent-mz-mapping-relocations-v1",
+        "jump_table_evidence": "typed-case-default-blocks-v1",
+        "decompiler_jump_loads": true,
+        "loader": "MzLoader",
+        "language_id": "x86:LE:16:Real Mode",
+        "compiler_spec_id": "default",
+        "load_segment": "0x1000",
+        "address_coordinates": "linear-byte-offset",
+        "analyzer_preset": "ghidra-default"
+      },
+      "digest": "894e458d232de9bdeb2a5d661cd2b4791ee9e10f88d297423fc0c7553a7a66d8"
+    },
+    "predicate_type": "rea.analysis",
+    "operation": "xrefs",
+    "parameters": {
+      "address": "0x1857b"
+    },
+    "raw_result": [],
+    "normalized_result": [],
+    "confidence": "observed",
+    "authority": "shipped-artifact",
+    "environment": null,
+    "limitations": [
+      "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+      "The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.",
+      "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+      "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+      "The direct address list projects exact Ghidra references to one address but does not expose their kinds; procedure_references and analyze_function preserve available kind metadata.",
+      "Synthetic Ghidra entry-point references without actionable memory sources are omitted.",
+      "DOS MZ uses 16-bit x86 real mode with the Ghidra load segment 0x1000. Returned addresses are linear byte coordinates; they do not identify a unique segment:offset alias.",
+      "Static DOS analysis does not emulate BIOS, DOS interrupts, device ports, or self-modifying unpacking code. Packed targets require a separately identified unpacked artifact for original-program analysis; appended overlays are not the initialized load module."
+    ],
+    "locations": [],
+    "evidence_links": []
+  },
+  {
+    "evidence_id": "ev_d7e42c9dfbafb61e2192cad60833154b5e85df3f6e17c82b2ee9859756f774c2",
+    "subject": {
+      "name": "CHESS.EXE",
+      "digest": {
+        "sha256": "c32d4f6bc732b67efa65d55bc5813bc74dcfb52b8616894b57ed7aeeeed2a1cd"
+      },
+      "format": "dos-mz",
+      "architecture": "x86",
+      "local_path": "/home/kierzo/chess/CHESS.EXE"
+    },
+    "provider": {
+      "id": "ghidra",
+      "name": "Ghidra",
+      "version": "12.1.4"
+    },
+    "analysis_profile": {
+      "provider": {
+        "id": "ghidra",
+        "name": "Ghidra",
+        "version": "12.1.4"
+      },
+      "parameters": {
+        "target_kind": "executable",
+        "target_format": "dos-mz",
+        "architecture": "x86",
+        "available_architectures": [
+          "x86"
+        ],
+        "import_mode": "ephemeral-source-immutable",
+        "annotation_policy": "atomic-function-entry-metadata-v1",
+        "load_image_observations": "source-mappings-entry-context-v2",
+        "function_body_evidence": "complete-inclusive-ranges-v1",
+        "function_references": "complete-body-and-entry-reference-manager-v2",
+        "location_resolution": "explicit-address-exact-entry-symbol-first-v3",
+        "instruction_flow_evidence": "decoded-return-pcode-v1",
+        "process_launch": "inspected-jvm-launch-support-v1",
+        "load_image_evidence": "independent-mz-mapping-relocations-v1",
+        "jump_table_evidence": "typed-case-default-blocks-v1",
+        "decompiler_jump_loads": true,
+        "loader": "MzLoader",
+        "language_id": "x86:LE:16:Real Mode",
+        "compiler_spec_id": "default",
+        "load_segment": "0x1000",
+        "address_coordinates": "linear-byte-offset",
+        "analyzer_preset": "ghidra-default"
+      },
+      "digest": "894e458d232de9bdeb2a5d661cd2b4791ee9e10f88d297423fc0c7553a7a66d8"
+    },
+    "predicate_type": "rea.analysis",
+    "operation": "xrefs",
+    "parameters": {
+      "address": "0x1857c"
+    },
+    "raw_result": [
+      "0x18577"
+    ],
+    "normalized_result": [
+      "0x18577"
+    ],
+    "confidence": "observed",
+    "authority": "shipped-artifact",
+    "environment": null,
+    "limitations": [
+      "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+      "The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.",
+      "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+      "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+      "The direct address list projects exact Ghidra references to one address but does not expose their kinds; procedure_references and analyze_function preserve available kind metadata.",
+      "Synthetic Ghidra entry-point references without actionable memory sources are omitted.",
+      "DOS MZ uses 16-bit x86 real mode with the Ghidra load segment 0x1000. Returned addresses are linear byte coordinates; they do not identify a unique segment:offset alias.",
+      "Static DOS analysis does not emulate BIOS, DOS interrupts, device ports, or self-modifying unpacking code. Packed targets require a separately identified unpacked artifact for original-program analysis; appended overlays are not the initialized load module."
+    ],
+    "locations": [],
+    "evidence_links": []
+  },
+  {
+    "evidence_id": "ev_f320ba455965848fa0ced26c7f0749faedce7773d128ff7c41b19958815e6ee4",
+    "subject": {
+      "name": "CHESS.EXE",
+      "digest": {
+        "sha256": "c32d4f6bc732b67efa65d55bc5813bc74dcfb52b8616894b57ed7aeeeed2a1cd"
+      },
+      "format": "dos-mz",
+      "architecture": "x86",
+      "local_path": "/home/kierzo/chess/CHESS.EXE"
+    },
+    "provider": {
+      "id": "ghidra",
+      "name": "Ghidra",
+      "version": "12.1.4"
+    },
+    "analysis_profile": {
+      "provider": {
+        "id": "ghidra",
+        "name": "Ghidra",
+        "version": "12.1.4"
+      },
+      "parameters": {
+        "target_kind": "executable",
+        "target_format": "dos-mz",
+        "architecture": "x86",
+        "available_architectures": [
+          "x86"
+        ],
+        "import_mode": "ephemeral-source-immutable",
+        "annotation_policy": "atomic-function-entry-metadata-v1",
+        "load_image_observations": "source-mappings-entry-context-v2",
+        "function_body_evidence": "complete-inclusive-ranges-v1",
+        "function_references": "complete-body-and-entry-reference-manager-v2",
+        "location_resolution": "explicit-address-exact-entry-symbol-first-v3",
+        "instruction_flow_evidence": "decoded-return-pcode-v1",
+        "process_launch": "inspected-jvm-launch-support-v1",
+        "load_image_evidence": "independent-mz-mapping-relocations-v1",
+        "jump_table_evidence": "typed-case-default-blocks-v1",
+        "decompiler_jump_loads": true,
+        "loader": "MzLoader",
+        "language_id": "x86:LE:16:Real Mode",
+        "compiler_spec_id": "default",
+        "load_segment": "0x1000",
+        "address_coordinates": "linear-byte-offset",
+        "analyzer_preset": "ghidra-default"
+      },
+      "digest": "894e458d232de9bdeb2a5d661cd2b4791ee9e10f88d297423fc0c7553a7a66d8"
+    },
+    "predicate_type": "rea.analysis",
+    "operation": "xrefs",
+    "parameters": {
+      "address": "0x1857d"
+    },
+    "raw_result": [],
+    "normalized_result": [],
+    "confidence": "observed",
+    "authority": "shipped-artifact",
+    "environment": null,
+    "limitations": [
+      "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+      "The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.",
+      "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+      "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+      "The direct address list projects exact Ghidra references to one address but does not expose their kinds; procedure_references and analyze_function preserve available kind metadata.",
+      "Synthetic Ghidra entry-point references without actionable memory sources are omitted.",
+      "DOS MZ uses 16-bit x86 real mode with the Ghidra load segment 0x1000. Returned addresses are linear byte coordinates; they do not identify a unique segment:offset alias.",
+      "Static DOS analysis does not emulate BIOS, DOS interrupts, device ports, or self-modifying unpacking code. Packed targets require a separately identified unpacked artifact for original-program analysis; appended overlays are not the initialized load module."
+    ],
+    "locations": [],
+    "evidence_links": []
+  },
+  {
+    "evidence_id": "ev_49f01e4647281338b0dbf0b962d63440a2b03dd8eae8857f4c0b26e0e012a150",
+    "subject": {
+      "name": "CHESS.EXE",
+      "digest": {
+        "sha256": "c32d4f6bc732b67efa65d55bc5813bc74dcfb52b8616894b57ed7aeeeed2a1cd"
+      },
+      "format": "dos-mz",
+      "architecture": "x86",
+      "local_path": "/home/kierzo/chess/CHESS.EXE"
+    },
+    "provider": {
+      "id": "ghidra",
+      "name": "Ghidra",
+      "version": "12.1.4"
+    },
+    "analysis_profile": {
+      "provider": {
+        "id": "ghidra",
+        "name": "Ghidra",
+        "version": "12.1.4"
+      },
+      "parameters": {
+        "target_kind": "executable",
+        "target_format": "dos-mz",
+        "architecture": "x86",
+        "available_architectures": [
+          "x86"
+        ],
+        "import_mode": "ephemeral-source-immutable",
+        "annotation_policy": "atomic-function-entry-metadata-v1",
+        "load_image_observations": "source-mappings-entry-context-v2",
+        "function_body_evidence": "complete-inclusive-ranges-v1",
+        "function_references": "complete-body-and-entry-reference-manager-v2",
+        "location_resolution": "explicit-address-exact-entry-symbol-first-v3",
+        "instruction_flow_evidence": "decoded-return-pcode-v1",
+        "process_launch": "inspected-jvm-launch-support-v1",
+        "load_image_evidence": "independent-mz-mapping-relocations-v1",
+        "jump_table_evidence": "typed-case-default-blocks-v1",
+        "decompiler_jump_loads": true,
+        "loader": "MzLoader",
+        "language_id": "x86:LE:16:Real Mode",
+        "compiler_spec_id": "default",
+        "load_segment": "0x1000",
+        "address_coordinates": "linear-byte-offset",
+        "analyzer_preset": "ghidra-default"
+      },
+      "digest": "894e458d232de9bdeb2a5d661cd2b4791ee9e10f88d297423fc0c7553a7a66d8"
+    },
+    "predicate_type": "rea.analysis",
+    "operation": "xrefs",
+    "parameters": {
+      "address": "0x1857e"
+    },
+    "raw_result": [],
+    "normalized_result": [],
+    "confidence": "observed",
+    "authority": "shipped-artifact",
+    "environment": null,
+    "limitations": [
+      "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+      "The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.",
+      "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+      "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+      "The direct address list projects exact Ghidra references to one address but does not expose their kinds; procedure_references and analyze_function preserve available kind metadata.",
+      "Synthetic Ghidra entry-point references without actionable memory sources are omitted.",
+      "DOS MZ uses 16-bit x86 real mode with the Ghidra load segment 0x1000. Returned addresses are linear byte coordinates; they do not identify a unique segment:offset alias.",
+      "Static DOS analysis does not emulate BIOS, DOS interrupts, device ports, or self-modifying unpacking code. Packed targets require a separately identified unpacked artifact for original-program analysis; appended overlays are not the initialized load module."
+    ],
+    "locations": [],
+    "evidence_links": []
+  },
+  {
+    "evidence_id": "ev_5215b4d14e8f120cfe9b2497f67deafc201fd3c396adc12f9ae827afeacf2923",
+    "subject": {
+      "name": "CHESS.EXE",
+      "digest": {
+        "sha256": "c32d4f6bc732b67efa65d55bc5813bc74dcfb52b8616894b57ed7aeeeed2a1cd"
+      },
+      "format": "dos-mz",
+      "architecture": "x86",
+      "local_path": "/home/kierzo/chess/CHESS.EXE"
+    },
+    "provider": {
+      "id": "ghidra",
+      "name": "Ghidra",
+      "version": "12.1.4"
+    },
+    "analysis_profile": {
+      "provider": {
+        "id": "ghidra",
+        "name": "Ghidra",
+        "version": "12.1.4"
+      },
+      "parameters": {
+        "target_kind": "executable",
+        "target_format": "dos-mz",
+        "architecture": "x86",
+        "available_architectures": [
+          "x86"
+        ],
+        "import_mode": "ephemeral-source-immutable",
+        "annotation_policy": "atomic-function-entry-metadata-v1",
+        "load_image_observations": "source-mappings-entry-context-v2",
+        "function_body_evidence": "complete-inclusive-ranges-v1",
+        "function_references": "complete-body-and-entry-reference-manager-v2",
+        "location_resolution": "explicit-address-exact-entry-symbol-first-v3",
+        "instruction_flow_evidence": "decoded-return-pcode-v1",
+        "process_launch": "inspected-jvm-launch-support-v1",
+        "load_image_evidence": "independent-mz-mapping-relocations-v1",
+        "jump_table_evidence": "typed-case-default-blocks-v1",
+        "decompiler_jump_loads": true,
+        "loader": "MzLoader",
+        "language_id": "x86:LE:16:Real Mode",
+        "compiler_spec_id": "default",
+        "load_segment": "0x1000",
+        "address_coordinates": "linear-byte-offset",
+        "analyzer_preset": "ghidra-default"
+      },
+      "digest": "894e458d232de9bdeb2a5d661cd2b4791ee9e10f88d297423fc0c7553a7a66d8"
+    },
+    "predicate_type": "rea.analysis",
+    "operation": "xrefs",
+    "parameters": {
+      "address": "0x1857f"
+    },
+    "raw_result": [],
+    "normalized_result": [],
+    "confidence": "observed",
+    "authority": "shipped-artifact",
+    "environment": null,
+    "limitations": [
+      "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+      "The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.",
+      "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+      "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+      "The direct address list projects exact Ghidra references to one address but does not expose their kinds; procedure_references and analyze_function preserve available kind metadata.",
+      "Synthetic Ghidra entry-point references without actionable memory sources are omitted.",
+      "DOS MZ uses 16-bit x86 real mode with the Ghidra load segment 0x1000. Returned addresses are linear byte coordinates; they do not identify a unique segment:offset alias.",
+      "Static DOS analysis does not emulate BIOS, DOS interrupts, device ports, or self-modifying unpacking code. Packed targets require a separately identified unpacked artifact for original-program analysis; appended overlays are not the initialized load module."
+    ],
+    "locations": [],
+    "evidence_links": []
+  },
+  {
+    "evidence_id": "ev_7164ddc29f417604941c6990a60a7d743b65d2a66991f764840f611dd654f40f",
+    "subject": {
+      "name": "CHESS.EXE",
+      "digest": {
+        "sha256": "c32d4f6bc732b67efa65d55bc5813bc74dcfb52b8616894b57ed7aeeeed2a1cd"
+      },
+      "format": "dos-mz",
+      "architecture": "x86",
+      "local_path": "/home/kierzo/chess/CHESS.EXE"
+    },
+    "provider": {
+      "id": "ghidra",
+      "name": "Ghidra",
+      "version": "12.1.4"
+    },
+    "analysis_profile": {
+      "provider": {
+        "id": "ghidra",
+        "name": "Ghidra",
+        "version": "12.1.4"
+      },
+      "parameters": {
+        "target_kind": "executable",
+        "target_format": "dos-mz",
+        "architecture": "x86",
+        "available_architectures": [
+          "x86"
+        ],
+        "import_mode": "ephemeral-source-immutable",
+        "annotation_policy": "atomic-function-entry-metadata-v1",
+        "load_image_observations": "source-mappings-entry-context-v2",
+        "function_body_evidence": "complete-inclusive-ranges-v1",
+        "function_references": "complete-body-and-entry-reference-manager-v2",
+        "location_resolution": "explicit-address-exact-entry-symbol-first-v3",
+        "instruction_flow_evidence": "decoded-return-pcode-v1",
+        "process_launch": "inspected-jvm-launch-support-v1",
+        "load_image_evidence": "independent-mz-mapping-relocations-v1",
+        "jump_table_evidence": "typed-case-default-blocks-v1",
+        "decompiler_jump_loads": true,
+        "loader": "MzLoader",
+        "language_id": "x86:LE:16:Real Mode",
+        "compiler_spec_id": "default",
+        "load_segment": "0x1000",
+        "address_coordinates": "linear-byte-offset",
+        "analyzer_preset": "ghidra-default"
+      },
+      "digest": "894e458d232de9bdeb2a5d661cd2b4791ee9e10f88d297423fc0c7553a7a66d8"
+    },
+    "predicate_type": "rea.analysis",
+    "operation": "xrefs",
+    "parameters": {
+      "address": "0x18580"
+    },
+    "raw_result": [],
+    "normalized_result": [],
+    "confidence": "observed",
+    "authority": "shipped-artifact",
+    "environment": null,
+    "limitations": [
+      "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+      "The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.",
+      "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+      "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+      "The direct address list projects exact Ghidra references to one address but does not expose their kinds; procedure_references and analyze_function preserve available kind metadata.",
+      "Synthetic Ghidra entry-point references without actionable memory sources are omitted.",
+      "DOS MZ uses 16-bit x86 real mode with the Ghidra load segment 0x1000. Returned addresses are linear byte coordinates; they do not identify a unique segment:offset alias.",
+      "Static DOS analysis does not emulate BIOS, DOS interrupts, device ports, or self-modifying unpacking code. Packed targets require a separately identified unpacked artifact for original-program analysis; appended overlays are not the initialized load module."
+    ],
+    "locations": [],
+    "evidence_links": []
+  },
+  {
+    "evidence_id": "ev_313c0b884aa340c61888f26a7a3ca574554012ebfae3a2fb6864744ebd9362d8",
+    "subject": {
+      "name": "CHESS.EXE",
+      "digest": {
+        "sha256": "c32d4f6bc732b67efa65d55bc5813bc74dcfb52b8616894b57ed7aeeeed2a1cd"
+      },
+      "format": "dos-mz",
+      "architecture": "x86",
+      "local_path": "/home/kierzo/chess/CHESS.EXE"
+    },
+    "provider": {
+      "id": "ghidra",
+      "name": "Ghidra",
+      "version": "12.1.4"
+    },
+    "analysis_profile": {
+      "provider": {
+        "id": "ghidra",
+        "name": "Ghidra",
+        "version": "12.1.4"
+      },
+      "parameters": {
+        "target_kind": "executable",
+        "target_format": "dos-mz",
+        "architecture": "x86",
+        "available_architectures": [
+          "x86"
+        ],
+        "import_mode": "ephemeral-source-immutable",
+        "annotation_policy": "atomic-function-entry-metadata-v1",
+        "load_image_observations": "source-mappings-entry-context-v2",
+        "function_body_evidence": "complete-inclusive-ranges-v1",
+        "function_references": "complete-body-and-entry-reference-manager-v2",
+        "location_resolution": "explicit-address-exact-entry-symbol-first-v3",
+        "instruction_flow_evidence": "decoded-return-pcode-v1",
+        "process_launch": "inspected-jvm-launch-support-v1",
+        "load_image_evidence": "independent-mz-mapping-relocations-v1",
+        "jump_table_evidence": "typed-case-default-blocks-v1",
+        "decompiler_jump_loads": true,
+        "loader": "MzLoader",
+        "language_id": "x86:LE:16:Real Mode",
+        "compiler_spec_id": "default",
+        "load_segment": "0x1000",
+        "address_coordinates": "linear-byte-offset",
+        "analyzer_preset": "ghidra-default"
+      },
+      "digest": "894e458d232de9bdeb2a5d661cd2b4791ee9e10f88d297423fc0c7553a7a66d8"
+    },
+    "predicate_type": "rea.analysis",
+    "operation": "xrefs",
+    "parameters": {
+      "address": "0x18581"
+    },
+    "raw_result": [],
+    "normalized_result": [],
+    "confidence": "observed",
+    "authority": "shipped-artifact",
+    "environment": null,
+    "limitations": [
+      "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+      "The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.",
+      "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+      "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+      "The direct address list projects exact Ghidra references to one address but does not expose their kinds; procedure_references and analyze_function preserve available kind metadata.",
+      "Synthetic Ghidra entry-point references without actionable memory sources are omitted.",
+      "DOS MZ uses 16-bit x86 real mode with the Ghidra load segment 0x1000. Returned addresses are linear byte coordinates; they do not identify a unique segment:offset alias.",
+      "Static DOS analysis does not emulate BIOS, DOS interrupts, device ports, or self-modifying unpacking code. Packed targets require a separately identified unpacked artifact for original-program analysis; appended overlays are not the initialized load module."
+    ],
+    "locations": [],
+    "evidence_links": []
+  },
+  {
+    "evidence_id": "ev_435676744fb58f1d4f83bea2e36518310e00d974b8a78defcecc80114537368f",
+    "subject": {
+      "name": "CHESS.EXE",
+      "digest": {
+        "sha256": "c32d4f6bc732b67efa65d55bc5813bc74dcfb52b8616894b57ed7aeeeed2a1cd"
+      },
+      "format": "dos-mz",
+      "architecture": "x86",
+      "local_path": "/home/kierzo/chess/CHESS.EXE"
+    },
+    "provider": {
+      "id": "ghidra",
+      "name": "Ghidra",
+      "version": "12.1.4"
+    },
+    "analysis_profile": {
+      "provider": {
+        "id": "ghidra",
+        "name": "Ghidra",
+        "version": "12.1.4"
+      },
+      "parameters": {
+        "target_kind": "executable",
+        "target_format": "dos-mz",
+        "architecture": "x86",
+        "available_architectures": [
+          "x86"
+        ],
+        "import_mode": "ephemeral-source-immutable",
+        "annotation_policy": "atomic-function-entry-metadata-v1",
+        "load_image_observations": "source-mappings-entry-context-v2",
+        "function_body_evidence": "complete-inclusive-ranges-v1",
+        "function_references": "complete-body-and-entry-reference-manager-v2",
+        "location_resolution": "explicit-address-exact-entry-symbol-first-v3",
+        "instruction_flow_evidence": "decoded-return-pcode-v1",
+        "process_launch": "inspected-jvm-launch-support-v1",
+        "load_image_evidence": "independent-mz-mapping-relocations-v1",
+        "jump_table_evidence": "typed-case-default-blocks-v1",
+        "decompiler_jump_loads": true,
+        "loader": "MzLoader",
+        "language_id": "x86:LE:16:Real Mode",
+        "compiler_spec_id": "default",
+        "load_segment": "0x1000",
+        "address_coordinates": "linear-byte-offset",
+        "analyzer_preset": "ghidra-default"
+      },
+      "digest": "894e458d232de9bdeb2a5d661cd2b4791ee9e10f88d297423fc0c7553a7a66d8"
+    },
+    "predicate_type": "rea.analysis",
+    "operation": "xrefs",
+    "parameters": {
+      "address": "0x18582"
+    },
+    "raw_result": [],
+    "normalized_result": [],
+    "confidence": "observed",
+    "authority": "shipped-artifact",
+    "environment": null,
+    "limitations": [
+      "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+      "The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.",
+      "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+      "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+      "The direct address list projects exact Ghidra references to one address but does not expose their kinds; procedure_references and analyze_function preserve available kind metadata.",
+      "Synthetic Ghidra entry-point references without actionable memory sources are omitted.",
+      "DOS MZ uses 16-bit x86 real mode with the Ghidra load segment 0x1000. Returned addresses are linear byte coordinates; they do not identify a unique segment:offset alias.",
+      "Static DOS analysis does not emulate BIOS, DOS interrupts, device ports, or self-modifying unpacking code. Packed targets require a separately identified unpacked artifact for original-program analysis; appended overlays are not the initialized load module."
+    ],
+    "locations": [],
+    "evidence_links": []
+  },
+  {
+    "evidence_id": "ev_e178ef716e8600d30df4ba60efd34356a65f946be615b7b8e2d00f5bfe59f209",
+    "subject": {
+      "name": "CHESS.EXE",
+      "digest": {
+        "sha256": "c32d4f6bc732b67efa65d55bc5813bc74dcfb52b8616894b57ed7aeeeed2a1cd"
+      },
+      "format": "dos-mz",
+      "architecture": "x86",
+      "local_path": "/home/kierzo/chess/CHESS.EXE"
+    },
+    "provider": {
+      "id": "ghidra",
+      "name": "Ghidra",
+      "version": "12.1.4"
+    },
+    "analysis_profile": {
+      "provider": {
+        "id": "ghidra",
+        "name": "Ghidra",
+        "version": "12.1.4"
+      },
+      "parameters": {
+        "target_kind": "executable",
+        "target_format": "dos-mz",
+        "architecture": "x86",
+        "available_architectures": [
+          "x86"
+        ],
+        "import_mode": "ephemeral-source-immutable",
+        "annotation_policy": "atomic-function-entry-metadata-v1",
+        "load_image_observations": "source-mappings-entry-context-v2",
+        "function_body_evidence": "complete-inclusive-ranges-v1",
+        "function_references": "complete-body-and-entry-reference-manager-v2",
+        "location_resolution": "explicit-address-exact-entry-symbol-first-v3",
+        "instruction_flow_evidence": "decoded-return-pcode-v1",
+        "process_launch": "inspected-jvm-launch-support-v1",
+        "load_image_evidence": "independent-mz-mapping-relocations-v1",
+        "jump_table_evidence": "typed-case-default-blocks-v1",
+        "decompiler_jump_loads": true,
+        "loader": "MzLoader",
+        "language_id": "x86:LE:16:Real Mode",
+        "compiler_spec_id": "default",
+        "load_segment": "0x1000",
+        "address_coordinates": "linear-byte-offset",
+        "analyzer_preset": "ghidra-default"
+      },
+      "digest": "894e458d232de9bdeb2a5d661cd2b4791ee9e10f88d297423fc0c7553a7a66d8"
+    },
+    "predicate_type": "rea.analysis",
+    "operation": "xrefs",
+    "parameters": {
+      "address": "0x18583"
+    },
+    "raw_result": [],
+    "normalized_result": [],
+    "confidence": "observed",
+    "authority": "shipped-artifact",
+    "environment": null,
+    "limitations": [
+      "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+      "The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.",
+      "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+      "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+      "The direct address list projects exact Ghidra references to one address but does not expose their kinds; procedure_references and analyze_function preserve available kind metadata.",
+      "Synthetic Ghidra entry-point references without actionable memory sources are omitted.",
+      "DOS MZ uses 16-bit x86 real mode with the Ghidra load segment 0x1000. Returned addresses are linear byte coordinates; they do not identify a unique segment:offset alias.",
+      "Static DOS analysis does not emulate BIOS, DOS interrupts, device ports, or self-modifying unpacking code. Packed targets require a separately identified unpacked artifact for original-program analysis; appended overlays are not the initialized load module."
+    ],
+    "locations": [],
+    "evidence_links": []
+  },
+  {
+    "evidence_id": "ev_ac6dd8db218bf278878547351d082312c85fd54406a1d11ebe9f9beac0fd92ca",
+    "subject": {
+      "name": "CHESS.EXE",
+      "digest": {
+        "sha256": "c32d4f6bc732b67efa65d55bc5813bc74dcfb52b8616894b57ed7aeeeed2a1cd"
+      },
+      "format": "dos-mz",
+      "architecture": "x86",
+      "local_path": "/home/kierzo/chess/CHESS.EXE"
+    },
+    "provider": {
+      "id": "ghidra",
+      "name": "Ghidra",
+      "version": "12.1.4"
+    },
+    "analysis_profile": {
+      "provider": {
+        "id": "ghidra",
+        "name": "Ghidra",
+        "version": "12.1.4"
+      },
+      "parameters": {
+        "target_kind": "executable",
+        "target_format": "dos-mz",
+        "architecture": "x86",
+        "available_architectures": [
+          "x86"
+        ],
+        "import_mode": "ephemeral-source-immutable",
+        "annotation_policy": "atomic-function-entry-metadata-v1",
+        "load_image_observations": "source-mappings-entry-context-v2",
+        "function_body_evidence": "complete-inclusive-ranges-v1",
+        "function_references": "complete-body-and-entry-reference-manager-v2",
+        "location_resolution": "explicit-address-exact-entry-symbol-first-v3",
+        "instruction_flow_evidence": "decoded-return-pcode-v1",
+        "process_launch": "inspected-jvm-launch-support-v1",
+        "load_image_evidence": "independent-mz-mapping-relocations-v1",
+        "jump_table_evidence": "typed-case-default-blocks-v1",
+        "decompiler_jump_loads": true,
+        "loader": "MzLoader",
+        "language_id": "x86:LE:16:Real Mode",
+        "compiler_spec_id": "default",
+        "load_segment": "0x1000",
+        "address_coordinates": "linear-byte-offset",
+        "analyzer_preset": "ghidra-default"
+      },
+      "digest": "894e458d232de9bdeb2a5d661cd2b4791ee9e10f88d297423fc0c7553a7a66d8"
+    },
+    "predicate_type": "rea.analysis",
+    "operation": "xrefs",
+    "parameters": {
+      "address": "0x18584"
+    },
+    "raw_result": [],
+    "normalized_result": [],
+    "confidence": "observed",
+    "authority": "shipped-artifact",
+    "environment": null,
+    "limitations": [
+      "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+      "The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.",
+      "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+      "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+      "The direct address list projects exact Ghidra references to one address but does not expose their kinds; procedure_references and analyze_function preserve available kind metadata.",
+      "Synthetic Ghidra entry-point references without actionable memory sources are omitted.",
+      "DOS MZ uses 16-bit x86 real mode with the Ghidra load segment 0x1000. Returned addresses are linear byte coordinates; they do not identify a unique segment:offset alias.",
+      "Static DOS analysis does not emulate BIOS, DOS interrupts, device ports, or self-modifying unpacking code. Packed targets require a separately identified unpacked artifact for original-program analysis; appended overlays are not the initialized load module."
+    ],
+    "locations": [],
+    "evidence_links": []
+  },
+  {
+    "evidence_id": "ev_4c13ff11835a3f302c8df1d90346b32a263acba5210beda2277dcfcc8bfec795",
+    "subject": {
+      "name": "CHESS.EXE",
+      "digest": {
+        "sha256": "c32d4f6bc732b67efa65d55bc5813bc74dcfb52b8616894b57ed7aeeeed2a1cd"
+      },
+      "format": "dos-mz",
+      "architecture": "x86",
+      "local_path": "/home/kierzo/chess/CHESS.EXE"
+    },
+    "provider": {
+      "id": "ghidra",
+      "name": "Ghidra",
+      "version": "12.1.4"
+    },
+    "analysis_profile": {
+      "provider": {
+        "id": "ghidra",
+        "name": "Ghidra",
+        "version": "12.1.4"
+      },
+      "parameters": {
+        "target_kind": "executable",
+        "target_format": "dos-mz",
+        "architecture": "x86",
+        "available_architectures": [
+          "x86"
+        ],
+        "import_mode": "ephemeral-source-immutable",
+        "annotation_policy": "atomic-function-entry-metadata-v1",
+        "load_image_observations": "source-mappings-entry-context-v2",
+        "function_body_evidence": "complete-inclusive-ranges-v1",
+        "function_references": "complete-body-and-entry-reference-manager-v2",
+        "location_resolution": "explicit-address-exact-entry-symbol-first-v3",
+        "instruction_flow_evidence": "decoded-return-pcode-v1",
+        "process_launch": "inspected-jvm-launch-support-v1",
+        "load_image_evidence": "independent-mz-mapping-relocations-v1",
+        "jump_table_evidence": "typed-case-default-blocks-v1",
+        "decompiler_jump_loads": true,
+        "loader": "MzLoader",
+        "language_id": "x86:LE:16:Real Mode",
+        "compiler_spec_id": "default",
+        "load_segment": "0x1000",
+        "address_coordinates": "linear-byte-offset",
+        "analyzer_preset": "ghidra-default"
+      },
+      "digest": "894e458d232de9bdeb2a5d661cd2b4791ee9e10f88d297423fc0c7553a7a66d8"
+    },
+    "predicate_type": "rea.analysis",
+    "operation": "xrefs",
+    "parameters": {
+      "address": "0x18585"
+    },
+    "raw_result": [],
+    "normalized_result": [],
+    "confidence": "observed",
+    "authority": "shipped-artifact",
+    "environment": null,
+    "limitations": [
+      "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+      "The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.",
+      "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+      "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+      "The direct address list projects exact Ghidra references to one address but does not expose their kinds; procedure_references and analyze_function preserve available kind metadata.",
+      "Synthetic Ghidra entry-point references without actionable memory sources are omitted.",
+      "DOS MZ uses 16-bit x86 real mode with the Ghidra load segment 0x1000. Returned addresses are linear byte coordinates; they do not identify a unique segment:offset alias.",
+      "Static DOS analysis does not emulate BIOS, DOS interrupts, device ports, or self-modifying unpacking code. Packed targets require a separately identified unpacked artifact for original-program analysis; appended overlays are not the initialized load module."
+    ],
+    "locations": [],
+    "evidence_links": []
+  },
+  {
+    "evidence_id": "ev_24027d8e6dcba5968f560ced363da899be775dd6fb3035a5e1e8e4a8b73bb446",
+    "subject": {
+      "name": "CHESS.EXE",
+      "digest": {
+        "sha256": "c32d4f6bc732b67efa65d55bc5813bc74dcfb52b8616894b57ed7aeeeed2a1cd"
+      },
+      "format": "dos-mz",
+      "architecture": "x86",
+      "local_path": "/home/kierzo/chess/CHESS.EXE"
+    },
+    "provider": {
+      "id": "ghidra",
+      "name": "Ghidra",
+      "version": "12.1.4"
+    },
+    "analysis_profile": {
+      "provider": {
+        "id": "ghidra",
+        "name": "Ghidra",
+        "version": "12.1.4"
+      },
+      "parameters": {
+        "target_kind": "executable",
+        "target_format": "dos-mz",
+        "architecture": "x86",
+        "available_architectures": [
+          "x86"
+        ],
+        "import_mode": "ephemeral-source-immutable",
+        "annotation_policy": "atomic-function-entry-metadata-v1",
+        "load_image_observations": "source-mappings-entry-context-v2",
+        "function_body_evidence": "complete-inclusive-ranges-v1",
+        "function_references": "complete-body-and-entry-reference-manager-v2",
+        "location_resolution": "explicit-address-exact-entry-symbol-first-v3",
+        "instruction_flow_evidence": "decoded-return-pcode-v1",
+        "process_launch": "inspected-jvm-launch-support-v1",
+        "load_image_evidence": "independent-mz-mapping-relocations-v1",
+        "jump_table_evidence": "typed-case-default-blocks-v1",
+        "decompiler_jump_loads": true,
+        "loader": "MzLoader",
+        "language_id": "x86:LE:16:Real Mode",
+        "compiler_spec_id": "default",
+        "load_segment": "0x1000",
+        "address_coordinates": "linear-byte-offset",
+        "analyzer_preset": "ghidra-default"
+      },
+      "digest": "894e458d232de9bdeb2a5d661cd2b4791ee9e10f88d297423fc0c7553a7a66d8"
+    },
+    "predicate_type": "rea.analysis",
+    "operation": "xrefs",
+    "parameters": {
+      "address": "0x18586"
+    },
+    "raw_result": [],
+    "normalized_result": [],
+    "confidence": "observed",
+    "authority": "shipped-artifact",
+    "environment": null,
+    "limitations": [
+      "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+      "The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.",
+      "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+      "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+      "The direct address list projects exact Ghidra references to one address but does not expose their kinds; procedure_references and analyze_function preserve available kind metadata.",
+      "Synthetic Ghidra entry-point references without actionable memory sources are omitted.",
+      "DOS MZ uses 16-bit x86 real mode with the Ghidra load segment 0x1000. Returned addresses are linear byte coordinates; they do not identify a unique segment:offset alias.",
+      "Static DOS analysis does not emulate BIOS, DOS interrupts, device ports, or self-modifying unpacking code. Packed targets require a separately identified unpacked artifact for original-program analysis; appended overlays are not the initialized load module."
+    ],
+    "locations": [],
+    "evidence_links": []
+  },
+  {
+    "evidence_id": "ev_4072fead20ea2e856fa608c891afb12f51f9427a1d6d988e6028daa827ca7ec5",
+    "subject": {
+      "name": "CHESS.EXE",
+      "digest": {
+        "sha256": "c32d4f6bc732b67efa65d55bc5813bc74dcfb52b8616894b57ed7aeeeed2a1cd"
+      },
+      "format": "dos-mz",
+      "architecture": "x86",
+      "local_path": "/home/kierzo/chess/CHESS.EXE"
+    },
+    "provider": {
+      "id": "ghidra",
+      "name": "Ghidra",
+      "version": "12.1.4"
+    },
+    "analysis_profile": {
+      "provider": {
+        "id": "ghidra",
+        "name": "Ghidra",
+        "version": "12.1.4"
+      },
+      "parameters": {
+        "target_kind": "executable",
+        "target_format": "dos-mz",
+        "architecture": "x86",
+        "available_architectures": [
+          "x86"
+        ],
+        "import_mode": "ephemeral-source-immutable",
+        "annotation_policy": "atomic-function-entry-metadata-v1",
+        "load_image_observations": "source-mappings-entry-context-v2",
+        "function_body_evidence": "complete-inclusive-ranges-v1",
+        "function_references": "complete-body-and-entry-reference-manager-v2",
+        "location_resolution": "explicit-address-exact-entry-symbol-first-v3",
+        "instruction_flow_evidence": "decoded-return-pcode-v1",
+        "process_launch": "inspected-jvm-launch-support-v1",
+        "load_image_evidence": "independent-mz-mapping-relocations-v1",
+        "jump_table_evidence": "typed-case-default-blocks-v1",
+        "decompiler_jump_loads": true,
+        "loader": "MzLoader",
+        "language_id": "x86:LE:16:Real Mode",
+        "compiler_spec_id": "default",
+        "load_segment": "0x1000",
+        "address_coordinates": "linear-byte-offset",
+        "analyzer_preset": "ghidra-default"
+      },
+      "digest": "894e458d232de9bdeb2a5d661cd2b4791ee9e10f88d297423fc0c7553a7a66d8"
+    },
+    "predicate_type": "rea.analysis",
+    "operation": "xrefs",
+    "parameters": {
+      "address": "0x18587"
+    },
+    "raw_result": [],
+    "normalized_result": [],
+    "confidence": "observed",
+    "authority": "shipped-artifact",
+    "environment": null,
+    "limitations": [
+      "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+      "The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.",
+      "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+      "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+      "The direct address list projects exact Ghidra references to one address but does not expose their kinds; procedure_references and analyze_function preserve available kind metadata.",
+      "Synthetic Ghidra entry-point references without actionable memory sources are omitted.",
+      "DOS MZ uses 16-bit x86 real mode with the Ghidra load segment 0x1000. Returned addresses are linear byte coordinates; they do not identify a unique segment:offset alias.",
+      "Static DOS analysis does not emulate BIOS, DOS interrupts, device ports, or self-modifying unpacking code. Packed targets require a separately identified unpacked artifact for original-program analysis; appended overlays are not the initialized load module."
+    ],
+    "locations": [],
+    "evidence_links": []
+  },
+  {
+    "evidence_id": "ev_4fb0f2439153417f991b604d4bd77f1e4ed350963363ec77619f0a1f45355a22",
+    "subject": {
+      "name": "CHESS.EXE",
+      "digest": {
+        "sha256": "c32d4f6bc732b67efa65d55bc5813bc74dcfb52b8616894b57ed7aeeeed2a1cd"
+      },
+      "format": "dos-mz",
+      "architecture": "x86",
+      "local_path": "/home/kierzo/chess/CHESS.EXE"
+    },
+    "provider": {
+      "id": "ghidra",
+      "name": "Ghidra",
+      "version": "12.1.4"
+    },
+    "analysis_profile": {
+      "provider": {
+        "id": "ghidra",
+        "name": "Ghidra",
+        "version": "12.1.4"
+      },
+      "parameters": {
+        "target_kind": "executable",
+        "target_format": "dos-mz",
+        "architecture": "x86",
+        "available_architectures": [
+          "x86"
+        ],
+        "import_mode": "ephemeral-source-immutable",
+        "annotation_policy": "atomic-function-entry-metadata-v1",
+        "load_image_observations": "source-mappings-entry-context-v2",
+        "function_body_evidence": "complete-inclusive-ranges-v1",
+        "function_references": "complete-body-and-entry-reference-manager-v2",
+        "location_resolution": "explicit-address-exact-entry-symbol-first-v3",
+        "instruction_flow_evidence": "decoded-return-pcode-v1",
+        "process_launch": "inspected-jvm-launch-support-v1",
+        "load_image_evidence": "independent-mz-mapping-relocations-v1",
+        "jump_table_evidence": "typed-case-default-blocks-v1",
+        "decompiler_jump_loads": true,
+        "loader": "MzLoader",
+        "language_id": "x86:LE:16:Real Mode",
+        "compiler_spec_id": "default",
+        "load_segment": "0x1000",
+        "address_coordinates": "linear-byte-offset",
+        "analyzer_preset": "ghidra-default"
+      },
+      "digest": "894e458d232de9bdeb2a5d661cd2b4791ee9e10f88d297423fc0c7553a7a66d8"
+    },
+    "predicate_type": "rea.analysis",
+    "operation": "xrefs",
+    "parameters": {
+      "address": "0x18588"
+    },
+    "raw_result": [],
+    "normalized_result": [],
+    "confidence": "observed",
+    "authority": "shipped-artifact",
+    "environment": null,
+    "limitations": [
+      "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+      "The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.",
+      "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+      "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+      "The direct address list projects exact Ghidra references to one address but does not expose their kinds; procedure_references and analyze_function preserve available kind metadata.",
+      "Synthetic Ghidra entry-point references without actionable memory sources are omitted.",
+      "DOS MZ uses 16-bit x86 real mode with the Ghidra load segment 0x1000. Returned addresses are linear byte coordinates; they do not identify a unique segment:offset alias.",
+      "Static DOS analysis does not emulate BIOS, DOS interrupts, device ports, or self-modifying unpacking code. Packed targets require a separately identified unpacked artifact for original-program analysis; appended overlays are not the initialized load module."
+    ],
+    "locations": [],
+    "evidence_links": []
+  },
+  {
+    "evidence_id": "ev_718a0134bcc8cf757e18f6f71f342454b6860990aafb666504a597ac5217c622",
+    "subject": {
+      "name": "CHESS.EXE",
+      "digest": {
+        "sha256": "c32d4f6bc732b67efa65d55bc5813bc74dcfb52b8616894b57ed7aeeeed2a1cd"
+      },
+      "format": "dos-mz",
+      "architecture": "x86",
+      "local_path": "/home/kierzo/chess/CHESS.EXE"
+    },
+    "provider": {
+      "id": "ghidra",
+      "name": "Ghidra",
+      "version": "12.1.4"
+    },
+    "analysis_profile": {
+      "provider": {
+        "id": "ghidra",
+        "name": "Ghidra",
+        "version": "12.1.4"
+      },
+      "parameters": {
+        "target_kind": "executable",
+        "target_format": "dos-mz",
+        "architecture": "x86",
+        "available_architectures": [
+          "x86"
+        ],
+        "import_mode": "ephemeral-source-immutable",
+        "annotation_policy": "atomic-function-entry-metadata-v1",
+        "load_image_observations": "source-mappings-entry-context-v2",
+        "function_body_evidence": "complete-inclusive-ranges-v1",
+        "function_references": "complete-body-and-entry-reference-manager-v2",
+        "location_resolution": "explicit-address-exact-entry-symbol-first-v3",
+        "instruction_flow_evidence": "decoded-return-pcode-v1",
+        "process_launch": "inspected-jvm-launch-support-v1",
+        "load_image_evidence": "independent-mz-mapping-relocations-v1",
+        "jump_table_evidence": "typed-case-default-blocks-v1",
+        "decompiler_jump_loads": true,
+        "loader": "MzLoader",
+        "language_id": "x86:LE:16:Real Mode",
+        "compiler_spec_id": "default",
+        "load_segment": "0x1000",
+        "address_coordinates": "linear-byte-offset",
+        "analyzer_preset": "ghidra-default"
+      },
+      "digest": "894e458d232de9bdeb2a5d661cd2b4791ee9e10f88d297423fc0c7553a7a66d8"
+    },
+    "predicate_type": "rea.analysis",
+    "operation": "xrefs",
+    "parameters": {
+      "address": "0x18589"
+    },
+    "raw_result": [],
+    "normalized_result": [],
+    "confidence": "observed",
+    "authority": "shipped-artifact",
+    "environment": null,
+    "limitations": [
+      "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+      "The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.",
+      "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+      "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+      "The direct address list projects exact Ghidra references to one address but does not expose their kinds; procedure_references and analyze_function preserve available kind metadata.",
+      "Synthetic Ghidra entry-point references without actionable memory sources are omitted.",
+      "DOS MZ uses 16-bit x86 real mode with the Ghidra load segment 0x1000. Returned addresses are linear byte coordinates; they do not identify a unique segment:offset alias.",
+      "Static DOS analysis does not emulate BIOS, DOS interrupts, device ports, or self-modifying unpacking code. Packed targets require a separately identified unpacked artifact for original-program analysis; appended overlays are not the initialized load module."
+    ],
+    "locations": [],
+    "evidence_links": []
+  },
+  {
+    "evidence_id": "ev_404229c0d4efa0e07581ee553bc9a43a761a2aca755f6c717c6c6dc80222e59d",
+    "subject": {
+      "name": "CHESS.EXE",
+      "digest": {
+        "sha256": "c32d4f6bc732b67efa65d55bc5813bc74dcfb52b8616894b57ed7aeeeed2a1cd"
+      },
+      "format": "dos-mz",
+      "architecture": "x86",
+      "local_path": "/home/kierzo/chess/CHESS.EXE"
+    },
+    "provider": {
+      "id": "ghidra",
+      "name": "Ghidra",
+      "version": "12.1.4"
+    },
+    "analysis_profile": {
+      "provider": {
+        "id": "ghidra",
+        "name": "Ghidra",
+        "version": "12.1.4"
+      },
+      "parameters": {
+        "target_kind": "executable",
+        "target_format": "dos-mz",
+        "architecture": "x86",
+        "available_architectures": [
+          "x86"
+        ],
+        "import_mode": "ephemeral-source-immutable",
+        "annotation_policy": "atomic-function-entry-metadata-v1",
+        "load_image_observations": "source-mappings-entry-context-v2",
+        "function_body_evidence": "complete-inclusive-ranges-v1",
+        "function_references": "complete-body-and-entry-reference-manager-v2",
+        "location_resolution": "explicit-address-exact-entry-symbol-first-v3",
+        "instruction_flow_evidence": "decoded-return-pcode-v1",
+        "process_launch": "inspected-jvm-launch-support-v1",
+        "load_image_evidence": "independent-mz-mapping-relocations-v1",
+        "jump_table_evidence": "typed-case-default-blocks-v1",
+        "decompiler_jump_loads": true,
+        "loader": "MzLoader",
+        "language_id": "x86:LE:16:Real Mode",
+        "compiler_spec_id": "default",
+        "load_segment": "0x1000",
+        "address_coordinates": "linear-byte-offset",
+        "analyzer_preset": "ghidra-default"
+      },
+      "digest": "894e458d232de9bdeb2a5d661cd2b4791ee9e10f88d297423fc0c7553a7a66d8"
+    },
+    "predicate_type": "rea.analysis",
+    "operation": "xrefs",
+    "parameters": {
+      "address": "0x1858a"
+    },
+    "raw_result": [],
+    "normalized_result": [],
+    "confidence": "observed",
+    "authority": "shipped-artifact",
+    "environment": null,
+    "limitations": [
+      "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+      "The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.",
+      "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+      "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+      "The direct address list projects exact Ghidra references to one address but does not expose their kinds; procedure_references and analyze_function preserve available kind metadata.",
+      "Synthetic Ghidra entry-point references without actionable memory sources are omitted.",
+      "DOS MZ uses 16-bit x86 real mode with the Ghidra load segment 0x1000. Returned addresses are linear byte coordinates; they do not identify a unique segment:offset alias.",
+      "Static DOS analysis does not emulate BIOS, DOS interrupts, device ports, or self-modifying unpacking code. Packed targets require a separately identified unpacked artifact for original-program analysis; appended overlays are not the initialized load module."
+    ],
+    "locations": [],
+    "evidence_links": []
+  },
+  {
+    "evidence_id": "ev_c3bffc7ada2f63b2c253a670e0b7bc51a70cb25a73aee39c8ac72e4f8ac57105",
+    "subject": {
+      "name": "CHESS.EXE",
+      "digest": {
+        "sha256": "c32d4f6bc732b67efa65d55bc5813bc74dcfb52b8616894b57ed7aeeeed2a1cd"
+      },
+      "format": "dos-mz",
+      "architecture": "x86",
+      "local_path": "/home/kierzo/chess/CHESS.EXE"
+    },
+    "provider": {
+      "id": "ghidra",
+      "name": "Ghidra",
+      "version": "12.1.4"
+    },
+    "analysis_profile": {
+      "provider": {
+        "id": "ghidra",
+        "name": "Ghidra",
+        "version": "12.1.4"
+      },
+      "parameters": {
+        "target_kind": "executable",
+        "target_format": "dos-mz",
+        "architecture": "x86",
+        "available_architectures": [
+          "x86"
+        ],
+        "import_mode": "ephemeral-source-immutable",
+        "annotation_policy": "atomic-function-entry-metadata-v1",
+        "load_image_observations": "source-mappings-entry-context-v2",
+        "function_body_evidence": "complete-inclusive-ranges-v1",
+        "function_references": "complete-body-and-entry-reference-manager-v2",
+        "location_resolution": "explicit-address-exact-entry-symbol-first-v3",
+        "instruction_flow_evidence": "decoded-return-pcode-v1",
+        "process_launch": "inspected-jvm-launch-support-v1",
+        "load_image_evidence": "independent-mz-mapping-relocations-v1",
+        "jump_table_evidence": "typed-case-default-blocks-v1",
+        "decompiler_jump_loads": true,
+        "loader": "MzLoader",
+        "language_id": "x86:LE:16:Real Mode",
+        "compiler_spec_id": "default",
+        "load_segment": "0x1000",
+        "address_coordinates": "linear-byte-offset",
+        "analyzer_preset": "ghidra-default"
+      },
+      "digest": "894e458d232de9bdeb2a5d661cd2b4791ee9e10f88d297423fc0c7553a7a66d8"
+    },
+    "predicate_type": "rea.analysis",
+    "operation": "xrefs",
+    "parameters": {
+      "address": "0x1858b"
+    },
+    "raw_result": [],
+    "normalized_result": [],
+    "confidence": "observed",
+    "authority": "shipped-artifact",
+    "environment": null,
+    "limitations": [
+      "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+      "The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.",
+      "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+      "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+      "The direct address list projects exact Ghidra references to one address but does not expose their kinds; procedure_references and analyze_function preserve available kind metadata.",
+      "Synthetic Ghidra entry-point references without actionable memory sources are omitted.",
+      "DOS MZ uses 16-bit x86 real mode with the Ghidra load segment 0x1000. Returned addresses are linear byte coordinates; they do not identify a unique segment:offset alias.",
+      "Static DOS analysis does not emulate BIOS, DOS interrupts, device ports, or self-modifying unpacking code. Packed targets require a separately identified unpacked artifact for original-program analysis; appended overlays are not the initialized load module."
+    ],
+    "locations": [],
+    "evidence_links": []
+  },
+  {
+    "evidence_id": "ev_b198e23c5e863abffc836e29c27b5e3aeb3e45bf0b8d700b5df2e23a732efec6",
+    "subject": {
+      "name": "CHESS.EXE",
+      "digest": {
+        "sha256": "c32d4f6bc732b67efa65d55bc5813bc74dcfb52b8616894b57ed7aeeeed2a1cd"
+      },
+      "format": "dos-mz",
+      "architecture": "x86",
+      "local_path": "/home/kierzo/chess/CHESS.EXE"
+    },
+    "provider": {
+      "id": "ghidra",
+      "name": "Ghidra",
+      "version": "12.1.4"
+    },
+    "analysis_profile": {
+      "provider": {
+        "id": "ghidra",
+        "name": "Ghidra",
+        "version": "12.1.4"
+      },
+      "parameters": {
+        "target_kind": "executable",
+        "target_format": "dos-mz",
+        "architecture": "x86",
+        "available_architectures": [
+          "x86"
+        ],
+        "import_mode": "ephemeral-source-immutable",
+        "annotation_policy": "atomic-function-entry-metadata-v1",
+        "load_image_observations": "source-mappings-entry-context-v2",
+        "function_body_evidence": "complete-inclusive-ranges-v1",
+        "function_references": "complete-body-and-entry-reference-manager-v2",
+        "location_resolution": "explicit-address-exact-entry-symbol-first-v3",
+        "instruction_flow_evidence": "decoded-return-pcode-v1",
+        "process_launch": "inspected-jvm-launch-support-v1",
+        "load_image_evidence": "independent-mz-mapping-relocations-v1",
+        "jump_table_evidence": "typed-case-default-blocks-v1",
+        "decompiler_jump_loads": true,
+        "loader": "MzLoader",
+        "language_id": "x86:LE:16:Real Mode",
+        "compiler_spec_id": "default",
+        "load_segment": "0x1000",
+        "address_coordinates": "linear-byte-offset",
+        "analyzer_preset": "ghidra-default"
+      },
+      "digest": "894e458d232de9bdeb2a5d661cd2b4791ee9e10f88d297423fc0c7553a7a66d8"
+    },
+    "predicate_type": "rea.analysis",
+    "operation": "xrefs",
+    "parameters": {
+      "address": "0x1858c"
+    },
+    "raw_result": [],
+    "normalized_result": [],
+    "confidence": "observed",
+    "authority": "shipped-artifact",
+    "environment": null,
+    "limitations": [
+      "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+      "The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.",
+      "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+      "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+      "The direct address list projects exact Ghidra references to one address but does not expose their kinds; procedure_references and analyze_function preserve available kind metadata.",
+      "Synthetic Ghidra entry-point references without actionable memory sources are omitted.",
+      "DOS MZ uses 16-bit x86 real mode with the Ghidra load segment 0x1000. Returned addresses are linear byte coordinates; they do not identify a unique segment:offset alias.",
+      "Static DOS analysis does not emulate BIOS, DOS interrupts, device ports, or self-modifying unpacking code. Packed targets require a separately identified unpacked artifact for original-program analysis; appended overlays are not the initialized load module."
+    ],
+    "locations": [],
+    "evidence_links": []
+  }
+]

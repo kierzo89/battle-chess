@@ -1,0 +1,1720 @@
+{
+  "classification": "independently supplied runtime library, zero authored-C credit",
+  "library_sha256": "7eabd615308e9a05de24f6e6e82e61a65f733eb64d12b5318d8b3ed569e389b9",
+  "archive_url": "https://miscdisks.pcjs.org/pcx86/lang/microsoft/c/5.00/MSC500-DISK4-INCLIBS.json",
+  "archive_sha256": "18a0c57eadf4eea0eb236a0e16f57019c6fd05789dfc52d857b84f6bf7edf58c",
+  "members": [
+    {
+      "name": "CRT0",
+      "member_sha256": "c8fa9ca0b70762defb91b280d9676eafda5fceb47475344937eb3f281c9a8705",
+      "library_offset": 16,
+      "segment": 1,
+      "segments": {
+        "1": [
+          0,
+          60038
+        ],
+        "3": [
+          23746,
+          18776
+        ]
+      },
+      "groups": {
+        "1": 23746
+      },
+      "externals": {
+        "__FF_MSGBANNER": [
+          0,
+          62576
+        ],
+        "__NMSG_WRITE": [
+          0,
+          63191
+        ],
+        "__cinit": [
+          0,
+          60218
+        ],
+        "__setenvp": [
+          0,
+          63046
+        ],
+        "__setargv": [
+          0,
+          62648
+        ],
+        "_main": [
+          0,
+          16
+        ],
+        "_exit": [
+          0,
+          60414
+        ],
+        "_end": [
+          23746,
+          52192
+        ],
+        "_edata": [
+          23746,
+          21196
+        ],
+        "__psp": [
+          23746,
+          18895
+        ],
+        "_environ": [
+          23746,
+          18928
+        ],
+        "___argv": [
+          23746,
+          18926
+        ],
+        "___argc": [
+          23746,
+          18924
+        ]
+      },
+      "placement_evidence": "rea_crt_startup_500.json",
+      "boundary": "complete OMF SEGDEF _TEXT length 179, not next-public truncation"
+    },
+    {
+      "name": "CHKSTK",
+      "member_sha256": "2d7c0c6a8b43ce8b533af02eaada3accee1842f90c7f690ca0a81f3c7005090b",
+      "library_offset": 3408,
+      "segment": 1,
+      "segments": {
+        "1": [
+          0,
+          60586
+        ],
+        "2": [
+          23746,
+          18944
+        ]
+      },
+      "groups": {
+        "1": 23746
+      },
+      "externals": {
+        "__amsg_exit": [
+          0,
+          60202
+        ]
+      },
+      "placement_evidence": "rea-runtime-chkstk-link.json",
+      "boundary": "complete OMF SEGDEF _TEXT length 22"
+    },
+    {
+      "name": "CRT0DAT",
+      "member_sha256": "7de3c7cc3fbe49972516b099306c89568daa34f6e46529b2c0ba79ba598952a5",
+      "library_offset": 880,
+      "segment": 1,
+      "segments": {
+        "1": [
+          0,
+          60218
+        ],
+        "3": [
+          23746,
+          18864
+        ],
+        "2": [
+          23746,
+          19368
+        ],
+        "4": [
+          23746,
+          19382
+        ],
+        "6": [
+          23746,
+          19382
+        ],
+        "7": [
+          23746,
+          19382
+        ],
+        "9": [
+          23746,
+          19382
+        ],
+        "10": [
+          23746,
+          21226
+        ],
+        "12": [
+          23746,
+          21226
+        ],
+        "13": [
+          23746,
+          19382
+        ],
+        "15": [
+          23746,
+          19382
+        ],
+        "16": [
+          23746,
+          19382
+        ],
+        "18": [
+          23746,
+          19382
+        ],
+        "19": [
+          23746,
+          19382
+        ],
+        "21": [
+          23746,
+          19382
+        ]
+      },
+      "groups": {
+        "1": 23746
+      },
+      "externals": {
+        "__cintDIV": [
+          0,
+          60187
+        ],
+        "__fptrap": [
+          0,
+          62608
+        ],
+        "__nullcheck": [
+          0,
+          62614
+        ]
+      },
+      "placement_evidence": "evidence/rea-runtime-more-crt0dat.json",
+      "boundary": "complete independently archived CODE SEGDEF with public at offsetzero",
+      "symbol": "__cinit",
+      "origin": 60218,
+      "size": 367
+    },
+    {
+      "name": "CRT0MSG",
+      "member_sha256": "aa1173169c482e928c1af1c76d22db58ad5dfb3ba80db29b8af1dcd11ad593c9",
+      "library_offset": 2672,
+      "segment": 5,
+      "segments": {
+        "5": [
+          0,
+          62576
+        ],
+        "6": [
+          23746,
+          18950
+        ]
+      },
+      "groups": {
+        "1": 23746
+      },
+      "externals": {
+        "__NMSG_WRITE": [
+          0,
+          63191
+        ]
+      },
+      "placement_evidence": "evidence/rea-runtime-more-crt0msg.json",
+      "boundary": "complete independently archived CODE SEGDEF with public at offsetzero",
+      "symbol": "__FF_MSGBANNER",
+      "origin": 62576,
+      "size": 32
+    },
+    {
+      "name": "CRT0FP",
+      "member_sha256": "4b5383e1c1af172aaeb3787d85e8d77aa00f5792698b67467344c3ef35fcf5f6",
+      "library_offset": 3136,
+      "segment": 1,
+      "segments": {
+        "1": [
+          0,
+          62608
+        ]
+      },
+      "groups": {
+        "1": 23746
+      },
+      "externals": {
+        "__amsg_exit": [
+          0,
+          60202
+        ]
+      },
+      "placement_evidence": "evidence/rea-runtime-more-crt0fp.json",
+      "boundary": "complete independently archived CODE SEGDEF with public at offsetzero",
+      "symbol": "__fptrap",
+      "origin": 62608,
+      "size": 6
+    },
+    {
+      "name": "CHKSUM",
+      "member_sha256": "65a0bfeed6d1bd43c30164567cbd0da9621e77c3fe50dbb91cf7f7a1735b48f8",
+      "library_offset": 3632,
+      "segment": 1,
+      "segments": {
+        "1": [
+          0,
+          62614
+        ]
+      },
+      "groups": {
+        "1": 23746
+      },
+      "externals": {
+        "__FF_MSGBANNER": [
+          0,
+          62576
+        ],
+        "__NMSG_WRITE": [
+          0,
+          63191
+        ]
+      },
+      "placement_evidence": "evidence/rea-runtime-more-chksum.json",
+      "boundary": "complete independently archived CODE SEGDEF with public at offsetzero",
+      "symbol": "__nullcheck",
+      "origin": 62614,
+      "size": 34
+    },
+    {
+      "name": "STDARGV",
+      "member_sha256": "13469d94af82bdf271dd13e225e4f728d71aa2270503549e5c3c52dd364d3a57",
+      "library_offset": 4064,
+      "segment": 1,
+      "segments": {
+        "1": [
+          0,
+          62648
+        ],
+        "2": [
+          23746,
+          18952
+        ]
+      },
+      "groups": {
+        "1": 23746
+      },
+      "externals": {
+        "__osmajor": [
+          23746,
+          18897
+        ],
+        "__psp": [
+          23746,
+          18895
+        ],
+        "__pgmptr": [
+          23746,
+          18930
+        ],
+        "___argc": [
+          23746,
+          18924
+        ],
+        "___argv": [
+          23746,
+          18926
+        ]
+      },
+      "placement_evidence": "evidence/rea-runtime-more-stdargv.json",
+      "boundary": "complete independently archived CODE SEGDEF with public at offsetzero",
+      "symbol": "__setargv",
+      "origin": 62648,
+      "size": 398
+    },
+    {
+      "name": "STDENVP",
+      "member_sha256": "19e6a65f9b6e19fa4358b3ea76900a41711fc67f48d3893d459f99e4451d7859",
+      "library_offset": 4720,
+      "segment": 1,
+      "segments": {
+        "1": [
+          0,
+          63046
+        ]
+      },
+      "groups": {
+        "1": 23746
+      },
+      "externals": {
+        "__psp": [
+          23746,
+          18895
+        ],
+        "__myalloc": [
+          0,
+          63776
+        ],
+        "_environ": [
+          23746,
+          18928
+        ]
+      },
+      "placement_evidence": "evidence/rea-runtime-more-stdenvp.json",
+      "boundary": "complete independently archived CODE SEGDEF with public at offsetzero",
+      "symbol": "__setenvp",
+      "origin": 63046,
+      "size": 102
+    },
+    {
+      "name": "NMSGHDR",
+      "member_sha256": "28d1d1ff35022ba5d23abb58a5077ccb2d6cfc3dbc6e0195514b43d20c543b8f",
+      "library_offset": 4992,
+      "segment": 1,
+      "segments": {
+        "1": [
+          0,
+          63148
+        ],
+        "3": [
+          23746,
+          20978
+        ]
+      },
+      "groups": {
+        "1": 23746
+      },
+      "externals": {},
+      "placement_evidence": "evidence/rea-runtime-more-nmsghdr.json",
+      "boundary": "complete independently archived CODE SEGDEF with public at offsetzero",
+      "symbol": "__NMSG_TEXT",
+      "origin": 63148,
+      "size": 84
+    },
+    {
+      "name": "STDALLOC",
+      "member_sha256": "b5c892d52ff99a4e9598053c6d93655193358ba111c74f863bbb23dbb02de6f3",
+      "library_offset": 5664,
+      "segment": 1,
+      "segments": {
+        "1": [
+          0,
+          63776
+        ]
+      },
+      "groups": {
+        "1": 23746
+      },
+      "externals": {
+        "__abrktb": [
+          23746,
+          18782
+        ],
+        "__asizds": [
+          23746,
+          18776
+        ],
+        "__psp": [
+          23746,
+          18895
+        ],
+        "__amsg_exit": [
+          0,
+          60202
+        ]
+      },
+      "placement_evidence": "evidence/rea-runtime-more-stdalloc.json",
+      "boundary": "complete independently archived CODE SEGDEF with public at offsetzero",
+      "symbol": "__myalloc",
+      "origin": 63776,
+      "size": 66
+    },
+    {
+      "name": "DOSRET",
+      "member_sha256": "325f3e97575a44afa635b9e906b6c9e715d3dd790b7be101a594d216283cb8a6",
+      "library_offset": 5936,
+      "segment": 1,
+      "segments": {
+        "1": [
+          0,
+          63232
+        ],
+        "2": [
+          23746,
+          18954
+        ]
+      },
+      "groups": {
+        "1": 23746
+      },
+      "externals": {
+        "__doserrno": [
+          23746,
+          18900
+        ],
+        "__osmajor": [
+          23746,
+          18897
+        ],
+        "_errno": [
+          23746,
+          18889
+        ]
+      },
+      "placement_evidence": "evidence/rea-runtime-more-dosret.json",
+      "boundary": "complete independently archived CODE SEGDEF with public at offsetzero",
+      "symbol": "__dosret0",
+      "origin": 63232,
+      "size": 84
+    },
+    {
+      "name": "CLOSE",
+      "member_sha256": "92e47f2f3f3c1b4ef82e36c13d538477c6a469fa690bde31bd333f5d88187d0e",
+      "library_offset": 24016,
+      "segment": 1,
+      "segments": {
+        "1": [
+          0,
+          60608
+        ]
+      },
+      "groups": {
+        "1": 23746
+      },
+      "externals": {
+        "__nfile": [
+          23746,
+          18902
+        ],
+        "__osfile": [
+          23746,
+          18904
+        ],
+        "__dosret0": [
+          0,
+          63232
+        ]
+      },
+      "placement_evidence": "evidence/rea-runtime-more-close.json",
+      "boundary": "complete independently archived CODE SEGDEF with public at offsetzero",
+      "symbol": "_close",
+      "origin": 60608,
+      "size": 32
+    },
+    {
+      "name": "LSEEK",
+      "member_sha256": "2687f1969c8798bab2eaa33a5ff6c3df8a382019df94f3981cdd165c5172cabf",
+      "library_offset": 24224,
+      "segment": 1,
+      "segments": {
+        "1": [
+          0,
+          60640
+        ]
+      },
+      "groups": {
+        "1": 23746
+      },
+      "externals": {
+        "__nfile": [
+          23746,
+          18902
+        ],
+        "__osfile": [
+          23746,
+          18904
+        ],
+        "__dosretax": [
+          0,
+          63251
+        ]
+      },
+      "placement_evidence": "evidence/rea-runtime-more-lseek.json",
+      "boundary": "complete independently archived CODE SEGDEF with public at offsetzero",
+      "symbol": "_lseek",
+      "origin": 60640,
+      "size": 122
+    },
+    {
+      "name": "OPEN",
+      "member_sha256": "2e5c48ba7f1ced5d7067f0a4e3653381f13e9075c371f1db3378a6e25d5be87b",
+      "library_offset": 24512,
+      "segment": 1,
+      "segments": {
+        "1": [
+          0,
+          60762
+        ]
+      },
+      "groups": {
+        "1": 23746
+      },
+      "externals": {
+        "__fmode": [
+          23746,
+          19232
+        ],
+        "__dosretax": [
+          0,
+          63251
+        ],
+        "__nfile": [
+          23746,
+          18902
+        ],
+        "__osfile": [
+          23746,
+          18904
+        ],
+        "__umaskval": [
+          23746,
+          18891
+        ]
+      },
+      "placement_evidence": "evidence/rea-runtime-more-open.json",
+      "boundary": "complete independently archived CODE SEGDEF with public at offsetzero",
+      "symbol": "_open",
+      "origin": 60762,
+      "size": 420
+    },
+    {
+      "name": "READ",
+      "member_sha256": "113ea90190af72164b25a355784454ae43e55662ca80277ee5d596a3cf10a64b",
+      "library_offset": 25232,
+      "segment": 1,
+      "segments": {
+        "1": [
+          0,
+          61182
+        ]
+      },
+      "groups": {
+        "1": 23746
+      },
+      "externals": {
+        "__nfile": [
+          23746,
+          18902
+        ],
+        "__osfile": [
+          23746,
+          18904
+        ],
+        "__dosretax": [
+          0,
+          63251
+        ]
+      },
+      "placement_evidence": "evidence/rea-runtime-more-read.json",
+      "boundary": "complete independently archived CODE SEGDEF with public at offsetzero",
+      "symbol": "_read",
+      "origin": 61182,
+      "size": 219
+    },
+    {
+      "name": "WRITE",
+      "member_sha256": "fb9521918b65eb68dc992d0f327ca1951b48b12693b0aff1d57a0bf8cc858946",
+      "library_offset": 25648,
+      "segment": 1,
+      "segments": {
+        "1": [
+          0,
+          61402
+        ]
+      },
+      "groups": {
+        "1": 23746
+      },
+      "externals": {
+        "__nfile": [
+          23746,
+          18902
+        ],
+        "__dosretax": [
+          0,
+          63251
+        ],
+        "__osfile": [
+          23746,
+          18904
+        ],
+        "_stackavail": [
+          0,
+          63316
+        ],
+        "__amsg_exit": [
+          0,
+          60202
+        ]
+      },
+      "placement_evidence": "evidence/rea-runtime-more-write.json",
+      "boundary": "complete independently archived CODE SEGDEF with public at offsetzero",
+      "symbol": "_write",
+      "origin": 61402,
+      "size": 296
+    },
+    {
+      "name": "STACKAVAIL",
+      "member_sha256": "edf3891155fc46c903228dc82e05edcfc41ddd00d61e6d1b0d14d642382dc60f",
+      "library_offset": 26192,
+      "segment": 1,
+      "segments": {
+        "1": [
+          0,
+          63316
+        ]
+      },
+      "groups": {
+        "1": 23746
+      },
+      "externals": {
+        "STKHQQ": [
+          23746,
+          18944
+        ]
+      },
+      "placement_evidence": "evidence/rea-runtime-more-stackavail.json",
+      "boundary": "complete independently archived CODE SEGDEF with public at offsetzero",
+      "symbol": "_stackavail",
+      "origin": 63316,
+      "size": 18
+    },
+    {
+      "name": "STRCAT",
+      "member_sha256": "1ed7ba5613cd124ed13b9e3f2e9d5ee871297a8e367f54923a7cf0b233e605a9",
+      "library_offset": 28944,
+      "segment": 1,
+      "segments": {
+        "1": [
+          0,
+          61698
+        ]
+      },
+      "groups": {
+        "1": 23746
+      },
+      "externals": {},
+      "placement_evidence": "evidence/rea-runtime-more-strcat.json",
+      "boundary": "complete independently archived CODE SEGDEF with public at offsetzero",
+      "symbol": "_strcat",
+      "origin": 61698,
+      "size": 63
+    },
+    {
+      "name": "STRCPY",
+      "member_sha256": "bbcd2045bc31600a7cd1354bcd301b65906ce552da0a938fb868bd4fe07a92ed",
+      "library_offset": 29136,
+      "segment": 1,
+      "segments": {
+        "1": [
+          0,
+          61762
+        ]
+      },
+      "groups": {
+        "1": 23746
+      },
+      "externals": {},
+      "placement_evidence": "evidence/rea-runtime-more-strcpy.json",
+      "boundary": "complete independently archived CODE SEGDEF with public at offsetzero",
+      "symbol": "_strcpy",
+      "origin": 61762,
+      "size": 50
+    },
+    {
+      "name": "STRCMP",
+      "member_sha256": "2d58362aafec5ab7d7249d69b8cf3505a6383319b37419b904c895eaaa288984",
+      "library_offset": 29312,
+      "segment": 1,
+      "segments": {
+        "1": [
+          0,
+          61812
+        ]
+      },
+      "groups": {
+        "1": 23746
+      },
+      "externals": {},
+      "placement_evidence": "evidence/rea-runtime-more-strcmp.json",
+      "boundary": "complete independently archived CODE SEGDEF with public at offsetzero",
+      "symbol": "_strcmp",
+      "origin": 61812,
+      "size": 43
+    },
+    {
+      "name": "STRLEN",
+      "member_sha256": "d1278b2e62b873b409f010611e83f4e7db6774ba2ebbacfc8c3a4def17338075",
+      "library_offset": 29472,
+      "segment": 1,
+      "segments": {
+        "1": [
+          0,
+          61856
+        ]
+      },
+      "groups": {
+        "1": 23746
+      },
+      "externals": {},
+      "placement_evidence": "evidence/rea-runtime-more-strlen.json",
+      "boundary": "complete independently archived CODE SEGDEF with public at offsetzero",
+      "symbol": "_strlen",
+      "origin": 61856,
+      "size": 27
+    },
+    {
+      "name": "STRNCPY",
+      "member_sha256": "567b557723a1d7f5be860f9d00aacca9c29ba0c7c9f1e6a9eb466c304c46aebb",
+      "library_offset": 29792,
+      "segment": 1,
+      "segments": {
+        "1": [
+          0,
+          64230
+        ]
+      },
+      "groups": {
+        "1": 23746
+      },
+      "externals": {},
+      "placement_evidence": "evidence/rea-runtime-more-strncpy.json",
+      "boundary": "complete independently archived CODE SEGDEF with public at offsetzero",
+      "symbol": "_strncpy",
+      "origin": 64230,
+      "size": 40
+    },
+    {
+      "name": "STRNCMP",
+      "member_sha256": "7fb641d5b87a03650014f0c36e31dc76c808d56ae478117eef8df7fe03d59d45",
+      "library_offset": 29952,
+      "segment": 1,
+      "segments": {
+        "1": [
+          0,
+          64360
+        ]
+      },
+      "groups": {
+        "1": 23746
+      },
+      "externals": {},
+      "placement_evidence": "evidence/rea-runtime-more-strncmp.json",
+      "boundary": "complete independently archived CODE SEGDEF with public at offsetzero",
+      "symbol": "_strncmp",
+      "origin": 64360,
+      "size": 58
+    },
+    {
+      "name": "ATOX",
+      "member_sha256": "73f1b2b7b88a889636670ec23e0fbf93d440488d32f02ca50714ab85a12f6da6",
+      "library_offset": 30736,
+      "segment": 1,
+      "segments": {
+        "1": [
+          0,
+          64418
+        ]
+      },
+      "groups": {
+        "1": 23746
+      },
+      "externals": {},
+      "placement_evidence": "evidence/rea-runtime-more-atox.json",
+      "boundary": "complete independently archived CODE SEGDEF with public at offsetzero",
+      "symbol": "__catox",
+      "origin": 64418,
+      "size": 84
+    },
+    {
+      "name": "tolower.c",
+      "member_sha256": "5a41ef584abf00e919574da79faf40261611788edf8390afebee6ffc7179cabb",
+      "library_offset": 31776,
+      "segment": 1,
+      "segments": {
+        "1": [
+          0,
+          61884
+        ]
+      },
+      "groups": {
+        "1": 23746
+      },
+      "externals": {
+        "__ctype": [
+          23746,
+          18974
+        ]
+      },
+      "placement_evidence": "evidence/rea-runtime-more-tolower_c.json",
+      "boundary": "complete independently archived CODE SEGDEF with public at offsetzero",
+      "symbol": "_tolower",
+      "origin": 61884,
+      "size": 26
+    },
+    {
+      "name": "getenv.c",
+      "member_sha256": "6e18b59def18e6fc0bd8b993d5b0b3606d9d0b7a6ca336fc104d3382ac3c1cb5",
+      "library_offset": 33264,
+      "segment": 1,
+      "segments": {
+        "1": [
+          0,
+          64274
+        ]
+      },
+      "groups": {
+        "1": 23746
+      },
+      "externals": {
+        "_strncmp": [
+          0,
+          64360
+        ],
+        "_strlen": [
+          0,
+          61856
+        ],
+        "_environ": [
+          23746,
+          18928
+        ]
+      },
+      "placement_evidence": "evidence/rea-runtime-more-getenv_c.json",
+      "boundary": "complete independently archived CODE SEGDEF with public at offsetzero",
+      "symbol": "_getenv",
+      "origin": 64274,
+      "size": 86
+    },
+    {
+      "name": "TIME",
+      "member_sha256": "85fbeb8410fc076c846e68957e11838cad09192bd0f2dca8bfff0678e402d46c",
+      "library_offset": 70944,
+      "segment": 1,
+      "segments": {
+        "1": [
+          0,
+          61956
+        ]
+      },
+      "groups": {
+        "1": 23746
+      },
+      "externals": {
+        "__dtoxtime": [
+          0,
+          63334
+        ]
+      },
+      "placement_evidence": "evidence/rea-runtime-more-time.json",
+      "boundary": "complete independently archived CODE SEGDEF with public at offsetzero",
+      "symbol": "_time",
+      "origin": 61956,
+      "size": 87
+    },
+    {
+      "name": "tzset.c",
+      "member_sha256": "f727405207a213d3dedd9b1e76b520a16737222c9bedf41b0db708a1a69346f9",
+      "library_offset": 71168,
+      "segment": 1,
+      "segments": {
+        "1": [
+          0,
+          63842
+        ],
+        "2": [
+          23746,
+          19286
+        ]
+      },
+      "groups": {
+        "1": 23746
+      },
+      "externals": {
+        "__days": [
+          23746,
+          19260
+        ],
+        "_daylight": [
+          23746,
+          19302
+        ],
+        "_tzname": [
+          23746,
+          19304
+        ],
+        "_strncpy": [
+          0,
+          64230
+        ],
+        "__ctype": [
+          23746,
+          18974
+        ],
+        "_timezone": [
+          23746,
+          19298
+        ],
+        "__aNlmul": [
+          0,
+          62254
+        ],
+        "_atol": [
+          0,
+          64270
+        ],
+        "_getenv": [
+          0,
+          64274
+        ]
+      },
+      "placement_evidence": "evidence/rea-runtime-more-tzset_c.json",
+      "boundary": "complete independently archived CODE SEGDEF with public at offsetzero",
+      "symbol": "_tzset",
+      "origin": 63842,
+      "size": 388
+    },
+    {
+      "name": "statconv.c",
+      "member_sha256": "2bdb47930fae2ca5320553c5f004bd4b75e0618f82cec212dcf3df033a569f57",
+      "library_offset": 72864,
+      "segment": 1,
+      "segments": {
+        "1": [
+          0,
+          63334
+        ]
+      },
+      "groups": {
+        "1": 23746
+      },
+      "externals": {
+        "__isindst": [
+          0,
+          64018
+        ],
+        "_daylight": [
+          23746,
+          19302
+        ],
+        "_timezone": [
+          23746,
+          19298
+        ],
+        "_tzset": [
+          0,
+          63842
+        ],
+        "__aNlmul": [
+          0,
+          62254
+        ],
+        "__days": [
+          23746,
+          19260
+        ]
+      },
+      "placement_evidence": "evidence/rea-runtime-more-statconv_c.json",
+      "boundary": "complete independently archived CODE SEGDEF with public at offsetzero",
+      "symbol": "__dtoxtime",
+      "origin": 63334,
+      "size": 278
+    },
+    {
+      "name": "MEMCMP",
+      "member_sha256": "c61cc9c06acb302c692c824d1050f4f0f656f80168261e51634c739cf50c456a",
+      "library_offset": 78528,
+      "segment": 1,
+      "segments": {
+        "1": [
+          0,
+          62044
+        ]
+      },
+      "groups": {
+        "1": 23746
+      },
+      "externals": {},
+      "placement_evidence": "evidence/rea-runtime-more-memcmp.json",
+      "boundary": "complete independently archived CODE SEGDEF with public at offsetzero",
+      "symbol": "_memcmp",
+      "origin": 62044,
+      "size": 39
+    },
+    {
+      "name": "MEMCPY",
+      "member_sha256": "0298bb234789aa0b1005c2d69bf0dfa960aef45b189bdada3c447b7a7e464cba",
+      "library_offset": 78688,
+      "segment": 1,
+      "segments": {
+        "1": [
+          0,
+          62084
+        ]
+      },
+      "groups": {
+        "1": 23746
+      },
+      "externals": {},
+      "placement_evidence": "evidence/rea-runtime-more-memcpy.json",
+      "boundary": "complete independently archived CODE SEGDEF with public at offsetzero",
+      "symbol": "_memcpy",
+      "origin": 62084,
+      "size": 44
+    },
+    {
+      "name": "MEMSET",
+      "member_sha256": "c58d9e60de1de620533974c1aee8d7d41cb208bddacedede0b3378cec51c0937",
+      "library_offset": 78848,
+      "segment": 1,
+      "segments": {
+        "1": [
+          0,
+          62128
+        ]
+      },
+      "groups": {
+        "1": 23746
+      },
+      "externals": {},
+      "placement_evidence": "evidence/rea-runtime-more-memset.json",
+      "boundary": "complete independently archived CODE SEGDEF with public at offsetzero",
+      "symbol": "_memset",
+      "origin": 62128,
+      "size": 45
+    },
+    {
+      "name": "rand.c",
+      "member_sha256": "5ae21fb7de0c4ccb6a302b90111e82ee1e18d6bf08b618a1771a55dbb2fc8c0b",
+      "library_offset": 84960,
+      "segment": 1,
+      "segments": {
+        "1": [
+          0,
+          62174
+        ],
+        "2": [
+          23746,
+          18946
+        ]
+      },
+      "groups": {
+        "1": 23746
+      },
+      "externals": {
+        "__aNlmul": [
+          0,
+          62254
+        ]
+      },
+      "placement_evidence": "evidence/rea-runtime-more-rand_c.json",
+      "boundary": "complete independently archived CODE SEGDEF with public at offsetzero",
+      "symbol": "_srand",
+      "origin": 62174,
+      "size": 56
+    },
+    {
+      "name": "B_EQUIPL",
+      "member_sha256": "a057023a767a97a80fba9c0dc6a45d6a410efecd1933d0b3c8f83c9829efcb0e",
+      "library_offset": 108608,
+      "segment": 1,
+      "segments": {
+        "1": [
+          0,
+          62230
+        ]
+      },
+      "groups": {
+        "1": 23746
+      },
+      "externals": {},
+      "placement_evidence": "evidence/rea-runtime-more-b_equipl.json",
+      "boundary": "complete independently archived CODE SEGDEF with public at offsetzero",
+      "symbol": "__bios_equiplist",
+      "origin": 62230,
+      "size": 3
+    },
+    {
+      "name": "GETDRIVE",
+      "member_sha256": "e67e0921c3e6c7bd97ea0c4162579fd3406ec37a3886feb60f061f20ecf231fb",
+      "library_offset": 112592,
+      "segment": 1,
+      "segments": {
+        "1": [
+          0,
+          62234
+        ]
+      },
+      "groups": {
+        "1": 23746
+      },
+      "externals": {},
+      "placement_evidence": "evidence/rea-runtime-more-getdrive.json",
+      "boundary": "complete independently archived CODE SEGDEF with public at offsetzero",
+      "symbol": "__dos_getdrive",
+      "origin": 62234,
+      "size": 19
+    },
+    {
+      "name": "CRT0MSG",
+      "member_sha256": "aa1173169c482e928c1af1c76d22db58ad5dfb3ba80db29b8af1dcd11ad593c9",
+      "library_offset": 2672,
+      "segment": 6,
+      "segments": {
+        "5": [
+          0,
+          62576
+        ],
+        "6": [
+          23746,
+          18950
+        ]
+      },
+      "groups": {
+        "1": 23746
+      },
+      "externals": {
+        "__NMSG_WRITE": [
+          0,
+          63191
+        ]
+      },
+      "origin": 398886,
+      "size": 2,
+      "segment_name": "_DATA",
+      "class_name": "DATA",
+      "publics": {
+        "__adbgmsg": 0
+      },
+      "symbol": "__adbgmsg",
+      "rea_evidence": "evidence/rea-runtime-data-crt0msg-s6.json",
+      "reference_region": "exepack-expanded",
+      "id": "CRT0MSG_DATA_6"
+    },
+    {
+      "name": "CHKSTK",
+      "member_sha256": "2d7c0c6a8b43ce8b533af02eaada3accee1842f90c7f690ca0a81f3c7005090b",
+      "library_offset": 3408,
+      "segment": 2,
+      "segments": {
+        "1": [
+          0,
+          60586
+        ],
+        "2": [
+          23746,
+          18944
+        ]
+      },
+      "groups": {
+        "1": 23746
+      },
+      "externals": {
+        "_end": [
+          23746,
+          52192
+        ],
+        "__amsg_exit": [
+          0,
+          60202
+        ]
+      },
+      "origin": 398880,
+      "size": 2,
+      "segment_name": "_DATA",
+      "class_name": "DATA",
+      "publics": {
+        "STKHQQ": 0
+      },
+      "symbol": "STKHQQ",
+      "rea_evidence": "evidence/rea-runtime-data-chkstk-s2.json",
+      "reference_region": "exepack-expanded",
+      "id": "CHKSTK_DATA_2"
+    },
+    {
+      "name": "STDARGV",
+      "member_sha256": "13469d94af82bdf271dd13e225e4f728d71aa2270503549e5c3c52dd364d3a57",
+      "library_offset": 4064,
+      "segment": 2,
+      "segments": {
+        "1": [
+          0,
+          62648
+        ],
+        "2": [
+          23746,
+          18952
+        ]
+      },
+      "groups": {
+        "1": 23746
+      },
+      "externals": {
+        "__osmajor": [
+          23746,
+          18897
+        ],
+        "__pgmptr": [
+          23746,
+          18930
+        ],
+        "__psp": [
+          23746,
+          18895
+        ],
+        "___argc": [
+          23746,
+          18924
+        ],
+        "___argv": [
+          23746,
+          18926
+        ]
+      },
+      "origin": 398888,
+      "size": 2,
+      "segment_name": "_DATA",
+      "class_name": "DATA",
+      "publics": {},
+      "symbol": null,
+      "rea_evidence": "evidence/rea-runtime-data-stdargv-s2.json",
+      "reference_region": "exepack-expanded",
+      "id": "STDARGV_DATA_2"
+    },
+    {
+      "name": "NMSGHDR",
+      "member_sha256": "28d1d1ff35022ba5d23abb58a5077ccb2d6cfc3dbc6e0195514b43d20c543b8f",
+      "library_offset": 4992,
+      "segment": 3,
+      "segments": {
+        "1": [
+          0,
+          63148
+        ],
+        "3": [
+          23746,
+          20978
+        ]
+      },
+      "groups": {
+        "1": 23746
+      },
+      "externals": {},
+      "origin": 400914,
+      "size": 8,
+      "segment_name": "HDR",
+      "class_name": "MSG",
+      "publics": {},
+      "symbol": null,
+      "rea_evidence": "evidence/rea-runtime-data-nmsghdr-s3.json",
+      "reference_region": "exepack-expanded",
+      "id": "NMSGHDR_DATA_3"
+    },
+    {
+      "name": "DOSRET",
+      "member_sha256": "325f3e97575a44afa635b9e906b6c9e715d3dd790b7be101a594d216283cb8a6",
+      "library_offset": 5936,
+      "segment": 2,
+      "segments": {
+        "1": [
+          0,
+          63232
+        ],
+        "2": [
+          23746,
+          18954
+        ]
+      },
+      "groups": {
+        "1": 23746
+      },
+      "externals": {
+        "_errno": [
+          23746,
+          18889
+        ],
+        "__doserrno": [
+          23746,
+          18900
+        ],
+        "__osmajor": [
+          23746,
+          18897
+        ]
+      },
+      "origin": 398890,
+      "size": 20,
+      "segment_name": "_DATA",
+      "class_name": "DATA",
+      "publics": {},
+      "symbol": null,
+      "rea_evidence": "evidence/rea-runtime-data-dosret-s2.json",
+      "reference_region": "exepack-expanded",
+      "id": "DOSRET_DATA_2"
+    },
+    {
+      "name": "days.c",
+      "member_sha256": "28597e45b60100eb2cf60184e0e07ca8f74d0dfc232306f89e386a2039e1e748",
+      "library_offset": 68448,
+      "segment": 2,
+      "segments": {
+        "2": [
+          23746,
+          19234
+        ]
+      },
+      "groups": {
+        "1": 23746
+      },
+      "externals": {},
+      "origin": 399170,
+      "size": 52,
+      "segment_name": "_DATA",
+      "class_name": "DATA",
+      "publics": {
+        "__days": 26,
+        "__lpdays": 0
+      },
+      "symbol": "__lpdays",
+      "rea_evidence": "evidence/rea-runtime-data-days_c-s2.json",
+      "reference_region": "exepack-expanded",
+      "id": "days.c_DATA_2"
+    },
+    {
+      "name": "tzset.c",
+      "member_sha256": "f727405207a213d3dedd9b1e76b520a16737222c9bedf41b0db708a1a69346f9",
+      "library_offset": 71168,
+      "segment": 2,
+      "segments": {
+        "1": [
+          0,
+          63842
+        ],
+        "2": [
+          23746,
+          19286
+        ]
+      },
+      "groups": {
+        "1": 23746
+      },
+      "externals": {
+        "__days": [
+          23746,
+          19260
+        ],
+        "__isindst": [
+          0,
+          64018
+        ],
+        "_strncpy": [
+          0,
+          64230
+        ],
+        "_atol": [
+          0,
+          64270
+        ],
+        "__aNlmul": [
+          0,
+          62254
+        ],
+        "_getenv": [
+          0,
+          64274
+        ],
+        "__ctype": [
+          23746,
+          18974
+        ],
+        "_daylight": [
+          23746,
+          19302
+        ],
+        "_timezone": [
+          23746,
+          19298
+        ],
+        "_tzname": [
+          23746,
+          19304
+        ],
+        "_tzset": [
+          0,
+          63842
+        ]
+      },
+      "origin": 399222,
+      "size": 3,
+      "segment_name": "_DATA",
+      "class_name": "DATA",
+      "publics": {},
+      "symbol": null,
+      "rea_evidence": "evidence/rea-runtime-data-tzset_c-s2.json",
+      "reference_region": "exepack-expanded",
+      "id": "tzset.c_DATA_2"
+    },
+    {
+      "name": "timeset.c",
+      "member_sha256": "7505fc8ccd03d0e42a2fbf19f21f2ad7908ff07fa8a96d436926aa47c870f70d",
+      "library_offset": 71968,
+      "segment": 2,
+      "segments": {
+        "2": [
+          23746,
+          19290
+        ]
+      },
+      "groups": {
+        "1": 23746
+      },
+      "externals": {},
+      "origin": 399226,
+      "size": 77,
+      "segment_name": "_DATA",
+      "class_name": "DATA",
+      "publics": {
+        "___mnames": 40,
+        "_daylight": 12,
+        "_timezone": 8,
+        "_tzname": 14,
+        "___dnames": 18
+      },
+      "symbol": null,
+      "rea_evidence": "evidence/rea-runtime-data-timeset_c-s2.json",
+      "reference_region": "exepack-expanded",
+      "id": "timeset.c_DATA_2"
+    },
+    {
+      "name": "rand.c",
+      "member_sha256": "5ae21fb7de0c4ccb6a302b90111e82ee1e18d6bf08b618a1771a55dbb2fc8c0b",
+      "library_offset": 84960,
+      "segment": 2,
+      "segments": {
+        "1": [
+          0,
+          62174
+        ],
+        "2": [
+          23746,
+          18946
+        ]
+      },
+      "groups": {
+        "1": 23746
+      },
+      "externals": {
+        "__aNlmul": [
+          0,
+          62254
+        ],
+        "_srand": [
+          0,
+          62174
+        ],
+        "_rand": [
+          0,
+          62192
+        ]
+      },
+      "origin": 398882,
+      "size": 4,
+      "segment_name": "_DATA",
+      "class_name": "DATA",
+      "publics": {},
+      "symbol": null,
+      "rea_evidence": "evidence/rea-runtime-data-rand_c-s2.json",
+      "reference_region": "exepack-expanded",
+      "id": "rand.c_DATA_2"
+    },
+    {
+      "name": "CRT0DAT",
+      "member_sha256": "7de3c7cc3fbe49972516b099306c89568daa34f6e46529b2c0ba79ba598952a5",
+      "library_offset": 880,
+      "segment": 3,
+      "segments": {
+        "1": [
+          0,
+          60218
+        ],
+        "3": [
+          23746,
+          18864
+        ],
+        "2": [
+          23746,
+          19368
+        ],
+        "4": [
+          23746,
+          19382
+        ],
+        "6": [
+          23746,
+          19382
+        ],
+        "7": [
+          23746,
+          19382
+        ],
+        "9": [
+          23746,
+          19382
+        ],
+        "10": [
+          23746,
+          21226
+        ],
+        "12": [
+          23746,
+          21226
+        ],
+        "13": [
+          23746,
+          19382
+        ],
+        "15": [
+          23746,
+          19382
+        ],
+        "16": [
+          23746,
+          19382
+        ],
+        "18": [
+          23746,
+          19382
+        ],
+        "19": [
+          23746,
+          19382
+        ],
+        "21": [
+          23746,
+          19382
+        ]
+      },
+      "groups": {
+        "1": 23746
+      },
+      "externals": {
+        "__cintDIV": [
+          0,
+          60187
+        ],
+        "__fptrap": [
+          0,
+          62608
+        ],
+        "__nullcheck": [
+          0,
+          62614
+        ]
+      },
+      "placement_evidence": "build/runtime-data-mz61614-investigation/rea-crt0dat80.json",
+      "boundary": "Complete authentic initialized DATA SEGDEF80, genuine LEDATA/LIDATA coverage, no holes or source object edits",
+      "origin": 398800,
+      "size": 80,
+      "id": "CRT0DAT_DATA_3",
+      "class_name": "DATA",
+      "segment_name": "_DATA",
+      "publics": {
+        "_environ": 64,
+        "_errno": 25,
+        "__acfinfo": 0,
+        "__aintdiv": 13,
+        "__child": 72,
+        "__doserrno": 36,
+        "__dosvermajor": 33,
+        "__dosverminor": 34,
+        "__fac": 17,
+        "__intno": 75,
+        "__nfile": 38,
+        "__oserr": 36,
+        "__osfile": 40,
+        "__osmajor": 33,
+        "__osminor": 34,
+        "__osmode": 35,
+        "__osversion": 33,
+        "__ovlflag": 74,
+        "__ovlvec": 76,
+        "__pgmptr": 66,
+        "__psp": 31,
+        "__pspadr": 29,
+        "__umaskval": 27,
+        "___argc": 60,
+        "___argv": 62
+      },
+      "initialized_record_policy": "omf86-lidata16-no-fixups-v1"
+    },
+    {
+      "name": "ATOL",
+      "member_sha256": "714abf837bdc9b19c076146852b1df5bf00d4a887221517b868dde31072e9fdf",
+      "library_offset": 30272,
+      "segment": 1,
+      "segments": {
+        "1": [
+          0,
+          64270
+        ],
+        "2": [
+          23746,
+          0
+        ]
+      },
+      "groups": {
+        "1": 23746
+      },
+      "externals": {
+        "__catox": [
+          0,
+          64418
+        ]
+      },
+      "placement_evidence": "evidence/runtime4-authentic/ATOL-read.json",
+      "boundary": "Whole genuine CODE3 terminal near JMP; real typed external __catox nativeFBA2; zero MZ"
+    },
+    {
+      "name": "CRT0",
+      "member_sha256": "c8fa9ca0b70762defb91b280d9676eafda5fceb47475344937eb3f281c9a8705",
+      "library_offset": 16,
+      "segment": 3,
+      "segments": {
+        "1": [
+          0,
+          60038
+        ],
+        "3": [
+          23746,
+          18776
+        ]
+      },
+      "groups": {
+        "1": 23746
+      },
+      "externals": {
+        "__exit": [
+          0,
+          60437
+        ]
+      },
+      "placement_evidence": "evidence/rea-runtime-data-link.json",
+      "boundary": "Complete authentic CRT0 DATA88, genuine raw12 plus actual same-run fullLIB LINK FILEreservation76; exact deferred-policy callback only.",
+      "id": "CRT0_DATA_3",
+      "origin": 398712,
+      "size": 88,
+      "class_name": "DATA",
+      "segment_name": "_DATA",
+      "publics": {
+        "__abrkp": 86,
+        "__abrktb": 6,
+        "__abrktbe": 86,
+        "__aexit_rtn": 4,
+        "__asizds": 0,
+        "__atopsp": 2
+      },
+      "authentic_link_reservation_policy": "crt0-data88-literal12-reservation76-deferred-v2"
+    }
+  ],
+  "schema_version": 1,
+  "library_name": "SLIBC.LIB",
+  "library_size": 129473,
+  "archive_name": "MSC500-DISK4-INCLIBS.json",
+  "destination": "toolchains/runtime500"
+}

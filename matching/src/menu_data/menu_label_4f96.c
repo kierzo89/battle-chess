@@ -1,0 +1,2 @@
+/* Complete NUL-terminated menu label, DS4F96; adjacent alignment is not part of this array. */
+char menu_label_4f96[] = " 3D Board";

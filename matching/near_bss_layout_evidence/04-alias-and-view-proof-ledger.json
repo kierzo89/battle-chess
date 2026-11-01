@@ -1,0 +1,3461 @@
+{
+  "all190_labels": [
+    {
+      "symbol": "_castle_owner",
+      "native_DS": 21200,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "castle-dialog-event-common",
+      "native_interval": [
+        21200,
+        21202
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_castle_owner"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_dialog_selected",
+      "native_DS": 21202,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "dialog-selection-common",
+      "native_interval": [
+        21202,
+        21204
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_dialog_selected"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_saved_name_count_52d4",
+      "native_DS": 21204,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "dialog-selection-common",
+      "native_interval": [
+        21204,
+        21206
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_saved_name_count_52d4"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_dialog_event",
+      "native_DS": 21206,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 20,
+      "source_common_provider": "castle-dialog-event-common",
+      "native_interval": [
+        21206,
+        21226
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_dialog_event"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_commands",
+      "native_DS": 21232,
+      "role": "native_machine_address_view",
+      "logical_view_size": null,
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-near-BSS499-physical-bank-review/current499-BSS-fields-native-width-ledger.json",
+        "sha256": "c9bebb6b035f8d6ba551b0f21ccf25473ee98f33b23d9902b8919edfb5b592ad",
+        "entry_symbol": "_commands",
+        "matched_CODE_fields": 10,
+        "native_DATA_pointer_fields": 0,
+        "direct_original_instruction_fields": 0,
+        "held_CODE_fields": 0
+      },
+      "observed_native_memory_widths": [
+        1
+      ],
+      "address_only_not_pointee_capacity": false,
+      "all_original_uses_lifetimes_or_historical_C_identity_proven": false
+    },
+    {
+      "symbol": "_event_context",
+      "native_DS": 21488,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "event-pointer-common",
+      "native_interval": [
+        21488,
+        21490
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_event_context"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_requested_limit",
+      "native_DS": 21490,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 4,
+      "source_common_provider": "requested-limit-common",
+      "native_interval": [
+        21490,
+        21494
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_requested_limit"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_first_score",
+      "native_DS": 21494,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "search-word-state-common",
+      "native_interval": [
+        21494,
+        21496
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_first_score"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_asset_table_53f8",
+      "native_DS": 21496,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "independent-control-cells15-common",
+      "native_interval": [
+        21496,
+        21498
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_asset_table_53f8"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_menu_positions",
+      "native_DS": 21498,
+      "role": "native_machine_address_view",
+      "logical_view_size": null,
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-near-BSS499-physical-bank-review/current499-BSS-fields-native-width-ledger.json",
+        "sha256": "c9bebb6b035f8d6ba551b0f21ccf25473ee98f33b23d9902b8919edfb5b592ad",
+        "entry_symbol": "_menu_positions",
+        "matched_CODE_fields": 7,
+        "native_DATA_pointer_fields": 0,
+        "direct_original_instruction_fields": 0,
+        "held_CODE_fields": 1
+      },
+      "observed_native_memory_widths": [
+        2
+      ],
+      "address_only_not_pointee_capacity": false,
+      "all_original_uses_lifetimes_or_historical_C_identity_proven": false
+    },
+    {
+      "symbol": "_rays",
+      "native_DS": 21508,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 956,
+      "source_common_provider": "rays239-common",
+      "native_interval": [
+        21508,
+        22464
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_rays"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_pawn_material",
+      "native_DS": 22464,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "evaluation-control-common",
+      "native_interval": [
+        22464,
+        22466
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_pawn_material"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_search_options",
+      "native_DS": 22466,
+      "role": "native_machine_address_view",
+      "logical_view_size": null,
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-near-BSS499-physical-bank-review/current499-BSS-fields-native-width-ledger.json",
+        "sha256": "c9bebb6b035f8d6ba551b0f21ccf25473ee98f33b23d9902b8919edfb5b592ad",
+        "entry_symbol": "_search_options",
+        "matched_CODE_fields": 2,
+        "native_DATA_pointer_fields": 0,
+        "direct_original_instruction_fields": 0,
+        "held_CODE_fields": 4
+      },
+      "observed_native_memory_widths": [],
+      "address_only_not_pointee_capacity": false,
+      "all_original_uses_lifetimes_or_historical_C_identity_proven": false
+    },
+    {
+      "symbol": "_temporary",
+      "native_DS": 22472,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "side-history-common",
+      "native_interval": [
+        22472,
+        22474
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_temporary"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_state_57cc",
+      "native_DS": 22476,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "turn-phase-common",
+      "native_interval": [
+        22476,
+        22478
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_state_57cc"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_asset_drive_fallback",
+      "native_DS": 22478,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "evaluation-control-common",
+      "native_interval": [
+        22478,
+        22480
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_asset_drive_fallback"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_cursor_actor_57d0",
+      "native_DS": 22480,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "cursor-actor-index-common",
+      "native_interval": [
+        22480,
+        22482
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_cursor_actor_57d0"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_search_frames",
+      "native_DS": 22482,
+      "role": "native_machine_address_view",
+      "logical_view_size": null,
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-near-BSS499-physical-bank-review/current499-BSS-fields-native-width-ledger.json",
+        "sha256": "c9bebb6b035f8d6ba551b0f21ccf25473ee98f33b23d9902b8919edfb5b592ad",
+        "entry_symbol": "_search_frames",
+        "matched_CODE_fields": 0,
+        "native_DATA_pointer_fields": 1,
+        "direct_original_instruction_fields": 0,
+        "held_CODE_fields": 0
+      },
+      "observed_native_memory_widths": [],
+      "address_only_not_pointee_capacity": true,
+      "all_original_uses_lifetimes_or_historical_C_identity_proven": false
+    },
+    {
+      "symbol": "_packed_pen",
+      "native_DS": 33138,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 1,
+      "source_common_provider": "packed-pen-common",
+      "native_interval": [
+        33138,
+        33139
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_packed_pen"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_mode_8176",
+      "native_DS": 33142,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "asset-mode-common",
+      "native_interval": [
+        33142,
+        33144
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_mode_8176"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_remote_move_817a",
+      "native_DS": 33146,
+      "role": "native_machine_address_view",
+      "logical_view_size": null,
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-near-BSS499-physical-bank-review/current499-BSS-fields-native-width-ledger.json",
+        "sha256": "c9bebb6b035f8d6ba551b0f21ccf25473ee98f33b23d9902b8919edfb5b592ad",
+        "entry_symbol": "_remote_move_817a",
+        "matched_CODE_fields": 4,
+        "native_DATA_pointer_fields": 0,
+        "direct_original_instruction_fields": 0,
+        "held_CODE_fields": 0
+      },
+      "observed_native_memory_widths": [],
+      "address_only_not_pointee_capacity": false,
+      "all_original_uses_lifetimes_or_historical_C_identity_proven": false
+    },
+    {
+      "symbol": "_pair_offsets",
+      "native_DS": 33148,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 4,
+      "source_common_provider": "asset-selector-common",
+      "native_interval": [
+        33148,
+        33152
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_pair_offsets"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_checkpoint_8180",
+      "native_DS": 33152,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "arena-snapshot-common",
+      "native_interval": [
+        33152,
+        33154
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_checkpoint_8180"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_phase",
+      "native_DS": 33154,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "evaluation-control-common",
+      "native_interval": [
+        33154,
+        33156
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_phase"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_saved_history_index",
+      "native_DS": 33156,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "evaluation-control-common",
+      "native_interval": [
+        33156,
+        33158
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_saved_history_index"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_checkpoint_8186",
+      "native_DS": 33158,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "arena-snapshot-common",
+      "native_interval": [
+        33158,
+        33160
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_checkpoint_8186"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_mode_8188",
+      "native_DS": 33160,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "evaluation-control-common",
+      "native_interval": [
+        33160,
+        33162
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_mode_8188"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_limit",
+      "native_DS": 33162,
+      "role": "native_machine_address_view",
+      "logical_view_size": null,
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-near-BSS499-physical-bank-review/current499-BSS-fields-native-width-ledger.json",
+        "sha256": "c9bebb6b035f8d6ba551b0f21ccf25473ee98f33b23d9902b8919edfb5b592ad",
+        "entry_symbol": "_limit",
+        "matched_CODE_fields": 9,
+        "native_DATA_pointer_fields": 0,
+        "direct_original_instruction_fields": 0,
+        "held_CODE_fields": 0
+      },
+      "observed_native_memory_widths": [
+        2
+      ],
+      "address_only_not_pointee_capacity": false,
+      "all_original_uses_lifetimes_or_historical_C_identity_proven": false
+    },
+    {
+      "symbol": "_frames",
+      "native_DS": 33166,
+      "role": "native_machine_address_view",
+      "logical_view_size": null,
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-near-BSS499-physical-bank-review/current499-BSS-fields-native-width-ledger.json",
+        "sha256": "c9bebb6b035f8d6ba551b0f21ccf25473ee98f33b23d9902b8919edfb5b592ad",
+        "entry_symbol": "_frames",
+        "matched_CODE_fields": 27,
+        "native_DATA_pointer_fields": 0,
+        "direct_original_instruction_fields": 0,
+        "held_CODE_fields": 15
+      },
+      "observed_native_memory_widths": [
+        1
+      ],
+      "address_only_not_pointee_capacity": false,
+      "all_original_uses_lifetimes_or_historical_C_identity_proven": false
+    },
+    {
+      "symbol": "_cursor_frames_820e",
+      "native_DS": 33294,
+      "role": "native_machine_address_view",
+      "logical_view_size": null,
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-near-BSS499-physical-bank-review/current499-BSS-fields-native-width-ledger.json",
+        "sha256": "c9bebb6b035f8d6ba551b0f21ccf25473ee98f33b23d9902b8919edfb5b592ad",
+        "entry_symbol": "_cursor_frames_820e",
+        "matched_CODE_fields": 1,
+        "native_DATA_pointer_fields": 0,
+        "direct_original_instruction_fields": 0,
+        "held_CODE_fields": 0
+      },
+      "observed_native_memory_widths": [],
+      "address_only_not_pointee_capacity": false,
+      "all_original_uses_lifetimes_or_historical_C_identity_proven": false
+    },
+    {
+      "symbol": "_move_count",
+      "native_DS": 33886,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "move-count-common",
+      "native_interval": [
+        33886,
+        33888
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_move_count"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_frame_lists",
+      "native_DS": 33912,
+      "role": "native_machine_address_view",
+      "logical_view_size": null,
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-near-BSS499-physical-bank-review/current499-BSS-fields-native-width-ledger.json",
+        "sha256": "c9bebb6b035f8d6ba551b0f21ccf25473ee98f33b23d9902b8919edfb5b592ad",
+        "entry_symbol": "_frame_lists",
+        "matched_CODE_fields": 14,
+        "native_DATA_pointer_fields": 0,
+        "direct_original_instruction_fields": 0,
+        "held_CODE_fields": 0
+      },
+      "observed_native_memory_widths": [
+        2
+      ],
+      "address_only_not_pointee_capacity": false,
+      "all_original_uses_lifetimes_or_historical_C_identity_proven": false
+    },
+    {
+      "symbol": "_history_storage",
+      "native_DS": 34212,
+      "role": "native_machine_address_view",
+      "logical_view_size": null,
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-near-BSS499-physical-bank-review/current499-BSS-fields-native-width-ledger.json",
+        "sha256": "c9bebb6b035f8d6ba551b0f21ccf25473ee98f33b23d9902b8919edfb5b592ad",
+        "entry_symbol": "_history_storage",
+        "matched_CODE_fields": 2,
+        "native_DATA_pointer_fields": 0,
+        "direct_original_instruction_fields": 0,
+        "held_CODE_fields": 0
+      },
+      "observed_native_memory_widths": [],
+      "address_only_not_pointee_capacity": false,
+      "all_original_uses_lifetimes_or_historical_C_identity_proven": false
+    },
+    {
+      "symbol": "_saved",
+      "native_DS": 34212,
+      "role": "native_machine_address_view",
+      "logical_view_size": null,
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-near-BSS499-physical-bank-review/current499-BSS-fields-native-width-ledger.json",
+        "sha256": "c9bebb6b035f8d6ba551b0f21ccf25473ee98f33b23d9902b8919edfb5b592ad",
+        "entry_symbol": "_saved",
+        "matched_CODE_fields": 1,
+        "native_DATA_pointer_fields": 0,
+        "direct_original_instruction_fields": 0,
+        "held_CODE_fields": 0
+      },
+      "observed_native_memory_widths": [],
+      "address_only_not_pointee_capacity": false,
+      "all_original_uses_lifetimes_or_historical_C_identity_proven": false
+    },
+    {
+      "symbol": "_saved_state",
+      "native_DS": 34212,
+      "role": "native_machine_address_view",
+      "logical_view_size": null,
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-near-BSS499-physical-bank-review/current499-BSS-fields-native-width-ledger.json",
+        "sha256": "c9bebb6b035f8d6ba551b0f21ccf25473ee98f33b23d9902b8919edfb5b592ad",
+        "entry_symbol": "_saved_state",
+        "matched_CODE_fields": 2,
+        "native_DATA_pointer_fields": 0,
+        "direct_original_instruction_fields": 0,
+        "held_CODE_fields": 0
+      },
+      "observed_native_memory_widths": [],
+      "address_only_not_pointee_capacity": false,
+      "all_original_uses_lifetimes_or_historical_C_identity_proven": false
+    },
+    {
+      "symbol": "_history",
+      "native_DS": 35036,
+      "role": "native_machine_address_view",
+      "logical_view_size": null,
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-near-BSS499-physical-bank-review/current499-BSS-fields-native-width-ledger.json",
+        "sha256": "c9bebb6b035f8d6ba551b0f21ccf25473ee98f33b23d9902b8919edfb5b592ad",
+        "entry_symbol": "_history",
+        "matched_CODE_fields": 64,
+        "native_DATA_pointer_fields": 0,
+        "direct_original_instruction_fields": 0,
+        "held_CODE_fields": 1
+      },
+      "observed_native_memory_widths": [
+        1,
+        2
+      ],
+      "address_only_not_pointee_capacity": false,
+      "all_original_uses_lifetimes_or_historical_C_identity_proven": false
+    },
+    {
+      "symbol": "_history_tail",
+      "native_DS": 35044,
+      "role": "native_machine_address_view",
+      "logical_view_size": null,
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-near-BSS499-physical-bank-review/current499-BSS-fields-native-width-ledger.json",
+        "sha256": "c9bebb6b035f8d6ba551b0f21ccf25473ee98f33b23d9902b8919edfb5b592ad",
+        "entry_symbol": "_history_tail",
+        "matched_CODE_fields": 134,
+        "native_DATA_pointer_fields": 0,
+        "direct_original_instruction_fields": 0,
+        "held_CODE_fields": 15
+      },
+      "observed_native_memory_widths": [
+        1,
+        2
+      ],
+      "address_only_not_pointee_capacity": false,
+      "all_original_uses_lifetimes_or_historical_C_identity_proven": false
+    },
+    {
+      "symbol": "_frame_indices",
+      "native_DS": 35236,
+      "role": "native_machine_address_view",
+      "logical_view_size": null,
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-near-BSS499-physical-bank-review/current499-BSS-fields-native-width-ledger.json",
+        "sha256": "c9bebb6b035f8d6ba551b0f21ccf25473ee98f33b23d9902b8919edfb5b592ad",
+        "entry_symbol": "_frame_indices",
+        "matched_CODE_fields": 7,
+        "native_DATA_pointer_fields": 0,
+        "direct_original_instruction_fields": 0,
+        "held_CODE_fields": 0
+      },
+      "observed_native_memory_widths": [
+        1
+      ],
+      "address_only_not_pointee_capacity": false,
+      "all_original_uses_lifetimes_or_historical_C_identity_proven": false
+    },
+    {
+      "symbol": "_actor_map",
+      "native_DS": 35492,
+      "role": "native_machine_address_view",
+      "logical_view_size": null,
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-near-BSS499-physical-bank-review/current499-BSS-fields-native-width-ledger.json",
+        "sha256": "c9bebb6b035f8d6ba551b0f21ccf25473ee98f33b23d9902b8919edfb5b592ad",
+        "entry_symbol": "_actor_map",
+        "matched_CODE_fields": 10,
+        "native_DATA_pointer_fields": 0,
+        "direct_original_instruction_fields": 0,
+        "held_CODE_fields": 0
+      },
+      "observed_native_memory_widths": [
+        1
+      ],
+      "address_only_not_pointee_capacity": false,
+      "all_original_uses_lifetimes_or_historical_C_identity_proven": false
+    },
+    {
+      "symbol": "_asset_table_8ae4",
+      "native_DS": 35556,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "independent-control-cells15-common",
+      "native_interval": [
+        35556,
+        35558
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_asset_table_8ae4"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_byte_read_cursor",
+      "native_DS": 35558,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "serial-ring-common",
+      "native_interval": [
+        35558,
+        35560
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_byte_read_cursor"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_frame_resources",
+      "native_DS": 35560,
+      "role": "native_machine_address_view",
+      "logical_view_size": null,
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-near-BSS499-physical-bank-review/current499-BSS-fields-native-width-ledger.json",
+        "sha256": "c9bebb6b035f8d6ba551b0f21ccf25473ee98f33b23d9902b8919edfb5b592ad",
+        "entry_symbol": "_frame_resources",
+        "matched_CODE_fields": 14,
+        "native_DATA_pointer_fields": 0,
+        "direct_original_instruction_fields": 0,
+        "held_CODE_fields": 0
+      },
+      "observed_native_memory_widths": [
+        2
+      ],
+      "address_only_not_pointee_capacity": false,
+      "all_original_uses_lifetimes_or_historical_C_identity_proven": false
+    },
+    {
+      "symbol": "_window_limit",
+      "native_DS": 35628,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "search-word-state-common",
+      "native_interval": [
+        35628,
+        35630
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_window_limit"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_byte_ring_buffer",
+      "native_DS": 35630,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 128,
+      "source_common_provider": "serial-ring-common",
+      "native_interval": [
+        35630,
+        35758
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_byte_ring_buffer"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_working_move",
+      "native_DS": 35758,
+      "role": "native_machine_address_view",
+      "logical_view_size": null,
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-near-BSS499-physical-bank-review/current499-BSS-fields-native-width-ledger.json",
+        "sha256": "c9bebb6b035f8d6ba551b0f21ccf25473ee98f33b23d9902b8919edfb5b592ad",
+        "entry_symbol": "_working_move",
+        "matched_CODE_fields": 3,
+        "native_DATA_pointer_fields": 0,
+        "direct_original_instruction_fields": 0,
+        "held_CODE_fields": 3
+      },
+      "observed_native_memory_widths": [],
+      "address_only_not_pointee_capacity": false,
+      "all_original_uses_lifetimes_or_historical_C_identity_proven": false
+    },
+    {
+      "symbol": "_working_follow_8bb6",
+      "native_DS": 35766,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 8,
+      "source_common_provider": "book-state-common",
+      "native_interval": [
+        35766,
+        35774
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_working_follow_8bb6"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_left_controls",
+      "native_DS": 35950,
+      "role": "native_machine_address_view",
+      "logical_view_size": null,
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-near-BSS499-physical-bank-review/current499-BSS-fields-native-width-ledger.json",
+        "sha256": "c9bebb6b035f8d6ba551b0f21ccf25473ee98f33b23d9902b8919edfb5b592ad",
+        "entry_symbol": "_left_controls",
+        "matched_CODE_fields": 3,
+        "native_DATA_pointer_fields": 0,
+        "direct_original_instruction_fields": 0,
+        "held_CODE_fields": 0
+      },
+      "observed_native_memory_widths": [
+        2
+      ],
+      "address_only_not_pointee_capacity": false,
+      "all_original_uses_lifetimes_or_historical_C_identity_proven": false
+    },
+    {
+      "symbol": "_right_controls",
+      "native_DS": 36022,
+      "role": "native_machine_address_view",
+      "logical_view_size": null,
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-near-BSS499-physical-bank-review/current499-BSS-fields-native-width-ledger.json",
+        "sha256": "c9bebb6b035f8d6ba551b0f21ccf25473ee98f33b23d9902b8919edfb5b592ad",
+        "entry_symbol": "_right_controls",
+        "matched_CODE_fields": 2,
+        "native_DATA_pointer_fields": 0,
+        "direct_original_instruction_fields": 0,
+        "held_CODE_fields": 0
+      },
+      "observed_native_memory_widths": [
+        2
+      ],
+      "address_only_not_pointee_capacity": false,
+      "all_original_uses_lifetimes_or_historical_C_identity_proven": false
+    },
+    {
+      "symbol": "_book_state_index",
+      "native_DS": 36094,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "book-state-common",
+      "native_interval": [
+        36094,
+        36096
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_book_state_index"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_pair_directory_lengths",
+      "native_DS": 36096,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 4,
+      "source_common_provider": "asset-selector-common",
+      "native_interval": [
+        36096,
+        36100
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_pair_directory_lengths"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_buttons_8d04",
+      "native_DS": 36100,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "independent-control-cells15-common",
+      "native_interval": [
+        36100,
+        36102
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_buttons_8d04"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_square_x",
+      "native_DS": 36102,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "square-coordinate-pointers-common",
+      "native_interval": [
+        36102,
+        36104
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_square_x"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_dirty_bottom",
+      "native_DS": 36104,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "ui-word-state-common",
+      "native_interval": [
+        36104,
+        36106
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_dirty_bottom"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_saved_cursor_8d0a",
+      "native_DS": 36106,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 1,
+      "source_common_provider": "input-saved-bytes-common",
+      "native_interval": [
+        36106,
+        36107
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_saved_cursor_8d0a"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_square_y",
+      "native_DS": 36108,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "square-coordinate-pointers-common",
+      "native_interval": [
+        36108,
+        36110
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_square_y"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_state_8d12",
+      "native_DS": 36114,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 8,
+      "source_common_provider": "move8-state-common",
+      "native_interval": [
+        36114,
+        36122
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_state_8d12"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_values",
+      "native_DS": 36122,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 8,
+      "source_common_provider": "asset-fixed-arrays-common",
+      "native_interval": [
+        36122,
+        36130
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_values"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_foreground",
+      "native_DS": 36130,
+      "role": "native_machine_address_view",
+      "logical_view_size": null,
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-near-BSS499-physical-bank-review/current499-BSS-fields-native-width-ledger.json",
+        "sha256": "c9bebb6b035f8d6ba551b0f21ccf25473ee98f33b23d9902b8919edfb5b592ad",
+        "entry_symbol": "_foreground",
+        "matched_CODE_fields": 9,
+        "native_DATA_pointer_fields": 0,
+        "direct_original_instruction_fields": 0,
+        "held_CODE_fields": 0
+      },
+      "observed_native_memory_widths": [
+        2
+      ],
+      "address_only_not_pointee_capacity": false,
+      "all_original_uses_lifetimes_or_historical_C_identity_proven": false
+    },
+    {
+      "symbol": "_pawn_mask",
+      "native_DS": 36132,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "independent-control-cells15-common",
+      "native_interval": [
+        36132,
+        36134
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_pawn_mask"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_pen_x",
+      "native_DS": 36134,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "ui-word-state-common",
+      "native_interval": [
+        36134,
+        36136
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_pen_x"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_material_balance",
+      "native_DS": 36136,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "evaluation-control-common",
+      "native_interval": [
+        36136,
+        36138
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_material_balance"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_pen_y",
+      "native_DS": 36138,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "ui-word-state-common",
+      "native_interval": [
+        36138,
+        36140
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_pen_y"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_command_words_8d2c",
+      "native_DS": 36140,
+      "role": "native_machine_address_view",
+      "logical_view_size": null,
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-near-BSS499-physical-bank-review/current499-BSS-fields-native-width-ledger.json",
+        "sha256": "c9bebb6b035f8d6ba551b0f21ccf25473ee98f33b23d9902b8919edfb5b592ad",
+        "entry_symbol": "_command_words_8d2c",
+        "matched_CODE_fields": 2,
+        "native_DATA_pointer_fields": 2,
+        "direct_original_instruction_fields": 0,
+        "held_CODE_fields": 0
+      },
+      "observed_native_memory_widths": [
+        2
+      ],
+      "address_only_not_pointee_capacity": true,
+      "all_original_uses_lifetimes_or_historical_C_identity_proven": false
+    },
+    {
+      "symbol": "_last_key_8dcc",
+      "native_DS": 36300,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "evaluation-control-common",
+      "native_interval": [
+        36300,
+        36302
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_last_key_8dcc"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_side_piece_counts",
+      "native_DS": 36302,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 4,
+      "source_common_provider": "conditional-side-piece-counts-common",
+      "native_interval": [
+        36302,
+        36306
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_side_piece_counts"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_menu_columns",
+      "native_DS": 36306,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "ui-word-state-common",
+      "native_interval": [
+        36306,
+        36308
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_menu_columns"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_height",
+      "native_DS": 36308,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "ui-word-state-common",
+      "native_interval": [
+        36308,
+        36310
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_height"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_marked_square_8dd6",
+      "native_DS": 36310,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 1,
+      "source_common_provider": "independent-control-cells15-common",
+      "native_interval": [
+        36310,
+        36311
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_marked_square_8dd6"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_menu_x",
+      "native_DS": 36312,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "ui-word-state-common",
+      "native_interval": [
+        36312,
+        36314
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_menu_x"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_menus",
+      "native_DS": 36314,
+      "role": "native_machine_address_view",
+      "logical_view_size": null,
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-near-BSS499-physical-bank-review/current499-BSS-fields-native-width-ledger.json",
+        "sha256": "c9bebb6b035f8d6ba551b0f21ccf25473ee98f33b23d9902b8919edfb5b592ad",
+        "entry_symbol": "_menus",
+        "matched_CODE_fields": 9,
+        "native_DATA_pointer_fields": 0,
+        "direct_original_instruction_fields": 0,
+        "held_CODE_fields": 2
+      },
+      "observed_native_memory_widths": [
+        2
+      ],
+      "address_only_not_pointee_capacity": false,
+      "all_original_uses_lifetimes_or_historical_C_identity_proven": false
+    },
+    {
+      "symbol": "_menu_y",
+      "native_DS": 36316,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "ui-word-state-common",
+      "native_interval": [
+        36316,
+        36318
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_menu_y"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_menu_state",
+      "native_DS": 36318,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "independent-control-cells15-common",
+      "native_interval": [
+        36318,
+        36320
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_menu_state"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_best",
+      "native_DS": 36320,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "book-state-common",
+      "native_interval": [
+        36320,
+        36322
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_best"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_search_side",
+      "native_DS": 36322,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 1,
+      "source_common_provider": "independent-control-cells15-common",
+      "native_interval": [
+        36322,
+        36323
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_search_side"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_asset_offsets",
+      "native_DS": 36324,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 4,
+      "source_common_provider": "asset-selector-common",
+      "native_interval": [
+        36324,
+        36328
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_asset_offsets"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_iteration",
+      "native_DS": 36328,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "book-state-common",
+      "native_interval": [
+        36328,
+        36330
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_iteration"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_home_pawn",
+      "native_DS": 36330,
+      "role": "native_machine_address_view",
+      "logical_view_size": null,
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-near-BSS499-physical-bank-review/current499-BSS-fields-native-width-ledger.json",
+        "sha256": "c9bebb6b035f8d6ba551b0f21ccf25473ee98f33b23d9902b8919edfb5b592ad",
+        "entry_symbol": "_home_pawn",
+        "matched_CODE_fields": 10,
+        "native_DATA_pointer_fields": 0,
+        "direct_original_instruction_fields": 0,
+        "held_CODE_fields": 0
+      },
+      "observed_native_memory_widths": [
+        2
+      ],
+      "address_only_not_pointee_capacity": false,
+      "all_original_uses_lifetimes_or_historical_C_identity_proven": false
+    },
+    {
+      "symbol": "_piece_controls",
+      "native_DS": 36340,
+      "role": "native_machine_address_view",
+      "logical_view_size": null,
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-near-BSS499-physical-bank-review/current499-BSS-fields-native-width-ledger.json",
+        "sha256": "c9bebb6b035f8d6ba551b0f21ccf25473ee98f33b23d9902b8919edfb5b592ad",
+        "entry_symbol": "_piece_controls",
+        "matched_CODE_fields": 5,
+        "native_DATA_pointer_fields": 0,
+        "direct_original_instruction_fields": 0,
+        "held_CODE_fields": 0
+      },
+      "observed_native_memory_widths": [
+        2
+      ],
+      "address_only_not_pointee_capacity": false,
+      "all_original_uses_lifetimes_or_historical_C_identity_proven": false
+    },
+    {
+      "symbol": "_active_8e22",
+      "native_DS": 36386,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "arena-snapshot-common",
+      "native_interval": [
+        36386,
+        36388
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_active_8e22"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_check_8f44",
+      "native_DS": 36676,
+      "role": "native_machine_address_view",
+      "logical_view_size": null,
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-near-BSS499-physical-bank-review/current499-BSS-fields-native-width-ledger.json",
+        "sha256": "c9bebb6b035f8d6ba551b0f21ccf25473ee98f33b23d9902b8919edfb5b592ad",
+        "entry_symbol": "_check_8f44",
+        "matched_CODE_fields": 4,
+        "native_DATA_pointer_fields": 0,
+        "direct_original_instruction_fields": 0,
+        "held_CODE_fields": 0
+      },
+      "observed_native_memory_widths": [
+        1
+      ],
+      "address_only_not_pointee_capacity": false,
+      "all_original_uses_lifetimes_or_historical_C_identity_proven": false
+    },
+    {
+      "symbol": "_left_lists",
+      "native_DS": 36678,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 72,
+      "source_common_provider": "left-right-lists-common",
+      "native_interval": [
+        36678,
+        36750
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_left_lists"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_right_lists",
+      "native_DS": 36750,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 72,
+      "source_common_provider": "left-right-lists-common",
+      "native_interval": [
+        36750,
+        36822
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_right_lists"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_timer_b",
+      "native_DS": 36822,
+      "role": "native_machine_address_view",
+      "logical_view_size": null,
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-near-BSS499-physical-bank-review/current499-BSS-fields-native-width-ledger.json",
+        "sha256": "c9bebb6b035f8d6ba551b0f21ccf25473ee98f33b23d9902b8919edfb5b592ad",
+        "entry_symbol": "_timer_b",
+        "matched_CODE_fields": 10,
+        "native_DATA_pointer_fields": 0,
+        "direct_original_instruction_fields": 0,
+        "held_CODE_fields": 0
+      },
+      "observed_native_memory_widths": [
+        2
+      ],
+      "address_only_not_pointee_capacity": false,
+      "all_original_uses_lifetimes_or_historical_C_identity_proven": false
+    },
+    {
+      "symbol": "_state_8fde",
+      "native_DS": 36830,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "independent-control-cells15-common",
+      "native_interval": [
+        36830,
+        36832
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_state_8fde"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_input_flag_8fe0",
+      "native_DS": 36832,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 1,
+      "source_common_provider": "input-saved-bytes-common",
+      "native_interval": [
+        36832,
+        36833
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_input_flag_8fe0"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_pawn_bonus_side",
+      "native_DS": 36834,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "independent-control-cells15-common",
+      "native_interval": [
+        36834,
+        36836
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_pawn_bonus_side"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_pawn_state",
+      "native_DS": 36836,
+      "role": "native_machine_address_view",
+      "logical_view_size": null,
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-near-BSS499-physical-bank-review/current499-BSS-fields-native-width-ledger.json",
+        "sha256": "c9bebb6b035f8d6ba551b0f21ccf25473ee98f33b23d9902b8919edfb5b592ad",
+        "entry_symbol": "_pawn_state",
+        "matched_CODE_fields": 16,
+        "native_DATA_pointer_fields": 0,
+        "direct_original_instruction_fields": 0,
+        "held_CODE_fields": 8
+      },
+      "observed_native_memory_widths": [
+        2
+      ],
+      "address_only_not_pointee_capacity": false,
+      "all_original_uses_lifetimes_or_historical_C_identity_proven": false
+    },
+    {
+      "symbol": "_search_pair_moves",
+      "native_DS": 37036,
+      "role": "native_machine_address_view",
+      "logical_view_size": null,
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-near-BSS499-physical-bank-review/current499-BSS-fields-native-width-ledger.json",
+        "sha256": "c9bebb6b035f8d6ba551b0f21ccf25473ee98f33b23d9902b8919edfb5b592ad",
+        "entry_symbol": "_search_pair_moves",
+        "matched_CODE_fields": 10,
+        "native_DATA_pointer_fields": 0,
+        "direct_original_instruction_fields": 0,
+        "held_CODE_fields": 0
+      },
+      "observed_native_memory_widths": [
+        1
+      ],
+      "address_only_not_pointee_capacity": false,
+      "all_original_uses_lifetimes_or_historical_C_identity_proven": false
+    },
+    {
+      "symbol": "_position_score",
+      "native_DS": 37420,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "search-word-state-common",
+      "native_interval": [
+        37420,
+        37422
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_position_score"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_dirty_left",
+      "native_DS": 37422,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "ui-word-state-common",
+      "native_interval": [
+        37422,
+        37424
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_dirty_left"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_row_mask_9230",
+      "native_DS": 37424,
+      "role": "native_machine_address_view",
+      "logical_view_size": null,
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-near-BSS499-physical-bank-review/current499-BSS-fields-native-width-ledger.json",
+        "sha256": "c9bebb6b035f8d6ba551b0f21ccf25473ee98f33b23d9902b8919edfb5b592ad",
+        "entry_symbol": "_row_mask_9230",
+        "matched_CODE_fields": 6,
+        "native_DATA_pointer_fields": 0,
+        "direct_original_instruction_fields": 0,
+        "held_CODE_fields": 0
+      },
+      "observed_native_memory_widths": [
+        1
+      ],
+      "address_only_not_pointee_capacity": false,
+      "all_original_uses_lifetimes_or_historical_C_identity_proven": false
+    },
+    {
+      "symbol": "_arena_cursor",
+      "native_DS": 37432,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 4,
+      "source_common_provider": "arena-snapshot-common",
+      "native_interval": [
+        37432,
+        37436
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_arena_cursor"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_setup_offsets",
+      "native_DS": 37440,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 4,
+      "source_common_provider": "asset-selector-common",
+      "native_interval": [
+        37440,
+        37444
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_setup_offsets"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_check_state",
+      "native_DS": 37444,
+      "role": "native_machine_address_view",
+      "logical_view_size": null,
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-near-BSS499-physical-bank-review/current499-BSS-fields-native-width-ledger.json",
+        "sha256": "c9bebb6b035f8d6ba551b0f21ccf25473ee98f33b23d9902b8919edfb5b592ad",
+        "entry_symbol": "_check_state",
+        "matched_CODE_fields": 9,
+        "native_DATA_pointer_fields": 0,
+        "direct_original_instruction_fields": 0,
+        "held_CODE_fields": 0
+      },
+      "observed_native_memory_widths": [
+        2
+      ],
+      "address_only_not_pointee_capacity": false,
+      "all_original_uses_lifetimes_or_historical_C_identity_proven": false
+    },
+    {
+      "symbol": "_hint_line",
+      "native_DS": 37498,
+      "role": "native_machine_address_view",
+      "logical_view_size": null,
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-near-BSS499-physical-bank-review/current499-BSS-fields-native-width-ledger.json",
+        "sha256": "c9bebb6b035f8d6ba551b0f21ccf25473ee98f33b23d9902b8919edfb5b592ad",
+        "entry_symbol": "_hint_line",
+        "matched_CODE_fields": 4,
+        "native_DATA_pointer_fields": 0,
+        "direct_original_instruction_fields": 0,
+        "held_CODE_fields": 2
+      },
+      "observed_native_memory_widths": [],
+      "address_only_not_pointee_capacity": false,
+      "all_original_uses_lifetimes_or_historical_C_identity_proven": false
+    },
+    {
+      "symbol": "_pointer_x",
+      "native_DS": 37690,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "ui-animation-scalars-common",
+      "native_interval": [
+        37690,
+        37692
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_pointer_x"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_menu_blink",
+      "native_DS": 37692,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 1,
+      "source_common_provider": "ui-animation-scalars-common",
+      "native_interval": [
+        37692,
+        37693
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_menu_blink"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_checkpoint_data_933e",
+      "native_DS": 37694,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "arena-snapshot-common",
+      "native_interval": [
+        37694,
+        37696
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_checkpoint_data_933e"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_interrupted",
+      "native_DS": 37696,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "search-word-state-common",
+      "native_interval": [
+        37696,
+        37698
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_interrupted"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_byte_write_cursor",
+      "native_DS": 37698,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "serial-ring-common",
+      "native_interval": [
+        37698,
+        37700
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_byte_write_cursor"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_active_arena_9344",
+      "native_DS": 37700,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 4,
+      "source_common_provider": "arena-snapshot-common",
+      "native_interval": [
+        37700,
+        37704
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_active_arena_9344"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_border",
+      "native_DS": 37704,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "ui-word-state-common",
+      "native_interval": [
+        37704,
+        37706
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_border"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_setup_word_934a",
+      "native_DS": 37706,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "setup-cycle-common",
+      "native_interval": [
+        37706,
+        37708
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_setup_word_934a"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_state_934c",
+      "native_DS": 37708,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "independent-control-cells15-common",
+      "native_interval": [
+        37708,
+        37710
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_state_934c"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_metadata_records",
+      "native_DS": 37710,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 16,
+      "source_common_provider": "asset-fixed-arrays-common",
+      "native_interval": [
+        37710,
+        37726
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_metadata_records"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_pointer_y",
+      "native_DS": 37726,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "ui-animation-scalars-common",
+      "native_interval": [
+        37726,
+        37728
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_pointer_y"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_background",
+      "native_DS": 37728,
+      "role": "native_machine_address_view",
+      "logical_view_size": null,
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-near-BSS499-physical-bank-review/current499-BSS-fields-native-width-ledger.json",
+        "sha256": "c9bebb6b035f8d6ba551b0f21ccf25473ee98f33b23d9902b8919edfb5b592ad",
+        "entry_symbol": "_background",
+        "matched_CODE_fields": 9,
+        "native_DATA_pointer_fields": 0,
+        "direct_original_instruction_fields": 0,
+        "held_CODE_fields": 0
+      },
+      "observed_native_memory_widths": [
+        2
+      ],
+      "address_only_not_pointee_capacity": false,
+      "all_original_uses_lifetimes_or_historical_C_identity_proven": false
+    },
+    {
+      "symbol": "_motion_x",
+      "native_DS": 37730,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "ui-word-state-common",
+      "native_interval": [
+        37730,
+        37732
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_motion_x"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_dirty_right",
+      "native_DS": 37732,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "ui-word-state-common",
+      "native_interval": [
+        37732,
+        37734
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_dirty_right"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_book_saved_index",
+      "native_DS": 37734,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "book-state-common",
+      "native_interval": [
+        37734,
+        37736
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_book_saved_index"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_checkpoint_arena_9368",
+      "native_DS": 37736,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 4,
+      "source_common_provider": "arena-snapshot-common",
+      "native_interval": [
+        37736,
+        37740
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_checkpoint_arena_9368"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_frame_data_cursor",
+      "native_DS": 37740,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "arena-snapshot-common",
+      "native_interval": [
+        37740,
+        37742
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_frame_data_cursor"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_checkpoint_936e",
+      "native_DS": 37742,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "arena-snapshot-common",
+      "native_interval": [
+        37742,
+        37744
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_checkpoint_936e"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_stride",
+      "native_DS": 37746,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "ui-word-state-common",
+      "native_interval": [
+        37746,
+        37748
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_stride"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_actor_flag_9374",
+      "native_DS": 37748,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 1,
+      "source_common_provider": "input-saved-bytes-common",
+      "native_interval": [
+        37748,
+        37749
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_actor_flag_9374"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_motion_y",
+      "native_DS": 37750,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "ui-word-state-common",
+      "native_interval": [
+        37750,
+        37752
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_motion_y"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_dirty_top",
+      "native_DS": 37752,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "ui-word-state-common",
+      "native_interval": [
+        37752,
+        37754
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_dirty_top"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_move_list",
+      "native_DS": 37754,
+      "role": "native_machine_address_view",
+      "logical_view_size": null,
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-near-BSS499-physical-bank-review/current499-BSS-fields-native-width-ledger.json",
+        "sha256": "c9bebb6b035f8d6ba551b0f21ccf25473ee98f33b23d9902b8919edfb5b592ad",
+        "entry_symbol": "_move_list",
+        "matched_CODE_fields": 2,
+        "native_DATA_pointer_fields": 0,
+        "direct_original_instruction_fields": 0,
+        "held_CODE_fields": 0
+      },
+      "observed_native_memory_widths": [],
+      "address_only_not_pointee_capacity": false,
+      "all_original_uses_lifetimes_or_historical_C_identity_proven": false
+    },
+    {
+      "symbol": "_search_active",
+      "native_DS": 38394,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 1,
+      "source_common_provider": "independent-control-cells15-common",
+      "native_interval": [
+        38394,
+        38395
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_search_active"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_active_95fe",
+      "native_DS": 38398,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "arena-snapshot-common",
+      "native_interval": [
+        38398,
+        38400
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_active_95fe"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_animation_counter",
+      "native_DS": 38402,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 1,
+      "source_common_provider": "animation-counter-common",
+      "native_interval": [
+        38402,
+        38403
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_animation_counter"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_pieces",
+      "native_DS": 38404,
+      "role": "native_machine_address_view",
+      "logical_view_size": null,
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-near-BSS499-physical-bank-review/current499-BSS-fields-native-width-ledger.json",
+        "sha256": "c9bebb6b035f8d6ba551b0f21ccf25473ee98f33b23d9902b8919edfb5b592ad",
+        "entry_symbol": "_pieces",
+        "matched_CODE_fields": 41,
+        "native_DATA_pointer_fields": 0,
+        "direct_original_instruction_fields": 0,
+        "held_CODE_fields": 0
+      },
+      "observed_native_memory_widths": [
+        1,
+        2
+      ],
+      "address_only_not_pointee_capacity": false,
+      "all_original_uses_lifetimes_or_historical_C_identity_proven": false
+    },
+    {
+      "symbol": "_side_info_9604",
+      "native_DS": 38404,
+      "role": "native_machine_address_view",
+      "logical_view_size": null,
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-near-BSS499-physical-bank-review/current499-BSS-fields-native-width-ledger.json",
+        "sha256": "c9bebb6b035f8d6ba551b0f21ccf25473ee98f33b23d9902b8919edfb5b592ad",
+        "entry_symbol": "_side_info_9604",
+        "matched_CODE_fields": 2,
+        "native_DATA_pointer_fields": 0,
+        "direct_original_instruction_fields": 0,
+        "held_CODE_fields": 0
+      },
+      "observed_native_memory_widths": [
+        1
+      ],
+      "address_only_not_pointee_capacity": false,
+      "all_original_uses_lifetimes_or_historical_C_identity_proven": false
+    },
+    {
+      "symbol": "_region_right",
+      "native_DS": 38468,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "ui-word-state-common",
+      "native_interval": [
+        38468,
+        38470
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_region_right"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_setup_word_9646",
+      "native_DS": 38470,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "setup-cycle-common",
+      "native_interval": [
+        38470,
+        38472
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_setup_word_9646"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_startup_offsets_9648",
+      "native_DS": 38472,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 4,
+      "source_common_provider": "asset-selector-common",
+      "native_interval": [
+        38472,
+        38476
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_startup_offsets_9648"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_hint_score_964c",
+      "native_DS": 38476,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "book-state-common",
+      "native_interval": [
+        38476,
+        38478
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_hint_score_964c"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_active_964e",
+      "native_DS": 38478,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "arena-snapshot-common",
+      "native_interval": [
+        38478,
+        38480
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_active_964e"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_frame_directory",
+      "native_DS": 38480,
+      "role": "native_machine_address_view",
+      "logical_view_size": null,
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-near-BSS499-physical-bank-review/current499-BSS-fields-native-width-ledger.json",
+        "sha256": "c9bebb6b035f8d6ba551b0f21ccf25473ee98f33b23d9902b8919edfb5b592ad",
+        "entry_symbol": "_frame_directory",
+        "matched_CODE_fields": 14,
+        "native_DATA_pointer_fields": 0,
+        "direct_original_instruction_fields": 0,
+        "held_CODE_fields": 0
+      },
+      "observed_native_memory_widths": [
+        1
+      ],
+      "address_only_not_pointee_capacity": false,
+      "all_original_uses_lifetimes_or_historical_C_identity_proven": false
+    },
+    {
+      "symbol": "_setup_word_9844",
+      "native_DS": 38980,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "setup-cycle-common",
+      "native_interval": [
+        38980,
+        38982
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_setup_word_9844"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_current_side",
+      "native_DS": 38982,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "side-history-common",
+      "native_interval": [
+        38982,
+        38984
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_current_side"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_asset_lengths",
+      "native_DS": 38984,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 4,
+      "source_common_provider": "asset-selector-common",
+      "native_interval": [
+        38984,
+        38988
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_asset_lengths"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_history_move_counter",
+      "native_DS": 38988,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "side-history-common",
+      "native_interval": [
+        38988,
+        38990
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_history_move_counter"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_input_mode_984e",
+      "native_DS": 38990,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 1,
+      "source_common_provider": "input-saved-bytes-common",
+      "native_interval": [
+        38990,
+        38991
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_input_mode_984e"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_command_root",
+      "native_DS": 38991,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 1,
+      "source_common_provider": "independent-control-cells15-common",
+      "native_interval": [
+        38991,
+        38992
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_command_root"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_cursor_colour_9850",
+      "native_DS": 38992,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "input-display-common",
+      "native_interval": [
+        38992,
+        38994
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_cursor_colour_9850"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_animation_busy",
+      "native_DS": 38994,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 1,
+      "source_common_provider": "ui-animation-scalars-common",
+      "native_interval": [
+        38994,
+        38995
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_animation_busy"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_input_state",
+      "native_DS": 38996,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "search-word-state-common",
+      "native_interval": [
+        38996,
+        38998
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_input_state"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_ready_9856",
+      "native_DS": 38998,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "input-display-common",
+      "native_interval": [
+        38998,
+        39000
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_ready_9856"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_frame_descriptors",
+      "native_DS": 39002,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 32,
+      "source_common_provider": "asset-fixed-arrays-common",
+      "native_interval": [
+        39002,
+        39034
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_frame_descriptors"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_setup_lengths",
+      "native_DS": 39034,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 4,
+      "source_common_provider": "asset-selector-common",
+      "native_interval": [
+        39034,
+        39038
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_setup_lengths"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_checkpoint_987e",
+      "native_DS": 39038,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "arena-snapshot-common",
+      "native_interval": [
+        39038,
+        39040
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_checkpoint_987e"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_history_index",
+      "native_DS": 39040,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "side-history-common",
+      "native_interval": [
+        39040,
+        39042
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_history_index"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_current_event",
+      "native_DS": 39042,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "event-pointer-common",
+      "native_interval": [
+        39042,
+        39044
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_current_event"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_current_ticks_9884",
+      "native_DS": 39044,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 4,
+      "source_common_provider": "input-timer-common",
+      "native_interval": [
+        39044,
+        39048
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_current_ticks_9884"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_previous_buttons_9888",
+      "native_DS": 39048,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "evaluation-control-common",
+      "native_interval": [
+        39048,
+        39050
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_previous_buttons_9888"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_asset_drive_count",
+      "native_DS": 39050,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "evaluation-control-common",
+      "native_interval": [
+        39050,
+        39052
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_asset_drive_count"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_paused",
+      "native_DS": 39054,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "menu-paused-common",
+      "native_interval": [
+        39054,
+        39056
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_paused"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_frame_index",
+      "native_DS": 39056,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "independent-control-cells15-common",
+      "native_interval": [
+        39056,
+        39058
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_frame_index"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_frame_words",
+      "native_DS": 39058,
+      "role": "native_machine_address_view",
+      "logical_view_size": null,
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-near-BSS499-physical-bank-review/current499-BSS-fields-native-width-ledger.json",
+        "sha256": "c9bebb6b035f8d6ba551b0f21ccf25473ee98f33b23d9902b8919edfb5b592ad",
+        "entry_symbol": "_frame_words",
+        "matched_CODE_fields": 1,
+        "native_DATA_pointer_fields": 0,
+        "direct_original_instruction_fields": 0,
+        "held_CODE_fields": 0
+      },
+      "observed_native_memory_widths": [
+        2
+      ],
+      "address_only_not_pointee_capacity": false,
+      "all_original_uses_lifetimes_or_historical_C_identity_proven": false
+    },
+    {
+      "symbol": "_active_a834",
+      "native_DS": 43060,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "arena-snapshot-common",
+      "native_interval": [
+        43060,
+        43062
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_active_a834"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_opponent",
+      "native_DS": 43062,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "side-history-common",
+      "native_interval": [
+        43062,
+        43064
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_opponent"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_search_level",
+      "native_DS": 43064,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "search-word-state-common",
+      "native_interval": [
+        43064,
+        43066
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_search_level"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_checkpoint_lists_a84e",
+      "native_DS": 43086,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "arena-snapshot-common",
+      "native_interval": [
+        43086,
+        43088
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_checkpoint_lists_a84e"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_active_actor",
+      "native_DS": 43088,
+      "role": "native_machine_address_view",
+      "logical_view_size": null,
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-near-BSS499-physical-bank-review/current499-BSS-fields-native-width-ledger.json",
+        "sha256": "c9bebb6b035f8d6ba551b0f21ccf25473ee98f33b23d9902b8919edfb5b592ad",
+        "entry_symbol": "_active_actor",
+        "matched_CODE_fields": 0,
+        "native_DATA_pointer_fields": 0,
+        "direct_original_instruction_fields": 4,
+        "held_CODE_fields": 4
+      },
+      "observed_native_memory_widths": [],
+      "address_only_not_pointee_capacity": false,
+      "all_original_uses_lifetimes_or_historical_C_identity_proven": false
+    },
+    {
+      "symbol": "_state_index",
+      "native_DS": 43090,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "evaluation-control-common",
+      "native_interval": [
+        43090,
+        43092
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_state_index"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_animation_tasks",
+      "native_DS": 43092,
+      "role": "native_machine_address_view",
+      "logical_view_size": null,
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-near-BSS499-physical-bank-review/current499-BSS-fields-native-width-ledger.json",
+        "sha256": "c9bebb6b035f8d6ba551b0f21ccf25473ee98f33b23d9902b8919edfb5b592ad",
+        "entry_symbol": "_animation_tasks",
+        "matched_CODE_fields": 1,
+        "native_DATA_pointer_fields": 0,
+        "direct_original_instruction_fields": 0,
+        "held_CODE_fields": 0
+      },
+      "observed_native_memory_widths": [],
+      "address_only_not_pointee_capacity": false,
+      "all_original_uses_lifetimes_or_historical_C_identity_proven": false
+    },
+    {
+      "symbol": "_startup_lengths_a8b6",
+      "native_DS": 43190,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 4,
+      "source_common_provider": "asset-selector-common",
+      "native_interval": [
+        43190,
+        43194
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_startup_lengths_a8b6"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_board",
+      "native_DS": 43194,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 480,
+      "source_common_provider": "board-minimum-common",
+      "native_interval": [
+        43194,
+        43674
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_board"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_frame_metadata",
+      "native_DS": 43676,
+      "role": "native_machine_address_view",
+      "logical_view_size": null,
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-near-BSS499-physical-bank-review/current499-BSS-fields-native-width-ledger.json",
+        "sha256": "c9bebb6b035f8d6ba551b0f21ccf25473ee98f33b23d9902b8919edfb5b592ad",
+        "entry_symbol": "_frame_metadata",
+        "matched_CODE_fields": 3,
+        "native_DATA_pointer_fields": 0,
+        "direct_original_instruction_fields": 0,
+        "held_CODE_fields": 0
+      },
+      "observed_native_memory_widths": [
+        2
+      ],
+      "address_only_not_pointee_capacity": false,
+      "all_original_uses_lifetimes_or_historical_C_identity_proven": false
+    },
+    {
+      "symbol": "_directory_lists",
+      "native_DS": 45176,
+      "role": "native_machine_address_view",
+      "logical_view_size": null,
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-near-BSS499-physical-bank-review/current499-BSS-fields-native-width-ledger.json",
+        "sha256": "c9bebb6b035f8d6ba551b0f21ccf25473ee98f33b23d9902b8919edfb5b592ad",
+        "entry_symbol": "_directory_lists",
+        "matched_CODE_fields": 2,
+        "native_DATA_pointer_fields": 0,
+        "direct_original_instruction_fields": 0,
+        "held_CODE_fields": 0
+      },
+      "observed_native_memory_widths": [],
+      "address_only_not_pointee_capacity": false,
+      "all_original_uses_lifetimes_or_historical_C_identity_proven": false
+    },
+    {
+      "symbol": "_last_event_ticks_b07a",
+      "native_DS": 45178,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 4,
+      "source_common_provider": "input-timer-common",
+      "native_interval": [
+        45178,
+        45182
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_last_event_ticks_b07a"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_frame_list_cursor",
+      "native_DS": 45182,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "arena-snapshot-common",
+      "native_interval": [
+        45182,
+        45184
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_frame_list_cursor"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_active_lists_b080",
+      "native_DS": 45184,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "arena-snapshot-common",
+      "native_interval": [
+        45184,
+        45186
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_active_lists_b080"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_remote_board_b082",
+      "native_DS": 45186,
+      "role": "native_machine_address_view",
+      "logical_view_size": null,
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-near-BSS499-physical-bank-review/current499-BSS-fields-native-width-ledger.json",
+        "sha256": "c9bebb6b035f8d6ba551b0f21ccf25473ee98f33b23d9902b8919edfb5b592ad",
+        "entry_symbol": "_remote_board_b082",
+        "matched_CODE_fields": 1,
+        "native_DATA_pointer_fields": 0,
+        "direct_original_instruction_fields": 0,
+        "held_CODE_fields": 0
+      },
+      "observed_native_memory_widths": [
+        2
+      ],
+      "address_only_not_pointee_capacity": false,
+      "all_original_uses_lifetimes_or_historical_C_identity_proven": false
+    },
+    {
+      "symbol": "_flash_rank_b0a3",
+      "native_DS": 45219,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 1,
+      "source_common_provider": "independent-control-cells15-common",
+      "native_interval": [
+        45219,
+        45220
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_flash_rank_b0a3"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_total_material",
+      "native_DS": 45220,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "evaluation-control-common",
+      "native_interval": [
+        45220,
+        45222
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_total_material"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_piece_counts",
+      "native_DS": 45222,
+      "role": "native_machine_address_view",
+      "logical_view_size": null,
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-near-BSS499-physical-bank-review/current499-BSS-fields-native-width-ledger.json",
+        "sha256": "c9bebb6b035f8d6ba551b0f21ccf25473ee98f33b23d9902b8919edfb5b592ad",
+        "entry_symbol": "_piece_counts",
+        "matched_CODE_fields": 6,
+        "native_DATA_pointer_fields": 0,
+        "direct_original_instruction_fields": 0,
+        "held_CODE_fields": 0
+      },
+      "observed_native_memory_widths": [
+        2
+      ],
+      "address_only_not_pointee_capacity": false,
+      "all_original_uses_lifetimes_or_historical_C_identity_proven": false
+    },
+    {
+      "symbol": "_selected_move",
+      "native_DS": 45228,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 8,
+      "source_common_provider": "side-history-common",
+      "native_interval": [
+        45228,
+        45236
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_selected_move"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_arena_capacity",
+      "native_DS": 45236,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 4,
+      "source_common_provider": "independent-control-cells15-common",
+      "native_interval": [
+        45236,
+        45240
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_arena_capacity"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_region_left",
+      "native_DS": 45242,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "ui-word-state-common",
+      "native_interval": [
+        45242,
+        45244
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_region_left"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_task_pool",
+      "native_DS": 45246,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 8,
+      "source_common_provider": "asset-fixed-arrays-common",
+      "native_interval": [
+        45246,
+        45254
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_task_pool"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_screen_x",
+      "native_DS": 45254,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "screen-coordinate-pointers-common",
+      "native_interval": [
+        45254,
+        45256
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_screen_x"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_screen_y",
+      "native_DS": 45256,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "screen-coordinate-pointers-common",
+      "native_interval": [
+        45256,
+        45258
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_screen_y"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_active_data_b0ca",
+      "native_DS": 45258,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "arena-snapshot-common",
+      "native_interval": [
+        45258,
+        45260
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_active_data_b0ca"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_book_matches",
+      "native_DS": 45260,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "book-state-common",
+      "native_interval": [
+        45260,
+        45262
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_book_matches"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_current_controls",
+      "native_DS": 45262,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 4,
+      "source_common_provider": "current-controls-common",
+      "native_interval": [
+        45262,
+        45266
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_current_controls"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_book_choice_offset",
+      "native_DS": 45266,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "book-state-common",
+      "native_interval": [
+        45266,
+        45268
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_book_choice_offset"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_serial_irq_flags_b0d4",
+      "native_DS": 45268,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 1,
+      "source_common_provider": "serial-ring-common",
+      "native_interval": [
+        45268,
+        45269
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_serial_irq_flags_b0d4"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_endgame",
+      "native_DS": 45270,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "evaluation-control-common",
+      "native_interval": [
+        45270,
+        45272
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_endgame"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_region_width",
+      "native_DS": 45272,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "ui-word-state-common",
+      "native_interval": [
+        45272,
+        45274
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_region_width"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_menu_last",
+      "native_DS": 45274,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2,
+      "source_common_provider": "evaluation-control-common",
+      "native_interval": [
+        45274,
+        45276
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_menu_last"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_piece_square",
+      "native_DS": 45276,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 2880,
+      "source_common_provider": "piece-square-common",
+      "native_interval": [
+        45276,
+        48156
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_piece_square"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_cached_frames",
+      "native_DS": 48158,
+      "role": "native_machine_address_view",
+      "logical_view_size": null,
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-near-BSS499-physical-bank-review/current499-BSS-fields-native-width-ledger.json",
+        "sha256": "c9bebb6b035f8d6ba551b0f21ccf25473ee98f33b23d9902b8919edfb5b592ad",
+        "entry_symbol": "_cached_frames",
+        "matched_CODE_fields": 8,
+        "native_DATA_pointer_fields": 0,
+        "direct_original_instruction_fields": 0,
+        "held_CODE_fields": 0
+      },
+      "observed_native_memory_widths": [
+        2
+      ],
+      "address_only_not_pointee_capacity": false,
+      "all_original_uses_lifetimes_or_historical_C_identity_proven": false
+    },
+    {
+      "symbol": "_clock_epoch",
+      "native_DS": 52158,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 4,
+      "source_common_provider": "clock-common",
+      "native_interval": [
+        52158,
+        52162
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_clock_epoch"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_clock_sample",
+      "native_DS": 52162,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 4,
+      "source_common_provider": "clock-common",
+      "native_interval": [
+        52162,
+        52166
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_clock_sample"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_clock_value",
+      "native_DS": 52166,
+      "role": "existing_typed_COMMON_view",
+      "logical_view_size": 4,
+      "source_common_provider": "clock-common",
+      "native_interval": [
+        52166,
+        52170
+      ],
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-BSS-region-current265-assessment/near142-and-clusters.json",
+        "sha256": "a04891de7c01375dd7280b7f70bfe46c365ecbb9d12b26de1f7dc5666c536293",
+        "entry_symbol": "_clock_value"
+      },
+      "historical_capacity_TU_storageclass_identity_proven": false
+    },
+    {
+      "symbol": "_current",
+      "native_DS": 52170,
+      "role": "native_machine_address_view",
+      "logical_view_size": null,
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-near-BSS499-physical-bank-review/current499-BSS-fields-native-width-ledger.json",
+        "sha256": "c9bebb6b035f8d6ba551b0f21ccf25473ee98f33b23d9902b8919edfb5b592ad",
+        "entry_symbol": "_current",
+        "matched_CODE_fields": 47,
+        "native_DATA_pointer_fields": 0,
+        "direct_original_instruction_fields": 0,
+        "held_CODE_fields": 0
+      },
+      "observed_native_memory_widths": [
+        1,
+        2
+      ],
+      "address_only_not_pointee_capacity": false,
+      "all_original_uses_lifetimes_or_historical_C_identity_proven": false
+    },
+    {
+      "symbol": "_finished",
+      "native_DS": 52178,
+      "role": "native_machine_address_view",
+      "logical_view_size": null,
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-near-BSS499-physical-bank-review/current499-BSS-fields-native-width-ledger.json",
+        "sha256": "c9bebb6b035f8d6ba551b0f21ccf25473ee98f33b23d9902b8919edfb5b592ad",
+        "entry_symbol": "_finished",
+        "matched_CODE_fields": 6,
+        "native_DATA_pointer_fields": 0,
+        "direct_original_instruction_fields": 0,
+        "held_CODE_fields": 0
+      },
+      "observed_native_memory_widths": [
+        2
+      ],
+      "address_only_not_pointee_capacity": false,
+      "all_original_uses_lifetimes_or_historical_C_identity_proven": false
+    },
+    {
+      "symbol": "_state_cbd2",
+      "native_DS": 52178,
+      "role": "native_machine_address_view",
+      "logical_view_size": null,
+      "evidence": {
+        "path": "/home/kierzo/chess/matching/build/native-near-BSS499-physical-bank-review/current499-BSS-fields-native-width-ledger.json",
+        "sha256": "c9bebb6b035f8d6ba551b0f21ccf25473ee98f33b23d9902b8919edfb5b592ad",
+        "entry_symbol": "_state_cbd2",
+        "matched_CODE_fields": 3,
+        "native_DATA_pointer_fields": 0,
+        "direct_original_instruction_fields": 0,
+        "held_CODE_fields": 0
+      },
+      "observed_native_memory_widths": [
+        2
+      ],
+      "address_only_not_pointee_capacity": false,
+      "all_original_uses_lifetimes_or_historical_C_identity_proven": false
+    }
+  ],
+  "coincident_native_machine_address_groups": [
+    {
+      "native_DS": 34212,
+      "symbols": [
+        "_history_storage",
+        "_saved",
+        "_saved_state"
+      ],
+      "evidence_per_symbol": [
+        {
+          "path": "/home/kierzo/chess/matching/build/native-near-BSS499-physical-bank-review/current499-BSS-fields-native-width-ledger.json",
+          "sha256": "c9bebb6b035f8d6ba551b0f21ccf25473ee98f33b23d9902b8919edfb5b592ad",
+          "entry_symbol": "_history_storage",
+          "matched_CODE_fields": 2,
+          "native_DATA_pointer_fields": 0,
+          "direct_original_instruction_fields": 0,
+          "held_CODE_fields": 0
+        },
+        {
+          "path": "/home/kierzo/chess/matching/build/native-near-BSS499-physical-bank-review/current499-BSS-fields-native-width-ledger.json",
+          "sha256": "c9bebb6b035f8d6ba551b0f21ccf25473ee98f33b23d9902b8919edfb5b592ad",
+          "entry_symbol": "_saved",
+          "matched_CODE_fields": 1,
+          "native_DATA_pointer_fields": 0,
+          "direct_original_instruction_fields": 0,
+          "held_CODE_fields": 0
+        },
+        {
+          "path": "/home/kierzo/chess/matching/build/native-near-BSS499-physical-bank-review/current499-BSS-fields-native-width-ledger.json",
+          "sha256": "c9bebb6b035f8d6ba551b0f21ccf25473ee98f33b23d9902b8919edfb5b592ad",
+          "entry_symbol": "_saved_state",
+          "matched_CODE_fields": 2,
+          "native_DATA_pointer_fields": 0,
+          "direct_original_instruction_fields": 0,
+          "held_CODE_fields": 0
+        }
+      ],
+      "physical_machine_address_coincidence_independently_observed": true,
+      "not_a_historical_C_alias_union_container_or_capacity_claim": true
+    },
+    {
+      "native_DS": 38404,
+      "symbols": [
+        "_pieces",
+        "_side_info_9604"
+      ],
+      "evidence_per_symbol": [
+        {
+          "path": "/home/kierzo/chess/matching/build/native-near-BSS499-physical-bank-review/current499-BSS-fields-native-width-ledger.json",
+          "sha256": "c9bebb6b035f8d6ba551b0f21ccf25473ee98f33b23d9902b8919edfb5b592ad",
+          "entry_symbol": "_pieces",
+          "matched_CODE_fields": 41,
+          "native_DATA_pointer_fields": 0,
+          "direct_original_instruction_fields": 0,
+          "held_CODE_fields": 0
+        },
+        {
+          "path": "/home/kierzo/chess/matching/build/native-near-BSS499-physical-bank-review/current499-BSS-fields-native-width-ledger.json",
+          "sha256": "c9bebb6b035f8d6ba551b0f21ccf25473ee98f33b23d9902b8919edfb5b592ad",
+          "entry_symbol": "_side_info_9604",
+          "matched_CODE_fields": 2,
+          "native_DATA_pointer_fields": 0,
+          "direct_original_instruction_fields": 0,
+          "held_CODE_fields": 0
+        }
+      ],
+      "physical_machine_address_coincidence_independently_observed": true,
+      "not_a_historical_C_alias_union_container_or_capacity_claim": true
+    },
+    {
+      "native_DS": 52178,
+      "symbols": [
+        "_finished",
+        "_state_cbd2"
+      ],
+      "evidence_per_symbol": [
+        {
+          "path": "/home/kierzo/chess/matching/build/native-near-BSS499-physical-bank-review/current499-BSS-fields-native-width-ledger.json",
+          "sha256": "c9bebb6b035f8d6ba551b0f21ccf25473ee98f33b23d9902b8919edfb5b592ad",
+          "entry_symbol": "_finished",
+          "matched_CODE_fields": 6,
+          "native_DATA_pointer_fields": 0,
+          "direct_original_instruction_fields": 0,
+          "held_CODE_fields": 0
+        },
+        {
+          "path": "/home/kierzo/chess/matching/build/native-near-BSS499-physical-bank-review/current499-BSS-fields-native-width-ledger.json",
+          "sha256": "c9bebb6b035f8d6ba551b0f21ccf25473ee98f33b23d9902b8919edfb5b592ad",
+          "entry_symbol": "_state_cbd2",
+          "matched_CODE_fields": 3,
+          "native_DATA_pointer_fields": 0,
+          "direct_original_instruction_fields": 0,
+          "held_CODE_fields": 0
+        }
+      ],
+      "physical_machine_address_coincidence_independently_observed": true,
+      "not_a_historical_C_alias_union_container_or_capacity_claim": true
+    }
+  ],
+  "all48_starts_have_independent_native_field_or_initializer_address_proof": true,
+  "partial_held_C_body_field_inventory_retained": true,
+  "capacity_lifetime_original_variable_identity_or_Cunion_proven": false,
+  "no_alias_by_number_alone": true,
+  "source_uses_labels_not_equ_or_fake_end_publics": true,
+  "native_limit818A_frame_write8172to8250_hold": "no separatearraycapacity invented; machineRAMcoversaddresses, semanticCframehold remains"
+}

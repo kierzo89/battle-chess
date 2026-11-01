@@ -1,0 +1,1369 @@
+{
+  "schema": "save-cc72-authored610-format-only-V2-one-MASM-control-v1",
+  "status": "FROZEN_V2_NO_WORKER_GENERATION",
+  "own_files": [
+    {
+      "path": "/home/kierzo/chess/matching/build/save-cc72-authored610-one-MASM-preparation-v2/CMP-release.schema.json",
+      "sha256": "25b3ee5bffffc0cdd008669d1e15c9ce8dce6751764d93a4014fc763e7dc2e48"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/save-cc72-authored610-one-MASM-preparation-v2/GEN-release.schema.json",
+      "sha256": "f8e61954fd32ee602f9f24b37ecbc066a43d6dfb0b44974d07c57c55d6e4cbf0"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/save-cc72-authored610-one-MASM-preparation-v2/README.md",
+      "sha256": "9d6914680af024a949dc2d89b0d6d04a668309643467340536d56fd5310a928e"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/save-cc72-authored610-one-MASM-preparation-v2/V1-negative-binder.json",
+      "sha256": "8a1cddf8c9a11f9e8a797aac330143a6891c24430680162fa08c0241e4b50664"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/save-cc72-authored610-one-MASM-preparation-v2/assemble_once.py",
+      "sha256": "6e3a023d0b9ed738ebcd6733ef134a2b358434388ecf8461781746dff65973e2"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/save-cc72-authored610-one-MASM-preparation-v2/compare_closed.py",
+      "sha256": "0ad1d06ec375250720aae6fccf53d4133fae02e870c16bfed893458a1473e0a7"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/save-cc72-authored610-one-MASM-preparation-v2/comparison-direct-pins.json",
+      "sha256": "f478a4952c2eb88bf54447f9ca12b1948d0caca927cb65eaf845a4ff0c656af4"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/save-cc72-authored610-one-MASM-preparation-v2/format-equivalence-proof.json",
+      "sha256": "47471a0269cec43d5e7f938f2ea76d16a47a0271c9fd61aea4bb3b9c7f3acd8a"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/save-cc72-authored610-one-MASM-preparation-v2/generation-pins.json",
+      "sha256": "36226b068d908b1c9c8b821dd2d2e02b5257700a4052dcbbc1ac13ac8c606b3d"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/save-cc72-authored610-one-MASM-preparation-v2/instruction-ledger.json",
+      "sha256": "b661952e91bd4f8f4ec029b45cc36e08dc290996ec03167e7677aac361cc3b50"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/save-cc72-authored610-one-MASM-preparation-v2/namespace-and-ABI.json",
+      "sha256": "95fe219a6335a678030c6568c9267f704be9894b963047f968ec205d18201aff"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/save-cc72-authored610-one-MASM-preparation-v2/native610.bin",
+      "sha256": "fefbcd2c689adb324bf56aa333bb4c3dab11c6ba2d8ef5210cf772347182d518"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/save-cc72-authored610-one-MASM-preparation-v2/operand-contract.json",
+      "sha256": "0ec82b0f67c4c4798d405a97fdd6dd3e42f92a1f6a4a9b64126c62e620df9771"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/save-cc72-authored610-one-MASM-preparation-v2/preparation-history.json",
+      "sha256": "7dd2b544d53823b5262db48fde884d6fd796c74148a74ce0fc71689cfefb588f"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/save-cc72-authored610-one-MASM-preparation-v2/root-terminal.schema.json",
+      "sha256": "a6f1886c43eb18f18db7cf943f8a26dfe2c47ebc7b662a7eeca5bd780fa1779c"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/save-cc72-authored610-one-MASM-preparation-v2/save_cc72.asm",
+      "sha256": "1f5e1e821170ade5fde5a95ee314d8c2ac9bc3ffd537f76e3f7c82ecef918726"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/save-cc72-authored610-one-MASM-preparation-v2/six-MZ-obligation.json",
+      "sha256": "f62ff7678dbcc72bd1e3f1815fd24777431709d38cfad5f72e1d75ff211504da"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/save-cc72-authored610-one-MASM-preparation-v2/source-format.diff",
+      "sha256": "71629d258732616fa6ae255a93204b8505b209a21e692678fb92c0a661cfefb5"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/save-cc72-authored610-one-MASM-preparation-v2/source_guard_functions.py",
+      "sha256": "ddd2f65e5e9d1d197354026cea6b468868490c3abb3b11a6b70047b06c1c2fc8"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/save-cc72-authored610-one-MASM-preparation-v2/static-review.json",
+      "sha256": "81a91d8aec92a823f04832efe41fa9f03200bfac243aeaab65f502e2a36f37a1"
+    }
+  ],
+  "generation_direct_pins": [
+    {
+      "path": "/home/kierzo/chess/matching/toolchains/msc510/MASM.EXE",
+      "sha256": "1c6286c69b616160b8475ad17453ee872702a2c98075c2159ec792a1c745275f"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/toolchains/msc510/manifest.json",
+      "sha256": "f98c55eaf97fff792dfa8f131d9ea255008c5d97311dd6837cd4fda79c2ebef4"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/toolchains/msc510/LICENSE",
+      "sha256": "b5179f780ec212a434efcc989a2295a140deb0bdb17182d2bf9c5f6f1f1a01c4"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/config/msc510.json",
+      "sha256": "058abeace2a0466b843094d84d5d909a0f2a8e671f357df6e39988199383c618"
+    },
+    {
+      "path": "/usr/bin/dosbox",
+      "sha256": "2a1cafe5dbbe7c4c1ab957756c2135435087ee8fb5d1f7bbe4bd29cb02c30477"
+    }
+  ],
+  "comparison_direct_pins": [
+    {
+      "path": "/home/kierzo/chess/CHESS.EXE",
+      "sha256": "c32d4f6bc732b67efa65d55bc5813bc74dcfb52b8616894b57ed7aeeeed2a1cd"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/asm-code-contributions/begin_end_input_code180.obj",
+      "sha256": "f47e156000d3011f973a0d46327f2878a9567d325579a1e67fe42b842fd8f4f6"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/asm-code-contributions/bios_pixel_word_code33.obj",
+      "sha256": "1933a53090c31564efb92a9859cfd182c2aea2e1c880ace03d913997ee71ff96"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/asm-code-contributions/decode_frame_directory_code289.obj",
+      "sha256": "0963ad9ff1fd545672cf2b55191da99213506c375cb55c8b20ef0235413239b6"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/asm-code-contributions/dialog_button_code152.obj",
+      "sha256": "143b623f081a0cab260d07edbe03515b613d2d11a89d985e3bd88c3eec7edaf0"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/asm-code-contributions/get_number_code306.obj",
+      "sha256": "64419dcd9d0896fbca1199bac63e24de25e592e07c04421006f68366de44beb8"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/asm-code-contributions/graphics_blit_text_code1488.obj",
+      "sha256": "1801092250398ee23181943911cfdff5d50dbd2135e4da520c87b23650e9feb3"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/asm-code-contributions/graphics_driver_physical_carrier3616.obj",
+      "sha256": "c2f6da20327894eced3ee50645c70a4ed0375327858373b4921cf16fa6b71a4b"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/asm-code-contributions/graphics_input_code78.obj",
+      "sha256": "99c55ba1bb2133492959a065507fa13067c726421eb373377ecd18bfc6818b05"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/asm-code-contributions/huff_refill_source_window_code.obj",
+      "sha256": "12b974299cd3b9b9794888fccbd9cb136700e1009c97d9b5b93fceed9467932c"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/asm-code-contributions/init_animation_code1083.obj",
+      "sha256": "27b6fe476e2fa4883dacbb645f8137c3c66533109813cd4469ce11bf46abbcf9"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/asm-code-contributions/init_rays_code185.obj",
+      "sha256": "251b46e81c882e2cd112fdf706ed39329765453c8660606991cf79c65e7a0eeb"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/asm-code-contributions/input_poll_code388.obj",
+      "sha256": "65db94c9429c15eec2e9b2637f71ca0a07ae36bb3d664cfa01d30a5984e3a8fe"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/asm-code-contributions/load_asset_group_code178.obj",
+      "sha256": "5bf98a527a057c1a595e7f2227f264392cfd7fe4fa054fec94c78e4090ac6410"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/asm-code-contributions/load_group_frames_code1030.obj",
+      "sha256": "518afdf212241312ac7a92852e9032b21386d88bc60900311c3dc29c08a6ca6b"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/asm-code-contributions/outline_piece_code292.obj",
+      "sha256": "76340e97bad3448a161aba1408cb55a0b78275f24e8083222010bbb8daa18b74"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/asm-code-contributions/platform_code659.obj",
+      "sha256": "73892dbe3853dbf91824fd06678fc55adc0c292313e5bbb2608a6709c39ab230"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/asm-code-contributions/remove_actor_code247.obj",
+      "sha256": "28306b56abecd5551412945c52cf5331ddff34c5a3721fba29c84036548c0e15"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/asm-code-contributions/select_mode_code84.obj",
+      "sha256": "4991c497539f1af9bf2a689be672042c658f465d97a3f91d1e8e0b7576980777"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/asm-code-contributions/serial_irq_code248.obj",
+      "sha256": "211f9133d685184d76409518b65000f044bc2b4e99cbb54e8bb6cf0e37a028df"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/asm-code-contributions/special_task_code187.obj",
+      "sha256": "b477ae16a4b5baf9992869faabeb71d2b54686b7cf5c859cbd41b1aaee7472e3"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/asm-code-contributions/turn_task_code640.obj",
+      "sha256": "1029e3fdd184bd54f727026d29ceefdbeff96b050860491df7070d2880f9f75c"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/asm-code-contributions/type_chat_code161.obj",
+      "sha256": "ac2c14bf8adfb8094434ee871b31f0a9e0623044b3abb51df56f39492c025859"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/asm-code/bios_input.obj",
+      "sha256": "3757a77804d66425b19b33a16f49243f71697defeb24627e86f6adade68bffb5"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/asm-code/huffman_core_dgroup1.obj",
+      "sha256": "91cf3a2211cdeec9130d058f6471543629d8ec93399b740cac69836c4d6bbb0f"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/asm-data/archive_index_tables_data.obj",
+      "sha256": "4c2edaeeae2a5b68c8fb37c43b3c55bc72710de55b1590f867599084b6aa8b49"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/asm-data/graphics_workspace_physical_data86000.obj",
+      "sha256": "0a44eb20bc364a52fba29d5420546ead27ec61910548f1f4f813cbaec8e1eeb7"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/asm-data/hardware_state_2eae.obj",
+      "sha256": "b90fcf273f1435d36c898d7a8c1cb1564d7909f244280e80005dfcfadf369e23"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/asm-data/huff_workspace_physical_data5120.obj",
+      "sha256": "0e1c5ca70f121ad30c48a9a10b79ecee6a9bd05686744f6696fa249b0685531e"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-002a19a40a07263f-460c2ccf.obj",
+      "sha256": "99792cacd5e0d9731ea8565ceb3ed87ef6e3117e0e314734c5875c9bcc8e3e63"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-03eca1d12789918e-460c2ccf.obj",
+      "sha256": "af5a8ec0faaa1d9b4ad50e4633afc3b9e5f5359947ded63f2ef44d383cac6264"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-042f4a11635d3558-a24fc804.obj",
+      "sha256": "e051e8a395f3f86a9262e0fb8c814f0a3b154ce6719019dbdffed2a02b793552"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-04bbd276676732e2-e6eaca7e.obj",
+      "sha256": "b9495d381a1bec760a840b793905d9a0390281da3bcc663c1a4684514ab03daf"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-07e676f08bfcf117-f66d0e09.obj",
+      "sha256": "2c51681185a687e74828f4f38031d4a94ee674c7c5c40e564283a80840cb91d0"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-0ab47498d057dc56-460c2ccf.obj",
+      "sha256": "749a6e4f0967bc1febd83a70849b0f9b88e6b40997d05c77e368e83faad587d2"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-0ab5e928439e4b74-e6eaca7e.obj",
+      "sha256": "3764668f6cf10f5c0e2f646933525956e03918f79823789ae26e44701e2a6cb7"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-0c57840fac7f4b5c-a24fc804.obj",
+      "sha256": "117bac4bb6f0c2fc424bd03a20ee6517ab91aaefd048953f46ac12d45a57c448"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-0dbcb8d6ffb72128-460c2ccf.obj",
+      "sha256": "2dbee6907cb9b055f5d32497f7a0f94c70661e75507a716b356e07b70756d4c9"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-0e264be83732d7e8-460c2ccf.obj",
+      "sha256": "13dd45797d7fd1783986dd62569dc676cc0919966deae9209138af307602e497"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-0f18fc9cf96d2632-e6eaca7e.obj",
+      "sha256": "28c7d17dcc91d47991e9f96e794ebbfe7a50812b4e0fcb710724eb83e44e213d"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-0f39dc4f1b570daf-460c2ccf.obj",
+      "sha256": "5df4edb3feb842912b99e091d60f84ab98dd5c4f6677a8ad2435102f0cc08d58"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-108bfb5add32029b-460c2ccf.obj",
+      "sha256": "f81d037bcd88d2ea1ac4bc0d16d8c52d0bd482834d8d93cc816e8566a099a66d"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-10c60abd195a1e7d-e6eaca7e.obj",
+      "sha256": "41362e17feec09ca98289a7ef2f673625a8afcd9845df315780743aef18d886a"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-1107b87cdce43b4c-460c2ccf.obj",
+      "sha256": "3e9b2059230c796d27909ac33478e5da50135b9b514a75fd382253f1fd9b1da5"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-11a55808d2977da6-460c2ccf.obj",
+      "sha256": "8f007d63938e6ab69c35a3db1713975cd398631d5ef0fcb24b8021e71a6f3c45"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-123f4e1d1d7c42d1-e6eaca7e.obj",
+      "sha256": "bdb1debe7863dd99c684fe4cd893741f2263fafacb4d7a62a63368973f947b11"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-14014759e704e6e4-460c2ccf.obj",
+      "sha256": "9ecc5d8b249a0e81b7cc82403c9c364f8a10d54d520ea26c87ca79b63c836da0"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-14995fc07342acf3-460c2ccf.obj",
+      "sha256": "a240d9e2a19a4131edb85773768c5ab8b92598d896d1914acd716b4840ee9047"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-17e3a85c2a8130b9-460c2ccf.obj",
+      "sha256": "435eaaf000debb83e5c9306b0509527dc183526e87c945e8a039d10817e9d672"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-189c8a2262b1534c-460c2ccf.obj",
+      "sha256": "01a4e797f2b6c6bc9a55cf9171ba6edcf020905e3ef78aeb975ffd60cf2c333f"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-195c9915fde3da4e-e6eaca7e.obj",
+      "sha256": "f815374b3801f66863bd1c9443254ac253f1ada806f5cfad51c8bbfdd0e2b8a7"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-199d472ab228bc58-460c2ccf.obj",
+      "sha256": "f424786ef8f3070e20d9b38bd778313227411f2d5ed54505d6110fbc8bd2740d"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-1a8c4ffb3f96630c-460c2ccf.obj",
+      "sha256": "636ff16aaee4f2391dac34984dd7df494b3006df450350abeceba466ccb78e32"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-1b2648fa25a292e2-460c2ccf.obj",
+      "sha256": "84e7b2bcf09039c96e9267ccc6e628c8b80dd07a86ba91f08a2e4d79d0956650"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-1c9f6a20814ad2f4-a24fc804.obj",
+      "sha256": "ba6e93aa85d6da147ed4326606171c882a4654a3ae329644fbb48ff574c73f2b"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-1ce5b92e5df9dbc7-460c2ccf.obj",
+      "sha256": "971f7f4031804d39e867d87381a0fb829bdff7b6845befa10fc8e57c592127c8"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-1d3363ebf073c656-460c2ccf.obj",
+      "sha256": "d6f0d0f2a606c0b4573f31b65a59f51610cd9f441bed7b4efcfb981ffb57136a"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-1fea54f66e122e13-460c2ccf.obj",
+      "sha256": "07c6ab79c39ed9bd59a7d12b6d5439ca0355937e5980f363441c99bd4418c391"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-204bbb844928feea-e6eaca7e.obj",
+      "sha256": "41c88fd0bb02c8ca7fe6b51ce7515469abc6d75e40ec4dc9bf516a87c660f6c9"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-205edda8d4dbed06-460c2ccf.obj",
+      "sha256": "610f1e6bb4513da69f52b2d0efc535f77619d0d49cc25a58389c7bb2d2e1ccc3"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-21a1a84a4acfd861-460c2ccf.obj",
+      "sha256": "2cb3852cc5950411464321e295271fb7389448d7df884bd7170d2db1b434b4ca"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-23923dbf2efa5718-460c2ccf.obj",
+      "sha256": "513c70f6e0445ddb6e93b694f0d07b569275e8949370a4f26fd778260e7df441"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-23c4bd2a581af3ff-460c2ccf.obj",
+      "sha256": "7a82c7fa0217f3175d2ffd26775715c77b60279c31532fb3dfb1d2765be44fb6"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-251786c650e9d140-460c2ccf.obj",
+      "sha256": "4389112047cfe41b2a186627913c4bbb6e6e7c562bcd425a963b6c5d065a806f"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-258ee7b800100a2a-460c2ccf.obj",
+      "sha256": "e8ef2bdc8b42b5aec4add9548400a0f61311ad2c0079d7e07b710b64523a8fad"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-263de117e13dde79-460c2ccf.obj",
+      "sha256": "3eb56aaedf2cfe0ebbcb10937301779bddf5f015edc7ec0128815e05bec89a3f"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-28dc22aae6e7b7e0-460c2ccf.obj",
+      "sha256": "dfba34d69ce0ba22bdb228d64b50c7eff65d7724ba16312a49142f5992681704"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-2fc710ccf26ae711-460c2ccf.obj",
+      "sha256": "97bdf6ae8bb9b5a24cf9a52561017d6190511de1d8c4a051cb9f0a0457995bb2"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-30aa632e3c111236-460c2ccf.obj",
+      "sha256": "7a924769893a9e1ed8581089df6fd891f7743122e8a1484a7055383d1f5681b9"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-3266e2dea61badd6-460c2ccf.obj",
+      "sha256": "1b26c9bcf072c7576a1edca9e417b00b87e48b0a440f4ac6d7c2e4b79ea1320a"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-3334701e25e9baed-460c2ccf.obj",
+      "sha256": "191066ce0704113c2ea63522c83429a8866ad636d3beb1d9740f02e06837eb64"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-3349b550745dcfda-460c2ccf.obj",
+      "sha256": "4cd36676ec0aa2f23a455480e889c6401093ee12b2f037031c7b10dbaf287ad9"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-33dac556cd0ffa90-460c2ccf.obj",
+      "sha256": "e65b96bd3383761241bfc4bac688c4b55299021f14113fa6052a115d87f57bfb"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-341e7d3716e4cf3f-460c2ccf.obj",
+      "sha256": "9fd56e32ce6ed2466d5020b3fd3a7f4e9196210935d9c5d2aa3ca69a5b80fa65"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-34dd19d69ba7d0a0-e6eaca7e.obj",
+      "sha256": "d254ff76b448211aebbcddc3a92eee6ade22a6f865b07743928997144ce1866b"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-35555a4e913b9863-460c2ccf.obj",
+      "sha256": "aa62fa473e2c17610e23f5d5fb2b60454a64f442af278e30463e76a26b3ab689"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-363f2ebabdeb1939-460c2ccf.obj",
+      "sha256": "4503d0a5ea2c9fda7b6a426f68a4ba246d6b80bdce4345d86c22ccefe50a8007"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-3875c344fe04cd7c-a24fc804.obj",
+      "sha256": "b1b5b68b9cb0be623f4205000fad51ca722663fe9cf96b457d0c9f6c9fbb98b0"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-391aa4e8301e1cb9-460c2ccf.obj",
+      "sha256": "941bc8fffa3c9175174b2193cf934398c43c0d4413129fa970ac6fb0622e934e"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-398be72a14491f05-460c2ccf.obj",
+      "sha256": "8c9cca186faa5745be4b67501104af1e1501c1b2bda16e9fc022417a947af054"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-3a67e73a322302d4-460c2ccf.obj",
+      "sha256": "620a9575d7daa0c307bf90e892dc5465b6eaa9566c5d5892d41b4941879bea55"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-3c9ea4c64866ae38-460c2ccf.obj",
+      "sha256": "cdb05b28142c1829d99f68ceb863a4dbbb6fdde55f7511de54733d267bd79888"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-3e9aaca8e64f7ed8-20188ff3.obj",
+      "sha256": "7808703c5f2ea319f177e4d7618abba599282a32d9bf973a2942267691053e4b"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-40f42b5e917ba95b-e6eaca7e.obj",
+      "sha256": "35f3da8b35c922c0462f5772bc0e515dedcbfdc6879274a39350adc5a0f884ad"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-43347ecd21d1f641-460c2ccf.obj",
+      "sha256": "cff5f83ab79ba3ad783a9ea79811fcbed34d5cdd304e62d32b9b3b2eea02c444"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-4355a33904174330-460c2ccf.obj",
+      "sha256": "5153f9776cd555fb3befaf9261799d73373ace637340aebbad558ccaa3258405"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-43b55100dd85513e-460c2ccf.obj",
+      "sha256": "dfd74ef1707dbe656aea3e7e1bfa0b56080269e85966c50b960f72abe4904b82"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-446eeae30a9ee411-460c2ccf.obj",
+      "sha256": "5289979044a50053f567234b02446484f90cb5f3bb53f3f0fa32a32f199ef5c2"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-44ed131008d3508f-e6eaca7e.obj",
+      "sha256": "045c61a2b31b748e16f7fbe7cd22583df53e9fc5ccdb7438f8c5792cc589ffbd"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-4563467e7932f46b-460c2ccf.obj",
+      "sha256": "f5b24eb9d40a5d5709bb2ed8e8dedebf72ce695909275dc49be298a901a7149f"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-48409f6ee7d92d52-e6eaca7e.obj",
+      "sha256": "db40d6687874c7afce9ec2d55a7ce445625b255609e6dfab185f21b1f3a87744"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-4c9767aba36ec44c-460c2ccf.obj",
+      "sha256": "7cc0c1380415376bfee3ef72b1991ec48b749eac2eee8ad47d04b3e84a584427"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-4fd0f542ea7b9ff1-460c2ccf.obj",
+      "sha256": "f175e005f152a2d3c25fc323c6cc76f310ca9783d875383f523677827cca3c74"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-5166b6d185710c3f-460c2ccf.obj",
+      "sha256": "7a8c41f02678c3bdad27ff55670586f715b7bee21741ff8d9511706b7cb05265"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-5255e557e42e4d1e-a24fc804.obj",
+      "sha256": "21b7627a5d05c51abc7cce9cb6b2251c6e2fa46faea46a5f28d2edf3c0609acb"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-52e3748958416142-460c2ccf.obj",
+      "sha256": "32b967df1c61a21b6bdc02b41455ca5ced83412b07b4396f87af28fa05d8eae9"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-55393bdaae723fdf-e6eaca7e.obj",
+      "sha256": "329e22205310cb708fd6e5d91f8ad5a7682efc1f3745f19e86b619fcf9e4f1d2"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-57655210c3d430ca-460c2ccf.obj",
+      "sha256": "947057a17ad42990ac8b10b6df1fb09d28aa9aaec4626ae85110d4b41bf830e3"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-57e3aa61ac1a0ef4-a24fc804.obj",
+      "sha256": "ab8ba21c9573ff8bb74b3fd019c610d93f10d9e02cf5abf9c064bebcb8ddaa90"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-5919b1e9ba0a6bcb-460c2ccf.obj",
+      "sha256": "fdfd5aca94edf3fd13a61177b16d18ee2939366e2093be08498c7cb7498b7212"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-59901c075404ad67-a24fc804.obj",
+      "sha256": "597a2e736c07917856e6efb71edbbffd69190cd85173415dfe78c3758b5ba40d"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-5c48125ee347ac58-460c2ccf.obj",
+      "sha256": "f2521b381d62e3259a03ec9be2b3bf9c180433f65e163dc444237703f0a4732f"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-5c64fdff5d43e576-a24fc804.obj",
+      "sha256": "4352ff591696569bf4303f6d6a8a9cb9ddab0169c9c57adeb37e94e17a7ed075"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-5ea21c0090fe8684-460c2ccf.obj",
+      "sha256": "0ba46ddcc173436532a94b55dd512a5da8d3ef84da15d6ed1a3ff3c4310a4c9d"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-5fe081323bd41425-460c2ccf.obj",
+      "sha256": "e4886941d824d7b987f1ffa3004825cbb495d62431d8f5592892b65e611e2529"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-60017f8e97d52632-20188ff3.obj",
+      "sha256": "6fe22f748571ce3f9a177e08db02b43a118f246d60197ce97a5cf64ecc4f6a6c"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-613a3908c613dac0-e6eaca7e.obj",
+      "sha256": "fec4e6fdcf6147dfafe292855843b08a74860df4b646637a8dd2ac3709776637"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-61da1179a1bea7ce-460c2ccf.obj",
+      "sha256": "00327fb651fb3275e2a0eb281e909eed102126d346c17de00fdbf325824212ac"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-624170a9a417dece-460c2ccf.obj",
+      "sha256": "200b31b92973c9265685946880cb0dce6d8c2e2ba87492630db2b917ca005652"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-62bee9098d0f07ca-460c2ccf.obj",
+      "sha256": "6e1d042bd4a783807fc9f224090160d1dc370926a6b11f2c47a62e0ed6b700cb"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-642e543c676b434a-460c2ccf.obj",
+      "sha256": "eda95d94d2d8c47026e14b1f0132388fcedaca0d1e3e1537357d0c4ad52fb029"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-645aacd0cf7b1e65-460c2ccf.obj",
+      "sha256": "e1798b78bf936d2734837f3c7ad332af42e9c18a29e8a9ce4e4f897fe34d72c1"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-648f53343f6b2969-a24fc804.obj",
+      "sha256": "212f4ead6faeb6ed1d91fca4dc5bfc6ccc444d183f9eab8f81fdb62dfd5b4076"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-64fe2220eb86f830-e6eaca7e.obj",
+      "sha256": "9fccc0a753ce855837a2adc79de2e4c81507d6a2da133f4d504f0e9fb7780eb6"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-652f1ded27060198-460c2ccf.obj",
+      "sha256": "541ded8797b7a52fedc5ba2ddce8186b07030a432b976e7a4e8f463e030de194"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-655d01789fb7ee0a-a24fc804.obj",
+      "sha256": "319d35bac387d9300be0ab01206087007b625ed35f79b9780a28155b46052577"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-675927fd90bfc882-460c2ccf.obj",
+      "sha256": "644c9a466767faac92f0e6f8109f470ab026e600d9c076a8aae91731ee806dd2"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-68a0f16d638e42f5-e6eaca7e.obj",
+      "sha256": "9c55b41e766cdfe4b3e8e1a86c01b6d04a9c93ed8a2d21b4bbc3627bf1509aed"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-6a5c12db12e7e6a2-460c2ccf.obj",
+      "sha256": "ca75215ce6efa4d9f0187cc3b0d1ed90e6403d3cd8fdb971766e456bd2329bc5"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-6a8cbc9dafa53c09-460c2ccf.obj",
+      "sha256": "2c4aa3ebe69c60f6cbc75b1b3f7a9426c8026886ff69a7d525ee28f07f0c51a9"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-6aef11fb2031c979-a24fc804.obj",
+      "sha256": "45b4df474b69e98a3e87450176d89a0e0c2831ade2ac5ca96866d0714fcd593d"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-6bfdf54eb6fefa05-460c2ccf.obj",
+      "sha256": "fa688769a8e29de119fb2a55a1d157678a776595799deb710d83ed3eed85ee1a"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-6c04dc72eb3e6d26-460c2ccf.obj",
+      "sha256": "9e3fb0d82013e6e0b82c23d15814ba014f1d263d4c5830c394e8ca5162714f2d"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-6d1dbe4ccea05535-a24fc804.obj",
+      "sha256": "fcb18a86de119952a6304ef0e5c8156c054380448908e3cd88208bd7e0bdfcf2"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-6d330f15c851fa6f-e6eaca7e.obj",
+      "sha256": "cdb266b60dca42b6990f5538482d4415870f84e7680ce59e47a1558d258a4c22"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-6ee956b145ee0cbc-460c2ccf.obj",
+      "sha256": "74f8926a55a4521b2acccf33269beeeda0c2240992f9a22ea957d0499a2497ab"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-6f581a494ab1a2cf-e6eaca7e.obj",
+      "sha256": "f9f2746386cc3c0e98920b98fef835e24c854df54280df11b3a610ea56517168"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-6f79936149a3f168-460c2ccf.obj",
+      "sha256": "baeff5c1a855de57a344fc4b2ddbede902da14ff89e23e57984afd59e1957fc6"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-70c61cf0bae904e9-460c2ccf.obj",
+      "sha256": "bab2e61f168428216abd63950a6e37d590db88fd03c622719b9f015711afec0a"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-7619245b7ee51071-460c2ccf.obj",
+      "sha256": "219ad3d5f32388d917b4c82943e1237222591554614c596a618b726d618becb1"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-77893dab7682bd99-e6eaca7e.obj",
+      "sha256": "7e5dcb9e9a6bf761e95d0be634ef4480774bebaa8a4de86f562fe604e19d526c"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-78ca4bb7739bb28e-460c2ccf.obj",
+      "sha256": "a8ac06fe53f35fe36cfbd7147cf40275a9ef904f37a58852d7846ad3093c7d17"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-78e42c00df8b7a1f-460c2ccf.obj",
+      "sha256": "089cd82d5ae6ae305309baa93abf11efa7fd6a4abcdbbdcf625fd9f377d30c64"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-7b99854e3c4f1648-460c2ccf.obj",
+      "sha256": "fae9f1532aeab28b3c6e2717ac487536586bf3341c9add39e708a9636a52ec0a"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-7ba7f812188626c9-460c2ccf.obj",
+      "sha256": "3b2b761ff280f0e19581a343002d2d75f7e72f93a1afad17077d17da1eeb65e5"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-7c199f5ed2609ee5-460c2ccf.obj",
+      "sha256": "84310e06416cb0096ae7cc28322a78ac7b2f9dd8d23b1a9694e1b5a10a8fa8c8"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-7df0efd9e7c26ca0-e6eaca7e.obj",
+      "sha256": "1fdfffc1880fc09a222427e7ff18093754b1c7da419bcc374a39953d42c5b627"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-7dfa18a8d8b1050e-460c2ccf.obj",
+      "sha256": "9e4ea0abe340f77a4e3ffd9c45c1206373a850d8fd0258b0a66e54f24bfced27"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-80abc33cf30f71e9-20188ff3.obj",
+      "sha256": "a7eb10f3b65425fb22367ba5c17f232a8b319fa515c22d6cb13a668fdcfd96ee"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-80c22a497996f63c-460c2ccf.obj",
+      "sha256": "fd3c2307f609cfc44045e5f9de5ef2eb40d37af07c4aeb9a45c8f91a3035f6c0"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-812cb01226fcd953-e6eaca7e.obj",
+      "sha256": "4a668b6d90e26b91041603bda50b40006db1c9908561f50a591b7a58dace5ae0"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-817749bbf993bb03-460c2ccf.obj",
+      "sha256": "70fd45f984a7332ea6c0649741aeac79d04b1fc04729091cad593948b1367251"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-822473d561790d51-602b04bc.obj",
+      "sha256": "9b14dde780f83bc713e1cc9fec4411cea60a874793cc0c1549598c1f35ec03c6"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-82a71178acab4b39-e6eaca7e.obj",
+      "sha256": "bbf21cc9175467d80a2fbc3ed8471b94a7893c11f27d2cac46f3a563d2022dc3"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-82b17ca4339d55bb-460c2ccf.obj",
+      "sha256": "a0bf8ec9702e9b727ab3ba35a801631b3a13f810c3da8c6437acab20bfd41129"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-832c7521a2a43fe6-460c2ccf.obj",
+      "sha256": "023cb7863487175e1d1e0db3e574a8f62f244e88210a1ff98265e1d7bdf68a8c"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-848036e5fb61d5de-460c2ccf.obj",
+      "sha256": "83a7ba0f47248197bf7709823deb0e7b616c50450a10ae8cbdc871c9b04e07fd"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-8537267304fb24a9-460c2ccf.obj",
+      "sha256": "d048e48c5279183b47e65bc19c3be619c5df0f3ab016ec1a27c11e7e77b9a005"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-85994f80edd90332-a24fc804.obj",
+      "sha256": "e2a7279b4791da64865407610ae9392aee39c81399442e354aed9c5c47875c32"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-85c8c14bf0ee05f5-460c2ccf.obj",
+      "sha256": "653fe46d7708cd210570183c4737f72389c8794baa92a0000112472ea6b503ce"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-8647747ee40d0778-a24fc804.obj",
+      "sha256": "1163a5c8e4e05e565805bda572a771b63e61343f9bc6bbcb68c8ff9512768c50"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-86dee6d1c975c22e-460c2ccf.obj",
+      "sha256": "ea3b6acb5f688980cae91661f399204190e4f25fa49e9e56794838ef300e10c0"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-89ba560f540d9546-460c2ccf.obj",
+      "sha256": "8e641445084ba34ef2c62c4a64565883ed64f6bf67a98d45bf18362aa206f940"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-8abce746f4d42d68-460c2ccf.obj",
+      "sha256": "1058bb1d5b6520bcc93cc62232b7e30ee107a3eab843ad66ece351e35af9a398"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-8b3a3e1aa860b32a-460c2ccf.obj",
+      "sha256": "a54771968921644b8e2c8d9d8c3500d06ac21784843b025147e37178e336a5c1"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-8e3fb2b04cc2a054-460c2ccf.obj",
+      "sha256": "bd8de25e7d4b990eaa7e6917959869b78b2134c1507ad76b2484342966f65115"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-8f7c8e1ac8a4951a-460c2ccf.obj",
+      "sha256": "f8518e6c3f41492db7484d710f4d3b7c3fad3c01c7a572686fe639e70b4d6268"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-8fc725b283932d51-460c2ccf.obj",
+      "sha256": "b953fcd2101d67d6b4ea945258dd5fcc1587aead8a5070ea06a39253c62556c6"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-909c2ba45c61b9ac-460c2ccf.obj",
+      "sha256": "b48ad4a670e41f818bd705663727f74b8ef502f7d729585820d7a090fc89474f"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-91488ce0fb75eed0-460c2ccf.obj",
+      "sha256": "6210f1073d7774d7a828931868801f87ea63804591f663e39384f881cf07cbf4"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-92a3df1ca3fe111a-460c2ccf.obj",
+      "sha256": "7bfb916681c35755cab977e11bfcc55809a5ddcc41c98ad69bf3e4c035edfc5f"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-92e38b699c75618a-460c2ccf.obj",
+      "sha256": "8d1acf0a7237d4d54dce04fe715df095db93615feefacb40253e3204c9c36e2e"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-93d5867cd5a3770b-460c2ccf.obj",
+      "sha256": "89d9065c36c2dcc09a5fad9db7eedae2bb10afb0dd4a3ca64f6f42563f804e80"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-9a51fc5bdb44d2b9-460c2ccf.obj",
+      "sha256": "deb85c8a7a9c0747b0fbae0a57af21d05ea89f9e5cbc136dbd5c90266dd90314"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-9bf166d64c03ff51-460c2ccf.obj",
+      "sha256": "95c175baecad6e0d9d92a1eabd5f38cd115875fac9bbfde642344302a4e95819"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-9c06ec4850678c61-460c2ccf.obj",
+      "sha256": "4f63060bd4432e51e5caef428e3123f7de9a6ddf72c44f29e024c2368dea9c5f"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-9e87fe2f2e7a4d1d-460c2ccf.obj",
+      "sha256": "79b40356807180c48b78457baea0c20d8741218c6bcd4eacd12c35dfe9aeb9b5"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-9ef46c4432447804-460c2ccf.obj",
+      "sha256": "5c310b8f7dd439a9621fbfeed8ae7296fc48f030467a3176438dcc07711a5936"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-9f85f9b3e658fb4d-e6eaca7e.obj",
+      "sha256": "7ad1064304b7fcbe0cd05df985285bdc5b795a7e43cc99d82c528d7d8183f78d"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-a056c7438c2bd3bc-460c2ccf.obj",
+      "sha256": "ccbe1aa75d98bc26d455f5a71bae3c32a2f1e50ce84271563fad9ac710b4d942"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-a5814c3a46f13feb-a24fc804.obj",
+      "sha256": "04b0353a4d85f2e66a1c6e1cb28a36b8b0610255e445eb808ed4796521ec3784"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-a6259b975484d87c-a24fc804.obj",
+      "sha256": "608785b1e941c71be9da039f6ffed25b4638e5ca0db556844edbe8a30a699ea9"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-a6472104c882b294-460c2ccf.obj",
+      "sha256": "b77a82ab1835966b42ba43708d2fce5e74839cbcc0d4c9cfbfdee48d59f4de54"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-a6e2eafaf7629fc4-460c2ccf.obj",
+      "sha256": "3dae5fb4bd760862a53f8fca3776809f9dfae8ec858cd2449b5eed319ce850ff"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-aa64bf137e62e476-a24fc804.obj",
+      "sha256": "79dd8d1274263a4bea91e2636115f4611da23af1e84dc8e8c132e664e67ad373"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-aa812e7cbe40ffe6-460c2ccf.obj",
+      "sha256": "a7e67144fd7ce59fd0e444f153156a5ce10b00368b4c8a44f5e22757111d5303"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-ac1fb84f80a6f29d-460c2ccf.obj",
+      "sha256": "4d72d93c06a636eab6a6d8009eeaf6f2de90492f4f6f77a45af078e9b3aaf5a2"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-ac89fbf9c6348bce-460c2ccf.obj",
+      "sha256": "fa4268dbc0390ab1dc22c86dc4eff81828a8ee0a9f986cd99bee0476e5aabfbc"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-acf92cd59da9155b-e6eaca7e.obj",
+      "sha256": "771ea5a429d34df6126891dfb2fd1b1f493af1cdd8829859e2b98ce8a40e6278"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-af738c40bb2da31a-460c2ccf.obj",
+      "sha256": "ceb115d6657bcba7817309b0ceda75481aa9367eb9a8b4f933d8de434bf38b69"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-b0d3f2bd36c36aeb-e6eaca7e.obj",
+      "sha256": "073966a6f3a9b1bd3f4e295e2983dfc0fcca0d0d47e61e0bd7eb98663dcf33d5"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-b0d5842ebb8d23c1-460c2ccf.obj",
+      "sha256": "399af3db8e67e893f65c660e4146153f4d11494ad379dea8eaeaadbd02df0e66"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-b12558abe504d0e9-e6eaca7e.obj",
+      "sha256": "3d5816a83a08a038df0f05bc8501d5a70db7210c7084c1b9da591072c803d40d"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-b506854e151009b7-460c2ccf.obj",
+      "sha256": "b05130fdc79a51862349532dd6bb318b2b4781b7c627ede184132dd96fdcc8b9"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-b5b2dcb228c2f5e4-20188ff3.obj",
+      "sha256": "a492cef0fbd83e34a912f190dfbf84b08dd83276ad0a68421495755f0076d95c"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-b867c070e824e806-e6eaca7e.obj",
+      "sha256": "6bd289cff12e885ebb0537a068a63a2236a8273fac9e4cf42687d77ff462aee4"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-b93358d6eca0fd0d-e6eaca7e.obj",
+      "sha256": "73837e2a4ed0a503b819138d7e9f9d020f7fcc8347aede1f52729801e942ab7f"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-ba8a2a60365a3fba-460c2ccf.obj",
+      "sha256": "09427902a9a570420f0ffaf0c81cfc6dacea3a0822a80be71b8f13141fc6f330"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-bd8b08d9ce096057-e6eaca7e.obj",
+      "sha256": "237ca613dbe7e0e05d3fc9408f5f9c5ac86b1b985ee5eed1a0ff8f9060929cb9"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-bd9f176d544768a9-460c2ccf.obj",
+      "sha256": "7c0834e18a663ace24eaa4df272c41e6b0a2dd97af00bfe2d1651ac52bc06070"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-c211a12c084a37f6-460c2ccf.obj",
+      "sha256": "6e33bbfce4e2146e9b5b6b212f09c82ee83b8418ad2d2018722f72bce02a3810"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-c2d7bc3c1657c854-e6eaca7e.obj",
+      "sha256": "fcaeb3ba2041a72fe2ed895877f4175e492b8f1a255f6709eec86421224f76de"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-c530b8bdf7754e58-e6eaca7e.obj",
+      "sha256": "04770b583a401ebc044a4bfa1bd4b3505e2c7ae7bf53496b22d0f7c9323ea079"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-c584dd7c37acc775-460c2ccf.obj",
+      "sha256": "76d030489ed0c74452eca226bdb1f8d36f197052abd352ba5b8a3d29ebfc3c8d"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-c59ded87742b843a-460c2ccf.obj",
+      "sha256": "55120d65dbdd3f64d29de72c92dae086378429e8a1f19358a4506fc926415066"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-c60ae8ce13754d07-460c2ccf.obj",
+      "sha256": "9d38720d12c92aaa0573c19880373f9e97e38773a6588de3d5a5f80b5bdbe32a"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-c6a172b74338813b-460c2ccf.obj",
+      "sha256": "0da4fe0e571a367d90c2152c73c24a2a52d61b25b5d493bf48c457feba56e1c6"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-c7ae05c0f8db30f5-460c2ccf.obj",
+      "sha256": "03e7478cf00810e2fad6033bdd0ad126e3e2604db599e89cbc2829fd7d431963"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-c983c3a566f4d6a5-e6eaca7e.obj",
+      "sha256": "868872cbf1580e3396c7fb26b38747f3def8d3447862665e78d299ba64c26c92"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-cb8077ca01bc51b4-460c2ccf.obj",
+      "sha256": "0a1643a7913c993d72184e34feb2d9da0f2c1482277047eb2bf34a6016faacc9"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-cb99caaa725d44fc-e6eaca7e.obj",
+      "sha256": "71f6e77c29d7bddda7bb7b448854ccd56c3ec7c2443b25e88e80e7a2be775d78"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-cbaef649446c1073-e6eaca7e.obj",
+      "sha256": "cd5dce51526da55a50d9b02b702664f6e435492de78dd881f2d979e2cb42d36a"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-cbbcf316e12c1528-460c2ccf.obj",
+      "sha256": "b04eeaf70835a16b4e43d6ef4138bc08091748d1a22646d515805588404f70e5"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-cbd6393ad956e669-e6eaca7e.obj",
+      "sha256": "b37cbb13db59684e1a18f8789e5a2e4c1c57ddf1f2221bfac336975d77f9e250"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-cc32f43fd0d9e791-a24fc804.obj",
+      "sha256": "4dc97fb2c38d75506380846652b3f722a9ab32aa71eb5a08f128777af0b2f62d"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-cc65d040c3a36233-460c2ccf.obj",
+      "sha256": "82634c4bc90d07313c55ac112ddc31b7f628ec5e256a00b7ba93b07ed23ee46a"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-cf929768281d5083-e6eaca7e.obj",
+      "sha256": "ee785422aa095afa5e1fc97416b8c3910f004c98dbeffe0396014a7f2f1095d3"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-cfeedc1ac53f88ae-460c2ccf.obj",
+      "sha256": "087445fa854ae7e702992521745c4296e65eb6c05c964af26f63397b39660e39"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-d6eee831cf80fce9-460c2ccf.obj",
+      "sha256": "849b2be75f6db679c3e7aaea3b76aa72e156bffbc73074fe436443a74132df92"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-d75ff4a17d935288-460c2ccf.obj",
+      "sha256": "b659d017c6c809e5a0c5244235d043c0d4b6c0b6df35984b3c5cbc89e51c2a64"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-d768055c8f399d21-460c2ccf.obj",
+      "sha256": "0eb09e4a808936e55143613ec54f5dd1b1ae9f68fce36928732fec588d64dba6"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-da239243cf7263b2-460c2ccf.obj",
+      "sha256": "463f6df6918eb650970a47221e26a2253b6b88533060d37e6aca5adce2a51aeb"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-da2421ecb870baad-e6eaca7e.obj",
+      "sha256": "a9361e61a1df34546548cf00b20885e024387e941483be1a275ebe9e64a43b15"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-dbc05dca245874f5-460c2ccf.obj",
+      "sha256": "5d83ef685fae59072e93f407f04df18d317469e1963b996336cf6ea83a9e6234"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-dbd5bfc7b5b761a6-460c2ccf.obj",
+      "sha256": "ce0d9282f12d834caa17ef8d6eea2caded2f76810f3056029533113520e69835"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-dc3d4fa8e7c07170-460c2ccf.obj",
+      "sha256": "683aaffe70a2f592c708306e560f60668f79dee7eaac4936974fa3b81456d798"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-dc6aeaeab4c7f5dc-460c2ccf.obj",
+      "sha256": "6fe65fb0f85cca7d920e5043c4900ef7512a0b8c8bf088f8e50c2fc8c6be50ef"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-dd930898fc386059-460c2ccf.obj",
+      "sha256": "4e903aacb1971858deaf6e9fbd53a244a917b954f04dc1315c19d48a406c0104"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-deb432b2eceb19d6-460c2ccf.obj",
+      "sha256": "8af0d774ec0c71d5986048f26153364247cff115075dfa80ea41dc398ef862ea"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-df9fd75b50e7c6d8-460c2ccf.obj",
+      "sha256": "34fc9c3f5d1db6f5eb781c27d002a5c2683ab8590396ba4c32a5106b2efc4e0a"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-e1ae592ad3de4ff1-460c2ccf.obj",
+      "sha256": "086b690f325eb9ad911e97344274a229716a9fe3da949fb6274f90c60e01de9d"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-e1c94c86642a0082-460c2ccf.obj",
+      "sha256": "b109e41aab36071fdffdb746ef189e7e71bf57eded4530404f67a88923b73574"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-e4050dd04af298c8-460c2ccf.obj",
+      "sha256": "05af3876ead44177a7ba704c1b04256d20d32dc00c214f1a310ba5e2a776aa2f"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-e50bb78934c464ed-460c2ccf.obj",
+      "sha256": "3d2f3b63e6f9ce7232750d88b3a34717712a70ed857856b575d0edfb9dcddeda"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-e6b36000439c98c7-460c2ccf.obj",
+      "sha256": "0a86c4d7edd9004805898ef2609eab772641bd0be207b10a032188b35e4a4e68"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-e6b3b60c6b16aa9b-460c2ccf.obj",
+      "sha256": "b441a7c5a7f6e96ece41bb666a451f9c951a886f690e15a5f12944033f0191bf"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-eb7ef3c01cb5c89c-460c2ccf.obj",
+      "sha256": "654259656d1e12a9db11a858ae1a3c759ef019b93d2046ca19263d6efafde881"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-ee5c50a91db57832-460c2ccf.obj",
+      "sha256": "cd1bfd70400371c9aabf3013ba52bc71dae01940a60d1122f2ea7bf0bc9e92e2"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-ef991de40c9e583f-460c2ccf.obj",
+      "sha256": "31da3b0307746430aa9de7f96fa2a9d591641453373c4dc6b5bbacc9f8af71b4"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-f1f82594fb7bc350-e6eaca7e.obj",
+      "sha256": "e0f2049608c41923138a05d165a8fd7ef66c10718da2259fa5080c7d0b499450"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-f43e37f54ddbf329-460c2ccf.obj",
+      "sha256": "a025cf8c055debc811961551a74d909d928a66902f09e96b12a4d4107c37703c"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-f49e3e2f51064510-a95b0d54.obj",
+      "sha256": "17d0f06dba02bbc2bf98784411a62978ac911d1b1c413537af8fc29002566097"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-f50a16c7f09892dd-a24fc804.obj",
+      "sha256": "71522daec4646a82195649cb014b0e5bc56d5dcbfd9699c3379e225fde40e2fa"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-f5df0dc810c63dbc-460c2ccf.obj",
+      "sha256": "28c0d8e9152cedcdd64cf5f3ab199464b9e78379f4d16126d4650008b83c546e"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-f63bb91358b4e556-460c2ccf.obj",
+      "sha256": "fd7bc2a9ee382561024cca8024f4f7f9a4c9e1ff807d035b16330439e7349c23"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-f6975cd4510935a6-e6eaca7e.obj",
+      "sha256": "67daf345384d97fe76d9e46852d3b08d9fda86ed16ea51388122808a8abb4eaf"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-f783aa15ef6eeeed-e6eaca7e.obj",
+      "sha256": "9003918c5dd9b236653a03a7061ca78c1c822b7f0e5773822b54629430a20608"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-fca89d301b79c612-460c2ccf.obj",
+      "sha256": "7c4f6e97a7fb44aa17e3cbe5b0dd69409c065c7c6340235a344eecd86f1559de"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-fcf281f28353d7e8-460c2ccf.obj",
+      "sha256": "adea0405d8db6386d703d1ab524dbf040ab19962b12b6d96721b6d03f4a7cb86"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/objects/msc500-fe505d29af685fd8-460c2ccf.obj",
+      "sha256": "19a6cf46ecf31c5f5e5d339ee56128565b286c0ab6fb29fb9d06f173592715fb"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/relocation_coverage.json",
+      "sha256": "627d2f3f0dc236cc99d51b9c212ef1486db67c669d2d10ab195cb7aefbd96f7a"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/report.json",
+      "sha256": "5ac1a83e9c0450ccfc42244782f668783714353457d02383635e22472790b7c5"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/source-allocations/animation-counter-common.obj",
+      "sha256": "cafa64b936b5c2f8b28423b2ebba3911e7457f4edb9a28d133e81e2ec06ed4de"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/source-allocations/arena-snapshot-common.obj",
+      "sha256": "cafe5091d5ed442a2a661594d3d0e048ffef71609dfc3e4a96afb907a86e313f"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/source-allocations/asset-fixed-arrays-common.obj",
+      "sha256": "8801be97f9712d06874fef0e29a2989031d66d25ffcfae85b2850a369beb96c7"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/source-allocations/asset-mode-common.obj",
+      "sha256": "7264ae27af0748b3d75a06ab7044f55306b7d8fee49c8b0b3965365258cb520c"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/source-allocations/asset-selector-common.obj",
+      "sha256": "19ab4b9415bf6c0ccfee51acb3a36cf66267e83502fabba97ce8072a6df4e8de"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/source-allocations/board-minimum-common.obj",
+      "sha256": "b9770aaf9fc0effc46340f0ad329c1635d46ec17db1973c014f35e6ac5a058f0"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/source-allocations/book-state-common.obj",
+      "sha256": "bc399610c9b25ffc8dbb99eeb4bac46bc1dd41f9922e09951f998788ef862eb3"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/source-allocations/castle-dialog-event-common.obj",
+      "sha256": "649fc20b444bee37ac34d93e6e62744e7e3614681ccd9aeb3be84213f2e417e3"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/source-allocations/clock-common.obj",
+      "sha256": "7d58ea231cc3aacca350419a4048dd18858e60d125ae6c76c31fb90ff850f116"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/source-allocations/conditional-side-piece-counts-common.obj",
+      "sha256": "0ae2a0275833903acd444b42dc1a5ebc93bbeea6b46fec9cf9f49ca806424fb2"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/source-allocations/current-controls-common.obj",
+      "sha256": "849fee4a654d2a6642dcdf1cfa28da6998b3b2ab781269334bbc2a0b10dce0a6"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/source-allocations/cursor-actor-index-common.obj",
+      "sha256": "511ba5d775fcc6ef2321293242a6b1da5aa10080f9b4775ca1e3cac3dd5d7f48"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/source-allocations/dialog-selection-common.obj",
+      "sha256": "81dd77153d4fb80e1e2a22203a68549a32d6ec1e3fb6784d72ef02b274f2d74b"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/source-allocations/evaluation-control-common.obj",
+      "sha256": "effcc178dd6aa310f112c80c7195ee2505824c5beea422c8699d692fbfc5121f"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/source-allocations/event-pointer-common.obj",
+      "sha256": "e8863fc7ee72b22c034f1aa7cb22162fb4a3b828c977567f4e0b0e2a0a9e8d61"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/source-allocations/independent-control-cells15-common.obj",
+      "sha256": "ce6679e1a38a07a1e19a054971e759408cbb690b348af16e5778c3b0a9b910a8"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/source-allocations/input-display-common.obj",
+      "sha256": "b8d5d335631d300880e96bcb5be17d2a37428785db6453d0df66189e523a3d44"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/source-allocations/input-saved-bytes-common.obj",
+      "sha256": "17b5b5292a78adddc191f19965b70aa6cb540b3421cc6b716aa3eb2680e13e4a"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/source-allocations/input-timer-common.obj",
+      "sha256": "c2ba57795b5671f3654e6f38fcfa544f3c0bcc8330a396a113410b4dc718ba32"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/source-allocations/left-right-lists-common.obj",
+      "sha256": "ba59e18bdf095f13d7c1f18c3fbbaa6c75d025a6ed4baa97c5654ed295769ba0"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/source-allocations/menu-paused-common.obj",
+      "sha256": "c8637cefb7d44da02b25cf7570e740743b54c8ca53fef64f24f3629479ad8902"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/source-allocations/move-count-common.obj",
+      "sha256": "3725e8e0c7822c31412ecdf6c78fc850bfb93a36cc4f1462c7f85ef13957968d"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/source-allocations/move8-state-common.obj",
+      "sha256": "02f193a1ca631b647f42ab5e0bd592ddac9e31ad0adbd2b5f950790ef1cb4ecb"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/source-allocations/native-capacity-far-common.obj",
+      "sha256": "aa1f2a781c21006040430270eb0b2a297ded7e6fa185ddd758a98a27e5748c01"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/source-allocations/packed-pen-common.obj",
+      "sha256": "20d604811d236d891589b6d497cc8d41bd13e41ebdb52ff75ce16098bac0bd1a"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/source-allocations/piece-square-common.obj",
+      "sha256": "c02f493be511252f5cf96fa79e1140ed01e294e85b08a6c498076501244b1b92"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/source-allocations/rays239-common.obj",
+      "sha256": "59aec888b16df45cabfb8ce15e8ec566aaed16a343ce67c5537b1581d4184f69"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/source-allocations/requested-limit-common.obj",
+      "sha256": "4164bd8498ff190cf5bfe280973760f94193ed6845169444c6d3500af0fb09de"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/source-allocations/screen-coordinate-pointers-common.obj",
+      "sha256": "0faf72323f8e52a6627374496672c7e0746743e2ab8f3e4cad560354f87eea00"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/source-allocations/search-word-state-common.obj",
+      "sha256": "b7bd98e77f649197e234ab4440bb778ed24714b39d15fcf69d03b3044d04f8ae"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/source-allocations/serial-ring-common.obj",
+      "sha256": "c5ca09a1d525979b70a1805ee1ed2f9a34cbd093eba5d1378f3a5f0ac0321f58"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/source-allocations/setup-cycle-common.obj",
+      "sha256": "e42d453853f093522e6d9a8365e9c82cd822f4c20dd0bbaa5510608457b4a776"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/source-allocations/side-history-common.obj",
+      "sha256": "f19d359ef5f142aa9cf3fe0f6dac5ad6062132a772b116ec53490aedc1df547f"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/source-allocations/square-coordinate-pointers-common.obj",
+      "sha256": "bf090448d34c5ba60901177d863abc128f600011468e4e4eea991f6621bcb95d"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/source-allocations/turn-phase-common.obj",
+      "sha256": "684c243a7d82a394dfaa9b46ab79d73cecdf362edb8dbda80dcf7912392b68aa"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/source-allocations/ui-animation-scalars-common.obj",
+      "sha256": "1e1606364222ddfb5253ffd99b17ff84b2ca3a9bd400938ad1f539676fea285d"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/components/source-allocations/ui-word-state-common.obj",
+      "sha256": "1767aaf376b8d354c6e4c172c74a70da3a2bc7e65c8cee647f808051656da8cb"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/root-terminal-receipt.json",
+      "sha256": "59e2b3309f11dd125bbb12f4b4da4f2c3998f4cba29238c957d0b0a52f3786db"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/finite499-source276-root-actual/source-seal.json",
+      "sha256": "df08b723497d72a823498c809c24597dee4bc5f81972018c344e174da9972ed7"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/evidence/load-game-dialog-cc72-negative.json",
+      "sha256": "1163116f6941d98d3002e74acbd231fcbc570acfc85c9ef70dca45ce90ae6a0e"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/evidence/rea-root-cc72.json",
+      "sha256": "951125cebb47e8418cacdf2a1553e310616a1b376321b017a552e0c6cbd86c6d"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/evidence/rea_load_dialog_full_cc72_next_context.json",
+      "sha256": "d191153d54d22e62114a0edd8b89fbad7376ba4284b78812f8bcdf3de20f97b6"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/evidence/rea_load_dialog_next_ced4.json",
+      "sha256": "e8ae90370d15d03feaf1498d3bd8a60e61138aae2b0a107f3199864e51810b7f"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/src/data/dialog_actions_516c.c",
+      "sha256": "5166b6d185710c3fa9a43be141448355dc3941e45a7bb7e7c74f60428627f2a5"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/src/probes/load_game_dialog_cc72_pending.c",
+      "sha256": "d696f2d15951473379826c9c33d42ec9a14a4358a653b65eb5210685b2ad1a38"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/src/probes/load_game_dialog_cc72_probe.c",
+      "sha256": "369814c9dc038f4e42418479ac88e55c9a6af06d012d0577144f62859d096cc5"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/omf.py",
+      "sha256": "b768754596d153df29adbd5737c125be2288e62638b1d5d37da92fa75fbc11a5"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/reference.py",
+      "sha256": "9b32e7c1a62d19a70fc07eb5b9bed91389e51960c251ab88c4e2425e4031c1fa"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/exepack.py",
+      "sha256": "4bbfada0d59de470269c342d1dae5e2e8c09ba6290dffbf158816e434331928d"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/save-cc72-authored610-one-MASM-preparation/CMP-release.schema.json",
+      "sha256": "6291ce8b8f33b32f64cd70df84349941cbf8a8f2d44206d648eb9ad63c5c7cab"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/save-cc72-authored610-one-MASM-preparation/GEN-release.schema.json",
+      "sha256": "e56616b961781729e802d2cde7a480f135a66622a2ca58c24b056f19bb226893"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/save-cc72-authored610-one-MASM-preparation/README.md",
+      "sha256": "bec199911b29973afd6258c8ad7aa85f26c625c848a304fba57f1aa9f21ceec9"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/save-cc72-authored610-one-MASM-preparation/assemble_once.py",
+      "sha256": "ebb726819d9a9aa1ebb5f122abb0332f2d60487b84f82d74a9599f4bcf02008b"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/save-cc72-authored610-one-MASM-preparation/compare_closed.py",
+      "sha256": "18ac9e7216cecaf6eb6a9d01ae9427e5632544a5fb317e47cf9c5619109cda62"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/save-cc72-authored610-one-MASM-preparation/comparison-direct-pins.json",
+      "sha256": "f478a4952c2eb88bf54447f9ca12b1948d0caca927cb65eaf845a4ff0c656af4"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/save-cc72-authored610-one-MASM-preparation/generation-pins.json",
+      "sha256": "36226b068d908b1c9c8b821dd2d2e02b5257700a4052dcbbc1ac13ac8c606b3d"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/save-cc72-authored610-one-MASM-preparation/instruction-ledger.json",
+      "sha256": "b661952e91bd4f8f4ec029b45cc36e08dc290996ec03167e7677aac361cc3b50"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/save-cc72-authored610-one-MASM-preparation/namespace-and-ABI.json",
+      "sha256": "95fe219a6335a678030c6568c9267f704be9894b963047f968ec205d18201aff"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/save-cc72-authored610-one-MASM-preparation/native610.bin",
+      "sha256": "fefbcd2c689adb324bf56aa333bb4c3dab11c6ba2d8ef5210cf772347182d518"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/save-cc72-authored610-one-MASM-preparation/operand-contract.json",
+      "sha256": "0ec82b0f67c4c4798d405a97fdd6dd3e42f92a1f6a4a9b64126c62e620df9771"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/save-cc72-authored610-one-MASM-preparation/preparation-history.json",
+      "sha256": "0db26fde41220f1be8e3201e6a77eaa8c6811bd94246e36f8f5624e81be5cf85"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/save-cc72-authored610-one-MASM-preparation/root-terminal.schema.json",
+      "sha256": "3bf9f2910ce8df8fc6f5d38eeb51cd10885ff213504eb0b01fcd7f7d30eb864b"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/save-cc72-authored610-one-MASM-preparation/save_cc72.asm",
+      "sha256": "1d195b2b0cf7715c8a4cf0368d64ca6457a672a8fca0a3118ac21cee0c04ee9c"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/save-cc72-authored610-one-MASM-preparation/six-MZ-obligation.json",
+      "sha256": "f62ff7678dbcc72bd1e3f1815fd24777431709d38cfad5f72e1d75ff211504da"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/save-cc72-authored610-one-MASM-preparation/source_guard_functions.py",
+      "sha256": "ddd2f65e5e9d1d197354026cea6b468868490c3abb3b11a6b70047b06c1c2fc8"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/save-cc72-authored610-one-MASM-preparation/static-review.json",
+      "sha256": "d06ebb5fb103ac2fef97c2c1c18ee11d596f285375af9597c99859f6cb70ccc3"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/save-cc72-authored610-one-MASM-preparation/freeze-manifest.json",
+      "sha256": "5c938b338ebf67721ad5a2238aa63d1d838ec3d0205e622fac48f032544a57a3"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/save-cc72-authored610-one-MASM-root-actual/generation-receipt.json",
+      "sha256": "3213a400e64709162ff41f795c6c0302768c6c28511b199e6326fef785703805"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/save-cc72-authored610-one-MASM-root-actual/root-generation-REA.json",
+      "sha256": "386aa4a153cc01c1dc561d7d720a111e52c33c4f916a279d4a270ddd4a7ebb1a"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/save-cc72-authored610-one-MASM-root-actual/scratch/MASM.LOG",
+      "sha256": "82fae3b328147b5b0278bdeac993b4b7cc5d5dde4d5b550dc9fa044fbb8a70a6"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/save-cc72-authored610-one-MASM-root-actual/scratch/UNIT.ASM",
+      "sha256": "1d195b2b0cf7715c8a4cf0368d64ca6457a672a8fca0a3118ac21cee0c04ee9c"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/save-cc72-authored610-one-MASM-root-actual/root-terminal-receipt.json",
+      "sha256": "756a24d5ec3d3c8146d034e8e378900bd128be75c02fda0062f9581359138734"
+    }
+  ],
+  "max_V2_MASM_calls": 1,
+  "V1_failed_actual_control_retained": true,
+  "new_matching_credit": 0
+}

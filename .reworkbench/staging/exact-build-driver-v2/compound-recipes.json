@@ -1,0 +1,284 @@
+{
+  "status": "STAGED_NOT_ADOPTED",
+  "placement_module": {
+    "path": "/home/kierzo/chess/.reworkbench/staging/exact-build-driver-v2/source-inputs/placement_v2.py",
+    "sha256": "1f799564ed55a2d19f0619abe947da56b7ffb307a13840c10cc09f882f9f89ae",
+    "origin": "/home/kierzo/chess/.reworkbench/investigations/mixed-record-placement-v2/place.py"
+  },
+  "recipes": [
+    {
+      "slot": 22,
+      "mode": "same_run_fresh_composed_source",
+      "relative_source": "components/typed-sidecars/input-overlap/composed.asm",
+      "source_sha256": "53a5fea0c23313299fe0596c8e4868d1cc8ce267aaf81c4144a73dee20657b49",
+      "requires_completed_fresh_source_seal": true,
+      "placement_order": [
+        113,
+        41,
+        19,
+        198,
+        193,
+        291,
+        248,
+        650,
+        571,
+        1215,
+        1066,
+        987,
+        915,
+        873,
+        847,
+        788,
+        1233,
+        1390,
+        1331
+      ]
+    },
+    {
+      "slot": 23,
+      "mode": "fresh_C_listing",
+      "source": {
+        "path": "/home/kierzo/chess/.reworkbench/staging/exact-build-driver-v2/source-inputs/23.c",
+        "sha256": "986246d266024e7b1b22737043e114c91cab44eee24b8921afa1113cd31f54a0",
+        "origin": "/home/kierzo/chess/.reworkbench/investigations/input-wait-scope-order-v1/unit.c"
+      },
+      "flags": [
+        "/AS",
+        "/Zi"
+      ],
+      "placement_order": [
+        75,
+        162,
+        317,
+        286,
+        260,
+        225,
+        710,
+        684,
+        432,
+        406,
+        978,
+        958,
+        938,
+        918,
+        1389,
+        1531,
+        2064,
+        2011,
+        1979,
+        1944,
+        1918,
+        1873,
+        1746,
+        1683,
+        1557,
+        2280
+      ],
+      "authored_replacement": null,
+      "dialect": "input_REPNE8_AND_CX_WORD2"
+    },
+    {
+      "slot": 27,
+      "mode": "fresh_C_listing",
+      "source": {
+        "path": "/home/kierzo/chess/.reworkbench/staging/exact-build-driver-v2/source-inputs/27.c",
+        "sha256": "648f53343f6b29692b364fbfd7a191a49ed57a86f5e3ea54eb085245660f8a61",
+        "origin": "/home/kierzo/chess/matching/src/save_active_arena_match.c"
+      },
+      "flags": [
+        "/AS",
+        "/Gs",
+        "/Os",
+        "/Zi"
+      ],
+      "placement_order": [],
+      "authored_replacement": null,
+      "dialect": "outside_ENDP_RET"
+    },
+    {
+      "slot": 33,
+      "mode": "same_run_fresh_composed_source",
+      "relative_source": "components/typed-sidecars/graphics7262/composed.asm",
+      "source_sha256": "8d26165e7fd60abe0f33b0394827f97263d00e4352ab9cef804a78ef6c03be1e",
+      "requires_completed_fresh_source_seal": true,
+      "placement_order": [
+        845,
+        837,
+        812,
+        1891,
+        1839,
+        2597,
+        2589,
+        2581,
+        2556,
+        2550,
+        2490,
+        2434,
+        2894,
+        4414,
+        4436,
+        4903,
+        4925,
+        5375,
+        5492,
+        5397,
+        5623,
+        5524,
+        5648,
+        5960
+      ]
+    },
+    {
+      "slot": 36,
+      "mode": "same_run_fresh_composed_source",
+      "relative_source": "components/typed-sidecars/remove460/composed.asm",
+      "source_sha256": "8a9bb6a3855e3ae9007b898ca79559335019e0689f09eb046695e8004e88e504",
+      "requires_completed_fresh_source_seal": true,
+      "placement_order": [
+        446,
+        400
+      ]
+    },
+    {
+      "slot": 42,
+      "mode": "same_run_fresh_composed_source",
+      "relative_source": "components/typed-sidecars/motion-overlap/composed.asm",
+      "source_sha256": "7f4f35345f9d97487e30d0fac75ee6751feb0cea5a834cfae6546e325ad6c927",
+      "requires_completed_fresh_source_seal": true,
+      "placement_order": [
+        487,
+        206,
+        59
+      ]
+    },
+    {
+      "slot": 45,
+      "mode": "fresh_C_listing",
+      "source": {
+        "path": "/home/kierzo/chess/.reworkbench/staging/exact-build-driver-v2/source-inputs/45.c",
+        "sha256": "8647747ee40d0778b16a74618dc6a9556db8192e766031d7a875d37e81ad60db",
+        "origin": "/home/kierzo/chess/matching/src/shared_turn_book_literals_match.c"
+      },
+      "flags": [
+        "/AS",
+        "/Gs",
+        "/Os",
+        "/Zi"
+      ],
+      "placement_order": [
+        464,
+        1662,
+        1834,
+        1684
+      ],
+      "authored_replacement": {
+        "symbol": "_commit_turn_810c",
+        "source": {
+          "path": "/home/kierzo/chess/.reworkbench/staging/exact-build-driver-v2/source-inputs/45-authored.asm",
+          "sha256": "3cec97ffa116e1ecad457e0faa5bda7be81da8124337111a37baa9c3c6390ef9",
+          "origin": "/home/kierzo/chess/.reworkbench/investigations/commit-turn-mixed-asm-v1/commit.asm"
+        },
+        "credit": "assembly_only"
+      },
+      "dialect": "none"
+    },
+    {
+      "slot": 54,
+      "mode": "fresh_C_listing",
+      "source": {
+        "path": "/home/kierzo/chess/.reworkbench/staging/exact-build-driver-v2/source-inputs/54.c",
+        "sha256": "b867c070e824e8066ec38269a37ffade2d597a5671ef4f1497fc3e4ff5432b60",
+        "origin": "/home/kierzo/chess/matching/src/board_move_contribution_match.c"
+      },
+      "flags": [
+        "/AS",
+        "/Zi"
+      ],
+      "placement_order": [],
+      "authored_replacement": {
+        "symbol": "_apply_9749",
+        "source": {
+          "path": "/home/kierzo/chess/.reworkbench/staging/exact-build-driver-v2/source-inputs/54-authored.asm",
+          "sha256": "cfb32de17ed8a50ced978277034fc78f37250c8a2be0bef0791d165c46f83d45",
+          "origin": "/home/kierzo/chess/.reworkbench/investigations/apply-mixed-asm-v2/apply.asm"
+        },
+        "credit": "assembly_only"
+      },
+      "dialect": "none"
+    },
+    {
+      "slot": 57,
+      "mode": "fresh_C_listing",
+      "source": {
+        "path": "/home/kierzo/chess/.reworkbench/staging/exact-build-driver-v2/source-inputs/57.c",
+        "sha256": "34dd19d69ba7d0a0bb1f67468d63a0f3780f0211e5a5c0af547f2c365a66001b",
+        "origin": "/home/kierzo/chess/matching/src/search_engine_move_count_match.c"
+      },
+      "flags": [
+        "/AS",
+        "/Zi"
+      ],
+      "placement_order": [
+        431,
+        139,
+        98,
+        3079
+      ],
+      "authored_replacement": {
+        "symbol": "_search_window",
+        "source": {
+          "path": "/home/kierzo/chess/.reworkbench/staging/exact-build-driver-v2/source-inputs/57-authored.asm",
+          "sha256": "7a3978676378633ff95662dcc30c03fa0841cb46fb632aaf5b1e8f8797c8dba3",
+          "origin": "/home/kierzo/chess/.reworkbench/investigations/search-window-mixed-asm-v1/window.asm"
+        },
+        "credit": "assembly_only"
+      },
+      "dialect": "none"
+    },
+    {
+      "slot": 62,
+      "mode": "authored_assembly",
+      "source": {
+        "path": "/home/kierzo/chess/.reworkbench/staging/exact-build-driver-v2/source-inputs/62.asm",
+        "sha256": "1f5e1e821170ade5fde5a95ee314d8c2ac9bc3ffd537f76e3f7c82ecef918726",
+        "origin": "/home/kierzo/chess/matching/asm/link/save_cc72.asm"
+      },
+      "placement_order": [
+        149,
+        97,
+        273,
+        587,
+        603,
+        595
+      ],
+      "credit": "assembly_only"
+    },
+    {
+      "slot": 67,
+      "mode": "fresh_C_listing",
+      "source": {
+        "path": "/home/kierzo/chess/.reworkbench/staging/exact-build-driver-v2/source-inputs/67.c",
+        "sha256": "59901c075404ad672878b01a275bb84ecc6b4145a662ef753c6d45749723a085",
+        "origin": "/home/kierzo/chess/matching/src/dialog_button_fields_match.c"
+      },
+      "flags": [
+        "/AS",
+        "/Gs",
+        "/Os",
+        "/Zi"
+      ],
+      "placement_order": [
+        48,
+        365,
+        199,
+        160
+      ],
+      "authored_replacement": null,
+      "dialect": "none"
+    }
+  ],
+  "source_only_generation": true,
+  "cached_objects_allowed": false,
+  "target_image_reads_allowed": false,
+  "canonical_credit_added": 0
+}

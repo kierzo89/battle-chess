@@ -1,0 +1,150 @@
+{
+  "base": 30966,
+  "size": 363,
+  "instructions": 143,
+  "fields": [
+    {
+      "offset": 7,
+      "width": 2,
+      "symbol": "__chkstk",
+      "kind": "near-CALL",
+      "native_target": 60586,
+      "source_addend": 0
+    },
+    {
+      "offset": 64,
+      "width": 2,
+      "symbol": "_actor_map",
+      "kind": "DS-offset",
+      "native_target": 35492,
+      "source_addend": 0
+    },
+    {
+      "offset": 67,
+      "width": 2,
+      "symbol": "_actors",
+      "kind": "DS-offset",
+      "native_target": 1504,
+      "source_addend": 0
+    },
+    {
+      "offset": 71,
+      "width": 2,
+      "symbol": "_detach_actor",
+      "kind": "near-CALL",
+      "native_target": 16201,
+      "source_addend": 0
+    },
+    {
+      "offset": 103,
+      "width": 2,
+      "symbol": "_cells",
+      "kind": "DS-offset",
+      "native_target": 4454,
+      "source_addend": 0
+    },
+    {
+      "offset": 122,
+      "width": 2,
+      "symbol": "_cells",
+      "kind": "DS-offset",
+      "native_target": 4454,
+      "source_addend": 0
+    },
+    {
+      "offset": 135,
+      "width": 2,
+      "symbol": "_actor_map",
+      "kind": "DS-offset",
+      "native_target": 35492,
+      "source_addend": 0
+    },
+    {
+      "offset": 144,
+      "width": 2,
+      "symbol": "_cells",
+      "kind": "DS-offset",
+      "native_target": 4454,
+      "source_addend": 0
+    },
+    {
+      "offset": 151,
+      "width": 2,
+      "symbol": "_queue_piece",
+      "kind": "near-CALL",
+      "native_target": 31399,
+      "source_addend": 0
+    },
+    {
+      "offset": 163,
+      "width": 2,
+      "symbol": "_cells",
+      "kind": "DS-offset",
+      "native_target": 4454,
+      "source_addend": 0
+    },
+    {
+      "offset": 210,
+      "width": 2,
+      "symbol": "_kind_map",
+      "kind": "DS-offset",
+      "native_target": 3840,
+      "source_addend": 0
+    },
+    {
+      "offset": 245,
+      "width": 2,
+      "symbol": "_actors",
+      "kind": "DS-offset",
+      "native_target": 1504,
+      "source_addend": 20
+    },
+    {
+      "offset": 273,
+      "width": 2,
+      "symbol": "_queue_piece",
+      "kind": "near-CALL",
+      "native_target": 31399,
+      "source_addend": 0
+    },
+    {
+      "offset": 352,
+      "width": 2,
+      "symbol": "_undo_animation",
+      "kind": "near-CALL",
+      "native_target": 30639,
+      "source_addend": 0
+    }
+  ],
+  "short_branches": {
+    "31046": 31079,
+    "31052": 31079,
+    "31058": 31079,
+    "31135": 31163,
+    "31141": 31163,
+    "31167": 31181,
+    "31185": 31244,
+    "31191": 31196,
+    "31200": 31218,
+    "31214": 31218,
+    "31216": 31193,
+    "31248": 31323,
+    "31254": 31323,
+    "31271": 31295,
+    "31293": 31313
+  },
+  "external_names": [
+    "__chkstk",
+    "_actor_map",
+    "_actors",
+    "_cells",
+    "_detach_actor",
+    "_kind_map",
+    "_queue_piece",
+    "_undo_animation"
+  ],
+  "native_MZ": [],
+  "CODE_alignment": "WORD, no tailNOP or arbitrary filler",
+  "external_fields": 14,
+  "own_CODE_fixups_expected": 0
+}

@@ -1,0 +1,60 @@
+{
+  "status": "SOURCE_PROPOSAL_NO_GENERATION_NO_ADMISSION",
+  "symbol": "_no_saved_games",
+  "DS_offset": "0x515c",
+  "image_interval": [
+    400764,
+    400780
+  ],
+  "expanded_carrier_read_address": "0x71d7c",
+  "whole_literal_hex": "4e6f2067616d65732073617665642e00",
+  "size": 16,
+  "meaning": "No games saved. plus first NUL",
+  "extent_authority": "First NUL at index15 plus prompt_1296 loop *a++ until zero; not next516C symbol",
+  "reader": "save_cc72 near DS address passed to actual prompt1296(message,int,int); prompt reads NUL, stores pointer and draws text, no message writes observed",
+  "source": "no_saved_games515c.c",
+  "source_sha256": "0165b0af4823289c481fb7cdff854fe46b74d2f89d41d15a9c77816de247bef1",
+  "flags": [
+    "/AS",
+    "/Zl",
+    "/Zi"
+  ],
+  "backend_proposal": "existing unchanged msc500-data-omf",
+  "expected_actual_data": {
+    "sole_initialized_DATA": 16,
+    "sole_PUBLIC": "_no_saved_games at0, DGROUP",
+    "CODE_CONST_BSS_DEBSYM_COMDEF_FIXUP": 0,
+    "TYPE": "actual C5 char-array graph must be measured; no guessed PUBLIC index"
+  },
+  "primary_qualification": "Authenticated unpacked analysis carrier primary only, complete16 independently equal decoded original image. Not packed-original read primary. Original expanded mapping provenance retained.",
+  "current504_unit_overlap": [],
+  "closed499_SOURCE276_duplicate_PUBLIC_or_COMMON": [],
+  "existing_old_SOURCE_external_clients": [],
+  "current504_bridge": "Old499 SOURCE276 plus2ASM move providers and3DATA counts/step have no _no_saved_games PUBLIC; new Save610 control is the explicit unregistered consumer",
+  "native_MZ": [],
+  "four_base_arithmetic": [
+    {
+      "load": 0,
+      "whole_literal_same": true
+    },
+    {
+      "load": 1,
+      "whole_literal_same": true
+    },
+    {
+      "load": 4096,
+      "whole_literal_same": true
+    },
+    {
+      "load": 65535,
+      "whole_literal_same": true
+    }
+  ],
+  "holds": [
+    "No unique historical C type/TU/storage-class/capacity claim",
+    "No source/compiler result until genuine root-reviewed C5",
+    "No matching/Cfunction credit",
+    "No initialized pointer or alias provider",
+    "Physical full image placement remains separate"
+  ]
+}

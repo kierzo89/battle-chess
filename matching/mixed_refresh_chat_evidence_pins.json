@@ -1,0 +1,10 @@
+{
+  "root": "evidence/mixed_refresh_chat",
+  "files": {
+    "comparison-terminal.json": "119263c2ae73441cac8a30116de1c9a36fb7a30418f23c0f7599343595dbb12c",
+    "comparison.json": "04bbd56d70ea75cf157e0650947313bdc3ec9be67c2af123f5432198b1bf9272",
+    "generation-terminal.json": "a483e3f42f0a728889137b7416a789d15af736bdda6a21c8e17b7ff07ac3de35",
+    "generation.json": "cafc37c99c18562316ec9848cc4abde86437229853f2a56532e46017fb8d8e81"
+  },
+  "calibration_only_not_freshness_authority": true
+}

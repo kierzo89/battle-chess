@@ -1,0 +1,79 @@
+{
+  "name": "Microsoft C 5.00 (archived installation disks)",
+  "provenance": {
+    "classification": "Historical proprietary distribution preserved by PCjs; no MIT or redistribution-permission claim",
+    "catalog_url": "https://www.pcjs.org/machines/pcx86/diskettes.json",
+    "catalog_path": "lang/microsoft/c/@versions/5.00",
+    "reported_upstream": "https://winworldpc.com/product/microsoft-c-c/5x",
+    "compiler_version": "5.00"
+  },
+  "archives": [
+    {
+      "name": "MSC500-DISK1.json",
+      "url": "https://miscdisks.pcjs.org/pcx86/lang/microsoft/c/5.00/MSC500-DISK1-SETUP.json",
+      "sha256": "f92365026481c3b8ca987af4414d598e0c8546ec32376d6db20adf7d3b04b97e"
+    },
+    {
+      "name": "MSC500-DISK2.json",
+      "url": "https://miscdisks.pcjs.org/pcx86/lang/microsoft/c/5.00/MSC500-DISK2-COMPILER.json",
+      "sha256": "4312a67b14f3f4ebc859b12ed1eb2f337733afafaa4e3f2a9628f253b05fa443"
+    }
+  ],
+  "files": [
+    {
+      "name": "CL.ERR",
+      "sha256": "b153605db3fbc0fa79e2f0d2ad5d814fbb70bfbebc1dbc0d2ed614194666621a",
+      "size": 2159,
+      "archive": "https://miscdisks.pcjs.org/pcx86/lang/microsoft/c/5.00/MSC500-DISK1-SETUP.json"
+    },
+    {
+      "name": "CL.EXE",
+      "sha256": "11e3c7d53b3efc085b7ad90c2190a1ddb395c8874f57aef3a5cfc0a4a0a0f504",
+      "size": 32969,
+      "archive": "https://miscdisks.pcjs.org/pcx86/lang/microsoft/c/5.00/MSC500-DISK1-SETUP.json"
+    },
+    {
+      "name": "C1.EXE",
+      "sha256": "3ef764476cb56dd14ae3c955a0b7717976d3b40f862fdff675ec8c6adc0ed791",
+      "size": 109957,
+      "archive": "https://miscdisks.pcjs.org/pcx86/lang/microsoft/c/5.00/MSC500-DISK1-SETUP.json"
+    },
+    {
+      "name": "C1.ERR",
+      "sha256": "dd02a004e8912c96b90a5b3317dcfeed6f9e76374edfd90979705035c8097233",
+      "size": 13577,
+      "archive": "https://miscdisks.pcjs.org/pcx86/lang/microsoft/c/5.00/MSC500-DISK2-COMPILER.json"
+    },
+    {
+      "name": "C2.EXE",
+      "sha256": "19fbe7914ba6ebe929a0e98e012fd5e8522643e5e40b6fcd89bef0e5f650f1f1",
+      "size": 199431,
+      "archive": "https://miscdisks.pcjs.org/pcx86/lang/microsoft/c/5.00/MSC500-DISK2-COMPILER.json"
+    },
+    {
+      "name": "C3.EXE",
+      "sha256": "ca4d82b90423086e68eb8d3af8f1c1c1034f164d0a0b98530c3b3a0fb0501669",
+      "size": 117403,
+      "archive": "https://miscdisks.pcjs.org/pcx86/lang/microsoft/c/5.00/MSC500-DISK2-COMPILER.json"
+    },
+    {
+      "name": "C23.ERR",
+      "sha256": "75132883ac6507cccaa7d7105df6492f511ba029e4a12ee4a1fcc989517bfd18",
+      "size": 3062,
+      "archive": "https://miscdisks.pcjs.org/pcx86/lang/microsoft/c/5.00/MSC500-DISK2-COMPILER.json"
+    }
+  ],
+  "allowed_flags": [
+    "/AS",
+    "/AM",
+    "/Gs",
+    "/O",
+    "/Ot",
+    "/Os",
+    "/Ox",
+    "/Od",
+    "/Zi",
+    "/Zl",
+    "/G0"
+  ]
+}

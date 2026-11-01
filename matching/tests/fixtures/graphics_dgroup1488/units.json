@@ -1,0 +1,119 @@
+{
+  "status": "replace exactly existing graphics1488 row; no registry append/wholesale overwrite",
+  "old_unit": {
+    "id": "graphics_blit_text_code1488",
+    "language": "asm-code",
+    "backend": "masm510-graphics-code-contribution-omf",
+    "object_profile": "graphics_blit_text1488",
+    "source": "asm/link/graphics_blit_text_omf.asm",
+    "source_sha256": "43f4ee388ef68067cca56d7f5cf76828a6350de02ca9cca3c28ea3767790b66c",
+    "assembler_sha256": "1c6286c69b616160b8475ad17453ee872702a2c98075c2159ec792a1c745275f",
+    "public_symbols": [
+      "_blit_e57a",
+      "_prepare_pixels_e8cb",
+      "_draw_text_e915"
+    ],
+    "image_offset": "0xe462",
+    "size": 1488,
+    "externals": {
+      "_font_glyphs": {
+        "segment": 23746,
+        "offset": 17700
+      },
+      "_text_cursor": {
+        "segment": 23746,
+        "offset": 17696
+      },
+      "_graphics_end": {
+        "segment": 4591,
+        "offset": 0
+      },
+      "_color_buffer": {
+        "segment": 4621,
+        "offset": 13024
+      },
+      "_text_glyph_pixels": {
+        "segment": 23746,
+        "offset": 17664
+      },
+      "_text_colour_words": {
+        "segment": 23746,
+        "offset": 17632
+      },
+      "_graphics_copy": {
+        "segment": 4365,
+        "offset": 0
+      },
+      "_graphics_begin": {
+        "segment": 4591,
+        "offset": 30
+      },
+      "_blit": {
+        "segment": 23746,
+        "offset": 18724
+      }
+    },
+    "rea_evidence": "build/graphics-following-e8cb-e915/rea-cluster615-next41.json",
+    "boundary_evidence": "Actual wholeWORD_CODE1488: preserves nativeblitter partialordinary134/span593, conditional592+naturalNOP1/75nativecases; functional256colourtable plus complete74/285nativebodies. Exact84 authenticfields/externalBASE/FAR via separate closedadapter; MZ4/fourbases. Replaces873, no doubleallocation/C/ordinaryASMfunction/DATAcredit or uniquehistoricalmodule/MAP/backingcapacity claim."
+  },
+  "new_unit": {
+    "id": "graphics_blit_text_code1488",
+    "language": "asm-code",
+    "backend": "masm510-graphics-dgroup-code-contribution-omf",
+    "object_profile": "graphics_blit_text1488_dgroup",
+    "source": "asm/link/graphics_blit_text_dgroup_omf.asm",
+    "source_sha256": "af98cd1b7372cbe27fd9c1cb88623f5f23eed3f9db0bb726d4924a94b5a2e21e",
+    "assembler_sha256": "1c6286c69b616160b8475ad17453ee872702a2c98075c2159ec792a1c745275f",
+    "public_symbols": [
+      "_blit_e57a",
+      "_prepare_pixels_e8cb",
+      "_draw_text_e915"
+    ],
+    "image_offset": "0xe462",
+    "size": 1488,
+    "externals": {
+      "_font_glyphs": {
+        "segment": 23746,
+        "offset": 17700
+      },
+      "_text_cursor": {
+        "segment": 23746,
+        "offset": 17696
+      },
+      "_graphics_end": {
+        "segment": 4591,
+        "offset": 0
+      },
+      "_color_buffer": {
+        "segment": 4621,
+        "offset": 13024
+      },
+      "_text_glyph_pixels": {
+        "segment": 23746,
+        "offset": 17664
+      },
+      "_text_colour_words": {
+        "segment": 23746,
+        "offset": 17632
+      },
+      "_graphics_copy": {
+        "segment": 4365,
+        "offset": 0
+      },
+      "_graphics_begin": {
+        "segment": 4591,
+        "offset": 30
+      },
+      "_blit": {
+        "segment": 23746,
+        "offset": 18724
+      }
+    },
+    "rea_evidence": "build/graphics-following-e8cb-e915/rea-cluster615-next41.json",
+    "boundary_evidence": "Actual wholeWORD_CODE1488: preserves nativeblitter partialordinary134/span593, conditional592+naturalNOP1/75nativecases; functional256colourtable plus complete74/285nativebodies. Exact84 authenticfields/externalBASE/FAR via separate closedadapter; MZ4/fourbases. Replaces873, no doubleallocation/C/ordinaryASMfunction/DATAcredit or uniquehistoricalmodule/MAP/backingcapacity claim. Versioned correction: only five grouped nearDATA OFFSET frame methods change _DATA\u2192DGROUP; whole raw CODE1488/other79 fields/native MZ unchanged. Four resolved actualpartial fields prove64-byte paragraph-frame deficit; no new bytes/functions/credit or absolute originalMAP claim."
+  },
+  "unit_count_delta": 0,
+  "native_CODE_byte_delta": 0,
+  "C_function_credit_delta": 0,
+  "existing_source_backend_adapter_template_fixtures_preserved": true
+}

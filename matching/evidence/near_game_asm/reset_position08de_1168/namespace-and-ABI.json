@@ -1,0 +1,610 @@
+{
+  "SOURCE": 281,
+  "canonical_PUBLIC": "_reset_position_08de",
+  "all_actual_selected_CALLs": [
+    {
+      "slot": 38,
+      "source": "src/shared_turn_book_literals_match.c",
+      "raw_sha256": "1163a5c8e4e05e565805bda572a771b63e61343f9bc6bbcb68c8ff9512768c50",
+      "field": {
+        "segment": 1,
+        "offset": 891,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          14
+        ],
+        "displacement": null,
+        "record_offset": 4913,
+        "raw": "855a560e"
+      },
+      "selected_owners": [
+        {
+          "id": "alternate_view_7e6b",
+          "symbol": "_alternate_view",
+          "native_site": 32717
+        }
+      ]
+    }
+  ],
+  "actual_providers": {
+    "_obtain_input": [
+      {
+        "slot": 0,
+        "source": "src/main_input_exit_match.c",
+        "PUBLIC": {
+          "name": "_obtain_input",
+          "segment": 1,
+          "offset": 580,
+          "group": 0,
+          "type_index": 636
+        }
+      }
+    ],
+    "_reset_display_0865": [
+      {
+        "slot": 1,
+        "source": "src/input_display_flow_match.c",
+        "PUBLIC": {
+          "name": "_reset_display_0865",
+          "segment": 1,
+          "offset": 39,
+          "group": 0,
+          "type_index": 526
+        }
+      }
+    ],
+    "_show_error_0d6e": [
+      {
+        "slot": 2,
+        "source": "src/error_pointer_match.c",
+        "PUBLIC": {
+          "name": "_show_error_0d6e",
+          "segment": 1,
+          "offset": 0,
+          "group": 0,
+          "type_index": 522
+        }
+      }
+    ],
+    "_prompt_1296": [
+      {
+        "slot": 5,
+        "source": "src/prompt_1296_match.c",
+        "PUBLIC": {
+          "name": "_prompt_1296",
+          "segment": 1,
+          "offset": 0,
+          "group": 0,
+          "type_index": 535
+        }
+      }
+    ],
+    "_refresh_panel_1d51": [
+      {
+        "slot": 12,
+        "source": "src/input_wait_command_context_match.c",
+        "PUBLIC": {
+          "name": "_refresh_panel_1d51",
+          "segment": 1,
+          "offset": 87,
+          "group": 0,
+          "type_index": 524
+        }
+      }
+    ],
+    "_init_surface": [
+      {
+        "slot": 15,
+        "source": "src/asset_storage_surface_context_match.c",
+        "PUBLIC": {
+          "name": "_init_surface",
+          "segment": 1,
+          "offset": 364,
+          "group": 0,
+          "type_index": 587
+        }
+      }
+    ],
+    "_attach_actor": [
+      {
+        "slot": 20,
+        "source": "src/graphics_actor_menu_match.c",
+        "PUBLIC": {
+          "name": "_attach_actor",
+          "segment": 1,
+          "offset": 993,
+          "group": 0,
+          "type_index": 577
+        }
+      }
+    ],
+    "_detach_actor": [
+      {
+        "slot": 20,
+        "source": "src/graphics_actor_menu_match.c",
+        "PUBLIC": {
+          "name": "_detach_actor",
+          "segment": 1,
+          "offset": 1051,
+          "group": 0,
+          "type_index": 572
+        }
+      }
+    ],
+    "_detach_all": [
+      {
+        "slot": 20,
+        "source": "src/graphics_actor_menu_match.c",
+        "PUBLIC": {
+          "name": "_detach_all",
+          "segment": 1,
+          "offset": 1105,
+          "group": 0,
+          "type_index": 573
+        }
+      }
+    ],
+    "_reset_graphics_3e4f": [
+      {
+        "slot": 20,
+        "source": "src/graphics_actor_menu_match.c",
+        "PUBLIC": {
+          "name": "_reset_graphics_3e4f",
+          "segment": 1,
+          "offset": 801,
+          "group": 0,
+          "type_index": 550
+        }
+      }
+    ],
+    "_validate_editor_8e36": [
+      {
+        "slot": 46,
+        "source": "src/editor_state_flow_match.c",
+        "PUBLIC": {
+          "name": "_validate_editor_8e36",
+          "segment": 1,
+          "offset": 0,
+          "group": 0,
+          "type_index": 591
+        }
+      }
+    ],
+    "_reset_df71": [
+      {
+        "slot": 60,
+        "source": "src/packet_context_match.c",
+        "PUBLIC": {
+          "name": "_reset_df71",
+          "segment": 1,
+          "offset": 655,
+          "group": 0,
+          "type_index": 544
+        }
+      }
+    ],
+    "_draw_fce8": [
+      {
+        "slot": 66,
+        "source": "src/display_command_context_match.c",
+        "PUBLIC": {
+          "name": "_draw_fce8",
+          "segment": 1,
+          "offset": 242,
+          "group": 0,
+          "type_index": 531
+        }
+      }
+    ],
+    "_menu_open_0044": [
+      {
+        "slot": 74,
+        "source": "src/data/ui_menu_open_0044.c",
+        "PUBLIC": {
+          "name": "_menu_open_0044",
+          "segment": 2,
+          "offset": 0,
+          "group": 1,
+          "type_index": 132
+        }
+      }
+    ],
+    "_page_mode": [
+      {
+        "slot": 78,
+        "source": "src/data/ui_scalars_0054.c",
+        "PUBLIC": {
+          "name": "_page_mode",
+          "segment": 2,
+          "offset": 5,
+          "group": 1,
+          "type_index": 132
+        }
+      }
+    ],
+    "_board_input_0ef2": [
+      {
+        "slot": 118,
+        "source": "src/data/ui_mode_words_0eee.c",
+        "PUBLIC": {
+          "name": "_board_input_0ef2",
+          "segment": 2,
+          "offset": 4,
+          "group": 1,
+          "type_index": 129
+        }
+      }
+    ],
+    "_command_active": [
+      {
+        "slot": 118,
+        "source": "src/data/ui_mode_words_0eee.c",
+        "PUBLIC": {
+          "name": "_command_active",
+          "segment": 2,
+          "offset": 8,
+          "group": 1,
+          "type_index": 129
+        }
+      }
+    ],
+    "_cursor_kind_0ef4": [
+      {
+        "slot": 118,
+        "source": "src/data/ui_mode_words_0eee.c",
+        "PUBLIC": {
+          "name": "_cursor_kind_0ef4",
+          "segment": 2,
+          "offset": 6,
+          "group": 1,
+          "type_index": 129
+        }
+      }
+    ],
+    "_selected_square_0efa": [
+      {
+        "slot": 118,
+        "source": "src/data/ui_mode_words_0eee.c",
+        "PUBLIC": {
+          "name": "_selected_square_0efa",
+          "segment": 2,
+          "offset": 12,
+          "group": 1,
+          "type_index": 133
+        }
+      }
+    ],
+    "_waiting_0eee": [
+      {
+        "slot": 118,
+        "source": "src/data/ui_mode_words_0eee.c",
+        "PUBLIC": {
+          "name": "_waiting_0eee",
+          "segment": 2,
+          "offset": 0,
+          "group": 1,
+          "type_index": 129
+        }
+      }
+    ],
+    "_main_menus_114a": [
+      {
+        "slot": 126,
+        "source": "src/menu_data/main_menus_114a.c",
+        "PUBLIC": {
+          "name": "_main_menus_114a",
+          "segment": 2,
+          "offset": 0,
+          "group": 1,
+          "type_index": 528
+        }
+      }
+    ],
+    "_alternate_menus_115e": [
+      {
+        "slot": 127,
+        "source": "src/menu_data/alternate_menus_115e.c",
+        "PUBLIC": {
+          "name": "_alternate_menus_115e",
+          "segment": 2,
+          "offset": 0,
+          "group": 1,
+          "type_index": 528
+        }
+      }
+    ],
+    "_arena_cursor": [
+      {
+        "slot": 211,
+        "source": "src/link/arena_snapshot_state.c",
+        "actual_COMDEF": {
+          "name": "_arena_cursor",
+          "type_index": 228,
+          "datatype": 98,
+          "count": 4,
+          "element_bytes": 1,
+          "total": 4
+        }
+      }
+    ],
+    "_board": [
+      {
+        "slot": 215,
+        "source": "src/link/board_storage.c",
+        "actual_COMDEF": {
+          "name": "_board",
+          "type_index": 519,
+          "datatype": 98,
+          "count": 480,
+          "element_bytes": 1,
+          "total": 480
+        }
+      }
+    ],
+    "_cursor_colour_9850": [
+      {
+        "slot": 224,
+        "source": "src/link/input_display_state.c",
+        "actual_COMDEF": {
+          "name": "_cursor_colour_9850",
+          "type_index": 129,
+          "datatype": 98,
+          "count": 2,
+          "element_bytes": 1,
+          "total": 2
+        }
+      }
+    ],
+    "_screen_x": [
+      {
+        "slot": 235,
+        "source": "src/link/screen_coordinate_pointer_state.c",
+        "actual_COMDEF": {
+          "name": "_screen_x",
+          "type_index": 161,
+          "datatype": 98,
+          "count": 2,
+          "element_bytes": 1,
+          "total": 2
+        }
+      }
+    ],
+    "_screen_y": [
+      {
+        "slot": 235,
+        "source": "src/link/screen_coordinate_pointer_state.c",
+        "actual_COMDEF": {
+          "name": "_screen_y",
+          "type_index": 161,
+          "datatype": 98,
+          "count": 2,
+          "element_bytes": 1,
+          "total": 2
+        }
+      }
+    ],
+    "_current_side": [
+      {
+        "slot": 239,
+        "source": "src/link/side_history_state.c",
+        "actual_COMDEF": {
+          "name": "_current_side",
+          "type_index": 129,
+          "datatype": 98,
+          "count": 2,
+          "element_bytes": 1,
+          "total": 2
+        }
+      }
+    ],
+    "_cursor_actor_57d0": [
+      {
+        "slot": 242,
+        "source": "src/link/cursor_actor_index.c",
+        "actual_COMDEF": {
+          "name": "_cursor_actor_57d0",
+          "type_index": 129,
+          "datatype": 98,
+          "count": 2,
+          "element_bytes": 1,
+          "total": 2
+        }
+      }
+    ],
+    "_pointer_x": [
+      {
+        "slot": 245,
+        "source": "src/link/ui_animation_scalars.c",
+        "actual_COMDEF": {
+          "name": "_pointer_x",
+          "type_index": 129,
+          "datatype": 98,
+          "count": 2,
+          "element_bytes": 1,
+          "total": 2
+        }
+      }
+    ],
+    "_pointer_y": [
+      {
+        "slot": 245,
+        "source": "src/link/ui_animation_scalars.c",
+        "actual_COMDEF": {
+          "name": "_pointer_y",
+          "type_index": 129,
+          "datatype": 98,
+          "count": 2,
+          "element_bytes": 1,
+          "total": 2
+        }
+      }
+    ],
+    "_cells": [
+      {
+        "slot": 263,
+        "source": "src/data/cells_1166.c",
+        "PUBLIC": {
+          "name": "_cells",
+          "segment": 2,
+          "offset": 0,
+          "group": 1,
+          "type_index": 516
+        }
+      }
+    ],
+    "_actors": [
+      {
+        "slot": 264,
+        "source": "src/data/actors_05e0.c",
+        "PUBLIC": {
+          "name": "_actors",
+          "segment": 2,
+          "offset": 0,
+          "group": 1,
+          "type_index": 525
+        }
+      }
+    ]
+  },
+  "unprovided_views": [
+    "_actor_map",
+    "_clear_board_question_4c12",
+    "_cursor_frames_820e",
+    "_editor_piece_map_004c",
+    "_menus",
+    "_no_actor_message_4c00",
+    "_palette_kinds_0f01",
+    "_row_mask_9230",
+    "__chkstk"
+  ],
+  "FAR_provider_unit": {
+    "id": "draw_fce8",
+    "language": "c",
+    "backend": "msc500-omf",
+    "source": "src/display_command_context_match.c",
+    "symbol": "_draw_fce8",
+    "image_offset": "0xfce8",
+    "code_address": {
+      "segment": 4031,
+      "offset": 248
+    },
+    "size": 102,
+    "flags": [
+      "/AM",
+      "/Gs",
+      "/Zi"
+    ],
+    "externals": {
+      "_board": 43194,
+      "_cells": 4454,
+      "_kind_map": 3840,
+      "_row_mask_9230": 37424,
+      "_command_words_8d2c": 36140,
+      "_cursor_column_0086": 134,
+      "_cursor_row_0088": 136
+    },
+    "rea_evidence": "build/clear-display-fbf6/rea-next.json",
+    "boundary_evidence": "Complete contiguous originalnativeFCE8..FD4D102; exactfreshwholeWORDCODE102/CV102 at evenanchor,4actualDSfields/MZ0/fourbases. voidfar(int) actualcalleeCS0FBF:F8; registerrow,column loops plusconsumedBytecell nativeframe6, no unreadlocals or padding. Reads64packedcells and setsrow masks; sourcehistoricalnames/grouping unknown. Naturalclear242+draw102 whole344exact in sameflags separatelyproved.",
+    "compiler_source_name": "DISPLAY.C"
+  },
+  "FAR_frame": "0FBF:00F8 realvoidfar(int), not Ghidra loaded1FBF alias",
+  "native_ABI": "nearvoid(void), AX24 stackprobe then PUSH DI/SI, BP frameSS, saved state and consumed stack variables retained; nearRET/no args. One far(void,int) call nativeD28, ADDSP2 atD2D; current caller contracts genuine nearvoid(void).",
+  "actual_native_primary_callers": [
+    {
+      "address": "0x17e6b",
+      "name": "FUN_1000_7e6b",
+      "classification": {
+        "external": false,
+        "thunk": false,
+        "thunk_target": null,
+        "provenance": "ghidra-function-manager"
+      },
+      "body": {
+        "available": true,
+        "provenance": "ghidra-function-body-address-set",
+        "ranges": [
+          {
+            "start": "0x17e6b",
+            "end": "0x17fec"
+          },
+          {
+            "start": "0x18011",
+            "end": "0x18019"
+          }
+        ],
+        "total_bytes": 395,
+        "span_bytes": 431,
+        "non_contiguous": true,
+        "contains_entry": true
+      }
+    }
+  ],
+  "physical_extent_qualification": {
+    "status": "BOUNDED_PHYSICAL_EXTENT_DERIVED_NOT_GHIDRA_CONTIGUOUS_BODY",
+    "physical_interval": [
+      2270,
+      3438
+    ],
+    "physical_bytes": 1168,
+    "live_REA_body": {
+      "available": true,
+      "provenance": "ghidra-function-body-address-set",
+      "ranges": [
+        {
+          "start": "0x108de",
+          "end": "0x10d38"
+        },
+        {
+          "start": "0x10d3b",
+          "end": "0x10d6d"
+        }
+      ],
+      "total_bytes": 1166,
+      "span_bytes": 1168,
+      "non_contiguous": true,
+      "contains_entry": true
+    },
+    "carrier_load_normalization": {
+      "load_paragraph": 4096,
+      "only_native_MZ": [
+        3371
+      ],
+      "carrier_word": 8127,
+      "native_word": 4031
+    },
+    "gap_interval": [
+      3385,
+      3387
+    ],
+    "gap_bytes": "eb2a",
+    "gap_decode_analyst": "JMP SHORT D65; relative8 42, D39+2+42=D65",
+    "adjacent_live_jump": "D37 EB2C to same D65, no fallthrough to D39",
+    "following_dispatch": "D3B CMP AX,1002 switches, all retained branch targets bypass D39",
+    "REA_exact_instruction": "ev_1552c2ef38cdfb912525faf1c06527c784e98b66dbc3b04c58315ce744d6af09",
+    "REA_exact_outcome": "undecodable / no analyzed procedure; no forced disassembly or database mutation performed",
+    "REA_xrefs": "ev_a23b297965c4eb4140cb41189e8745ad632a690ec23e67e0a3085e6a0cc27772",
+    "REA_analyzed_incoming_gap": [],
+    "gap_ownership": "No analyzed owner or incoming reference. A physical reconstruction can explicitly retain the real dead-JMP instruction inside the chosen span; original compiler/TU ownership and unreachable indirect entry are not proved. Do not pretend Ghidra body contiguous1168.",
+    "all_physical_instructions": 392,
+    "native_MZ": [
+      3371
+    ],
+    "current504_native_overlap": [],
+    "C_negative": {
+      "classification": "bounded genuineC board editor reconstruction; one raw operand mismatch, zeroCcredit",
+      "original_boundary_problem": "Originalanalysis303entryendsmid-huge-copyloopandfalseA0D/D3B entriesusecallerBP/AX. Expandedcompletebody covers1166live bytes with2deadbytesD39 EB2A->D65 immediatelyafterliveD37 EB2C->D65; gapproviderdecode/globalxrefs/falsefarreferences stillneedreviewbeforeanyextentcredit.",
+      "credit": 0
+    },
+    "future_profile_requirement": "closed physical1168 raw span + exact noncontiguous1166 body primary + one explicit derived EB2A gap instruction. No generic extent waiver/no NOP/filler/no historical language claim. Parent review before source/GEN.",
+    "no_compiler_assembler_LINK_or_canonical_change": true
+  },
+  "C_negative_held": "bounded genuineC board editor reconstruction; one raw operand mismatch, zeroCcredit",
+  "all_missing_views_are_declared_only": "No aliases/new provider storage; actors+896/+907/+916 and+20 are real member/element addends on sole_actors provider; board+1 same realboard member; cursor_frames realcurrentview retained"
+}

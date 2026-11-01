@@ -1,0 +1,506 @@
+{
+  "role": "editormap7",
+  "status": "COMPLETE",
+  "error": null,
+  "guard_closed": true,
+  "preparation_freeze_sha256": "d2af0a3c90587d284ff8d1cdd1c4162a0c4f6ed6938c39c5a3a3550397e7dda8",
+  "driver_sha256": "196c5f0d3e15a28dc4e3db70447ff366be1dd395ad282ffc966474041c0e567f",
+  "source_sha256": "9cf4b750d650f7da899962ffff91f14816835bf297d8fef83d6a021f35d737c6",
+  "compiler": "msc500",
+  "flags": [
+    "/AS",
+    "/Zl",
+    "/Zi"
+  ],
+  "source_name": "UNIT.C",
+  "toolchain_manifest_sha256": "d2889507d0729b9d09fb92015fedccbb533c368d428c1612781c3ff980f00a82",
+  "tool_hashes": {
+    "CL.ERR": "b153605db3fbc0fa79e2f0d2ad5d814fbb70bfbebc1dbc0d2ed614194666621a",
+    "CL.EXE": "11e3c7d53b3efc085b7ad90c2190a1ddb395c8874f57aef3a5cfc0a4a0a0f504",
+    "C1.EXE": "3ef764476cb56dd14ae3c955a0b7717976d3b40f862fdff675ec8c6adc0ed791",
+    "C1.ERR": "dd02a004e8912c96b90a5b3317dcfeed6f9e76374edfd90979705035c8097233",
+    "C2.EXE": "19fbe7914ba6ebe929a0e98e012fd5e8522643e5e40b6fcd89bef0e5f650f1f1",
+    "C3.EXE": "ca4d82b90423086e68eb8d3af8f1c1c1034f164d0a0b98530c3b3a0fb0501669",
+    "C23.ERR": "75132883ac6507cccaa7d7105df6492f511ba029e4a12ee4a1fcc989517bfd18"
+  },
+  "actual_C5_calls": 1,
+  "calls": [
+    {
+      "pid": 1056959,
+      "argv": [
+        "/usr/bin/dosbox",
+        "-conf",
+        "/home/kierzo/chess/matching/build/reset-editormap7-one-C5-root-actual/scratch/dosbox.conf",
+        "-noconsole"
+      ],
+      "command": [
+        "T:\\CL.EXE",
+        "/c",
+        "/AS",
+        "/Zl",
+        "/Zi",
+        "/FoC:\\UNIT.OBJ",
+        "C:\\UNIT.C"
+      ],
+      "terminal": true,
+      "reaped": true,
+      "returncode": 0,
+      "stdout": "DOSBox version 0.74-3\nCopyright 2002-2019 DOSBox Team, published under GNU GPL.\n---\nCONFIG:Loading primary settings from config file /home/kierzo/chess/matching/build/reset-editormap7-one-C5-root-actual/scratch/dosbox.conf\nMIXER:No Sound Mode Selected.\nALSA:Can't subscribe to MIDI port (65:0) nor (17:0)\nMIDI:Opened device:none\nTwo or more joysticks reported, initializing with 2axis\nUsing joystick Generic X-Box pad with 6 axes, 11 buttons and 1 hat(s)\nUsing joystick Xbox 360 Controller with 6 axes, 11 buttons and 1 hat(s)\nSHELL:Redirect output to C:\\COMPILE.LOG\nSHELL:Redirect output to C:\\SUCCESS.TXT\n",
+      "stderr": ""
+    }
+  ],
+  "stage_once_claim": "/home/kierzo/chess/matching/build/reset-editormap7-one-C5-root-actual/editormap7-one-C5.claim",
+  "stage_once_claim_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "root_release_sha256": "52d1b76b80f53873d13334c7c752c79c72d94765aa93c68d1592619d79b9149f",
+  "raw_whole_object_sha256": "75bde046c033f39655a79709a468399b4471f35c111c4793451f3918761e61e9",
+  "allowed_reads": {
+    "/home/kierzo/chess/matching/build/reset-three-DATA45-kind-map-view-four-controls-preparation/editor_piece_map_004c.c": "9cf4b750d650f7da899962ffff91f14816835bf297d8fef83d6a021f35d737c6",
+    "/usr/bin/dosbox": "2a1cafe5dbbe7c4c1ab957756c2135435087ee8fb5d1f7bbe4bd29cb02c30477",
+    "/home/kierzo/chess/matching/toolchains/msc500/CL.ERR": "b153605db3fbc0fa79e2f0d2ad5d814fbb70bfbebc1dbc0d2ed614194666621a",
+    "/home/kierzo/chess/matching/toolchains/msc500/CL.EXE": "11e3c7d53b3efc085b7ad90c2190a1ddb395c8874f57aef3a5cfc0a4a0a0f504",
+    "/home/kierzo/chess/matching/toolchains/msc500/C1.EXE": "3ef764476cb56dd14ae3c955a0b7717976d3b40f862fdff675ec8c6adc0ed791",
+    "/home/kierzo/chess/matching/toolchains/msc500/C1.ERR": "dd02a004e8912c96b90a5b3317dcfeed6f9e76374edfd90979705035c8097233",
+    "/home/kierzo/chess/matching/toolchains/msc500/C2.EXE": "19fbe7914ba6ebe929a0e98e012fd5e8522643e5e40b6fcd89bef0e5f650f1f1",
+    "/home/kierzo/chess/matching/toolchains/msc500/C3.EXE": "ca4d82b90423086e68eb8d3af8f1c1c1034f164d0a0b98530c3b3a0fb0501669",
+    "/home/kierzo/chess/matching/toolchains/msc500/C23.ERR": "75132883ac6507cccaa7d7105df6492f511ba029e4a12ee4a1fcc989517bfd18",
+    "/home/kierzo/chess/matching/toolchains/msc500/manifest.json": "d2889507d0729b9d09fb92015fedccbb533c368d428c1612781c3ff980f00a82",
+    "/home/kierzo/chess/matching/config/msc500.json": "2e7ca2bc19d665b35f60e651b65f536d1f35e94d8af8463600d5d30500f01d66"
+  },
+  "reads": [
+    {
+      "path": "/home/kierzo/chess/matching/build/reset-three-DATA45-kind-map-view-four-controls-preparation/editor_piece_map_004c.c",
+      "api": "Path.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/reset-three-DATA45-kind-map-view-four-controls-preparation/editor_piece_map_004c.c",
+      "api": "io.open"
+    },
+    {
+      "path": "/usr/bin/dosbox",
+      "api": "Path.open"
+    },
+    {
+      "path": "/usr/bin/dosbox",
+      "api": "io.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/toolchains/msc500/CL.ERR",
+      "api": "Path.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/toolchains/msc500/CL.ERR",
+      "api": "io.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/toolchains/msc500/CL.EXE",
+      "api": "Path.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/toolchains/msc500/CL.EXE",
+      "api": "io.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/toolchains/msc500/C1.EXE",
+      "api": "Path.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/toolchains/msc500/C1.EXE",
+      "api": "io.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/toolchains/msc500/C1.ERR",
+      "api": "Path.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/toolchains/msc500/C1.ERR",
+      "api": "io.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/toolchains/msc500/C2.EXE",
+      "api": "Path.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/toolchains/msc500/C2.EXE",
+      "api": "io.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/toolchains/msc500/C3.EXE",
+      "api": "Path.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/toolchains/msc500/C3.EXE",
+      "api": "io.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/toolchains/msc500/C23.ERR",
+      "api": "Path.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/toolchains/msc500/C23.ERR",
+      "api": "io.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/toolchains/msc500/manifest.json",
+      "api": "Path.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/toolchains/msc500/manifest.json",
+      "api": "io.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/config/msc500.json",
+      "api": "Path.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/config/msc500.json",
+      "api": "io.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/reset-three-DATA45-kind-map-view-four-controls-preparation/editor_piece_map_004c.c",
+      "api": "Path.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/reset-three-DATA45-kind-map-view-four-controls-preparation/editor_piece_map_004c.c",
+      "api": "io.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/reset-editormap7-one-C5-root-actual/scratch/COMPILE.LOG",
+      "api": "Path.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/reset-editormap7-one-C5-root-actual/scratch/COMPILE.LOG",
+      "api": "io.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/reset-editormap7-one-C5-root-actual/scratch/UNIT.OBJ",
+      "api": "Path.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/reset-editormap7-one-C5-root-actual/scratch/UNIT.OBJ",
+      "api": "io.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/reset-three-DATA45-kind-map-view-four-controls-preparation/editor_piece_map_004c.c",
+      "api": "Path.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/reset-three-DATA45-kind-map-view-four-controls-preparation/editor_piece_map_004c.c",
+      "api": "io.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/reset-three-DATA45-kind-map-view-four-controls-preparation/editor_piece_map_004c.c",
+      "api": "Path.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/reset-three-DATA45-kind-map-view-four-controls-preparation/editor_piece_map_004c.c",
+      "api": "io.open"
+    },
+    {
+      "path": "/usr/bin/dosbox",
+      "api": "Path.open"
+    },
+    {
+      "path": "/usr/bin/dosbox",
+      "api": "io.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/toolchains/msc500/CL.ERR",
+      "api": "Path.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/toolchains/msc500/CL.ERR",
+      "api": "io.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/toolchains/msc500/CL.EXE",
+      "api": "Path.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/toolchains/msc500/CL.EXE",
+      "api": "io.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/toolchains/msc500/C1.EXE",
+      "api": "Path.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/toolchains/msc500/C1.EXE",
+      "api": "io.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/toolchains/msc500/C1.ERR",
+      "api": "Path.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/toolchains/msc500/C1.ERR",
+      "api": "io.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/toolchains/msc500/C2.EXE",
+      "api": "Path.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/toolchains/msc500/C2.EXE",
+      "api": "io.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/toolchains/msc500/C3.EXE",
+      "api": "Path.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/toolchains/msc500/C3.EXE",
+      "api": "io.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/toolchains/msc500/C23.ERR",
+      "api": "Path.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/toolchains/msc500/C23.ERR",
+      "api": "io.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/toolchains/msc500/manifest.json",
+      "api": "Path.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/toolchains/msc500/manifest.json",
+      "api": "io.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/config/msc500.json",
+      "api": "Path.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/config/msc500.json",
+      "api": "io.open"
+    }
+  ],
+  "writes": [
+    {
+      "path": "/home/kierzo/chess/matching/build/reset-editormap7-one-C5-root-actual/scratch/UNIT.C",
+      "api": "Path.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/reset-editormap7-one-C5-root-actual/scratch/UNIT.C",
+      "api": "io.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/reset-editormap7-one-C5-root-actual/scratch/BUILD.BAT",
+      "api": "Path.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/reset-editormap7-one-C5-root-actual/scratch/BUILD.BAT",
+      "api": "io.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/reset-editormap7-one-C5-root-actual/scratch/dosbox.conf",
+      "api": "Path.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/reset-editormap7-one-C5-root-actual/scratch/dosbox.conf",
+      "api": "io.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/reset-editormap7-one-C5-root-actual/scratch/DOSBOX.STDOUT.bin",
+      "api": "Path.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/reset-editormap7-one-C5-root-actual/scratch/DOSBOX.STDOUT.bin",
+      "api": "io.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/reset-editormap7-one-C5-root-actual/scratch/DOSBOX.STDERR.bin",
+      "api": "Path.open"
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/reset-editormap7-one-C5-root-actual/scratch/DOSBOX.STDERR.bin",
+      "api": "io.open"
+    }
+  ],
+  "blocked_probes": [
+    {
+      "path": "/home/kierzo/chess/CHESS.EXE",
+      "api": "Path.open",
+      "write": false
+    },
+    {
+      "path": "/home/kierzo/chess/CHESS.EXE",
+      "api": "io.open",
+      "write": false
+    },
+    {
+      "path": "/home/kierzo/chess/CHESS.EXE",
+      "api": "builtins.open",
+      "write": false
+    },
+    {
+      "path": "/home/kierzo/chess/CHESS.EXE",
+      "api": "os.open",
+      "write": false
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/exepack/TRIM5_UNPACK.EXE",
+      "api": "Path.open",
+      "write": false
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/exepack/TRIM5_UNPACK.EXE",
+      "api": "io.open",
+      "write": false
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/exepack/TRIM5_UNPACK.EXE",
+      "api": "builtins.open",
+      "write": false
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/exepack/TRIM5_UNPACK.EXE",
+      "api": "os.open",
+      "write": false
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/save-cc72-authored610-one-MASM-root-actual-v2/scratch/UNIT.OBJ",
+      "api": "Path.open",
+      "write": false
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/save-cc72-authored610-one-MASM-root-actual-v2/scratch/UNIT.OBJ",
+      "api": "io.open",
+      "write": false
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/save-cc72-authored610-one-MASM-root-actual-v2/scratch/UNIT.OBJ",
+      "api": "builtins.open",
+      "write": false
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/save-cc72-authored610-one-MASM-root-actual-v2/scratch/UNIT.OBJ",
+      "api": "os.open",
+      "write": false
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/reset-three-DATA45-kind-map-view-four-controls-preparation/control-spec.json",
+      "api": "Path.open",
+      "write": false
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/reset-three-DATA45-kind-map-view-four-controls-preparation/control-spec.json",
+      "api": "io.open",
+      "write": false
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/reset-three-DATA45-kind-map-view-four-controls-preparation/control-spec.json",
+      "api": "builtins.open",
+      "write": false
+    },
+    {
+      "path": "/home/kierzo/chess/matching/build/reset-three-DATA45-kind-map-view-four-controls-preparation/control-spec.json",
+      "api": "os.open",
+      "write": false
+    },
+    {
+      "path": "/home/kierzo/chess/matching/config/units.json",
+      "api": "Path.open",
+      "write": false
+    },
+    {
+      "path": "/home/kierzo/chess/matching/config/units.json",
+      "api": "io.open",
+      "write": false
+    },
+    {
+      "path": "/home/kierzo/chess/matching/config/units.json",
+      "api": "builtins.open",
+      "write": false
+    },
+    {
+      "path": "/home/kierzo/chess/matching/config/units.json",
+      "api": "os.open",
+      "write": false
+    }
+  ],
+  "distinct_forbidden_probe_paths": [
+    "/home/kierzo/chess/CHESS.EXE",
+    "/home/kierzo/chess/matching/build/exepack/TRIM5_UNPACK.EXE",
+    "/home/kierzo/chess/matching/build/reset-three-DATA45-kind-map-view-four-controls-preparation/control-spec.json",
+    "/home/kierzo/chess/matching/build/save-cc72-authored610-one-MASM-root-actual-v2/scratch/UNIT.OBJ",
+    "/home/kierzo/chess/matching/config/units.json"
+  ],
+  "FIFO_observations": [
+    {
+      "fd": 3,
+      "api": "io.open",
+      "kind": "FIFO"
+    },
+    {
+      "fd": 5,
+      "api": "io.open",
+      "kind": "FIFO"
+    },
+    {
+      "fd": 7,
+      "api": "os.read",
+      "kind": "FIFO"
+    },
+    {
+      "fd": 3,
+      "api": "os.read",
+      "kind": "FIFO"
+    },
+    {
+      "fd": 3,
+      "api": "os.read",
+      "kind": "FIFO"
+    },
+    {
+      "fd": 5,
+      "api": "os.read",
+      "kind": "FIFO"
+    }
+  ],
+  "runtime_prewarmed_before_GEN": {
+    "tempdir": "/tmp",
+    "locale": "UTF-8",
+    "utf8_codec": "utf-8",
+    "cp437_codec": "cp437"
+  },
+  "scratch_inventory": {
+    "BUILD.BAT": {
+      "size": 215,
+      "sha256": "70697395d26629ce15520d7b076002d1abfb9b88387778d0fa7b186c9befa706"
+    },
+    "COMPILE.LOG": {
+      "size": 11,
+      "sha256": "898347187fe4b70ce615f21a6e4a8fab5fe2ed08c1641025bc6e40c774e38dc0"
+    },
+    "DOSBOX.STDERR.bin": {
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "DOSBOX.STDOUT.bin": {
+      "size": 607,
+      "sha256": "c890a59d849c396ee436c25ac76ad1af81d2825b8d92e08ace4875ac33321031"
+    },
+    "SUCCESS.TXT": {
+      "size": 9,
+      "sha256": "2728816679bc1bf75a02b5dd2100085783b3686793b4029186793a0dfcc1e410"
+    },
+    "UNIT.C": {
+      "size": 58,
+      "sha256": "9cf4b750d650f7da899962ffff91f14816835bf297d8fef83d6a021f35d737c6"
+    },
+    "UNIT.OBJ": {
+      "size": 302,
+      "sha256": "75bde046c033f39655a79709a468399b4471f35c111c4793451f3918761e61e9"
+    },
+    "dosbox.conf": {
+      "size": 280,
+      "sha256": "7a2c21ceaa649efe84aaa72b6f7ba844256dbe29a595fc362e61272da99736a5"
+    }
+  },
+  "source_tools_new_scratch_only": true,
+  "native_original_oldOBJ_comparison_inputs_inside_GEN": false,
+  "source_variants_retries_patches_LINK_canonical_changes": false,
+  "credit": 0
+}

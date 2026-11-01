@@ -1,0 +1,4 @@
+Additional candidates should preserve the independently observed 20-byte
+record stride and accesses at offsets 0,4,8,10,12,14,16. Existing earlier
+controls already tested int far, int huge, and byte huge pointer fields.
+No inferred unused eight-byte object is justified solely by SUB SP,12.

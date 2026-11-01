@@ -1,0 +1,34 @@
+{
+  "id": "begin_end_input_code180",
+  "language": "asm-code",
+  "backend": "masm510-begin-end-input-code-omf",
+  "object_profile": "begin_end_input_66instructions_180",
+  "source": "asm/link/begin_end_input180.asm",
+  "source_sha256": "97c89b5287e3dd901129dc993bfafe30632ada05aaedb73359a3236898247162",
+  "assembler_sha256": "1c6286c69b616160b8475ad17453ee872702a2c98075c2159ec792a1c745275f",
+  "public_symbols": [
+    "_begin_input_0fb0",
+    "_end_input_102d"
+  ],
+  "image_offset": "0xfb0",
+  "size": 180,
+  "externals": {
+    "__chkstk": 60586,
+    "_outline_square_543a": 21562,
+    "_detach_actor": 16201,
+    "_cursor_square_0efc": 3836,
+    "_selected_square_0efa": 3834,
+    "_waiting_0eee": 3822,
+    "_menu_enabled_0ef0": 3824,
+    "_cursor_kind_0ef4": 3828,
+    "_cursor_actor_57d0": 22480,
+    "_actors": 1504,
+    "_saved_cursor_8d0a": 36106,
+    "_actor_flag_9374": 37748,
+    "_input_mode_984e": 38990,
+    "_input_flag_8fe0": 36832
+  },
+  "rea_evidence": "evidence/rea_newinput_begin_0fb0.json",
+  "reference_region": "unchanged-prefix",
+  "boundary_evidence": "Whole180 mnemonic CODE, 66instructions, two native PUBLIC entries0/125, 34actual fields (28DGROUP/6nearCALL), nativeMZ0/fourbases. Original Ghidra omitted1012 final operand byte; independent expanded125/body44instructions and original raw bytes cover it. Natural Cframe0/native4 remains UNRESOLVED. Four saved BYTE globals remain unprovided; historical ASM/TU/C-unrepresentability unproved. Zero C and ASM-function credit."
+}

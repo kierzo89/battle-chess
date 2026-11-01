@@ -1,0 +1,1271 @@
+{
+  "object_sha256": "608785b1e941c71be9da039f6ffed25b4638e5ca0db556844edbe8a30a699ea9",
+  "source_sha256": "a6259b975484d87c5a53360c9dc1d3f75ca49fe3d45a8bb6f05e2c0e216892f5",
+  "object_snapshot": {
+    "records": [
+      {
+        "kind": 128,
+        "offset": 0,
+        "payload_hex": "09433a5c554e49542e43"
+      },
+      {
+        "kind": 136,
+        "offset": 14,
+        "payload_hex": "00004d532043"
+      },
+      {
+        "kind": 136,
+        "offset": 24,
+        "payload_hex": "009f534c49424345"
+      },
+      {
+        "kind": 136,
+        "offset": 36,
+        "payload_hex": "009d30734f"
+      },
+      {
+        "kind": 136,
+        "offset": 45,
+        "payload_hex": "00a1014356"
+      },
+      {
+        "kind": 150,
+        "offset": 54,
+        "payload_hex": "00064447524f5550055f5445585404434f4445055f44415441044441544105434f4e5354045f4253530342535307242454595045530644454254595009242453594d424f4c530644454253594d"
+      },
+      {
+        "kind": 152,
+        "offset": 135,
+        "payload_hex": "48d000030401"
+      },
+      {
+        "kind": 152,
+        "offset": 145,
+        "payload_hex": "480000050601"
+      },
+      {
+        "kind": 152,
+        "offset": 155,
+        "payload_hex": "480000070701"
+      },
+      {
+        "kind": 152,
+        "offset": 165,
+        "payload_hex": "480000080901"
+      },
+      {
+        "kind": 152,
+        "offset": 175,
+        "payload_hex": "2010010c0d01"
+      },
+      {
+        "kind": 152,
+        "offset": 185,
+        "payload_hex": "201a010a0b01"
+      },
+      {
+        "kind": 154,
+        "offset": 195,
+        "payload_hex": "02ff03ff04ff02"
+      },
+      {
+        "kind": 156,
+        "offset": 206,
+        "payload_hex": "000301020201030440014501"
+      },
+      {
+        "kind": 140,
+        "offset": 222,
+        "payload_hex": "0a5f5f616372747573656401145f646563696d616c5f6469676974735f35646361821a095f5f614e756c64697600095f5f614e756c72656d000e5f6576656e745f636f6e74657874820d0e5f63757272656e745f6576656e74820e105f6e6578745f6576656e745f31383464820f0a5f657869745f3037663382150a5f706f696e7465725f7880810a5f706f696e7465725f798081155f776169745f657869745f6576656e745f356434388213185f776169745f706f696e7465725f6576656e745f356437618215"
+      },
+      {
+        "kind": 144,
+        "offset": 426,
+        "payload_hex": "0001145f646563696d616c5f6469676974735f356463618200821a155f776169745f657869745f6576656e745f3564343800008213185f776169745f706f696e7465725f6576656e745f3564376132008215"
+      },
+      {
+        "kind": 136,
+        "offset": 512,
+        "payload_hex": "00a201"
+      },
+      {
+        "kind": 160,
+        "offset": 519,
+        "payload_hex": "05000023010000130200000000000000000014776169745f657869745f6576656e745f35643438"
+      },
+      {
+        "kind": 156,
+        "offset": 562,
+        "payload_hex": "c402560b"
+      },
+      {
+        "kind": 160,
+        "offset": 570,
+        "payload_hex": "010000558bec83ec02"
+      },
+      {
+        "kind": 160,
+        "offset": 583,
+        "payload_hex": "0524000500060000000a04feff810004646f6e65"
+      },
+      {
+        "kind": 156,
+        "offset": 607,
+        "payload_hex": "c402560b"
+      },
+      {
+        "kind": 160,
+        "offset": 615,
+        "payload_hex": "010600c746fe00008b1e0000ff770ae8000083c402a300008bd8837f04017505c746fe0100837efe0074dd"
+      },
+      {
+        "kind": 156,
+        "offset": 662,
+        "payload_hex": "c4135606840d5607c4075605"
+      },
+      {
+        "kind": 160,
+        "offset": 678,
+        "payload_hex": "0535000102"
+      },
+      {
+        "kind": 160,
+        "offset": 687,
+        "payload_hex": "0528002800"
+      },
+      {
+        "kind": 160,
+        "offset": 696,
+        "payload_hex": "012e008be55dc3"
+      },
+      {
+        "kind": 160,
+        "offset": 707,
+        "payload_hex": "050000230100001302320006002e0000000014776169745f657869745f6576656e745f35643438"
+      },
+      {
+        "kind": 156,
+        "offset": 750,
+        "payload_hex": "c402560b"
+      },
+      {
+        "kind": 160,
+        "offset": 758,
+        "payload_hex": "0537000102260100001502320006002e0000000017776169745f706f696e7465725f6576656e745f35643761"
+      },
+      {
+        "kind": 156,
+        "offset": 806,
+        "payload_hex": "c404560c"
+      },
+      {
+        "kind": 160,
+        "offset": 814,
+        "payload_hex": "013200558bec83ec02"
+      },
+      {
+        "kind": 160,
+        "offset": 827,
+        "payload_hex": "0560000500060000000a04feff810004646f6e65"
+      },
+      {
+        "kind": 156,
+        "offset": 851,
+        "payload_hex": "c402560c"
+      },
+      {
+        "kind": 160,
+        "offset": 859,
+        "payload_hex": "013800c746fe00008b1e0000ff770ae8000083c402a300008bd8837f04017503e800008b1e0000833f057517837f020075118b4708a300008b470aa30000c746fe0100837efe0074bf"
+      },
+      {
+        "kind": 156,
+        "offset": 936,
+        "payload_hex": "c439560ac4335609c4225606841e5608c4135606840d5607c4075605"
+      },
+      {
+        "kind": 160,
+        "offset": 968,
+        "payload_hex": "0571000102"
+      },
+      {
+        "kind": 160,
+        "offset": 977,
+        "payload_hex": "0564004600"
+      },
+      {
+        "kind": 160,
+        "offset": 986,
+        "payload_hex": "017e008be55dc3"
+      },
+      {
+        "kind": 160,
+        "offset": 997,
+        "payload_hex": "053900260100001502500038007e0000000017776169745f706f696e7465725f6576656e745f35643761"
+      },
+      {
+        "kind": 156,
+        "offset": 1043,
+        "payload_hex": "c402560c"
+      },
+      {
+        "kind": 160,
+        "offset": 1051,
+        "payload_hex": "0573000102220100001a02820038007e0000000013646563696d616c5f6469676974735f35646361"
+      },
+      {
+        "kind": 156,
+        "offset": 1095,
+        "payload_hex": "c4045602"
+      },
+      {
+        "kind": 160,
+        "offset": 1103,
+        "payload_hex": "018200558bec"
+      },
+      {
+        "kind": 160,
+        "offset": 1113,
+        "payload_hex": "0598000500030000000b04040086000576616c756511040800a0000b64657374696e6174696f6e"
+      },
+      {
+        "kind": 156,
+        "offset": 1156,
+        "payload_hex": "c4025602"
+      },
+      {
+        "kind": 160,
+        "offset": 1164,
+        "payload_hex": "0185008b46040b460675088b5e08c60730eb36ff7608b80a00995250ff7606ff7604e800005250e8d6ff83c406894608b80a00995250ff7606ff7604e8000004308b5e08ff460888078b4608"
+      },
+      {
+        "kind": 156,
+        "offset": 1244,
+        "payload_hex": "843a560484205603"
+      },
+      {
+        "kind": 160,
+        "offset": 1256,
+        "payload_hex": "05bc000102"
+      },
+      {
+        "kind": 160,
+        "offset": 1265,
+        "payload_hex": "059c004900"
+      },
+      {
+        "kind": 160,
+        "offset": 1274,
+        "payload_hex": "01ce005dc3"
+      },
+      {
+        "kind": 160,
+        "offset": 1283,
+        "payload_hex": "057500220100001a024e008500ce0000000013646563696d616c5f6469676974735f35646361"
+      },
+      {
+        "kind": 156,
+        "offset": 1325,
+        "payload_hex": "c4025602"
+      },
+      {
+        "kind": 160,
+        "offset": 1333,
+        "payload_hex": "05be000102"
+      },
+      {
+        "kind": 148,
+        "offset": 1342,
+        "payload_hex": "00010c0000000e0006000f000b0010002e00120032001400380016003d0017004d0018005800190078001a007e001c0082001d0085001e0095001f00cb00"
+      },
+      {
+        "kind": 160,
+        "offset": 1408,
+        "payload_hex": "05c0001505000000000d020d6576656e745f636f6e746578741505000000000e020d63757272656e745f6576656e74110500000000810009706f696e7465725f78110500000000810009706f696e7465725f79"
+      },
+      {
+        "kind": 156,
+        "offset": 1495,
+        "payload_hex": "cc40560acc2e5609cc185606cc025605"
+      },
+      {
+        "kind": 160,
+        "offset": 1515,
+        "payload_hex": "0600000101008001010080010100800105007840838100010e007985a000078305028306028200690116007f8381008381008381008381008381008381008303020139007f82046b696e6488008204636f64658802820673746174757388048208726573657276656488068201788808820179880a820464617461880c010100800105007850838100010c00796002830a02830b028200690107007f8308028381000113007f8205776f726473880082057175657565880a010100800107007a7483090282000107007a7483040282000101008001010080010100800101008001080075808163008302020101008001080075808163008302020101008001010080010100800107007f83860083a000010a00758083a0006302831902"
+      },
+      {
+        "kind": 138,
+        "offset": 1804,
+        "payload_hex": "00"
+      }
+    ],
+    "names": [
+      "",
+      "",
+      "DGROUP",
+      "_TEXT",
+      "CODE",
+      "_DATA",
+      "DATA",
+      "CONST",
+      "_BSS",
+      "BSS",
+      "$$TYPES",
+      "DEBTYP",
+      "$$SYMBOLS",
+      "DEBSYM"
+    ],
+    "externals": {
+      "1": "__acrtused",
+      "2": "_decimal_digits_5dca",
+      "3": "__aNuldiv",
+      "4": "__aNulrem",
+      "5": "_event_context",
+      "6": "_current_event",
+      "7": "_next_event_184d",
+      "8": "_exit_07f3",
+      "9": "_pointer_x",
+      "10": "_pointer_y",
+      "11": "_wait_exit_event_5d48",
+      "12": "_wait_pointer_event_5d7a"
+    },
+    "publics": {
+      "_decimal_digits_5dca": {
+        "name": "_decimal_digits_5dca",
+        "segment": 1,
+        "offset": 130,
+        "group": 0,
+        "type_index": 538
+      },
+      "_wait_exit_event_5d48": {
+        "name": "_wait_exit_event_5d48",
+        "segment": 1,
+        "offset": 0,
+        "group": 0,
+        "type_index": 531
+      },
+      "_wait_pointer_event_5d7a": {
+        "name": "_wait_pointer_event_5d7a",
+        "segment": 1,
+        "offset": 50,
+        "group": 0,
+        "type_index": 533
+      }
+    },
+    "procedures": {
+      "_wait_exit_event_5d48": {
+        "length": 50,
+        "debug_symbol_offset": 0,
+        "name": "wait_exit_event_5d48",
+        "debug_segment": 5,
+        "relocation_record_offset": 750
+      },
+      "_wait_pointer_event_5d7a": {
+        "length": 80,
+        "debug_symbol_offset": 57,
+        "name": "wait_pointer_event_5d7a",
+        "debug_segment": 5,
+        "relocation_record_offset": 1043
+      },
+      "_decimal_digits_5dca": {
+        "length": 78,
+        "debug_symbol_offset": 117,
+        "name": "decimal_digits_5dca",
+        "debug_segment": 5,
+        "relocation_record_offset": 1325
+      }
+    },
+    "data_writes": [
+      [
+        519,
+        5,
+        0,
+        36
+      ],
+      [
+        570,
+        1,
+        0,
+        6
+      ],
+      [
+        583,
+        5,
+        36,
+        17
+      ],
+      [
+        615,
+        1,
+        6,
+        40
+      ],
+      [
+        678,
+        5,
+        53,
+        2
+      ],
+      [
+        687,
+        5,
+        40,
+        2
+      ],
+      [
+        696,
+        1,
+        46,
+        4
+      ],
+      [
+        707,
+        5,
+        0,
+        36
+      ],
+      [
+        758,
+        5,
+        55,
+        41
+      ],
+      [
+        814,
+        1,
+        50,
+        6
+      ],
+      [
+        827,
+        5,
+        96,
+        17
+      ],
+      [
+        859,
+        1,
+        56,
+        70
+      ],
+      [
+        968,
+        5,
+        113,
+        2
+      ],
+      [
+        977,
+        5,
+        100,
+        2
+      ],
+      [
+        986,
+        1,
+        126,
+        4
+      ],
+      [
+        997,
+        5,
+        57,
+        39
+      ],
+      [
+        1051,
+        5,
+        115,
+        37
+      ],
+      [
+        1103,
+        1,
+        130,
+        3
+      ],
+      [
+        1113,
+        5,
+        152,
+        36
+      ],
+      [
+        1164,
+        1,
+        133,
+        73
+      ],
+      [
+        1256,
+        5,
+        188,
+        2
+      ],
+      [
+        1265,
+        5,
+        156,
+        2
+      ],
+      [
+        1274,
+        1,
+        206,
+        2
+      ],
+      [
+        1283,
+        5,
+        117,
+        35
+      ],
+      [
+        1333,
+        5,
+        190,
+        2
+      ],
+      [
+        1408,
+        5,
+        192,
+        80
+      ],
+      [
+        1515,
+        6,
+        0,
+        282
+      ]
+    ],
+    "segments": {
+      "1": {
+        "index": 1,
+        "length": 208,
+        "name_index": 3,
+        "class_index": 4,
+        "overlay_index": 1,
+        "attributes": 72,
+        "unsupported_data": false,
+        "name": "_TEXT",
+        "class_name": "CODE",
+        "chunks": [
+          [
+            0,
+            "558bec83ec02"
+          ],
+          [
+            6,
+            "c746fe00008b1e0000ff770ae8000083c402a300008bd8837f04017505c746fe0100837efe0074dd"
+          ],
+          [
+            46,
+            "8be55dc3"
+          ],
+          [
+            50,
+            "558bec83ec02"
+          ],
+          [
+            56,
+            "c746fe00008b1e0000ff770ae8000083c402a300008bd8837f04017503e800008b1e0000833f057517837f020075118b4708a300008b470aa30000c746fe0100837efe0074bf"
+          ],
+          [
+            126,
+            "8be55dc3"
+          ],
+          [
+            130,
+            "558bec"
+          ],
+          [
+            133,
+            "8b46040b460675088b5e08c60730eb36ff7608b80a00995250ff7606ff7604e800005250e8d6ff83c406894608b80a00995250ff7606ff7604e8000004308b5e08ff460888078b4608"
+          ],
+          [
+            206,
+            "5dc3"
+          ]
+        ]
+      },
+      "2": {
+        "index": 2,
+        "length": 0,
+        "name_index": 5,
+        "class_index": 6,
+        "overlay_index": 1,
+        "attributes": 72,
+        "unsupported_data": false,
+        "name": "_DATA",
+        "class_name": "DATA",
+        "chunks": []
+      },
+      "3": {
+        "index": 3,
+        "length": 0,
+        "name_index": 7,
+        "class_index": 7,
+        "overlay_index": 1,
+        "attributes": 72,
+        "unsupported_data": false,
+        "name": "CONST",
+        "class_name": "CONST",
+        "chunks": []
+      },
+      "4": {
+        "index": 4,
+        "length": 0,
+        "name_index": 8,
+        "class_index": 9,
+        "overlay_index": 1,
+        "attributes": 72,
+        "unsupported_data": false,
+        "name": "_BSS",
+        "class_name": "BSS",
+        "chunks": []
+      },
+      "5": {
+        "index": 5,
+        "length": 272,
+        "name_index": 12,
+        "class_index": 13,
+        "overlay_index": 1,
+        "attributes": 32,
+        "unsupported_data": false,
+        "name": "$$SYMBOLS",
+        "class_name": "DEBSYM",
+        "chunks": [
+          [
+            0,
+            "23010000130200000000000000000014776169745f657869745f6576656e745f35643438"
+          ],
+          [
+            36,
+            "0500060000000a04feff810004646f6e65"
+          ],
+          [
+            53,
+            "0102"
+          ],
+          [
+            40,
+            "2800"
+          ],
+          [
+            0,
+            "230100001302320006002e0000000014776169745f657869745f6576656e745f35643438"
+          ],
+          [
+            55,
+            "0102260100001502320006002e0000000017776169745f706f696e7465725f6576656e745f35643761"
+          ],
+          [
+            96,
+            "0500060000000a04feff810004646f6e65"
+          ],
+          [
+            113,
+            "0102"
+          ],
+          [
+            100,
+            "4600"
+          ],
+          [
+            57,
+            "260100001502500038007e0000000017776169745f706f696e7465725f6576656e745f35643761"
+          ],
+          [
+            115,
+            "0102220100001a02820038007e0000000013646563696d616c5f6469676974735f35646361"
+          ],
+          [
+            152,
+            "0500030000000b04040086000576616c756511040800a0000b64657374696e6174696f6e"
+          ],
+          [
+            188,
+            "0102"
+          ],
+          [
+            156,
+            "4900"
+          ],
+          [
+            117,
+            "220100001a024e008500ce0000000013646563696d616c5f6469676974735f35646361"
+          ],
+          [
+            190,
+            "0102"
+          ],
+          [
+            192,
+            "1505000000000d020d6576656e745f636f6e746578741505000000000e020d63757272656e745f6576656e74110500000000810009706f696e7465725f78110500000000810009706f696e7465725f79"
+          ]
+        ]
+      },
+      "6": {
+        "index": 6,
+        "length": 282,
+        "name_index": 10,
+        "class_index": 11,
+        "overlay_index": 1,
+        "attributes": 32,
+        "unsupported_data": false,
+        "name": "$$TYPES",
+        "class_name": "DEBTYP",
+        "chunks": [
+          [
+            0,
+            "0101008001010080010100800105007840838100010e007985a000078305028306028200690116007f8381008381008381008381008381008381008303020139007f82046b696e6488008204636f64658802820673746174757388048208726573657276656488068201788808820179880a820464617461880c010100800105007850838100010c00796002830a02830b028200690107007f8308028381000113007f8205776f726473880082057175657565880a010100800107007a7483090282000107007a7483040282000101008001010080010100800101008001080075808163008302020101008001080075808163008302020101008001010080010100800107007f83860083a000010a00758083a0006302831902"
+          ]
+        ]
+      }
+    },
+    "fixups": [
+      {
+        "segment": 5,
+        "offset": 2,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          11
+        ],
+        "displacement": null,
+        "record_offset": 562,
+        "raw": "c402560b"
+      },
+      {
+        "segment": 5,
+        "offset": 38,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          11
+        ],
+        "displacement": null,
+        "record_offset": 607,
+        "raw": "c402560b"
+      },
+      {
+        "segment": 1,
+        "offset": 25,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          6
+        ],
+        "displacement": null,
+        "record_offset": 662,
+        "raw": "c4135606"
+      },
+      {
+        "segment": 1,
+        "offset": 19,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          7
+        ],
+        "displacement": null,
+        "record_offset": 662,
+        "raw": "840d5607"
+      },
+      {
+        "segment": 1,
+        "offset": 13,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          5
+        ],
+        "displacement": null,
+        "record_offset": 662,
+        "raw": "c4075605"
+      },
+      {
+        "segment": 5,
+        "offset": 2,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          11
+        ],
+        "displacement": null,
+        "record_offset": 750,
+        "raw": "c402560b"
+      },
+      {
+        "segment": 5,
+        "offset": 59,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          12
+        ],
+        "displacement": null,
+        "record_offset": 806,
+        "raw": "c404560c"
+      },
+      {
+        "segment": 5,
+        "offset": 98,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          12
+        ],
+        "displacement": null,
+        "record_offset": 851,
+        "raw": "c402560c"
+      },
+      {
+        "segment": 1,
+        "offset": 113,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          10
+        ],
+        "displacement": null,
+        "record_offset": 936,
+        "raw": "c439560a"
+      },
+      {
+        "segment": 1,
+        "offset": 107,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          9
+        ],
+        "displacement": null,
+        "record_offset": 936,
+        "raw": "c4335609"
+      },
+      {
+        "segment": 1,
+        "offset": 90,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          6
+        ],
+        "displacement": null,
+        "record_offset": 936,
+        "raw": "c4225606"
+      },
+      {
+        "segment": 1,
+        "offset": 86,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          8
+        ],
+        "displacement": null,
+        "record_offset": 936,
+        "raw": "841e5608"
+      },
+      {
+        "segment": 1,
+        "offset": 75,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          6
+        ],
+        "displacement": null,
+        "record_offset": 936,
+        "raw": "c4135606"
+      },
+      {
+        "segment": 1,
+        "offset": 69,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          7
+        ],
+        "displacement": null,
+        "record_offset": 936,
+        "raw": "840d5607"
+      },
+      {
+        "segment": 1,
+        "offset": 63,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          5
+        ],
+        "displacement": null,
+        "record_offset": 936,
+        "raw": "c4075605"
+      },
+      {
+        "segment": 5,
+        "offset": 59,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          12
+        ],
+        "displacement": null,
+        "record_offset": 1043,
+        "raw": "c402560c"
+      },
+      {
+        "segment": 5,
+        "offset": 119,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          2
+        ],
+        "displacement": null,
+        "record_offset": 1095,
+        "raw": "c4045602"
+      },
+      {
+        "segment": 5,
+        "offset": 154,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          2
+        ],
+        "displacement": null,
+        "record_offset": 1156,
+        "raw": "c4025602"
+      },
+      {
+        "segment": 1,
+        "offset": 191,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          4
+        ],
+        "displacement": null,
+        "record_offset": 1244,
+        "raw": "843a5604"
+      },
+      {
+        "segment": 1,
+        "offset": 165,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": false,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          3
+        ],
+        "displacement": null,
+        "record_offset": 1244,
+        "raw": "84205603"
+      },
+      {
+        "segment": 5,
+        "offset": 119,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          2
+        ],
+        "displacement": null,
+        "record_offset": 1325,
+        "raw": "c4025602"
+      },
+      {
+        "segment": 5,
+        "offset": 256,
+        "width": 4,
+        "location_type": 3,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          10
+        ],
+        "displacement": null,
+        "record_offset": 1495,
+        "raw": "cc40560a"
+      },
+      {
+        "segment": 5,
+        "offset": 238,
+        "width": 4,
+        "location_type": 3,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          9
+        ],
+        "displacement": null,
+        "record_offset": 1495,
+        "raw": "cc2e5609"
+      },
+      {
+        "segment": 5,
+        "offset": 216,
+        "width": 4,
+        "location_type": 3,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          6
+        ],
+        "displacement": null,
+        "record_offset": 1495,
+        "raw": "cc185606"
+      },
+      {
+        "segment": 5,
+        "offset": 194,
+        "width": 4,
+        "location_type": 3,
+        "segment_relative": true,
+        "frame": [
+          5,
+          null
+        ],
+        "target": [
+          2,
+          5
+        ],
+        "displacement": null,
+        "record_offset": 1495,
+        "raw": "cc025605"
+      }
+    ]
+  },
+  "unit_contracts": {
+    "wait_exit_event_5d48": {
+      "id": "wait_exit_event_5d48",
+      "image_offset": "0x5d48",
+      "size": 50,
+      "language": "c",
+      "backend": "msc500-omf",
+      "source": "src/event_text_unsigned_match.c",
+      "symbol": "_wait_exit_event_5d48",
+      "flags": [
+        "/AS",
+        "/Gs",
+        "/Os",
+        "/Zi"
+      ],
+      "externals": {
+        "_event_context": 21488,
+        "_current_event": 39042,
+        "_next_event_184d": 6221,
+        "_exit_07f3": 2035,
+        "_pointer_x": 37690,
+        "_pointer_y": 37726,
+        "_decimal_digits_5dca": 24010,
+        "__aNuldiv": 62364,
+        "__aNulrem": 62466
+      },
+      "rea_evidence": "evidence/rea_region_next_5d48.json",
+      "boundary_evidence": "REA ev_6f7e5b6d2ac888f0cbe74c241ef76407a75f7a82e0651561f4b4950de2ffa67b: complete contiguous routine. Fresh independent MSC5 CV3 extent and every byte exact, no target-length cropping. Full raw OMF fixup audit and original/emitted empty MZ-set equality. All three procedures cover entire208-byte CODESEGDEF with no padding. Retained fullproof evidence/event-board-5d48-5fbc-match.json."
+    },
+    "wait_pointer_event_5d7a": {
+      "id": "wait_pointer_event_5d7a",
+      "image_offset": "0x5d7a",
+      "size": 80,
+      "language": "c",
+      "backend": "msc500-omf",
+      "source": "src/event_text_unsigned_match.c",
+      "symbol": "_wait_pointer_event_5d7a",
+      "flags": [
+        "/AS",
+        "/Gs",
+        "/Os",
+        "/Zi"
+      ],
+      "externals": {
+        "_event_context": 21488,
+        "_current_event": 39042,
+        "_next_event_184d": 6221,
+        "_exit_07f3": 2035,
+        "_pointer_x": 37690,
+        "_pointer_y": 37726,
+        "_decimal_digits_5dca": 24010,
+        "__aNuldiv": 62364,
+        "__aNulrem": 62466
+      },
+      "rea_evidence": "evidence/rea_region_next_5d7a.json",
+      "boundary_evidence": "REA ev_ed0d8793bdb5f04e34e73e46ae31d67a10ef48a69f966ea178abaa721ae581b4: complete contiguous routine. Fresh independent MSC5 CV3 extent and every byte exact, no target-length cropping. Full raw OMF fixup audit and original/emitted empty MZ-set equality. All three procedures cover entire208-byte CODESEGDEF with no padding. Retained fullproof evidence/event-board-5d48-5fbc-match.json."
+    },
+    "decimal_digits_5dca": {
+      "id": "decimal_digits_5dca",
+      "image_offset": "0x5dca",
+      "size": 78,
+      "language": "c",
+      "backend": "msc500-omf",
+      "source": "src/event_text_unsigned_match.c",
+      "symbol": "_decimal_digits_5dca",
+      "flags": [
+        "/AS",
+        "/Gs",
+        "/Os",
+        "/Zi"
+      ],
+      "externals": {
+        "_event_context": 21488,
+        "_current_event": 39042,
+        "_next_event_184d": 6221,
+        "_exit_07f3": 2035,
+        "_pointer_x": 37690,
+        "_pointer_y": 37726,
+        "_decimal_digits_5dca": 24010,
+        "__aNuldiv": 62364,
+        "__aNulrem": 62466
+      },
+      "rea_evidence": "evidence/rea_region_next_5dca.json",
+      "boundary_evidence": "REA ev_53c4742d7b0bc7b481ab4f6f9460725430646eea591d8507ee514efbab74c6ce: complete contiguous routine. Fresh independent MSC5 CV3 extent and every byte exact, no target-length cropping. Full raw OMF fixup audit and original/emitted empty MZ-set equality. All three procedures cover entire208-byte CODESEGDEF with no padding. Retained fullproof evidence/event-board-5d48-5fbc-match.json."
+    }
+  },
+  "wholeCODE": 208,
+  "CVs": 3,
+  "raw_fields": 25,
+  "loaded_DATA_CONST_BSS": 0,
+  "formal_unsigned_long_type": 134
+}

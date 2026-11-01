@@ -1,0 +1,123 @@
+{
+  "id": "event-pointer-common",
+  "backend": "msc500-near-common-event-pointers-unsigned-client-v2",
+  "source": "src/link/event_pointer_state.c",
+  "source_sha256": "e124aca20623476372166b8cd28ad27d865020e6dcfc59af72478c80a310e72b",
+  "compiler": "msc500",
+  "flags": [
+    "/AS",
+    "/Zl",
+    "/Zi"
+  ],
+  "toolchain_manifest_sha256": "d2889507d0729b9d09fb92015fedccbb533c368d428c1612781c3ff980f00a82",
+  "objects": [
+    {
+      "symbol": "_event_context",
+      "size": 2,
+      "storage": "near-common"
+    },
+    {
+      "symbol": "_current_event",
+      "size": 2,
+      "storage": "near-common"
+    }
+  ],
+  "evidence": {
+    "legacy_layout": {
+      "path": "build/event-pointer-common-followup/native-proof.json",
+      "sha256": "da6bc97d5dd6a3cf4eedd266ab0450e2f6521253e513a7011ea608f2cceb6cb7"
+    },
+    "legacy_controls": {
+      "path": "build/event-pointer-common-followup/controls.json",
+      "sha256": "1183fdf898f6fa2c2f627a9204cfde21b0f5394dc294078602acf20a8ef3c76d"
+    },
+    "legacy_source_model": {
+      "path": "build/event-pointer-common-followup/near.c",
+      "sha256": "e124aca20623476372166b8cd28ad27d865020e6dcfc59af72478c80a310e72b"
+    },
+    "legacy_object": {
+      "path": "build/event-pointer-common-followup/near.obj",
+      "sha256": "e8863fc7ee72b22c034f1aa7cb22162fb4a3b828c977567f4e0b0e2a0a9e8d61"
+    },
+    "legacy_event_consumer": {
+      "path": "build/event-pointer-common-followup/consumer-evidence/event_text_match.c",
+      "sha256": "7a04ea10e16daac588f3586e61160124fcbe1f9a8af698b54e5992489b9a9e34"
+    },
+    "legacy_main_consumer": {
+      "path": "build/event-pointer-common-followup/consumer-evidence/main_input_exit_match.c",
+      "sha256": "5a410681bebb8f7ca400092d95b4b3698088eadad45d76a0fb32ab0cc4ddf53d"
+    },
+    "legacy_native_wait": {
+      "path": "evidence/rea_region_next_5d48.json",
+      "sha256": "dab9c5bbad304a7dbe3556021955245d392879d274e8d334b8efc0db7dbc8c0c"
+    },
+    "legacy_native_pointer": {
+      "path": "evidence/rea_region_next_5d7a.json",
+      "sha256": "046d06f0742d4e333df3c7ebdd11e9f7137689269f4d06bf9e66c257bf940640"
+    },
+    "legacy_native_main": {
+      "path": "evidence/rea_obtain_input_0254_original.json",
+      "sha256": "c03e3645fafa8275ce00aea6f4e8e6c20fd6a7849c5a21a0eb8add9aee77ca86"
+    },
+    "legacy_crt": {
+      "path": "evidence/rea_crt_startup_500.json",
+      "sha256": "f1ef14871734df318dcf05a9ea366706a46bf2484a5623678271df7cf612d1ad"
+    },
+    "active_closure": {
+      "path": "evidence/event_text_unsigned/active-closure.json",
+      "sha256": "c20bde288230d481d91a73666154af3e420d4a93e343fd57cdf2069b2bb1f8dd"
+    },
+    "active_event_source": {
+      "path": "src/event_text_unsigned_match.c",
+      "sha256": "a6259b975484d87c5a53360c9dc1d3f75ca49fe3d45a8bb6f05e2c0e216892f5"
+    },
+    "active_main_source": {
+      "path": "src/main_input_exit_match.c",
+      "sha256": "6d330f15c851fa6f98e26e34893557c6563d186ce5d0799a45a8126d8cfc147f"
+    },
+    "active_event_object": {
+      "path": "evidence/event_text_unsigned/new-event.obj",
+      "sha256": "608785b1e941c71be9da039f6ffed25b4638e5ca0db556844edbe8a30a699ea9"
+    },
+    "active_main_object": {
+      "path": "evidence/event_text_unsigned/main.obj",
+      "sha256": "cdb266b60dca42b6990f5538482d4415870f84e7680ce59e47a1558d258a4c22"
+    },
+    "producer_object": {
+      "path": "evidence/event_text_unsigned/provider.obj",
+      "sha256": "e8863fc7ee72b22c034f1aa7cb22162fb4a3b828c977567f4e0b0e2a0a9e8d61"
+    },
+    "actual_unsigned_generation": {
+      "path": "evidence/event_text_unsigned/generation.json",
+      "sha256": "39637b22da4e081189d833f3a739ebffad1556fef6ee790e9a9e9e9227499be2"
+    },
+    "actual_unsigned_outer": {
+      "path": "evidence/event_text_unsigned/outer.json",
+      "sha256": "763c12188dbb1a8fb9d62e5b20a27ea1ee0618ff9ac62ce17fbf9d81ec3c8b70"
+    },
+    "actual_unsigned_comparison": {
+      "path": "evidence/event_text_unsigned/comparison.v2.json",
+      "sha256": "26743d425172c2381a65ffcd505f6f9fe0707515b8efbaec66b344e989268e74"
+    },
+    "actual_unsigned_comparison_outer": {
+      "path": "evidence/event_text_unsigned/comparison-terminal.json",
+      "sha256": "5b90d7eda559aa96312a0feb9fb5461f6211465e3c1411443b5b9c4e45c69fa9"
+    },
+    "runtime_ATOL": {
+      "path": "evidence/event_text_unsigned/runtime-ATOL-read.json",
+      "sha256": "c80a76a846e3e1ce50d868c809a55a02423fd728eda5cf1700c71f63600f6beb"
+    },
+    "runtime_LDIV": {
+      "path": "evidence/event_text_unsigned/runtime-LDIV-read.json",
+      "sha256": "5f1aa12a85a69a2dd029633c612f0c8e36a764b10cbc881cdf507ed6a37b16c3"
+    },
+    "runtime_ULDIV": {
+      "path": "evidence/event_text_unsigned/runtime-ULDIV-read.json",
+      "sha256": "29b9031d6d0289fddf42e004fba375a854a3607c4c7c0c1df82da769739ccd52"
+    },
+    "runtime_ULREM": {
+      "path": "evidence/event_text_unsigned/runtime-ULREM-read.json",
+      "sha256": "089ad1364c87a81763a2df9fdd6d4bd7dd95641c03997f9e55a44eaf709cac21"
+    }
+  }
+}

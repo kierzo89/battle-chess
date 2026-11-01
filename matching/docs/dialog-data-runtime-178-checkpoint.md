@@ -1,0 +1,13 @@
+# Dialog, mask data and authentic runtime contribution
+
+The canonical dialog source is `src/dialog_file_flow_match.c`. Its six procedures cover the complete574-byte CODE contribution atD528..D765 under Microsoft C5.00 `/AS /Gs /Os /Zi`. All35 fixup fields and the sole MZ siteD54A are verified. Combining the real procedures supplies D551's enclosing WORD alignment context. The actual source has only used locals, including the filename buffer, descriptor, cursors and rendering buffer. Source bytes are identical to the reviewed proposal. Historical translation-unit ownership is still unknown.
+
+Two independent initialized `int[4]` definitions in `src/data/left_masks.c` and `right_masks.c` contribute16 DATA bytes. Complete original REA word-indexing evidence bounds the arrays. Their native consumer remains unmatched C; these definitions receive expanded-image coverage only.
+
+The pinned LIBH ALDIV member contributes34 runtime bytes atF37A. Genuine Microsoft LINK processes its unchanged overlapping OMF records, with authentic LDIV and LMUL dependencies. All250 output bytes are accounted:34 ALDIV,163 LDIV, one LINK alignment byte and52 LMUL, with zero DATA allocation and empty MZ tables. Dependency code is generation context and receives no additional target credit.
+
+`runtime_external16.py` is deliberately separate from the ordinary OMF parser and the earlier helper backend. Target-free generation retains the full executable, MAP, original object records and all allocation provenance. Comparison regenerates only the original named relative16 call field at object offset18, using the explicit F37A / __aNldiv F87C placements. Every other byte is compared directly; no byte is masked. Supplied runtime earns no authored C or ASM credit. Tests reject altered bytes, objects, layouts, fields, MAP entries and missing dependencies.
+
+The continued compiler comparison for the unmatched CC72 dialog controller gives C5.00=614 bytes, C5.10=618 and C4.00=593, versus original610. Both alternative versions retain the wrong branch order. The C5.00 K&R control is byte-identical to its typed version, isolating the syntax adaptation. See `load-dialog-version-control.md`. No new credit is claimed for CC72.
+
+Fresh final counts and regression results are recorded in `evidence/verification-178-contexts-checkpoint.json` and generated `build/PROGRESS.md`. The independent complete source-built executable is still absent. Original compiler commands/source partition, final authentic link placement, all173 MZ sites, the header and independently generated EXEPACK output remain required for the full-byte goal.

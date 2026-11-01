@@ -1,0 +1,206 @@
+{
+  "status": "PASS independent actual resolvedDATA-frame counterexamples; new five-site source correction justified",
+  "old_source_sha256": "43f4ee388ef68067cca56d7f5cf76828a6350de02ca9cca3c28ea3767790b66c",
+  "new_source_sha256": "af98cd1b7372cbe27fd9c1cb88623f5f23eed3f9db0bb726d4924a94b5a2e21e",
+  "old_object_sha256": "39f357944e24b233eb050b8b9dcaf5213bc5c4595119411ac56d98e3ff91d9c1",
+  "actual_current240_MAP": {
+    "all_public_CODE_anchors_agree": 51530,
+    "DGROUP_paragraph": 23309,
+    "DGROUP_linear": 372944,
+    "DATA_actual_start": 373010,
+    "DATA_byte_start_difference": 66,
+    "DATA_frame_paragraph": 23313,
+    "DATA_frame_linear": 373008,
+    "real_linker_paragraph_frame_difference": 64,
+    "DATA_start_in_paragraph_offset": 2
+  },
+  "actual_five_near_immediate_fields": [
+    {
+      "symbol": "_text_colour_words",
+      "actual_FIXUPP": {
+        "segment": 2,
+        "offset": 1247,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          0,
+          1
+        ],
+        "target": [
+          2,
+          6
+        ],
+        "displacement": null,
+        "record_offset": 2245,
+        "raw": "c4e3060106"
+      },
+      "native_image_site": 59713,
+      "actual_partial_image_site": 52777,
+      "actual_linked_WORD": 3114,
+      "source_addend": 0,
+      "actual_partial_MZ": false,
+      "resolved": true,
+      "actual_MAP_public": [
+        23309,
+        3178
+      ],
+      "actual_target_linear": 376122,
+      "inferred_actual_frame_paragraph": 23313,
+      "expected_own_DATA_paragraph_offset": 3114,
+      "expected_DGROUP_offset": 3178,
+      "actual_deficit": 64
+    },
+    {
+      "symbol": "_font_glyphs",
+      "actual_FIXUPP": {
+        "segment": 2,
+        "offset": 1372,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          0,
+          1
+        ],
+        "target": [
+          2,
+          1
+        ],
+        "displacement": null,
+        "record_offset": 2245,
+        "raw": "c560060101"
+      },
+      "native_image_site": 59838,
+      "actual_partial_image_site": 52902,
+      "actual_linked_WORD": 0,
+      "source_addend": 0,
+      "actual_partial_MZ": false,
+      "resolved": false,
+      "actual_MAP_public": null,
+      "actual_linked_value_not_native_correspondence": true
+    },
+    {
+      "symbol": "_text_glyph_pixels",
+      "actual_FIXUPP": {
+        "segment": 2,
+        "offset": 1377,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          0,
+          1
+        ],
+        "target": [
+          2,
+          5
+        ],
+        "displacement": null,
+        "record_offset": 2245,
+        "raw": "c565060105"
+      },
+      "native_image_site": 59843,
+      "actual_partial_image_site": 52907,
+      "actual_linked_WORD": 3146,
+      "source_addend": 0,
+      "actual_partial_MZ": false,
+      "resolved": true,
+      "actual_MAP_public": [
+        23309,
+        3210
+      ],
+      "actual_target_linear": 376154,
+      "inferred_actual_frame_paragraph": 23313,
+      "expected_own_DATA_paragraph_offset": 3146,
+      "expected_DGROUP_offset": 3210,
+      "actual_deficit": 64
+    },
+    {
+      "symbol": "_text_colour_words",
+      "actual_FIXUPP": {
+        "segment": 2,
+        "offset": 1380,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          0,
+          1
+        ],
+        "target": [
+          2,
+          6
+        ],
+        "displacement": null,
+        "record_offset": 2245,
+        "raw": "c568060106"
+      },
+      "native_image_site": 59846,
+      "actual_partial_image_site": 52910,
+      "actual_linked_WORD": 3114,
+      "source_addend": 0,
+      "actual_partial_MZ": false,
+      "resolved": true,
+      "actual_MAP_public": [
+        23309,
+        3178
+      ],
+      "actual_target_linear": 376122,
+      "inferred_actual_frame_paragraph": 23313,
+      "expected_own_DATA_paragraph_offset": 3114,
+      "expected_DGROUP_offset": 3178,
+      "actual_deficit": 64
+    },
+    {
+      "symbol": "_text_glyph_pixels",
+      "actual_FIXUPP": {
+        "segment": 2,
+        "offset": 1447,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          0,
+          1
+        ],
+        "target": [
+          2,
+          5
+        ],
+        "displacement": null,
+        "record_offset": 2245,
+        "raw": "c5ab060105"
+      },
+      "native_image_site": 59913,
+      "actual_partial_image_site": 52977,
+      "actual_linked_WORD": 3146,
+      "source_addend": 0,
+      "actual_partial_MZ": false,
+      "resolved": true,
+      "actual_MAP_public": [
+        23309,
+        3210
+      ],
+      "actual_target_linear": 376154,
+      "inferred_actual_frame_paragraph": 23313,
+      "expected_own_DATA_paragraph_offset": 3146,
+      "expected_DGROUP_offset": 3210,
+      "actual_deficit": 64
+    }
+  ],
+  "resolved_four_fields_actual_link_deficit": 64,
+  "unresolved_font_field_not_claimed_as_native": true,
+  "qualifies_frozen_font_old66_hypothesis": "Oldfont93383d9 README/algebra used full DATA byte start66; real OMF SEGDEF frame is paragraph-rounded. Four actual resolvedfields independently prove64. Oldfontpackage remains immutable; its DATA1024/REA/C5 positives unaffected.",
+  "scope_correction": "Initial requestedfour actuallyfive: text_glyph_pixels alsoMOVAX/PUSHDS/AX at obj1447/nativeEA09; it too is wrong64 and mustbeDGROUP.",
+  "source_only_changes": {
+    "text_colour_words": 2,
+    "text_glyph_pixels": 2,
+    "font_glyphs": 1
+  },
+  "all_other_source_bytes_unchanged_after_inverse": true,
+  "far_and_ownCS_fields_must_remain_exact": true,
+  "new_C5_MASM_LINK_tests_global_canonical_calls": 0,
+  "new_C_function_DATA_CODE_MZ_or_matching_credit": 0,
+  "original_absolute_MAP_or_historical_source_class_TU_proven": false
+}

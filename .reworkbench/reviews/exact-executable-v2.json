@@ -1,0 +1,32 @@
+{
+  "schema": "battlechess-exact-executable-review-v1",
+  "decision": "accepted",
+  "reviewed_at": "2026-11-01",
+  "runtime_executable_sha256": "c32d4f6bc732b67efa65d55bc5813bc74dcfb52b8616894b57ed7aeeeed2a1cd",
+  "artifacts": {
+    "executable": {
+      "path": "matching/build/exact-driver-validation-v2/final/PACKED.EXE",
+      "sha256": "c32d4f6bc732b67efa65d55bc5813bc74dcfb52b8616894b57ed7aeeeed2a1cd"
+    },
+    "build_report": {
+      "path": "matching/build/exact-driver-validation-v2/build-report.json",
+      "sha256": "94eb6a6507d57174c438b8063297fc38676f75b9c9d661a53d951bfd0ff20658"
+    },
+    "source_bundle": {
+      "path": ".reworkbench/staging/exact-build-driver-v2/bundle-manifest.json",
+      "sha256": "7bd2a762b329ef8d9af414d99e13d733460db8d7c2cfd97dabd8d2184edf64ff"
+    },
+    "runtime_review": {
+      "path": ".reworkbench/staging/exact-build-integration-v1/runtime-roundtrip-review.json",
+      "sha256": "b677303dc2540e3c81f15f04434b28120a819a9e93d9ee0bdc38c9b3abf35282"
+    },
+    "attribution": {
+      "path": ".reworkbench/staging/exact-build-integration-v1/final-provider-attribution.json",
+      "sha256": "cee3eb11c53fb1ee7d7a113691526740a726eef0c81fc7c6fcf27aa93581b124"
+    }
+  },
+  "basis": "Explicit review: fresh v2 source generation, complete original image and EXE equality, all 173 relocation entries and REA gameplay/save-load evidence for identical executable. Corrected mutable labels use 71 bytes authored assembly data. Original runtime members and other assembly providers remain separately attributed. No new C/component matching credit.",
+  "canonical_credit_added": 0,
+  "launcher": "matching/build_exact.py",
+  "launcher_sha256": "3bb14a205e691aa92b61222fadcec15e6f24ffdbbc07a0ce1ec539ffbac6298d"
+}

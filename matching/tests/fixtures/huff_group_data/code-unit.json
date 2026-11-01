@@ -1,0 +1,30 @@
+{
+  "id": "huff_tree_build_recursive",
+  "image_offset": "0xe077",
+  "size": 49,
+  "language": "asm",
+  "backend": "nasm-code-omf",
+  "source": "asm/link/huffman_core_dgroup_omf.asm",
+  "boundary_evidence": "Existing credited complete native function migrated into one genuine relocatable CODE944 contribution with9 actual unaliased PUBLICs/all77 EXTDEF OFFSET16 fields/internal assembler labels/no other allocations. Entire944/fullraw/native9/MZ0/fourbases exact; no new ASM or C credit. Actual external storage and refill/trap definitions remain unresolved, no placeholders. Stagedbackend huff_code16.py.",
+  "rea_evidence": "evidence/rea_huff_tree.json",
+  "object_profile": "huffman_core_dgroup1",
+  "symbol": "_huff_tree_build_recursive",
+  "source_sha256": "b96de66fb9f30286a1efb2e6f5c789a7c9a1e97e5066abf630f4e90562a1fc0e",
+  "assembler_sha256": "57b8fc5957237b0d9b1ff48c8f5823780fb8ce968d9b8434850c06941ad5d5f5",
+  "externals": {
+    "_huff_refill_e3ea": 58346,
+    "_huff_depth_trap_e410": 58384,
+    "_huff_shift_word": 12482,
+    "_huff_bits_left": 12484,
+    "_huff_input_cursor": 12486,
+    "_huff_remaining": 12488,
+    "_huff_code_table": 12492,
+    "_huff_fast_lookup": 13516,
+    "_huff_long_records": 14540,
+    "_huff_long_masks": 17612,
+    "_huff_prefix_byte": 17621,
+    "_huff_pending_count": 17622,
+    "_huff_saved_extent": 17624,
+    "_huff_checksum": 17631
+  }
+}

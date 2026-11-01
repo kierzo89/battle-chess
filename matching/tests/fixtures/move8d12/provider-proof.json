@@ -1,0 +1,130 @@
+{
+  "status": "PASS one genuine compatible Move8 near COMMON definition",
+  "source_sha256": "926b01ba7e41a506e741ba0f70cd123fbd9a10826ad3b8880508ac782a3c1507",
+  "object_sha256": "02f193a1ca631b647f42ab5e0bd592ddac9e31ad0adbd2b5f950790ef1cb4ecb",
+  "source_flags": [
+    "/AS",
+    "/Zl",
+    "/Zi"
+  ],
+  "near_COMMON": [
+    {
+      "symbol": "_state_8d12",
+      "size": 8,
+      "type_index": 522,
+      "datatype": 98
+    }
+  ],
+  "normalized_complete_Move": {
+    "composite_leaf": 121,
+    "bits": 64,
+    "member_count": 4,
+    "members": {
+      "member_types": [
+        {
+          "builtin": 129
+        },
+        {
+          "builtin": 129
+        },
+        {
+          "builtin": 129
+        },
+        {
+          "composite_leaf": 121,
+          "bits": 16,
+          "member_count": 2,
+          "members": {
+            "member_types": [
+              {
+                "builtin": 133
+              },
+              {
+                "composite_leaf": 121,
+                "bits": 16,
+                "member_count": 2,
+                "members": {
+                  "member_types": [
+                    {
+                      "builtin": 132
+                    },
+                    {
+                      "builtin": 132
+                    }
+                  ]
+                },
+                "names_offsets": {
+                  "member_names_offsets": [
+                    {
+                      "name": "kind",
+                      "offset": 0
+                    },
+                    {
+                      "name": "capture",
+                      "offset": 1
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "names_offsets": {
+            "member_names_offsets": [
+              {
+                "name": "word",
+                "offset": 0
+              },
+              {
+                "name": "bytes",
+                "offset": 0
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "names_offsets": {
+      "member_names_offsets": [
+        {
+          "name": "to",
+          "offset": 0
+        },
+        {
+          "name": "from",
+          "offset": 2
+        },
+        {
+          "name": "flag",
+          "offset": 4
+        },
+        {
+          "name": "detail",
+          "offset": 6
+        }
+      ]
+    }
+  },
+  "reachable_type_records": {
+    "0x20a": "794004830b02830c02820069",
+    "0x20b": "7f838100838100838100830602",
+    "0x206": "791002830702830802820069",
+    "0x207": "7f838500830302",
+    "0x203": "791002830402830502820069",
+    "0x204": "7f838400838400",
+    "0x205": "7f82046b696e6488008207636170747572658801",
+    "0x208": "7f8204776f72648800820562797465738800",
+    "0x20c": "7f8202746f8800820466726f6d88028204666c61678804820664657461696c8806"
+  },
+  "matches_all_five_existing_complete_client_graphs": true,
+  "debug_FAR_fields": 1,
+  "debug_address_width_not_runtime_Move_width": true,
+  "no_CODE_DATA_CONST_BSS_loaded_bytes": true,
+  "PUBLICs": 0,
+  "procedures": 0,
+  "source_only_real_compiler_calls": 1,
+  "canonical_changes": false,
+  "profile_admitted": false,
+  "historical_physical_owner_class_TU_order_unique_capacity_MAP_proven": false,
+  "DF_clear_scope_and_reentrancy_limits_held": true,
+  "new_C_DATA_IMAGE_FILE_nativeMZ_credit": 0
+}

@@ -1,0 +1,82 @@
+{
+  "schema": "graphics-buffer-views-workspace-v1",
+  "backend": "masm510-graphics-buffer-views-workspace-data-omf",
+  "unit": {
+    "id": "graphics_workspace_physical_data86000",
+    "language": "asm-data",
+    "backend": "masm510-graphics-buffer-views-workspace-data-omf",
+    "source": "src/data/graphics_buffer_views_workspace.asm",
+    "source_sha256": "29cf1316bab6c0db5261e54dfcb0f38577595c6d412004c194caa904948a4c31",
+    "assembler_sha256": "1c6286c69b616160b8475ad17453ee872702a2c98075c2159ec792a1c745275f",
+    "symbols": [
+      "_graphics_workspace",
+      "_color_buffer",
+      "_region_buffer",
+      "_metadata_workspace",
+      "_splash_buffer"
+    ],
+    "image_offset": "0x120d0",
+    "size": 86000,
+    "reference_region": "exepack-expanded",
+    "rea_evidence": "evidence/graphics_buffer_views/rea_graphics_workspace_86000.json",
+    "boundary_evidence": "Same86000 complete initialized EXEPACK FILE bytes in PRIVATE PARA53184+32816 with exact five real BYTE PUBLICs: graphics0,color32E0,region3F90,metadataCC6C,splash second1F09:0. All21 actual whole-client fields (18CODE/3debug), nine existing nativeMZ and fourbases independently checked from owned raw snapshots. Incomplete char-array views establish no capacity. No extra storage/byte/C/function/MZ credit; original globalMAP/historical TU/capacity held."
+  },
+  "whole_object_sha256": "0ebca9e135fccd18d46d3fdc12a12ecd0f68183c722abf290b92dc6627379ad4",
+  "source_sha256": "29cf1316bab6c0db5261e54dfcb0f38577595c6d412004c194caa904948a4c31",
+  "complete_initialized_bytes": 86000,
+  "segments": [
+    {
+      "name": "GRAPHICS_WORKSPACE_0",
+      "class": "FAR_DATA",
+      "attributes": 96,
+      "bytes": 53184
+    },
+    {
+      "name": "GRAPHICS_WORKSPACE_1",
+      "class": "FAR_DATA",
+      "attributes": 96,
+      "bytes": 32816
+    }
+  ],
+  "publics": {
+    "_graphics_workspace": [
+      1,
+      0
+    ],
+    "_color_buffer": [
+      1,
+      13024
+    ],
+    "_region_buffer": [
+      1,
+      16272
+    ],
+    "_metadata_workspace": [
+      1,
+      52332
+    ],
+    "_splash_buffer": [
+      2,
+      0
+    ]
+  },
+  "evidence_pins": {
+    "evidence/graphics_buffer_views/typed-field-review.json": "5b0e7882cb0748cc1a6fb9a1350309d107f5c2ca9e1d197b1c3617ec761371f6",
+    "evidence/graphics_buffer_views/comparison.json": "b91708c981e971a54f81d628c63e5d03778663edcac2cc89caa0ba1b7949670f",
+    "evidence/graphics_buffer_views/generation-receipt.json": "480f16ea13a00f7641b9bf8464f313350fa70bf2e5df6a24ea5d5fc180c827af",
+    "evidence/graphics_buffer_views/tool-result.json": "557c9448801777acbcea4d512d8a46c927dc2376d66e4c64cc371b5c9e7f8894",
+    "evidence/graphics_buffer_views/rea_graphics_workspace_86000.json": "c4dbd9bf0d3c5455e30aba6a775c0378e74962650a5f5cf861667aa0a3b03aae",
+    "evidence/graphics_buffer_views/loaded-span-proof.json": "20a2d0fff5804120650cb553ddd8bc924dc2280ce0d938b2ff269dd2b70457f4",
+    "evidence/graphics_buffer_views/consumer0.obj": "39f357944e24b233eb050b8b9dcaf5213bc5c4595119411ac56d98e3ff91d9c1",
+    "evidence/graphics_buffer_views/consumer1.obj": "41c88fd0bb02c8ca7fe6b51ce7515469abc6d75e40ec4dc9bf516a87c660f6c9",
+    "evidence/graphics_buffer_views/consumer2.obj": "bbf21cc9175467d80a2fbc3ed8471b94a7893c11f27d2cac46f3a563d2022dc3"
+  },
+  "comparison_client_copies": {
+    "/home/kierzo/chess/matching/build/callback-keyboard461-main-verification/asm-code-contributions/graphics_blit_text_code1488.obj": "evidence/graphics_buffer_views/consumer0.obj",
+    "/home/kierzo/chess/matching/build/callback-keyboard461-main-verification/objects/msc500-204bbb844928feea-e6eaca7e.obj": "evidence/graphics_buffer_views/consumer1.obj",
+    "/home/kierzo/chess/matching/build/callback-keyboard461-main-verification/objects/msc500-82a71178acab4b39-e6eaca7e.obj": "evidence/graphics_buffer_views/consumer2.obj"
+  },
+  "generation_inputs_include_evidence_or_native": false,
+  "historical_C_capacity_TU_global_MAP_proven": false,
+  "new_byte_C_function_ASM_function_MZ_credit": 0
+}

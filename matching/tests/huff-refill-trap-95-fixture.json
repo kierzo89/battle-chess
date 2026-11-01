@@ -1,0 +1,35 @@
+{
+  "id": "huff_refill_trap_code",
+  "language": "asm-code",
+  "backend": "nasm-code-contribution-omf",
+  "object_profile": "huff_refill_trap",
+  "source": "asm/link/huff_helpers_omf.asm",
+  "source_sha256": "a8d35b4ae268a67dffcf4b0485e84ed7d9d28004dffffb882ade61bccd58a8ac",
+  "assembler_sha256": "57b8fc5957237b0d9b1ff48c8f5823780fb8ce968d9b8434850c06941ad5d5f5",
+  "image_offset": "0xe3ea",
+  "size": 95,
+  "public_symbols": [
+    "_huff_refill_e3ea",
+    "_huff_depth_trap_e410"
+  ],
+  "externals": {
+    "_huff_memory_mode": {
+      "segment": 23746,
+      "offset": 17630
+    },
+    "_huff_memory_cursor": {
+      "segment": 23746,
+      "offset": 17626
+    },
+    "_huff_input_buffer": {
+      "segment": 23746,
+      "offset": 11970
+    },
+    "_read_asset": {
+      "segment": 0,
+      "offset": 52111
+    }
+  },
+  "rea_evidence": "evidence/rea-huff-helpers-95-raw.json",
+  "boundary_evidence": "One complete95B multi-entryCODE allocation; refill94live disjoint around actualINT3entry1/sharedresume; no38/57procedure slicing orfunctioncredit. Actualtenfields/whole95/raw/native/MZ1/fourbases/two-orderLINK; no genericlinker relaxation."
+}

@@ -1,0 +1,1799 @@
+{
+  "near_providers": 36,
+  "near_definitions": 142,
+  "near_logical_bytes": 4978,
+  "near": [
+    {
+      "provider": "asset-selector-common",
+      "symbol": "_setup_offsets",
+      "size": 4,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 37440,
+      "native_interval": [
+        37440,
+        37444
+      ]
+    },
+    {
+      "provider": "asset-selector-common",
+      "symbol": "_setup_lengths",
+      "size": 4,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 39034,
+      "native_interval": [
+        39034,
+        39038
+      ]
+    },
+    {
+      "provider": "asset-selector-common",
+      "symbol": "_asset_offsets",
+      "size": 4,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 36324,
+      "native_interval": [
+        36324,
+        36328
+      ]
+    },
+    {
+      "provider": "asset-selector-common",
+      "symbol": "_asset_lengths",
+      "size": 4,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 38984,
+      "native_interval": [
+        38984,
+        38988
+      ]
+    },
+    {
+      "provider": "asset-selector-common",
+      "symbol": "_startup_offsets_9648",
+      "size": 4,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 38472,
+      "native_interval": [
+        38472,
+        38476
+      ]
+    },
+    {
+      "provider": "asset-selector-common",
+      "symbol": "_startup_lengths_a8b6",
+      "size": 4,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 43190,
+      "native_interval": [
+        43190,
+        43194
+      ]
+    },
+    {
+      "provider": "asset-selector-common",
+      "symbol": "_pair_offsets",
+      "size": 4,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 33148,
+      "native_interval": [
+        33148,
+        33152
+      ]
+    },
+    {
+      "provider": "asset-selector-common",
+      "symbol": "_pair_directory_lengths",
+      "size": 4,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 36096,
+      "native_interval": [
+        36096,
+        36100
+      ]
+    },
+    {
+      "provider": "clock-common",
+      "symbol": "_clock_epoch",
+      "size": 4,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 52158,
+      "native_interval": [
+        52158,
+        52162
+      ]
+    },
+    {
+      "provider": "clock-common",
+      "symbol": "_clock_sample",
+      "size": 4,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 52162,
+      "native_interval": [
+        52162,
+        52166
+      ]
+    },
+    {
+      "provider": "clock-common",
+      "symbol": "_clock_value",
+      "size": 4,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 52166,
+      "native_interval": [
+        52166,
+        52170
+      ]
+    },
+    {
+      "provider": "side-history-common",
+      "symbol": "_temporary",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 22472,
+      "native_interval": [
+        22472,
+        22474
+      ]
+    },
+    {
+      "provider": "side-history-common",
+      "symbol": "_current_side",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 38982,
+      "native_interval": [
+        38982,
+        38984
+      ]
+    },
+    {
+      "provider": "side-history-common",
+      "symbol": "_history_move_counter",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 38988,
+      "native_interval": [
+        38988,
+        38990
+      ]
+    },
+    {
+      "provider": "side-history-common",
+      "symbol": "_history_index",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 39040,
+      "native_interval": [
+        39040,
+        39042
+      ]
+    },
+    {
+      "provider": "side-history-common",
+      "symbol": "_opponent",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 43062,
+      "native_interval": [
+        43062,
+        43064
+      ]
+    },
+    {
+      "provider": "side-history-common",
+      "symbol": "_selected_move",
+      "size": 8,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 45228,
+      "native_interval": [
+        45228,
+        45236
+      ]
+    },
+    {
+      "provider": "book-state-common",
+      "symbol": "_book_choice_offset",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 45266,
+      "native_interval": [
+        45266,
+        45268
+      ]
+    },
+    {
+      "provider": "book-state-common",
+      "symbol": "_book_saved_index",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 37734,
+      "native_interval": [
+        37734,
+        37736
+      ]
+    },
+    {
+      "provider": "book-state-common",
+      "symbol": "_book_matches",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 45260,
+      "native_interval": [
+        45260,
+        45262
+      ]
+    },
+    {
+      "provider": "book-state-common",
+      "symbol": "_hint_score_964c",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 38476,
+      "native_interval": [
+        38476,
+        38478
+      ]
+    },
+    {
+      "provider": "book-state-common",
+      "symbol": "_book_state_index",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 36094,
+      "native_interval": [
+        36094,
+        36096
+      ]
+    },
+    {
+      "provider": "book-state-common",
+      "symbol": "_best",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 36320,
+      "native_interval": [
+        36320,
+        36322
+      ]
+    },
+    {
+      "provider": "book-state-common",
+      "symbol": "_iteration",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 36328,
+      "native_interval": [
+        36328,
+        36330
+      ]
+    },
+    {
+      "provider": "book-state-common",
+      "symbol": "_working_follow_8bb6",
+      "size": 8,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 35766,
+      "native_interval": [
+        35766,
+        35774
+      ]
+    },
+    {
+      "provider": "dialog-selection-common",
+      "symbol": "_dialog_selected",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 21202,
+      "native_interval": [
+        21202,
+        21204
+      ]
+    },
+    {
+      "provider": "dialog-selection-common",
+      "symbol": "_saved_name_count_52d4",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 21204,
+      "native_interval": [
+        21204,
+        21206
+      ]
+    },
+    {
+      "provider": "setup-cycle-common",
+      "symbol": "_setup_word_934a",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 37706,
+      "native_interval": [
+        37706,
+        37708
+      ]
+    },
+    {
+      "provider": "setup-cycle-common",
+      "symbol": "_setup_word_9646",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 38470,
+      "native_interval": [
+        38470,
+        38472
+      ]
+    },
+    {
+      "provider": "setup-cycle-common",
+      "symbol": "_setup_word_9844",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 38980,
+      "native_interval": [
+        38980,
+        38982
+      ]
+    },
+    {
+      "provider": "arena-snapshot-common",
+      "symbol": "_frame_data_cursor",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 37740,
+      "native_interval": [
+        37740,
+        37742
+      ]
+    },
+    {
+      "provider": "arena-snapshot-common",
+      "symbol": "_frame_list_cursor",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 45182,
+      "native_interval": [
+        45182,
+        45184
+      ]
+    },
+    {
+      "provider": "arena-snapshot-common",
+      "symbol": "_arena_cursor",
+      "size": 4,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 37432,
+      "native_interval": [
+        37432,
+        37436
+      ]
+    },
+    {
+      "provider": "arena-snapshot-common",
+      "symbol": "_checkpoint_data_933e",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 37694,
+      "native_interval": [
+        37694,
+        37696
+      ]
+    },
+    {
+      "provider": "arena-snapshot-common",
+      "symbol": "_checkpoint_lists_a84e",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 43086,
+      "native_interval": [
+        43086,
+        43088
+      ]
+    },
+    {
+      "provider": "arena-snapshot-common",
+      "symbol": "_checkpoint_8180",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 33152,
+      "native_interval": [
+        33152,
+        33154
+      ]
+    },
+    {
+      "provider": "arena-snapshot-common",
+      "symbol": "_checkpoint_8186",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 33158,
+      "native_interval": [
+        33158,
+        33160
+      ]
+    },
+    {
+      "provider": "arena-snapshot-common",
+      "symbol": "_checkpoint_936e",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 37742,
+      "native_interval": [
+        37742,
+        37744
+      ]
+    },
+    {
+      "provider": "arena-snapshot-common",
+      "symbol": "_checkpoint_987e",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 39038,
+      "native_interval": [
+        39038,
+        39040
+      ]
+    },
+    {
+      "provider": "arena-snapshot-common",
+      "symbol": "_checkpoint_arena_9368",
+      "size": 4,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 37736,
+      "native_interval": [
+        37736,
+        37740
+      ]
+    },
+    {
+      "provider": "arena-snapshot-common",
+      "symbol": "_active_data_b0ca",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 45258,
+      "native_interval": [
+        45258,
+        45260
+      ]
+    },
+    {
+      "provider": "arena-snapshot-common",
+      "symbol": "_active_lists_b080",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 45184,
+      "native_interval": [
+        45184,
+        45186
+      ]
+    },
+    {
+      "provider": "arena-snapshot-common",
+      "symbol": "_active_95fe",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 38398,
+      "native_interval": [
+        38398,
+        38400
+      ]
+    },
+    {
+      "provider": "arena-snapshot-common",
+      "symbol": "_active_8e22",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 36386,
+      "native_interval": [
+        36386,
+        36388
+      ]
+    },
+    {
+      "provider": "arena-snapshot-common",
+      "symbol": "_active_a834",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 43060,
+      "native_interval": [
+        43060,
+        43062
+      ]
+    },
+    {
+      "provider": "arena-snapshot-common",
+      "symbol": "_active_964e",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 38478,
+      "native_interval": [
+        38478,
+        38480
+      ]
+    },
+    {
+      "provider": "arena-snapshot-common",
+      "symbol": "_active_arena_9344",
+      "size": 4,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 37700,
+      "native_interval": [
+        37700,
+        37704
+      ]
+    },
+    {
+      "provider": "serial-ring-common",
+      "symbol": "_byte_ring_buffer",
+      "size": 128,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 35630,
+      "native_interval": [
+        35630,
+        35758
+      ]
+    },
+    {
+      "provider": "serial-ring-common",
+      "symbol": "_byte_read_cursor",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 35558,
+      "native_interval": [
+        35558,
+        35560
+      ]
+    },
+    {
+      "provider": "serial-ring-common",
+      "symbol": "_byte_write_cursor",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 37698,
+      "native_interval": [
+        37698,
+        37700
+      ]
+    },
+    {
+      "provider": "serial-ring-common",
+      "symbol": "_serial_irq_flags_b0d4",
+      "size": 1,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 45268,
+      "native_interval": [
+        45268,
+        45269
+      ]
+    },
+    {
+      "provider": "search-word-state-common",
+      "symbol": "_first_score",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 21494,
+      "native_interval": [
+        21494,
+        21496
+      ]
+    },
+    {
+      "provider": "search-word-state-common",
+      "symbol": "_window_limit",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 35628,
+      "native_interval": [
+        35628,
+        35630
+      ]
+    },
+    {
+      "provider": "search-word-state-common",
+      "symbol": "_position_score",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 37420,
+      "native_interval": [
+        37420,
+        37422
+      ]
+    },
+    {
+      "provider": "search-word-state-common",
+      "symbol": "_interrupted",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 37696,
+      "native_interval": [
+        37696,
+        37698
+      ]
+    },
+    {
+      "provider": "search-word-state-common",
+      "symbol": "_input_state",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 38996,
+      "native_interval": [
+        38996,
+        38998
+      ]
+    },
+    {
+      "provider": "search-word-state-common",
+      "symbol": "_search_level",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 43064,
+      "native_interval": [
+        43064,
+        43066
+      ]
+    },
+    {
+      "provider": "ui-word-state-common",
+      "symbol": "_dirty_left",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 37422,
+      "native_interval": [
+        37422,
+        37424
+      ]
+    },
+    {
+      "provider": "ui-word-state-common",
+      "symbol": "_dirty_right",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 37732,
+      "native_interval": [
+        37732,
+        37734
+      ]
+    },
+    {
+      "provider": "ui-word-state-common",
+      "symbol": "_dirty_top",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 37752,
+      "native_interval": [
+        37752,
+        37754
+      ]
+    },
+    {
+      "provider": "ui-word-state-common",
+      "symbol": "_dirty_bottom",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 36104,
+      "native_interval": [
+        36104,
+        36106
+      ]
+    },
+    {
+      "provider": "ui-word-state-common",
+      "symbol": "_pen_x",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 36134,
+      "native_interval": [
+        36134,
+        36136
+      ]
+    },
+    {
+      "provider": "ui-word-state-common",
+      "symbol": "_pen_y",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 36138,
+      "native_interval": [
+        36138,
+        36140
+      ]
+    },
+    {
+      "provider": "ui-word-state-common",
+      "symbol": "_menu_x",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 36312,
+      "native_interval": [
+        36312,
+        36314
+      ]
+    },
+    {
+      "provider": "ui-word-state-common",
+      "symbol": "_menu_y",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 36316,
+      "native_interval": [
+        36316,
+        36318
+      ]
+    },
+    {
+      "provider": "ui-word-state-common",
+      "symbol": "_menu_columns",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 36306,
+      "native_interval": [
+        36306,
+        36308
+      ]
+    },
+    {
+      "provider": "ui-word-state-common",
+      "symbol": "_height",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 36308,
+      "native_interval": [
+        36308,
+        36310
+      ]
+    },
+    {
+      "provider": "ui-word-state-common",
+      "symbol": "_border",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 37704,
+      "native_interval": [
+        37704,
+        37706
+      ]
+    },
+    {
+      "provider": "ui-word-state-common",
+      "symbol": "_motion_x",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 37730,
+      "native_interval": [
+        37730,
+        37732
+      ]
+    },
+    {
+      "provider": "ui-word-state-common",
+      "symbol": "_motion_y",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 37750,
+      "native_interval": [
+        37750,
+        37752
+      ]
+    },
+    {
+      "provider": "ui-word-state-common",
+      "symbol": "_stride",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 37746,
+      "native_interval": [
+        37746,
+        37748
+      ]
+    },
+    {
+      "provider": "ui-word-state-common",
+      "symbol": "_region_left",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 45242,
+      "native_interval": [
+        45242,
+        45244
+      ]
+    },
+    {
+      "provider": "ui-word-state-common",
+      "symbol": "_region_right",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 38468,
+      "native_interval": [
+        38468,
+        38470
+      ]
+    },
+    {
+      "provider": "ui-word-state-common",
+      "symbol": "_region_width",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 45272,
+      "native_interval": [
+        45272,
+        45274
+      ]
+    },
+    {
+      "provider": "evaluation-control-common",
+      "symbol": "_pawn_material",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 22464,
+      "native_interval": [
+        22464,
+        22466
+      ]
+    },
+    {
+      "provider": "evaluation-control-common",
+      "symbol": "_phase",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 33154,
+      "native_interval": [
+        33154,
+        33156
+      ]
+    },
+    {
+      "provider": "evaluation-control-common",
+      "symbol": "_saved_history_index",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 33156,
+      "native_interval": [
+        33156,
+        33158
+      ]
+    },
+    {
+      "provider": "evaluation-control-common",
+      "symbol": "_mode_8188",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 33160,
+      "native_interval": [
+        33160,
+        33162
+      ]
+    },
+    {
+      "provider": "evaluation-control-common",
+      "symbol": "_material_balance",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 36136,
+      "native_interval": [
+        36136,
+        36138
+      ]
+    },
+    {
+      "provider": "evaluation-control-common",
+      "symbol": "_last_key_8dcc",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 36300,
+      "native_interval": [
+        36300,
+        36302
+      ]
+    },
+    {
+      "provider": "evaluation-control-common",
+      "symbol": "_total_material",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 45220,
+      "native_interval": [
+        45220,
+        45222
+      ]
+    },
+    {
+      "provider": "evaluation-control-common",
+      "symbol": "_endgame",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 45270,
+      "native_interval": [
+        45270,
+        45272
+      ]
+    },
+    {
+      "provider": "evaluation-control-common",
+      "symbol": "_previous_buttons_9888",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 39048,
+      "native_interval": [
+        39048,
+        39050
+      ]
+    },
+    {
+      "provider": "evaluation-control-common",
+      "symbol": "_asset_drive_count",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 39050,
+      "native_interval": [
+        39050,
+        39052
+      ]
+    },
+    {
+      "provider": "evaluation-control-common",
+      "symbol": "_asset_drive_fallback",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 22478,
+      "native_interval": [
+        22478,
+        22480
+      ]
+    },
+    {
+      "provider": "evaluation-control-common",
+      "symbol": "_menu_last",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 45274,
+      "native_interval": [
+        45274,
+        45276
+      ]
+    },
+    {
+      "provider": "evaluation-control-common",
+      "symbol": "_state_index",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 43090,
+      "native_interval": [
+        43090,
+        43092
+      ]
+    },
+    {
+      "provider": "input-display-common",
+      "symbol": "_cursor_colour_9850",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 38992,
+      "native_interval": [
+        38992,
+        38994
+      ]
+    },
+    {
+      "provider": "input-display-common",
+      "symbol": "_ready_9856",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 38998,
+      "native_interval": [
+        38998,
+        39000
+      ]
+    },
+    {
+      "provider": "current-controls-common",
+      "symbol": "_current_controls",
+      "size": 4,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 45262,
+      "native_interval": [
+        45262,
+        45266
+      ]
+    },
+    {
+      "provider": "requested-limit-common",
+      "symbol": "_requested_limit",
+      "size": 4,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 21490,
+      "native_interval": [
+        21490,
+        21494
+      ]
+    },
+    {
+      "provider": "board-minimum-common",
+      "symbol": "_board",
+      "size": 480,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 43194,
+      "native_interval": [
+        43194,
+        43674
+      ]
+    },
+    {
+      "provider": "event-pointer-common",
+      "symbol": "_event_context",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 21488,
+      "native_interval": [
+        21488,
+        21490
+      ]
+    },
+    {
+      "provider": "event-pointer-common",
+      "symbol": "_current_event",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 39042,
+      "native_interval": [
+        39042,
+        39044
+      ]
+    },
+    {
+      "provider": "asset-mode-common",
+      "symbol": "_mode_8176",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 33142,
+      "native_interval": [
+        33142,
+        33144
+      ]
+    },
+    {
+      "provider": "menu-paused-common",
+      "symbol": "_paused",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 39054,
+      "native_interval": [
+        39054,
+        39056
+      ]
+    },
+    {
+      "provider": "packed-pen-common",
+      "symbol": "_packed_pen",
+      "size": 1,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 33138,
+      "native_interval": [
+        33138,
+        33139
+      ]
+    },
+    {
+      "provider": "turn-phase-common",
+      "symbol": "_state_57cc",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 22476,
+      "native_interval": [
+        22476,
+        22478
+      ]
+    },
+    {
+      "provider": "input-timer-common",
+      "symbol": "_current_ticks_9884",
+      "size": 4,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 39044,
+      "native_interval": [
+        39044,
+        39048
+      ]
+    },
+    {
+      "provider": "input-timer-common",
+      "symbol": "_last_event_ticks_b07a",
+      "size": 4,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 45178,
+      "native_interval": [
+        45178,
+        45182
+      ]
+    },
+    {
+      "provider": "rays239-common",
+      "symbol": "_rays",
+      "size": 956,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 21508,
+      "native_interval": [
+        21508,
+        22464
+      ]
+    },
+    {
+      "provider": "castle-dialog-event-common",
+      "symbol": "_castle_owner",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 21200,
+      "native_interval": [
+        21200,
+        21202
+      ]
+    },
+    {
+      "provider": "castle-dialog-event-common",
+      "symbol": "_dialog_event",
+      "size": 20,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 21206,
+      "native_interval": [
+        21206,
+        21226
+      ]
+    },
+    {
+      "provider": "piece-square-common",
+      "symbol": "_piece_square",
+      "size": 2880,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 45276,
+      "native_interval": [
+        45276,
+        48156
+      ]
+    },
+    {
+      "provider": "asset-fixed-arrays-common",
+      "symbol": "_metadata_records",
+      "size": 16,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 37710,
+      "native_interval": [
+        37710,
+        37726
+      ]
+    },
+    {
+      "provider": "asset-fixed-arrays-common",
+      "symbol": "_frame_descriptors",
+      "size": 32,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 39002,
+      "native_interval": [
+        39002,
+        39034
+      ]
+    },
+    {
+      "provider": "asset-fixed-arrays-common",
+      "symbol": "_values",
+      "size": 8,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 36122,
+      "native_interval": [
+        36122,
+        36130
+      ]
+    },
+    {
+      "provider": "asset-fixed-arrays-common",
+      "symbol": "_task_pool",
+      "size": 8,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 45246,
+      "native_interval": [
+        45246,
+        45254
+      ]
+    },
+    {
+      "provider": "move8-state-common",
+      "symbol": "_state_8d12",
+      "size": 8,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 36114,
+      "native_interval": [
+        36114,
+        36122
+      ]
+    },
+    {
+      "provider": "conditional-side-piece-counts-common",
+      "symbol": "_side_piece_counts",
+      "size": 4,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 36302,
+      "native_interval": [
+        36302,
+        36306
+      ]
+    },
+    {
+      "provider": "screen-coordinate-pointers-common",
+      "symbol": "_screen_x",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 45254,
+      "native_interval": [
+        45254,
+        45256
+      ]
+    },
+    {
+      "provider": "screen-coordinate-pointers-common",
+      "symbol": "_screen_y",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 45256,
+      "native_interval": [
+        45256,
+        45258
+      ]
+    },
+    {
+      "provider": "left-right-lists-common",
+      "symbol": "_left_lists",
+      "size": 72,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 36678,
+      "native_interval": [
+        36678,
+        36750
+      ]
+    },
+    {
+      "provider": "left-right-lists-common",
+      "symbol": "_right_lists",
+      "size": 72,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 36750,
+      "native_interval": [
+        36750,
+        36822
+      ]
+    },
+    {
+      "provider": "input-saved-bytes-common",
+      "symbol": "_saved_cursor_8d0a",
+      "size": 1,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 36106,
+      "native_interval": [
+        36106,
+        36107
+      ]
+    },
+    {
+      "provider": "input-saved-bytes-common",
+      "symbol": "_actor_flag_9374",
+      "size": 1,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 37748,
+      "native_interval": [
+        37748,
+        37749
+      ]
+    },
+    {
+      "provider": "input-saved-bytes-common",
+      "symbol": "_input_mode_984e",
+      "size": 1,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 38990,
+      "native_interval": [
+        38990,
+        38991
+      ]
+    },
+    {
+      "provider": "input-saved-bytes-common",
+      "symbol": "_input_flag_8fe0",
+      "size": 1,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 36832,
+      "native_interval": [
+        36832,
+        36833
+      ]
+    },
+    {
+      "provider": "move-count-common",
+      "symbol": "_move_count",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 33886,
+      "native_interval": [
+        33886,
+        33888
+      ]
+    },
+    {
+      "provider": "cursor-actor-index-common",
+      "symbol": "_cursor_actor_57d0",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 22480,
+      "native_interval": [
+        22480,
+        22482
+      ]
+    },
+    {
+      "provider": "animation-counter-common",
+      "symbol": "_animation_counter",
+      "size": 1,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 38402,
+      "native_interval": [
+        38402,
+        38403
+      ]
+    },
+    {
+      "provider": "ui-animation-scalars-common",
+      "symbol": "_pointer_x",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 37690,
+      "native_interval": [
+        37690,
+        37692
+      ]
+    },
+    {
+      "provider": "ui-animation-scalars-common",
+      "symbol": "_pointer_y",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 37726,
+      "native_interval": [
+        37726,
+        37728
+      ]
+    },
+    {
+      "provider": "ui-animation-scalars-common",
+      "symbol": "_menu_blink",
+      "size": 1,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 37692,
+      "native_interval": [
+        37692,
+        37693
+      ]
+    },
+    {
+      "provider": "ui-animation-scalars-common",
+      "symbol": "_animation_busy",
+      "size": 1,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 38994,
+      "native_interval": [
+        38994,
+        38995
+      ]
+    },
+    {
+      "provider": "square-coordinate-pointers-common",
+      "symbol": "_square_x",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 36102,
+      "native_interval": [
+        36102,
+        36104
+      ]
+    },
+    {
+      "provider": "square-coordinate-pointers-common",
+      "symbol": "_square_y",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 36108,
+      "native_interval": [
+        36108,
+        36110
+      ]
+    },
+    {
+      "provider": "independent-control-cells15-common",
+      "symbol": "_arena_capacity",
+      "size": 4,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 45236,
+      "native_interval": [
+        45236,
+        45240
+      ]
+    },
+    {
+      "provider": "independent-control-cells15-common",
+      "symbol": "_asset_table_53f8",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 21496,
+      "native_interval": [
+        21496,
+        21498
+      ]
+    },
+    {
+      "provider": "independent-control-cells15-common",
+      "symbol": "_asset_table_8ae4",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 35556,
+      "native_interval": [
+        35556,
+        35558
+      ]
+    },
+    {
+      "provider": "independent-control-cells15-common",
+      "symbol": "_buttons_8d04",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 36100,
+      "native_interval": [
+        36100,
+        36102
+      ]
+    },
+    {
+      "provider": "independent-control-cells15-common",
+      "symbol": "_command_root",
+      "size": 1,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 38991,
+      "native_interval": [
+        38991,
+        38992
+      ]
+    },
+    {
+      "provider": "independent-control-cells15-common",
+      "symbol": "_flash_rank_b0a3",
+      "size": 1,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 45219,
+      "native_interval": [
+        45219,
+        45220
+      ]
+    },
+    {
+      "provider": "independent-control-cells15-common",
+      "symbol": "_frame_index",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 39056,
+      "native_interval": [
+        39056,
+        39058
+      ]
+    },
+    {
+      "provider": "independent-control-cells15-common",
+      "symbol": "_marked_square_8dd6",
+      "size": 1,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 36310,
+      "native_interval": [
+        36310,
+        36311
+      ]
+    },
+    {
+      "provider": "independent-control-cells15-common",
+      "symbol": "_menu_state",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 36318,
+      "native_interval": [
+        36318,
+        36320
+      ]
+    },
+    {
+      "provider": "independent-control-cells15-common",
+      "symbol": "_pawn_bonus_side",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 36834,
+      "native_interval": [
+        36834,
+        36836
+      ]
+    },
+    {
+      "provider": "independent-control-cells15-common",
+      "symbol": "_pawn_mask",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 36132,
+      "native_interval": [
+        36132,
+        36134
+      ]
+    },
+    {
+      "provider": "independent-control-cells15-common",
+      "symbol": "_search_active",
+      "size": 1,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 38394,
+      "native_interval": [
+        38394,
+        38395
+      ]
+    },
+    {
+      "provider": "independent-control-cells15-common",
+      "symbol": "_search_side",
+      "size": 1,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 36322,
+      "native_interval": [
+        36322,
+        36323
+      ]
+    },
+    {
+      "provider": "independent-control-cells15-common",
+      "symbol": "_state_8fde",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 36830,
+      "native_interval": [
+        36830,
+        36832
+      ]
+    },
+    {
+      "provider": "independent-control-cells15-common",
+      "symbol": "_state_934c",
+      "size": 2,
+      "communal_kind": 98,
+      "storage": "near-common",
+      "native_DS": 37708,
+      "native_interval": [
+        37708,
+        37710
+      ]
+    }
+  ],
+  "near_overlaps": [],
+  "far_provider_retained": [
+    {
+      "provider": "native-capacity-far-common",
+      "symbol": "_asset_buffer",
+      "size": 70000,
+      "communal_kind": 97,
+      "storage": "far-common",
+      "element_count": 70000,
+      "element_bytes": 1
+    },
+    {
+      "provider": "native-capacity-far-common",
+      "symbol": "_decoded_arena",
+      "size": 150000,
+      "communal_kind": 97,
+      "storage": "far-common",
+      "element_count": 150000,
+      "element_bytes": 1
+    }
+  ],
+  "same_address_clusters": [
+    {
+      "DS": 34212,
+      "views": [
+        {
+          "name": "_history_storage",
+          "kind": "unprovided",
+          "complete_CV_sizes": []
+        },
+        {
+          "name": "_saved",
+          "kind": "unprovided",
+          "complete_CV_sizes": [
+            8
+          ]
+        },
+        {
+          "name": "_saved_state",
+          "kind": "unprovided",
+          "complete_CV_sizes": [
+            8
+          ]
+        }
+      ],
+      "identity_or_overlay_unproved": true
+    },
+    {
+      "DS": 38404,
+      "views": [
+        {
+          "name": "_pieces",
+          "kind": "unprovided",
+          "complete_CV_sizes": [
+            64
+          ]
+        },
+        {
+          "name": "_side_info_9604",
+          "kind": "unprovided",
+          "complete_CV_sizes": []
+        }
+      ],
+      "identity_or_overlay_unproved": true
+    },
+    {
+      "DS": 52178,
+      "views": [
+        {
+          "name": "_finished",
+          "kind": "unprovided",
+          "complete_CV_sizes": [
+            2
+          ]
+        },
+        {
+          "name": "_state_cbd2",
+          "kind": "unprovided",
+          "complete_CV_sizes": [
+            2
+          ]
+        }
+      ],
+      "identity_or_overlay_unproved": true
+    }
+  ],
+  "nominal_complete_view_vs_provided_overlaps": [],
+  "all_array_capacities_held_unless_priorseparateproof": true
+}

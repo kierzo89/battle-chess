@@ -1,0 +1,608 @@
+{
+  "base": 52338,
+  "size": 610,
+  "instructions": 208,
+  "fields": [
+    {
+      "offset": 31,
+      "width": 2,
+      "symbol": "_background",
+      "kind": "DS-offset",
+      "native_target": 37728,
+      "source_addend": 0
+    },
+    {
+      "offset": 34,
+      "width": 2,
+      "symbol": "_dialog_text",
+      "kind": "DS-offset",
+      "native_target": 11048,
+      "source_addend": 0
+    },
+    {
+      "offset": 37,
+      "width": 2,
+      "symbol": "_menu_state",
+      "kind": "DS-offset",
+      "native_target": 36318,
+      "source_addend": 0
+    },
+    {
+      "offset": 40,
+      "width": 2,
+      "symbol": "_dialog_text",
+      "kind": "DS-offset",
+      "native_target": 11048,
+      "source_addend": 1
+    },
+    {
+      "offset": 48,
+      "width": 2,
+      "symbol": "_read_saved_games",
+      "kind": "near-CALL",
+      "native_target": 54685,
+      "source_addend": 0
+    },
+    {
+      "offset": 65,
+      "width": 2,
+      "symbol": "_no_saved_games",
+      "kind": "DS-offset",
+      "native_target": 20828,
+      "source_addend": 0
+    },
+    {
+      "offset": 69,
+      "width": 2,
+      "symbol": "_prompt_1296",
+      "kind": "near-CALL",
+      "native_target": 4758,
+      "source_addend": 0
+    },
+    {
+      "offset": 89,
+      "width": 2,
+      "symbol": "_select_mode",
+      "kind": "near-CALL",
+      "native_target": 6137,
+      "source_addend": 0
+    },
+    {
+      "offset": 95,
+      "width": 4,
+      "symbol": "_graphics_begin",
+      "kind": "FAR-CALL",
+      "native_target": 30,
+      "native_frame": 4591,
+      "source_addend": 0,
+      "native_MZ_site": 52435
+    },
+    {
+      "offset": 100,
+      "width": 2,
+      "symbol": "_prepare_dialog_d2cc",
+      "kind": "near-CALL",
+      "native_target": 53964,
+      "source_addend": 0
+    },
+    {
+      "offset": 111,
+      "width": 2,
+      "symbol": "_collect_saved_names_d2dd",
+      "kind": "near-CALL",
+      "native_target": 53981,
+      "source_addend": 0
+    },
+    {
+      "offset": 117,
+      "width": 2,
+      "symbol": "_dialog_actions_516c",
+      "kind": "DS-offset",
+      "native_target": 20844,
+      "source_addend": 0
+    },
+    {
+      "offset": 126,
+      "width": 2,
+      "symbol": "_draw_saved_game_rows_d365",
+      "kind": "near-CALL",
+      "native_target": 54117,
+      "source_addend": 0
+    },
+    {
+      "offset": 141,
+      "width": 2,
+      "symbol": "_highlight_game_d66c",
+      "kind": "near-CALL",
+      "native_target": 54892,
+      "source_addend": 0
+    },
+    {
+      "offset": 147,
+      "width": 4,
+      "symbol": "_graphics_end",
+      "kind": "FAR-CALL",
+      "native_target": 0,
+      "native_frame": 4591,
+      "source_addend": 0,
+      "native_MZ_site": 52487
+    },
+    {
+      "offset": 152,
+      "width": 2,
+      "symbol": "_next_dialog_event_d766",
+      "kind": "near-CALL",
+      "native_target": 55142,
+      "source_addend": 0
+    },
+    {
+      "offset": 194,
+      "width": 2,
+      "symbol": "_next_dialog_row_db3d",
+      "kind": "near-CALL",
+      "native_target": 56125,
+      "source_addend": 0
+    },
+    {
+      "offset": 213,
+      "width": 2,
+      "symbol": "_highlight_game_d66c",
+      "kind": "near-CALL",
+      "native_target": 54892,
+      "source_addend": 0
+    },
+    {
+      "offset": 230,
+      "width": 2,
+      "symbol": "_previous_dialog_row_db65",
+      "kind": "near-CALL",
+      "native_target": 56165,
+      "source_addend": 0
+    },
+    {
+      "offset": 271,
+      "width": 4,
+      "symbol": "_graphics_begin",
+      "kind": "FAR-CALL",
+      "native_target": 30,
+      "native_frame": 4591,
+      "source_addend": 0,
+      "native_MZ_site": 52611
+    },
+    {
+      "offset": 276,
+      "width": 2,
+      "symbol": "_close_dialog_d90e",
+      "kind": "near-CALL",
+      "native_target": 55566,
+      "source_addend": 0
+    },
+    {
+      "offset": 310,
+      "width": 2,
+      "symbol": "_dispatch_8d73",
+      "kind": "near-CALL",
+      "native_target": 36211,
+      "source_addend": 0
+    },
+    {
+      "offset": 316,
+      "width": 2,
+      "symbol": "_reset_df71",
+      "kind": "near-CALL",
+      "native_target": 57201,
+      "source_addend": 0
+    },
+    {
+      "offset": 319,
+      "width": 2,
+      "symbol": "_command_active",
+      "kind": "DS-offset",
+      "native_target": 3830,
+      "source_addend": 0
+    },
+    {
+      "offset": 333,
+      "width": 2,
+      "symbol": "_restore_ui_92ab",
+      "kind": "near-CALL",
+      "native_target": 37547,
+      "source_addend": 0
+    },
+    {
+      "offset": 339,
+      "width": 2,
+      "symbol": "_command_active",
+      "kind": "DS-offset",
+      "native_target": 3830,
+      "source_addend": 0
+    },
+    {
+      "offset": 351,
+      "width": 2,
+      "symbol": "_init_surface",
+      "kind": "near-CALL",
+      "native_target": 10778,
+      "source_addend": 0
+    },
+    {
+      "offset": 354,
+      "width": 2,
+      "symbol": "_reset_graphics_3e4f",
+      "kind": "near-CALL",
+      "native_target": 15951,
+      "source_addend": 0
+    },
+    {
+      "offset": 357,
+      "width": 2,
+      "symbol": "_reset_display_0865",
+      "kind": "near-CALL",
+      "native_target": 2149,
+      "source_addend": 0
+    },
+    {
+      "offset": 394,
+      "width": 2,
+      "symbol": "_ticks_ea5b",
+      "kind": "near-CALL",
+      "native_target": 59995,
+      "source_addend": 0
+    },
+    {
+      "offset": 410,
+      "width": 2,
+      "symbol": "_pointer_y",
+      "kind": "DS-offset",
+      "native_target": 37726,
+      "source_addend": 0
+    },
+    {
+      "offset": 414,
+      "width": 2,
+      "symbol": "_pointer_x",
+      "kind": "DS-offset",
+      "native_target": 37690,
+      "source_addend": 0
+    },
+    {
+      "offset": 417,
+      "width": 2,
+      "symbol": "_dialog_hit_d840",
+      "kind": "near-CALL",
+      "native_target": 55360,
+      "source_addend": 0
+    },
+    {
+      "offset": 457,
+      "width": 2,
+      "symbol": "_highlight_game_d66c",
+      "kind": "near-CALL",
+      "native_target": 54892,
+      "source_addend": 0
+    },
+    {
+      "offset": 479,
+      "width": 2,
+      "symbol": "_dialog_button_d92e",
+      "kind": "near-CALL",
+      "native_target": 55598,
+      "source_addend": 0
+    },
+    {
+      "offset": 576,
+      "width": 2,
+      "symbol": "_pointer_x",
+      "kind": "DS-offset",
+      "native_target": 37690,
+      "source_addend": 0
+    },
+    {
+      "offset": 582,
+      "width": 2,
+      "symbol": "_pointer_y",
+      "kind": "DS-offset",
+      "native_target": 37726,
+      "source_addend": 0
+    },
+    {
+      "offset": 585,
+      "width": 4,
+      "symbol": "_update_pointer_11ef_0030",
+      "kind": "FAR-CALL",
+      "native_target": 48,
+      "native_frame": 4591,
+      "source_addend": 0,
+      "native_MZ_site": 52925
+    },
+    {
+      "offset": 593,
+      "width": 4,
+      "symbol": "_graphics_begin",
+      "kind": "FAR-CALL",
+      "native_target": 30,
+      "native_frame": 4591,
+      "source_addend": 0,
+      "native_MZ_site": 52933
+    },
+    {
+      "offset": 598,
+      "width": 2,
+      "symbol": "_close_dialog_d90e",
+      "kind": "near-CALL",
+      "native_target": 55566,
+      "source_addend": 0
+    },
+    {
+      "offset": 601,
+      "width": 4,
+      "symbol": "_graphics_end",
+      "kind": "FAR-CALL",
+      "native_target": 0,
+      "native_frame": 4591,
+      "source_addend": 0,
+      "native_MZ_site": 52941
+    }
+  ],
+  "internal_NEAR_branches": [
+    {
+      "offset": 75,
+      "target_offset": 605,
+      "native_target": 52943,
+      "native_rel16": "1002"
+    },
+    {
+      "offset": 263,
+      "target_offset": 592,
+      "native_target": 52930,
+      "native_rel16": "4701"
+    },
+    {
+      "offset": 348,
+      "target_offset": 600,
+      "native_target": 52938,
+      "native_rel16": "fa00"
+    },
+    {
+      "offset": 360,
+      "target_offset": 600,
+      "native_target": 52938,
+      "native_rel16": "ee00"
+    },
+    {
+      "offset": 379,
+      "target_offset": 568,
+      "native_target": 52906,
+      "native_rel16": "bb00"
+    },
+    {
+      "offset": 382,
+      "target_offset": 151,
+      "native_target": 52489,
+      "native_rel16": "17ff"
+    },
+    {
+      "offset": 391,
+      "target_offset": 151,
+      "native_target": 52489,
+      "native_rel16": "0eff"
+    },
+    {
+      "offset": 499,
+      "target_offset": 151,
+      "native_target": 52489,
+      "native_rel16": "a2fe"
+    },
+    {
+      "offset": 539,
+      "target_offset": 270,
+      "native_target": 52608,
+      "native_rel16": "f1fe"
+    },
+    {
+      "offset": 566,
+      "target_offset": 151,
+      "native_target": 52489,
+      "native_rel16": "5ffe"
+    },
+    {
+      "offset": 590,
+      "target_offset": 151,
+      "native_target": 52489,
+      "native_rel16": "47fe"
+    }
+  ],
+  "short_and_near_branches": {
+    "52393": [
+      52415,
+      2
+    ],
+    "52412": [
+      52943,
+      3
+    ],
+    "52501": [
+      52572,
+      2
+    ],
+    "52507": [
+      52572,
+      2
+    ],
+    "52515": [
+      52558,
+      2
+    ],
+    "52520": [
+      52489,
+      2
+    ],
+    "52556": [
+      52489,
+      2
+    ],
+    "52570": [
+      52534,
+      2
+    ],
+    "52579": [
+      52700,
+      2
+    ],
+    "52585": [
+      52700,
+      2
+    ],
+    "52593": [
+      52608,
+      2
+    ],
+    "52598": [
+      52603,
+      2
+    ],
+    "52600": [
+      52930,
+      3
+    ],
+    "52606": [
+      52489,
+      2
+    ],
+    "52683": [
+      52688,
+      2
+    ],
+    "52685": [
+      52938,
+      3
+    ],
+    "52697": [
+      52938,
+      3
+    ],
+    "52709": [
+      52722,
+      2
+    ],
+    "52714": [
+      52719,
+      2
+    ],
+    "52716": [
+      52906,
+      3
+    ],
+    "52719": [
+      52489,
+      3
+    ],
+    "52726": [
+      52731,
+      2
+    ],
+    "52728": [
+      52489,
+      3
+    ],
+    "52767": [
+      52802,
+      2
+    ],
+    "52779": [
+      52826,
+      2
+    ],
+    "52800": [
+      52826,
+      2
+    ],
+    "52807": [
+      52826,
+      2
+    ],
+    "52824": [
+      52930,
+      2
+    ],
+    "52834": [
+      52839,
+      2
+    ],
+    "52836": [
+      52489,
+      3
+    ],
+    "52857": [
+      52879,
+      2
+    ],
+    "52859": [
+      52866,
+      2
+    ],
+    "52864": [
+      52879,
+      2
+    ],
+    "52874": [
+      52879,
+      2
+    ],
+    "52876": [
+      52608,
+      3
+    ],
+    "52903": [
+      52489,
+      3
+    ],
+    "52927": [
+      52489,
+      3
+    ]
+  },
+  "external_names": [
+    "_background",
+    "_close_dialog_d90e",
+    "_collect_saved_names_d2dd",
+    "_command_active",
+    "_dialog_actions_516c",
+    "_dialog_button_d92e",
+    "_dialog_hit_d840",
+    "_dialog_text",
+    "_dispatch_8d73",
+    "_draw_saved_game_rows_d365",
+    "_graphics_begin",
+    "_graphics_end",
+    "_highlight_game_d66c",
+    "_init_surface",
+    "_menu_state",
+    "_next_dialog_event_d766",
+    "_next_dialog_row_db3d",
+    "_no_saved_games",
+    "_pointer_x",
+    "_pointer_y",
+    "_prepare_dialog_d2cc",
+    "_previous_dialog_row_db65",
+    "_prompt_1296",
+    "_read_saved_games",
+    "_reset_df71",
+    "_reset_display_0865",
+    "_reset_graphics_3e4f",
+    "_restore_ui_92ab",
+    "_select_mode",
+    "_ticks_ea5b",
+    "_update_pointer_11ef_0030"
+  ],
+  "native_MZ": [
+    52435,
+    52487,
+    52611,
+    52925,
+    52933,
+    52941
+  ],
+  "old150_disjoint_verified": true,
+  "CODE_alignment": "WORD; no tail or CED4 contribution"
+}

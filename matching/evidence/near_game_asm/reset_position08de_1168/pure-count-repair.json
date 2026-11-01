@@ -1,0 +1,19 @@
+{
+  "status": "PURE_COMPARISON_REPAIR_NO_GEN",
+  "only_algorithm_predicate_change": {
+    "before": "len(o.fixups)==41+len(internal)",
+    "after": "len(o.fixups)==132+len(internal)",
+    "count": 1,
+    "reason": "Closed operand contract contains132 external fields; actual immutable144 fields=132+12; stale41 copied from save610 comparator. All individual fields remain strict."
+  },
+  "coordinate_changes_only": [
+    "Read exact originalV3 source/driver/freeze/native/ledger/contracts via G not new D",
+    "Separate comparator-only freeze/release pin",
+    "Distinct comparison-v4.json and comparison-negative-v4.json; originalV3negative retained"
+  ],
+  "all_native_shape_field_CODE1168_MZ_fourbase_predicates_unchanged": true,
+  "GEN_source_and_OBJ_unchanged": true,
+  "original_V3_negative_sha256": "d1a10496d8cb84d181c392c0b82d9d425abc44fcf8cb3c8dd62ab871ab8fc7db",
+  "raw_object_sha256": "86165796a07c053f739488660098e8a91691a48897b400d0a78e0321e4421bf6",
+  "C_credit": 0
+}

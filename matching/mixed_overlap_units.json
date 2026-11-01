@@ -1,0 +1,369 @@
+{
+  "fill_region_1780": {
+    "id": "fill_region_1780",
+    "source": "src/input_mixed_context_match.c",
+    "symbol": "_fill_region_1780",
+    "flags": [
+      "/AS",
+      "/Zi"
+    ],
+    "image_offset": "0x1780",
+    "size": 121,
+    "language": "c",
+    "backend": "msc500-fa-masm510-overlap-mixed-v1",
+    "externals": {
+      "__chkstk": 60586,
+      "_graphics_begin": {
+        "segment": 4591,
+        "offset": 30
+      },
+      "_graphics_end": {
+        "segment": 4591,
+        "offset": 0
+      },
+      "_graphics_rect_110d_0003": {
+        "segment": 4365,
+        "offset": 3
+      },
+      "_select_pen_5b18": 23320,
+      "_rect_2079": 8313
+    },
+    "rea_evidence": "evidence/rea_fill_region_1780_original.json",
+    "boundary_evidence": "Originalcompletecontiguous121native/CV121, fullraw121+next84 authenticated. All8actualcompilerfields andcomplete3MZ/fourbasesexact. StandalonewholeCODE122hasgenuine90tailconflictingnext17F955; tailuncredited, nohistoricalmoduleclaim.",
+    "mixed_profile": "input_overlap_v1",
+    "object_profile": "input_overlap_v1",
+    "source_sha256": "9cfe972686121e02c8fce86ab10054c5cd45073e2cae4cef7b85974a5fa94d94"
+  },
+  "select_mode_code84": {
+    "id": "select_mode_code84",
+    "language": "asm-code",
+    "backend": "msc500-fa-masm510-overlap-mixed-v1",
+    "object_profile": "input_overlap_v1",
+    "source": "asm/link/input_mixed_authored.asm",
+    "source_sha256": "da828231573e897db2f00160463f33e373e0daa3371152c986e6fa16f4906bf0",
+    "assembler_sha256": "1c6286c69b616160b8475ad17453ee872702a2c98075c2159ec792a1c745275f",
+    "public_symbols": [
+      "_select_mode"
+    ],
+    "image_offset": "0x17f9",
+    "size": 84,
+    "externals": {
+      "__chkstk": 60586,
+      "_input_mode_0046": 70,
+      "_graphics_begin": {
+        "segment": 4591,
+        "offset": 30
+      },
+      "_graphics_end": {
+        "segment": 4591,
+        "offset": 0
+      }
+    },
+    "rea_evidence": "evidence/input_dialog_asm/select84/primary.json",
+    "reference_region": "unchanged-prefix",
+    "boundary_evidence": "Complete native84/26 instructions and exact oneMASM whole292; BYTE CODE preserves odd entry17F9, ends184D without filler; five symbolic fields and two MZ/fourbases. Real graphics_begin/end providers, twelve selected callers. C store-only-local negatives and driver BP/SS interpretation remain held; C and standalone ASM function credit zero.",
+    "mixed_profile": "input_overlap_v1"
+  },
+  "next_event_184d": {
+    "id": "next_event_184d",
+    "language": "c",
+    "backend": "msc500-fa-masm510-overlap-mixed-v1",
+    "source": "src/input_mixed_context_match.c",
+    "symbol": "_next_event_184d",
+    "flags": [
+      "/AS",
+      "/Zi"
+    ],
+    "image_offset": "0x184d",
+    "size": 202,
+    "externals": {
+      "__chkstk": 60586,
+      "_mode_005a": 90,
+      "_command_head_006e": 110,
+      "_command_cursor_0070": 112,
+      "_current_ticks_9884": 39044,
+      "_last_event_ticks_b07a": 45178,
+      "_event_tick_0072": 114,
+      "_pump_input_2301": 8961,
+      "_handle_input_1917": 6423,
+      "_write_command_fd4e": {
+        "segment": 4031,
+        "offset": 350
+      },
+      "_poll_event": 59954,
+      "_ticks_ea5b": 59995
+    },
+    "rea_evidence": "evidence/rea_event0254_next_event_abi.json",
+    "boundary_evidence": "Complete independently contiguous original REA202 body and full C CodeView extent; source word-alignment requires enclosing context.",
+    "mixed_profile": "input_overlap_v1",
+    "object_profile": "input_overlap_v1",
+    "source_sha256": "9cfe972686121e02c8fce86ab10054c5cd45073e2cae4cef7b85974a5fa94d94"
+  },
+  "handle_input_1917": {
+    "id": "handle_input_1917",
+    "source": "src/input_mixed_context_match.c",
+    "symbol": "_handle_input_1917",
+    "flags": [
+      "/AS",
+      "/Zi"
+    ],
+    "image_offset": "0x1917",
+    "size": 864,
+    "language": "c",
+    "backend": "msc500-fa-masm510-overlap-mixed-v1",
+    "externals": {
+      "__chkstk": 60586,
+      "_command_cursor_0070": 112,
+      "_board_action_active_0056": 86,
+      "_write_command_fd4e": {
+        "segment": 4031,
+        "offset": 350
+      },
+      "_type_chat_14c1": 5313,
+      "_input_update_0886": 2182,
+      "_modes": 1340,
+      "_event_tick_0072": 114,
+      "_position_command_22c5": 8901,
+      "_choose_action_2008": 8200,
+      "_menus": 36314,
+      "_menu_enabled_0ef0": 3824,
+      "_pointer_y": 37726,
+      "_pointer_x": 37690,
+      "_refresh_panel_1d51": 7505,
+      "_cursor_row_0088": 136,
+      "_cursor_column_0086": 134,
+      "_selected_square_0efa": 3834,
+      "_cursor_kind_0ef4": 3828,
+      "_board_input_0ef2": 3826,
+      "_text_input_active": 85,
+      "_write_key_command_1cfa": 7418,
+      "_modal_0054": 84,
+      "_input_dialog_260c": 9740,
+      "_highlight_flash_0057": 87,
+      "_input_wait_1da9": 7593,
+      "_input_control_1c77": 7287,
+      "_command_key_fd6a": {
+        "segment": 4031,
+        "offset": 378
+      },
+      "_menu_rows": 1156,
+      "_paused": 39054
+    },
+    "rea_evidence": "evidence/rea_handle_input_1917_original.json",
+    "extended_extent": {
+      "kind": "keyboard_switches_1917_v1",
+      "raw_span_evidence": "evidence/rea_keyboard_full_original_context.json",
+      "peer_body_evidence": "evidence/rea_input_control_1c77_original.json",
+      "next_entry_evidence": "evidence/rea_low_control_write_key_command_1cfa.json",
+      "gap_xref_evidence": [
+        "evidence/rea_keyboard_xref_11c14.json",
+        "evidence/rea_keyboard_xref_11c15.json",
+        "evidence/rea_keyboard_xref_11cb7.json",
+        "evidence/rea_keyboard_xref_11cb8.json"
+      ],
+      "preceding_jump_evidence": [
+        "evidence/rea_keyboard_instruction_11c12.json",
+        "evidence/rea_keyboard_instruction_11cb5.json"
+      ],
+      "gap_decoder_evidence": [
+        "evidence/rea_keyboard_instruction_11c14.json",
+        "evidence/rea_keyboard_instruction_11cb7.json"
+      ]
+    },
+    "boundary_evidence": "Complete original native/full fresh CV bytes unchanged in genuine995 two-function prefix; actual CODE996 final90 remains uncredited and conflicts with next1CFA55; odd1917 standaloneWORD unresolved. Actualinput_wait int(char) and realmenu_rowsDS0484 declarations coherent. No tail edits or omission.",
+    "mixed_profile": "input_overlap_v1",
+    "object_profile": "input_overlap_v1",
+    "source_sha256": "9cfe972686121e02c8fce86ab10054c5cd45073e2cae4cef7b85974a5fa94d94"
+  },
+  "input_control_1c77": {
+    "id": "input_control_1c77",
+    "source": "src/input_mixed_context_match.c",
+    "symbol": "_input_control_1c77",
+    "flags": [
+      "/AS",
+      "/Zi"
+    ],
+    "image_offset": "0x1c77",
+    "size": 131,
+    "language": "c",
+    "backend": "msc500-fa-masm510-overlap-mixed-v1",
+    "externals": {
+      "__chkstk": 60586,
+      "_command_cursor_0070": 112,
+      "_write_command_fd4e": {
+        "segment": 4031,
+        "offset": 350
+      },
+      "_special_command_1fc2": {
+        "segment": 4591,
+        "offset": 210
+      }
+    },
+    "rea_evidence": "evidence/rea_input_control_1c77_original.json",
+    "extended_extent": {
+      "kind": "keyboard_switches_1917_v1",
+      "raw_span_evidence": "evidence/rea_keyboard_full_original_context.json",
+      "peer_body_evidence": "evidence/rea_handle_input_1917_original.json",
+      "next_entry_evidence": "evidence/rea_low_control_write_key_command_1cfa.json",
+      "gap_xref_evidence": [
+        "evidence/rea_keyboard_xref_11c14.json",
+        "evidence/rea_keyboard_xref_11c15.json",
+        "evidence/rea_keyboard_xref_11cb7.json",
+        "evidence/rea_keyboard_xref_11cb8.json"
+      ],
+      "preceding_jump_evidence": [
+        "evidence/rea_keyboard_instruction_11c12.json",
+        "evidence/rea_keyboard_instruction_11cb5.json"
+      ],
+      "gap_decoder_evidence": [
+        "evidence/rea_keyboard_instruction_11c14.json",
+        "evidence/rea_keyboard_instruction_11cb7.json"
+      ]
+    },
+    "boundary_evidence": "Complete original native/full fresh CV bytes unchanged in genuine995 two-function prefix; actual CODE996 final90 remains uncredited and conflicts with next1CFA55; odd1917 standaloneWORD unresolved. Actualinput_wait int(char) and realmenu_rowsDS0484 declarations coherent. No tail edits or omission.",
+    "mixed_profile": "input_overlap_v1",
+    "object_profile": "input_overlap_v1",
+    "source_sha256": "9cfe972686121e02c8fce86ab10054c5cd45073e2cae4cef7b85974a5fa94d94"
+  },
+  "init_animation_code1083": {
+    "id": "init_animation_code1083",
+    "language": "asm-code",
+    "backend": "msc500-fa-masm510-overlap-mixed-v1",
+    "object_profile": "motion_overlap_v1",
+    "source": "asm/link/motion_mixed_authored.asm",
+    "source_sha256": "953dbe20cad21a8a8c0202ddb2343f2fbe6d5a3fbedf66fb62690d45cc612dba",
+    "assembler_sha256": "1c6286c69b616160b8475ad17453ee872702a2c98075c2159ec792a1c745275f",
+    "public_symbols": [
+      "_init_animation"
+    ],
+    "image_offset": "0x6cb4",
+    "size": 1083,
+    "externals": {
+      "__chkstk": 60586,
+      "_begin_input_0fb0": 4016,
+      "_select_asset_file": 51798,
+      "_seek_asset": 52059,
+      "_prepare_asset_decode": 57402,
+      "_huff_frame_decode": 57751,
+      "_fill_region_1780": 6016,
+      "_rand": 62192,
+      "_draw_text_e915": 59669,
+      "_text_input_1064": 4196,
+      "_restore_region_58b0": 22704,
+      "_end_input_102d": 4141,
+      "_startup_offsets_9648": 38472,
+      "_splash_buffer": {
+        "segment": 7945,
+        "offset": 0
+      },
+      "_menu_state": 36318,
+      "_menu_text": 1478,
+      "_foreground": 36130,
+      "_left_lists": 36678,
+      "_animation_initial_stream_0f08": 3848,
+      "_animation_black_label_4d96": 19862,
+      "_animation_white_label_4d9e": 19870,
+      "_left_controls": 35950,
+      "_asset_table_53f8": 21496,
+      "_piece_controls": 36340,
+      "_asset_table_8ae4": 35556
+    },
+    "rea_evidence": "evidence/rea_animation_6cb4_instructions.json",
+    "reference_region": "unchanged-prefix",
+    "boundary_evidence": "Complete original/carrier1083 stream and395 real instruction interpretations: primary393/live1079 plus raw35-byte tail preserves the two NOPs and two dead jumps. Actual corrected source-only MASM wholeOBJ27b6 has39 typedfields (38external+1internal), native3MZ/fourbases. WORD alignment retained; odd70EF/724D neighbor join, historical source/patch attribution and three unresolved stream/text identities remain HELD. No C credit.",
+    "mixed_profile": "motion_overlap_v1"
+  },
+  "offset_task_70ef": {
+    "id": "offset_task_70ef",
+    "source": "src/motion_mixed_context_match.c",
+    "symbol": "_offset_task_70ef",
+    "flags": [
+      "/AS",
+      "/Zi"
+    ],
+    "image_offset": "0x70ef",
+    "size": 350,
+    "language": "c",
+    "backend": "msc500-fa-masm510-overlap-mixed-v1",
+    "externals": {
+      "_motion_x": 37730,
+      "_frames": 33166,
+      "_frame_lists": 33912,
+      "_task_ready_772d": 30509,
+      "_compose_frame_3b3a": 15162,
+      "__chkstk": 60586,
+      "_interpolate_position_5ebc": 24252,
+      "_motion_y": 37750,
+      "_pop_value": 15042,
+      "_attach_actor": 16143
+    },
+    "rea_evidence": "evidence/rea_task_handler_70ef.json",
+    "boundary_evidence": "Fresh original REA ev_ee7bbc4e6eb6909f112a617504e664df4bbf560e76c21651829bb14369bf863b and independentMSC5CV3 procedure/fullrawbytes exact, allfieldfixups/MZemptysets verified. Start0x70ef isodd, so genuineenclosingWORDcontext needed; nohistoricalTUplacementclaim. CODE350 bytesallmatch butvalidWORDplacementnotestablished. No paddinglocals/artificialhelpers orbytepatches; allsourceautolocalsareused. Fullproof evidence/offset-face-70ef-730b-match.json.",
+    "mixed_profile": "motion_overlap_v1",
+    "object_profile": "motion_overlap_v1",
+    "source_sha256": "a85d408380757b940d0fd2b2f7d5c6fba1b69ffea867b3f349b91b9fe9d70ed9"
+  },
+  "face_task_724d": {
+    "id": "face_task_724d",
+    "source": "src/motion_mixed_context_match.c",
+    "symbol": "_face_task_724d",
+    "flags": [
+      "/AS",
+      "/Zi"
+    ],
+    "image_offset": "0x724d",
+    "size": 191,
+    "language": "c",
+    "backend": "msc500-fa-masm510-overlap-mixed-v1",
+    "externals": {
+      "_frames": 33166,
+      "_frame_lists": 33912,
+      "_compose_frame_3b3a": 15162,
+      "__chkstk": 60586,
+      "_pop_value": 15042,
+      "_attach_actor": 16143
+    },
+    "rea_evidence": "evidence/rea_task_handler_724d.json",
+    "boundary_evidence": "Fresh original REA ev_3849d8c5e54c9fcc190e1180e5d02ea14cb6b6ba49e7cdaa8f6ad17028d4c41e and independentMSC5CV3 procedure/fullrawbytes exact, allfieldfixups/MZemptysets verified. Start0x724d isodd, so genuineenclosingWORDcontext needed; nohistoricalTUplacementclaim. CODE192 final90outsideCV191 isuncredited anddiffersfromnext730C55; strict2Bdeadgap72FCproofretained. No paddinglocals/artificialhelpers orbytepatches; allsourceautolocalsareused. Fullproof evidence/offset-face-70ef-730b-match.json.",
+    "extended_extent": {
+      "kind": "face_task_gap_724d_v1",
+      "raw_span_evidence": "evidence/rea_face_task_724d_full_context.json",
+      "next_entry_evidence": "evidence/rea_task_handler_730c.json",
+      "gap_xref_evidence": [
+        "evidence/rea_face_task_xrefs_172fc.json",
+        "evidence/rea_face_task_xrefs_172fd.json"
+      ]
+    },
+    "mixed_profile": "motion_overlap_v1",
+    "object_profile": "motion_overlap_v1",
+    "source_sha256": "a85d408380757b940d0fd2b2f7d5c6fba1b69ffea867b3f349b91b9fe9d70ed9"
+  },
+  "turn_task_code640": {
+    "id": "turn_task_code640",
+    "language": "asm-code",
+    "backend": "msc500-fa-masm510-overlap-mixed-v1",
+    "object_profile": "motion_overlap_v1",
+    "source": "asm/link/motion_mixed_authored.asm",
+    "source_sha256": "953dbe20cad21a8a8c0202ddb2343f2fbe6d5a3fbedf66fb62690d45cc612dba",
+    "assembler_sha256": "1c6286c69b616160b8475ad17453ee872702a2c98075c2159ec792a1c745275f",
+    "public_symbols": [
+      "_turn_task_730c"
+    ],
+    "image_offset": "0x730c",
+    "size": 640,
+    "externals": {
+      "__chkstk": 60586,
+      "_task_ready_772d": 30509,
+      "_asset_groups": 3496,
+      "_pop_value": 15042,
+      "_compose_frame_3b3a": 15162,
+      "_attach_actor": 16143,
+      "_frames": 33166,
+      "_piece_controls": 36340
+    },
+    "rea_evidence": "evidence/turn_task640/primary.json",
+    "reference_region": "unchanged-prefix",
+    "boundary_evidence": "Whole640/244instructions native730C..758B ending at matched758C; realnearTaskpointercdecl AX0/1. Actual oneMASM whole1025,18external+6localNEAR/noMZ/fourbases. WORD CODE source engineering model; no historical language/TU/alignment/placement claim. Cframe14/native16 unresolved; no fillers/aliases/rawpatches. Zero C/standalone ASMfunction credit.",
+    "mixed_profile": "motion_overlap_v1"
+  }
+}

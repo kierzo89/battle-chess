@@ -1,0 +1,201 @@
+{
+  "status": "PASS_GENUINE_C5_COMPLETE_READABLE_LITERAL_NO_CAPACITY_CLAIM",
+  "symbol": "_no_actor_message_4c00",
+  "raw_whole_object_sha256": "b3c579b953b83616442a4b90fa58c88c0ff8aca3df91c6da904537e7fed26846",
+  "raw_bytes": 322,
+  "source_sha256": "c4566f52426db5bc8e1d673d8d748676efbfa7d5f833b59e5fae3ae8aa3b0646",
+  "generic_DATA_extraction": {
+    "boundary": "complete_omf_data_segment",
+    "symbol": "_no_actor_message_4c00",
+    "segment": {
+      "index": 2,
+      "name": "_DATA",
+      "class_name": "DATA",
+      "length": 17,
+      "attributes": 72
+    },
+    "public": {
+      "name": "_no_actor_message_4c00",
+      "segment": 2,
+      "offset": 0,
+      "group": 1,
+      "type_index": 517
+    },
+    "publics": {
+      "_no_actor_message_4c00": {
+        "name": "_no_actor_message_4c00",
+        "segment": 2,
+        "offset": 0,
+        "group": 1,
+        "type_index": 517
+      }
+    },
+    "group": {
+      "index": 1,
+      "name": "DGROUP",
+      "segments": [
+        3,
+        4,
+        2
+      ]
+    },
+    "data_writes": [
+      {
+        "offset": 0,
+        "length": 17,
+        "sha256": "c5912cf94d1c9a36d03cfd35095b0687963ef1ea007a31aeb93aea189756035e"
+      }
+    ],
+    "sha256": "c5912cf94d1c9a36d03cfd35095b0687963ef1ea007a31aeb93aea189756035e",
+    "startup_marker_unused": true,
+    "emitted_mz_sites": [],
+    "authored_c_function_count": 0
+  },
+  "whole_DATA_bytes": 17,
+  "DATA_sha256": "c5912cf94d1c9a36d03cfd35095b0687963ef1ea007a31aeb93aea189756035e",
+  "typed_PUBLIC": {
+    "name": "_no_actor_message_4c00",
+    "segment": 2,
+    "offset": 0,
+    "group": 1,
+    "type_index": 517
+  },
+  "actual_complete_TYPE_graph": {
+    "0x200": "80",
+    "0x201": "80",
+    "0x202": "80",
+    "0x203": "80",
+    "0x204": "80",
+    "0x205": "78858800838000"
+  },
+  "actual_ARRAY_bits": 136,
+  "actual_ARRAY_base": 128,
+  "PUBLICindex_TYPEsize_OMFbookkeeping_measured_not_predicted": true,
+  "raw_record_inventory": [
+    {
+      "kind": 128,
+      "offset": 0,
+      "payload": "09433a5c554e49542e43"
+    },
+    {
+      "kind": 136,
+      "offset": 14,
+      "payload": "009d30734f"
+    },
+    {
+      "kind": 136,
+      "offset": 23,
+      "payload": "00a1014356"
+    },
+    {
+      "kind": 150,
+      "offset": 32,
+      "payload": "00064447524f5550055f5445585404434f4445055f44415441044441544105434f4e5354045f4253530342535307242454595045530644454254595009242453594d424f4c530644454253594d"
+    },
+    {
+      "kind": 152,
+      "offset": 113,
+      "payload": "480000030401"
+    },
+    {
+      "kind": 152,
+      "offset": 123,
+      "payload": "481100050601"
+    },
+    {
+      "kind": 152,
+      "offset": 133,
+      "payload": "480000070701"
+    },
+    {
+      "kind": 152,
+      "offset": 143,
+      "payload": "480000080901"
+    },
+    {
+      "kind": 152,
+      "offset": 153,
+      "payload": "2000000c0d01"
+    },
+    {
+      "kind": 152,
+      "offset": 163,
+      "payload": "201e000a0b01"
+    },
+    {
+      "kind": 154,
+      "offset": 173,
+      "payload": "02ff03ff04ff02"
+    },
+    {
+      "kind": 156,
+      "offset": 184,
+      "payload": "000301020201030440014501"
+    },
+    {
+      "kind": 140,
+      "offset": 200,
+      "payload": "0a5f5f616372747573656401"
+    },
+    {
+      "kind": 144,
+      "offset": 216,
+      "payload": "0102165f6e6f5f6163746f725f6d6573736167655f3463303000008205"
+    },
+    {
+      "kind": 136,
+      "offset": 249,
+      "payload": "00a201"
+    },
+    {
+      "kind": 160,
+      "offset": 256,
+      "payload": "020000546f6f206d616e79207069656365732e00"
+    },
+    {
+      "kind": 160,
+      "offset": 280,
+      "payload": "060000010100800101008001010080010100800101008001070078858800838000"
+    },
+    {
+      "kind": 138,
+      "offset": 317,
+      "payload": "00"
+    }
+  ],
+  "THREAD_records": [
+    {
+      "offset": 184,
+      "payload": "000301020201030440014501"
+    }
+  ],
+  "native_primary_id": "ev_be48c56da6fc2d825ecf0f27610e9d9eab4181f345ec4770bacfa9e62a1e79ac",
+  "native_MZ": [],
+  "extent_basis": "firstNULpluscompleteknownreadonlyprompt/textconsumer; notnextsymbol orwritablebuffermax",
+  "four_load_bases": [
+    {
+      "load_paragraph": 0,
+      "all16_equal": true,
+      "native_MZ": []
+    },
+    {
+      "load_paragraph": 1,
+      "all16_equal": true,
+      "native_MZ": []
+    },
+    {
+      "load_paragraph": 4096,
+      "all16_equal": true,
+      "native_MZ": []
+    },
+    {
+      "load_paragraph": 65535,
+      "all16_equal": true,
+      "native_MZ": []
+    }
+  ],
+  "no_C_function_credit": true,
+  "view_domain": "firstNUL readonlyreader, padding excluded",
+  "original_TU_class_capacity_signedness_oralloriginalwriters_proven": false,
+  "Cfunction_canonical_or_nativeMZ_credit": 0
+}

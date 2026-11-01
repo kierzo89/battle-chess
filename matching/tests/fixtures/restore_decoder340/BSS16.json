@@ -1,0 +1,114 @@
+[
+  {
+    "offset": 1,
+    "symbol": "_active_data_b0ca",
+    "target_index": 11,
+    "displacement": null,
+    "raw_fixupp": "c401260b0b"
+  },
+  {
+    "offset": 4,
+    "symbol": "_frame_data_cursor",
+    "target_index": 3,
+    "displacement": null,
+    "raw_fixupp": "c404260303"
+  },
+  {
+    "offset": 7,
+    "symbol": "_active_lists_b080",
+    "target_index": 17,
+    "displacement": null,
+    "raw_fixupp": "c407261111"
+  },
+  {
+    "offset": 10,
+    "symbol": "_frame_list_cursor",
+    "target_index": 4,
+    "displacement": null,
+    "raw_fixupp": "c40a260404"
+  },
+  {
+    "offset": 13,
+    "symbol": "_active_95fe",
+    "target_index": 16,
+    "displacement": null,
+    "raw_fixupp": "c40d261010"
+  },
+  {
+    "offset": 19,
+    "symbol": "_active_8e22",
+    "target_index": 14,
+    "displacement": null,
+    "raw_fixupp": "c413260e0e"
+  },
+  {
+    "offset": 25,
+    "symbol": "_active_a834",
+    "target_index": 13,
+    "displacement": null,
+    "raw_fixupp": "c419260d0d"
+  },
+  {
+    "offset": 31,
+    "symbol": "_active_964e",
+    "target_index": 15,
+    "displacement": null,
+    "raw_fixupp": "c41f260f0f"
+  },
+  {
+    "offset": 37,
+    "symbol": "_active_arena_9344",
+    "target_index": 12,
+    "displacement": null,
+    "raw_fixupp": "c425260c0c"
+  },
+  {
+    "offset": 41,
+    "symbol": "_active_arena_9344",
+    "target_index": 12,
+    "displacement": 2,
+    "raw_fixupp": "c429220c0c0200"
+  },
+  {
+    "offset": 44,
+    "symbol": "_arena_cursor",
+    "target_index": 7,
+    "displacement": null,
+    "raw_fixupp": "c42c260707"
+  },
+  {
+    "offset": 48,
+    "symbol": "_arena_cursor",
+    "target_index": 7,
+    "displacement": 2,
+    "raw_fixupp": "c4302207070200"
+  },
+  {
+    "offset": 60,
+    "symbol": "_arena_cursor",
+    "target_index": 7,
+    "displacement": null,
+    "raw_fixupp": "c43c260707"
+  },
+  {
+    "offset": 64,
+    "symbol": "_arena_cursor",
+    "target_index": 7,
+    "displacement": 2,
+    "raw_fixupp": "c4402207070200"
+  },
+  {
+    "offset": 324,
+    "symbol": "_arena_cursor",
+    "target_index": 7,
+    "displacement": null,
+    "raw_fixupp": "c544260707"
+  },
+  {
+    "offset": 328,
+    "symbol": "_arena_cursor",
+    "target_index": 7,
+    "displacement": 2,
+    "raw_fixupp": "c5482207070200"
+  }
+]

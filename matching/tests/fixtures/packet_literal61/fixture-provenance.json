@@ -1,0 +1,18 @@
+{
+  "status": "REAL_CLOSED_CALIBRATION_COMPARISON_ONLY_NOT_FRESH_SOURCE",
+  "raw_actual_source": "build/packet-literals61-natural-one-C5-root-actual/scratch/UNIT.OBJ",
+  "whole_old_object_source": "build/packet-literals61-natural-C5-preparation/old-packet.obj",
+  "retained_LINK_pool": "build/packet-pool-retained287-root-LINK/scratch/PARTIAL.EXE",
+  "retained_pool_IMAGE_range": [
+    400754,
+    400816
+  ],
+  "root_pure_comparison_SHA256": "b9737f1051e0582cc6374e13c11a5040c29fc05da01ce44cfb859b32c2ce1f61",
+  "raw_hole_filled": false,
+  "C5_flags_observed": [
+    "/AS",
+    "/Zi",
+    "/Fa"
+  ],
+  "fixture_cannot_complete_fresh_capability": true
+}

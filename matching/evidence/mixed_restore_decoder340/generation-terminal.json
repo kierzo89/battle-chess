@@ -1,0 +1,20 @@
+{
+  "schema": "root-observed-fresh-mixed-prototype-terminal-v1",
+  "terminal": true,
+  "reaped": true,
+  "exit_code": 0,
+  "generation_receipt_SHA256": "6a7982c52f3f95e3b4132894dc8f7cb8e67ca6eafc0c3dd8c70b3383dae34ee9",
+  "C5_calls": 1,
+  "MASM_calls": 1,
+  "runner_SHA256": "314c62c321b6cb3e40e5b6d28ad65dfae2054de235ff0b610d4a166bf5a158fe",
+  "prototype_freeze_SHA256": "8d24d1093631190d8da78eddcb24c6be1a16bd215d173511726c4ec85a398979",
+  "real_PID_and_REA_evidence_closure_required": true,
+  "actual_root": "/home/kierzo/chess/matching/build/restore-decoder-fresh340-calibration-root-actual",
+  "REA_EvidenceID": "ev_35e60259a2ab9e4667fa47ee1a7591d6a9a0f424e4828648de8eb40659386ff7",
+  "REA_record": "/home/kierzo/chess/matching/build/restore-decoder-fresh340-calibration-root-GEN-REA.json",
+  "REA_SHA256": "8293748da163d58a33c2b15859a405a7ddb1c3f2f38a6bc2efd1030fe88e7c23",
+  "actual_C5_PID": 1178938,
+  "actual_MASM_PID": 1178992,
+  "outer_unified_exec_session_used": false,
+  "unified_ids": null
+}

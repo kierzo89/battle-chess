@@ -1,0 +1,1559 @@
+{
+  "ASM": {
+    "input_number306": {
+      "unit": {
+        "id": "get_number_code306",
+        "language": "asm-code",
+        "backend": "masm510-input-dialog-authored-code-omf-v1",
+        "object_profile": "input_number306",
+        "source": "asm/link/get_number1164.asm",
+        "source_sha256": "45e11b08da0a011c3fe56c7272a2d50af7a8d210a32eb1e31ea3ff7068e0bb32",
+        "assembler_sha256": "1c6286c69b616160b8475ad17453ee872702a2c98075c2159ec792a1c745275f",
+        "public_symbols": [
+          "_get_number"
+        ],
+        "image_offset": "0x1164",
+        "size": 306,
+        "externals": {
+          "__chkstk": 60586,
+          "_begin_input_0fb0": 4016,
+          "_menu_state": 36318,
+          "_fill_region_1780": 6016,
+          "_menu_text": 1478,
+          "_number_label_4c28": 19496,
+          "_foreground": 36130,
+          "_draw_text_e915": 59669,
+          "_text_input_1064": 4196,
+          "_restore_region_58b0": 22704,
+          "_end_input_102d": 4141
+        },
+        "rea_evidence": "evidence/input_dialog_asm/number/primary.json",
+        "reference_region": "unchanged-prefix",
+        "boundary_evidence": "Complete native306 and authentic oneMASM whole unchanged OMF; 126 real mnemonic instructions/all typed fields/full MZ/fourbases. Authored ASM only, historical language/TU/storage layout unproved; all held C frame differences retained, no C function credit."
+      },
+      "base": 4452,
+      "size": 306,
+      "source_sha256": "45e11b08da0a011c3fe56c7272a2d50af7a8d210a32eb1e31ea3ff7068e0bb32",
+      "object_sha256": "64419dcd9d0896fbca1199bac63e24de25e592e07c04421006f68366de44beb8",
+      "raw_CODE_sha256": "64fee4f8deb25dca7740afb450fdc70cef19449993bbd16e58fd3988d4e2d550",
+      "native_sha256": "2e3adda310f02112538ece1b96329ae23a4efb4bda1504ef972fb41e86697c6b",
+      "instructions": 126,
+      "snapshot": {
+        "records": [
+          [
+            128,
+            0,
+            "08554e49542e41534d"
+          ],
+          [
+            150,
+            13,
+            "00064447524f5550044441544104434f4445055f44415441055f54455854"
+          ],
+          [
+            152,
+            47,
+            "480000050301"
+          ],
+          [
+            152,
+            57,
+            "483201060401"
+          ],
+          [
+            154,
+            67,
+            "02ff01"
+          ],
+          [
+            140,
+            74,
+            "145f726573746f72655f726567696f6e5f3538623000085f5f63686b73746b000f5f656e645f696e7075745f31303264000f5f647261775f746578745f6539313500105f746578745f696e7075745f3130363400115f66696c6c5f726567696f6e5f3137383000115f626567696e5f696e7075745f30666230000a5f6d656e755f74657874000b5f666f726567726f756e6400125f6e756d6265725f6c6162656c5f34633238000b5f6d656e755f737461746500"
+          ],
+          [
+            144,
+            258,
+            "00020b5f6765745f6e756d626572000000"
+          ],
+          [
+            136,
+            279,
+            "00a201"
+          ],
+          [
+            160,
+            286,
+            "020000558becb81e00e800005756c746fa0000e80000ff360000b86f0050b83f0150b85800502bc050e8000083c40ac70600000000a00000a20000a00000a20000b8600050b8080050b8000050e8000083c4062bc050b80500508d46e850b8600050b8e80050e8000083c40a8bf82bc08946fe8946fc0bff745d2bf6eb01463bf77d528a42e82ae42d30002bd28b4efc8b5efe8946e28956e48bc18bd3d1e1d1d3d1e1d1d303c813dad1e1d1d38b46e28b56e403c113d38946fc8956fe807ae8307206807ae839760a2bc08946fe8946fc8bf7eba9eb0ac746fcffffc746feffff8b46fc0b46fe7503e90000837efe007e03e900007c0a817efc10277603e90000b86f0050b8580050b84f00502bc050e8000083c408e80000837efe007d082bc08946fe8946fc8b46fc8b56feeb005e5f8be55dc3"
+          ],
+          [
+            156,
+            599,
+            "84072602028411260707c41516010b8427260606c42e1201080200c43016010ac433160109c436160108c43916010bc43c1201080100c447160108844b260404846426050584e7000202130084f0000202130084fc0002021300850e2601018514260303"
+          ],
+          [
+            138,
+            703,
+            "00"
+          ]
+        ],
+        "names": [
+          "",
+          "",
+          "DGROUP",
+          "DATA",
+          "CODE",
+          "_DATA",
+          "_TEXT"
+        ],
+        "externals": {
+          "1": "_restore_region_58b0",
+          "2": "__chkstk",
+          "3": "_end_input_102d",
+          "4": "_draw_text_e915",
+          "5": "_text_input_1064",
+          "6": "_fill_region_1780",
+          "7": "_begin_input_0fb0",
+          "8": "_menu_text",
+          "9": "_foreground",
+          "10": "_number_label_4c28",
+          "11": "_menu_state"
+        },
+        "publics": {
+          "_get_number": {
+            "name": "_get_number",
+            "segment": 2,
+            "offset": 0,
+            "group": 0,
+            "type_index": 0
+          }
+        },
+        "procedures": {},
+        "data_writes": [
+          [
+            286,
+            2,
+            0,
+            306
+          ]
+        ],
+        "segments": {
+          "1": {
+            "index": 1,
+            "length": 0,
+            "name_index": 5,
+            "class_index": 3,
+            "overlay_index": 1,
+            "attributes": 72,
+            "unsupported_data": false,
+            "name": "_DATA",
+            "class_name": "DATA",
+            "chunks": []
+          },
+          "2": {
+            "index": 2,
+            "length": 306,
+            "name_index": 6,
+            "class_index": 4,
+            "overlay_index": 1,
+            "attributes": 72,
+            "unsupported_data": false,
+            "name": "_TEXT",
+            "class_name": "CODE",
+            "chunks": [
+              [
+                0,
+                "558becb81e00e800005756c746fa0000e80000ff360000b86f0050b83f0150b85800502bc050e8000083c40ac70600000000a00000a20000a00000a20000b8600050b8080050b8000050e8000083c4062bc050b80500508d46e850b8600050b8e80050e8000083c40a8bf82bc08946fe8946fc0bff745d2bf6eb01463bf77d528a42e82ae42d30002bd28b4efc8b5efe8946e28956e48bc18bd3d1e1d1d3d1e1d1d303c813dad1e1d1d38b46e28b56e403c113d38946fc8956fe807ae8307206807ae839760a2bc08946fe8946fc8bf7eba9eb0ac746fcffffc746feffff8b46fc0b46fe7503e90000837efe007e03e900007c0a817efc10277603e90000b86f0050b8580050b84f00502bc050e8000083c408e80000837efe007d082bc08946fe8946fc8b46fc8b56feeb005e5f8be55dc3"
+              ]
+            ]
+          }
+        },
+        "fixups": [
+          {
+            "segment": 2,
+            "offset": 7,
+            "width": 2,
+            "location_type": 1,
+            "segment_relative": false,
+            "frame": [
+              2,
+              2
+            ],
+            "target": [
+              2,
+              2
+            ],
+            "displacement": null,
+            "record_offset": 599,
+            "raw": "8407260202"
+          },
+          {
+            "segment": 2,
+            "offset": 17,
+            "width": 2,
+            "location_type": 1,
+            "segment_relative": false,
+            "frame": [
+              2,
+              7
+            ],
+            "target": [
+              2,
+              7
+            ],
+            "displacement": null,
+            "record_offset": 599,
+            "raw": "8411260707"
+          },
+          {
+            "segment": 2,
+            "offset": 21,
+            "width": 2,
+            "location_type": 1,
+            "segment_relative": true,
+            "frame": [
+              1,
+              1
+            ],
+            "target": [
+              2,
+              11
+            ],
+            "displacement": null,
+            "record_offset": 599,
+            "raw": "c41516010b"
+          },
+          {
+            "segment": 2,
+            "offset": 39,
+            "width": 2,
+            "location_type": 1,
+            "segment_relative": false,
+            "frame": [
+              2,
+              6
+            ],
+            "target": [
+              2,
+              6
+            ],
+            "displacement": null,
+            "record_offset": 599,
+            "raw": "8427260606"
+          },
+          {
+            "segment": 2,
+            "offset": 46,
+            "width": 2,
+            "location_type": 1,
+            "segment_relative": true,
+            "frame": [
+              1,
+              1
+            ],
+            "target": [
+              2,
+              8
+            ],
+            "displacement": 2,
+            "record_offset": 599,
+            "raw": "c42e1201080200"
+          },
+          {
+            "segment": 2,
+            "offset": 48,
+            "width": 2,
+            "location_type": 1,
+            "segment_relative": true,
+            "frame": [
+              1,
+              1
+            ],
+            "target": [
+              2,
+              10
+            ],
+            "displacement": null,
+            "record_offset": 599,
+            "raw": "c43016010a"
+          },
+          {
+            "segment": 2,
+            "offset": 51,
+            "width": 2,
+            "location_type": 1,
+            "segment_relative": true,
+            "frame": [
+              1,
+              1
+            ],
+            "target": [
+              2,
+              9
+            ],
+            "displacement": null,
+            "record_offset": 599,
+            "raw": "c433160109"
+          },
+          {
+            "segment": 2,
+            "offset": 54,
+            "width": 2,
+            "location_type": 1,
+            "segment_relative": true,
+            "frame": [
+              1,
+              1
+            ],
+            "target": [
+              2,
+              8
+            ],
+            "displacement": null,
+            "record_offset": 599,
+            "raw": "c436160108"
+          },
+          {
+            "segment": 2,
+            "offset": 57,
+            "width": 2,
+            "location_type": 1,
+            "segment_relative": true,
+            "frame": [
+              1,
+              1
+            ],
+            "target": [
+              2,
+              11
+            ],
+            "displacement": null,
+            "record_offset": 599,
+            "raw": "c43916010b"
+          },
+          {
+            "segment": 2,
+            "offset": 60,
+            "width": 2,
+            "location_type": 1,
+            "segment_relative": true,
+            "frame": [
+              1,
+              1
+            ],
+            "target": [
+              2,
+              8
+            ],
+            "displacement": 1,
+            "record_offset": 599,
+            "raw": "c43c1201080100"
+          },
+          {
+            "segment": 2,
+            "offset": 71,
+            "width": 2,
+            "location_type": 1,
+            "segment_relative": true,
+            "frame": [
+              1,
+              1
+            ],
+            "target": [
+              2,
+              8
+            ],
+            "displacement": null,
+            "record_offset": 599,
+            "raw": "c447160108"
+          },
+          {
+            "segment": 2,
+            "offset": 75,
+            "width": 2,
+            "location_type": 1,
+            "segment_relative": false,
+            "frame": [
+              2,
+              4
+            ],
+            "target": [
+              2,
+              4
+            ],
+            "displacement": null,
+            "record_offset": 599,
+            "raw": "844b260404"
+          },
+          {
+            "segment": 2,
+            "offset": 100,
+            "width": 2,
+            "location_type": 1,
+            "segment_relative": false,
+            "frame": [
+              2,
+              5
+            ],
+            "target": [
+              2,
+              5
+            ],
+            "displacement": null,
+            "record_offset": 599,
+            "raw": "8464260505"
+          },
+          {
+            "segment": 2,
+            "offset": 231,
+            "width": 2,
+            "location_type": 1,
+            "segment_relative": false,
+            "frame": [
+              0,
+              2
+            ],
+            "target": [
+              0,
+              2
+            ],
+            "displacement": 19,
+            "record_offset": 599,
+            "raw": "84e70002021300"
+          },
+          {
+            "segment": 2,
+            "offset": 240,
+            "width": 2,
+            "location_type": 1,
+            "segment_relative": false,
+            "frame": [
+              0,
+              2
+            ],
+            "target": [
+              0,
+              2
+            ],
+            "displacement": 19,
+            "record_offset": 599,
+            "raw": "84f00002021300"
+          },
+          {
+            "segment": 2,
+            "offset": 252,
+            "width": 2,
+            "location_type": 1,
+            "segment_relative": false,
+            "frame": [
+              0,
+              2
+            ],
+            "target": [
+              0,
+              2
+            ],
+            "displacement": 19,
+            "record_offset": 599,
+            "raw": "84fc0002021300"
+          },
+          {
+            "segment": 2,
+            "offset": 270,
+            "width": 2,
+            "location_type": 1,
+            "segment_relative": false,
+            "frame": [
+              2,
+              1
+            ],
+            "target": [
+              2,
+              1
+            ],
+            "displacement": null,
+            "record_offset": 599,
+            "raw": "850e260101"
+          },
+          {
+            "segment": 2,
+            "offset": 276,
+            "width": 2,
+            "location_type": 1,
+            "segment_relative": false,
+            "frame": [
+              2,
+              3
+            ],
+            "target": [
+              2,
+              3
+            ],
+            "displacement": null,
+            "record_offset": 599,
+            "raw": "8514260303"
+          }
+        ]
+      },
+      "external_fields": [
+        {
+          "offset": 7,
+          "symbol": "__chkstk",
+          "kind": "near-CALL",
+          "source_addend": 0,
+          "native_target": 60586
+        },
+        {
+          "offset": 17,
+          "symbol": "_begin_input_0fb0",
+          "kind": "near-CALL",
+          "source_addend": 0,
+          "native_target": 4016
+        },
+        {
+          "offset": 21,
+          "symbol": "_menu_state",
+          "kind": "DGROUP",
+          "source_addend": 0,
+          "native_target": 36318
+        },
+        {
+          "offset": 39,
+          "symbol": "_fill_region_1780",
+          "kind": "near-CALL",
+          "source_addend": 0,
+          "native_target": 6016
+        },
+        {
+          "offset": 46,
+          "symbol": "_menu_text",
+          "kind": "DGROUP",
+          "source_addend": 2,
+          "native_target": 1478
+        },
+        {
+          "offset": 48,
+          "symbol": "_number_label_4c28",
+          "kind": "DGROUP",
+          "source_addend": 0,
+          "native_target": 19496
+        },
+        {
+          "offset": 51,
+          "symbol": "_foreground",
+          "kind": "DGROUP",
+          "source_addend": 0,
+          "native_target": 36130
+        },
+        {
+          "offset": 54,
+          "symbol": "_menu_text",
+          "kind": "DGROUP",
+          "source_addend": 0,
+          "native_target": 1478
+        },
+        {
+          "offset": 57,
+          "symbol": "_menu_state",
+          "kind": "DGROUP",
+          "source_addend": 0,
+          "native_target": 36318
+        },
+        {
+          "offset": 60,
+          "symbol": "_menu_text",
+          "kind": "DGROUP",
+          "source_addend": 1,
+          "native_target": 1478
+        },
+        {
+          "offset": 71,
+          "symbol": "_menu_text",
+          "kind": "DGROUP",
+          "source_addend": 0,
+          "native_target": 1478
+        },
+        {
+          "offset": 75,
+          "symbol": "_draw_text_e915",
+          "kind": "near-CALL",
+          "source_addend": 0,
+          "native_target": 59669
+        },
+        {
+          "offset": 100,
+          "symbol": "_text_input_1064",
+          "kind": "near-CALL",
+          "source_addend": 0,
+          "native_target": 4196
+        },
+        {
+          "offset": 270,
+          "symbol": "_restore_region_58b0",
+          "kind": "near-CALL",
+          "source_addend": 0,
+          "native_target": 22704
+        },
+        {
+          "offset": 276,
+          "symbol": "_end_input_102d",
+          "kind": "near-CALL",
+          "source_addend": 0,
+          "native_target": 4141
+        }
+      ],
+      "internal_fields": [
+        {
+          "offset": 231,
+          "target_offset": 19
+        },
+        {
+          "offset": 240,
+          "target_offset": 19
+        },
+        {
+          "offset": 252,
+          "target_offset": 19
+        }
+      ],
+      "native_MZ": [],
+      "evidence_root": "evidence/input_dialog_asm/number",
+      "comparison_status": "PASS_WHOLE_NATIVE306_MNEMONIC_ASM_ONLY",
+      "comparison_object_key": "raw_object_sha256",
+      "branches": [
+        {
+          "offset": 117,
+          "size": 2,
+          "target": 4664
+        },
+        {
+          "offset": 121,
+          "size": 2,
+          "target": 4576
+        },
+        {
+          "offset": 126,
+          "size": 2,
+          "target": 4662
+        },
+        {
+          "offset": 190,
+          "size": 2,
+          "target": 4650
+        },
+        {
+          "offset": 196,
+          "size": 2,
+          "target": 4660
+        },
+        {
+          "offset": 208,
+          "size": 2,
+          "target": 4575
+        },
+        {
+          "offset": 210,
+          "size": 2,
+          "target": 4674
+        },
+        {
+          "offset": 228,
+          "size": 2,
+          "target": 4685
+        },
+        {
+          "offset": 230,
+          "size": 3,
+          "target": 4471
+        },
+        {
+          "offset": 237,
+          "size": 2,
+          "target": 4694
+        },
+        {
+          "offset": 239,
+          "size": 3,
+          "target": 4471
+        },
+        {
+          "offset": 242,
+          "size": 2,
+          "target": 4706
+        },
+        {
+          "offset": 249,
+          "size": 2,
+          "target": 4706
+        },
+        {
+          "offset": 251,
+          "size": 3,
+          "target": 4471
+        },
+        {
+          "offset": 282,
+          "size": 2,
+          "target": 4744
+        },
+        {
+          "offset": 298,
+          "size": 2,
+          "target": 4752
+        }
+      ]
+    },
+    "dialog_button152": {
+      "unit": {
+        "id": "dialog_button_code152",
+        "language": "asm-code",
+        "backend": "masm510-input-dialog-authored-code-omf-v1",
+        "object_profile": "dialog_button152",
+        "source": "asm/link/dialog_button_d92e.asm",
+        "source_sha256": "4f75245d4690de77e483da0b2d991fb43459f92958a0b59b9dac1728bae292cb",
+        "assembler_sha256": "1c6286c69b616160b8475ad17453ee872702a2c98075c2159ec792a1c745275f",
+        "public_symbols": [
+          "_dialog_button_d92e"
+        ],
+        "image_offset": "0xd92e",
+        "size": 152,
+        "externals": {
+          "_paint_dialog_button_d9c6": 55750,
+          "_next_dialog_event_d766": 55142,
+          "_pointer_y": 37726,
+          "_pointer_x": 37690,
+          "_dialog_hit_d840": 55360,
+          "_update_pointer_11ef_0030": {
+            "segment": 4591,
+            "offset": 48
+          }
+        },
+        "rea_evidence": "evidence/input_dialog_asm/dialog/primary.json",
+        "reference_region": "unchanged-prefix",
+        "boundary_evidence": "Complete native152 and authentic oneMASM whole unchanged OMF; 56 real mnemonic instructions/all typed fields/full MZ/fourbases. Authored ASM only, historical language/TU/storage layout unproved; all held C frame differences retained, no C function credit."
+      },
+      "base": 55598,
+      "size": 152,
+      "source_sha256": "4f75245d4690de77e483da0b2d991fb43459f92958a0b59b9dac1728bae292cb",
+      "object_sha256": "143b623f081a0cab260d07edbe03515b613d2d11a89d985e3bd88c3eec7edaf0",
+      "raw_CODE_sha256": "8ff2c0c4c9b1097cc48d8f07e82867bb903669392a30ff52aeea75c8514f5998",
+      "native_sha256": "64dc230c61e47e49e716c139d74ee5fa093edf255995c5f77632ccb484772071",
+      "instructions": 56,
+      "snapshot": {
+        "records": [
+          [
+            128,
+            0,
+            "08554e49542e41534d"
+          ],
+          [
+            150,
+            13,
+            "00064447524f5550044441544104434f4445055f44415441055f54455854"
+          ],
+          [
+            152,
+            47,
+            "480000050301"
+          ],
+          [
+            152,
+            57,
+            "489800060401"
+          ],
+          [
+            154,
+            67,
+            "02ff01"
+          ],
+          [
+            140,
+            74,
+            "195f7570646174655f706f696e7465725f313165665f3030333000195f7061696e745f6469616c6f675f627574746f6e5f6439633600105f6469616c6f675f6869745f64383430000a5f706f696e7465725f78000a5f706f696e7465725f7900175f6e6578745f6469616c6f675f6576656e745f6437363600"
+          ],
+          [
+            144,
+            199,
+            "0002135f6469616c6f675f627574746f6e5f64393265000000"
+          ],
+          [
+            136,
+            228,
+            "00a201"
+          ],
+          [
+            160,
+            235,
+            "020000558bec83ec04b8010050ff7604e8000083c404e800008946fe8bd8833f047537837f02007531837f0400752b2bc050ff7604e8000083c404ff7606ff360000ff360000e8000083c4063b46047505b80100eb412bc0eb3d8b5efe833f0575b4837f020075ae8b4708a300008b470aa300009a00000000ff7606ff360000ff360000e8000083c4063b46047503e900002bc0e900008be55dc3"
+          ],
+          [
+            156,
+            394,
+            "840e26020284142606068433260202c43d160105c4411601048444260303c469160104c46f160105cc72260101c47b160105c47f1601048482260303848d000202060084920002020900"
+          ],
+          [
+            138,
+            472,
+            "00"
+          ]
+        ],
+        "names": [
+          "",
+          "",
+          "DGROUP",
+          "DATA",
+          "CODE",
+          "_DATA",
+          "_TEXT"
+        ],
+        "externals": {
+          "1": "_update_pointer_11ef_0030",
+          "2": "_paint_dialog_button_d9c6",
+          "3": "_dialog_hit_d840",
+          "4": "_pointer_x",
+          "5": "_pointer_y",
+          "6": "_next_dialog_event_d766"
+        },
+        "publics": {
+          "_dialog_button_d92e": {
+            "name": "_dialog_button_d92e",
+            "segment": 2,
+            "offset": 0,
+            "group": 0,
+            "type_index": 0
+          }
+        },
+        "procedures": {},
+        "data_writes": [
+          [
+            235,
+            2,
+            0,
+            152
+          ]
+        ],
+        "segments": {
+          "1": {
+            "index": 1,
+            "length": 0,
+            "name_index": 5,
+            "class_index": 3,
+            "overlay_index": 1,
+            "attributes": 72,
+            "unsupported_data": false,
+            "name": "_DATA",
+            "class_name": "DATA",
+            "chunks": []
+          },
+          "2": {
+            "index": 2,
+            "length": 152,
+            "name_index": 6,
+            "class_index": 4,
+            "overlay_index": 1,
+            "attributes": 72,
+            "unsupported_data": false,
+            "name": "_TEXT",
+            "class_name": "CODE",
+            "chunks": [
+              [
+                0,
+                "558bec83ec04b8010050ff7604e8000083c404e800008946fe8bd8833f047537837f02007531837f0400752b2bc050ff7604e8000083c404ff7606ff360000ff360000e8000083c4063b46047505b80100eb412bc0eb3d8b5efe833f0575b4837f020075ae8b4708a300008b470aa300009a00000000ff7606ff360000ff360000e8000083c4063b46047503e900002bc0e900008be55dc3"
+              ]
+            ]
+          }
+        },
+        "fixups": [
+          {
+            "segment": 2,
+            "offset": 14,
+            "width": 2,
+            "location_type": 1,
+            "segment_relative": false,
+            "frame": [
+              2,
+              2
+            ],
+            "target": [
+              2,
+              2
+            ],
+            "displacement": null,
+            "record_offset": 394,
+            "raw": "840e260202"
+          },
+          {
+            "segment": 2,
+            "offset": 20,
+            "width": 2,
+            "location_type": 1,
+            "segment_relative": false,
+            "frame": [
+              2,
+              6
+            ],
+            "target": [
+              2,
+              6
+            ],
+            "displacement": null,
+            "record_offset": 394,
+            "raw": "8414260606"
+          },
+          {
+            "segment": 2,
+            "offset": 51,
+            "width": 2,
+            "location_type": 1,
+            "segment_relative": false,
+            "frame": [
+              2,
+              2
+            ],
+            "target": [
+              2,
+              2
+            ],
+            "displacement": null,
+            "record_offset": 394,
+            "raw": "8433260202"
+          },
+          {
+            "segment": 2,
+            "offset": 61,
+            "width": 2,
+            "location_type": 1,
+            "segment_relative": true,
+            "frame": [
+              1,
+              1
+            ],
+            "target": [
+              2,
+              5
+            ],
+            "displacement": null,
+            "record_offset": 394,
+            "raw": "c43d160105"
+          },
+          {
+            "segment": 2,
+            "offset": 65,
+            "width": 2,
+            "location_type": 1,
+            "segment_relative": true,
+            "frame": [
+              1,
+              1
+            ],
+            "target": [
+              2,
+              4
+            ],
+            "displacement": null,
+            "record_offset": 394,
+            "raw": "c441160104"
+          },
+          {
+            "segment": 2,
+            "offset": 68,
+            "width": 2,
+            "location_type": 1,
+            "segment_relative": false,
+            "frame": [
+              2,
+              3
+            ],
+            "target": [
+              2,
+              3
+            ],
+            "displacement": null,
+            "record_offset": 394,
+            "raw": "8444260303"
+          },
+          {
+            "segment": 2,
+            "offset": 105,
+            "width": 2,
+            "location_type": 1,
+            "segment_relative": true,
+            "frame": [
+              1,
+              1
+            ],
+            "target": [
+              2,
+              4
+            ],
+            "displacement": null,
+            "record_offset": 394,
+            "raw": "c469160104"
+          },
+          {
+            "segment": 2,
+            "offset": 111,
+            "width": 2,
+            "location_type": 1,
+            "segment_relative": true,
+            "frame": [
+              1,
+              1
+            ],
+            "target": [
+              2,
+              5
+            ],
+            "displacement": null,
+            "record_offset": 394,
+            "raw": "c46f160105"
+          },
+          {
+            "segment": 2,
+            "offset": 114,
+            "width": 4,
+            "location_type": 3,
+            "segment_relative": true,
+            "frame": [
+              2,
+              1
+            ],
+            "target": [
+              2,
+              1
+            ],
+            "displacement": null,
+            "record_offset": 394,
+            "raw": "cc72260101"
+          },
+          {
+            "segment": 2,
+            "offset": 123,
+            "width": 2,
+            "location_type": 1,
+            "segment_relative": true,
+            "frame": [
+              1,
+              1
+            ],
+            "target": [
+              2,
+              5
+            ],
+            "displacement": null,
+            "record_offset": 394,
+            "raw": "c47b160105"
+          },
+          {
+            "segment": 2,
+            "offset": 127,
+            "width": 2,
+            "location_type": 1,
+            "segment_relative": true,
+            "frame": [
+              1,
+              1
+            ],
+            "target": [
+              2,
+              4
+            ],
+            "displacement": null,
+            "record_offset": 394,
+            "raw": "c47f160104"
+          },
+          {
+            "segment": 2,
+            "offset": 130,
+            "width": 2,
+            "location_type": 1,
+            "segment_relative": false,
+            "frame": [
+              2,
+              3
+            ],
+            "target": [
+              2,
+              3
+            ],
+            "displacement": null,
+            "record_offset": 394,
+            "raw": "8482260303"
+          },
+          {
+            "segment": 2,
+            "offset": 141,
+            "width": 2,
+            "location_type": 1,
+            "segment_relative": false,
+            "frame": [
+              0,
+              2
+            ],
+            "target": [
+              0,
+              2
+            ],
+            "displacement": 6,
+            "record_offset": 394,
+            "raw": "848d0002020600"
+          },
+          {
+            "segment": 2,
+            "offset": 146,
+            "width": 2,
+            "location_type": 1,
+            "segment_relative": false,
+            "frame": [
+              0,
+              2
+            ],
+            "target": [
+              0,
+              2
+            ],
+            "displacement": 9,
+            "record_offset": 394,
+            "raw": "84920002020900"
+          }
+        ]
+      },
+      "external_fields": [
+        {
+          "offset": 14,
+          "width": 2,
+          "kind": "near-CALL",
+          "symbol": "_paint_dialog_button_d9c6",
+          "native_target": 55750,
+          "native_frame": null,
+          "source_addend": 0
+        },
+        {
+          "offset": 20,
+          "width": 2,
+          "kind": "near-CALL",
+          "symbol": "_next_dialog_event_d766",
+          "native_target": 55142,
+          "native_frame": null,
+          "source_addend": 0
+        },
+        {
+          "offset": 51,
+          "width": 2,
+          "kind": "near-CALL",
+          "symbol": "_paint_dialog_button_d9c6",
+          "native_target": 55750,
+          "native_frame": null,
+          "source_addend": 0
+        },
+        {
+          "offset": 61,
+          "width": 2,
+          "kind": "DGROUP",
+          "symbol": "_pointer_y",
+          "native_target": 37726,
+          "native_frame": null,
+          "source_addend": 0
+        },
+        {
+          "offset": 65,
+          "width": 2,
+          "kind": "DGROUP",
+          "symbol": "_pointer_x",
+          "native_target": 37690,
+          "native_frame": null,
+          "source_addend": 0
+        },
+        {
+          "offset": 68,
+          "width": 2,
+          "kind": "near-CALL",
+          "symbol": "_dialog_hit_d840",
+          "native_target": 55360,
+          "native_frame": null,
+          "source_addend": 0
+        },
+        {
+          "offset": 105,
+          "width": 2,
+          "kind": "DGROUP",
+          "symbol": "_pointer_x",
+          "native_target": 37690,
+          "native_frame": null,
+          "source_addend": 0
+        },
+        {
+          "offset": 111,
+          "width": 2,
+          "kind": "DGROUP",
+          "symbol": "_pointer_y",
+          "native_target": 37726,
+          "native_frame": null,
+          "source_addend": 0
+        },
+        {
+          "offset": 114,
+          "width": 4,
+          "kind": "FAR-CALL",
+          "symbol": "_update_pointer_11ef_0030",
+          "native_target": 48,
+          "native_frame": 4591,
+          "source_addend": 0
+        },
+        {
+          "offset": 123,
+          "width": 2,
+          "kind": "DGROUP",
+          "symbol": "_pointer_y",
+          "native_target": 37726,
+          "native_frame": null,
+          "source_addend": 0
+        },
+        {
+          "offset": 127,
+          "width": 2,
+          "kind": "DGROUP",
+          "symbol": "_pointer_x",
+          "native_target": 37690,
+          "native_frame": null,
+          "source_addend": 0
+        },
+        {
+          "offset": 130,
+          "width": 2,
+          "kind": "near-CALL",
+          "symbol": "_dialog_hit_d840",
+          "native_target": 55360,
+          "native_frame": null,
+          "source_addend": 0
+        }
+      ],
+      "internal_fields": [
+        {
+          "offset": 141,
+          "target_offset": 6
+        },
+        {
+          "offset": 146,
+          "target_offset": 9
+        }
+      ],
+      "native_MZ": [
+        55714
+      ],
+      "evidence_root": "evidence/input_dialog_asm/dialog",
+      "comparison_status": "PASS_COMPLETE_NATIVE152_MNEMONIC_ASM_ONLY",
+      "comparison_object_key": "whole_object_sha256",
+      "branches": [
+        {
+          "offset": 30,
+          "size": 2,
+          "target": 55685
+        },
+        {
+          "offset": 36,
+          "size": 2,
+          "target": 55685
+        },
+        {
+          "offset": 42,
+          "size": 2,
+          "target": 55685
+        },
+        {
+          "offset": 76,
+          "size": 2,
+          "target": 55681
+        },
+        {
+          "offset": 81,
+          "size": 2,
+          "target": 55746
+        },
+        {
+          "offset": 85,
+          "size": 2,
+          "target": 55746
+        },
+        {
+          "offset": 93,
+          "size": 2,
+          "target": 55617
+        },
+        {
+          "offset": 99,
+          "size": 2,
+          "target": 55617
+        },
+        {
+          "offset": 138,
+          "size": 2,
+          "target": 55741
+        },
+        {
+          "offset": 140,
+          "size": 3,
+          "target": 55604
+        },
+        {
+          "offset": 145,
+          "size": 3,
+          "target": 55607
+        }
+      ]
+    }
+  },
+  "label": {
+    "unit": {
+      "id": "number_label_4c28",
+      "language": "c-data",
+      "backend": "msc500-data-omf",
+      "source": "src/data/number_label_4c28.c",
+      "symbol": "_number_label_4c28",
+      "image_offset": "0x61848",
+      "size": 28,
+      "reference_region": "exepack-expanded",
+      "flags": [
+        "/AS",
+        "/Zl",
+        "/Zi"
+      ],
+      "rea_evidence": "evidence/input_dialog_asm/label/primary.json",
+      "externals": {},
+      "boundary_evidence": "Actual sole complete DATA28/PUBLIC0 type205/chararray224/TYPES30; exact27 characters+firstNUL, complete producer/consumer/primary context, zero extraCODE/CONST/BSS/MZ. Generic backend unchanged, source-specific wholeRAW/type gate; no historical capacity/TU/placement claim."
+    },
+    "snapshot": {
+      "records": [
+        [
+          128,
+          0,
+          "09433a5c554e49542e43"
+        ],
+        [
+          136,
+          14,
+          "009d30734f"
+        ],
+        [
+          136,
+          23,
+          "00a1014356"
+        ],
+        [
+          150,
+          32,
+          "00064447524f5550055f5445585404434f4445055f44415441044441544105434f4e5354045f4253530342535307242454595045530644454254595009242453594d424f4c530644454253594d"
+        ],
+        [
+          152,
+          113,
+          "480000030401"
+        ],
+        [
+          152,
+          123,
+          "481c00050601"
+        ],
+        [
+          152,
+          133,
+          "480000070701"
+        ],
+        [
+          152,
+          143,
+          "480000080901"
+        ],
+        [
+          152,
+          153,
+          "2000000c0d01"
+        ],
+        [
+          152,
+          163,
+          "201e000a0b01"
+        ],
+        [
+          154,
+          173,
+          "02ff03ff04ff02"
+        ],
+        [
+          156,
+          184,
+          "000301020201030440014501"
+        ],
+        [
+          140,
+          200,
+          "0a5f5f616372747573656401"
+        ],
+        [
+          144,
+          216,
+          "0102125f6e756d6265725f6c6162656c5f3463323800008205"
+        ],
+        [
+          136,
+          245,
+          "00a201"
+        ],
+        [
+          160,
+          252,
+          "0200004e756d626572206f66206d696e7574657320746f207468696e6b3a00"
+        ],
+        [
+          160,
+          287,
+          "06000001010080010100800101008001010080010100800107007885e000838000"
+        ],
+        [
+          138,
+          324,
+          "00"
+        ]
+      ],
+      "names": [
+        "",
+        "",
+        "DGROUP",
+        "_TEXT",
+        "CODE",
+        "_DATA",
+        "DATA",
+        "CONST",
+        "_BSS",
+        "BSS",
+        "$$TYPES",
+        "DEBTYP",
+        "$$SYMBOLS",
+        "DEBSYM"
+      ],
+      "externals": {
+        "1": "__acrtused"
+      },
+      "publics": {
+        "_number_label_4c28": {
+          "name": "_number_label_4c28",
+          "segment": 2,
+          "offset": 0,
+          "group": 1,
+          "type_index": 517
+        }
+      },
+      "procedures": {},
+      "data_writes": [
+        [
+          252,
+          2,
+          0,
+          28
+        ],
+        [
+          287,
+          6,
+          0,
+          30
+        ]
+      ],
+      "segments": {
+        "1": {
+          "index": 1,
+          "length": 0,
+          "name_index": 3,
+          "class_index": 4,
+          "overlay_index": 1,
+          "attributes": 72,
+          "unsupported_data": false,
+          "name": "_TEXT",
+          "class_name": "CODE",
+          "chunks": []
+        },
+        "2": {
+          "index": 2,
+          "length": 28,
+          "name_index": 5,
+          "class_index": 6,
+          "overlay_index": 1,
+          "attributes": 72,
+          "unsupported_data": false,
+          "name": "_DATA",
+          "class_name": "DATA",
+          "chunks": [
+            [
+              0,
+              "4e756d626572206f66206d696e7574657320746f207468696e6b3a00"
+            ]
+          ]
+        },
+        "3": {
+          "index": 3,
+          "length": 0,
+          "name_index": 7,
+          "class_index": 7,
+          "overlay_index": 1,
+          "attributes": 72,
+          "unsupported_data": false,
+          "name": "CONST",
+          "class_name": "CONST",
+          "chunks": []
+        },
+        "4": {
+          "index": 4,
+          "length": 0,
+          "name_index": 8,
+          "class_index": 9,
+          "overlay_index": 1,
+          "attributes": 72,
+          "unsupported_data": false,
+          "name": "_BSS",
+          "class_name": "BSS",
+          "chunks": []
+        },
+        "5": {
+          "index": 5,
+          "length": 0,
+          "name_index": 12,
+          "class_index": 13,
+          "overlay_index": 1,
+          "attributes": 32,
+          "unsupported_data": false,
+          "name": "$$SYMBOLS",
+          "class_name": "DEBSYM",
+          "chunks": []
+        },
+        "6": {
+          "index": 6,
+          "length": 30,
+          "name_index": 10,
+          "class_index": 11,
+          "overlay_index": 1,
+          "attributes": 32,
+          "unsupported_data": false,
+          "name": "$$TYPES",
+          "class_name": "DEBTYP",
+          "chunks": [
+            [
+              0,
+              "01010080010100800101008001010080010100800107007885e000838000"
+            ]
+          ]
+        }
+      },
+      "fixups": []
+    },
+    "manifest_sha256": "d2889507d0729b9d09fb92015fedccbb533c368d428c1612781c3ff980f00a82",
+    "tool_hashes": {
+      "CL.ERR": "b153605db3fbc0fa79e2f0d2ad5d814fbb70bfbebc1dbc0d2ed614194666621a",
+      "CL.EXE": "11e3c7d53b3efc085b7ad90c2190a1ddb395c8874f57aef3a5cfc0a4a0a0f504",
+      "C1.EXE": "3ef764476cb56dd14ae3c955a0b7717976d3b40f862fdff675ec8c6adc0ed791",
+      "C1.ERR": "dd02a004e8912c96b90a5b3317dcfeed6f9e76374edfd90979705035c8097233",
+      "C2.EXE": "19fbe7914ba6ebe929a0e98e012fd5e8522643e5e40b6fcd89bef0e5f650f1f1",
+      "C3.EXE": "ca4d82b90423086e68eb8d3af8f1c1c1034f164d0a0b98530c3b3a0fb0501669",
+      "C23.ERR": "75132883ac6507cccaa7d7105df6492f511ba029e4a12ee4a1fcc989517bfd18"
+    },
+    "source_sha256": "446eeae30a9ee41115a6fe5124f3f20b61e981867f1cad2da65aaa2b4d6abe6c",
+    "object_sha256": "5289979044a50053f567234b02446484f90cb5f3bb53f3f0fa32a32f199ef5c2"
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "classification": "Source allocation requirements for future complete link; zero matching credit",
+  "definitions": [
+    {
+      "classification": "future whole-program allocation manifest proposal only, not a matching unit",
+      "symbol": "_piece_square",
+      "source": "src/probes/layout/piece_square_bss.c",
+      "compiler": "msc500",
+      "flags": [
+        "/AS",
+        "/Gs",
+        "/Zi"
+      ],
+      "type": "int[2][6][120]",
+      "storage": "near-common",
+      "initializer": null,
+      "bytes": 2880,
+      "object_sha256": "d89a6493d5d12142c71b95c8e0e83f772812d6c5de90391ae0b4eb3fe36f2be9",
+      "required_final_map": {
+        "dgroup_offset": "0xb0dc",
+        "end_exclusive": "0xbc1c",
+        "inside_startup_clear": [
+          "0x52cc",
+          "0xcbe0"
+        ]
+      },
+      "requires_reconstructed_other_inputs_for_placement": true,
+      "historical_order": "unknown",
+      "initialized_byte_credit": 0,
+      "compressed_file_credit": 0,
+      "authored_c_function_count": 0
+    },
+    {
+      "symbol": "_values",
+      "source": "src/probes/layout/value_pool_bss.c",
+      "type": "int[4]",
+      "storage": "near-common",
+      "initializer": null,
+      "bytes": 8,
+      "object_sha256": "714dee6970e7144d6c48afa02ccd0bd522a53f12975c8d8f6e5f57b9651f71dc",
+      "required_final_map": {
+        "dgroup_offset": "0x8d1a",
+        "end_exclusive": "0x8d22",
+        "inside_startup_clear": [
+          "0x52cc",
+          "0xcbe0"
+        ]
+      },
+      "requires_reconstructed_other_inputs_for_placement": true,
+      "historical_order": "unknown",
+      "initialized_byte_credit": 0,
+      "compressed_file_credit": 0,
+      "authored_c_function_count": 0,
+      "classification": "future whole-program allocation manifest proposal only, not a matching unit",
+      "compiler": "msc500",
+      "flags": [
+        "/AS",
+        "/Zl",
+        "/Zi"
+      ]
+    },
+    {
+      "symbol": "_task_pool",
+      "source": "src/probes/layout/task_pool_bss.c",
+      "type": "AnimationTask *[4]",
+      "storage": "near-common",
+      "initializer": null,
+      "bytes": 8,
+      "object_sha256": "2003f029c4beae5bd0286dba125ea81f3a9c288ad5d15a58e559f4c98fb03731",
+      "required_final_map": {
+        "dgroup_offset": "0xb0be",
+        "end_exclusive": "0xb0c6",
+        "inside_startup_clear": [
+          "0x52cc",
+          "0xcbe0"
+        ]
+      },
+      "requires_reconstructed_other_inputs_for_placement": true,
+      "historical_order": "unknown",
+      "initialized_byte_credit": 0,
+      "compressed_file_credit": 0,
+      "authored_c_function_count": 0,
+      "classification": "future whole-program allocation manifest proposal only, not a matching unit",
+      "compiler": "msc500",
+      "flags": [
+        "/AS",
+        "/Zl",
+        "/Zi"
+      ]
+    }
+  ],
+  "complete_source_link_available": false
+}

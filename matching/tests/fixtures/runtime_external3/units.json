@@ -1,0 +1,76 @@
+[
+  {
+    "id": "runtime_atol",
+    "image_offset": "0xfb0e",
+    "size": 3,
+    "language": "runtime",
+    "backend": "msc500-library",
+    "source": "config/runtime500.json",
+    "member": "ATOL",
+    "symbol": "_atol",
+    "runtime_kind": "code",
+    "reference_region": "unchanged-prefix",
+    "boundary_evidence": "Complete genuine library CODE SEGDEF and exact source-immutable REA whole raw read; internal Ghidra CFG NOP gap retained whole; zero authored C/ASM credit.",
+    "rea_evidence": "evidence/runtime4-authentic/ATOL-read.json"
+  },
+  {
+    "id": "runtime_libh_near_ldiv",
+    "image_offset": "0xf87c",
+    "size": 163,
+    "language": "runtime",
+    "backend": "msc500-authentic-external-runtime3-v1",
+    "source": "config/runtime_external3.json",
+    "member": "near_ldiv",
+    "symbol": "__aNldiv",
+    "runtime_kind": "code",
+    "reference_region": "unchanged-prefix",
+    "boundary_evidence": "Complete genuine library CODE SEGDEF and exact source-immutable REA whole raw read; internal Ghidra CFG NOP gap retained whole; zero authored C/ASM credit.",
+    "rea_evidence": "evidence/runtime4-authentic/LDIV-read.json",
+    "externals": {
+      "__aNulmul": {
+        "segment": 0,
+        "offset": 62254
+      }
+    }
+  },
+  {
+    "id": "runtime_libh_near_uldiv",
+    "image_offset": "0xf39c",
+    "size": 101,
+    "language": "runtime",
+    "backend": "msc500-authentic-external-runtime3-v1",
+    "source": "config/runtime_external3.json",
+    "member": "near_uldiv",
+    "symbol": "__aNuldiv",
+    "runtime_kind": "code",
+    "reference_region": "unchanged-prefix",
+    "boundary_evidence": "Complete genuine library CODE SEGDEF and exact source-immutable REA whole raw read; internal Ghidra CFG NOP gap retained whole; zero authored C/ASM credit.",
+    "rea_evidence": "evidence/runtime4-authentic/ULDIV-read.json",
+    "externals": {
+      "__aNulmul": {
+        "segment": 0,
+        "offset": 62254
+      }
+    }
+  },
+  {
+    "id": "runtime_libh_near_ulrem",
+    "image_offset": "0xf402",
+    "size": 109,
+    "language": "runtime",
+    "backend": "msc500-authentic-external-runtime3-v1",
+    "source": "config/runtime_external3.json",
+    "member": "near_ulrem",
+    "symbol": "__aNulrem",
+    "runtime_kind": "code",
+    "reference_region": "unchanged-prefix",
+    "boundary_evidence": "Complete genuine library CODE SEGDEF and exact source-immutable REA whole raw read; internal Ghidra CFG NOP gap retained whole; zero authored C/ASM credit.",
+    "rea_evidence": "evidence/runtime4-authentic/ULREM-read.json",
+    "externals": {
+      "__aNulmul": {
+        "segment": 0,
+        "offset": 62254
+      }
+    }
+  }
+]

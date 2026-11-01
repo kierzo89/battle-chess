@@ -1,0 +1,5725 @@
+{
+  "schema": "exact-mixed-BSS-client-fields-v1",
+  "context": {
+    "kind": "mixed-c-fa-authored-asm-whole-omf",
+    "source": "src/graphics_actor_menu_match.c",
+    "selected_owners": [
+      "empty_3b2e",
+      "compose_frame_3b3a",
+      "reset_graphics_3e4f",
+      "clear_actor_3e81",
+      "insert_actor_3eb1",
+      "attach_actor_3f0f",
+      "detach_actor_3f49",
+      "detach_all_3f7f",
+      "draw_actor_code522",
+      "mark_region_41a8_code248",
+      "render_42a0_code725",
+      "prepare_color_4575",
+      "configure_actor_45a2",
+      "build_menu_466b_code1545",
+      "close_menu_4c74_code489",
+      "initialize_menu_bar_4e5d",
+      "finish_menu_5035_code122",
+      "title_menu_50af",
+      "track_menu_512d",
+      "draw_menu_row_527e",
+      "advance_menu_5381",
+      "outline_square_543a_code850"
+    ]
+  },
+  "whole_object_sha256": "a0b4c1b81025aa26ea23bb5575fcad19b1e659d67d039f00e1d385a571f6dbff",
+  "fields": [
+    {
+      "symbol": "_cached_frames",
+      "fixup": {
+        "segment": 1,
+        "offset": 34,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          23
+        ],
+        "target": [
+          2,
+          23
+        ],
+        "displacement": null,
+        "record_offset": 2445,
+        "raw": "c422261717"
+      }
+    },
+    {
+      "symbol": "_dirty_left",
+      "fixup": {
+        "segment": 1,
+        "offset": 1181,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          59
+        ],
+        "target": [
+          2,
+          59
+        ],
+        "displacement": null,
+        "record_offset": 3776,
+        "raw": "c4a1263b3b"
+      }
+    },
+    {
+      "symbol": "_dirty_right",
+      "fixup": {
+        "segment": 1,
+        "offset": 1209,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          5
+        ],
+        "target": [
+          2,
+          5
+        ],
+        "displacement": null,
+        "record_offset": 3776,
+        "raw": "c4bd260505"
+      }
+    },
+    {
+      "symbol": "_dirty_top",
+      "fixup": {
+        "segment": 1,
+        "offset": 1220,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          50
+        ],
+        "target": [
+          2,
+          50
+        ],
+        "displacement": null,
+        "record_offset": 3776,
+        "raw": "c4c8263232"
+      }
+    },
+    {
+      "symbol": "_dirty_bottom",
+      "fixup": {
+        "segment": 1,
+        "offset": 1239,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          24
+        ],
+        "target": [
+          2,
+          24
+        ],
+        "displacement": null,
+        "record_offset": 3776,
+        "raw": "c4db261818"
+      }
+    },
+    {
+      "symbol": "_dirty_top",
+      "fixup": {
+        "segment": 1,
+        "offset": 1282,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          50
+        ],
+        "target": [
+          2,
+          50
+        ],
+        "displacement": null,
+        "record_offset": 3776,
+        "raw": "c506263232"
+      }
+    },
+    {
+      "symbol": "_dirty_bottom",
+      "fixup": {
+        "segment": 1,
+        "offset": 1291,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          24
+        ],
+        "target": [
+          2,
+          24
+        ],
+        "displacement": null,
+        "record_offset": 3776,
+        "raw": "c50f261818"
+      }
+    },
+    {
+      "symbol": "_dirty_left",
+      "fixup": {
+        "segment": 1,
+        "offset": 1349,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          59
+        ],
+        "target": [
+          2,
+          59
+        ],
+        "displacement": null,
+        "record_offset": 3776,
+        "raw": "c549263b3b"
+      }
+    },
+    {
+      "symbol": "_dirty_left",
+      "fixup": {
+        "segment": 1,
+        "offset": 1358,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          59
+        ],
+        "target": [
+          2,
+          59
+        ],
+        "displacement": null,
+        "record_offset": 3776,
+        "raw": "c552263b3b"
+      }
+    },
+    {
+      "symbol": "_dirty_right",
+      "fixup": {
+        "segment": 1,
+        "offset": 1394,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          5
+        ],
+        "target": [
+          2,
+          5
+        ],
+        "displacement": null,
+        "record_offset": 3776,
+        "raw": "c576260505"
+      }
+    },
+    {
+      "symbol": "_dirty_right",
+      "fixup": {
+        "segment": 1,
+        "offset": 1403,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          5
+        ],
+        "target": [
+          2,
+          5
+        ],
+        "displacement": null,
+        "record_offset": 3776,
+        "raw": "c57f260505"
+      }
+    },
+    {
+      "symbol": "_dirty_top",
+      "fixup": {
+        "segment": 1,
+        "offset": 1424,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          50
+        ],
+        "target": [
+          2,
+          50
+        ],
+        "displacement": null,
+        "record_offset": 3776,
+        "raw": "c594263232"
+      }
+    },
+    {
+      "symbol": "_dirty_top",
+      "fixup": {
+        "segment": 1,
+        "offset": 1433,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          50
+        ],
+        "target": [
+          2,
+          50
+        ],
+        "displacement": null,
+        "record_offset": 3776,
+        "raw": "c59d263232"
+      }
+    },
+    {
+      "symbol": "_dirty_bottom",
+      "fixup": {
+        "segment": 1,
+        "offset": 1465,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          24
+        ],
+        "target": [
+          2,
+          24
+        ],
+        "displacement": null,
+        "record_offset": 3776,
+        "raw": "c5bd261818"
+      }
+    },
+    {
+      "symbol": "_dirty_bottom",
+      "fixup": {
+        "segment": 1,
+        "offset": 1474,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          24
+        ],
+        "target": [
+          2,
+          24
+        ],
+        "displacement": null,
+        "record_offset": 3776,
+        "raw": "c5c6261818"
+      }
+    },
+    {
+      "symbol": "_dirty_left",
+      "fixup": {
+        "segment": 1,
+        "offset": 1488,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          59
+        ],
+        "target": [
+          2,
+          59
+        ],
+        "displacement": null,
+        "record_offset": 3776,
+        "raw": "c5d4263b3b"
+      }
+    },
+    {
+      "symbol": "_dirty_left",
+      "fixup": {
+        "segment": 1,
+        "offset": 1495,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          59
+        ],
+        "target": [
+          2,
+          59
+        ],
+        "displacement": null,
+        "record_offset": 3776,
+        "raw": "c5db263b3b"
+      }
+    },
+    {
+      "symbol": "_dirty_right",
+      "fixup": {
+        "segment": 1,
+        "offset": 1501,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          5
+        ],
+        "target": [
+          2,
+          5
+        ],
+        "displacement": null,
+        "record_offset": 3776,
+        "raw": "c5e1260505"
+      }
+    },
+    {
+      "symbol": "_dirty_right",
+      "fixup": {
+        "segment": 1,
+        "offset": 1508,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          5
+        ],
+        "target": [
+          2,
+          5
+        ],
+        "displacement": null,
+        "record_offset": 3776,
+        "raw": "c5e8260505"
+      }
+    },
+    {
+      "symbol": "_dirty_top",
+      "fixup": {
+        "segment": 1,
+        "offset": 1514,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          50
+        ],
+        "target": [
+          2,
+          50
+        ],
+        "displacement": null,
+        "record_offset": 3776,
+        "raw": "c5ee263232"
+      }
+    },
+    {
+      "symbol": "_dirty_top",
+      "fixup": {
+        "segment": 1,
+        "offset": 1521,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          50
+        ],
+        "target": [
+          2,
+          50
+        ],
+        "displacement": null,
+        "record_offset": 3776,
+        "raw": "c5f5263232"
+      }
+    },
+    {
+      "symbol": "_dirty_bottom",
+      "fixup": {
+        "segment": 1,
+        "offset": 1527,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          24
+        ],
+        "target": [
+          2,
+          24
+        ],
+        "displacement": null,
+        "record_offset": 3776,
+        "raw": "c5fb261818"
+      }
+    },
+    {
+      "symbol": "_dirty_bottom",
+      "fixup": {
+        "segment": 1,
+        "offset": 1535,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          24
+        ],
+        "target": [
+          2,
+          24
+        ],
+        "displacement": null,
+        "record_offset": 3776,
+        "raw": "c603261818"
+      }
+    },
+    {
+      "symbol": "_dirty_right",
+      "fixup": {
+        "segment": 1,
+        "offset": 1586,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          5
+        ],
+        "target": [
+          2,
+          5
+        ],
+        "displacement": null,
+        "record_offset": 3776,
+        "raw": "c636260505"
+      }
+    },
+    {
+      "symbol": "_dirty_left",
+      "fixup": {
+        "segment": 1,
+        "offset": 1593,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          59
+        ],
+        "target": [
+          2,
+          59
+        ],
+        "displacement": null,
+        "record_offset": 3776,
+        "raw": "c63d263b3b"
+      }
+    },
+    {
+      "symbol": "_dirty_top",
+      "fixup": {
+        "segment": 1,
+        "offset": 1600,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          50
+        ],
+        "target": [
+          2,
+          50
+        ],
+        "displacement": null,
+        "record_offset": 3776,
+        "raw": "c644263232"
+      }
+    },
+    {
+      "symbol": "_dirty_bottom",
+      "fixup": {
+        "segment": 1,
+        "offset": 1608,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          24
+        ],
+        "target": [
+          2,
+          24
+        ],
+        "displacement": null,
+        "record_offset": 3776,
+        "raw": "c64c261818"
+      }
+    },
+    {
+      "symbol": "_active_actor",
+      "fixup": {
+        "segment": 1,
+        "offset": 1636,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          14
+        ],
+        "target": [
+          2,
+          14
+        ],
+        "displacement": null,
+        "record_offset": 3776,
+        "raw": "c668260e0e"
+      }
+    },
+    {
+      "symbol": "_dirty_left",
+      "fixup": {
+        "segment": 1,
+        "offset": 1672,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          59
+        ],
+        "target": [
+          2,
+          59
+        ],
+        "displacement": null,
+        "record_offset": 3776,
+        "raw": "c68c263b3b"
+      }
+    },
+    {
+      "symbol": "_region_left",
+      "fixup": {
+        "segment": 1,
+        "offset": 1679,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          3
+        ],
+        "target": [
+          2,
+          3
+        ],
+        "displacement": null,
+        "record_offset": 3776,
+        "raw": "c693260303"
+      }
+    },
+    {
+      "symbol": "_dirty_right",
+      "fixup": {
+        "segment": 1,
+        "offset": 1682,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          5
+        ],
+        "target": [
+          2,
+          5
+        ],
+        "displacement": null,
+        "record_offset": 3776,
+        "raw": "c696260505"
+      }
+    },
+    {
+      "symbol": "_region_right",
+      "fixup": {
+        "segment": 1,
+        "offset": 1692,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          16
+        ],
+        "target": [
+          2,
+          16
+        ],
+        "displacement": null,
+        "record_offset": 3776,
+        "raw": "c6a0261010"
+      }
+    },
+    {
+      "symbol": "_region_left",
+      "fixup": {
+        "segment": 1,
+        "offset": 1696,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          3
+        ],
+        "target": [
+          2,
+          3
+        ],
+        "displacement": null,
+        "record_offset": 3776,
+        "raw": "c6a4260303"
+      }
+    },
+    {
+      "symbol": "_region_width",
+      "fixup": {
+        "segment": 1,
+        "offset": 1700,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          17
+        ],
+        "target": [
+          2,
+          17
+        ],
+        "displacement": null,
+        "record_offset": 3776,
+        "raw": "c6a8261111"
+      }
+    },
+    {
+      "symbol": "_dirty_right",
+      "fixup": {
+        "segment": 1,
+        "offset": 1703,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          5
+        ],
+        "target": [
+          2,
+          5
+        ],
+        "displacement": null,
+        "record_offset": 3776,
+        "raw": "c6ab260505"
+      }
+    },
+    {
+      "symbol": "_dirty_left",
+      "fixup": {
+        "segment": 1,
+        "offset": 1707,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          59
+        ],
+        "target": [
+          2,
+          59
+        ],
+        "displacement": null,
+        "record_offset": 3776,
+        "raw": "c6af263b3b"
+      }
+    },
+    {
+      "symbol": "_stride",
+      "fixup": {
+        "segment": 1,
+        "offset": 1715,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          11
+        ],
+        "target": [
+          2,
+          11
+        ],
+        "displacement": null,
+        "record_offset": 3776,
+        "raw": "c6b7260b0b"
+      }
+    },
+    {
+      "symbol": "_dirty_bottom",
+      "fixup": {
+        "segment": 1,
+        "offset": 1718,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          24
+        ],
+        "target": [
+          2,
+          24
+        ],
+        "displacement": null,
+        "record_offset": 3776,
+        "raw": "c6ba261818"
+      }
+    },
+    {
+      "symbol": "_dirty_top",
+      "fixup": {
+        "segment": 1,
+        "offset": 1722,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          50
+        ],
+        "target": [
+          2,
+          50
+        ],
+        "displacement": null,
+        "record_offset": 3776,
+        "raw": "c6be263232"
+      }
+    },
+    {
+      "symbol": "_height",
+      "fixup": {
+        "segment": 1,
+        "offset": 1726,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          7
+        ],
+        "target": [
+          2,
+          7
+        ],
+        "displacement": null,
+        "record_offset": 3776,
+        "raw": "c6c2260707"
+      }
+    },
+    {
+      "symbol": "_stride",
+      "fixup": {
+        "segment": 1,
+        "offset": 1729,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          11
+        ],
+        "target": [
+          2,
+          11
+        ],
+        "displacement": null,
+        "record_offset": 3776,
+        "raw": "c6c5260b0b"
+      }
+    },
+    {
+      "symbol": "_height",
+      "fixup": {
+        "segment": 1,
+        "offset": 1733,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          7
+        ],
+        "target": [
+          2,
+          7
+        ],
+        "displacement": null,
+        "record_offset": 3776,
+        "raw": "c6c9260707"
+      }
+    },
+    {
+      "symbol": "_dirty_top",
+      "fixup": {
+        "segment": 1,
+        "offset": 1758,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          50
+        ],
+        "target": [
+          2,
+          50
+        ],
+        "displacement": null,
+        "record_offset": 3776,
+        "raw": "c6e2263232"
+      }
+    },
+    {
+      "symbol": "_dirty_left",
+      "fixup": {
+        "segment": 1,
+        "offset": 1762,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          59
+        ],
+        "target": [
+          2,
+          59
+        ],
+        "displacement": null,
+        "record_offset": 3776,
+        "raw": "c6e6263b3b"
+      }
+    },
+    {
+      "symbol": "_stride",
+      "fixup": {
+        "segment": 1,
+        "offset": 1808,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          11
+        ],
+        "target": [
+          2,
+          11
+        ],
+        "displacement": null,
+        "record_offset": 3776,
+        "raw": "c714260b0b"
+      }
+    },
+    {
+      "symbol": "_height",
+      "fixup": {
+        "segment": 1,
+        "offset": 1842,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          7
+        ],
+        "target": [
+          2,
+          7
+        ],
+        "displacement": null,
+        "record_offset": 3776,
+        "raw": "c736260707"
+      }
+    },
+    {
+      "symbol": "_stride",
+      "fixup": {
+        "segment": 1,
+        "offset": 1848,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          11
+        ],
+        "target": [
+          2,
+          11
+        ],
+        "displacement": null,
+        "record_offset": 3776,
+        "raw": "c73c260b0b"
+      }
+    },
+    {
+      "symbol": "_height",
+      "fixup": {
+        "segment": 1,
+        "offset": 1880,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          7
+        ],
+        "target": [
+          2,
+          7
+        ],
+        "displacement": null,
+        "record_offset": 3776,
+        "raw": "c75c260707"
+      }
+    },
+    {
+      "symbol": "_stride",
+      "fixup": {
+        "segment": 1,
+        "offset": 1884,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          11
+        ],
+        "target": [
+          2,
+          11
+        ],
+        "displacement": null,
+        "record_offset": 3776,
+        "raw": "c760260b0b"
+      }
+    },
+    {
+      "symbol": "_region_left",
+      "fixup": {
+        "segment": 1,
+        "offset": 1918,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          3
+        ],
+        "target": [
+          2,
+          3
+        ],
+        "displacement": null,
+        "record_offset": 3776,
+        "raw": "c782260303"
+      }
+    },
+    {
+      "symbol": "_region_right",
+      "fixup": {
+        "segment": 1,
+        "offset": 1944,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          16
+        ],
+        "target": [
+          2,
+          16
+        ],
+        "displacement": null,
+        "record_offset": 3776,
+        "raw": "c79c261010"
+      }
+    },
+    {
+      "symbol": "_region_left",
+      "fixup": {
+        "segment": 1,
+        "offset": 1955,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          3
+        ],
+        "target": [
+          2,
+          3
+        ],
+        "displacement": null,
+        "record_offset": 3776,
+        "raw": "c7a7260303"
+      }
+    },
+    {
+      "symbol": "_dirty_bottom",
+      "fixup": {
+        "segment": 1,
+        "offset": 1966,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          24
+        ],
+        "target": [
+          2,
+          24
+        ],
+        "displacement": null,
+        "record_offset": 3776,
+        "raw": "c7b2261818"
+      }
+    },
+    {
+      "symbol": "_dirty_top",
+      "fixup": {
+        "segment": 1,
+        "offset": 1977,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          50
+        ],
+        "target": [
+          2,
+          50
+        ],
+        "displacement": null,
+        "record_offset": 3776,
+        "raw": "c7bd263232"
+      }
+    },
+    {
+      "symbol": "_active_actor",
+      "fixup": {
+        "segment": 1,
+        "offset": 1989,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          14
+        ],
+        "target": [
+          2,
+          14
+        ],
+        "displacement": null,
+        "record_offset": 3776,
+        "raw": "c7c9260e0e"
+      }
+    },
+    {
+      "symbol": "_active_actor",
+      "fixup": {
+        "segment": 1,
+        "offset": 1996,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          14
+        ],
+        "target": [
+          2,
+          14
+        ],
+        "displacement": null,
+        "record_offset": 3776,
+        "raw": "c7d0260e0e"
+      }
+    },
+    {
+      "symbol": "_region_left",
+      "fixup": {
+        "segment": 1,
+        "offset": 2023,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          3
+        ],
+        "target": [
+          2,
+          3
+        ],
+        "displacement": null,
+        "record_offset": 3776,
+        "raw": "c7eb260303"
+      }
+    },
+    {
+      "symbol": "_region_right",
+      "fixup": {
+        "segment": 1,
+        "offset": 2066,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          16
+        ],
+        "target": [
+          2,
+          16
+        ],
+        "displacement": null,
+        "record_offset": 5390,
+        "raw": "c41b261010"
+      }
+    },
+    {
+      "symbol": "_dirty_top",
+      "fixup": {
+        "segment": 1,
+        "offset": 2188,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          50
+        ],
+        "target": [
+          2,
+          50
+        ],
+        "displacement": null,
+        "record_offset": 5390,
+        "raw": "c495263232"
+      }
+    },
+    {
+      "symbol": "_dirty_bottom",
+      "fixup": {
+        "segment": 1,
+        "offset": 2208,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          24
+        ],
+        "target": [
+          2,
+          24
+        ],
+        "displacement": null,
+        "record_offset": 5390,
+        "raw": "c4a9261818"
+      }
+    },
+    {
+      "symbol": "_dirty_top",
+      "fixup": {
+        "segment": 1,
+        "offset": 2217,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          50
+        ],
+        "target": [
+          2,
+          50
+        ],
+        "displacement": null,
+        "record_offset": 5390,
+        "raw": "c4b2263232"
+      }
+    },
+    {
+      "symbol": "_dirty_top",
+      "fixup": {
+        "segment": 1,
+        "offset": 2227,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          50
+        ],
+        "target": [
+          2,
+          50
+        ],
+        "displacement": null,
+        "record_offset": 5390,
+        "raw": "c4bc263232"
+      }
+    },
+    {
+      "symbol": "_dirty_bottom",
+      "fixup": {
+        "segment": 1,
+        "offset": 2241,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          24
+        ],
+        "target": [
+          2,
+          24
+        ],
+        "displacement": null,
+        "record_offset": 5390,
+        "raw": "c4ca261818"
+      }
+    },
+    {
+      "symbol": "_stride",
+      "fixup": {
+        "segment": 1,
+        "offset": 2313,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          11
+        ],
+        "target": [
+          2,
+          11
+        ],
+        "displacement": null,
+        "record_offset": 5390,
+        "raw": "c512260b0b"
+      }
+    },
+    {
+      "symbol": "_stride",
+      "fixup": {
+        "segment": 1,
+        "offset": 2364,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          11
+        ],
+        "target": [
+          2,
+          11
+        ],
+        "displacement": null,
+        "record_offset": 5390,
+        "raw": "c545260b0b"
+      }
+    },
+    {
+      "symbol": "_height",
+      "fixup": {
+        "segment": 1,
+        "offset": 2368,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          7
+        ],
+        "target": [
+          2,
+          7
+        ],
+        "displacement": null,
+        "record_offset": 5390,
+        "raw": "c549260707"
+      }
+    },
+    {
+      "symbol": "_stride",
+      "fixup": {
+        "segment": 1,
+        "offset": 2413,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          11
+        ],
+        "target": [
+          2,
+          11
+        ],
+        "displacement": null,
+        "record_offset": 5390,
+        "raw": "c576260b0b"
+      }
+    },
+    {
+      "symbol": "_active_actor",
+      "fixup": {
+        "segment": 1,
+        "offset": 2536,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          14
+        ],
+        "target": [
+          2,
+          14
+        ],
+        "displacement": null,
+        "record_offset": 5390,
+        "raw": "c5f1260e0e"
+      }
+    },
+    {
+      "symbol": "_height",
+      "fixup": {
+        "segment": 1,
+        "offset": 2562,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          7
+        ],
+        "target": [
+          2,
+          7
+        ],
+        "displacement": null,
+        "record_offset": 5390,
+        "raw": "c60b260707"
+      }
+    },
+    {
+      "symbol": "_stride",
+      "fixup": {
+        "segment": 1,
+        "offset": 2566,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          11
+        ],
+        "target": [
+          2,
+          11
+        ],
+        "displacement": null,
+        "record_offset": 5390,
+        "raw": "c60f260b0b"
+      }
+    },
+    {
+      "symbol": "_dirty_top",
+      "fixup": {
+        "segment": 1,
+        "offset": 2570,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          50
+        ],
+        "target": [
+          2,
+          50
+        ],
+        "displacement": null,
+        "record_offset": 5390,
+        "raw": "c613263232"
+      }
+    },
+    {
+      "symbol": "_height",
+      "fixup": {
+        "segment": 1,
+        "offset": 2603,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          7
+        ],
+        "target": [
+          2,
+          7
+        ],
+        "displacement": null,
+        "record_offset": 5390,
+        "raw": "c634260707"
+      }
+    },
+    {
+      "symbol": "_stride",
+      "fixup": {
+        "segment": 1,
+        "offset": 2607,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          11
+        ],
+        "target": [
+          2,
+          11
+        ],
+        "displacement": null,
+        "record_offset": 5390,
+        "raw": "c638260b0b"
+      }
+    },
+    {
+      "symbol": "_dirty_top",
+      "fixup": {
+        "segment": 1,
+        "offset": 2611,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          50
+        ],
+        "target": [
+          2,
+          50
+        ],
+        "displacement": null,
+        "record_offset": 5390,
+        "raw": "c63c263232"
+      }
+    },
+    {
+      "symbol": "_frames",
+      "fixup": {
+        "segment": 1,
+        "offset": 2701,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          8
+        ],
+        "target": [
+          2,
+          8
+        ],
+        "displacement": null,
+        "record_offset": 5390,
+        "raw": "c696260808"
+      }
+    },
+    {
+      "symbol": "_frame_resources",
+      "fixup": {
+        "segment": 1,
+        "offset": 2826,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          47
+        ],
+        "displacement": null,
+        "record_offset": 5390,
+        "raw": "c71316012f"
+      }
+    },
+    {
+      "symbol": "_frame_resources",
+      "fixup": {
+        "segment": 1,
+        "offset": 2830,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          47
+        ],
+        "displacement": 2,
+        "record_offset": 5390,
+        "raw": "c71712012f0200"
+      }
+    },
+    {
+      "symbol": "_menu_y",
+      "fixup": {
+        "segment": 1,
+        "offset": 2903,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          21
+        ],
+        "target": [
+          2,
+          21
+        ],
+        "displacement": null,
+        "record_offset": 5390,
+        "raw": "c760261515"
+      }
+    },
+    {
+      "symbol": "_menus",
+      "fixup": {
+        "segment": 1,
+        "offset": 2915,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          2
+        ],
+        "target": [
+          2,
+          2
+        ],
+        "displacement": null,
+        "record_offset": 5390,
+        "raw": "c76c260202"
+      }
+    },
+    {
+      "symbol": "_menu_positions",
+      "fixup": {
+        "segment": 1,
+        "offset": 2932,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          43
+        ],
+        "displacement": null,
+        "record_offset": 5390,
+        "raw": "c77d16012b"
+      }
+    },
+    {
+      "symbol": "_menu_x",
+      "fixup": {
+        "segment": 1,
+        "offset": 2938,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          20
+        ],
+        "target": [
+          2,
+          20
+        ],
+        "displacement": null,
+        "record_offset": 5390,
+        "raw": "c783261414"
+      }
+    },
+    {
+      "symbol": "_menu_columns",
+      "fixup": {
+        "segment": 1,
+        "offset": 2942,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          22
+        ],
+        "target": [
+          2,
+          22
+        ],
+        "displacement": null,
+        "record_offset": 5390,
+        "raw": "c787261616"
+      }
+    },
+    {
+      "symbol": "_menu_columns",
+      "fixup": {
+        "segment": 1,
+        "offset": 2984,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          22
+        ],
+        "target": [
+          2,
+          22
+        ],
+        "displacement": null,
+        "record_offset": 5390,
+        "raw": "c7b1261616"
+      }
+    },
+    {
+      "symbol": "_menu_columns",
+      "fixup": {
+        "segment": 1,
+        "offset": 2995,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          22
+        ],
+        "target": [
+          2,
+          22
+        ],
+        "displacement": null,
+        "record_offset": 5390,
+        "raw": "c7bc261616"
+      }
+    },
+    {
+      "symbol": "_menu_columns",
+      "fixup": {
+        "segment": 1,
+        "offset": 3000,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          22
+        ],
+        "target": [
+          2,
+          22
+        ],
+        "displacement": null,
+        "record_offset": 5390,
+        "raw": "c7c1261616"
+      }
+    },
+    {
+      "symbol": "_menu_columns",
+      "fixup": {
+        "segment": 1,
+        "offset": 3006,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          22
+        ],
+        "target": [
+          2,
+          22
+        ],
+        "displacement": null,
+        "record_offset": 5390,
+        "raw": "c7c7261616"
+      }
+    },
+    {
+      "symbol": "_menu_x",
+      "fixup": {
+        "segment": 1,
+        "offset": 3017,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          20
+        ],
+        "target": [
+          2,
+          20
+        ],
+        "displacement": null,
+        "record_offset": 5390,
+        "raw": "c7d2261414"
+      }
+    },
+    {
+      "symbol": "_menu_x",
+      "fixup": {
+        "segment": 1,
+        "offset": 3031,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          20
+        ],
+        "target": [
+          2,
+          20
+        ],
+        "displacement": null,
+        "record_offset": 5390,
+        "raw": "c7e0261414"
+      }
+    },
+    {
+      "symbol": "_menu_y",
+      "fixup": {
+        "segment": 1,
+        "offset": 3043,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          21
+        ],
+        "target": [
+          2,
+          21
+        ],
+        "displacement": null,
+        "record_offset": 5390,
+        "raw": "c7ec261515"
+      }
+    },
+    {
+      "symbol": "_menu_x",
+      "fixup": {
+        "segment": 1,
+        "offset": 3047,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          20
+        ],
+        "target": [
+          2,
+          20
+        ],
+        "displacement": null,
+        "record_offset": 5390,
+        "raw": "c7f0261414"
+      }
+    },
+    {
+      "symbol": "_menu_y",
+      "fixup": {
+        "segment": 1,
+        "offset": 3065,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          21
+        ],
+        "target": [
+          2,
+          21
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c406261515"
+      }
+    },
+    {
+      "symbol": "_menu_x",
+      "fixup": {
+        "segment": 1,
+        "offset": 3069,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          20
+        ],
+        "target": [
+          2,
+          20
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c40a261414"
+      }
+    },
+    {
+      "symbol": "_menu_columns",
+      "fixup": {
+        "segment": 1,
+        "offset": 3084,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          22
+        ],
+        "target": [
+          2,
+          22
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c419261616"
+      }
+    },
+    {
+      "symbol": "_menu_y",
+      "fixup": {
+        "segment": 1,
+        "offset": 3098,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          21
+        ],
+        "target": [
+          2,
+          21
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c427261515"
+      }
+    },
+    {
+      "symbol": "_menu_x",
+      "fixup": {
+        "segment": 1,
+        "offset": 3108,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          20
+        ],
+        "target": [
+          2,
+          20
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c431261414"
+      }
+    },
+    {
+      "symbol": "_menu_y",
+      "fixup": {
+        "segment": 1,
+        "offset": 3142,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          21
+        ],
+        "target": [
+          2,
+          21
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c453261515"
+      }
+    },
+    {
+      "symbol": "_menu_x",
+      "fixup": {
+        "segment": 1,
+        "offset": 3149,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          20
+        ],
+        "target": [
+          2,
+          20
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c45a261414"
+      }
+    },
+    {
+      "symbol": "_menu_y",
+      "fixup": {
+        "segment": 1,
+        "offset": 3170,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          21
+        ],
+        "target": [
+          2,
+          21
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c46f261515"
+      }
+    },
+    {
+      "symbol": "_menu_columns",
+      "fixup": {
+        "segment": 1,
+        "offset": 3177,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          22
+        ],
+        "target": [
+          2,
+          22
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c476261616"
+      }
+    },
+    {
+      "symbol": "_menu_x",
+      "fixup": {
+        "segment": 1,
+        "offset": 3185,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          20
+        ],
+        "target": [
+          2,
+          20
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c47e261414"
+      }
+    },
+    {
+      "symbol": "_menu_y",
+      "fixup": {
+        "segment": 1,
+        "offset": 3206,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          21
+        ],
+        "target": [
+          2,
+          21
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c493261515"
+      }
+    },
+    {
+      "symbol": "_menu_x",
+      "fixup": {
+        "segment": 1,
+        "offset": 3213,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          20
+        ],
+        "target": [
+          2,
+          20
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c49a261414"
+      }
+    },
+    {
+      "symbol": "_menu_columns",
+      "fixup": {
+        "segment": 1,
+        "offset": 3232,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          22
+        ],
+        "target": [
+          2,
+          22
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c4ad261616"
+      }
+    },
+    {
+      "symbol": "_menu_y",
+      "fixup": {
+        "segment": 1,
+        "offset": 3245,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          21
+        ],
+        "target": [
+          2,
+          21
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c4ba261515"
+      }
+    },
+    {
+      "symbol": "_menu_x",
+      "fixup": {
+        "segment": 1,
+        "offset": 3259,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          20
+        ],
+        "target": [
+          2,
+          20
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c4c8261414"
+      }
+    },
+    {
+      "symbol": "_menu_y",
+      "fixup": {
+        "segment": 1,
+        "offset": 3282,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          21
+        ],
+        "target": [
+          2,
+          21
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c4df261515"
+      }
+    },
+    {
+      "symbol": "_menu_x",
+      "fixup": {
+        "segment": 1,
+        "offset": 3289,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          20
+        ],
+        "target": [
+          2,
+          20
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c4e6261414"
+      }
+    },
+    {
+      "symbol": "_menu_columns",
+      "fixup": {
+        "segment": 1,
+        "offset": 3308,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          22
+        ],
+        "target": [
+          2,
+          22
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c4f9261616"
+      }
+    },
+    {
+      "symbol": "_menu_y",
+      "fixup": {
+        "segment": 1,
+        "offset": 3321,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          21
+        ],
+        "target": [
+          2,
+          21
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c506261515"
+      }
+    },
+    {
+      "symbol": "_menu_x",
+      "fixup": {
+        "segment": 1,
+        "offset": 3335,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          20
+        ],
+        "target": [
+          2,
+          20
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c514261414"
+      }
+    },
+    {
+      "symbol": "_menu_y",
+      "fixup": {
+        "segment": 1,
+        "offset": 3358,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          21
+        ],
+        "target": [
+          2,
+          21
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c52b261515"
+      }
+    },
+    {
+      "symbol": "_menu_x",
+      "fixup": {
+        "segment": 1,
+        "offset": 3362,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          20
+        ],
+        "target": [
+          2,
+          20
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c52f261414"
+      }
+    },
+    {
+      "symbol": "_menu_y",
+      "fixup": {
+        "segment": 1,
+        "offset": 3380,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          21
+        ],
+        "target": [
+          2,
+          21
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c541261515"
+      }
+    },
+    {
+      "symbol": "_menu_columns",
+      "fixup": {
+        "segment": 1,
+        "offset": 3383,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          22
+        ],
+        "target": [
+          2,
+          22
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c544261616"
+      }
+    },
+    {
+      "symbol": "_menu_x",
+      "fixup": {
+        "segment": 1,
+        "offset": 3391,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          20
+        ],
+        "target": [
+          2,
+          20
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c54c261414"
+      }
+    },
+    {
+      "symbol": "_frames",
+      "fixup": {
+        "segment": 1,
+        "offset": 3408,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          8
+        ],
+        "target": [
+          2,
+          8
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c55d260808"
+      }
+    },
+    {
+      "symbol": "_menu_y",
+      "fixup": {
+        "segment": 1,
+        "offset": 3415,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          21
+        ],
+        "target": [
+          2,
+          21
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c564261515"
+      }
+    },
+    {
+      "symbol": "_menu_x",
+      "fixup": {
+        "segment": 1,
+        "offset": 3423,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          20
+        ],
+        "target": [
+          2,
+          20
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c56c261414"
+      }
+    },
+    {
+      "symbol": "_frames",
+      "fixup": {
+        "segment": 1,
+        "offset": 3436,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          8
+        ],
+        "target": [
+          2,
+          8
+        ],
+        "displacement": 16,
+        "record_offset": 6832,
+        "raw": "c5792208081000"
+      }
+    },
+    {
+      "symbol": "_menu_y",
+      "fixup": {
+        "segment": 1,
+        "offset": 3443,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          21
+        ],
+        "target": [
+          2,
+          21
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c580261515"
+      }
+    },
+    {
+      "symbol": "_menu_columns",
+      "fixup": {
+        "segment": 1,
+        "offset": 3450,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          22
+        ],
+        "target": [
+          2,
+          22
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c587261616"
+      }
+    },
+    {
+      "symbol": "_menu_x",
+      "fixup": {
+        "segment": 1,
+        "offset": 3458,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          20
+        ],
+        "target": [
+          2,
+          20
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c58f261414"
+      }
+    },
+    {
+      "symbol": "_frames",
+      "fixup": {
+        "segment": 1,
+        "offset": 3475,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          8
+        ],
+        "target": [
+          2,
+          8
+        ],
+        "displacement": 128,
+        "record_offset": 6832,
+        "raw": "c5a02208088000"
+      }
+    },
+    {
+      "symbol": "_menu_y",
+      "fixup": {
+        "segment": 1,
+        "offset": 3482,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          21
+        ],
+        "target": [
+          2,
+          21
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c5a7261515"
+      }
+    },
+    {
+      "symbol": "_menu_columns",
+      "fixup": {
+        "segment": 1,
+        "offset": 3489,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          22
+        ],
+        "target": [
+          2,
+          22
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c5ae261616"
+      }
+    },
+    {
+      "symbol": "_menu_x",
+      "fixup": {
+        "segment": 1,
+        "offset": 3497,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          20
+        ],
+        "target": [
+          2,
+          20
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c5b6261414"
+      }
+    },
+    {
+      "symbol": "_frames",
+      "fixup": {
+        "segment": 1,
+        "offset": 3522,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          8
+        ],
+        "target": [
+          2,
+          8
+        ],
+        "displacement": 56,
+        "record_offset": 6832,
+        "raw": "c5cf2208083800"
+      }
+    },
+    {
+      "symbol": "_menu_y",
+      "fixup": {
+        "segment": 1,
+        "offset": 3529,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          21
+        ],
+        "target": [
+          2,
+          21
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c5d6261515"
+      }
+    },
+    {
+      "symbol": "_menu_columns",
+      "fixup": {
+        "segment": 1,
+        "offset": 3536,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          22
+        ],
+        "target": [
+          2,
+          22
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c5dd261616"
+      }
+    },
+    {
+      "symbol": "_menu_x",
+      "fixup": {
+        "segment": 1,
+        "offset": 3544,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          20
+        ],
+        "target": [
+          2,
+          20
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c5e5261414"
+      }
+    },
+    {
+      "symbol": "_menu_y",
+      "fixup": {
+        "segment": 1,
+        "offset": 3565,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          21
+        ],
+        "target": [
+          2,
+          21
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c5fa261515"
+      }
+    },
+    {
+      "symbol": "_menu_x",
+      "fixup": {
+        "segment": 1,
+        "offset": 3572,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          20
+        ],
+        "target": [
+          2,
+          20
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c601261414"
+      }
+    },
+    {
+      "symbol": "_menu_y",
+      "fixup": {
+        "segment": 1,
+        "offset": 3621,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          21
+        ],
+        "target": [
+          2,
+          21
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c632261515"
+      }
+    },
+    {
+      "symbol": "_menu_y",
+      "fixup": {
+        "segment": 1,
+        "offset": 3648,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          21
+        ],
+        "target": [
+          2,
+          21
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c64d261515"
+      }
+    },
+    {
+      "symbol": "_menu_columns",
+      "fixup": {
+        "segment": 1,
+        "offset": 3655,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          22
+        ],
+        "target": [
+          2,
+          22
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c654261616"
+      }
+    },
+    {
+      "symbol": "_menu_x",
+      "fixup": {
+        "segment": 1,
+        "offset": 3663,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          20
+        ],
+        "target": [
+          2,
+          20
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c65c261414"
+      }
+    },
+    {
+      "symbol": "_menu_y",
+      "fixup": {
+        "segment": 1,
+        "offset": 3684,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          21
+        ],
+        "target": [
+          2,
+          21
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c671261515"
+      }
+    },
+    {
+      "symbol": "_menu_x",
+      "fixup": {
+        "segment": 1,
+        "offset": 3691,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          20
+        ],
+        "target": [
+          2,
+          20
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c678261414"
+      }
+    },
+    {
+      "symbol": "_frames",
+      "fixup": {
+        "segment": 1,
+        "offset": 3708,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          8
+        ],
+        "target": [
+          2,
+          8
+        ],
+        "displacement": 64,
+        "record_offset": 6832,
+        "raw": "c6892208084000"
+      }
+    },
+    {
+      "symbol": "_menu_y",
+      "fixup": {
+        "segment": 1,
+        "offset": 3715,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          21
+        ],
+        "target": [
+          2,
+          21
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c690261515"
+      }
+    },
+    {
+      "symbol": "_menu_x",
+      "fixup": {
+        "segment": 1,
+        "offset": 3722,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          20
+        ],
+        "target": [
+          2,
+          20
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c697261414"
+      }
+    },
+    {
+      "symbol": "_frames",
+      "fixup": {
+        "segment": 1,
+        "offset": 3739,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          8
+        ],
+        "target": [
+          2,
+          8
+        ],
+        "displacement": 80,
+        "record_offset": 6832,
+        "raw": "c6a82208085000"
+      }
+    },
+    {
+      "symbol": "_menu_y",
+      "fixup": {
+        "segment": 1,
+        "offset": 3746,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          21
+        ],
+        "target": [
+          2,
+          21
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c6af261515"
+      }
+    },
+    {
+      "symbol": "_menu_columns",
+      "fixup": {
+        "segment": 1,
+        "offset": 3753,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          22
+        ],
+        "target": [
+          2,
+          22
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c6b6261616"
+      }
+    },
+    {
+      "symbol": "_menu_x",
+      "fixup": {
+        "segment": 1,
+        "offset": 3761,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          20
+        ],
+        "target": [
+          2,
+          20
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c6be261414"
+      }
+    },
+    {
+      "symbol": "_menu_y",
+      "fixup": {
+        "segment": 1,
+        "offset": 3800,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          21
+        ],
+        "target": [
+          2,
+          21
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c6e5261515"
+      }
+    },
+    {
+      "symbol": "_menu_x",
+      "fixup": {
+        "segment": 1,
+        "offset": 3807,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          20
+        ],
+        "target": [
+          2,
+          20
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c6ec261414"
+      }
+    },
+    {
+      "symbol": "_menu_columns",
+      "fixup": {
+        "segment": 1,
+        "offset": 3826,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          22
+        ],
+        "target": [
+          2,
+          22
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c6ff261616"
+      }
+    },
+    {
+      "symbol": "_frames",
+      "fixup": {
+        "segment": 1,
+        "offset": 3833,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          8
+        ],
+        "target": [
+          2,
+          8
+        ],
+        "displacement": 48,
+        "record_offset": 6832,
+        "raw": "c7062208083000"
+      }
+    },
+    {
+      "symbol": "_menu_y",
+      "fixup": {
+        "segment": 1,
+        "offset": 3849,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          21
+        ],
+        "target": [
+          2,
+          21
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c716261515"
+      }
+    },
+    {
+      "symbol": "_menu_y",
+      "fixup": {
+        "segment": 1,
+        "offset": 3866,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          21
+        ],
+        "target": [
+          2,
+          21
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c727261515"
+      }
+    },
+    {
+      "symbol": "_menu_y",
+      "fixup": {
+        "segment": 1,
+        "offset": 3888,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          21
+        ],
+        "target": [
+          2,
+          21
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c73d261515"
+      }
+    },
+    {
+      "symbol": "_frames",
+      "fixup": {
+        "segment": 1,
+        "offset": 3915,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          8
+        ],
+        "target": [
+          2,
+          8
+        ],
+        "displacement": 56,
+        "record_offset": 6832,
+        "raw": "c7582208083800"
+      }
+    },
+    {
+      "symbol": "_menu_y",
+      "fixup": {
+        "segment": 1,
+        "offset": 3922,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          21
+        ],
+        "target": [
+          2,
+          21
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c75f261515"
+      }
+    },
+    {
+      "symbol": "_menu_columns",
+      "fixup": {
+        "segment": 1,
+        "offset": 3929,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          22
+        ],
+        "target": [
+          2,
+          22
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c766261616"
+      }
+    },
+    {
+      "symbol": "_menu_x",
+      "fixup": {
+        "segment": 1,
+        "offset": 3937,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          20
+        ],
+        "target": [
+          2,
+          20
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c76e261414"
+      }
+    },
+    {
+      "symbol": "_menu_state",
+      "fixup": {
+        "segment": 1,
+        "offset": 3957,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          58
+        ],
+        "target": [
+          2,
+          58
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c782263a3a"
+      }
+    },
+    {
+      "symbol": "_menu_y",
+      "fixup": {
+        "segment": 1,
+        "offset": 4001,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          21
+        ],
+        "target": [
+          2,
+          21
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c7ae261515"
+      }
+    },
+    {
+      "symbol": "_menu_x",
+      "fixup": {
+        "segment": 1,
+        "offset": 4008,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          20
+        ],
+        "target": [
+          2,
+          20
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c7b5261414"
+      }
+    },
+    {
+      "symbol": "_menu_columns",
+      "fixup": {
+        "segment": 1,
+        "offset": 4031,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          22
+        ],
+        "target": [
+          2,
+          22
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c7cc261616"
+      }
+    },
+    {
+      "symbol": "_frames",
+      "fixup": {
+        "segment": 1,
+        "offset": 4038,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          8
+        ],
+        "target": [
+          2,
+          8
+        ],
+        "displacement": 72,
+        "record_offset": 6832,
+        "raw": "c7d32208084800"
+      }
+    },
+    {
+      "symbol": "_menu_y",
+      "fixup": {
+        "segment": 1,
+        "offset": 4054,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          21
+        ],
+        "target": [
+          2,
+          21
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c7e3261515"
+      }
+    },
+    {
+      "symbol": "_menu_y",
+      "fixup": {
+        "segment": 1,
+        "offset": 4071,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          21
+        ],
+        "target": [
+          2,
+          21
+        ],
+        "displacement": null,
+        "record_offset": 6832,
+        "raw": "c7f4261515"
+      }
+    },
+    {
+      "symbol": "_menu_y",
+      "fixup": {
+        "segment": 1,
+        "offset": 4093,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          21
+        ],
+        "target": [
+          2,
+          21
+        ],
+        "displacement": null,
+        "record_offset": 8548,
+        "raw": "c40e261515"
+      }
+    },
+    {
+      "symbol": "_menu_y",
+      "fixup": {
+        "segment": 1,
+        "offset": 4124,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          21
+        ],
+        "target": [
+          2,
+          21
+        ],
+        "displacement": null,
+        "record_offset": 8548,
+        "raw": "c42d261515"
+      }
+    },
+    {
+      "symbol": "_menu_columns",
+      "fixup": {
+        "segment": 1,
+        "offset": 4131,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          22
+        ],
+        "target": [
+          2,
+          22
+        ],
+        "displacement": null,
+        "record_offset": 8548,
+        "raw": "c434261616"
+      }
+    },
+    {
+      "symbol": "_menu_x",
+      "fixup": {
+        "segment": 1,
+        "offset": 4139,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          20
+        ],
+        "target": [
+          2,
+          20
+        ],
+        "displacement": null,
+        "record_offset": 8548,
+        "raw": "c43c261414"
+      }
+    },
+    {
+      "symbol": "_menu_y",
+      "fixup": {
+        "segment": 1,
+        "offset": 4160,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          21
+        ],
+        "target": [
+          2,
+          21
+        ],
+        "displacement": null,
+        "record_offset": 8548,
+        "raw": "c451261515"
+      }
+    },
+    {
+      "symbol": "_menu_x",
+      "fixup": {
+        "segment": 1,
+        "offset": 4167,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          20
+        ],
+        "target": [
+          2,
+          20
+        ],
+        "displacement": null,
+        "record_offset": 8548,
+        "raw": "c458261414"
+      }
+    },
+    {
+      "symbol": "_menu_y",
+      "fixup": {
+        "segment": 1,
+        "offset": 4188,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          21
+        ],
+        "target": [
+          2,
+          21
+        ],
+        "displacement": null,
+        "record_offset": 8548,
+        "raw": "c46d261515"
+      }
+    },
+    {
+      "symbol": "_menu_x",
+      "fixup": {
+        "segment": 1,
+        "offset": 4195,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          20
+        ],
+        "target": [
+          2,
+          20
+        ],
+        "displacement": null,
+        "record_offset": 8548,
+        "raw": "c474261414"
+      }
+    },
+    {
+      "symbol": "_menu_y",
+      "fixup": {
+        "segment": 1,
+        "offset": 4234,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          21
+        ],
+        "target": [
+          2,
+          21
+        ],
+        "displacement": null,
+        "record_offset": 8548,
+        "raw": "c49b261515"
+      }
+    },
+    {
+      "symbol": "_menu_x",
+      "fixup": {
+        "segment": 1,
+        "offset": 4241,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          20
+        ],
+        "target": [
+          2,
+          20
+        ],
+        "displacement": null,
+        "record_offset": 8548,
+        "raw": "c4a2261414"
+      }
+    },
+    {
+      "symbol": "_menu_y",
+      "fixup": {
+        "segment": 1,
+        "offset": 4262,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          21
+        ],
+        "target": [
+          2,
+          21
+        ],
+        "displacement": null,
+        "record_offset": 8548,
+        "raw": "c4b7261515"
+      }
+    },
+    {
+      "symbol": "_menu_x",
+      "fixup": {
+        "segment": 1,
+        "offset": 4269,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          20
+        ],
+        "target": [
+          2,
+          20
+        ],
+        "displacement": null,
+        "record_offset": 8548,
+        "raw": "c4be261414"
+      }
+    },
+    {
+      "symbol": "_menu_columns",
+      "fixup": {
+        "segment": 1,
+        "offset": 4288,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          22
+        ],
+        "target": [
+          2,
+          22
+        ],
+        "displacement": null,
+        "record_offset": 8548,
+        "raw": "c4d1261616"
+      }
+    },
+    {
+      "symbol": "_menu_y",
+      "fixup": {
+        "segment": 1,
+        "offset": 4301,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          21
+        ],
+        "target": [
+          2,
+          21
+        ],
+        "displacement": null,
+        "record_offset": 8548,
+        "raw": "c4de261515"
+      }
+    },
+    {
+      "symbol": "_menu_x",
+      "fixup": {
+        "segment": 1,
+        "offset": 4315,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          20
+        ],
+        "target": [
+          2,
+          20
+        ],
+        "displacement": null,
+        "record_offset": 8548,
+        "raw": "c4ec261414"
+      }
+    },
+    {
+      "symbol": "_frames",
+      "fixup": {
+        "segment": 1,
+        "offset": 4334,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          8
+        ],
+        "target": [
+          2,
+          8
+        ],
+        "displacement": 56,
+        "record_offset": 8548,
+        "raw": "c4ff2208083800"
+      }
+    },
+    {
+      "symbol": "_menu_y",
+      "fixup": {
+        "segment": 1,
+        "offset": 4341,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          21
+        ],
+        "target": [
+          2,
+          21
+        ],
+        "displacement": null,
+        "record_offset": 8548,
+        "raw": "c506261515"
+      }
+    },
+    {
+      "symbol": "_menu_columns",
+      "fixup": {
+        "segment": 1,
+        "offset": 4348,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          22
+        ],
+        "target": [
+          2,
+          22
+        ],
+        "displacement": null,
+        "record_offset": 8548,
+        "raw": "c50d261616"
+      }
+    },
+    {
+      "symbol": "_menu_x",
+      "fixup": {
+        "segment": 1,
+        "offset": 4356,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          20
+        ],
+        "target": [
+          2,
+          20
+        ],
+        "displacement": null,
+        "record_offset": 8548,
+        "raw": "c515261414"
+      }
+    },
+    {
+      "symbol": "_menu_columns",
+      "fixup": {
+        "segment": 1,
+        "offset": 4379,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          22
+        ],
+        "target": [
+          2,
+          22
+        ],
+        "displacement": null,
+        "record_offset": 8548,
+        "raw": "c52c261616"
+      }
+    },
+    {
+      "symbol": "_menu_y",
+      "fixup": {
+        "segment": 1,
+        "offset": 4454,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          21
+        ],
+        "target": [
+          2,
+          21
+        ],
+        "displacement": null,
+        "record_offset": 8548,
+        "raw": "c577261515"
+      }
+    },
+    {
+      "symbol": "_menu_y",
+      "fixup": {
+        "segment": 1,
+        "offset": 4467,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          21
+        ],
+        "target": [
+          2,
+          21
+        ],
+        "displacement": null,
+        "record_offset": 8548,
+        "raw": "c584261515"
+      }
+    },
+    {
+      "symbol": "_menu_y",
+      "fixup": {
+        "segment": 1,
+        "offset": 4479,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          21
+        ],
+        "target": [
+          2,
+          21
+        ],
+        "displacement": null,
+        "record_offset": 8548,
+        "raw": "c590261515"
+      }
+    },
+    {
+      "symbol": "_menu_x",
+      "fixup": {
+        "segment": 1,
+        "offset": 4486,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          20
+        ],
+        "target": [
+          2,
+          20
+        ],
+        "displacement": null,
+        "record_offset": 8548,
+        "raw": "c597261414"
+      }
+    },
+    {
+      "symbol": "_menu_columns",
+      "fixup": {
+        "segment": 1,
+        "offset": 4505,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          22
+        ],
+        "target": [
+          2,
+          22
+        ],
+        "displacement": null,
+        "record_offset": 8548,
+        "raw": "c5aa261616"
+      }
+    },
+    {
+      "symbol": "_menu_y",
+      "fixup": {
+        "segment": 1,
+        "offset": 4518,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          21
+        ],
+        "target": [
+          2,
+          21
+        ],
+        "displacement": null,
+        "record_offset": 8548,
+        "raw": "c5b7261515"
+      }
+    },
+    {
+      "symbol": "_menu_x",
+      "fixup": {
+        "segment": 1,
+        "offset": 4532,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          20
+        ],
+        "target": [
+          2,
+          20
+        ],
+        "displacement": null,
+        "record_offset": 8548,
+        "raw": "c5c5261414"
+      }
+    },
+    {
+      "symbol": "_frames",
+      "fixup": {
+        "segment": 1,
+        "offset": 4551,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          8
+        ],
+        "target": [
+          2,
+          8
+        ],
+        "displacement": 56,
+        "record_offset": 8548,
+        "raw": "c5d82208083800"
+      }
+    },
+    {
+      "symbol": "_menu_y",
+      "fixup": {
+        "segment": 1,
+        "offset": 4558,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          21
+        ],
+        "target": [
+          2,
+          21
+        ],
+        "displacement": null,
+        "record_offset": 8548,
+        "raw": "c5df261515"
+      }
+    },
+    {
+      "symbol": "_menu_columns",
+      "fixup": {
+        "segment": 1,
+        "offset": 4565,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          22
+        ],
+        "target": [
+          2,
+          22
+        ],
+        "displacement": null,
+        "record_offset": 8548,
+        "raw": "c5e6261616"
+      }
+    },
+    {
+      "symbol": "_menu_x",
+      "fixup": {
+        "segment": 1,
+        "offset": 4573,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          20
+        ],
+        "target": [
+          2,
+          20
+        ],
+        "displacement": null,
+        "record_offset": 8548,
+        "raw": "c5ee261414"
+      }
+    },
+    {
+      "symbol": "_menu_y",
+      "fixup": {
+        "segment": 1,
+        "offset": 4594,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          21
+        ],
+        "target": [
+          2,
+          21
+        ],
+        "displacement": null,
+        "record_offset": 8548,
+        "raw": "c603261515"
+      }
+    },
+    {
+      "symbol": "_menu_x",
+      "fixup": {
+        "segment": 1,
+        "offset": 4601,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          20
+        ],
+        "target": [
+          2,
+          20
+        ],
+        "displacement": null,
+        "record_offset": 8548,
+        "raw": "c60a261414"
+      }
+    },
+    {
+      "symbol": "_menu_y",
+      "fixup": {
+        "segment": 1,
+        "offset": 4626,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          21
+        ],
+        "target": [
+          2,
+          21
+        ],
+        "displacement": null,
+        "record_offset": 8548,
+        "raw": "c623261515"
+      }
+    },
+    {
+      "symbol": "_menu_x",
+      "fixup": {
+        "segment": 1,
+        "offset": 4630,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          20
+        ],
+        "target": [
+          2,
+          20
+        ],
+        "displacement": null,
+        "record_offset": 8548,
+        "raw": "c627261414"
+      }
+    },
+    {
+      "symbol": "_menu_columns",
+      "fixup": {
+        "segment": 1,
+        "offset": 4649,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          22
+        ],
+        "target": [
+          2,
+          22
+        ],
+        "displacement": null,
+        "record_offset": 8548,
+        "raw": "c63a261616"
+      }
+    },
+    {
+      "symbol": "_menu_columns",
+      "fixup": {
+        "segment": 1,
+        "offset": 4692,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          22
+        ],
+        "target": [
+          2,
+          22
+        ],
+        "displacement": null,
+        "record_offset": 8548,
+        "raw": "c665261616"
+      }
+    },
+    {
+      "symbol": "_frames",
+      "fixup": {
+        "segment": 1,
+        "offset": 4788,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          8
+        ],
+        "target": [
+          2,
+          8
+        ],
+        "displacement": 128,
+        "record_offset": 8548,
+        "raw": "c6c52208088000"
+      }
+    },
+    {
+      "symbol": "_frames",
+      "fixup": {
+        "segment": 1,
+        "offset": 4794,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          8
+        ],
+        "target": [
+          2,
+          8
+        ],
+        "displacement": 56,
+        "record_offset": 8548,
+        "raw": "c6cb2208083800"
+      }
+    },
+    {
+      "symbol": "_frames",
+      "fixup": {
+        "segment": 1,
+        "offset": 4801,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          8
+        ],
+        "target": [
+          2,
+          8
+        ],
+        "displacement": 128,
+        "record_offset": 8548,
+        "raw": "c6d22208088000"
+      }
+    },
+    {
+      "symbol": "_menu_y",
+      "fixup": {
+        "segment": 1,
+        "offset": 4808,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          21
+        ],
+        "target": [
+          2,
+          21
+        ],
+        "displacement": null,
+        "record_offset": 8548,
+        "raw": "c6d9261515"
+      }
+    },
+    {
+      "symbol": "_menu_columns",
+      "fixup": {
+        "segment": 1,
+        "offset": 4815,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          22
+        ],
+        "target": [
+          2,
+          22
+        ],
+        "displacement": null,
+        "record_offset": 8548,
+        "raw": "c6e0261616"
+      }
+    },
+    {
+      "symbol": "_menu_x",
+      "fixup": {
+        "segment": 1,
+        "offset": 4823,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          20
+        ],
+        "target": [
+          2,
+          20
+        ],
+        "displacement": null,
+        "record_offset": 8548,
+        "raw": "c6e8261414"
+      }
+    },
+    {
+      "symbol": "_frames",
+      "fixup": {
+        "segment": 1,
+        "offset": 4840,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          8
+        ],
+        "target": [
+          2,
+          8
+        ],
+        "displacement": 56,
+        "record_offset": 8548,
+        "raw": "c6f92208083800"
+      }
+    },
+    {
+      "symbol": "_menu_y",
+      "fixup": {
+        "segment": 1,
+        "offset": 4847,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          21
+        ],
+        "target": [
+          2,
+          21
+        ],
+        "displacement": null,
+        "record_offset": 8548,
+        "raw": "c700261515"
+      }
+    },
+    {
+      "symbol": "_menu_columns",
+      "fixup": {
+        "segment": 1,
+        "offset": 4854,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          22
+        ],
+        "target": [
+          2,
+          22
+        ],
+        "displacement": null,
+        "record_offset": 8548,
+        "raw": "c707261616"
+      }
+    },
+    {
+      "symbol": "_menu_x",
+      "fixup": {
+        "segment": 1,
+        "offset": 4862,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          20
+        ],
+        "target": [
+          2,
+          20
+        ],
+        "displacement": null,
+        "record_offset": 8548,
+        "raw": "c70f261414"
+      }
+    },
+    {
+      "symbol": "_menus",
+      "fixup": {
+        "segment": 1,
+        "offset": 4929,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          2
+        ],
+        "target": [
+          2,
+          2
+        ],
+        "displacement": null,
+        "record_offset": 8548,
+        "raw": "c752260202"
+      }
+    },
+    {
+      "symbol": "_frame_resources",
+      "fixup": {
+        "segment": 1,
+        "offset": 4959,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          47
+        ],
+        "target": [
+          2,
+          47
+        ],
+        "displacement": 44,
+        "record_offset": 8548,
+        "raw": "c770222f2f2c00"
+      }
+    },
+    {
+      "symbol": "_frame_resources",
+      "fixup": {
+        "segment": 1,
+        "offset": 4963,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          47
+        ],
+        "target": [
+          2,
+          47
+        ],
+        "displacement": 46,
+        "record_offset": 8548,
+        "raw": "c774222f2f2e00"
+      }
+    },
+    {
+      "symbol": "_frames",
+      "fixup": {
+        "segment": 1,
+        "offset": 4981,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          8
+        ],
+        "target": [
+          2,
+          8
+        ],
+        "displacement": 88,
+        "record_offset": 8548,
+        "raw": "c7862208085800"
+      }
+    },
+    {
+      "symbol": "_menu_positions",
+      "fixup": {
+        "segment": 1,
+        "offset": 5082,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          43
+        ],
+        "displacement": null,
+        "record_offset": 8548,
+        "raw": "c7eb16012b"
+      }
+    },
+    {
+      "symbol": "_frame_resources",
+      "fixup": {
+        "segment": 1,
+        "offset": 5113,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          47
+        ],
+        "target": [
+          2,
+          47
+        ],
+        "displacement": 52,
+        "record_offset": 10248,
+        "raw": "c40e222f2f3400"
+      }
+    },
+    {
+      "symbol": "_frame_resources",
+      "fixup": {
+        "segment": 1,
+        "offset": 5117,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          47
+        ],
+        "target": [
+          2,
+          47
+        ],
+        "displacement": 54,
+        "record_offset": 10248,
+        "raw": "c412222f2f3600"
+      }
+    },
+    {
+      "symbol": "_frames",
+      "fixup": {
+        "segment": 1,
+        "offset": 5129,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          8
+        ],
+        "target": [
+          2,
+          8
+        ],
+        "displacement": 104,
+        "record_offset": 10248,
+        "raw": "c41e2208086800"
+      }
+    },
+    {
+      "symbol": "_frame_resources",
+      "fixup": {
+        "segment": 1,
+        "offset": 5209,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          47
+        ],
+        "target": [
+          2,
+          47
+        ],
+        "displacement": 48,
+        "record_offset": 10248,
+        "raw": "c46e222f2f3000"
+      }
+    },
+    {
+      "symbol": "_frame_resources",
+      "fixup": {
+        "segment": 1,
+        "offset": 5213,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          47
+        ],
+        "target": [
+          2,
+          47
+        ],
+        "displacement": 50,
+        "record_offset": 10248,
+        "raw": "c472222f2f3200"
+      }
+    },
+    {
+      "symbol": "_frames",
+      "fixup": {
+        "segment": 1,
+        "offset": 5225,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          8
+        ],
+        "target": [
+          2,
+          8
+        ],
+        "displacement": 96,
+        "record_offset": 10248,
+        "raw": "c47e2208086000"
+      }
+    },
+    {
+      "symbol": "_menu_positions",
+      "fixup": {
+        "segment": 1,
+        "offset": 5285,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          43
+        ],
+        "displacement": null,
+        "record_offset": 10248,
+        "raw": "c4ba16012b"
+      }
+    },
+    {
+      "symbol": "_frame_resources",
+      "fixup": {
+        "segment": 1,
+        "offset": 5298,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          47
+        ],
+        "target": [
+          2,
+          47
+        ],
+        "displacement": 56,
+        "record_offset": 10248,
+        "raw": "c4c7222f2f3800"
+      }
+    },
+    {
+      "symbol": "_frame_resources",
+      "fixup": {
+        "segment": 1,
+        "offset": 5302,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          47
+        ],
+        "target": [
+          2,
+          47
+        ],
+        "displacement": 58,
+        "record_offset": 10248,
+        "raw": "c4cb222f2f3a00"
+      }
+    },
+    {
+      "symbol": "_frames",
+      "fixup": {
+        "segment": 1,
+        "offset": 5314,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          8
+        ],
+        "target": [
+          2,
+          8
+        ],
+        "displacement": 112,
+        "record_offset": 10248,
+        "raw": "c4d72208087000"
+      }
+    },
+    {
+      "symbol": "_menu_last",
+      "fixup": {
+        "segment": 1,
+        "offset": 5370,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          48
+        ],
+        "target": [
+          2,
+          48
+        ],
+        "displacement": null,
+        "record_offset": 10248,
+        "raw": "c50f263030"
+      }
+    },
+    {
+      "symbol": "_menus",
+      "fixup": {
+        "segment": 1,
+        "offset": 5430,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          2
+        ],
+        "target": [
+          2,
+          2
+        ],
+        "displacement": null,
+        "record_offset": 10248,
+        "raw": "c54b260202"
+      }
+    },
+    {
+      "symbol": "_menus",
+      "fixup": {
+        "segment": 1,
+        "offset": 5534,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          2
+        ],
+        "target": [
+          2,
+          2
+        ],
+        "displacement": null,
+        "record_offset": 10248,
+        "raw": "c5b3260202"
+      }
+    },
+    {
+      "symbol": "_menu_state",
+      "fixup": {
+        "segment": 1,
+        "offset": 5543,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          58
+        ],
+        "target": [
+          2,
+          58
+        ],
+        "displacement": null,
+        "record_offset": 10248,
+        "raw": "c5bc263a3a"
+      }
+    },
+    {
+      "symbol": "_menu_positions",
+      "fixup": {
+        "segment": 1,
+        "offset": 5608,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          43
+        ],
+        "displacement": null,
+        "record_offset": 10248,
+        "raw": "c5fd16012b"
+      }
+    },
+    {
+      "symbol": "_menu_positions",
+      "fixup": {
+        "segment": 1,
+        "offset": 5679,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          43
+        ],
+        "displacement": null,
+        "record_offset": 10248,
+        "raw": "c64416012b"
+      }
+    },
+    {
+      "symbol": "_menu_last",
+      "fixup": {
+        "segment": 1,
+        "offset": 5692,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          48
+        ],
+        "target": [
+          2,
+          48
+        ],
+        "displacement": null,
+        "record_offset": 10248,
+        "raw": "c651263030"
+      }
+    },
+    {
+      "symbol": "_menu_x",
+      "fixup": {
+        "segment": 1,
+        "offset": 5775,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          20
+        ],
+        "target": [
+          2,
+          20
+        ],
+        "displacement": null,
+        "record_offset": 10248,
+        "raw": "c6a4261414"
+      }
+    },
+    {
+      "symbol": "_menu_columns",
+      "fixup": {
+        "segment": 1,
+        "offset": 5788,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          22
+        ],
+        "target": [
+          2,
+          22
+        ],
+        "displacement": null,
+        "record_offset": 10248,
+        "raw": "c6b1261616"
+      }
+    },
+    {
+      "symbol": "_menu_x",
+      "fixup": {
+        "segment": 1,
+        "offset": 5796,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          20
+        ],
+        "target": [
+          2,
+          20
+        ],
+        "displacement": null,
+        "record_offset": 10248,
+        "raw": "c6b9261414"
+      }
+    },
+    {
+      "symbol": "_menu_y",
+      "fixup": {
+        "segment": 1,
+        "offset": 5820,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          21
+        ],
+        "target": [
+          2,
+          21
+        ],
+        "displacement": null,
+        "record_offset": 10248,
+        "raw": "c6d1261515"
+      }
+    },
+    {
+      "symbol": "_menu_columns",
+      "fixup": {
+        "segment": 1,
+        "offset": 5986,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          22
+        ],
+        "target": [
+          2,
+          22
+        ],
+        "displacement": null,
+        "record_offset": 10248,
+        "raw": "c777261616"
+      }
+    },
+    {
+      "symbol": "_menus",
+      "fixup": {
+        "segment": 1,
+        "offset": 6014,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          2
+        ],
+        "target": [
+          2,
+          2
+        ],
+        "displacement": null,
+        "record_offset": 10248,
+        "raw": "c793260202"
+      }
+    },
+    {
+      "symbol": "_menus",
+      "fixup": {
+        "segment": 1,
+        "offset": 6100,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          2
+        ],
+        "target": [
+          2,
+          2
+        ],
+        "displacement": null,
+        "record_offset": 10248,
+        "raw": "c7e9260202"
+      }
+    },
+    {
+      "symbol": "_menu_state",
+      "fixup": {
+        "segment": 1,
+        "offset": 6125,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          58
+        ],
+        "target": [
+          2,
+          58
+        ],
+        "displacement": null,
+        "record_offset": 11759,
+        "raw": "c406263a3a"
+      }
+    },
+    {
+      "symbol": "_menu_state",
+      "fixup": {
+        "segment": 1,
+        "offset": 6177,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          58
+        ],
+        "target": [
+          2,
+          58
+        ],
+        "displacement": null,
+        "record_offset": 11759,
+        "raw": "c43a263a3a"
+      }
+    },
+    {
+      "symbol": "_menu_x",
+      "fixup": {
+        "segment": 1,
+        "offset": 6205,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          20
+        ],
+        "target": [
+          2,
+          20
+        ],
+        "displacement": null,
+        "record_offset": 11759,
+        "raw": "c456261414"
+      }
+    },
+    {
+      "symbol": "_frame_resources",
+      "fixup": {
+        "segment": 1,
+        "offset": 6273,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          47
+        ],
+        "displacement": null,
+        "record_offset": 11759,
+        "raw": "c49a16012f"
+      }
+    },
+    {
+      "symbol": "_frame_resources",
+      "fixup": {
+        "segment": 1,
+        "offset": 6277,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          47
+        ],
+        "displacement": 2,
+        "record_offset": 11759,
+        "raw": "c49e12012f0200"
+      }
+    },
+    {
+      "symbol": "_frames",
+      "fixup": {
+        "segment": 1,
+        "offset": 6297,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          8
+        ],
+        "target": [
+          2,
+          8
+        ],
+        "displacement": null,
+        "record_offset": 11759,
+        "raw": "c4b2260808"
+      }
+    },
+    {
+      "symbol": "_frame_resources",
+      "fixup": {
+        "segment": 1,
+        "offset": 6341,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          47
+        ],
+        "displacement": 8,
+        "record_offset": 11759,
+        "raw": "c4de12012f0800"
+      }
+    },
+    {
+      "symbol": "_frame_resources",
+      "fixup": {
+        "segment": 1,
+        "offset": 6345,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          1,
+          1
+        ],
+        "target": [
+          2,
+          47
+        ],
+        "displacement": 10,
+        "record_offset": 11759,
+        "raw": "c4e212012f0a00"
+      }
+    },
+    {
+      "symbol": "_frames",
+      "fixup": {
+        "segment": 1,
+        "offset": 6364,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          8
+        ],
+        "target": [
+          2,
+          8
+        ],
+        "displacement": 16,
+        "record_offset": 11759,
+        "raw": "c4f52208081000"
+      }
+    },
+    {
+      "symbol": "_menu_blink",
+      "fixup": {
+        "segment": 1,
+        "offset": 6392,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          54
+        ],
+        "target": [
+          2,
+          54
+        ],
+        "displacement": null,
+        "record_offset": 11759,
+        "raw": "c511263636"
+      }
+    },
+    {
+      "symbol": "_menu_blink",
+      "fixup": {
+        "segment": 1,
+        "offset": 6396,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          54
+        ],
+        "target": [
+          2,
+          54
+        ],
+        "displacement": null,
+        "record_offset": 11759,
+        "raw": "c515263636"
+      }
+    },
+    {
+      "symbol": "_menu_blink",
+      "fixup": {
+        "segment": 1,
+        "offset": 6404,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          54
+        ],
+        "target": [
+          2,
+          54
+        ],
+        "displacement": null,
+        "record_offset": 11759,
+        "raw": "c51d263636"
+      }
+    },
+    {
+      "symbol": "_square_x",
+      "fixup": {
+        "segment": 1,
+        "offset": 6461,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          40
+        ],
+        "target": [
+          2,
+          40
+        ],
+        "displacement": null,
+        "record_offset": 11759,
+        "raw": "c556262828"
+      }
+    },
+    {
+      "symbol": "_square_y",
+      "fixup": {
+        "segment": 1,
+        "offset": 6504,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          41
+        ],
+        "target": [
+          2,
+          41
+        ],
+        "displacement": null,
+        "record_offset": 11759,
+        "raw": "c581262929"
+      }
+    },
+    {
+      "symbol": "_dirty_left",
+      "fixup": {
+        "segment": 1,
+        "offset": 6537,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          59
+        ],
+        "target": [
+          2,
+          59
+        ],
+        "displacement": null,
+        "record_offset": 11759,
+        "raw": "c5a2263b3b"
+      }
+    },
+    {
+      "symbol": "_dirty_right",
+      "fixup": {
+        "segment": 1,
+        "offset": 6555,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          5
+        ],
+        "target": [
+          2,
+          5
+        ],
+        "displacement": null,
+        "record_offset": 11759,
+        "raw": "c5b4260505"
+      }
+    },
+    {
+      "symbol": "_dirty_top",
+      "fixup": {
+        "segment": 1,
+        "offset": 6561,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          50
+        ],
+        "target": [
+          2,
+          50
+        ],
+        "displacement": null,
+        "record_offset": 11759,
+        "raw": "c5ba263232"
+      }
+    },
+    {
+      "symbol": "_dirty_bottom",
+      "fixup": {
+        "segment": 1,
+        "offset": 6567,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          24
+        ],
+        "target": [
+          2,
+          24
+        ],
+        "displacement": null,
+        "record_offset": 11759,
+        "raw": "c5c0261818"
+      }
+    },
+    {
+      "symbol": "_dirty_left",
+      "fixup": {
+        "segment": 1,
+        "offset": 6571,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          59
+        ],
+        "target": [
+          2,
+          59
+        ],
+        "displacement": null,
+        "record_offset": 11759,
+        "raw": "c5c4263b3b"
+      }
+    },
+    {
+      "symbol": "_dirty_left",
+      "fixup": {
+        "segment": 1,
+        "offset": 6578,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          59
+        ],
+        "target": [
+          2,
+          59
+        ],
+        "displacement": null,
+        "record_offset": 11759,
+        "raw": "c5cb263b3b"
+      }
+    },
+    {
+      "symbol": "_dirty_right",
+      "fixup": {
+        "segment": 1,
+        "offset": 6584,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          5
+        ],
+        "target": [
+          2,
+          5
+        ],
+        "displacement": null,
+        "record_offset": 11759,
+        "raw": "c5d1260505"
+      }
+    },
+    {
+      "symbol": "_dirty_right",
+      "fixup": {
+        "segment": 1,
+        "offset": 6591,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          5
+        ],
+        "target": [
+          2,
+          5
+        ],
+        "displacement": null,
+        "record_offset": 11759,
+        "raw": "c5d8260505"
+      }
+    },
+    {
+      "symbol": "_dirty_top",
+      "fixup": {
+        "segment": 1,
+        "offset": 6597,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          50
+        ],
+        "target": [
+          2,
+          50
+        ],
+        "displacement": null,
+        "record_offset": 11759,
+        "raw": "c5de263232"
+      }
+    },
+    {
+      "symbol": "_dirty_top",
+      "fixup": {
+        "segment": 1,
+        "offset": 6604,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          50
+        ],
+        "target": [
+          2,
+          50
+        ],
+        "displacement": null,
+        "record_offset": 11759,
+        "raw": "c5e5263232"
+      }
+    },
+    {
+      "symbol": "_dirty_bottom",
+      "fixup": {
+        "segment": 1,
+        "offset": 6610,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          24
+        ],
+        "target": [
+          2,
+          24
+        ],
+        "displacement": null,
+        "record_offset": 11759,
+        "raw": "c5eb261818"
+      }
+    },
+    {
+      "symbol": "_dirty_bottom",
+      "fixup": {
+        "segment": 1,
+        "offset": 6618,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          24
+        ],
+        "target": [
+          2,
+          24
+        ],
+        "displacement": null,
+        "record_offset": 11759,
+        "raw": "c5f3261818"
+      }
+    },
+    {
+      "symbol": "_region_left",
+      "fixup": {
+        "segment": 1,
+        "offset": 6651,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          3
+        ],
+        "target": [
+          2,
+          3
+        ],
+        "displacement": null,
+        "record_offset": 11759,
+        "raw": "c614260303"
+      }
+    },
+    {
+      "symbol": "_region_left",
+      "fixup": {
+        "segment": 1,
+        "offset": 6654,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          3
+        ],
+        "target": [
+          2,
+          3
+        ],
+        "displacement": null,
+        "record_offset": 11759,
+        "raw": "c617260303"
+      }
+    },
+    {
+      "symbol": "_region_width",
+      "fixup": {
+        "segment": 1,
+        "offset": 7113,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          17
+        ],
+        "target": [
+          2,
+          17
+        ],
+        "displacement": null,
+        "record_offset": 11759,
+        "raw": "c7e2261111"
+      }
+    },
+    {
+      "symbol": "_region_width",
+      "fixup": {
+        "segment": 1,
+        "offset": 7140,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          17
+        ],
+        "target": [
+          2,
+          17
+        ],
+        "displacement": null,
+        "record_offset": 12361,
+        "raw": "c401261111"
+      }
+    },
+    {
+      "symbol": "_region_width",
+      "fixup": {
+        "segment": 1,
+        "offset": 7192,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          17
+        ],
+        "target": [
+          2,
+          17
+        ],
+        "displacement": null,
+        "record_offset": 12361,
+        "raw": "c435261111"
+      }
+    },
+    {
+      "symbol": "_region_width",
+      "fixup": {
+        "segment": 1,
+        "offset": 7227,
+        "width": 2,
+        "location_type": 1,
+        "segment_relative": true,
+        "frame": [
+          2,
+          17
+        ],
+        "target": [
+          2,
+          17
+        ],
+        "displacement": null,
+        "record_offset": 12361,
+        "raw": "c458261111"
+      }
+    }
+  ]
+}
