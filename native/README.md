@@ -210,3 +210,11 @@ still need their full executor. Promotion remains legal chess but its animation
 caller normalization is not yet established, so it uses immediate presentation.
 Tests cover known paths/capture branch structure and 2,910 generated legal plans;
 these do not establish full command-scheduler or original binary equivalence.
+
+Original perspective/rectangular geometry is now available through `geometry.h`.
+The data is bound to a retained REA read and independently compared with the
+original expanded image; no original executable is needed at game runtime.
+Tests compare every 320×200 pixel plus borders with the recovered pointer routine,
+and all standing-frame choices with recovered `queue_piece`. This module is
+ready for the original-board renderer but has not replaced the host square-board
+UI yet. The source names `flat`/`tilted` mean perspective/rectangular respectively.

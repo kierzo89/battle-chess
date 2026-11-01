@@ -263,3 +263,26 @@ with Python -O. Sanitized planner/motion checks and real-desktop smoke pass.
 These are source/host tests, not full original command-scheduler equivalence.
 Next: native turn/face/avoidance/capture execution, original coordinate tables and
 background, actual animation frames and audio dispatch. Full goal stays active.
+
+## Progress: original board geometry and standing frames
+
+Previous turn was progress: BB0E quiet-path planner integration. REA read648
+initialized bytes at loaded address6CE06, original DGROUP486..1133; evidence
+`ev_33511f3aaf0bee60f4b17fd11fa98dd9601b6430e2d4dd2fa8dd96c78046a66f`.
+Compared the entire range to independently EXEPACK-expanded original bytes and
+confirmed no overlapping relocations. Both original/carrier hashes retained.
+The REA session was closed. An initial mistyped address returned zeros and was
+rejected; only the independently corroborated range is admitted.
+
+Exported eight coordinate tables to the native geometry module: perspective /
+rectangular board anchors and pointer thresholds. Recovered naming is counter-
+intuitive: `flat` is the perspective character board, `tilted` is rectangular.
+130088 pixel hit results match the unchanged recovered board-pointer C compiled
+with observation-only UI hooks. All128 anchors match tables and map back to their
+square. Standing sprite selection follows queue_piece_7AA7, graphics kind map
+and original frame table; 768 choices match the unchanged recovered C.
+
+All18 CTests pass. These geometry/selection APIs are not yet used by game_ui;
+next replace its host square presentation with original background00/01, setup00
+character sprites and anchors, retaining clickable selection and motion. Then
+connect actor turn/capture streams and sound. Full goal remains active.

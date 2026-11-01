@@ -134,3 +134,15 @@ add_executable(test_stage tests/test_stage.c)
 target_link_libraries(test_stage PRIVATE bc_presentation)
 target_compile_options(test_stage PRIVATE -Wall -Wextra -Wpedantic -Werror -UNDEBUG)
 add_test(NAME recovered_move_commands COMMAND test_stage)
+set(GEOMETRY_SOURCE "${CMAKE_CURRENT_BINARY_DIR}/generated/geometry.c")
+add_custom_command(OUTPUT "${GEOMETRY_SOURCE}"
+ COMMAND ${Python3_EXECUTABLE} "${CMAKE_CURRENT_SOURCE_DIR}/tools/prepare_geometry.py"
+ --root "${CMAKE_CURRENT_SOURCE_DIR}/.." --output "${GEOMETRY_SOURCE}"
+ DEPENDS tools/prepare_geometry.py evidence/rea-board-coordinates.json
+ ../verification/source-snapshot.json ../matching/src/data/frame_index_flat_0166.c
+ ../matching/src/data/game_kind_map.c ../matching/src/queue_piece_match.c VERBATIM)
+target_sources(bc_presentation PRIVATE "${GEOMETRY_SOURCE}")
+add_library(geometry_oracle SHARED "${GEOMETRY_SOURCE}")
+target_include_directories(geometry_oracle PRIVATE src)
+add_test(NAME recovered_board_geometry COMMAND ${Python3_EXECUTABLE}
+ "${CMAKE_CURRENT_SOURCE_DIR}/tests/test_geometry.py" $<TARGET_FILE:geometry_oracle> ${CMAKE_C_COMPILER})
