@@ -106,3 +106,11 @@ target_link_libraries(test_fullgame PRIVATE bc_search)
 target_compile_options(test_fullgame PRIVATE -Wall -Wextra -Wpedantic -Werror -UNDEBUG)
 add_test(NAME native_full_games COMMAND test_fullgame)
 set_tests_properties(native_full_games PROPERTIES TIMEOUT 60)
+add_library(bc_presentation src/presentation.c)
+target_include_directories(bc_presentation PUBLIC src)
+target_compile_options(bc_presentation PRIVATE -Wall -Wextra -Wpedantic -Werror)
+# Shared copy lets the fixture test call the same C implementation directly.
+add_library(presentation_oracle SHARED src/presentation.c)
+target_include_directories(presentation_oracle PRIVATE src)
+add_test(NAME recovered_presentation_timing COMMAND ${Python3_EXECUTABLE}
+ "${CMAKE_CURRENT_SOURCE_DIR}/tests/test_presentation.py" $<TARGET_FILE:presentation_oracle> ${CMAKE_C_COMPILER})

@@ -189,3 +189,29 @@ Remaining primary obligations: recovered original board projection, movement /
 capture animation task execution, sound, opening-book and special-mode fidelity,
 original full-search comparisons and further end-to-end visual/gameplay review.
 The goal stays active and shortcut remains labelled Development.
+
+## Progress: original presentation timing foundation
+
+Previous turn was progress: native save/load plus complete self-play validation.
+Inspected recovered motion/task/audio sources and retained native-byte timing
+metadata. Added bounded native task_ready_772d adaptation: countdown calls,
+embedded sound dispatch IDs/colour/pitch, and stationary FF ready tails. Tilted
+mode bypasses control reads while retaining pending countdown semantics. Added
+original signed position interpolation (bounded nonoverflow screen domain), and
+two-BIOS-tick fallback with input priority/no late-poll catch-up.
+
+144 authenticated original capture-control streams match 4448 readiness events
+and 488 sound dispatches. 20000 interpolation comparisons match the unchanged,
+SHA-pinned recovered C function body compiled as a host reference. Retained
+original event-clock fixtures cover two-tick threshold, late poll and queued
+input priority. Bounds and malformed control tests pass. This is a library
+foundation: it is not yet connected to board actors and does NOT claim capture
+animation or physical sound playback is implemented.
+
+Audio evidence specifically preserves amplitudes/toggle runs without asserting
+absolute sample rates; do not invent a WAV rate and call it original fidelity.
+Useful next sources: matching/src/animation_stage_match.c (move/capture command
+construction), motion_effect_tasks_match.c and task_tail_handlers_match.c;
+assets/recovered/metadata/timing/timelines.json (4304 capture frame events),
+metadata/tasks/* and decoded animations. Next connect actor/sequence execution
+and original projection, then adapt calibrated sound timing. Goal stays active.

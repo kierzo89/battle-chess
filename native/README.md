@@ -173,3 +173,14 @@ files, correctly checksummed illegal moves, and UI save/new/load events using
 an isolated temporary file. Three bounded depth-two engine self-play fixtures
 reach checkmate; these are gameplay regression evidence, not whole-engine DOS
 binary equivalence or exhaustive chess validation.
+
+## Presentation timing foundation
+
+`presentation.c` ports the recovered task countdown/sound-command interpreter
+and signed movement interpolation. It preserves FF tails (ready on every later
+eligible call) and does not treat timer bytes as fixed-FPS durations. The native
+library is checked against 144 authenticated retained capture-control streams,
+including 4,448 readiness events and 488 sound dispatches, plus 20,000 comparisons
+with the recovered interpolation C. A two-tick gate models the original event
+fallback without late-frame catch-up. This foundation is not yet wired into the
+interactive board; battle animation and physical sound playback remain pending.
