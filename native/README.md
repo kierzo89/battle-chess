@@ -138,3 +138,13 @@ host adaptations and unresolved original-engine fidelity checks.
 
 The engine is not yet connected to the viewer. Original timed difficulty and
 input hooks are still pending; the app is not yet a playable native game.
+
+## Timed difficulty
+
+`bc_difficulty_config` maps the recovered menu levels to time budgets: Level 1
+is 5 seconds, doubling to Level 9's 1,280 seconds; custom time is minutes.
+Novice searches two plies. These are seconds from the original `time(0)` clock,
+not BIOS ticks. The internal special search mode 5 is not labelled novice.
+Native monotonic deadlines and caller cancellation prevent blocking indefinitely;
+`difficulty-provenance.json` documents the differences from DOS timing. The UI
+still needs its difficulty menu and engine integration.

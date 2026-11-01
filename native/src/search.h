@@ -3,11 +3,14 @@
 #include "history.h"
 typedef bool (*BCCancelSearch)(void *userdata);
 typedef struct {
- unsigned max_depth; /* 1..20; original search has 24-ply storage */
- unsigned original_level; /* recovered search mode; 5 is special novice branch */
+ unsigned max_depth; /* 1..23; original search has 24-ply storage */
+ unsigned original_level; /* internal recovered search control, not menu difficulty */
  unsigned temporary;
  uint32_t seed;
  uint64_t node_limit;
+ uint64_t time_budget_ms; /* zero disables deadline */
+ uint64_t (*clock_ms)(void *userdata); /* optional monotonic test clock */
+ void *clock_userdata;
  BCCancelSearch cancel;
  void *userdata;
 } BCSearchConfig;
@@ -16,7 +19,8 @@ typedef struct {
  int16_t score;
  unsigned depth;
  uint64_t nodes;
- bool has_move,interrupted;
+ bool has_move,interrupted,timed_out;
+ uint64_t elapsed_ms;
 } BCSearchResult;
 /* history is chronological played moves before root; never mutated. */
 bool bc_search(const BCPosition *root,const BCMove *history,size_t count,

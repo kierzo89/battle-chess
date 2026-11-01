@@ -1,0 +1,55 @@
+{
+  "status": "RECOVERED_MENU_MAPPING_WITH_NATIVE_MONOTONIC_DEADLINE",
+  "sources": [
+    {
+      "path": "matching/src/hint_limit_turn_context_match.c",
+      "sha256": "aa64bf137e62e4764daa5d40e0204adf25a12255a212dd89b702655c1564cd2b"
+    },
+    {
+      "path": "matching/src/clock_history_context_match.c",
+      "sha256": "40c2754faae10d53329076e50ea6a71496055464dcc997f3b62051f98efd898f"
+    },
+    {
+      "path": "matching/src/shared_turn_book_context_match.c",
+      "sha256": "3c597b2d06218e9a8f53952af87c9f986f3c8837ef547b45e7c837c31cb5f3c5"
+    }
+  ],
+  "observed_source": {
+    "unit": "clock_history_context refresh calls time(0), so requested limits are seconds, not BIOS ticks.",
+    "novice": "menu level 0: requested limit 6 seconds, run_search(2)",
+    "levels_1_to_9_seconds": [
+      5,
+      10,
+      20,
+      40,
+      80,
+      160,
+      320,
+      640,
+      1280
+    ],
+    "custom": "menu level 10: entered minutes multiplied by 60; zero cancels in original UI",
+    "begin_turn": "minimum limit 3 seconds",
+    "normal_search": "maximum 23 iterations; original may stop earlier, use book or special search conditions"
+  },
+  "correction": "Internal _search_level==5 is not identified as Novice. Native difficulty uses ordinary internal mode 0; semantic identity of special control remains unresolved.",
+  "host_adaptations": [
+    "Monotonic millisecond deadline checked at each candidate; no wall-clock jumps or epoch-second quantization.",
+    "Deadline and explicit cancel are hard host stop conditions, not the original input-loop/first-iteration timing policy.",
+    "Original final UI wait is not retained inside native engine.",
+    "PV lookahead at last of 24 slots is bounded; no read of adjacent host storage.",
+    "Current config excludes opening book; original book bypass remains unported."
+  ],
+  "tests": [
+    "Every menu mapping and custom bounds",
+    "Injected clock reaches budget deterministically",
+    "Real 25 ms deadline returns a legal move promptly",
+    "ASan/UBSan timed-search test passes"
+  ],
+  "remaining": [
+    "Original whole-game timing/difficulty comparison",
+    "Opening book integration",
+    "Special internal search-control identification",
+    "Native game UI difficulty menu"
+  ]
+}

@@ -129,3 +129,20 @@ Next: verify/adapt timed difficulty and original search mode handling, then
 connect an SDL board/game interface and asynchronous search. Finish animations,
 audio/save-load and full-game/original behaviour validation before completion.
 Desktop shortcut continues to launch the development viewer for now.
+
+## Progress: timed difficulty
+
+Previous goal turn: progress (recovered phased search executing natively).
+Source inspection establishes limits are seconds through time(0), NOT BIOS
+ticks: levels 1..9 request 5..1280 seconds, novice requests 6 seconds but searches
+two plies, custom time uses minutes*60. Internal search_level==5 must NOT be
+labelled novice; that control's identity remains unresolved. Ordinary native
+menu settings use internal mode 0, with recovered normal depth limit 23.
+Added injected/default monotonic clocks, hard deadlines, timeout/elapsed result
+fields, input rejection and last-PV-slot bounds. Fake and real-clock deadline
+checks return legal results; timed ASan/UBSan tests pass. All 11 CTests pass.
+
+Remaining: original timing and whole-search fidelity, opening book, special mode
+identification, and all UI/gameplay integration. Next concrete work: connect SDL
+board input and asynchronous search, with difficulty menu and clean cancellation
+on undo/new game/quit. Desktop is still the development viewer, not finished.

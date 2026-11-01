@@ -72,7 +72,7 @@ add_custom_command(OUTPUT "${SEARCH_SOURCE}"
  COMMAND ${Python3_EXECUTABLE} "${CMAKE_CURRENT_SOURCE_DIR}/tools/port_search.py"
  --root "${CMAKE_CURRENT_SOURCE_DIR}/.." --output "${SEARCH_SOURCE}"
  DEPENDS tools/port_search.py src/search_adapter.inc ../matching/src/search_engine_a4d4_b9ba_match.c VERBATIM)
-add_library(bc_search "${SEARCH_SOURCE}")
+add_library(bc_search "${SEARCH_SOURCE}" src/difficulty.c)
 target_include_directories(bc_search PUBLIC src)
 target_link_libraries(bc_search PUBLIC bc_core bc_evaluation)
 target_compile_options(bc_search PRIVATE -fno-strict-aliasing)
@@ -81,3 +81,7 @@ target_link_libraries(test_search PRIVATE bc_search)
 target_compile_options(test_search PRIVATE -UNDEBUG)
 add_test(NAME recovered_search_smoke COMMAND test_search)
 set_tests_properties(recovered_search_smoke PROPERTIES TIMEOUT 30)
+add_executable(test_difficulty tests/test_difficulty.c)
+target_link_libraries(test_difficulty PRIVATE bc_search)
+target_compile_options(test_difficulty PRIVATE -UNDEBUG)
+add_test(NAME difficulty_clock COMMAND test_difficulty)

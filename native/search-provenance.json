@@ -7,11 +7,11 @@
     },
     {
       "path": "native/tools/port_search.py",
-      "sha256": "ae56b868c5f58912893889ea6f8478af7bd45ce28793bf608e6d31db8ed58e8d"
+      "sha256": "fd1bc94eabf285fb2334428cbed04bb672537ed02e644221d6ba4aeb2b24cf26"
     },
     {
       "path": "native/src/search_adapter.inc",
-      "sha256": "628dc6f68a6b9acaf330d3aec4fb2d1f35205a8a2465519d0de28264eed0132c"
+      "sha256": "402791567700e7a27e3de43866e9666df72012a2b74ee325b590e26d328f78bd"
     }
   ],
   "retained": [
@@ -26,8 +26,9 @@
     "Complete host position snapshots implement apply/undo and castling/ep state",
     "Native legal generator validates cached/castling/en-passant candidate records",
     "Bounded frame storage, node limits and caller cancellation; original final UI wait removed from engine",
-    "Original graphics and input hooks are no-ops until UI integration; original finished/tick deadline behaviour not connected",
-    "Seeded Microsoft-style LCG supplies rand; historical runtime seed/timing parity still unverified"
+    "Original graphics/input hooks remain unbound; monotonic host deadlines now supplied through difficulty config",
+    "Seeded Microsoft-style LCG supplies rand; historical runtime seed/timing parity still unverified",
+    "24-entry PV lookahead is bounded; native 23-iteration maximum matches recovered normal setup limit."
   ],
   "tests": {
     "depth2": {
@@ -50,7 +51,7 @@
   },
   "remaining": [
     "Original whole-search machine-code parity across fixtures",
-    "Timed difficulty mapping and original mode-5 validation",
+    "Original timing comparison, opening book and internal mode-5 identification",
     "UI polling/event integration and worker lifetime",
     "Full-game end-to-end tests; desktop still asset viewer"
   ]
