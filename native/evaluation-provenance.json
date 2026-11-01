@@ -1,0 +1,47 @@
+{
+  "status": "PASS_BOUNDED_ORIGINAL_ROOT_EVALUATOR_COMPARISON",
+  "inputs": [
+    {
+      "path": "matching/src/full_evaluation_match.c",
+      "sha256": "822473d561790d51382f54f6ccc0e2b91f8279f7014d4ee33b0e600cb9b8b49a"
+    },
+    {
+      "path": "native/tools/port_evaluation.py",
+      "sha256": "0b9de53a0fd151179df8b3f93428ba17c9155d86d8b80d13f5b3fc95365540b7"
+    },
+    {
+      "path": "native/tests/compare_original_evaluation.py",
+      "sha256": "871c01217b3286d35d9b6e8a759aabff12173c5d002c1a2fbe4dad80d34e8bbf"
+    },
+    {
+      "path": "native/build/generated/evaluation.c",
+      "sha256": "b107c36f93809f5b3ce96b64af036ed0ce078a0fc2e65eca928655dbcbe451ab"
+    },
+    {
+      "path": "native/build/libevaluation_oracle.so",
+      "sha256": "3d32ea810362168bc20afabe5c0db60caff089c8d8a316e1650a23f7925aaf80"
+    }
+  ],
+  "original_code_report": "evidence/evaluation-original-comparison.json",
+  "rea_byte_binding": "evidence/rea-evaluator-bytes.json",
+  "transformations": [
+    "Original evaluator generated from hash-pinned source without editing matching files.",
+    "DOS int/unsigned/long changed to int16_t/uint16_t/int32_t; far qualifiers removed.",
+    "Original data tables preserved, with 16-bit element widths and original byte-offset indexing.",
+    "Globals namespaced and thread-local.",
+    "Host position populates original board, pieces, side and castling-rights contract."
+  ],
+  "validation": [
+    "96 original-code cases: 24 game positions, both sides and temporary context values.",
+    "All six scalar outputs, 1440 piece-square words and four pawn-mask words equal.",
+    "Original castle_flags routine replaced only by explicit caller-supplied castling rights in oracle; evaluator and math helpers run original bytes.",
+    "100-position perspective/repeatability tests; ASan/UBSan pass.",
+    "Modified source rejected by generator before creating output."
+  ],
+  "limits": [
+    "Not proof of all possible positions or pathological signed arithmetic extremes.",
+    "Original search, difficulty and incremental evaluate_candidate not integrated or validated yet.",
+    "The source contains unreachable historical loops; retained without speculative correction.",
+    "Test-only Unicorn/original EXE required for optional native oracle, not for game build or execution."
+  ]
+}

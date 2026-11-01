@@ -39,3 +39,19 @@ set_target_properties(test_original_attacks PROPERTIES C_STANDARD 99)
 target_compile_options(test_original_attacks PRIVATE -UNDEBUG)
 target_link_libraries(test_original_attacks PRIVATE bc_core)
 add_test(NAME recovered_attack_equivalence COMMAND test_original_attacks)
+file(GLOB EVALUATION_DATA CONFIGURE_DEPENDS "${CMAKE_CURRENT_SOURCE_DIR}/../matching/src/data/evaluation_*.c")
+set(EVALUATION_SOURCE "${CMAKE_CURRENT_BINARY_DIR}/generated/evaluation.c")
+add_custom_command(OUTPUT "${EVALUATION_SOURCE}"
+ COMMAND ${Python3_EXECUTABLE} "${CMAKE_CURRENT_SOURCE_DIR}/tools/port_evaluation.py"
+ --root "${CMAKE_CURRENT_SOURCE_DIR}/.." --output "${EVALUATION_SOURCE}"
+ DEPENDS tools/port_evaluation.py ../matching/src/full_evaluation_match.c
+ ../matching/src/data/move_lookup_tables.c ${EVALUATION_DATA} VERBATIM)
+add_library(bc_evaluation "${EVALUATION_SOURCE}")
+target_include_directories(bc_evaluation PUBLIC src)
+# Retain original unused compiler-shaping locals and assignment conditions.
+target_compile_options(bc_evaluation PRIVATE -fno-strict-aliasing)
+add_executable(test_evaluation tests/test_evaluation.c)
+target_link_libraries(test_evaluation PRIVATE bc_evaluation bc_core)
+target_compile_options(test_evaluation PRIVATE -UNDEBUG)
+add_test(NAME recovered_evaluation COMMAND test_evaluation)
+add_test(NAME evaluation_source_gate COMMAND ${Python3_EXECUTABLE} "${CMAKE_CURRENT_SOURCE_DIR}/tests/test_evaluation_generator.py")

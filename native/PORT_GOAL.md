@@ -53,3 +53,25 @@ search/evaluation, difficulty, full board rendering, tasks, sound and save/load
 remain incomplete. Next: original evaluation/search dependency inventory and
 native turn/history integration. See rules-provenance.json for explicit host
 adaptations, including larger move-list capacity and search-order limitations.
+
+## Progress: recovered evaluator milestone
+
+Previous goal turn: progress (rules and source-equivalence tests committed).
+This turn ports the complete root evaluator by deterministic transformation of
+hash-pinned matching source and tables, with DOS-width fields and thread-local
+state. Native root evaluation passes 96 original machine-code comparisons:
+24 played positions × both perspectives × both original temporary contexts.
+All six scalars, 1,440 table words and pawn-mask words agree. REA evidence
+`ev_17f76f688c9238dc9a3206becef280d5ed4704690d55fd03535b18f02e14eed3`
+binds the evaluator bytes to the original image. Castle-rights history is an
+explicit oracle contract, not emulated game history. Emulator is test-only.
+Five CTest targets, ASan/UBSan evaluator checks and a source-mutation rejection
+check passed. Full search/incremental evaluation and draw history remain next.
+
+Search dependency findings: retain the original phase sequence (PV, recapture,
+killers, captures, home-pawn quiets, castles, quiets, en passant), original
+incremental pawn masks and frozen root tables, 24-ply PV storage, pruning and
+aspiration windows. Pointer-containing frame copy size 222 and PV copies 192
+must become host object-size copies; history/history_tail/history_storage
+aliases must be represented explicitly. UI poll/time hooks must become bounded
+native callbacks. Do not replace this with a generic alpha-beta implementation.

@@ -89,3 +89,23 @@ implementations. Removing `far` and compiling with GCC is insufficient: original
 `int` sizes, packed unions, pointer identity, wraparound and global storage aliases
 must be reviewed. Native bytes will intentionally differ from CHESS.EXE; retain
 behavioural tests and asset hashes while leaving the matching baseline intact.
+
+## Recovered evaluator milestone
+
+The complete root evaluator now builds from the hash-pinned recovered C and data
+tables through `tools/port_evaluation.py`. DOS field widths are preserved;
+globals are per-thread. See `evaluation-provenance.json`. The optional original
+machine-code comparison verified 96 cases, including every piece-square table
+word. This is bounded evaluator evidence, not full search/gameplay equivalence.
+
+To rerun that optional oracle on this development machine:
+
+```sh
+cc -std=c11 -fPIC -shared -fno-strict-aliasing -I native/src \
+  native/build/generated/evaluation.c native/src/board.c native/src/rules.c \
+  -o native/build/libevaluation_oracle.so
+/home/kierzo/chess/matching/build/test-env/bin/python native/tests/compare_original_evaluation.py
+```
+
+Unicorn and the original executable are used only by that comparison test.
+Neither is a dependency of the native game or its normal build.
