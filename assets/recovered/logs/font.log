@@ -1,0 +1,31 @@
+{
+  "status": "PASS_NATIVE_FONT_PHYSICAL_SPAN_EXPORT",
+  "physical_blocks": 128,
+  "physical_bytes": 1024,
+  "physical_span_sha256": "f6f8691124a97bed14a97d0357d6dab6e69b6a2612d21f58d9e5a0e5f0ebebcc",
+  "expanded_image_offset": 397636,
+  "expanded_end_exclusive": 398660,
+  "DGROUP_segment": 23746,
+  "DGROUP_offset": 17700,
+  "original_exe_sha256": "c32d4f6bc732b67efa65d55bc5813bc74dcfb52b8616894b57ed7aeeeed2a1cd",
+  "analysis_carrier_sha256": "faf3516d0e72e30005ad90cb2da165081af5fe6871f5e8c3663980a5d725ef02",
+  "packed_source_note": "EXEPACK-expanded original bytes; no contiguous original packed-EXE font offset claimed",
+  "native_REA_evidence": "ev_2aa65795160e22c60581988fa624406af88347df444c751601560691c6feaeb0",
+  "terminated_at_NUL_verified": true,
+  "outside_recovered_span_inputs_rejected": [
+    1,
+    31,
+    160,
+    255
+  ],
+  "native_subtraction_mutation_rejected": true,
+  "limits": [
+    "128 blocks describe only the recovered 1024-byte physical span, not proven historical font capacity",
+    "Native byte arithmetic maps input bytes0x20..0x9f into this span; bytes0x00 terminate; other nonzero bytes address outside this recovered span and are held",
+    "No semantic character names or encoding claimed for 0x7f..0x9f",
+    "Graphics begin/end and copy calls are explicit hooks; exact original E915 glyph expansion executes, not the device driver",
+    "1-bit shape indices are not sprite transparency or RGB palette claims"
+  ],
+  "seconds": 0.21048456199969223,
+  "canonical_credit_added": 0
+}

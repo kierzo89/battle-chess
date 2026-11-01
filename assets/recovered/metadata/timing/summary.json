@@ -1,0 +1,135 @@
+{
+  "status": "PASS_NATIVE_STARTUP_SELECTION_AND_VALID_ZERO_SELECTOR_TIMING_MAP",
+  "correct_answer_case_tests": 832,
+  "wrong_or_prefix_cases": [
+    {
+      "input": "",
+      "prior_failed_attempts": 0,
+      "result": {
+        "outcome": "retry",
+        "selected_byte": 0,
+        "matched_characters": 0
+      }
+    },
+    {
+      "input": "",
+      "prior_failed_attempts": 1,
+      "result": {
+        "outcome": "retry",
+        "selected_byte": 0,
+        "matched_characters": 0
+      }
+    },
+    {
+      "input": "",
+      "prior_failed_attempts": 2,
+      "result": {
+        "outcome": "initialize_controls",
+        "selected_byte": 0,
+        "matched_characters": 0
+      }
+    },
+    {
+      "input": "x",
+      "prior_failed_attempts": 0,
+      "result": {
+        "outcome": "retry",
+        "selected_byte": 120,
+        "matched_characters": 0
+      }
+    },
+    {
+      "input": "x",
+      "prior_failed_attempts": 1,
+      "result": {
+        "outcome": "retry",
+        "selected_byte": 120,
+        "matched_characters": 0
+      }
+    },
+    {
+      "input": "x",
+      "prior_failed_attempts": 2,
+      "result": {
+        "outcome": "initialize_controls",
+        "selected_byte": 120,
+        "matched_characters": 0
+      }
+    },
+    {
+      "input": "P-",
+      "prior_failed_attempts": 0,
+      "result": {
+        "outcome": "retry",
+        "selected_byte": 0,
+        "matched_characters": 2
+      }
+    },
+    {
+      "input": "P-",
+      "prior_failed_attempts": 1,
+      "result": {
+        "outcome": "retry",
+        "selected_byte": 0,
+        "matched_characters": 2
+      }
+    },
+    {
+      "input": "P-",
+      "prior_failed_attempts": 2,
+      "result": {
+        "outcome": "initialize_controls",
+        "selected_byte": 0,
+        "matched_characters": 2
+      }
+    },
+    {
+      "input": "P-K4x",
+      "prior_failed_attempts": 0,
+      "result": {
+        "outcome": "retry",
+        "selected_byte": 120,
+        "matched_characters": 4
+      }
+    },
+    {
+      "input": "P-K4x",
+      "prior_failed_attempts": 1,
+      "result": {
+        "outcome": "retry",
+        "selected_byte": 120,
+        "matched_characters": 4
+      }
+    },
+    {
+      "input": "P-K4x",
+      "prior_failed_attempts": 2,
+      "result": {
+        "outcome": "initialize_controls",
+        "selected_byte": 120,
+        "matched_characters": 4
+      }
+    }
+  ],
+  "findings": {
+    "valid_selector": 0,
+    "nonzero_selector": "First unmatched input byte after third failed startup answer; shifts destination pointer table by48*byte as well as source bybyte. It is not another valid asset/timing profile.",
+    "zero_selector_with_wrong_answer": "An empty or short matching-prefix third answer also selects0; zero does not imply correct challenge answer.",
+    "canonical_tables": "Both native profile source bases build the same144 pointer offsets as prior exports at selector0",
+    "cadence": "next_event184D normal mode polls BIOS ticks via INT1A; kind3 is generated only when elapsed>=2, after queued/physical input priority. No fixed frame rate; delays are eligible dispatch-call units."
+  },
+  "limits": [
+    "Comparison probe begins at700C with declared input/answer/attempt count; text-input UI and random challenge selection are not executed",
+    "restore_region58B0 is substituted as no-op in comparison probe",
+    "Native pointer-init block708D..70E5 is tested for all256 byte values for both profiles with a read boundary at initialized DGROUP end; nonzero scans leaving original data are explicitly held, never filled with invented bytes; nonzero writes are diagnostics, not accepted alternate animation tables",
+    "Piece mapping follows native matched command/turn handlers; full dynamic task sequencing remains separately verified by parent",
+    "Alternate input mode005A obtains events through pump_input2301 rather than the BIOS-poll fallback; no universal seconds-per-frame claim"
+  ],
+  "canonical_credit_added": 0,
+  "evidence_ids": [
+    "ev_e5b249b7ccbe3be330d71dc039c00f5a75bf2ce36767e27655d31b662025eaec"
+  ],
+  "native_selector_cases": 512,
+  "piece_control_mappings": 288,
+  "capture_sequence_mappings": 72
+}

@@ -1,0 +1,71 @@
+{
+  "id": "pair-14-list-08",
+  "status": "INDEXED_FRAMES_NATIVE_COMPOSITOR_VERIFIED",
+  "pair": 14,
+  "list": 8,
+  "initial_frame": {
+    "bank": "ALLCANM2",
+    "pair": 15,
+    "frame": 2
+  },
+  "delta_indices": [
+    8
+  ],
+  "frames": [
+    {
+      "step": 0,
+      "delta_record": null,
+      "width": 45,
+      "height": 47,
+      "storage_width": 48,
+      "anchor_x": 22,
+      "anchor_y": 39,
+      "packed_file": "frame-000.packed.bin",
+      "packed_sha256": "3a1ed1a03d70f6650cda435a598ec8efee27b4301d70073b28dad75c053d1c68",
+      "indices_file": "frame-000.indices.bin",
+      "indices_sha256": "91305a6e4b0422229b74fe0d15f7c2f22d4fe164764e2b03071500d1d59e071b",
+      "native_composition": {
+        "scope": "Initial base frame already decoded and native2D13-XOR verified"
+      }
+    },
+    {
+      "step": 1,
+      "delta_record": 8,
+      "width": 45,
+      "height": 47,
+      "storage_width": 48,
+      "anchor_x": 22,
+      "anchor_y": 39,
+      "packed_file": "frame-001.packed.bin",
+      "packed_sha256": "3a1ed1a03d70f6650cda435a598ec8efee27b4301d70073b28dad75c053d1c68",
+      "indices_file": "frame-001.indices.bin",
+      "indices_sha256": "91305a6e4b0422229b74fe0d15f7c2f22d4fe164764e2b03071500d1d59e071b",
+      "native_composition": {
+        "descriptor": [
+          45,
+          47,
+          22,
+          39
+        ],
+        "pixel_sha256": "3a1ed1a03d70f6650cda435a598ec8efee27b4301d70073b28dad75c053d1c68",
+        "pixel_bytes": 1128,
+        "native_compositor_sha256": "652533f487715c6f9efb58a0069b9acdbe56d1abfd713ea25c0cb433710709ac",
+        "rea_evidence_id": "ev_17f7b788b942ec355e444ff426595d42869fe735b076afcf54e59159372377b4",
+        "native_blitter_sha256": "b0ecd1cdd770e59496fadff556a4dededdd97e12e44e5e0135f4244a9ca9b64b",
+        "chkstk_calls": [
+          18,
+          0
+        ],
+        "native_writes_checked": 4088,
+        "output_footprint_bound": 1131,
+        "source_pixels_immutable": true,
+        "outer_guards_preserved": true,
+        "original_fill_and_blitter_executed": true
+      }
+    }
+  ],
+  "sprite_transparent_index": 0,
+  "RGB_palette_claimed": false,
+  "final_pair29_native_row_scope_hold": false,
+  "playback_context": "Flat-board setup0 initial frames for motion; native subsequent-basic-pair mapping for capture; controls/FPS remain separate"
+}

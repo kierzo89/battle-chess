@@ -1,0 +1,18 @@
+{
+  "schema": "allcanm1-native-symbol-recovery-v1",
+  "bank_sha256": "aa50ef9fb55e5271526e25ccc6e60b2908f00440c3f33380d13d27ecd4cbc564",
+  "bank_bytes": 185726,
+  "record_count": 52,
+  "compressed_streams": 41,
+  "native_symbol_matches": 41,
+  "held": [],
+  "seconds": 2.091807243999938,
+  "limitations": [
+    "No palette, RGBA, alpha, nibble-order or rendered placement claim.",
+    "Setup row/XOR and background transforms follow reviewed source; native transform execution remains separate.",
+    "Cached asset records may be audio/animation/control data, not all sprites.",
+    "Native oracle substitutes bounded file refill; no DOS I/O execution.",
+    "Startup06 raw record purpose and startup03 64-byte decoded suffix remain unclassified."
+  ],
+  "canonical_credit_added": 0
+}

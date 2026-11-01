@@ -1,0 +1,4434 @@
+{
+  "schema": "allcanm1-native-symbol-recovery-v1",
+  "bank_sha256": "aa50ef9fb55e5271526e25ccc6e60b2908f00440c3f33380d13d27ecd4cbc564",
+  "bank_bytes": 185726,
+  "records": [
+    {
+      "id": "setup-00-part-0",
+      "family": "setup",
+      "index": 0,
+      "offset": 0,
+      "size": 192,
+      "end_exclusive": 192,
+      "sha256": "a4e51d03a1512d6831277dcca631eb7c8c2c89d915a5879d77bf89cd1d5fa771",
+      "file": "raw/setup-00-part-0.bin",
+      "decoded_format_verified": false,
+      "semantic_kind": "four_byte_frame_directory",
+      "symbol_status": "NOT_A_COMPRESSED_SYMBOL_STREAM"
+    },
+    {
+      "id": "setup-00-part-1",
+      "family": "setup",
+      "index": 1,
+      "offset": 192,
+      "size": 10097,
+      "end_exclusive": 10289,
+      "sha256": "441902d798daed7b9e55f5dbf9c56ae13988d10e625a3f5aa7e092e405e09661",
+      "file": "raw/setup-00-part-1.bin",
+      "decoded_format_verified": false,
+      "semantic_kind": "compressed_setup_frames",
+      "symbol_status": "NATIVE_AND_INDEPENDENT_EXACT",
+      "decoded_file": "setup-00-part-1.decoded.bin",
+      "decoded_sha256": "3bc1b8a6ed1a1b9883d8069aa13b5977219daec9b1190fb23630f654505dfe37",
+      "decoded_bytes": 25211,
+      "independent": {
+        "declared_bytes": 25211,
+        "tree_bits": 2396,
+        "consumed_bits_after_header": 80710,
+        "trailing_bits": 2,
+        "tree_leaves": 218,
+        "max_depth": 15,
+        "skipped_header_hex": "4d3b0100"
+      },
+      "native": {
+        "classification": "Native matched-ASM byte decode; raw candidate stream only, not a verified sprite/animation",
+        "input_sha256": "aa50ef9fb55e5271526e25ccc6e60b2908f00440c3f33380d13d27ecd4cbc564",
+        "input_start": 192,
+        "declared_output_bytes": 25211,
+        "actual_output_bytes": 25211,
+        "output_sha256": "3bc1b8a6ed1a1b9883d8069aa13b5977219daec9b1190fb23630f654505dfe37",
+        "tree_leaf_count": 218,
+        "tree_snapshot_stage": "Before native lookup builder consumes long-code depth entries",
+        "refills": [
+          {
+            "file_offset": 192,
+            "available": 512
+          },
+          {
+            "file_offset": 704,
+            "available": 512
+          },
+          {
+            "file_offset": 1216,
+            "available": 512
+          },
+          {
+            "file_offset": 1728,
+            "available": 512
+          },
+          {
+            "file_offset": 2240,
+            "available": 512
+          },
+          {
+            "file_offset": 2752,
+            "available": 512
+          },
+          {
+            "file_offset": 3264,
+            "available": 512
+          },
+          {
+            "file_offset": 3776,
+            "available": 512
+          },
+          {
+            "file_offset": 4288,
+            "available": 512
+          },
+          {
+            "file_offset": 4800,
+            "available": 512
+          },
+          {
+            "file_offset": 5312,
+            "available": 512
+          },
+          {
+            "file_offset": 5824,
+            "available": 512
+          },
+          {
+            "file_offset": 6336,
+            "available": 512
+          },
+          {
+            "file_offset": 6848,
+            "available": 512
+          },
+          {
+            "file_offset": 7360,
+            "available": 512
+          },
+          {
+            "file_offset": 7872,
+            "available": 512
+          },
+          {
+            "file_offset": 8384,
+            "available": 512
+          },
+          {
+            "file_offset": 8896,
+            "available": 512
+          },
+          {
+            "file_offset": 9408,
+            "available": 512
+          },
+          {
+            "file_offset": 9920,
+            "available": 512
+          }
+        ],
+        "max_actual_input_read_exclusive": 10290,
+        "native_reader_state_hex": "d7050a003430",
+        "source_pins": {
+          "matching/asm/huff_frame_decode_entry.asm": "1a8f4118a424b95d5e4fe51bcf8224780e7931c37346946c202710dfbcc5adcc",
+          "matching/asm/huff_tree_build_recursive.asm": "6ee793fb15f7d877b8fd6879930b49b53ed8c14812da563ea053c23d2a2359c0",
+          "matching/asm/huff_read_byte.asm": "ffeb00d460e95ee54a48abffbc8c584797bfc8e4d5d3294d5094b8aed44cffad",
+          "matching/asm/huff_get_bit.asm": "398941802582fbc03aaac9bb0c3a4abeb8a61700c7d62c3f7b537940cc12df2b",
+          "matching/asm/huff_build_lookup.asm": "55143488f6d3e2e7ae91957c4594c50acba9a30c6746719bd7b5739495d8626d",
+          "matching/asm/huff_decode_bytes.asm": "9ea8de2c0d50a55caeb73a34a610bb6c09e1036e4d983c9e5d8071b9c78b2227",
+          "matching/asm/huff_decode_stream.asm": "495995e31d28f71614255b052dd31ad4627ade7b267d5419048c8bb1f396e572",
+          "matching/asm/huff_window_save.asm": "0230bac9d7102c570ee8f7055cf010dde9dac07142efee6a1b04ef5c9117aa9f",
+          "matching/asm/huff_window_init.asm": "3a34aaa486c351a781978b2d97bb9ae238f40bd678ed724ab8daae75c9f1603a"
+        },
+        "whole_assembled_sha256": "e1e9a7e761149756cabdac4b18c481c97ec6d0108221f4f945cf966e28ad9a44",
+        "refill_substitution": "Explicit bounded512-byte file-source hook; no DOS I/O or original game execution claim",
+        "EOF_zero_or_stale_fill": false,
+        "pixels_palette_alpha_dimensions_or_animation_claimed": false
+      },
+      "frame_count": 47,
+      "frames": [
+        {
+          "width": 19,
+          "height": 46,
+          "anchor_x_signed": 10,
+          "anchor_y_signed": 42,
+          "logical_row_bytes": 10,
+          "native_row_stride": 10,
+          "packed_output_offset": 0,
+          "packed_output_bytes": 460,
+          "packed_output_sha256": "908cf97f323bb73895973ae2ae30ccaa451102f614da3a7f420ca368e8c2c9b2"
+        },
+        {
+          "width": 19,
+          "height": 48,
+          "anchor_x_signed": 11,
+          "anchor_y_signed": 43,
+          "logical_row_bytes": 10,
+          "native_row_stride": 10,
+          "packed_output_offset": 460,
+          "packed_output_bytes": 480,
+          "packed_output_sha256": "d49d91ae0ff322cc74985f07e2eb90dc210fef62ddd293b7e8e8a9988fcd0ad2"
+        },
+        {
+          "width": 18,
+          "height": 48,
+          "anchor_x_signed": 8,
+          "anchor_y_signed": 43,
+          "logical_row_bytes": 9,
+          "native_row_stride": 10,
+          "packed_output_offset": 940,
+          "packed_output_bytes": 480,
+          "packed_output_sha256": "cb302da05d8b8863c8a1ce0da1e00c6e517e30f40ab1e59d565eed7403d78b11"
+        },
+        {
+          "width": 19,
+          "height": 46,
+          "anchor_x_signed": 10,
+          "anchor_y_signed": 42,
+          "logical_row_bytes": 10,
+          "native_row_stride": 10,
+          "packed_output_offset": 1420,
+          "packed_output_bytes": 460,
+          "packed_output_sha256": "b73509816e8b3b191cd5682c416ef6aa81939595a7cad2d69fb565ae149125db"
+        },
+        {
+          "width": 33,
+          "height": 46,
+          "anchor_x_signed": 18,
+          "anchor_y_signed": 36,
+          "logical_row_bytes": 17,
+          "native_row_stride": 18,
+          "packed_output_offset": 1880,
+          "packed_output_bytes": 828,
+          "packed_output_sha256": "12a6852b1fae58d10e57ba00098cb0c94f87f211b25b0e578110c034870e7b27"
+        },
+        {
+          "width": 31,
+          "height": 46,
+          "anchor_x_signed": 18,
+          "anchor_y_signed": 35,
+          "logical_row_bytes": 16,
+          "native_row_stride": 16,
+          "packed_output_offset": 2708,
+          "packed_output_bytes": 736,
+          "packed_output_sha256": "bde3438786d2eaae0da5567b85446e0d6d40ffaad327a8cdc65b3964b32d5519"
+        },
+        {
+          "width": 40,
+          "height": 45,
+          "anchor_x_signed": 25,
+          "anchor_y_signed": 35,
+          "logical_row_bytes": 20,
+          "native_row_stride": 20,
+          "packed_output_offset": 3444,
+          "packed_output_bytes": 900,
+          "packed_output_sha256": "9286ddb62d48e49f4453293d7e1d482fa8aade6cc668746d4a47355f1dc5610e"
+        },
+        {
+          "width": 33,
+          "height": 42,
+          "anchor_x_signed": 17,
+          "anchor_y_signed": 34,
+          "logical_row_bytes": 17,
+          "native_row_stride": 18,
+          "packed_output_offset": 4344,
+          "packed_output_bytes": 756,
+          "packed_output_sha256": "981d33eeb618eda58cac536fab5f2319ee02d3359bf559287ce69950a31a9fdc"
+        },
+        {
+          "width": 35,
+          "height": 42,
+          "anchor_x_signed": 18,
+          "anchor_y_signed": 34,
+          "logical_row_bytes": 18,
+          "native_row_stride": 18,
+          "packed_output_offset": 5100,
+          "packed_output_bytes": 756,
+          "packed_output_sha256": "5de127250fafc70818a19a797c8c2f5e01acc048afce47db6c9a91a63ae19696"
+        },
+        {
+          "width": 33,
+          "height": 42,
+          "anchor_x_signed": 17,
+          "anchor_y_signed": 34,
+          "logical_row_bytes": 17,
+          "native_row_stride": 18,
+          "packed_output_offset": 5856,
+          "packed_output_bytes": 756,
+          "packed_output_sha256": "0e826775d304a4ecd4874073e8034618ad014d3ee1b69b0b8cb53b6d66a70d33"
+        },
+        {
+          "width": 38,
+          "height": 45,
+          "anchor_x_signed": 14,
+          "anchor_y_signed": 35,
+          "logical_row_bytes": 19,
+          "native_row_stride": 20,
+          "packed_output_offset": 6612,
+          "packed_output_bytes": 900,
+          "packed_output_sha256": "18e108cba1ef79b8312741c1662aca335b614d44ef9aaed50a35d045d315a41a"
+        },
+        {
+          "width": 32,
+          "height": 46,
+          "anchor_x_signed": 16,
+          "anchor_y_signed": 35,
+          "logical_row_bytes": 16,
+          "native_row_stride": 16,
+          "packed_output_offset": 7512,
+          "packed_output_bytes": 736,
+          "packed_output_sha256": "153c2425ad613b5b024689742f2a11328e0270a1f9790cc529d92ed5325b1b18"
+        },
+        {
+          "width": 22,
+          "height": 40,
+          "anchor_x_signed": 11,
+          "anchor_y_signed": 39,
+          "logical_row_bytes": 11,
+          "native_row_stride": 12,
+          "packed_output_offset": 8248,
+          "packed_output_bytes": 480,
+          "packed_output_sha256": "79e4c4d482b5c766557d96af77a9ca89910c1d5f9d560a12f35312515c2adee6"
+        },
+        {
+          "width": 17,
+          "height": 40,
+          "anchor_x_signed": 9,
+          "anchor_y_signed": 39,
+          "logical_row_bytes": 9,
+          "native_row_stride": 10,
+          "packed_output_offset": 8728,
+          "packed_output_bytes": 400,
+          "packed_output_sha256": "f4217b4cd19b3d0497a75802d7b2ea359fc57a20ed913a5d706780cda75c7deb"
+        },
+        {
+          "width": 24,
+          "height": 41,
+          "anchor_x_signed": 12,
+          "anchor_y_signed": 39,
+          "logical_row_bytes": 12,
+          "native_row_stride": 12,
+          "packed_output_offset": 9128,
+          "packed_output_bytes": 492,
+          "packed_output_sha256": "6e8c3c3efdd8f50c11dd24abfb5f80ace6db8309bf110e640a2d677e13fe90f9"
+        },
+        {
+          "width": 16,
+          "height": 40,
+          "anchor_x_signed": 8,
+          "anchor_y_signed": 39,
+          "logical_row_bytes": 8,
+          "native_row_stride": 8,
+          "packed_output_offset": 9620,
+          "packed_output_bytes": 320,
+          "packed_output_sha256": "c17730cb16da34916b27c88f1625233b98595de62f7137c645192098e04e7b5f"
+        },
+        {
+          "width": 22,
+          "height": 37,
+          "anchor_x_signed": 11,
+          "anchor_y_signed": 36,
+          "logical_row_bytes": 11,
+          "native_row_stride": 12,
+          "packed_output_offset": 9940,
+          "packed_output_bytes": 444,
+          "packed_output_sha256": "2d0c2bb29dad5ffebdf13037955a85a18d3a39a9fb4a85f6e0500e3c98cec5af"
+        },
+        {
+          "width": 26,
+          "height": 37,
+          "anchor_x_signed": 12,
+          "anchor_y_signed": 36,
+          "logical_row_bytes": 13,
+          "native_row_stride": 14,
+          "packed_output_offset": 10384,
+          "packed_output_bytes": 518,
+          "packed_output_sha256": "44cea9823fe995a8c3a119a229af8b32ab69b19ce39848754e89c40f12349669"
+        },
+        {
+          "width": 22,
+          "height": 37,
+          "anchor_x_signed": 11,
+          "anchor_y_signed": 36,
+          "logical_row_bytes": 11,
+          "native_row_stride": 12,
+          "packed_output_offset": 10902,
+          "packed_output_bytes": 444,
+          "packed_output_sha256": "088ed99f489edcb17a506dff6d77bdf624cd30bfa53f1bbdf88ba55202e66bc2"
+        },
+        {
+          "width": 19,
+          "height": 38,
+          "anchor_x_signed": 11,
+          "anchor_y_signed": 36,
+          "logical_row_bytes": 10,
+          "native_row_stride": 10,
+          "packed_output_offset": 11346,
+          "packed_output_bytes": 380,
+          "packed_output_sha256": "f6e3424ddcfdd1046625e7bd8edc464b83621c72c8089104ef3c93c336e89332"
+        },
+        {
+          "width": 23,
+          "height": 35,
+          "anchor_x_signed": 12,
+          "anchor_y_signed": 33,
+          "logical_row_bytes": 12,
+          "native_row_stride": 12,
+          "packed_output_offset": 11726,
+          "packed_output_bytes": 420,
+          "packed_output_sha256": "f2fef060cce2f6c09aca8abb30afc08a1229a0f0355f6cf7024cf98e132a8845"
+        },
+        {
+          "width": 25,
+          "height": 37,
+          "anchor_x_signed": 14,
+          "anchor_y_signed": 36,
+          "logical_row_bytes": 13,
+          "native_row_stride": 14,
+          "packed_output_offset": 12146,
+          "packed_output_bytes": 518,
+          "packed_output_sha256": "5ced6bbbcec529ef7c53aa68856565e3af4d4326a6387a323ccfe143009f69aa"
+        },
+        {
+          "width": 22,
+          "height": 36,
+          "anchor_x_signed": 10,
+          "anchor_y_signed": 35,
+          "logical_row_bytes": 11,
+          "native_row_stride": 12,
+          "packed_output_offset": 12664,
+          "packed_output_bytes": 432,
+          "packed_output_sha256": "cb3b312549a803408a02e20bf15f0511353633b60894c648cb7009895f680f5a"
+        },
+        {
+          "width": 22,
+          "height": 37,
+          "anchor_x_signed": 10,
+          "anchor_y_signed": 36,
+          "logical_row_bytes": 11,
+          "native_row_stride": 12,
+          "packed_output_offset": 13096,
+          "packed_output_bytes": 444,
+          "packed_output_sha256": "22de92490ed3b8c1c78c6eae16f4bffe92916ca0148c44da1aec65eb099aca76"
+        },
+        {
+          "width": 24,
+          "height": 48,
+          "anchor_x_signed": 15,
+          "anchor_y_signed": 39,
+          "logical_row_bytes": 12,
+          "native_row_stride": 12,
+          "packed_output_offset": 13540,
+          "packed_output_bytes": 576,
+          "packed_output_sha256": "fd2c57e803fae598a053d1e7aa7d62f7c7a538c900ed6c440e3e40993150fd0b"
+        },
+        {
+          "width": 23,
+          "height": 47,
+          "anchor_x_signed": 13,
+          "anchor_y_signed": 39,
+          "logical_row_bytes": 12,
+          "native_row_stride": 12,
+          "packed_output_offset": 14116,
+          "packed_output_bytes": 564,
+          "packed_output_sha256": "10b8aa304e6dae182b870117bd8eb43b7afa095eae1209a5cc25619b0667a757"
+        },
+        {
+          "width": 20,
+          "height": 44,
+          "anchor_x_signed": 14,
+          "anchor_y_signed": 39,
+          "logical_row_bytes": 10,
+          "native_row_stride": 10,
+          "packed_output_offset": 14680,
+          "packed_output_bytes": 440,
+          "packed_output_sha256": "0ad66db49854c563b7be649af7f7b41612256211bfda7f1f5106dbcc3f7407d6"
+        },
+        {
+          "width": 27,
+          "height": 43,
+          "anchor_x_signed": 16,
+          "anchor_y_signed": 39,
+          "logical_row_bytes": 14,
+          "native_row_stride": 14,
+          "packed_output_offset": 15120,
+          "packed_output_bytes": 602,
+          "packed_output_sha256": "4bd03e0b0a74035acfd205c16c4ba640afb3e1dbd631e9ad811f102976f6adb1"
+        },
+        {
+          "width": 26,
+          "height": 43,
+          "anchor_x_signed": 15,
+          "anchor_y_signed": 39,
+          "logical_row_bytes": 13,
+          "native_row_stride": 14,
+          "packed_output_offset": 15722,
+          "packed_output_bytes": 602,
+          "packed_output_sha256": "cb4830ab22b4d9c7277a72c00369e88eb9101ebd6e7d5dc4f3ff667ef5e5ea19"
+        },
+        {
+          "width": 28,
+          "height": 43,
+          "anchor_x_signed": 15,
+          "anchor_y_signed": 39,
+          "logical_row_bytes": 14,
+          "native_row_stride": 14,
+          "packed_output_offset": 16324,
+          "packed_output_bytes": 602,
+          "packed_output_sha256": "34c386dcaf7f0f73c2f162b30260817b0080434199cc56a51a04b48adae364e5"
+        },
+        {
+          "width": 24,
+          "height": 44,
+          "anchor_x_signed": 13,
+          "anchor_y_signed": 39,
+          "logical_row_bytes": 12,
+          "native_row_stride": 12,
+          "packed_output_offset": 16926,
+          "packed_output_bytes": 528,
+          "packed_output_sha256": "4d02ad7d2aa22126656dff2efedbf78efd29fe87780b3d731411ced403ceff6d"
+        },
+        {
+          "width": 22,
+          "height": 47,
+          "anchor_x_signed": 10,
+          "anchor_y_signed": 39,
+          "logical_row_bytes": 11,
+          "native_row_stride": 12,
+          "packed_output_offset": 17454,
+          "packed_output_bytes": 564,
+          "packed_output_sha256": "0354ee1554a4f95ba174802d9db11d68b0195bb00ace0d48a5b172c7d8add913"
+        },
+        {
+          "width": 38,
+          "height": 37,
+          "anchor_x_signed": 19,
+          "anchor_y_signed": 36,
+          "logical_row_bytes": 19,
+          "native_row_stride": 20,
+          "packed_output_offset": 18018,
+          "packed_output_bytes": 740,
+          "packed_output_sha256": "4874c45f28c1d3eea030df09eef6bd0ebdb13c9c832d4498a1b26e28d075e7ef"
+        },
+        {
+          "width": 31,
+          "height": 37,
+          "anchor_x_signed": 16,
+          "anchor_y_signed": 36,
+          "logical_row_bytes": 16,
+          "native_row_stride": 16,
+          "packed_output_offset": 18758,
+          "packed_output_bytes": 592,
+          "packed_output_sha256": "690626424575218598996fe133ad235244979bbbb8c069126a7f808d656452f5"
+        },
+        {
+          "width": 37,
+          "height": 39,
+          "anchor_x_signed": 20,
+          "anchor_y_signed": 37,
+          "logical_row_bytes": 19,
+          "native_row_stride": 20,
+          "packed_output_offset": 19350,
+          "packed_output_bytes": 780,
+          "packed_output_sha256": "1f7ed21aea99f9cbbc21b2e515935cec160591d80caf44d9a1a10154e00db156"
+        },
+        {
+          "width": 26,
+          "height": 37,
+          "anchor_x_signed": 14,
+          "anchor_y_signed": 36,
+          "logical_row_bytes": 13,
+          "native_row_stride": 14,
+          "packed_output_offset": 20130,
+          "packed_output_bytes": 518,
+          "packed_output_sha256": "c035d613020295831134c8d31913c00e79046a981a76324fda58d5262ce3da21"
+        },
+        {
+          "width": 32,
+          "height": 40,
+          "anchor_x_signed": 18,
+          "anchor_y_signed": 35,
+          "logical_row_bytes": 16,
+          "native_row_stride": 16,
+          "packed_output_offset": 20648,
+          "packed_output_bytes": 640,
+          "packed_output_sha256": "0479964cadb2344498ed53e6e452851ef4f365612efcdb52b99b451bca24cbeb"
+        },
+        {
+          "width": 31,
+          "height": 40,
+          "anchor_x_signed": 16,
+          "anchor_y_signed": 35,
+          "logical_row_bytes": 16,
+          "native_row_stride": 16,
+          "packed_output_offset": 21288,
+          "packed_output_bytes": 640,
+          "packed_output_sha256": "42c58ba361ae19572adf5a061b80411ea72bf0b21cf22323ce3b8bee3b9e957f"
+        },
+        {
+          "width": 26,
+          "height": 40,
+          "anchor_x_signed": 15,
+          "anchor_y_signed": 35,
+          "logical_row_bytes": 13,
+          "native_row_stride": 14,
+          "packed_output_offset": 21928,
+          "packed_output_bytes": 560,
+          "packed_output_sha256": "3e5330934e4ab292d79f7e321852a1e68d8bd96c4e9c64d4cc4fea9044c809b5"
+        },
+        {
+          "width": 24,
+          "height": 35,
+          "anchor_x_signed": 11,
+          "anchor_y_signed": 34,
+          "logical_row_bytes": 12,
+          "native_row_stride": 12,
+          "packed_output_offset": 22488,
+          "packed_output_bytes": 420,
+          "packed_output_sha256": "06d8e3a8524a5014dfcb3dbab315a0a0028522f8161ae394fda1ddbf12c28b29"
+        },
+        {
+          "width": 29,
+          "height": 36,
+          "anchor_x_signed": 12,
+          "anchor_y_signed": 35,
+          "logical_row_bytes": 15,
+          "native_row_stride": 16,
+          "packed_output_offset": 22908,
+          "packed_output_bytes": 576,
+          "packed_output_sha256": "e74d2c5f29e0c74a1aa061cef7f9cbcc8e00920a3b06d67a10346abf752bc75f"
+        },
+        {
+          "width": 22,
+          "height": 36,
+          "anchor_x_signed": 12,
+          "anchor_y_signed": 36,
+          "logical_row_bytes": 11,
+          "native_row_stride": 12,
+          "packed_output_offset": 23484,
+          "packed_output_bytes": 432,
+          "packed_output_sha256": "e255c5b9eaa8bc4c0a7eca938e7c01e925a2f9de7c54889ce86bd87ea870bd4c"
+        },
+        {
+          "width": 22,
+          "height": 36,
+          "anchor_x_signed": 11,
+          "anchor_y_signed": 35,
+          "logical_row_bytes": 11,
+          "native_row_stride": 12,
+          "packed_output_offset": 23916,
+          "packed_output_bytes": 432,
+          "packed_output_sha256": "78570ea30f94bc226f6013cd5241bef75cdbbe89cf8f3a2b1269d0459c503c31"
+        },
+        {
+          "width": 25,
+          "height": 35,
+          "anchor_x_signed": 12,
+          "anchor_y_signed": 33,
+          "logical_row_bytes": 13,
+          "native_row_stride": 14,
+          "packed_output_offset": 24348,
+          "packed_output_bytes": 490,
+          "packed_output_sha256": "b5503f8358d311c636d40991ff99cb37d5526ca47c02adb3e9eb5faf95237ad5"
+        },
+        {
+          "width": 25,
+          "height": 35,
+          "anchor_x_signed": 14,
+          "anchor_y_signed": 34,
+          "logical_row_bytes": 13,
+          "native_row_stride": 14,
+          "packed_output_offset": 24838,
+          "packed_output_bytes": 490,
+          "packed_output_sha256": "ce88add780e4d0ceb1a73d61f8c483e52d85a47f321e0958d7eda2317e6f70bb"
+        },
+        {
+          "width": 22,
+          "height": 36,
+          "anchor_x_signed": 10,
+          "anchor_y_signed": 36,
+          "logical_row_bytes": 11,
+          "native_row_stride": 12,
+          "packed_output_offset": 25328,
+          "packed_output_bytes": 432,
+          "packed_output_sha256": "3c21f9001cf840c6442de5c4bef5c045cb2f26cbed7ea83585ef335401544bff"
+        },
+        {
+          "width": 24,
+          "height": 36,
+          "anchor_x_signed": 12,
+          "anchor_y_signed": 35,
+          "logical_row_bytes": 12,
+          "native_row_stride": 12,
+          "packed_output_offset": 25760,
+          "packed_output_bytes": 432,
+          "packed_output_sha256": "7c4569cea86dd69b00de72816033e250fc5b43c7aed5bd90966dc931e3095318"
+        }
+      ],
+      "packed_file": "setup-00.strided-xor.bin",
+      "packed_sha256": "52e84db1f6de0b5f05c01837303523195414088de3989c7220d7528aac1f86c5",
+      "transform_status": "SOURCE_DERIVED_NOT_NEW_NATIVE_EXECUTION"
+    },
+    {
+      "id": "setup-01-part-0",
+      "family": "setup",
+      "index": 2,
+      "offset": 10289,
+      "size": 72,
+      "end_exclusive": 10361,
+      "sha256": "6a6b05e725f0c8cc92473cd9ad6ff20eb97e14b3c6db705f3f4b228d7c1a615c",
+      "file": "raw/setup-01-part-0.bin",
+      "decoded_format_verified": false,
+      "semantic_kind": "four_byte_frame_directory",
+      "symbol_status": "NOT_A_COMPRESSED_SYMBOL_STREAM"
+    },
+    {
+      "id": "setup-01-part-1",
+      "family": "setup",
+      "index": 3,
+      "offset": 10361,
+      "size": 1427,
+      "end_exclusive": 11788,
+      "sha256": "bfca74d2c56a85ca369aec86661d68f52861eda9f162f9632bfa9427cd0b2b41",
+      "file": "raw/setup-01-part-1.bin",
+      "decoded_format_verified": false,
+      "semantic_kind": "compressed_setup_frames",
+      "symbol_status": "NATIVE_AND_INDEPENDENT_EXACT",
+      "decoded_file": "setup-01-part-1.decoded.bin",
+      "decoded_sha256": "a41002984b245caeef69a2f33c9ce3bcd74093e4d991b932b209b87cbfab5c16",
+      "decoded_bytes": 3405,
+      "independent": {
+        "declared_bytes": 3405,
+        "tree_bits": 1164,
+        "consumed_bits_after_header": 11347,
+        "trailing_bits": 5,
+        "tree_leaves": 106,
+        "max_depth": 11,
+        "skipped_header_hex": "5a2c0000"
+      },
+      "native": {
+        "classification": "Native matched-ASM byte decode; raw candidate stream only, not a verified sprite/animation",
+        "input_sha256": "aa50ef9fb55e5271526e25ccc6e60b2908f00440c3f33380d13d27ecd4cbc564",
+        "input_start": 10361,
+        "declared_output_bytes": 3405,
+        "actual_output_bytes": 3405,
+        "output_sha256": "a41002984b245caeef69a2f33c9ce3bcd74093e4d991b932b209b87cbfab5c16",
+        "tree_leaf_count": 106,
+        "tree_snapshot_stage": "Before native lookup builder consumes long-code depth entries",
+        "refills": [
+          {
+            "file_offset": 10361,
+            "available": 512
+          },
+          {
+            "file_offset": 10873,
+            "available": 512
+          },
+          {
+            "file_offset": 11385,
+            "available": 512
+          }
+        ],
+        "max_actual_input_read_exclusive": 11789,
+        "native_reader_state_hex": "87000d005630",
+        "source_pins": {
+          "matching/asm/huff_frame_decode_entry.asm": "1a8f4118a424b95d5e4fe51bcf8224780e7931c37346946c202710dfbcc5adcc",
+          "matching/asm/huff_tree_build_recursive.asm": "6ee793fb15f7d877b8fd6879930b49b53ed8c14812da563ea053c23d2a2359c0",
+          "matching/asm/huff_read_byte.asm": "ffeb00d460e95ee54a48abffbc8c584797bfc8e4d5d3294d5094b8aed44cffad",
+          "matching/asm/huff_get_bit.asm": "398941802582fbc03aaac9bb0c3a4abeb8a61700c7d62c3f7b537940cc12df2b",
+          "matching/asm/huff_build_lookup.asm": "55143488f6d3e2e7ae91957c4594c50acba9a30c6746719bd7b5739495d8626d",
+          "matching/asm/huff_decode_bytes.asm": "9ea8de2c0d50a55caeb73a34a610bb6c09e1036e4d983c9e5d8071b9c78b2227",
+          "matching/asm/huff_decode_stream.asm": "495995e31d28f71614255b052dd31ad4627ade7b267d5419048c8bb1f396e572",
+          "matching/asm/huff_window_save.asm": "0230bac9d7102c570ee8f7055cf010dde9dac07142efee6a1b04ef5c9117aa9f",
+          "matching/asm/huff_window_init.asm": "3a34aaa486c351a781978b2d97bb9ae238f40bd678ed724ab8daae75c9f1603a"
+        },
+        "whole_assembled_sha256": "e1e9a7e761149756cabdac4b18c481c97ec6d0108221f4f945cf966e28ad9a44",
+        "refill_substitution": "Explicit bounded512-byte file-source hook; no DOS I/O or original game execution claim",
+        "EOF_zero_or_stale_fill": false,
+        "pixels_palette_alpha_dimensions_or_animation_claimed": false
+      },
+      "frame_count": 17,
+      "frames": [
+        {
+          "width": 23,
+          "height": 15,
+          "anchor_x_signed": -19,
+          "anchor_y_signed": 0,
+          "logical_row_bytes": 12,
+          "native_row_stride": 12,
+          "packed_output_offset": 0,
+          "packed_output_bytes": 180,
+          "packed_output_sha256": "11f062e6c194cbc2f8025ea35c042ae2d91f454388c5237f070bc4d6b5ed2f55"
+        },
+        {
+          "width": 31,
+          "height": 12,
+          "anchor_x_signed": -13,
+          "anchor_y_signed": -3,
+          "logical_row_bytes": 16,
+          "native_row_stride": 16,
+          "packed_output_offset": 180,
+          "packed_output_bytes": 192,
+          "packed_output_sha256": "40af3d482ba62dc4a8be8e5c1995c17c2b38feadccb8946066e27950a9da04e2"
+        },
+        {
+          "width": 23,
+          "height": 15,
+          "anchor_x_signed": -24,
+          "anchor_y_signed": 0,
+          "logical_row_bytes": 12,
+          "native_row_stride": 12,
+          "packed_output_offset": 372,
+          "packed_output_bytes": 180,
+          "packed_output_sha256": "5c053a525308cd4977804aae635e4c0008d863a3efaf25d7a5238513b14247db"
+        },
+        {
+          "width": 31,
+          "height": 12,
+          "anchor_x_signed": -22,
+          "anchor_y_signed": -3,
+          "logical_row_bytes": 16,
+          "native_row_stride": 16,
+          "packed_output_offset": 552,
+          "packed_output_bytes": 192,
+          "packed_output_sha256": "030313c68c01776ef09080e8a25f337ebede7328ca087cbb99868b90417f8db8"
+        },
+        {
+          "width": 16,
+          "height": 14,
+          "anchor_x_signed": 0,
+          "anchor_y_signed": -17,
+          "logical_row_bytes": 8,
+          "native_row_stride": 8,
+          "packed_output_offset": 744,
+          "packed_output_bytes": 112,
+          "packed_output_sha256": "5ced06885871551a9e324a72e054590db8a83513bd601bd4489626bed8ef1ec0"
+        },
+        {
+          "width": 24,
+          "height": 23,
+          "anchor_x_signed": -8,
+          "anchor_y_signed": 0,
+          "logical_row_bytes": 12,
+          "native_row_stride": 12,
+          "packed_output_offset": 856,
+          "packed_output_bytes": 276,
+          "packed_output_sha256": "1473dca40f2799811c5d2f318dee2cb508b45fdaa0a1d7f9653638af25b56075"
+        },
+        {
+          "width": 16,
+          "height": 23,
+          "anchor_x_signed": 0,
+          "anchor_y_signed": 0,
+          "logical_row_bytes": 8,
+          "native_row_stride": 8,
+          "packed_output_offset": 1132,
+          "packed_output_bytes": 184,
+          "packed_output_sha256": "8751f28398e43df7b0829a75543a2ee704781453291fd130788fc465ab73fcac"
+        },
+        {
+          "width": 26,
+          "height": 23,
+          "anchor_x_signed": 0,
+          "anchor_y_signed": 0,
+          "logical_row_bytes": 13,
+          "native_row_stride": 14,
+          "packed_output_offset": 1316,
+          "packed_output_bytes": 322,
+          "packed_output_sha256": "d63b90cee01b2ab56bef65a34dc4b3593350ca60ea693f0d4ef92c2fb702c247"
+        },
+        {
+          "width": 16,
+          "height": 8,
+          "anchor_x_signed": 0,
+          "anchor_y_signed": 0,
+          "logical_row_bytes": 8,
+          "native_row_stride": 8,
+          "packed_output_offset": 1638,
+          "packed_output_bytes": 64,
+          "packed_output_sha256": "61476a8422a822a8c027e79d11b36b75e6102d76273fb0909f010a7a5a70515f"
+        },
+        {
+          "width": 16,
+          "height": 8,
+          "anchor_x_signed": 0,
+          "anchor_y_signed": 0,
+          "logical_row_bytes": 8,
+          "native_row_stride": 8,
+          "packed_output_offset": 1702,
+          "packed_output_bytes": 64,
+          "packed_output_sha256": "fc5ba0c1064081d6a87b52e95212798a9a1ac8bb51e57e85eec5fa2b1b3b89d0"
+        },
+        {
+          "width": 18,
+          "height": 8,
+          "anchor_x_signed": 0,
+          "anchor_y_signed": 0,
+          "logical_row_bytes": 9,
+          "native_row_stride": 10,
+          "packed_output_offset": 1766,
+          "packed_output_bytes": 80,
+          "packed_output_sha256": "c586cf11f97b66d162592e80b46698873931ce85cbdcbb8113454c6147bed39a"
+        },
+        {
+          "width": 41,
+          "height": 22,
+          "anchor_x_signed": -7,
+          "anchor_y_signed": 0,
+          "logical_row_bytes": 21,
+          "native_row_stride": 22,
+          "packed_output_offset": 1846,
+          "packed_output_bytes": 484,
+          "packed_output_sha256": "d14dcf8c232eb32ab7ab35d303d64c0305cb4be299324006c95bb15ee9e1e93c"
+        },
+        {
+          "width": 16,
+          "height": 14,
+          "anchor_x_signed": 0,
+          "anchor_y_signed": -7,
+          "logical_row_bytes": 8,
+          "native_row_stride": 8,
+          "packed_output_offset": 2330,
+          "packed_output_bytes": 112,
+          "packed_output_sha256": "24866329d3e08190ccfac49401728dc8c6fba3f58ee6c615747f4f39bb449485"
+        },
+        {
+          "width": 16,
+          "height": 10,
+          "anchor_x_signed": 0,
+          "anchor_y_signed": -7,
+          "logical_row_bytes": 8,
+          "native_row_stride": 8,
+          "packed_output_offset": 2442,
+          "packed_output_bytes": 80,
+          "packed_output_sha256": "9b7ef0c1d4f601a90d3089adbd303533a6d27ea6c51ffc5a09e4345714af1c02"
+        },
+        {
+          "width": 40,
+          "height": 22,
+          "anchor_x_signed": 0,
+          "anchor_y_signed": -2,
+          "logical_row_bytes": 20,
+          "native_row_stride": 20,
+          "packed_output_offset": 2522,
+          "packed_output_bytes": 440,
+          "packed_output_sha256": "dde2707c114e2bcf8e1443cbfa63df0ff51f3dce6db5258395c10250a63f553d"
+        },
+        {
+          "width": 30,
+          "height": 16,
+          "anchor_x_signed": -18,
+          "anchor_y_signed": -15,
+          "logical_row_bytes": 15,
+          "native_row_stride": 16,
+          "packed_output_offset": 2962,
+          "packed_output_bytes": 256,
+          "packed_output_sha256": "fc4fb67040dfc136ce79c79774690db96920923dd57a8eaab1bfe55ef91c71ce"
+        },
+        {
+          "width": 32,
+          "height": 16,
+          "anchor_x_signed": -16,
+          "anchor_y_signed": -15,
+          "logical_row_bytes": 16,
+          "native_row_stride": 16,
+          "packed_output_offset": 3218,
+          "packed_output_bytes": 256,
+          "packed_output_sha256": "775d04d3eac124bf65aea30c8c0f03ec7c819a50b6ce95575b9dc02be9915a00"
+        }
+      ],
+      "packed_file": "setup-01.strided-xor.bin",
+      "packed_sha256": "384aefb6a965431bb49018b1e9070030dd5d3b5f5e3e5fbe4e0a5f158a6006e0",
+      "transform_status": "SOURCE_DERIVED_NOT_NEW_NATIVE_EXECUTION"
+    },
+    {
+      "id": "setup-02-part-0",
+      "family": "setup",
+      "index": 4,
+      "offset": 11788,
+      "size": 28,
+      "end_exclusive": 11816,
+      "sha256": "35d3be15d28ca2dc06d4fdb272fc51914c1a40461303a118dc84041865023540",
+      "file": "raw/setup-02-part-0.bin",
+      "decoded_format_verified": false,
+      "semantic_kind": "four_byte_frame_directory",
+      "symbol_status": "NOT_A_COMPRESSED_SYMBOL_STREAM"
+    },
+    {
+      "id": "setup-02-part-1",
+      "family": "setup",
+      "index": 5,
+      "offset": 11816,
+      "size": 487,
+      "end_exclusive": 12303,
+      "sha256": "c0c3b178d865bee67b396a9765477a2117b0c52be6cca09bec63538b00853522",
+      "file": "raw/setup-02-part-1.bin",
+      "decoded_format_verified": false,
+      "semantic_kind": "compressed_setup_frames",
+      "symbol_status": "NATIVE_AND_INDEPENDENT_EXACT",
+      "decoded_file": "setup-02-part-1.decoded.bin",
+      "decoded_sha256": "174a0e76bb85707e1e0a38f0bbbd9ad758e77eca071354491b725726c4855d22",
+      "decoded_bytes": 1024,
+      "independent": {
+        "declared_bytes": 1024,
+        "tree_bits": 438,
+        "consumed_bits_after_header": 3827,
+        "trailing_bits": 5,
+        "tree_leaves": 40,
+        "max_depth": 10,
+        "skipped_header_hex": "fa0e0000"
+      },
+      "native": {
+        "classification": "Native matched-ASM byte decode; raw candidate stream only, not a verified sprite/animation",
+        "input_sha256": "aa50ef9fb55e5271526e25ccc6e60b2908f00440c3f33380d13d27ecd4cbc564",
+        "input_start": 11816,
+        "declared_output_bytes": 1024,
+        "actual_output_bytes": 1024,
+        "output_sha256": "174a0e76bb85707e1e0a38f0bbbd9ad758e77eca071354491b725726c4855d22",
+        "tree_leaf_count": 40,
+        "tree_snapshot_stage": "Before native lookup builder consumes long-code depth entries",
+        "refills": [
+          {
+            "file_offset": 11816,
+            "available": 512
+          }
+        ],
+        "max_actual_input_read_exclusive": 12304,
+        "native_reader_state_hex": "79000d00aa30",
+        "source_pins": {
+          "matching/asm/huff_frame_decode_entry.asm": "1a8f4118a424b95d5e4fe51bcf8224780e7931c37346946c202710dfbcc5adcc",
+          "matching/asm/huff_tree_build_recursive.asm": "6ee793fb15f7d877b8fd6879930b49b53ed8c14812da563ea053c23d2a2359c0",
+          "matching/asm/huff_read_byte.asm": "ffeb00d460e95ee54a48abffbc8c584797bfc8e4d5d3294d5094b8aed44cffad",
+          "matching/asm/huff_get_bit.asm": "398941802582fbc03aaac9bb0c3a4abeb8a61700c7d62c3f7b537940cc12df2b",
+          "matching/asm/huff_build_lookup.asm": "55143488f6d3e2e7ae91957c4594c50acba9a30c6746719bd7b5739495d8626d",
+          "matching/asm/huff_decode_bytes.asm": "9ea8de2c0d50a55caeb73a34a610bb6c09e1036e4d983c9e5d8071b9c78b2227",
+          "matching/asm/huff_decode_stream.asm": "495995e31d28f71614255b052dd31ad4627ade7b267d5419048c8bb1f396e572",
+          "matching/asm/huff_window_save.asm": "0230bac9d7102c570ee8f7055cf010dde9dac07142efee6a1b04ef5c9117aa9f",
+          "matching/asm/huff_window_init.asm": "3a34aaa486c351a781978b2d97bb9ae238f40bd678ed724ab8daae75c9f1603a"
+        },
+        "whole_assembled_sha256": "e1e9a7e761149756cabdac4b18c481c97ec6d0108221f4f945cf966e28ad9a44",
+        "refill_substitution": "Explicit bounded512-byte file-source hook; no DOS I/O or original game execution claim",
+        "EOF_zero_or_stale_fill": false,
+        "pixels_palette_alpha_dimensions_or_animation_claimed": false
+      },
+      "frame_count": 6,
+      "frames": [
+        {
+          "width": 16,
+          "height": 22,
+          "anchor_x_signed": 8,
+          "anchor_y_signed": 11,
+          "logical_row_bytes": 8,
+          "native_row_stride": 8,
+          "packed_output_offset": 0,
+          "packed_output_bytes": 176,
+          "packed_output_sha256": "bbeba61e3bd9a769a595c930caefa215b91d0bf968a723f43c26618ed5a23916"
+        },
+        {
+          "width": 16,
+          "height": 23,
+          "anchor_x_signed": 8,
+          "anchor_y_signed": 12,
+          "logical_row_bytes": 8,
+          "native_row_stride": 8,
+          "packed_output_offset": 176,
+          "packed_output_bytes": 184,
+          "packed_output_sha256": "7140d2aceeeeb0f4d51f37c3915e2363333f248ac2b33ace95c374378d98853e"
+        },
+        {
+          "width": 16,
+          "height": 23,
+          "anchor_x_signed": 8,
+          "anchor_y_signed": 12,
+          "logical_row_bytes": 8,
+          "native_row_stride": 8,
+          "packed_output_offset": 360,
+          "packed_output_bytes": 184,
+          "packed_output_sha256": "c0681a2f0828c8ca0879741757fe390c122c532d47400998afd89c2295f94079"
+        },
+        {
+          "width": 16,
+          "height": 19,
+          "anchor_x_signed": 8,
+          "anchor_y_signed": 8,
+          "logical_row_bytes": 8,
+          "native_row_stride": 8,
+          "packed_output_offset": 544,
+          "packed_output_bytes": 152,
+          "packed_output_sha256": "ecf1c0c2af6e1db6f9ec4267d662f35f978872d061a39d8003d654aa5d673d2f"
+        },
+        {
+          "width": 16,
+          "height": 22,
+          "anchor_x_signed": 8,
+          "anchor_y_signed": 11,
+          "logical_row_bytes": 8,
+          "native_row_stride": 8,
+          "packed_output_offset": 696,
+          "packed_output_bytes": 176,
+          "packed_output_sha256": "41724759635daeb879d20989b84ee8499c9e6bd108a323c2c86c33503955fcbb"
+        },
+        {
+          "width": 16,
+          "height": 19,
+          "anchor_x_signed": 8,
+          "anchor_y_signed": 8,
+          "logical_row_bytes": 8,
+          "native_row_stride": 8,
+          "packed_output_offset": 872,
+          "packed_output_bytes": 152,
+          "packed_output_sha256": "c5f2cbb25a96af9cdd66e59813396eed0066bf13938a5e6e1a487f7bdb071c1c"
+        }
+      ],
+      "packed_file": "setup-02.strided-xor.bin",
+      "packed_sha256": "df75b16a488e9daf48caaab2b3d2329743f23b70b8431f03aa3e1279341d2e44",
+      "transform_status": "SOURCE_DERIVED_NOT_NEW_NATIVE_EXECUTION"
+    },
+    {
+      "id": "setup-03-part-0",
+      "family": "setup",
+      "index": 6,
+      "offset": 12303,
+      "size": 28,
+      "end_exclusive": 12331,
+      "sha256": "7c03546539d7f01acac603a9fff16ed6a2a9b0f455859adc2e707cf3c50ee019",
+      "file": "raw/setup-03-part-0.bin",
+      "decoded_format_verified": false,
+      "semantic_kind": "four_byte_frame_directory",
+      "symbol_status": "NOT_A_COMPRESSED_SYMBOL_STREAM"
+    },
+    {
+      "id": "setup-03-part-1",
+      "family": "setup",
+      "index": 7,
+      "offset": 12331,
+      "size": 471,
+      "end_exclusive": 12802,
+      "sha256": "a187ffe7e6e81d15f5ef14148035dc8351df1258104b4df0d5491bc7f6012c6d",
+      "file": "raw/setup-03-part-1.bin",
+      "decoded_format_verified": false,
+      "semantic_kind": "compressed_setup_frames",
+      "symbol_status": "NATIVE_AND_INDEPENDENT_EXACT",
+      "decoded_file": "setup-03-part-1.decoded.bin",
+      "decoded_sha256": "1ea10246d5db2e1ff166221d16994f1c416b97234cdb568ca0b78016b48960b3",
+      "decoded_bytes": 1056,
+      "independent": {
+        "declared_bytes": 1056,
+        "tree_bits": 251,
+        "consumed_bits_after_header": 3703,
+        "trailing_bits": 1,
+        "tree_leaves": 23,
+        "max_depth": 10,
+        "skipped_header_hex": "7e0e0000"
+      },
+      "native": {
+        "classification": "Native matched-ASM byte decode; raw candidate stream only, not a verified sprite/animation",
+        "input_sha256": "aa50ef9fb55e5271526e25ccc6e60b2908f00440c3f33380d13d27ecd4cbc564",
+        "input_start": 12331,
+        "declared_output_bytes": 1056,
+        "actual_output_bytes": 1056,
+        "output_sha256": "1ea10246d5db2e1ff166221d16994f1c416b97234cdb568ca0b78016b48960b3",
+        "tree_leaf_count": 23,
+        "tree_snapshot_stage": "Before native lookup builder consumes long-code depth entries",
+        "refills": [
+          {
+            "file_offset": 12331,
+            "available": 512
+          }
+        ],
+        "max_actual_input_read_exclusive": 12803,
+        "native_reader_state_hex": "ac4309009a30",
+        "source_pins": {
+          "matching/asm/huff_frame_decode_entry.asm": "1a8f4118a424b95d5e4fe51bcf8224780e7931c37346946c202710dfbcc5adcc",
+          "matching/asm/huff_tree_build_recursive.asm": "6ee793fb15f7d877b8fd6879930b49b53ed8c14812da563ea053c23d2a2359c0",
+          "matching/asm/huff_read_byte.asm": "ffeb00d460e95ee54a48abffbc8c584797bfc8e4d5d3294d5094b8aed44cffad",
+          "matching/asm/huff_get_bit.asm": "398941802582fbc03aaac9bb0c3a4abeb8a61700c7d62c3f7b537940cc12df2b",
+          "matching/asm/huff_build_lookup.asm": "55143488f6d3e2e7ae91957c4594c50acba9a30c6746719bd7b5739495d8626d",
+          "matching/asm/huff_decode_bytes.asm": "9ea8de2c0d50a55caeb73a34a610bb6c09e1036e4d983c9e5d8071b9c78b2227",
+          "matching/asm/huff_decode_stream.asm": "495995e31d28f71614255b052dd31ad4627ade7b267d5419048c8bb1f396e572",
+          "matching/asm/huff_window_save.asm": "0230bac9d7102c570ee8f7055cf010dde9dac07142efee6a1b04ef5c9117aa9f",
+          "matching/asm/huff_window_init.asm": "3a34aaa486c351a781978b2d97bb9ae238f40bd678ed724ab8daae75c9f1603a"
+        },
+        "whole_assembled_sha256": "e1e9a7e761149756cabdac4b18c481c97ec6d0108221f4f945cf966e28ad9a44",
+        "refill_substitution": "Explicit bounded512-byte file-source hook; no DOS I/O or original game execution claim",
+        "EOF_zero_or_stale_fill": false,
+        "pixels_palette_alpha_dimensions_or_animation_claimed": false
+      },
+      "frame_count": 6,
+      "frames": [
+        {
+          "width": 15,
+          "height": 23,
+          "anchor_x_signed": 8,
+          "anchor_y_signed": 11,
+          "logical_row_bytes": 8,
+          "native_row_stride": 8,
+          "packed_output_offset": 0,
+          "packed_output_bytes": 184,
+          "packed_output_sha256": "6a9be786ab3c1780b7668caf02dd5a522377becc46d716c0345a5d8449cfae5c"
+        },
+        {
+          "width": 15,
+          "height": 24,
+          "anchor_x_signed": 8,
+          "anchor_y_signed": 12,
+          "logical_row_bytes": 8,
+          "native_row_stride": 8,
+          "packed_output_offset": 184,
+          "packed_output_bytes": 192,
+          "packed_output_sha256": "3e7bc80ce2895eab02fcaa59b0ceb07afdaf8f77c6ef6ff5966e5d7db27102fe"
+        },
+        {
+          "width": 16,
+          "height": 23,
+          "anchor_x_signed": 8,
+          "anchor_y_signed": 11,
+          "logical_row_bytes": 8,
+          "native_row_stride": 8,
+          "packed_output_offset": 376,
+          "packed_output_bytes": 184,
+          "packed_output_sha256": "0d2c85d2335da29cd4ccae872add4db9fbf894929bf7e25b27b1e17c10bb8852"
+        },
+        {
+          "width": 15,
+          "height": 19,
+          "anchor_x_signed": 7,
+          "anchor_y_signed": 7,
+          "logical_row_bytes": 8,
+          "native_row_stride": 8,
+          "packed_output_offset": 560,
+          "packed_output_bytes": 152,
+          "packed_output_sha256": "7a46d89e834a141837762507a16395879528fc670029d7bba4adb5673f5b1503"
+        },
+        {
+          "width": 15,
+          "height": 23,
+          "anchor_x_signed": 7,
+          "anchor_y_signed": 11,
+          "logical_row_bytes": 8,
+          "native_row_stride": 8,
+          "packed_output_offset": 712,
+          "packed_output_bytes": 184,
+          "packed_output_sha256": "eb408f2c5b2d308c38ee3e1a82c2d7bcc9958366d6cceb7b024d1276621e6a2c"
+        },
+        {
+          "width": 15,
+          "height": 20,
+          "anchor_x_signed": 7,
+          "anchor_y_signed": 8,
+          "logical_row_bytes": 8,
+          "native_row_stride": 8,
+          "packed_output_offset": 896,
+          "packed_output_bytes": 160,
+          "packed_output_sha256": "c5e3815bed6eedeb3bc6dda47b346bed77a7ee92d1bcee67ac9dfa3b3d09c662"
+        }
+      ],
+      "packed_file": "setup-03.strided-xor.bin",
+      "packed_sha256": "28f789170025adae4baff05dd42458a5aad817eb64f32809ba935a968b31902b",
+      "transform_status": "SOURCE_DERIVED_NOT_NEW_NATIVE_EXECUTION"
+    },
+    {
+      "id": "asset-00",
+      "family": "asset",
+      "index": 0,
+      "offset": 12802,
+      "size": 5004,
+      "end_exclusive": 17806,
+      "sha256": "a05587c414afed7f6e00c2b69d819899e151c7121a73ba5f392a50fd19dc417d",
+      "file": "raw/asset-00.bin",
+      "decoded_format_verified": false,
+      "semantic_kind": "compressed_cached_record",
+      "symbol_status": "NATIVE_AND_INDEPENDENT_EXACT",
+      "decoded_file": "asset-00.decoded.bin",
+      "decoded_sha256": "de2bd386daa1edc251e06e32aa0ebeac53e37330db580a5cc60d31bd64b1929c",
+      "decoded_bytes": 5767,
+      "independent": {
+        "declared_bytes": 5767,
+        "tree_bits": 2693,
+        "consumed_bits_after_header": 39966,
+        "trailing_bits": 2,
+        "tree_leaves": 245,
+        "max_depth": 13,
+        "skipped_header_hex": "259c0000"
+      },
+      "native": {
+        "classification": "Native matched-ASM byte decode; raw candidate stream only, not a verified sprite/animation",
+        "input_sha256": "aa50ef9fb55e5271526e25ccc6e60b2908f00440c3f33380d13d27ecd4cbc564",
+        "input_start": 12802,
+        "declared_output_bytes": 5767,
+        "actual_output_bytes": 5767,
+        "output_sha256": "de2bd386daa1edc251e06e32aa0ebeac53e37330db580a5cc60d31bd64b1929c",
+        "tree_leaf_count": 245,
+        "tree_snapshot_stage": "Before native lookup builder consumes long-code depth entries",
+        "refills": [
+          {
+            "file_offset": 12802,
+            "available": 512
+          },
+          {
+            "file_offset": 13314,
+            "available": 512
+          },
+          {
+            "file_offset": 13826,
+            "available": 512
+          },
+          {
+            "file_offset": 14338,
+            "available": 512
+          },
+          {
+            "file_offset": 14850,
+            "available": 512
+          },
+          {
+            "file_offset": 15362,
+            "available": 512
+          },
+          {
+            "file_offset": 15874,
+            "available": 512
+          },
+          {
+            "file_offset": 16386,
+            "available": 512
+          },
+          {
+            "file_offset": 16898,
+            "available": 512
+          },
+          {
+            "file_offset": 17410,
+            "available": 512
+          }
+        ],
+        "max_actual_input_read_exclusive": 17807,
+        "native_reader_state_hex": "af000a004f30",
+        "source_pins": {
+          "matching/asm/huff_frame_decode_entry.asm": "1a8f4118a424b95d5e4fe51bcf8224780e7931c37346946c202710dfbcc5adcc",
+          "matching/asm/huff_tree_build_recursive.asm": "6ee793fb15f7d877b8fd6879930b49b53ed8c14812da563ea053c23d2a2359c0",
+          "matching/asm/huff_read_byte.asm": "ffeb00d460e95ee54a48abffbc8c584797bfc8e4d5d3294d5094b8aed44cffad",
+          "matching/asm/huff_get_bit.asm": "398941802582fbc03aaac9bb0c3a4abeb8a61700c7d62c3f7b537940cc12df2b",
+          "matching/asm/huff_build_lookup.asm": "55143488f6d3e2e7ae91957c4594c50acba9a30c6746719bd7b5739495d8626d",
+          "matching/asm/huff_decode_bytes.asm": "9ea8de2c0d50a55caeb73a34a610bb6c09e1036e4d983c9e5d8071b9c78b2227",
+          "matching/asm/huff_decode_stream.asm": "495995e31d28f71614255b052dd31ad4627ade7b267d5419048c8bb1f396e572",
+          "matching/asm/huff_window_save.asm": "0230bac9d7102c570ee8f7055cf010dde9dac07142efee6a1b04ef5c9117aa9f",
+          "matching/asm/huff_window_init.asm": "3a34aaa486c351a781978b2d97bb9ae238f40bd678ed724ab8daae75c9f1603a"
+        },
+        "whole_assembled_sha256": "e1e9a7e761149756cabdac4b18c481c97ec6d0108221f4f945cf966e28ad9a44",
+        "refill_substitution": "Explicit bounded512-byte file-source hook; no DOS I/O or original game execution claim",
+        "EOF_zero_or_stale_fill": false,
+        "pixels_palette_alpha_dimensions_or_animation_claimed": false
+      }
+    },
+    {
+      "id": "asset-01",
+      "family": "asset",
+      "index": 1,
+      "offset": 17806,
+      "size": 1939,
+      "end_exclusive": 19745,
+      "sha256": "712523346e6ba75e1f028b055a51eb2f1d8c0d47caa4b93ec40e8f289ad3f29d",
+      "file": "raw/asset-01.bin",
+      "decoded_format_verified": false,
+      "semantic_kind": "compressed_cached_record",
+      "symbol_status": "NATIVE_AND_INDEPENDENT_EXACT",
+      "decoded_file": "asset-01.decoded.bin",
+      "decoded_sha256": "90c502867234d075a47f71e5c5c5670dde6706647351c5b1f2dfb1e2848a3e88",
+      "decoded_bytes": 2562,
+      "independent": {
+        "declared_bytes": 2562,
+        "tree_bits": 1406,
+        "consumed_bits_after_header": 15447,
+        "trailing_bits": 1,
+        "tree_leaves": 128,
+        "max_depth": 11,
+        "skipped_header_hex": "5e3c0000"
+      },
+      "native": {
+        "classification": "Native matched-ASM byte decode; raw candidate stream only, not a verified sprite/animation",
+        "input_sha256": "aa50ef9fb55e5271526e25ccc6e60b2908f00440c3f33380d13d27ecd4cbc564",
+        "input_start": 17806,
+        "declared_output_bytes": 2562,
+        "actual_output_bytes": 2562,
+        "output_sha256": "90c502867234d075a47f71e5c5c5670dde6706647351c5b1f2dfb1e2848a3e88",
+        "tree_leaf_count": 128,
+        "tree_snapshot_stage": "Before native lookup builder consumes long-code depth entries",
+        "refills": [
+          {
+            "file_offset": 17806,
+            "available": 512
+          },
+          {
+            "file_offset": 18318,
+            "available": 512
+          },
+          {
+            "file_offset": 18830,
+            "available": 512
+          },
+          {
+            "file_offset": 19342,
+            "available": 512
+          }
+        ],
+        "max_actual_input_read_exclusive": 19746,
+        "native_reader_state_hex": "336509005630",
+        "source_pins": {
+          "matching/asm/huff_frame_decode_entry.asm": "1a8f4118a424b95d5e4fe51bcf8224780e7931c37346946c202710dfbcc5adcc",
+          "matching/asm/huff_tree_build_recursive.asm": "6ee793fb15f7d877b8fd6879930b49b53ed8c14812da563ea053c23d2a2359c0",
+          "matching/asm/huff_read_byte.asm": "ffeb00d460e95ee54a48abffbc8c584797bfc8e4d5d3294d5094b8aed44cffad",
+          "matching/asm/huff_get_bit.asm": "398941802582fbc03aaac9bb0c3a4abeb8a61700c7d62c3f7b537940cc12df2b",
+          "matching/asm/huff_build_lookup.asm": "55143488f6d3e2e7ae91957c4594c50acba9a30c6746719bd7b5739495d8626d",
+          "matching/asm/huff_decode_bytes.asm": "9ea8de2c0d50a55caeb73a34a610bb6c09e1036e4d983c9e5d8071b9c78b2227",
+          "matching/asm/huff_decode_stream.asm": "495995e31d28f71614255b052dd31ad4627ade7b267d5419048c8bb1f396e572",
+          "matching/asm/huff_window_save.asm": "0230bac9d7102c570ee8f7055cf010dde9dac07142efee6a1b04ef5c9117aa9f",
+          "matching/asm/huff_window_init.asm": "3a34aaa486c351a781978b2d97bb9ae238f40bd678ed724ab8daae75c9f1603a"
+        },
+        "whole_assembled_sha256": "e1e9a7e761149756cabdac4b18c481c97ec6d0108221f4f945cf966e28ad9a44",
+        "refill_substitution": "Explicit bounded512-byte file-source hook; no DOS I/O or original game execution claim",
+        "EOF_zero_or_stale_fill": false,
+        "pixels_palette_alpha_dimensions_or_animation_claimed": false
+      }
+    },
+    {
+      "id": "asset-02",
+      "family": "asset",
+      "index": 2,
+      "offset": 19745,
+      "size": 6535,
+      "end_exclusive": 26280,
+      "sha256": "27158e7ee2aebf4450e8be2bc746982d9be5f586b0967c0cb1ba92cf1437c0d3",
+      "file": "raw/asset-02.bin",
+      "decoded_format_verified": false,
+      "semantic_kind": "compressed_cached_record",
+      "symbol_status": "NATIVE_AND_INDEPENDENT_EXACT",
+      "decoded_file": "asset-02.decoded.bin",
+      "decoded_sha256": "ba88b89fbd7d33e5bf37e3b32b1ce80be9e95bf9f3213cb9f5f6de71dc939d7e",
+      "decoded_bytes": 8394,
+      "independent": {
+        "declared_bytes": 8394,
+        "tree_bits": 2803,
+        "consumed_bits_after_header": 52210,
+        "trailing_bits": 6,
+        "tree_leaves": 255,
+        "max_depth": 14,
+        "skipped_header_hex": "f9cb0000"
+      },
+      "native": {
+        "classification": "Native matched-ASM byte decode; raw candidate stream only, not a verified sprite/animation",
+        "input_sha256": "aa50ef9fb55e5271526e25ccc6e60b2908f00440c3f33380d13d27ecd4cbc564",
+        "input_start": 19745,
+        "declared_output_bytes": 8394,
+        "actual_output_bytes": 8394,
+        "output_sha256": "ba88b89fbd7d33e5bf37e3b32b1ce80be9e95bf9f3213cb9f5f6de71dc939d7e",
+        "tree_leaf_count": 255,
+        "tree_snapshot_stage": "Before native lookup builder consumes long-code depth entries",
+        "refills": [
+          {
+            "file_offset": 19745,
+            "available": 512
+          },
+          {
+            "file_offset": 20257,
+            "available": 512
+          },
+          {
+            "file_offset": 20769,
+            "available": 512
+          },
+          {
+            "file_offset": 21281,
+            "available": 512
+          },
+          {
+            "file_offset": 21793,
+            "available": 512
+          },
+          {
+            "file_offset": 22305,
+            "available": 512
+          },
+          {
+            "file_offset": 22817,
+            "available": 512
+          },
+          {
+            "file_offset": 23329,
+            "available": 512
+          },
+          {
+            "file_offset": 23841,
+            "available": 512
+          },
+          {
+            "file_offset": 24353,
+            "available": 512
+          },
+          {
+            "file_offset": 24865,
+            "available": 512
+          },
+          {
+            "file_offset": 25377,
+            "available": 512
+          },
+          {
+            "file_offset": 25889,
+            "available": 512
+          }
+        ],
+        "max_actual_input_read_exclusive": 26281,
+        "native_reader_state_hex": "31020e004a30",
+        "source_pins": {
+          "matching/asm/huff_frame_decode_entry.asm": "1a8f4118a424b95d5e4fe51bcf8224780e7931c37346946c202710dfbcc5adcc",
+          "matching/asm/huff_tree_build_recursive.asm": "6ee793fb15f7d877b8fd6879930b49b53ed8c14812da563ea053c23d2a2359c0",
+          "matching/asm/huff_read_byte.asm": "ffeb00d460e95ee54a48abffbc8c584797bfc8e4d5d3294d5094b8aed44cffad",
+          "matching/asm/huff_get_bit.asm": "398941802582fbc03aaac9bb0c3a4abeb8a61700c7d62c3f7b537940cc12df2b",
+          "matching/asm/huff_build_lookup.asm": "55143488f6d3e2e7ae91957c4594c50acba9a30c6746719bd7b5739495d8626d",
+          "matching/asm/huff_decode_bytes.asm": "9ea8de2c0d50a55caeb73a34a610bb6c09e1036e4d983c9e5d8071b9c78b2227",
+          "matching/asm/huff_decode_stream.asm": "495995e31d28f71614255b052dd31ad4627ade7b267d5419048c8bb1f396e572",
+          "matching/asm/huff_window_save.asm": "0230bac9d7102c570ee8f7055cf010dde9dac07142efee6a1b04ef5c9117aa9f",
+          "matching/asm/huff_window_init.asm": "3a34aaa486c351a781978b2d97bb9ae238f40bd678ed724ab8daae75c9f1603a"
+        },
+        "whole_assembled_sha256": "e1e9a7e761149756cabdac4b18c481c97ec6d0108221f4f945cf966e28ad9a44",
+        "refill_substitution": "Explicit bounded512-byte file-source hook; no DOS I/O or original game execution claim",
+        "EOF_zero_or_stale_fill": false,
+        "pixels_palette_alpha_dimensions_or_animation_claimed": false
+      }
+    },
+    {
+      "id": "asset-03",
+      "family": "asset",
+      "index": 3,
+      "offset": 26280,
+      "size": 2844,
+      "end_exclusive": 29124,
+      "sha256": "9b7b37e1a09a985514a3585f26bb3614ad2fd56be84d1366363a42136f82f27c",
+      "file": "raw/asset-03.bin",
+      "decoded_format_verified": false,
+      "semantic_kind": "compressed_cached_record",
+      "symbol_status": "NATIVE_AND_INDEPENDENT_EXACT",
+      "decoded_file": "asset-03.decoded.bin",
+      "decoded_sha256": "b5db802fa031f34c8b212a065e1fc0c13a485a5358c09c8660c4d4a7c49595a0",
+      "decoded_bytes": 2956,
+      "independent": {
+        "declared_bytes": 2956,
+        "tree_bits": 2737,
+        "consumed_bits_after_header": 22685,
+        "trailing_bits": 3,
+        "tree_leaves": 249,
+        "max_depth": 12,
+        "skipped_header_hex": "a4580000"
+      },
+      "native": {
+        "classification": "Native matched-ASM byte decode; raw candidate stream only, not a verified sprite/animation",
+        "input_sha256": "aa50ef9fb55e5271526e25ccc6e60b2908f00440c3f33380d13d27ecd4cbc564",
+        "input_start": 26280,
+        "declared_output_bytes": 2956,
+        "actual_output_bytes": 2956,
+        "output_sha256": "b5db802fa031f34c8b212a065e1fc0c13a485a5358c09c8660c4d4a7c49595a0",
+        "tree_leaf_count": 249,
+        "tree_snapshot_stage": "Before native lookup builder consumes long-code depth entries",
+        "refills": [
+          {
+            "file_offset": 26280,
+            "available": 512
+          },
+          {
+            "file_offset": 26792,
+            "available": 512
+          },
+          {
+            "file_offset": 27304,
+            "available": 512
+          },
+          {
+            "file_offset": 27816,
+            "available": 512
+          },
+          {
+            "file_offset": 28328,
+            "available": 512
+          },
+          {
+            "file_offset": 28840,
+            "available": 512
+          }
+        ],
+        "max_actual_input_read_exclusive": 29125,
+        "native_reader_state_hex": "9f140b00df2f",
+        "source_pins": {
+          "matching/asm/huff_frame_decode_entry.asm": "1a8f4118a424b95d5e4fe51bcf8224780e7931c37346946c202710dfbcc5adcc",
+          "matching/asm/huff_tree_build_recursive.asm": "6ee793fb15f7d877b8fd6879930b49b53ed8c14812da563ea053c23d2a2359c0",
+          "matching/asm/huff_read_byte.asm": "ffeb00d460e95ee54a48abffbc8c584797bfc8e4d5d3294d5094b8aed44cffad",
+          "matching/asm/huff_get_bit.asm": "398941802582fbc03aaac9bb0c3a4abeb8a61700c7d62c3f7b537940cc12df2b",
+          "matching/asm/huff_build_lookup.asm": "55143488f6d3e2e7ae91957c4594c50acba9a30c6746719bd7b5739495d8626d",
+          "matching/asm/huff_decode_bytes.asm": "9ea8de2c0d50a55caeb73a34a610bb6c09e1036e4d983c9e5d8071b9c78b2227",
+          "matching/asm/huff_decode_stream.asm": "495995e31d28f71614255b052dd31ad4627ade7b267d5419048c8bb1f396e572",
+          "matching/asm/huff_window_save.asm": "0230bac9d7102c570ee8f7055cf010dde9dac07142efee6a1b04ef5c9117aa9f",
+          "matching/asm/huff_window_init.asm": "3a34aaa486c351a781978b2d97bb9ae238f40bd678ed724ab8daae75c9f1603a"
+        },
+        "whole_assembled_sha256": "e1e9a7e761149756cabdac4b18c481c97ec6d0108221f4f945cf966e28ad9a44",
+        "refill_substitution": "Explicit bounded512-byte file-source hook; no DOS I/O or original game execution claim",
+        "EOF_zero_or_stale_fill": false,
+        "pixels_palette_alpha_dimensions_or_animation_claimed": false
+      }
+    },
+    {
+      "id": "asset-04",
+      "family": "asset",
+      "index": 4,
+      "offset": 29124,
+      "size": 3749,
+      "end_exclusive": 32873,
+      "sha256": "27322795660cd1c06d153871cbc2403003916d367609daf32254b0af0af4af54",
+      "file": "raw/asset-04.bin",
+      "decoded_format_verified": false,
+      "semantic_kind": "compressed_cached_record",
+      "symbol_status": "NATIVE_AND_INDEPENDENT_EXACT",
+      "decoded_file": "asset-04.decoded.bin",
+      "decoded_sha256": "780db7fd36222ffbb58bce60814fc5f09e8c03fe74f3be2a69312ef57bee2a5c",
+      "decoded_bytes": 5540,
+      "independent": {
+        "declared_bytes": 5540,
+        "tree_bits": 2407,
+        "consumed_bits_after_header": 29921,
+        "trailing_bits": 7,
+        "tree_leaves": 219,
+        "max_depth": 14,
+        "skipped_header_hex": "e8740000"
+      },
+      "native": {
+        "classification": "Native matched-ASM byte decode; raw candidate stream only, not a verified sprite/animation",
+        "input_sha256": "aa50ef9fb55e5271526e25ccc6e60b2908f00440c3f33380d13d27ecd4cbc564",
+        "input_start": 29124,
+        "declared_output_bytes": 5540,
+        "actual_output_bytes": 5540,
+        "output_sha256": "780db7fd36222ffbb58bce60814fc5f09e8c03fe74f3be2a69312ef57bee2a5c",
+        "tree_leaf_count": 219,
+        "tree_snapshot_stage": "Before native lookup builder consumes long-code depth entries",
+        "refills": [
+          {
+            "file_offset": 29124,
+            "available": 512
+          },
+          {
+            "file_offset": 29636,
+            "available": 512
+          },
+          {
+            "file_offset": 30148,
+            "available": 512
+          },
+          {
+            "file_offset": 30660,
+            "available": 512
+          },
+          {
+            "file_offset": 31172,
+            "available": 512
+          },
+          {
+            "file_offset": 31684,
+            "available": 512
+          },
+          {
+            "file_offset": 32196,
+            "available": 512
+          },
+          {
+            "file_offset": 32708,
+            "available": 512
+          }
+        ],
+        "max_actual_input_read_exclusive": 32874,
+        "native_reader_state_hex": "27010f00682f",
+        "source_pins": {
+          "matching/asm/huff_frame_decode_entry.asm": "1a8f4118a424b95d5e4fe51bcf8224780e7931c37346946c202710dfbcc5adcc",
+          "matching/asm/huff_tree_build_recursive.asm": "6ee793fb15f7d877b8fd6879930b49b53ed8c14812da563ea053c23d2a2359c0",
+          "matching/asm/huff_read_byte.asm": "ffeb00d460e95ee54a48abffbc8c584797bfc8e4d5d3294d5094b8aed44cffad",
+          "matching/asm/huff_get_bit.asm": "398941802582fbc03aaac9bb0c3a4abeb8a61700c7d62c3f7b537940cc12df2b",
+          "matching/asm/huff_build_lookup.asm": "55143488f6d3e2e7ae91957c4594c50acba9a30c6746719bd7b5739495d8626d",
+          "matching/asm/huff_decode_bytes.asm": "9ea8de2c0d50a55caeb73a34a610bb6c09e1036e4d983c9e5d8071b9c78b2227",
+          "matching/asm/huff_decode_stream.asm": "495995e31d28f71614255b052dd31ad4627ade7b267d5419048c8bb1f396e572",
+          "matching/asm/huff_window_save.asm": "0230bac9d7102c570ee8f7055cf010dde9dac07142efee6a1b04ef5c9117aa9f",
+          "matching/asm/huff_window_init.asm": "3a34aaa486c351a781978b2d97bb9ae238f40bd678ed724ab8daae75c9f1603a"
+        },
+        "whole_assembled_sha256": "e1e9a7e761149756cabdac4b18c481c97ec6d0108221f4f945cf966e28ad9a44",
+        "refill_substitution": "Explicit bounded512-byte file-source hook; no DOS I/O or original game execution claim",
+        "EOF_zero_or_stale_fill": false,
+        "pixels_palette_alpha_dimensions_or_animation_claimed": false
+      }
+    },
+    {
+      "id": "asset-05",
+      "family": "asset",
+      "index": 5,
+      "offset": 32873,
+      "size": 7369,
+      "end_exclusive": 40242,
+      "sha256": "ca1bfc8993b4b2d0e53d14e3fd2a115aef5e30c3d481048fcd9e5590fbd80cf5",
+      "file": "raw/asset-05.bin",
+      "decoded_format_verified": false,
+      "semantic_kind": "compressed_cached_record",
+      "symbol_status": "NATIVE_AND_INDEPENDENT_EXACT",
+      "decoded_file": "asset-05.decoded.bin",
+      "decoded_sha256": "efcac4b732af422bd1445d33c9073ed610a2644cfe2ddea6c8a4889c9fc8690f",
+      "decoded_bytes": 7827,
+      "independent": {
+        "declared_bytes": 7827,
+        "tree_bits": 2814,
+        "consumed_bits_after_header": 58882,
+        "trailing_bits": 6,
+        "tree_leaves": 256,
+        "max_depth": 12,
+        "skipped_header_hex": "09e60000"
+      },
+      "native": {
+        "classification": "Native matched-ASM byte decode; raw candidate stream only, not a verified sprite/animation",
+        "input_sha256": "aa50ef9fb55e5271526e25ccc6e60b2908f00440c3f33380d13d27ecd4cbc564",
+        "input_start": 32873,
+        "declared_output_bytes": 7827,
+        "actual_output_bytes": 7827,
+        "output_sha256": "efcac4b732af422bd1445d33c9073ed610a2644cfe2ddea6c8a4889c9fc8690f",
+        "tree_leaf_count": 256,
+        "tree_snapshot_stage": "Before native lookup builder consumes long-code depth entries",
+        "refills": [
+          {
+            "file_offset": 32873,
+            "available": 512
+          },
+          {
+            "file_offset": 33385,
+            "available": 512
+          },
+          {
+            "file_offset": 33897,
+            "available": 512
+          },
+          {
+            "file_offset": 34409,
+            "available": 512
+          },
+          {
+            "file_offset": 34921,
+            "available": 512
+          },
+          {
+            "file_offset": 35433,
+            "available": 512
+          },
+          {
+            "file_offset": 35945,
+            "available": 512
+          },
+          {
+            "file_offset": 36457,
+            "available": 512
+          },
+          {
+            "file_offset": 36969,
+            "available": 512
+          },
+          {
+            "file_offset": 37481,
+            "available": 512
+          },
+          {
+            "file_offset": 37993,
+            "available": 512
+          },
+          {
+            "file_offset": 38505,
+            "available": 512
+          },
+          {
+            "file_offset": 39017,
+            "available": 512
+          },
+          {
+            "file_offset": 39529,
+            "available": 512
+          },
+          {
+            "file_offset": 40041,
+            "available": 512
+          }
+        ],
+        "max_actual_input_read_exclusive": 40243,
+        "native_reader_state_hex": "6d000e008c2f",
+        "source_pins": {
+          "matching/asm/huff_frame_decode_entry.asm": "1a8f4118a424b95d5e4fe51bcf8224780e7931c37346946c202710dfbcc5adcc",
+          "matching/asm/huff_tree_build_recursive.asm": "6ee793fb15f7d877b8fd6879930b49b53ed8c14812da563ea053c23d2a2359c0",
+          "matching/asm/huff_read_byte.asm": "ffeb00d460e95ee54a48abffbc8c584797bfc8e4d5d3294d5094b8aed44cffad",
+          "matching/asm/huff_get_bit.asm": "398941802582fbc03aaac9bb0c3a4abeb8a61700c7d62c3f7b537940cc12df2b",
+          "matching/asm/huff_build_lookup.asm": "55143488f6d3e2e7ae91957c4594c50acba9a30c6746719bd7b5739495d8626d",
+          "matching/asm/huff_decode_bytes.asm": "9ea8de2c0d50a55caeb73a34a610bb6c09e1036e4d983c9e5d8071b9c78b2227",
+          "matching/asm/huff_decode_stream.asm": "495995e31d28f71614255b052dd31ad4627ade7b267d5419048c8bb1f396e572",
+          "matching/asm/huff_window_save.asm": "0230bac9d7102c570ee8f7055cf010dde9dac07142efee6a1b04ef5c9117aa9f",
+          "matching/asm/huff_window_init.asm": "3a34aaa486c351a781978b2d97bb9ae238f40bd678ed724ab8daae75c9f1603a"
+        },
+        "whole_assembled_sha256": "e1e9a7e761149756cabdac4b18c481c97ec6d0108221f4f945cf966e28ad9a44",
+        "refill_substitution": "Explicit bounded512-byte file-source hook; no DOS I/O or original game execution claim",
+        "EOF_zero_or_stale_fill": false,
+        "pixels_palette_alpha_dimensions_or_animation_claimed": false
+      }
+    },
+    {
+      "id": "asset-06",
+      "family": "asset",
+      "index": 6,
+      "offset": 40242,
+      "size": 5991,
+      "end_exclusive": 46233,
+      "sha256": "59fba046bb4be0e7737a0541215e9dce17e41eef3b83292929dfff70e6386b97",
+      "file": "raw/asset-06.bin",
+      "decoded_format_verified": false,
+      "semantic_kind": "compressed_cached_record",
+      "symbol_status": "NATIVE_AND_INDEPENDENT_EXACT",
+      "decoded_file": "asset-06.decoded.bin",
+      "decoded_sha256": "f435e403220b86f0550a51a084bd10561fd7f1833a2c38d18de963a5809d61af",
+      "decoded_bytes": 7707,
+      "independent": {
+        "declared_bytes": 7707,
+        "tree_bits": 2594,
+        "consumed_bits_after_header": 47859,
+        "trailing_bits": 5,
+        "tree_leaves": 236,
+        "max_depth": 13,
+        "skipped_header_hex": "faba0000"
+      },
+      "native": {
+        "classification": "Native matched-ASM byte decode; raw candidate stream only, not a verified sprite/animation",
+        "input_sha256": "aa50ef9fb55e5271526e25ccc6e60b2908f00440c3f33380d13d27ecd4cbc564",
+        "input_start": 40242,
+        "declared_output_bytes": 7707,
+        "actual_output_bytes": 7707,
+        "output_sha256": "f435e403220b86f0550a51a084bd10561fd7f1833a2c38d18de963a5809d61af",
+        "tree_leaf_count": 236,
+        "tree_snapshot_stage": "Before native lookup builder consumes long-code depth entries",
+        "refills": [
+          {
+            "file_offset": 40242,
+            "available": 512
+          },
+          {
+            "file_offset": 40754,
+            "available": 512
+          },
+          {
+            "file_offset": 41266,
+            "available": 512
+          },
+          {
+            "file_offset": 41778,
+            "available": 512
+          },
+          {
+            "file_offset": 42290,
+            "available": 512
+          },
+          {
+            "file_offset": 42802,
+            "available": 512
+          },
+          {
+            "file_offset": 43314,
+            "available": 512
+          },
+          {
+            "file_offset": 43826,
+            "available": 512
+          },
+          {
+            "file_offset": 44338,
+            "available": 512
+          },
+          {
+            "file_offset": 44850,
+            "available": 512
+          },
+          {
+            "file_offset": 45362,
+            "available": 512
+          },
+          {
+            "file_offset": 45874,
+            "available": 512
+          }
+        ],
+        "max_actual_input_read_exclusive": 46234,
+        "native_reader_state_hex": "9e040d002a30",
+        "source_pins": {
+          "matching/asm/huff_frame_decode_entry.asm": "1a8f4118a424b95d5e4fe51bcf8224780e7931c37346946c202710dfbcc5adcc",
+          "matching/asm/huff_tree_build_recursive.asm": "6ee793fb15f7d877b8fd6879930b49b53ed8c14812da563ea053c23d2a2359c0",
+          "matching/asm/huff_read_byte.asm": "ffeb00d460e95ee54a48abffbc8c584797bfc8e4d5d3294d5094b8aed44cffad",
+          "matching/asm/huff_get_bit.asm": "398941802582fbc03aaac9bb0c3a4abeb8a61700c7d62c3f7b537940cc12df2b",
+          "matching/asm/huff_build_lookup.asm": "55143488f6d3e2e7ae91957c4594c50acba9a30c6746719bd7b5739495d8626d",
+          "matching/asm/huff_decode_bytes.asm": "9ea8de2c0d50a55caeb73a34a610bb6c09e1036e4d983c9e5d8071b9c78b2227",
+          "matching/asm/huff_decode_stream.asm": "495995e31d28f71614255b052dd31ad4627ade7b267d5419048c8bb1f396e572",
+          "matching/asm/huff_window_save.asm": "0230bac9d7102c570ee8f7055cf010dde9dac07142efee6a1b04ef5c9117aa9f",
+          "matching/asm/huff_window_init.asm": "3a34aaa486c351a781978b2d97bb9ae238f40bd678ed724ab8daae75c9f1603a"
+        },
+        "whole_assembled_sha256": "e1e9a7e761149756cabdac4b18c481c97ec6d0108221f4f945cf966e28ad9a44",
+        "refill_substitution": "Explicit bounded512-byte file-source hook; no DOS I/O or original game execution claim",
+        "EOF_zero_or_stale_fill": false,
+        "pixels_palette_alpha_dimensions_or_animation_claimed": false
+      }
+    },
+    {
+      "id": "asset-07",
+      "family": "asset",
+      "index": 7,
+      "offset": 46233,
+      "size": 4341,
+      "end_exclusive": 50574,
+      "sha256": "97936f11114c184bae93d4e072926308c20dd59816eed82e13ab0f6ba00fb3d3",
+      "file": "raw/asset-07.bin",
+      "decoded_format_verified": false,
+      "semantic_kind": "compressed_cached_record",
+      "symbol_status": "NATIVE_AND_INDEPENDENT_EXACT",
+      "decoded_file": "asset-07.decoded.bin",
+      "decoded_sha256": "17baca8c11d7c3ea93c1a4aabe37307fcf7e6317ddc37d240bcf859d22fcffe3",
+      "decoded_bytes": 5523,
+      "independent": {
+        "declared_bytes": 5523,
+        "tree_bits": 2737,
+        "consumed_bits_after_header": 34661,
+        "trailing_bits": 3,
+        "tree_leaves": 249,
+        "max_depth": 13,
+        "skipped_header_hex": "6c870000"
+      },
+      "native": {
+        "classification": "Native matched-ASM byte decode; raw candidate stream only, not a verified sprite/animation",
+        "input_sha256": "aa50ef9fb55e5271526e25ccc6e60b2908f00440c3f33380d13d27ecd4cbc564",
+        "input_start": 46233,
+        "declared_output_bytes": 5523,
+        "actual_output_bytes": 5523,
+        "output_sha256": "17baca8c11d7c3ea93c1a4aabe37307fcf7e6317ddc37d240bcf859d22fcffe3",
+        "tree_leaf_count": 249,
+        "tree_snapshot_stage": "Before native lookup builder consumes long-code depth entries",
+        "refills": [
+          {
+            "file_offset": 46233,
+            "available": 512
+          },
+          {
+            "file_offset": 46745,
+            "available": 512
+          },
+          {
+            "file_offset": 47257,
+            "available": 512
+          },
+          {
+            "file_offset": 47769,
+            "available": 512
+          },
+          {
+            "file_offset": 48281,
+            "available": 512
+          },
+          {
+            "file_offset": 48793,
+            "available": 512
+          },
+          {
+            "file_offset": 49305,
+            "available": 512
+          },
+          {
+            "file_offset": 49817,
+            "available": 512
+          },
+          {
+            "file_offset": 50329,
+            "available": 512
+          }
+        ],
+        "max_actual_input_read_exclusive": 50575,
+        "native_reader_state_hex": "46160b00b82f",
+        "source_pins": {
+          "matching/asm/huff_frame_decode_entry.asm": "1a8f4118a424b95d5e4fe51bcf8224780e7931c37346946c202710dfbcc5adcc",
+          "matching/asm/huff_tree_build_recursive.asm": "6ee793fb15f7d877b8fd6879930b49b53ed8c14812da563ea053c23d2a2359c0",
+          "matching/asm/huff_read_byte.asm": "ffeb00d460e95ee54a48abffbc8c584797bfc8e4d5d3294d5094b8aed44cffad",
+          "matching/asm/huff_get_bit.asm": "398941802582fbc03aaac9bb0c3a4abeb8a61700c7d62c3f7b537940cc12df2b",
+          "matching/asm/huff_build_lookup.asm": "55143488f6d3e2e7ae91957c4594c50acba9a30c6746719bd7b5739495d8626d",
+          "matching/asm/huff_decode_bytes.asm": "9ea8de2c0d50a55caeb73a34a610bb6c09e1036e4d983c9e5d8071b9c78b2227",
+          "matching/asm/huff_decode_stream.asm": "495995e31d28f71614255b052dd31ad4627ade7b267d5419048c8bb1f396e572",
+          "matching/asm/huff_window_save.asm": "0230bac9d7102c570ee8f7055cf010dde9dac07142efee6a1b04ef5c9117aa9f",
+          "matching/asm/huff_window_init.asm": "3a34aaa486c351a781978b2d97bb9ae238f40bd678ed724ab8daae75c9f1603a"
+        },
+        "whole_assembled_sha256": "e1e9a7e761149756cabdac4b18c481c97ec6d0108221f4f945cf966e28ad9a44",
+        "refill_substitution": "Explicit bounded512-byte file-source hook; no DOS I/O or original game execution claim",
+        "EOF_zero_or_stale_fill": false,
+        "pixels_palette_alpha_dimensions_or_animation_claimed": false
+      }
+    },
+    {
+      "id": "asset-08",
+      "family": "asset",
+      "index": 8,
+      "offset": 50574,
+      "size": 3975,
+      "end_exclusive": 54549,
+      "sha256": "c7edd5238e31a38e368842d200aca78a38fa7c78808c3c02f8afcd91e952d075",
+      "file": "raw/asset-08.bin",
+      "decoded_format_verified": false,
+      "semantic_kind": "compressed_cached_record",
+      "symbol_status": "NATIVE_AND_INDEPENDENT_EXACT",
+      "decoded_file": "asset-08.decoded.bin",
+      "decoded_sha256": "3d12cbf6de373f64182bc26d14ed1cceb1d3e6985d4b8ded93a6e5d9f1f624dd",
+      "decoded_bytes": 5554,
+      "independent": {
+        "declared_bytes": 5554,
+        "tree_bits": 1967,
+        "consumed_bits_after_header": 31732,
+        "trailing_bits": 4,
+        "tree_leaves": 179,
+        "max_depth": 12,
+        "skipped_header_hex": "fb7b0000"
+      },
+      "native": {
+        "classification": "Native matched-ASM byte decode; raw candidate stream only, not a verified sprite/animation",
+        "input_sha256": "aa50ef9fb55e5271526e25ccc6e60b2908f00440c3f33380d13d27ecd4cbc564",
+        "input_start": 50574,
+        "declared_output_bytes": 5554,
+        "actual_output_bytes": 5554,
+        "output_sha256": "3d12cbf6de373f64182bc26d14ed1cceb1d3e6985d4b8ded93a6e5d9f1f624dd",
+        "tree_leaf_count": 179,
+        "tree_snapshot_stage": "Before native lookup builder consumes long-code depth entries",
+        "refills": [
+          {
+            "file_offset": 50574,
+            "available": 512
+          },
+          {
+            "file_offset": 51086,
+            "available": 512
+          },
+          {
+            "file_offset": 51598,
+            "available": 512
+          },
+          {
+            "file_offset": 52110,
+            "available": 512
+          },
+          {
+            "file_offset": 52622,
+            "available": 512
+          },
+          {
+            "file_offset": 53134,
+            "available": 512
+          },
+          {
+            "file_offset": 53646,
+            "available": 512
+          },
+          {
+            "file_offset": 54158,
+            "available": 512
+          }
+        ],
+        "max_actual_input_read_exclusive": 54550,
+        "native_reader_state_hex": "ff0a0c004a30",
+        "source_pins": {
+          "matching/asm/huff_frame_decode_entry.asm": "1a8f4118a424b95d5e4fe51bcf8224780e7931c37346946c202710dfbcc5adcc",
+          "matching/asm/huff_tree_build_recursive.asm": "6ee793fb15f7d877b8fd6879930b49b53ed8c14812da563ea053c23d2a2359c0",
+          "matching/asm/huff_read_byte.asm": "ffeb00d460e95ee54a48abffbc8c584797bfc8e4d5d3294d5094b8aed44cffad",
+          "matching/asm/huff_get_bit.asm": "398941802582fbc03aaac9bb0c3a4abeb8a61700c7d62c3f7b537940cc12df2b",
+          "matching/asm/huff_build_lookup.asm": "55143488f6d3e2e7ae91957c4594c50acba9a30c6746719bd7b5739495d8626d",
+          "matching/asm/huff_decode_bytes.asm": "9ea8de2c0d50a55caeb73a34a610bb6c09e1036e4d983c9e5d8071b9c78b2227",
+          "matching/asm/huff_decode_stream.asm": "495995e31d28f71614255b052dd31ad4627ade7b267d5419048c8bb1f396e572",
+          "matching/asm/huff_window_save.asm": "0230bac9d7102c570ee8f7055cf010dde9dac07142efee6a1b04ef5c9117aa9f",
+          "matching/asm/huff_window_init.asm": "3a34aaa486c351a781978b2d97bb9ae238f40bd678ed724ab8daae75c9f1603a"
+        },
+        "whole_assembled_sha256": "e1e9a7e761149756cabdac4b18c481c97ec6d0108221f4f945cf966e28ad9a44",
+        "refill_substitution": "Explicit bounded512-byte file-source hook; no DOS I/O or original game execution claim",
+        "EOF_zero_or_stale_fill": false,
+        "pixels_palette_alpha_dimensions_or_animation_claimed": false
+      }
+    },
+    {
+      "id": "asset-09",
+      "family": "asset",
+      "index": 9,
+      "offset": 54549,
+      "size": 3147,
+      "end_exclusive": 57696,
+      "sha256": "149e45090d7a3a25080beb5b37298f67eb0edeb5326143c2f0528af4c1906466",
+      "file": "raw/asset-09.bin",
+      "decoded_format_verified": false,
+      "semantic_kind": "compressed_cached_record",
+      "symbol_status": "NATIVE_AND_INDEPENDENT_EXACT",
+      "decoded_file": "asset-09.decoded.bin",
+      "decoded_sha256": "b0c3a19069d8c6967e745495c674ef5766d98f6a65bf476d474c3b73ffd5adc7",
+      "decoded_bytes": 4015,
+      "independent": {
+        "declared_bytes": 4015,
+        "tree_bits": 2198,
+        "consumed_bits_after_header": 25105,
+        "trailing_bits": 7,
+        "tree_leaves": 200,
+        "max_depth": 13,
+        "skipped_header_hex": "18620000"
+      },
+      "native": {
+        "classification": "Native matched-ASM byte decode; raw candidate stream only, not a verified sprite/animation",
+        "input_sha256": "aa50ef9fb55e5271526e25ccc6e60b2908f00440c3f33380d13d27ecd4cbc564",
+        "input_start": 54549,
+        "declared_output_bytes": 4015,
+        "actual_output_bytes": 4015,
+        "output_sha256": "b0c3a19069d8c6967e745495c674ef5766d98f6a65bf476d474c3b73ffd5adc7",
+        "tree_leaf_count": 200,
+        "tree_snapshot_stage": "Before native lookup builder consumes long-code depth entries",
+        "refills": [
+          {
+            "file_offset": 54549,
+            "available": 512
+          },
+          {
+            "file_offset": 55061,
+            "available": 512
+          },
+          {
+            "file_offset": 55573,
+            "available": 512
+          },
+          {
+            "file_offset": 56085,
+            "available": 512
+          },
+          {
+            "file_offset": 56597,
+            "available": 512
+          },
+          {
+            "file_offset": 57109,
+            "available": 512
+          },
+          {
+            "file_offset": 57621,
+            "available": 512
+          }
+        ],
+        "max_actual_input_read_exclusive": 57697,
+        "native_reader_state_hex": "c5010f000e2f",
+        "source_pins": {
+          "matching/asm/huff_frame_decode_entry.asm": "1a8f4118a424b95d5e4fe51bcf8224780e7931c37346946c202710dfbcc5adcc",
+          "matching/asm/huff_tree_build_recursive.asm": "6ee793fb15f7d877b8fd6879930b49b53ed8c14812da563ea053c23d2a2359c0",
+          "matching/asm/huff_read_byte.asm": "ffeb00d460e95ee54a48abffbc8c584797bfc8e4d5d3294d5094b8aed44cffad",
+          "matching/asm/huff_get_bit.asm": "398941802582fbc03aaac9bb0c3a4abeb8a61700c7d62c3f7b537940cc12df2b",
+          "matching/asm/huff_build_lookup.asm": "55143488f6d3e2e7ae91957c4594c50acba9a30c6746719bd7b5739495d8626d",
+          "matching/asm/huff_decode_bytes.asm": "9ea8de2c0d50a55caeb73a34a610bb6c09e1036e4d983c9e5d8071b9c78b2227",
+          "matching/asm/huff_decode_stream.asm": "495995e31d28f71614255b052dd31ad4627ade7b267d5419048c8bb1f396e572",
+          "matching/asm/huff_window_save.asm": "0230bac9d7102c570ee8f7055cf010dde9dac07142efee6a1b04ef5c9117aa9f",
+          "matching/asm/huff_window_init.asm": "3a34aaa486c351a781978b2d97bb9ae238f40bd678ed724ab8daae75c9f1603a"
+        },
+        "whole_assembled_sha256": "e1e9a7e761149756cabdac4b18c481c97ec6d0108221f4f945cf966e28ad9a44",
+        "refill_substitution": "Explicit bounded512-byte file-source hook; no DOS I/O or original game execution claim",
+        "EOF_zero_or_stale_fill": false,
+        "pixels_palette_alpha_dimensions_or_animation_claimed": false
+      }
+    },
+    {
+      "id": "asset-10",
+      "family": "asset",
+      "index": 10,
+      "offset": 57696,
+      "size": 3266,
+      "end_exclusive": 60962,
+      "sha256": "9082f8f970eaef31a33f53ba96e9c2c1e6a164d0cc498c8ceba0a47043ae4c3f",
+      "file": "raw/asset-10.bin",
+      "decoded_format_verified": false,
+      "semantic_kind": "compressed_cached_record",
+      "symbol_status": "NATIVE_AND_INDEPENDENT_EXACT",
+      "decoded_file": "asset-10.decoded.bin",
+      "decoded_sha256": "6a759c49fe64aa8a8514c5c36422db25af3b2e7b07872164750a3e07930a820c",
+      "decoded_bytes": 4834,
+      "independent": {
+        "declared_bytes": 4834,
+        "tree_bits": 1824,
+        "consumed_bits_after_header": 26061,
+        "trailing_bits": 3,
+        "tree_leaves": 166,
+        "max_depth": 12,
+        "skipped_header_hex": "d4650000"
+      },
+      "native": {
+        "classification": "Native matched-ASM byte decode; raw candidate stream only, not a verified sprite/animation",
+        "input_sha256": "aa50ef9fb55e5271526e25ccc6e60b2908f00440c3f33380d13d27ecd4cbc564",
+        "input_start": 57696,
+        "declared_output_bytes": 4834,
+        "actual_output_bytes": 4834,
+        "output_sha256": "6a759c49fe64aa8a8514c5c36422db25af3b2e7b07872164750a3e07930a820c",
+        "tree_leaf_count": 166,
+        "tree_snapshot_stage": "Before native lookup builder consumes long-code depth entries",
+        "refills": [
+          {
+            "file_offset": 57696,
+            "available": 512
+          },
+          {
+            "file_offset": 58208,
+            "available": 512
+          },
+          {
+            "file_offset": 58720,
+            "available": 512
+          },
+          {
+            "file_offset": 59232,
+            "available": 512
+          },
+          {
+            "file_offset": 59744,
+            "available": 512
+          },
+          {
+            "file_offset": 60256,
+            "available": 512
+          },
+          {
+            "file_offset": 60768,
+            "available": 512
+          }
+        ],
+        "max_actual_input_read_exclusive": 60963,
+        "native_reader_state_hex": "c0000b00852f",
+        "source_pins": {
+          "matching/asm/huff_frame_decode_entry.asm": "1a8f4118a424b95d5e4fe51bcf8224780e7931c37346946c202710dfbcc5adcc",
+          "matching/asm/huff_tree_build_recursive.asm": "6ee793fb15f7d877b8fd6879930b49b53ed8c14812da563ea053c23d2a2359c0",
+          "matching/asm/huff_read_byte.asm": "ffeb00d460e95ee54a48abffbc8c584797bfc8e4d5d3294d5094b8aed44cffad",
+          "matching/asm/huff_get_bit.asm": "398941802582fbc03aaac9bb0c3a4abeb8a61700c7d62c3f7b537940cc12df2b",
+          "matching/asm/huff_build_lookup.asm": "55143488f6d3e2e7ae91957c4594c50acba9a30c6746719bd7b5739495d8626d",
+          "matching/asm/huff_decode_bytes.asm": "9ea8de2c0d50a55caeb73a34a610bb6c09e1036e4d983c9e5d8071b9c78b2227",
+          "matching/asm/huff_decode_stream.asm": "495995e31d28f71614255b052dd31ad4627ade7b267d5419048c8bb1f396e572",
+          "matching/asm/huff_window_save.asm": "0230bac9d7102c570ee8f7055cf010dde9dac07142efee6a1b04ef5c9117aa9f",
+          "matching/asm/huff_window_init.asm": "3a34aaa486c351a781978b2d97bb9ae238f40bd678ed724ab8daae75c9f1603a"
+        },
+        "whole_assembled_sha256": "e1e9a7e761149756cabdac4b18c481c97ec6d0108221f4f945cf966e28ad9a44",
+        "refill_substitution": "Explicit bounded512-byte file-source hook; no DOS I/O or original game execution claim",
+        "EOF_zero_or_stale_fill": false,
+        "pixels_palette_alpha_dimensions_or_animation_claimed": false
+      }
+    },
+    {
+      "id": "asset-11",
+      "family": "asset",
+      "index": 11,
+      "offset": 60962,
+      "size": 2502,
+      "end_exclusive": 63464,
+      "sha256": "378aaf475617245bd6aecc160cf4e931a5b81f731a87528077aee5cf1c5474b8",
+      "file": "raw/asset-11.bin",
+      "decoded_format_verified": false,
+      "semantic_kind": "compressed_cached_record",
+      "symbol_status": "NATIVE_AND_INDEPENDENT_EXACT",
+      "decoded_file": "asset-11.decoded.bin",
+      "decoded_sha256": "1d3df9868ed97db998785fd6955c9b751748421c96bfe1d800b78fad8dd0f796",
+      "decoded_bytes": 3590,
+      "independent": {
+        "declared_bytes": 3590,
+        "tree_bits": 1714,
+        "consumed_bits_after_header": 19951,
+        "trailing_bits": 1,
+        "tree_leaves": 156,
+        "max_depth": 12,
+        "skipped_header_hex": "f64d0000"
+      },
+      "native": {
+        "classification": "Native matched-ASM byte decode; raw candidate stream only, not a verified sprite/animation",
+        "input_sha256": "aa50ef9fb55e5271526e25ccc6e60b2908f00440c3f33380d13d27ecd4cbc564",
+        "input_start": 60962,
+        "declared_output_bytes": 3590,
+        "actual_output_bytes": 3590,
+        "output_sha256": "1d3df9868ed97db998785fd6955c9b751748421c96bfe1d800b78fad8dd0f796",
+        "tree_leaf_count": 156,
+        "tree_snapshot_stage": "Before native lookup builder consumes long-code depth entries",
+        "refills": [
+          {
+            "file_offset": 60962,
+            "available": 512
+          },
+          {
+            "file_offset": 61474,
+            "available": 512
+          },
+          {
+            "file_offset": 61986,
+            "available": 512
+          },
+          {
+            "file_offset": 62498,
+            "available": 512
+          },
+          {
+            "file_offset": 63010,
+            "available": 512
+          }
+        ],
+        "max_actual_input_read_exclusive": 63465,
+        "native_reader_state_hex": "eb5009008930",
+        "source_pins": {
+          "matching/asm/huff_frame_decode_entry.asm": "1a8f4118a424b95d5e4fe51bcf8224780e7931c37346946c202710dfbcc5adcc",
+          "matching/asm/huff_tree_build_recursive.asm": "6ee793fb15f7d877b8fd6879930b49b53ed8c14812da563ea053c23d2a2359c0",
+          "matching/asm/huff_read_byte.asm": "ffeb00d460e95ee54a48abffbc8c584797bfc8e4d5d3294d5094b8aed44cffad",
+          "matching/asm/huff_get_bit.asm": "398941802582fbc03aaac9bb0c3a4abeb8a61700c7d62c3f7b537940cc12df2b",
+          "matching/asm/huff_build_lookup.asm": "55143488f6d3e2e7ae91957c4594c50acba9a30c6746719bd7b5739495d8626d",
+          "matching/asm/huff_decode_bytes.asm": "9ea8de2c0d50a55caeb73a34a610bb6c09e1036e4d983c9e5d8071b9c78b2227",
+          "matching/asm/huff_decode_stream.asm": "495995e31d28f71614255b052dd31ad4627ade7b267d5419048c8bb1f396e572",
+          "matching/asm/huff_window_save.asm": "0230bac9d7102c570ee8f7055cf010dde9dac07142efee6a1b04ef5c9117aa9f",
+          "matching/asm/huff_window_init.asm": "3a34aaa486c351a781978b2d97bb9ae238f40bd678ed724ab8daae75c9f1603a"
+        },
+        "whole_assembled_sha256": "e1e9a7e761149756cabdac4b18c481c97ec6d0108221f4f945cf966e28ad9a44",
+        "refill_substitution": "Explicit bounded512-byte file-source hook; no DOS I/O or original game execution claim",
+        "EOF_zero_or_stale_fill": false,
+        "pixels_palette_alpha_dimensions_or_animation_claimed": false
+      }
+    },
+    {
+      "id": "asset-12",
+      "family": "asset",
+      "index": 12,
+      "offset": 63464,
+      "size": 3784,
+      "end_exclusive": 67248,
+      "sha256": "2895720303b0a4c4cab4e91368e00fa0d695a6a4f56ef23e4f8be1b9e80cb063",
+      "file": "raw/asset-12.bin",
+      "decoded_format_verified": false,
+      "semantic_kind": "compressed_cached_record",
+      "symbol_status": "NATIVE_AND_INDEPENDENT_EXACT",
+      "decoded_file": "asset-12.decoded.bin",
+      "decoded_sha256": "9ded4a7fb7516ec50767567ce325ab77e7d9eb60e8cd79bcd786e8230ac88be5",
+      "decoded_bytes": 7073,
+      "independent": {
+        "declared_bytes": 7073,
+        "tree_bits": 2572,
+        "consumed_bits_after_header": 30206,
+        "trailing_bits": 2,
+        "tree_leaves": 234,
+        "max_depth": 13,
+        "skipped_header_hex": "05760000"
+      },
+      "native": {
+        "classification": "Native matched-ASM byte decode; raw candidate stream only, not a verified sprite/animation",
+        "input_sha256": "aa50ef9fb55e5271526e25ccc6e60b2908f00440c3f33380d13d27ecd4cbc564",
+        "input_start": 63464,
+        "declared_output_bytes": 7073,
+        "actual_output_bytes": 7073,
+        "output_sha256": "9ded4a7fb7516ec50767567ce325ab77e7d9eb60e8cd79bcd786e8230ac88be5",
+        "tree_leaf_count": 234,
+        "tree_snapshot_stage": "Before native lookup builder consumes long-code depth entries",
+        "refills": [
+          {
+            "file_offset": 63464,
+            "available": 512
+          },
+          {
+            "file_offset": 63976,
+            "available": 512
+          },
+          {
+            "file_offset": 64488,
+            "available": 512
+          },
+          {
+            "file_offset": 65000,
+            "available": 512
+          },
+          {
+            "file_offset": 65512,
+            "available": 512
+          },
+          {
+            "file_offset": 66024,
+            "available": 512
+          },
+          {
+            "file_offset": 66536,
+            "available": 512
+          },
+          {
+            "file_offset": 67048,
+            "available": 512
+          }
+        ],
+        "max_actual_input_read_exclusive": 67249,
+        "native_reader_state_hex": "3f260a008b2f",
+        "source_pins": {
+          "matching/asm/huff_frame_decode_entry.asm": "1a8f4118a424b95d5e4fe51bcf8224780e7931c37346946c202710dfbcc5adcc",
+          "matching/asm/huff_tree_build_recursive.asm": "6ee793fb15f7d877b8fd6879930b49b53ed8c14812da563ea053c23d2a2359c0",
+          "matching/asm/huff_read_byte.asm": "ffeb00d460e95ee54a48abffbc8c584797bfc8e4d5d3294d5094b8aed44cffad",
+          "matching/asm/huff_get_bit.asm": "398941802582fbc03aaac9bb0c3a4abeb8a61700c7d62c3f7b537940cc12df2b",
+          "matching/asm/huff_build_lookup.asm": "55143488f6d3e2e7ae91957c4594c50acba9a30c6746719bd7b5739495d8626d",
+          "matching/asm/huff_decode_bytes.asm": "9ea8de2c0d50a55caeb73a34a610bb6c09e1036e4d983c9e5d8071b9c78b2227",
+          "matching/asm/huff_decode_stream.asm": "495995e31d28f71614255b052dd31ad4627ade7b267d5419048c8bb1f396e572",
+          "matching/asm/huff_window_save.asm": "0230bac9d7102c570ee8f7055cf010dde9dac07142efee6a1b04ef5c9117aa9f",
+          "matching/asm/huff_window_init.asm": "3a34aaa486c351a781978b2d97bb9ae238f40bd678ed724ab8daae75c9f1603a"
+        },
+        "whole_assembled_sha256": "e1e9a7e761149756cabdac4b18c481c97ec6d0108221f4f945cf966e28ad9a44",
+        "refill_substitution": "Explicit bounded512-byte file-source hook; no DOS I/O or original game execution claim",
+        "EOF_zero_or_stale_fill": false,
+        "pixels_palette_alpha_dimensions_or_animation_claimed": false
+      }
+    },
+    {
+      "id": "asset-13",
+      "family": "asset",
+      "index": 13,
+      "offset": 67248,
+      "size": 3725,
+      "end_exclusive": 70973,
+      "sha256": "64baa8928344f88e9ff1e678ec32c2ed2245699666bb7b4062470e0a4e4b9d2d",
+      "file": "raw/asset-13.bin",
+      "decoded_format_verified": false,
+      "semantic_kind": "compressed_cached_record",
+      "symbol_status": "NATIVE_AND_INDEPENDENT_EXACT",
+      "decoded_file": "asset-13.decoded.bin",
+      "decoded_sha256": "0a9ebef1bdeb9fe7f223dd8ffd6a9ec591881418a5e0f40aeb9bfd6bcd23c3ec",
+      "decoded_bytes": 4760,
+      "independent": {
+        "declared_bytes": 4760,
+        "tree_bits": 2682,
+        "consumed_bits_after_header": 29734,
+        "trailing_bits": 2,
+        "tree_leaves": 244,
+        "max_depth": 13,
+        "skipped_header_hex": "2d740000"
+      },
+      "native": {
+        "classification": "Native matched-ASM byte decode; raw candidate stream only, not a verified sprite/animation",
+        "input_sha256": "aa50ef9fb55e5271526e25ccc6e60b2908f00440c3f33380d13d27ecd4cbc564",
+        "input_start": 67248,
+        "declared_output_bytes": 4760,
+        "actual_output_bytes": 4760,
+        "output_sha256": "0a9ebef1bdeb9fe7f223dd8ffd6a9ec591881418a5e0f40aeb9bfd6bcd23c3ec",
+        "tree_leaf_count": 244,
+        "tree_snapshot_stage": "Before native lookup builder consumes long-code depth entries",
+        "refills": [
+          {
+            "file_offset": 67248,
+            "available": 512
+          },
+          {
+            "file_offset": 67760,
+            "available": 512
+          },
+          {
+            "file_offset": 68272,
+            "available": 512
+          },
+          {
+            "file_offset": 68784,
+            "available": 512
+          },
+          {
+            "file_offset": 69296,
+            "available": 512
+          },
+          {
+            "file_offset": 69808,
+            "available": 512
+          },
+          {
+            "file_offset": 70320,
+            "available": 512
+          },
+          {
+            "file_offset": 70832,
+            "available": 512
+          }
+        ],
+        "max_actual_input_read_exclusive": 70974,
+        "native_reader_state_hex": "2a300a00502f",
+        "source_pins": {
+          "matching/asm/huff_frame_decode_entry.asm": "1a8f4118a424b95d5e4fe51bcf8224780e7931c37346946c202710dfbcc5adcc",
+          "matching/asm/huff_tree_build_recursive.asm": "6ee793fb15f7d877b8fd6879930b49b53ed8c14812da563ea053c23d2a2359c0",
+          "matching/asm/huff_read_byte.asm": "ffeb00d460e95ee54a48abffbc8c584797bfc8e4d5d3294d5094b8aed44cffad",
+          "matching/asm/huff_get_bit.asm": "398941802582fbc03aaac9bb0c3a4abeb8a61700c7d62c3f7b537940cc12df2b",
+          "matching/asm/huff_build_lookup.asm": "55143488f6d3e2e7ae91957c4594c50acba9a30c6746719bd7b5739495d8626d",
+          "matching/asm/huff_decode_bytes.asm": "9ea8de2c0d50a55caeb73a34a610bb6c09e1036e4d983c9e5d8071b9c78b2227",
+          "matching/asm/huff_decode_stream.asm": "495995e31d28f71614255b052dd31ad4627ade7b267d5419048c8bb1f396e572",
+          "matching/asm/huff_window_save.asm": "0230bac9d7102c570ee8f7055cf010dde9dac07142efee6a1b04ef5c9117aa9f",
+          "matching/asm/huff_window_init.asm": "3a34aaa486c351a781978b2d97bb9ae238f40bd678ed724ab8daae75c9f1603a"
+        },
+        "whole_assembled_sha256": "e1e9a7e761149756cabdac4b18c481c97ec6d0108221f4f945cf966e28ad9a44",
+        "refill_substitution": "Explicit bounded512-byte file-source hook; no DOS I/O or original game execution claim",
+        "EOF_zero_or_stale_fill": false,
+        "pixels_palette_alpha_dimensions_or_animation_claimed": false
+      }
+    },
+    {
+      "id": "asset-14",
+      "family": "asset",
+      "index": 14,
+      "offset": 70973,
+      "size": 7068,
+      "end_exclusive": 78041,
+      "sha256": "caa4f1a797bf3f11ffe91d88dc83e6f824e82f168ba5baeacd1965a61bc3a011",
+      "file": "raw/asset-14.bin",
+      "decoded_format_verified": false,
+      "semantic_kind": "compressed_cached_record",
+      "symbol_status": "NATIVE_AND_INDEPENDENT_EXACT",
+      "decoded_file": "asset-14.decoded.bin",
+      "decoded_sha256": "da0b24ff3d5cebedb7d4c3336d78dbc49a9b1a88cd7980bc39515860d7a2bc8d",
+      "decoded_bytes": 8128,
+      "independent": {
+        "declared_bytes": 8128,
+        "tree_bits": 2792,
+        "consumed_bits_after_header": 56477,
+        "trailing_bits": 3,
+        "tree_leaves": 254,
+        "max_depth": 14,
+        "skipped_header_hex": "a4dc0000"
+      },
+      "native": {
+        "classification": "Native matched-ASM byte decode; raw candidate stream only, not a verified sprite/animation",
+        "input_sha256": "aa50ef9fb55e5271526e25ccc6e60b2908f00440c3f33380d13d27ecd4cbc564",
+        "input_start": 70973,
+        "declared_output_bytes": 8128,
+        "actual_output_bytes": 8128,
+        "output_sha256": "da0b24ff3d5cebedb7d4c3336d78dbc49a9b1a88cd7980bc39515860d7a2bc8d",
+        "tree_leaf_count": 254,
+        "tree_snapshot_stage": "Before native lookup builder consumes long-code depth entries",
+        "refills": [
+          {
+            "file_offset": 70973,
+            "available": 512
+          },
+          {
+            "file_offset": 71485,
+            "available": 512
+          },
+          {
+            "file_offset": 71997,
+            "available": 512
+          },
+          {
+            "file_offset": 72509,
+            "available": 512
+          },
+          {
+            "file_offset": 73021,
+            "available": 512
+          },
+          {
+            "file_offset": 73533,
+            "available": 512
+          },
+          {
+            "file_offset": 74045,
+            "available": 512
+          },
+          {
+            "file_offset": 74557,
+            "available": 512
+          },
+          {
+            "file_offset": 75069,
+            "available": 512
+          },
+          {
+            "file_offset": 75581,
+            "available": 512
+          },
+          {
+            "file_offset": 76093,
+            "available": 512
+          },
+          {
+            "file_offset": 76605,
+            "available": 512
+          },
+          {
+            "file_offset": 77117,
+            "available": 512
+          },
+          {
+            "file_offset": 77629,
+            "available": 512
+          }
+        ],
+        "max_actual_input_read_exclusive": 78042,
+        "native_reader_state_hex": "bf1a0b005f30",
+        "source_pins": {
+          "matching/asm/huff_frame_decode_entry.asm": "1a8f4118a424b95d5e4fe51bcf8224780e7931c37346946c202710dfbcc5adcc",
+          "matching/asm/huff_tree_build_recursive.asm": "6ee793fb15f7d877b8fd6879930b49b53ed8c14812da563ea053c23d2a2359c0",
+          "matching/asm/huff_read_byte.asm": "ffeb00d460e95ee54a48abffbc8c584797bfc8e4d5d3294d5094b8aed44cffad",
+          "matching/asm/huff_get_bit.asm": "398941802582fbc03aaac9bb0c3a4abeb8a61700c7d62c3f7b537940cc12df2b",
+          "matching/asm/huff_build_lookup.asm": "55143488f6d3e2e7ae91957c4594c50acba9a30c6746719bd7b5739495d8626d",
+          "matching/asm/huff_decode_bytes.asm": "9ea8de2c0d50a55caeb73a34a610bb6c09e1036e4d983c9e5d8071b9c78b2227",
+          "matching/asm/huff_decode_stream.asm": "495995e31d28f71614255b052dd31ad4627ade7b267d5419048c8bb1f396e572",
+          "matching/asm/huff_window_save.asm": "0230bac9d7102c570ee8f7055cf010dde9dac07142efee6a1b04ef5c9117aa9f",
+          "matching/asm/huff_window_init.asm": "3a34aaa486c351a781978b2d97bb9ae238f40bd678ed724ab8daae75c9f1603a"
+        },
+        "whole_assembled_sha256": "e1e9a7e761149756cabdac4b18c481c97ec6d0108221f4f945cf966e28ad9a44",
+        "refill_substitution": "Explicit bounded512-byte file-source hook; no DOS I/O or original game execution claim",
+        "EOF_zero_or_stale_fill": false,
+        "pixels_palette_alpha_dimensions_or_animation_claimed": false
+      }
+    },
+    {
+      "id": "asset-15",
+      "family": "asset",
+      "index": 15,
+      "offset": 78041,
+      "size": 1289,
+      "end_exclusive": 79330,
+      "sha256": "e3980a74fcc127e837d36bc053b36453d542ee359e4f94552b9e6ffe3f81ad07",
+      "file": "raw/asset-15.bin",
+      "decoded_format_verified": false,
+      "semantic_kind": "compressed_cached_record",
+      "symbol_status": "NATIVE_AND_INDEPENDENT_EXACT",
+      "decoded_file": "asset-15.decoded.bin",
+      "decoded_sha256": "3bf9efa26236f2dbd98d2159120baaed9a2524bcfc9ca80b79d96c85f77f10c2",
+      "decoded_bytes": 2261,
+      "independent": {
+        "declared_bytes": 2261,
+        "tree_bits": 680,
+        "consumed_bits_after_header": 10242,
+        "trailing_bits": 6,
+        "tree_leaves": 62,
+        "max_depth": 11,
+        "skipped_header_hex": "09280000"
+      },
+      "native": {
+        "classification": "Native matched-ASM byte decode; raw candidate stream only, not a verified sprite/animation",
+        "input_sha256": "aa50ef9fb55e5271526e25ccc6e60b2908f00440c3f33380d13d27ecd4cbc564",
+        "input_start": 78041,
+        "declared_output_bytes": 2261,
+        "actual_output_bytes": 2261,
+        "output_sha256": "3bf9efa26236f2dbd98d2159120baaed9a2524bcfc9ca80b79d96c85f77f10c2",
+        "tree_leaf_count": 62,
+        "tree_snapshot_stage": "Before native lookup builder consumes long-code depth entries",
+        "refills": [
+          {
+            "file_offset": 78041,
+            "available": 512
+          },
+          {
+            "file_offset": 78553,
+            "available": 512
+          },
+          {
+            "file_offset": 79065,
+            "available": 512
+          }
+        ],
+        "max_actual_input_read_exclusive": 79331,
+        "native_reader_state_hex": "91010e00cc2f",
+        "source_pins": {
+          "matching/asm/huff_frame_decode_entry.asm": "1a8f4118a424b95d5e4fe51bcf8224780e7931c37346946c202710dfbcc5adcc",
+          "matching/asm/huff_tree_build_recursive.asm": "6ee793fb15f7d877b8fd6879930b49b53ed8c14812da563ea053c23d2a2359c0",
+          "matching/asm/huff_read_byte.asm": "ffeb00d460e95ee54a48abffbc8c584797bfc8e4d5d3294d5094b8aed44cffad",
+          "matching/asm/huff_get_bit.asm": "398941802582fbc03aaac9bb0c3a4abeb8a61700c7d62c3f7b537940cc12df2b",
+          "matching/asm/huff_build_lookup.asm": "55143488f6d3e2e7ae91957c4594c50acba9a30c6746719bd7b5739495d8626d",
+          "matching/asm/huff_decode_bytes.asm": "9ea8de2c0d50a55caeb73a34a610bb6c09e1036e4d983c9e5d8071b9c78b2227",
+          "matching/asm/huff_decode_stream.asm": "495995e31d28f71614255b052dd31ad4627ade7b267d5419048c8bb1f396e572",
+          "matching/asm/huff_window_save.asm": "0230bac9d7102c570ee8f7055cf010dde9dac07142efee6a1b04ef5c9117aa9f",
+          "matching/asm/huff_window_init.asm": "3a34aaa486c351a781978b2d97bb9ae238f40bd678ed724ab8daae75c9f1603a"
+        },
+        "whole_assembled_sha256": "e1e9a7e761149756cabdac4b18c481c97ec6d0108221f4f945cf966e28ad9a44",
+        "refill_substitution": "Explicit bounded512-byte file-source hook; no DOS I/O or original game execution claim",
+        "EOF_zero_or_stale_fill": false,
+        "pixels_palette_alpha_dimensions_or_animation_claimed": false
+      }
+    },
+    {
+      "id": "asset-16",
+      "family": "asset",
+      "index": 16,
+      "offset": 79330,
+      "size": 363,
+      "end_exclusive": 79693,
+      "sha256": "4de7c85dac343299a01a067ac547923fdf0e1fee9ee98a3d71f196471304fd1b",
+      "file": "raw/asset-16.bin",
+      "decoded_format_verified": false,
+      "semantic_kind": "compressed_cached_record",
+      "symbol_status": "NATIVE_AND_INDEPENDENT_EXACT",
+      "decoded_file": "asset-16.decoded.bin",
+      "decoded_sha256": "9ca4adee1aa8295a43a782effffa8c1071a5dcff074d0b600768b2973c6b26a8",
+      "decoded_bytes": 356,
+      "independent": {
+        "declared_bytes": 356,
+        "tree_bits": 845,
+        "consumed_bits_after_header": 2840,
+        "trailing_bits": 0,
+        "tree_leaves": 77,
+        "max_depth": 9,
+        "skipped_header_hex": "1f0b0000"
+      },
+      "native": {
+        "classification": "Native matched-ASM byte decode; raw candidate stream only, not a verified sprite/animation",
+        "input_sha256": "aa50ef9fb55e5271526e25ccc6e60b2908f00440c3f33380d13d27ecd4cbc564",
+        "input_start": 79330,
+        "declared_output_bytes": 356,
+        "actual_output_bytes": 356,
+        "output_sha256": "9ca4adee1aa8295a43a782effffa8c1071a5dcff074d0b600768b2973c6b26a8",
+        "tree_leaf_count": 77,
+        "tree_snapshot_stage": "Before native lookup builder consumes long-code depth entries",
+        "refills": [
+          {
+            "file_offset": 79330,
+            "available": 512
+          }
+        ],
+        "max_actual_input_read_exclusive": 79694,
+        "native_reader_state_hex": "750908002e30",
+        "source_pins": {
+          "matching/asm/huff_frame_decode_entry.asm": "1a8f4118a424b95d5e4fe51bcf8224780e7931c37346946c202710dfbcc5adcc",
+          "matching/asm/huff_tree_build_recursive.asm": "6ee793fb15f7d877b8fd6879930b49b53ed8c14812da563ea053c23d2a2359c0",
+          "matching/asm/huff_read_byte.asm": "ffeb00d460e95ee54a48abffbc8c584797bfc8e4d5d3294d5094b8aed44cffad",
+          "matching/asm/huff_get_bit.asm": "398941802582fbc03aaac9bb0c3a4abeb8a61700c7d62c3f7b537940cc12df2b",
+          "matching/asm/huff_build_lookup.asm": "55143488f6d3e2e7ae91957c4594c50acba9a30c6746719bd7b5739495d8626d",
+          "matching/asm/huff_decode_bytes.asm": "9ea8de2c0d50a55caeb73a34a610bb6c09e1036e4d983c9e5d8071b9c78b2227",
+          "matching/asm/huff_decode_stream.asm": "495995e31d28f71614255b052dd31ad4627ade7b267d5419048c8bb1f396e572",
+          "matching/asm/huff_window_save.asm": "0230bac9d7102c570ee8f7055cf010dde9dac07142efee6a1b04ef5c9117aa9f",
+          "matching/asm/huff_window_init.asm": "3a34aaa486c351a781978b2d97bb9ae238f40bd678ed724ab8daae75c9f1603a"
+        },
+        "whole_assembled_sha256": "e1e9a7e761149756cabdac4b18c481c97ec6d0108221f4f945cf966e28ad9a44",
+        "refill_substitution": "Explicit bounded512-byte file-source hook; no DOS I/O or original game execution claim",
+        "EOF_zero_or_stale_fill": false,
+        "pixels_palette_alpha_dimensions_or_animation_claimed": false
+      }
+    },
+    {
+      "id": "asset-17",
+      "family": "asset",
+      "index": 17,
+      "offset": 79693,
+      "size": 2779,
+      "end_exclusive": 82472,
+      "sha256": "8c73bdabc0cb95a2bfe616be5a5e42d6a03dc6eb2d5d9f6a265e42911c25ba3c",
+      "file": "raw/asset-17.bin",
+      "decoded_format_verified": false,
+      "semantic_kind": "compressed_cached_record",
+      "symbol_status": "NATIVE_AND_INDEPENDENT_EXACT",
+      "decoded_file": "asset-17.decoded.bin",
+      "decoded_sha256": "75c54f3c3ed9872421043e565570ff02c9324c9d49c7df450812de8bb49eda3a",
+      "decoded_bytes": 6153,
+      "independent": {
+        "declared_bytes": 6153,
+        "tree_bits": 977,
+        "consumed_bits_after_header": 22165,
+        "trailing_bits": 3,
+        "tree_leaves": 89,
+        "max_depth": 12,
+        "skipped_header_hex": "9c560000"
+      },
+      "native": {
+        "classification": "Native matched-ASM byte decode; raw candidate stream only, not a verified sprite/animation",
+        "input_sha256": "aa50ef9fb55e5271526e25ccc6e60b2908f00440c3f33380d13d27ecd4cbc564",
+        "input_start": 79693,
+        "declared_output_bytes": 6153,
+        "actual_output_bytes": 6153,
+        "output_sha256": "75c54f3c3ed9872421043e565570ff02c9324c9d49c7df450812de8bb49eda3a",
+        "tree_leaf_count": 89,
+        "tree_snapshot_stage": "Before native lookup builder consumes long-code depth entries",
+        "refills": [
+          {
+            "file_offset": 79693,
+            "available": 512
+          },
+          {
+            "file_offset": 80205,
+            "available": 512
+          },
+          {
+            "file_offset": 80717,
+            "available": 512
+          },
+          {
+            "file_offset": 81229,
+            "available": 512
+          },
+          {
+            "file_offset": 81741,
+            "available": 512
+          },
+          {
+            "file_offset": 82253,
+            "available": 512
+          }
+        ],
+        "max_actual_input_read_exclusive": 82473,
+        "native_reader_state_hex": "43040b009e2f",
+        "source_pins": {
+          "matching/asm/huff_frame_decode_entry.asm": "1a8f4118a424b95d5e4fe51bcf8224780e7931c37346946c202710dfbcc5adcc",
+          "matching/asm/huff_tree_build_recursive.asm": "6ee793fb15f7d877b8fd6879930b49b53ed8c14812da563ea053c23d2a2359c0",
+          "matching/asm/huff_read_byte.asm": "ffeb00d460e95ee54a48abffbc8c584797bfc8e4d5d3294d5094b8aed44cffad",
+          "matching/asm/huff_get_bit.asm": "398941802582fbc03aaac9bb0c3a4abeb8a61700c7d62c3f7b537940cc12df2b",
+          "matching/asm/huff_build_lookup.asm": "55143488f6d3e2e7ae91957c4594c50acba9a30c6746719bd7b5739495d8626d",
+          "matching/asm/huff_decode_bytes.asm": "9ea8de2c0d50a55caeb73a34a610bb6c09e1036e4d983c9e5d8071b9c78b2227",
+          "matching/asm/huff_decode_stream.asm": "495995e31d28f71614255b052dd31ad4627ade7b267d5419048c8bb1f396e572",
+          "matching/asm/huff_window_save.asm": "0230bac9d7102c570ee8f7055cf010dde9dac07142efee6a1b04ef5c9117aa9f",
+          "matching/asm/huff_window_init.asm": "3a34aaa486c351a781978b2d97bb9ae238f40bd678ed724ab8daae75c9f1603a"
+        },
+        "whole_assembled_sha256": "e1e9a7e761149756cabdac4b18c481c97ec6d0108221f4f945cf966e28ad9a44",
+        "refill_substitution": "Explicit bounded512-byte file-source hook; no DOS I/O or original game execution claim",
+        "EOF_zero_or_stale_fill": false,
+        "pixels_palette_alpha_dimensions_or_animation_claimed": false
+      }
+    },
+    {
+      "id": "asset-18",
+      "family": "asset",
+      "index": 18,
+      "offset": 82472,
+      "size": 2429,
+      "end_exclusive": 84901,
+      "sha256": "b30de56cd58ab1121f28d903dec199b38f50e04d14d6fd0c20945b0368dc19aa",
+      "file": "raw/asset-18.bin",
+      "decoded_format_verified": false,
+      "semantic_kind": "compressed_cached_record",
+      "symbol_status": "NATIVE_AND_INDEPENDENT_EXACT",
+      "decoded_file": "asset-18.decoded.bin",
+      "decoded_sha256": "cd7ccf978a9a0a59d7bf8a9a7305392d35e523ee7c62ad78ca2c704f5a2f6931",
+      "decoded_bytes": 4386,
+      "independent": {
+        "declared_bytes": 4386,
+        "tree_bits": 801,
+        "consumed_bits_after_header": 19364,
+        "trailing_bits": 4,
+        "tree_leaves": 73,
+        "max_depth": 12,
+        "skipped_header_hex": "ab4b0000"
+      },
+      "native": {
+        "classification": "Native matched-ASM byte decode; raw candidate stream only, not a verified sprite/animation",
+        "input_sha256": "aa50ef9fb55e5271526e25ccc6e60b2908f00440c3f33380d13d27ecd4cbc564",
+        "input_start": 82472,
+        "declared_output_bytes": 4386,
+        "actual_output_bytes": 4386,
+        "output_sha256": "cd7ccf978a9a0a59d7bf8a9a7305392d35e523ee7c62ad78ca2c704f5a2f6931",
+        "tree_leaf_count": 73,
+        "tree_snapshot_stage": "Before native lookup builder consumes long-code depth entries",
+        "refills": [
+          {
+            "file_offset": 82472,
+            "available": 512
+          },
+          {
+            "file_offset": 82984,
+            "available": 512
+          },
+          {
+            "file_offset": 83496,
+            "available": 512
+          },
+          {
+            "file_offset": 84008,
+            "available": 512
+          },
+          {
+            "file_offset": 84520,
+            "available": 512
+          }
+        ],
+        "max_actual_input_read_exclusive": 84902,
+        "native_reader_state_hex": "c1000c004030",
+        "source_pins": {
+          "matching/asm/huff_frame_decode_entry.asm": "1a8f4118a424b95d5e4fe51bcf8224780e7931c37346946c202710dfbcc5adcc",
+          "matching/asm/huff_tree_build_recursive.asm": "6ee793fb15f7d877b8fd6879930b49b53ed8c14812da563ea053c23d2a2359c0",
+          "matching/asm/huff_read_byte.asm": "ffeb00d460e95ee54a48abffbc8c584797bfc8e4d5d3294d5094b8aed44cffad",
+          "matching/asm/huff_get_bit.asm": "398941802582fbc03aaac9bb0c3a4abeb8a61700c7d62c3f7b537940cc12df2b",
+          "matching/asm/huff_build_lookup.asm": "55143488f6d3e2e7ae91957c4594c50acba9a30c6746719bd7b5739495d8626d",
+          "matching/asm/huff_decode_bytes.asm": "9ea8de2c0d50a55caeb73a34a610bb6c09e1036e4d983c9e5d8071b9c78b2227",
+          "matching/asm/huff_decode_stream.asm": "495995e31d28f71614255b052dd31ad4627ade7b267d5419048c8bb1f396e572",
+          "matching/asm/huff_window_save.asm": "0230bac9d7102c570ee8f7055cf010dde9dac07142efee6a1b04ef5c9117aa9f",
+          "matching/asm/huff_window_init.asm": "3a34aaa486c351a781978b2d97bb9ae238f40bd678ed724ab8daae75c9f1603a"
+        },
+        "whole_assembled_sha256": "e1e9a7e761149756cabdac4b18c481c97ec6d0108221f4f945cf966e28ad9a44",
+        "refill_substitution": "Explicit bounded512-byte file-source hook; no DOS I/O or original game execution claim",
+        "EOF_zero_or_stale_fill": false,
+        "pixels_palette_alpha_dimensions_or_animation_claimed": false
+      }
+    },
+    {
+      "id": "asset-19",
+      "family": "asset",
+      "index": 19,
+      "offset": 84901,
+      "size": 534,
+      "end_exclusive": 85435,
+      "sha256": "8e37cbdbfe959055ed9d6d041f094ec43ce879c9c9c3dc3e4c384b7cd63f0c53",
+      "file": "raw/asset-19.bin",
+      "decoded_format_verified": false,
+      "semantic_kind": "compressed_cached_record",
+      "symbol_status": "NATIVE_AND_INDEPENDENT_EXACT",
+      "decoded_file": "asset-19.decoded.bin",
+      "decoded_sha256": "3ca040684f8b6178a4cec64f1571f702052e25268538f2f8d955bba4734bb54e",
+      "decoded_bytes": 780,
+      "independent": {
+        "declared_bytes": 780,
+        "tree_bits": 515,
+        "consumed_bits_after_header": 4205,
+        "trailing_bits": 3,
+        "tree_leaves": 47,
+        "max_depth": 10,
+        "skipped_header_hex": "74100000"
+      },
+      "native": {
+        "classification": "Native matched-ASM byte decode; raw candidate stream only, not a verified sprite/animation",
+        "input_sha256": "aa50ef9fb55e5271526e25ccc6e60b2908f00440c3f33380d13d27ecd4cbc564",
+        "input_start": 84901,
+        "declared_output_bytes": 780,
+        "actual_output_bytes": 780,
+        "output_sha256": "3ca040684f8b6178a4cec64f1571f702052e25268538f2f8d955bba4734bb54e",
+        "tree_leaf_count": 47,
+        "tree_snapshot_stage": "Before native lookup builder consumes long-code depth entries",
+        "refills": [
+          {
+            "file_offset": 84901,
+            "available": 512
+          },
+          {
+            "file_offset": 85413,
+            "available": 512
+          }
+        ],
+        "max_actual_input_read_exclusive": 85436,
+        "native_reader_state_hex": "37090b00d92e",
+        "source_pins": {
+          "matching/asm/huff_frame_decode_entry.asm": "1a8f4118a424b95d5e4fe51bcf8224780e7931c37346946c202710dfbcc5adcc",
+          "matching/asm/huff_tree_build_recursive.asm": "6ee793fb15f7d877b8fd6879930b49b53ed8c14812da563ea053c23d2a2359c0",
+          "matching/asm/huff_read_byte.asm": "ffeb00d460e95ee54a48abffbc8c584797bfc8e4d5d3294d5094b8aed44cffad",
+          "matching/asm/huff_get_bit.asm": "398941802582fbc03aaac9bb0c3a4abeb8a61700c7d62c3f7b537940cc12df2b",
+          "matching/asm/huff_build_lookup.asm": "55143488f6d3e2e7ae91957c4594c50acba9a30c6746719bd7b5739495d8626d",
+          "matching/asm/huff_decode_bytes.asm": "9ea8de2c0d50a55caeb73a34a610bb6c09e1036e4d983c9e5d8071b9c78b2227",
+          "matching/asm/huff_decode_stream.asm": "495995e31d28f71614255b052dd31ad4627ade7b267d5419048c8bb1f396e572",
+          "matching/asm/huff_window_save.asm": "0230bac9d7102c570ee8f7055cf010dde9dac07142efee6a1b04ef5c9117aa9f",
+          "matching/asm/huff_window_init.asm": "3a34aaa486c351a781978b2d97bb9ae238f40bd678ed724ab8daae75c9f1603a"
+        },
+        "whole_assembled_sha256": "e1e9a7e761149756cabdac4b18c481c97ec6d0108221f4f945cf966e28ad9a44",
+        "refill_substitution": "Explicit bounded512-byte file-source hook; no DOS I/O or original game execution claim",
+        "EOF_zero_or_stale_fill": false,
+        "pixels_palette_alpha_dimensions_or_animation_claimed": false
+      }
+    },
+    {
+      "id": "asset-20",
+      "family": "asset",
+      "index": 20,
+      "offset": 85435,
+      "size": 3947,
+      "end_exclusive": 89382,
+      "sha256": "b6ed3f7f233f9e6b50c7c138b5ed4159ed59725d3585c9f8cfc68dddd1362b26",
+      "file": "raw/asset-20.bin",
+      "decoded_format_verified": false,
+      "semantic_kind": "compressed_cached_record",
+      "symbol_status": "NATIVE_AND_INDEPENDENT_EXACT",
+      "decoded_file": "asset-20.decoded.bin",
+      "decoded_sha256": "f1406003404754c603150981a4c5f8b1c3f10e729734637da254928128d3e5d8",
+      "decoded_bytes": 9033,
+      "independent": {
+        "declared_bytes": 9033,
+        "tree_bits": 878,
+        "consumed_bits_after_header": 31512,
+        "trailing_bits": 0,
+        "tree_leaves": 80,
+        "max_depth": 14,
+        "skipped_header_hex": "1f7b0000"
+      },
+      "native": {
+        "classification": "Native matched-ASM byte decode; raw candidate stream only, not a verified sprite/animation",
+        "input_sha256": "aa50ef9fb55e5271526e25ccc6e60b2908f00440c3f33380d13d27ecd4cbc564",
+        "input_start": 85435,
+        "declared_output_bytes": 9033,
+        "actual_output_bytes": 9033,
+        "output_sha256": "f1406003404754c603150981a4c5f8b1c3f10e729734637da254928128d3e5d8",
+        "tree_leaf_count": 80,
+        "tree_snapshot_stage": "Before native lookup builder consumes long-code depth entries",
+        "refills": [
+          {
+            "file_offset": 85435,
+            "available": 512
+          },
+          {
+            "file_offset": 85947,
+            "available": 512
+          },
+          {
+            "file_offset": 86459,
+            "available": 512
+          },
+          {
+            "file_offset": 86971,
+            "available": 512
+          },
+          {
+            "file_offset": 87483,
+            "available": 512
+          },
+          {
+            "file_offset": 87995,
+            "available": 512
+          },
+          {
+            "file_offset": 88507,
+            "available": 512
+          },
+          {
+            "file_offset": 89019,
+            "available": 512
+          }
+        ],
+        "max_actual_input_read_exclusive": 89383,
+        "native_reader_state_hex": "455c08002e30",
+        "source_pins": {
+          "matching/asm/huff_frame_decode_entry.asm": "1a8f4118a424b95d5e4fe51bcf8224780e7931c37346946c202710dfbcc5adcc",
+          "matching/asm/huff_tree_build_recursive.asm": "6ee793fb15f7d877b8fd6879930b49b53ed8c14812da563ea053c23d2a2359c0",
+          "matching/asm/huff_read_byte.asm": "ffeb00d460e95ee54a48abffbc8c584797bfc8e4d5d3294d5094b8aed44cffad",
+          "matching/asm/huff_get_bit.asm": "398941802582fbc03aaac9bb0c3a4abeb8a61700c7d62c3f7b537940cc12df2b",
+          "matching/asm/huff_build_lookup.asm": "55143488f6d3e2e7ae91957c4594c50acba9a30c6746719bd7b5739495d8626d",
+          "matching/asm/huff_decode_bytes.asm": "9ea8de2c0d50a55caeb73a34a610bb6c09e1036e4d983c9e5d8071b9c78b2227",
+          "matching/asm/huff_decode_stream.asm": "495995e31d28f71614255b052dd31ad4627ade7b267d5419048c8bb1f396e572",
+          "matching/asm/huff_window_save.asm": "0230bac9d7102c570ee8f7055cf010dde9dac07142efee6a1b04ef5c9117aa9f",
+          "matching/asm/huff_window_init.asm": "3a34aaa486c351a781978b2d97bb9ae238f40bd678ed724ab8daae75c9f1603a"
+        },
+        "whole_assembled_sha256": "e1e9a7e761149756cabdac4b18c481c97ec6d0108221f4f945cf966e28ad9a44",
+        "refill_substitution": "Explicit bounded512-byte file-source hook; no DOS I/O or original game execution claim",
+        "EOF_zero_or_stale_fill": false,
+        "pixels_palette_alpha_dimensions_or_animation_claimed": false
+      }
+    },
+    {
+      "id": "asset-21",
+      "family": "asset",
+      "index": 21,
+      "offset": 89382,
+      "size": 1444,
+      "end_exclusive": 90826,
+      "sha256": "496048dc33285bbf79962d1b0a719e637491d2094b2d7fd3aea6c502bff6b30e",
+      "file": "raw/asset-21.bin",
+      "decoded_format_verified": false,
+      "semantic_kind": "compressed_cached_record",
+      "symbol_status": "NATIVE_AND_INDEPENDENT_EXACT",
+      "decoded_file": "asset-21.decoded.bin",
+      "decoded_sha256": "e91c3b9c86ba9cc9a87c965149cc9b7ee6bcc9c32011935a3a1394f062322235",
+      "decoded_bytes": 2140,
+      "independent": {
+        "declared_bytes": 2140,
+        "tree_bits": 713,
+        "consumed_bits_after_header": 11487,
+        "trailing_bits": 1,
+        "tree_leaves": 65,
+        "max_depth": 11,
+        "skipped_header_hex": "e62c0000"
+      },
+      "native": {
+        "classification": "Native matched-ASM byte decode; raw candidate stream only, not a verified sprite/animation",
+        "input_sha256": "aa50ef9fb55e5271526e25ccc6e60b2908f00440c3f33380d13d27ecd4cbc564",
+        "input_start": 89382,
+        "declared_output_bytes": 2140,
+        "actual_output_bytes": 2140,
+        "output_sha256": "e91c3b9c86ba9cc9a87c965149cc9b7ee6bcc9c32011935a3a1394f062322235",
+        "tree_leaf_count": 65,
+        "tree_snapshot_stage": "Before native lookup builder consumes long-code depth entries",
+        "refills": [
+          {
+            "file_offset": 89382,
+            "available": 512
+          },
+          {
+            "file_offset": 89894,
+            "available": 512
+          },
+          {
+            "file_offset": 90406,
+            "available": 512
+          }
+        ],
+        "max_actual_input_read_exclusive": 90827,
+        "native_reader_state_hex": "d51f09006730",
+        "source_pins": {
+          "matching/asm/huff_frame_decode_entry.asm": "1a8f4118a424b95d5e4fe51bcf8224780e7931c37346946c202710dfbcc5adcc",
+          "matching/asm/huff_tree_build_recursive.asm": "6ee793fb15f7d877b8fd6879930b49b53ed8c14812da563ea053c23d2a2359c0",
+          "matching/asm/huff_read_byte.asm": "ffeb00d460e95ee54a48abffbc8c584797bfc8e4d5d3294d5094b8aed44cffad",
+          "matching/asm/huff_get_bit.asm": "398941802582fbc03aaac9bb0c3a4abeb8a61700c7d62c3f7b537940cc12df2b",
+          "matching/asm/huff_build_lookup.asm": "55143488f6d3e2e7ae91957c4594c50acba9a30c6746719bd7b5739495d8626d",
+          "matching/asm/huff_decode_bytes.asm": "9ea8de2c0d50a55caeb73a34a610bb6c09e1036e4d983c9e5d8071b9c78b2227",
+          "matching/asm/huff_decode_stream.asm": "495995e31d28f71614255b052dd31ad4627ade7b267d5419048c8bb1f396e572",
+          "matching/asm/huff_window_save.asm": "0230bac9d7102c570ee8f7055cf010dde9dac07142efee6a1b04ef5c9117aa9f",
+          "matching/asm/huff_window_init.asm": "3a34aaa486c351a781978b2d97bb9ae238f40bd678ed724ab8daae75c9f1603a"
+        },
+        "whole_assembled_sha256": "e1e9a7e761149756cabdac4b18c481c97ec6d0108221f4f945cf966e28ad9a44",
+        "refill_substitution": "Explicit bounded512-byte file-source hook; no DOS I/O or original game execution claim",
+        "EOF_zero_or_stale_fill": false,
+        "pixels_palette_alpha_dimensions_or_animation_claimed": false
+      }
+    },
+    {
+      "id": "asset-22",
+      "family": "asset",
+      "index": 22,
+      "offset": 90826,
+      "size": 1084,
+      "end_exclusive": 91910,
+      "sha256": "936f8f7bdda0a301966457032d8cfb6d722ccd9aeb33058c1d2854bc46f06a78",
+      "file": "raw/asset-22.bin",
+      "decoded_format_verified": false,
+      "semantic_kind": "compressed_cached_record",
+      "symbol_status": "NATIVE_AND_INDEPENDENT_EXACT",
+      "decoded_file": "asset-22.decoded.bin",
+      "decoded_sha256": "a31b33310495acf35a8e87e293256facb39ef11259be99fbae683cac8f51a29d",
+      "decoded_bytes": 2879,
+      "independent": {
+        "declared_bytes": 2879,
+        "tree_bits": 394,
+        "consumed_bits_after_header": 8604,
+        "trailing_bits": 4,
+        "tree_leaves": 36,
+        "max_depth": 11,
+        "skipped_header_hex": "a3210000"
+      },
+      "native": {
+        "classification": "Native matched-ASM byte decode; raw candidate stream only, not a verified sprite/animation",
+        "input_sha256": "aa50ef9fb55e5271526e25ccc6e60b2908f00440c3f33380d13d27ecd4cbc564",
+        "input_start": 90826,
+        "declared_output_bytes": 2879,
+        "actual_output_bytes": 2879,
+        "output_sha256": "a31b33310495acf35a8e87e293256facb39ef11259be99fbae683cac8f51a29d",
+        "tree_leaf_count": 36,
+        "tree_snapshot_stage": "Before native lookup builder consumes long-code depth entries",
+        "refills": [
+          {
+            "file_offset": 90826,
+            "available": 512
+          },
+          {
+            "file_offset": 91338,
+            "available": 512
+          },
+          {
+            "file_offset": 91850,
+            "available": 512
+          }
+        ],
+        "max_actual_input_read_exclusive": 91911,
+        "native_reader_state_hex": "1d020c00ff2e",
+        "source_pins": {
+          "matching/asm/huff_frame_decode_entry.asm": "1a8f4118a424b95d5e4fe51bcf8224780e7931c37346946c202710dfbcc5adcc",
+          "matching/asm/huff_tree_build_recursive.asm": "6ee793fb15f7d877b8fd6879930b49b53ed8c14812da563ea053c23d2a2359c0",
+          "matching/asm/huff_read_byte.asm": "ffeb00d460e95ee54a48abffbc8c584797bfc8e4d5d3294d5094b8aed44cffad",
+          "matching/asm/huff_get_bit.asm": "398941802582fbc03aaac9bb0c3a4abeb8a61700c7d62c3f7b537940cc12df2b",
+          "matching/asm/huff_build_lookup.asm": "55143488f6d3e2e7ae91957c4594c50acba9a30c6746719bd7b5739495d8626d",
+          "matching/asm/huff_decode_bytes.asm": "9ea8de2c0d50a55caeb73a34a610bb6c09e1036e4d983c9e5d8071b9c78b2227",
+          "matching/asm/huff_decode_stream.asm": "495995e31d28f71614255b052dd31ad4627ade7b267d5419048c8bb1f396e572",
+          "matching/asm/huff_window_save.asm": "0230bac9d7102c570ee8f7055cf010dde9dac07142efee6a1b04ef5c9117aa9f",
+          "matching/asm/huff_window_init.asm": "3a34aaa486c351a781978b2d97bb9ae238f40bd678ed724ab8daae75c9f1603a"
+        },
+        "whole_assembled_sha256": "e1e9a7e761149756cabdac4b18c481c97ec6d0108221f4f945cf966e28ad9a44",
+        "refill_substitution": "Explicit bounded512-byte file-source hook; no DOS I/O or original game execution claim",
+        "EOF_zero_or_stale_fill": false,
+        "pixels_palette_alpha_dimensions_or_animation_claimed": false
+      }
+    },
+    {
+      "id": "asset-23",
+      "family": "asset",
+      "index": 23,
+      "offset": 91910,
+      "size": 625,
+      "end_exclusive": 92535,
+      "sha256": "95949a08d8bdc4e69819a4cea37618f5eb96634000cbe4a72783a5fa042ac3cb",
+      "file": "raw/asset-23.bin",
+      "decoded_format_verified": false,
+      "semantic_kind": "compressed_cached_record",
+      "symbol_status": "NATIVE_AND_INDEPENDENT_EXACT",
+      "decoded_file": "asset-23.decoded.bin",
+      "decoded_sha256": "db08f41729ceca0a734d43de3e4125e2eab6ea405e19df5e5b1bc0c22498bff2",
+      "decoded_bytes": 801,
+      "independent": {
+        "declared_bytes": 801,
+        "tree_bits": 801,
+        "consumed_bits_after_header": 4936,
+        "trailing_bits": 0,
+        "tree_leaves": 73,
+        "max_depth": 11,
+        "skipped_header_hex": "4f130000"
+      },
+      "native": {
+        "classification": "Native matched-ASM byte decode; raw candidate stream only, not a verified sprite/animation",
+        "input_sha256": "aa50ef9fb55e5271526e25ccc6e60b2908f00440c3f33380d13d27ecd4cbc564",
+        "input_start": 91910,
+        "declared_output_bytes": 801,
+        "actual_output_bytes": 801,
+        "output_sha256": "db08f41729ceca0a734d43de3e4125e2eab6ea405e19df5e5b1bc0c22498bff2",
+        "tree_leaf_count": 73,
+        "tree_snapshot_stage": "Before native lookup builder consumes long-code depth entries",
+        "refills": [
+          {
+            "file_offset": 91910,
+            "available": 512
+          },
+          {
+            "file_offset": 92422,
+            "available": 512
+          }
+        ],
+        "max_actual_input_read_exclusive": 92536,
+        "native_reader_state_hex": "ec300800342f",
+        "source_pins": {
+          "matching/asm/huff_frame_decode_entry.asm": "1a8f4118a424b95d5e4fe51bcf8224780e7931c37346946c202710dfbcc5adcc",
+          "matching/asm/huff_tree_build_recursive.asm": "6ee793fb15f7d877b8fd6879930b49b53ed8c14812da563ea053c23d2a2359c0",
+          "matching/asm/huff_read_byte.asm": "ffeb00d460e95ee54a48abffbc8c584797bfc8e4d5d3294d5094b8aed44cffad",
+          "matching/asm/huff_get_bit.asm": "398941802582fbc03aaac9bb0c3a4abeb8a61700c7d62c3f7b537940cc12df2b",
+          "matching/asm/huff_build_lookup.asm": "55143488f6d3e2e7ae91957c4594c50acba9a30c6746719bd7b5739495d8626d",
+          "matching/asm/huff_decode_bytes.asm": "9ea8de2c0d50a55caeb73a34a610bb6c09e1036e4d983c9e5d8071b9c78b2227",
+          "matching/asm/huff_decode_stream.asm": "495995e31d28f71614255b052dd31ad4627ade7b267d5419048c8bb1f396e572",
+          "matching/asm/huff_window_save.asm": "0230bac9d7102c570ee8f7055cf010dde9dac07142efee6a1b04ef5c9117aa9f",
+          "matching/asm/huff_window_init.asm": "3a34aaa486c351a781978b2d97bb9ae238f40bd678ed724ab8daae75c9f1603a"
+        },
+        "whole_assembled_sha256": "e1e9a7e761149756cabdac4b18c481c97ec6d0108221f4f945cf966e28ad9a44",
+        "refill_substitution": "Explicit bounded512-byte file-source hook; no DOS I/O or original game execution claim",
+        "EOF_zero_or_stale_fill": false,
+        "pixels_palette_alpha_dimensions_or_animation_claimed": false
+      }
+    },
+    {
+      "id": "asset-24",
+      "family": "asset",
+      "index": 24,
+      "offset": 92535,
+      "size": 1242,
+      "end_exclusive": 93777,
+      "sha256": "4e468b25c22d631a8a42d87ced46d2553d6ca6a958f94c35f2a44943e0a8fcea",
+      "file": "raw/asset-24.bin",
+      "decoded_format_verified": false,
+      "semantic_kind": "compressed_cached_record",
+      "symbol_status": "NATIVE_AND_INDEPENDENT_EXACT",
+      "decoded_file": "asset-24.decoded.bin",
+      "decoded_sha256": "2813d6269b0a9d4b6b5ff681b52e4d46cb89026aa06b88c2ade24327ee3a99cf",
+      "decoded_bytes": 1584,
+      "independent": {
+        "declared_bytes": 1584,
+        "tree_bits": 1186,
+        "consumed_bits_after_header": 9872,
+        "trailing_bits": 0,
+        "tree_leaves": 108,
+        "max_depth": 11,
+        "skipped_header_hex": "97260000"
+      },
+      "native": {
+        "classification": "Native matched-ASM byte decode; raw candidate stream only, not a verified sprite/animation",
+        "input_sha256": "aa50ef9fb55e5271526e25ccc6e60b2908f00440c3f33380d13d27ecd4cbc564",
+        "input_start": 92535,
+        "declared_output_bytes": 1584,
+        "actual_output_bytes": 1584,
+        "output_sha256": "2813d6269b0a9d4b6b5ff681b52e4d46cb89026aa06b88c2ade24327ee3a99cf",
+        "tree_leaf_count": 108,
+        "tree_snapshot_stage": "Before native lookup builder consumes long-code depth entries",
+        "refills": [
+          {
+            "file_offset": 92535,
+            "available": 512
+          },
+          {
+            "file_offset": 93047,
+            "available": 512
+          },
+          {
+            "file_offset": 93559,
+            "available": 512
+          }
+        ],
+        "max_actual_input_read_exclusive": 93778,
+        "native_reader_state_hex": "36b808009d2f",
+        "source_pins": {
+          "matching/asm/huff_frame_decode_entry.asm": "1a8f4118a424b95d5e4fe51bcf8224780e7931c37346946c202710dfbcc5adcc",
+          "matching/asm/huff_tree_build_recursive.asm": "6ee793fb15f7d877b8fd6879930b49b53ed8c14812da563ea053c23d2a2359c0",
+          "matching/asm/huff_read_byte.asm": "ffeb00d460e95ee54a48abffbc8c584797bfc8e4d5d3294d5094b8aed44cffad",
+          "matching/asm/huff_get_bit.asm": "398941802582fbc03aaac9bb0c3a4abeb8a61700c7d62c3f7b537940cc12df2b",
+          "matching/asm/huff_build_lookup.asm": "55143488f6d3e2e7ae91957c4594c50acba9a30c6746719bd7b5739495d8626d",
+          "matching/asm/huff_decode_bytes.asm": "9ea8de2c0d50a55caeb73a34a610bb6c09e1036e4d983c9e5d8071b9c78b2227",
+          "matching/asm/huff_decode_stream.asm": "495995e31d28f71614255b052dd31ad4627ade7b267d5419048c8bb1f396e572",
+          "matching/asm/huff_window_save.asm": "0230bac9d7102c570ee8f7055cf010dde9dac07142efee6a1b04ef5c9117aa9f",
+          "matching/asm/huff_window_init.asm": "3a34aaa486c351a781978b2d97bb9ae238f40bd678ed724ab8daae75c9f1603a"
+        },
+        "whole_assembled_sha256": "e1e9a7e761149756cabdac4b18c481c97ec6d0108221f4f945cf966e28ad9a44",
+        "refill_substitution": "Explicit bounded512-byte file-source hook; no DOS I/O or original game execution claim",
+        "EOF_zero_or_stale_fill": false,
+        "pixels_palette_alpha_dimensions_or_animation_claimed": false
+      }
+    },
+    {
+      "id": "asset-25",
+      "family": "asset",
+      "index": 25,
+      "offset": 93777,
+      "size": 1737,
+      "end_exclusive": 95514,
+      "sha256": "8b733a6396524d215f91a94ce0be1aef49f43e1db62fd63aeaa879633b6bc85b",
+      "file": "raw/asset-25.bin",
+      "decoded_format_verified": false,
+      "semantic_kind": "compressed_cached_record",
+      "symbol_status": "NATIVE_AND_INDEPENDENT_EXACT",
+      "decoded_file": "asset-25.decoded.bin",
+      "decoded_sha256": "78e1db3ea9c48afb67104708b47710845ceead073b83b05d402183dc43f060b7",
+      "decoded_bytes": 2744,
+      "independent": {
+        "declared_bytes": 2744,
+        "tree_bits": 1219,
+        "consumed_bits_after_header": 13827,
+        "trailing_bits": 5,
+        "tree_leaves": 111,
+        "max_depth": 12,
+        "skipped_header_hex": "0a360000"
+      },
+      "native": {
+        "classification": "Native matched-ASM byte decode; raw candidate stream only, not a verified sprite/animation",
+        "input_sha256": "aa50ef9fb55e5271526e25ccc6e60b2908f00440c3f33380d13d27ecd4cbc564",
+        "input_start": 93777,
+        "declared_output_bytes": 2744,
+        "actual_output_bytes": 2744,
+        "output_sha256": "78e1db3ea9c48afb67104708b47710845ceead073b83b05d402183dc43f060b7",
+        "tree_leaf_count": 111,
+        "tree_snapshot_stage": "Before native lookup builder consumes long-code depth entries",
+        "refills": [
+          {
+            "file_offset": 93777,
+            "available": 512
+          },
+          {
+            "file_offset": 94289,
+            "available": 512
+          },
+          {
+            "file_offset": 94801,
+            "available": 512
+          },
+          {
+            "file_offset": 95313,
+            "available": 512
+          }
+        ],
+        "max_actual_input_read_exclusive": 95515,
+        "native_reader_state_hex": "3b070d008c2f",
+        "source_pins": {
+          "matching/asm/huff_frame_decode_entry.asm": "1a8f4118a424b95d5e4fe51bcf8224780e7931c37346946c202710dfbcc5adcc",
+          "matching/asm/huff_tree_build_recursive.asm": "6ee793fb15f7d877b8fd6879930b49b53ed8c14812da563ea053c23d2a2359c0",
+          "matching/asm/huff_read_byte.asm": "ffeb00d460e95ee54a48abffbc8c584797bfc8e4d5d3294d5094b8aed44cffad",
+          "matching/asm/huff_get_bit.asm": "398941802582fbc03aaac9bb0c3a4abeb8a61700c7d62c3f7b537940cc12df2b",
+          "matching/asm/huff_build_lookup.asm": "55143488f6d3e2e7ae91957c4594c50acba9a30c6746719bd7b5739495d8626d",
+          "matching/asm/huff_decode_bytes.asm": "9ea8de2c0d50a55caeb73a34a610bb6c09e1036e4d983c9e5d8071b9c78b2227",
+          "matching/asm/huff_decode_stream.asm": "495995e31d28f71614255b052dd31ad4627ade7b267d5419048c8bb1f396e572",
+          "matching/asm/huff_window_save.asm": "0230bac9d7102c570ee8f7055cf010dde9dac07142efee6a1b04ef5c9117aa9f",
+          "matching/asm/huff_window_init.asm": "3a34aaa486c351a781978b2d97bb9ae238f40bd678ed724ab8daae75c9f1603a"
+        },
+        "whole_assembled_sha256": "e1e9a7e761149756cabdac4b18c481c97ec6d0108221f4f945cf966e28ad9a44",
+        "refill_substitution": "Explicit bounded512-byte file-source hook; no DOS I/O or original game execution claim",
+        "EOF_zero_or_stale_fill": false,
+        "pixels_palette_alpha_dimensions_or_animation_claimed": false
+      }
+    },
+    {
+      "id": "asset-26",
+      "family": "asset",
+      "index": 26,
+      "offset": 95514,
+      "size": 340,
+      "end_exclusive": 95854,
+      "sha256": "857b56df270355fdf573607d4a9287b9deb375dd4bf34c74a3114dd22dfcd68e",
+      "file": "raw/asset-26.bin",
+      "decoded_format_verified": false,
+      "semantic_kind": "compressed_cached_record",
+      "symbol_status": "NATIVE_AND_INDEPENDENT_EXACT",
+      "decoded_file": "asset-26.decoded.bin",
+      "decoded_sha256": "03d0a45bf17b6edaaf6f8d4793172b2e7581be8c5da0bd9c684ab2b38dada150",
+      "decoded_bytes": 487,
+      "independent": {
+        "declared_bytes": 487,
+        "tree_bits": 625,
+        "consumed_bits_after_header": 2654,
+        "trailing_bits": 2,
+        "tree_leaves": 57,
+        "max_depth": 10,
+        "skipped_header_hex": "650a0000"
+      },
+      "native": {
+        "classification": "Native matched-ASM byte decode; raw candidate stream only, not a verified sprite/animation",
+        "input_sha256": "aa50ef9fb55e5271526e25ccc6e60b2908f00440c3f33380d13d27ecd4cbc564",
+        "input_start": 95514,
+        "declared_output_bytes": 487,
+        "actual_output_bytes": 487,
+        "output_sha256": "03d0a45bf17b6edaaf6f8d4793172b2e7581be8c5da0bd9c684ab2b38dada150",
+        "tree_leaf_count": 57,
+        "tree_snapshot_stage": "Before native lookup builder consumes long-code depth entries",
+        "refills": [
+          {
+            "file_offset": 95514,
+            "available": 512
+          }
+        ],
+        "max_actual_input_read_exclusive": 95855,
+        "native_reader_state_hex": "9f220a001730",
+        "source_pins": {
+          "matching/asm/huff_frame_decode_entry.asm": "1a8f4118a424b95d5e4fe51bcf8224780e7931c37346946c202710dfbcc5adcc",
+          "matching/asm/huff_tree_build_recursive.asm": "6ee793fb15f7d877b8fd6879930b49b53ed8c14812da563ea053c23d2a2359c0",
+          "matching/asm/huff_read_byte.asm": "ffeb00d460e95ee54a48abffbc8c584797bfc8e4d5d3294d5094b8aed44cffad",
+          "matching/asm/huff_get_bit.asm": "398941802582fbc03aaac9bb0c3a4abeb8a61700c7d62c3f7b537940cc12df2b",
+          "matching/asm/huff_build_lookup.asm": "55143488f6d3e2e7ae91957c4594c50acba9a30c6746719bd7b5739495d8626d",
+          "matching/asm/huff_decode_bytes.asm": "9ea8de2c0d50a55caeb73a34a610bb6c09e1036e4d983c9e5d8071b9c78b2227",
+          "matching/asm/huff_decode_stream.asm": "495995e31d28f71614255b052dd31ad4627ade7b267d5419048c8bb1f396e572",
+          "matching/asm/huff_window_save.asm": "0230bac9d7102c570ee8f7055cf010dde9dac07142efee6a1b04ef5c9117aa9f",
+          "matching/asm/huff_window_init.asm": "3a34aaa486c351a781978b2d97bb9ae238f40bd678ed724ab8daae75c9f1603a"
+        },
+        "whole_assembled_sha256": "e1e9a7e761149756cabdac4b18c481c97ec6d0108221f4f945cf966e28ad9a44",
+        "refill_substitution": "Explicit bounded512-byte file-source hook; no DOS I/O or original game execution claim",
+        "EOF_zero_or_stale_fill": false,
+        "pixels_palette_alpha_dimensions_or_animation_claimed": false
+      }
+    },
+    {
+      "id": "asset-27",
+      "family": "asset",
+      "index": 27,
+      "offset": 95854,
+      "size": 1393,
+      "end_exclusive": 97247,
+      "sha256": "10939aa87aefc7074ba1ccc671f09037be7ea17611a390d7be9fff23c4f34626",
+      "file": "raw/asset-27.bin",
+      "decoded_format_verified": false,
+      "semantic_kind": "compressed_cached_record",
+      "symbol_status": "NATIVE_AND_INDEPENDENT_EXACT",
+      "decoded_file": "asset-27.decoded.bin",
+      "decoded_sha256": "81671a174323a26bc58bbd47d10f7173fb608ec3067cb375e30d7aa9de55a01c",
+      "decoded_bytes": 2442,
+      "independent": {
+        "declared_bytes": 2442,
+        "tree_bits": 768,
+        "consumed_bits_after_header": 11074,
+        "trailing_bits": 6,
+        "tree_leaves": 70,
+        "max_depth": 12,
+        "skipped_header_hex": "492b0000"
+      },
+      "native": {
+        "classification": "Native matched-ASM byte decode; raw candidate stream only, not a verified sprite/animation",
+        "input_sha256": "aa50ef9fb55e5271526e25ccc6e60b2908f00440c3f33380d13d27ecd4cbc564",
+        "input_start": 95854,
+        "declared_output_bytes": 2442,
+        "actual_output_bytes": 2442,
+        "output_sha256": "81671a174323a26bc58bbd47d10f7173fb608ec3067cb375e30d7aa9de55a01c",
+        "tree_leaf_count": 70,
+        "tree_snapshot_stage": "Before native lookup builder consumes long-code depth entries",
+        "refills": [
+          {
+            "file_offset": 95854,
+            "available": 512
+          },
+          {
+            "file_offset": 96366,
+            "available": 512
+          },
+          {
+            "file_offset": 96878,
+            "available": 512
+          }
+        ],
+        "max_actual_input_read_exclusive": 97248,
+        "native_reader_state_hex": "1b000e003430",
+        "source_pins": {
+          "matching/asm/huff_frame_decode_entry.asm": "1a8f4118a424b95d5e4fe51bcf8224780e7931c37346946c202710dfbcc5adcc",
+          "matching/asm/huff_tree_build_recursive.asm": "6ee793fb15f7d877b8fd6879930b49b53ed8c14812da563ea053c23d2a2359c0",
+          "matching/asm/huff_read_byte.asm": "ffeb00d460e95ee54a48abffbc8c584797bfc8e4d5d3294d5094b8aed44cffad",
+          "matching/asm/huff_get_bit.asm": "398941802582fbc03aaac9bb0c3a4abeb8a61700c7d62c3f7b537940cc12df2b",
+          "matching/asm/huff_build_lookup.asm": "55143488f6d3e2e7ae91957c4594c50acba9a30c6746719bd7b5739495d8626d",
+          "matching/asm/huff_decode_bytes.asm": "9ea8de2c0d50a55caeb73a34a610bb6c09e1036e4d983c9e5d8071b9c78b2227",
+          "matching/asm/huff_decode_stream.asm": "495995e31d28f71614255b052dd31ad4627ade7b267d5419048c8bb1f396e572",
+          "matching/asm/huff_window_save.asm": "0230bac9d7102c570ee8f7055cf010dde9dac07142efee6a1b04ef5c9117aa9f",
+          "matching/asm/huff_window_init.asm": "3a34aaa486c351a781978b2d97bb9ae238f40bd678ed724ab8daae75c9f1603a"
+        },
+        "whole_assembled_sha256": "e1e9a7e761149756cabdac4b18c481c97ec6d0108221f4f945cf966e28ad9a44",
+        "refill_substitution": "Explicit bounded512-byte file-source hook; no DOS I/O or original game execution claim",
+        "EOF_zero_or_stale_fill": false,
+        "pixels_palette_alpha_dimensions_or_animation_claimed": false
+      }
+    },
+    {
+      "id": "asset-28",
+      "family": "asset",
+      "index": 28,
+      "offset": 97247,
+      "size": 1194,
+      "end_exclusive": 98441,
+      "sha256": "af3fed6060959a2a4e6772fc4f588a400ccaabd578377ffdc8257d8e79e025be",
+      "file": "raw/asset-28.bin",
+      "decoded_format_verified": false,
+      "semantic_kind": "compressed_cached_record",
+      "symbol_status": "NATIVE_AND_INDEPENDENT_EXACT",
+      "decoded_file": "asset-28.decoded.bin",
+      "decoded_sha256": "0461574079f9f9c316d60ede12c48dd8f91b1ec7360ebf5f06df1d2efc99c86e",
+      "decoded_bytes": 1798,
+      "independent": {
+        "declared_bytes": 1798,
+        "tree_bits": 966,
+        "consumed_bits_after_header": 9484,
+        "trailing_bits": 4,
+        "tree_leaves": 88,
+        "max_depth": 11,
+        "skipped_header_hex": "13250000"
+      },
+      "native": {
+        "classification": "Native matched-ASM byte decode; raw candidate stream only, not a verified sprite/animation",
+        "input_sha256": "aa50ef9fb55e5271526e25ccc6e60b2908f00440c3f33380d13d27ecd4cbc564",
+        "input_start": 97247,
+        "declared_output_bytes": 1798,
+        "actual_output_bytes": 1798,
+        "output_sha256": "0461574079f9f9c316d60ede12c48dd8f91b1ec7360ebf5f06df1d2efc99c86e",
+        "tree_leaf_count": 88,
+        "tree_snapshot_stage": "Before native lookup builder consumes long-code depth entries",
+        "refills": [
+          {
+            "file_offset": 97247,
+            "available": 512
+          },
+          {
+            "file_offset": 97759,
+            "available": 512
+          },
+          {
+            "file_offset": 98271,
+            "available": 512
+          }
+        ],
+        "max_actual_input_read_exclusive": 98442,
+        "native_reader_state_hex": "67080c006d2f",
+        "source_pins": {
+          "matching/asm/huff_frame_decode_entry.asm": "1a8f4118a424b95d5e4fe51bcf8224780e7931c37346946c202710dfbcc5adcc",
+          "matching/asm/huff_tree_build_recursive.asm": "6ee793fb15f7d877b8fd6879930b49b53ed8c14812da563ea053c23d2a2359c0",
+          "matching/asm/huff_read_byte.asm": "ffeb00d460e95ee54a48abffbc8c584797bfc8e4d5d3294d5094b8aed44cffad",
+          "matching/asm/huff_get_bit.asm": "398941802582fbc03aaac9bb0c3a4abeb8a61700c7d62c3f7b537940cc12df2b",
+          "matching/asm/huff_build_lookup.asm": "55143488f6d3e2e7ae91957c4594c50acba9a30c6746719bd7b5739495d8626d",
+          "matching/asm/huff_decode_bytes.asm": "9ea8de2c0d50a55caeb73a34a610bb6c09e1036e4d983c9e5d8071b9c78b2227",
+          "matching/asm/huff_decode_stream.asm": "495995e31d28f71614255b052dd31ad4627ade7b267d5419048c8bb1f396e572",
+          "matching/asm/huff_window_save.asm": "0230bac9d7102c570ee8f7055cf010dde9dac07142efee6a1b04ef5c9117aa9f",
+          "matching/asm/huff_window_init.asm": "3a34aaa486c351a781978b2d97bb9ae238f40bd678ed724ab8daae75c9f1603a"
+        },
+        "whole_assembled_sha256": "e1e9a7e761149756cabdac4b18c481c97ec6d0108221f4f945cf966e28ad9a44",
+        "refill_substitution": "Explicit bounded512-byte file-source hook; no DOS I/O or original game execution claim",
+        "EOF_zero_or_stale_fill": false,
+        "pixels_palette_alpha_dimensions_or_animation_claimed": false
+      }
+    },
+    {
+      "id": "asset-29",
+      "family": "asset",
+      "index": 29,
+      "offset": 98441,
+      "size": 2927,
+      "end_exclusive": 101368,
+      "sha256": "c0dd3a8154923c3ebc01b436ebc5a18e8b3dd3e339f469c7e8f1f3ea252ac262",
+      "file": "raw/asset-29.bin",
+      "decoded_format_verified": false,
+      "semantic_kind": "compressed_cached_record",
+      "symbol_status": "NATIVE_AND_INDEPENDENT_EXACT",
+      "decoded_file": "asset-29.decoded.bin",
+      "decoded_sha256": "cc20c8f04ff58bec8d0801a21947a457851e0802492c00e60aa1198633375620",
+      "decoded_bytes": 8070,
+      "independent": {
+        "declared_bytes": 8070,
+        "tree_bits": 284,
+        "consumed_bits_after_header": 23352,
+        "trailing_bits": 0,
+        "tree_leaves": 26,
+        "max_depth": 13,
+        "skipped_header_hex": "3f5b0000"
+      },
+      "native": {
+        "classification": "Native matched-ASM byte decode; raw candidate stream only, not a verified sprite/animation",
+        "input_sha256": "aa50ef9fb55e5271526e25ccc6e60b2908f00440c3f33380d13d27ecd4cbc564",
+        "input_start": 98441,
+        "declared_output_bytes": 8070,
+        "actual_output_bytes": 8070,
+        "output_sha256": "cc20c8f04ff58bec8d0801a21947a457851e0802492c00e60aa1198633375620",
+        "tree_leaf_count": 26,
+        "tree_snapshot_stage": "Before native lookup builder consumes long-code depth entries",
+        "refills": [
+          {
+            "file_offset": 98441,
+            "available": 512
+          },
+          {
+            "file_offset": 98953,
+            "available": 512
+          },
+          {
+            "file_offset": 99465,
+            "available": 512
+          },
+          {
+            "file_offset": 99977,
+            "available": 512
+          },
+          {
+            "file_offset": 100489,
+            "available": 512
+          },
+          {
+            "file_offset": 101001,
+            "available": 512
+          }
+        ],
+        "max_actual_input_read_exclusive": 101369,
+        "native_reader_state_hex": "694b08003230",
+        "source_pins": {
+          "matching/asm/huff_frame_decode_entry.asm": "1a8f4118a424b95d5e4fe51bcf8224780e7931c37346946c202710dfbcc5adcc",
+          "matching/asm/huff_tree_build_recursive.asm": "6ee793fb15f7d877b8fd6879930b49b53ed8c14812da563ea053c23d2a2359c0",
+          "matching/asm/huff_read_byte.asm": "ffeb00d460e95ee54a48abffbc8c584797bfc8e4d5d3294d5094b8aed44cffad",
+          "matching/asm/huff_get_bit.asm": "398941802582fbc03aaac9bb0c3a4abeb8a61700c7d62c3f7b537940cc12df2b",
+          "matching/asm/huff_build_lookup.asm": "55143488f6d3e2e7ae91957c4594c50acba9a30c6746719bd7b5739495d8626d",
+          "matching/asm/huff_decode_bytes.asm": "9ea8de2c0d50a55caeb73a34a610bb6c09e1036e4d983c9e5d8071b9c78b2227",
+          "matching/asm/huff_decode_stream.asm": "495995e31d28f71614255b052dd31ad4627ade7b267d5419048c8bb1f396e572",
+          "matching/asm/huff_window_save.asm": "0230bac9d7102c570ee8f7055cf010dde9dac07142efee6a1b04ef5c9117aa9f",
+          "matching/asm/huff_window_init.asm": "3a34aaa486c351a781978b2d97bb9ae238f40bd678ed724ab8daae75c9f1603a"
+        },
+        "whole_assembled_sha256": "e1e9a7e761149756cabdac4b18c481c97ec6d0108221f4f945cf966e28ad9a44",
+        "refill_substitution": "Explicit bounded512-byte file-source hook; no DOS I/O or original game execution claim",
+        "EOF_zero_or_stale_fill": false,
+        "pixels_palette_alpha_dimensions_or_animation_claimed": false
+      }
+    },
+    {
+      "id": "asset-30",
+      "family": "asset",
+      "index": 30,
+      "offset": 101368,
+      "size": 2378,
+      "end_exclusive": 103746,
+      "sha256": "ce4f5109bdf6201868112bb7ab97205ebb1e55eb30db63a421a131cdc23515c8",
+      "file": "raw/asset-30.bin",
+      "decoded_format_verified": false,
+      "semantic_kind": "compressed_cached_record",
+      "symbol_status": "NATIVE_AND_INDEPENDENT_EXACT",
+      "decoded_file": "asset-30.decoded.bin",
+      "decoded_sha256": "8938edf8c7007a7d1b0e1a360306540ead05548ad2e5c28b6534fe08b93b06c4",
+      "decoded_bytes": 4427,
+      "independent": {
+        "declared_bytes": 4427,
+        "tree_bits": 504,
+        "consumed_bits_after_header": 18955,
+        "trailing_bits": 5,
+        "tree_leaves": 46,
+        "max_depth": 13,
+        "skipped_header_hex": "124a0000"
+      },
+      "native": {
+        "classification": "Native matched-ASM byte decode; raw candidate stream only, not a verified sprite/animation",
+        "input_sha256": "aa50ef9fb55e5271526e25ccc6e60b2908f00440c3f33380d13d27ecd4cbc564",
+        "input_start": 101368,
+        "declared_output_bytes": 4427,
+        "actual_output_bytes": 4427,
+        "output_sha256": "8938edf8c7007a7d1b0e1a360306540ead05548ad2e5c28b6534fe08b93b06c4",
+        "tree_leaf_count": 46,
+        "tree_snapshot_stage": "Before native lookup builder consumes long-code depth entries",
+        "refills": [
+          {
+            "file_offset": 101368,
+            "available": 512
+          },
+          {
+            "file_offset": 101880,
+            "available": 512
+          },
+          {
+            "file_offset": 102392,
+            "available": 512
+          },
+          {
+            "file_offset": 102904,
+            "available": 512
+          },
+          {
+            "file_offset": 103416,
+            "available": 512
+          }
+        ],
+        "max_actual_input_read_exclusive": 103747,
+        "native_reader_state_hex": "02000d000d30",
+        "source_pins": {
+          "matching/asm/huff_frame_decode_entry.asm": "1a8f4118a424b95d5e4fe51bcf8224780e7931c37346946c202710dfbcc5adcc",
+          "matching/asm/huff_tree_build_recursive.asm": "6ee793fb15f7d877b8fd6879930b49b53ed8c14812da563ea053c23d2a2359c0",
+          "matching/asm/huff_read_byte.asm": "ffeb00d460e95ee54a48abffbc8c584797bfc8e4d5d3294d5094b8aed44cffad",
+          "matching/asm/huff_get_bit.asm": "398941802582fbc03aaac9bb0c3a4abeb8a61700c7d62c3f7b537940cc12df2b",
+          "matching/asm/huff_build_lookup.asm": "55143488f6d3e2e7ae91957c4594c50acba9a30c6746719bd7b5739495d8626d",
+          "matching/asm/huff_decode_bytes.asm": "9ea8de2c0d50a55caeb73a34a610bb6c09e1036e4d983c9e5d8071b9c78b2227",
+          "matching/asm/huff_decode_stream.asm": "495995e31d28f71614255b052dd31ad4627ade7b267d5419048c8bb1f396e572",
+          "matching/asm/huff_window_save.asm": "0230bac9d7102c570ee8f7055cf010dde9dac07142efee6a1b04ef5c9117aa9f",
+          "matching/asm/huff_window_init.asm": "3a34aaa486c351a781978b2d97bb9ae238f40bd678ed724ab8daae75c9f1603a"
+        },
+        "whole_assembled_sha256": "e1e9a7e761149756cabdac4b18c481c97ec6d0108221f4f945cf966e28ad9a44",
+        "refill_substitution": "Explicit bounded512-byte file-source hook; no DOS I/O or original game execution claim",
+        "EOF_zero_or_stale_fill": false,
+        "pixels_palette_alpha_dimensions_or_animation_claimed": false
+      }
+    },
+    {
+      "id": "startup-00",
+      "family": "startup",
+      "index": 0,
+      "offset": 103746,
+      "size": 6494,
+      "end_exclusive": 110240,
+      "sha256": "3cd506caa4cd26a8296a753afef283a4108f5a753aee339fd028a480a8266273",
+      "file": "raw/startup-00.bin",
+      "decoded_format_verified": false,
+      "semantic_kind": "compressed_background",
+      "symbol_status": "NATIVE_AND_INDEPENDENT_EXACT",
+      "decoded_file": "startup-00.decoded.bin",
+      "decoded_sha256": "3e160b670af244f3bdecad6abd68dfae2729feeae1b7ebd23d6e7fafc7981fac",
+      "decoded_bytes": 32000,
+      "independent": {
+        "declared_bytes": 32000,
+        "tree_bits": 394,
+        "consumed_bits_after_header": 51884,
+        "trailing_bits": 4,
+        "tree_leaves": 36,
+        "max_depth": 14,
+        "skipped_header_hex": "b3ca0000"
+      },
+      "native": {
+        "classification": "Native matched-ASM byte decode; raw candidate stream only, not a verified sprite/animation",
+        "input_sha256": "aa50ef9fb55e5271526e25ccc6e60b2908f00440c3f33380d13d27ecd4cbc564",
+        "input_start": 103746,
+        "declared_output_bytes": 32000,
+        "actual_output_bytes": 32000,
+        "output_sha256": "3e160b670af244f3bdecad6abd68dfae2729feeae1b7ebd23d6e7fafc7981fac",
+        "tree_leaf_count": 36,
+        "tree_snapshot_stage": "Before native lookup builder consumes long-code depth entries",
+        "refills": [
+          {
+            "file_offset": 103746,
+            "available": 512
+          },
+          {
+            "file_offset": 104258,
+            "available": 512
+          },
+          {
+            "file_offset": 104770,
+            "available": 512
+          },
+          {
+            "file_offset": 105282,
+            "available": 512
+          },
+          {
+            "file_offset": 105794,
+            "available": 512
+          },
+          {
+            "file_offset": 106306,
+            "available": 512
+          },
+          {
+            "file_offset": 106818,
+            "available": 512
+          },
+          {
+            "file_offset": 107330,
+            "available": 512
+          },
+          {
+            "file_offset": 107842,
+            "available": 512
+          },
+          {
+            "file_offset": 108354,
+            "available": 512
+          },
+          {
+            "file_offset": 108866,
+            "available": 512
+          },
+          {
+            "file_offset": 109378,
+            "available": 512
+          },
+          {
+            "file_offset": 109890,
+            "available": 512
+          }
+        ],
+        "max_actual_input_read_exclusive": 110241,
+        "native_reader_state_hex": "0f000c002130",
+        "source_pins": {
+          "matching/asm/huff_frame_decode_entry.asm": "1a8f4118a424b95d5e4fe51bcf8224780e7931c37346946c202710dfbcc5adcc",
+          "matching/asm/huff_tree_build_recursive.asm": "6ee793fb15f7d877b8fd6879930b49b53ed8c14812da563ea053c23d2a2359c0",
+          "matching/asm/huff_read_byte.asm": "ffeb00d460e95ee54a48abffbc8c584797bfc8e4d5d3294d5094b8aed44cffad",
+          "matching/asm/huff_get_bit.asm": "398941802582fbc03aaac9bb0c3a4abeb8a61700c7d62c3f7b537940cc12df2b",
+          "matching/asm/huff_build_lookup.asm": "55143488f6d3e2e7ae91957c4594c50acba9a30c6746719bd7b5739495d8626d",
+          "matching/asm/huff_decode_bytes.asm": "9ea8de2c0d50a55caeb73a34a610bb6c09e1036e4d983c9e5d8071b9c78b2227",
+          "matching/asm/huff_decode_stream.asm": "495995e31d28f71614255b052dd31ad4627ade7b267d5419048c8bb1f396e572",
+          "matching/asm/huff_window_save.asm": "0230bac9d7102c570ee8f7055cf010dde9dac07142efee6a1b04ef5c9117aa9f",
+          "matching/asm/huff_window_init.asm": "3a34aaa486c351a781978b2d97bb9ae238f40bd678ed724ab8daae75c9f1603a"
+        },
+        "whole_assembled_sha256": "e1e9a7e761149756cabdac4b18c481c97ec6d0108221f4f945cf966e28ad9a44",
+        "refill_substitution": "Explicit bounded512-byte file-source hook; no DOS I/O or original game execution claim",
+        "EOF_zero_or_stale_fill": false,
+        "pixels_palette_alpha_dimensions_or_animation_claimed": false
+      },
+      "background_packed_file": "startup-00.background-packed.bin",
+      "background_packed_sha256": "326cdd239b2fc222e3d356dadb54523788dc2bddee092513db28d8d3743cd92f",
+      "background_dimensions": [
+        320,
+        200
+      ],
+      "background_row_bytes": 160,
+      "remaining_decoded_after_native_32000_hex": "",
+      "transform_status": "MATCHED_C_CONFIGURE_GAME_DERIVED_NO_RENDER_CLAIM"
+    },
+    {
+      "id": "startup-01",
+      "family": "startup",
+      "index": 1,
+      "offset": 110240,
+      "size": 4544,
+      "end_exclusive": 114784,
+      "sha256": "fe975bfb02c428212469f0b06fe8a5a1ffa2dfd7f408556e065d064394e7783c",
+      "file": "raw/startup-01.bin",
+      "decoded_format_verified": false,
+      "semantic_kind": "compressed_background",
+      "symbol_status": "NATIVE_AND_INDEPENDENT_EXACT",
+      "decoded_file": "startup-01.decoded.bin",
+      "decoded_sha256": "cda88044c7d27881062f0ff738ab2661e46ba896aa8aa5d5313cef80fc03489f",
+      "decoded_bytes": 32000,
+      "independent": {
+        "declared_bytes": 32000,
+        "tree_bits": 86,
+        "consumed_bits_after_header": 36283,
+        "trailing_bits": 5,
+        "tree_leaves": 8,
+        "max_depth": 7,
+        "skipped_header_hex": "c28d0000"
+      },
+      "native": {
+        "classification": "Native matched-ASM byte decode; raw candidate stream only, not a verified sprite/animation",
+        "input_sha256": "aa50ef9fb55e5271526e25ccc6e60b2908f00440c3f33380d13d27ecd4cbc564",
+        "input_start": 110240,
+        "declared_output_bytes": 32000,
+        "actual_output_bytes": 32000,
+        "output_sha256": "cda88044c7d27881062f0ff738ab2661e46ba896aa8aa5d5313cef80fc03489f",
+        "tree_leaf_count": 8,
+        "tree_snapshot_stage": "Before native lookup builder consumes long-code depth entries",
+        "refills": [
+          {
+            "file_offset": 110240,
+            "available": 512
+          },
+          {
+            "file_offset": 110752,
+            "available": 512
+          },
+          {
+            "file_offset": 111264,
+            "available": 512
+          },
+          {
+            "file_offset": 111776,
+            "available": 512
+          },
+          {
+            "file_offset": 112288,
+            "available": 512
+          },
+          {
+            "file_offset": 112800,
+            "available": 512
+          },
+          {
+            "file_offset": 113312,
+            "available": 512
+          },
+          {
+            "file_offset": 113824,
+            "available": 512
+          },
+          {
+            "file_offset": 114336,
+            "available": 512
+          }
+        ],
+        "max_actual_input_read_exclusive": 114785,
+        "native_reader_state_hex": "ff070d008330",
+        "source_pins": {
+          "matching/asm/huff_frame_decode_entry.asm": "1a8f4118a424b95d5e4fe51bcf8224780e7931c37346946c202710dfbcc5adcc",
+          "matching/asm/huff_tree_build_recursive.asm": "6ee793fb15f7d877b8fd6879930b49b53ed8c14812da563ea053c23d2a2359c0",
+          "matching/asm/huff_read_byte.asm": "ffeb00d460e95ee54a48abffbc8c584797bfc8e4d5d3294d5094b8aed44cffad",
+          "matching/asm/huff_get_bit.asm": "398941802582fbc03aaac9bb0c3a4abeb8a61700c7d62c3f7b537940cc12df2b",
+          "matching/asm/huff_build_lookup.asm": "55143488f6d3e2e7ae91957c4594c50acba9a30c6746719bd7b5739495d8626d",
+          "matching/asm/huff_decode_bytes.asm": "9ea8de2c0d50a55caeb73a34a610bb6c09e1036e4d983c9e5d8071b9c78b2227",
+          "matching/asm/huff_decode_stream.asm": "495995e31d28f71614255b052dd31ad4627ade7b267d5419048c8bb1f396e572",
+          "matching/asm/huff_window_save.asm": "0230bac9d7102c570ee8f7055cf010dde9dac07142efee6a1b04ef5c9117aa9f",
+          "matching/asm/huff_window_init.asm": "3a34aaa486c351a781978b2d97bb9ae238f40bd678ed724ab8daae75c9f1603a"
+        },
+        "whole_assembled_sha256": "e1e9a7e761149756cabdac4b18c481c97ec6d0108221f4f945cf966e28ad9a44",
+        "refill_substitution": "Explicit bounded512-byte file-source hook; no DOS I/O or original game execution claim",
+        "EOF_zero_or_stale_fill": false,
+        "pixels_palette_alpha_dimensions_or_animation_claimed": false
+      },
+      "background_packed_file": "startup-01.background-packed.bin",
+      "background_packed_sha256": "c297b04d26c7eaa3ee819d5f6fa547a489b0eae54344e546155be72f6e4916aa",
+      "background_dimensions": [
+        320,
+        200
+      ],
+      "background_row_bytes": 160,
+      "remaining_decoded_after_native_32000_hex": "",
+      "transform_status": "MATCHED_C_CONFIGURE_GAME_DERIVED_NO_RENDER_CLAIM"
+    },
+    {
+      "id": "startup-02",
+      "family": "startup",
+      "index": 2,
+      "offset": 114784,
+      "size": 32000,
+      "end_exclusive": 146784,
+      "sha256": "da69b9c1f784f0ea21bec125078d339fc70ad98ed9a095360fbf7045829fc7fb",
+      "file": "raw/startup-02.bin",
+      "decoded_format_verified": false,
+      "semantic_kind": "opening_book_raw",
+      "symbol_status": "NOT_A_COMPRESSED_SYMBOL_STREAM"
+    },
+    {
+      "id": "startup-03",
+      "family": "startup",
+      "index": 3,
+      "offset": 146784,
+      "size": 11212,
+      "end_exclusive": 157996,
+      "sha256": "29978b3fe25a801cbc21a2ffa94f10f29cdce929d941cc9b385b1cc8a0ff3cb0",
+      "file": "raw/startup-03.bin",
+      "decoded_format_verified": false,
+      "semantic_kind": "compressed_background",
+      "symbol_status": "NATIVE_AND_INDEPENDENT_EXACT",
+      "decoded_file": "startup-03.decoded.bin",
+      "decoded_sha256": "664743ae1aa1fa50944ee9bec7438f1849d213dbe16615a1b3afaf1b965cfbb6",
+      "decoded_bytes": 32064,
+      "independent": {
+        "declared_bytes": 32064,
+        "tree_bits": 2121,
+        "consumed_bits_after_header": 89631,
+        "trailing_bits": 1,
+        "tree_leaves": 193,
+        "max_depth": 15,
+        "skipped_header_hex": "265e0100"
+      },
+      "native": {
+        "classification": "Native matched-ASM byte decode; raw candidate stream only, not a verified sprite/animation",
+        "input_sha256": "aa50ef9fb55e5271526e25ccc6e60b2908f00440c3f33380d13d27ecd4cbc564",
+        "input_start": 146784,
+        "declared_output_bytes": 32064,
+        "actual_output_bytes": 32064,
+        "output_sha256": "664743ae1aa1fa50944ee9bec7438f1849d213dbe16615a1b3afaf1b965cfbb6",
+        "tree_leaf_count": 193,
+        "tree_snapshot_stage": "Before native lookup builder consumes long-code depth entries",
+        "refills": [
+          {
+            "file_offset": 146784,
+            "available": 512
+          },
+          {
+            "file_offset": 147296,
+            "available": 512
+          },
+          {
+            "file_offset": 147808,
+            "available": 512
+          },
+          {
+            "file_offset": 148320,
+            "available": 512
+          },
+          {
+            "file_offset": 148832,
+            "available": 512
+          },
+          {
+            "file_offset": 149344,
+            "available": 512
+          },
+          {
+            "file_offset": 149856,
+            "available": 512
+          },
+          {
+            "file_offset": 150368,
+            "available": 512
+          },
+          {
+            "file_offset": 150880,
+            "available": 512
+          },
+          {
+            "file_offset": 151392,
+            "available": 512
+          },
+          {
+            "file_offset": 151904,
+            "available": 512
+          },
+          {
+            "file_offset": 152416,
+            "available": 512
+          },
+          {
+            "file_offset": 152928,
+            "available": 512
+          },
+          {
+            "file_offset": 153440,
+            "available": 512
+          },
+          {
+            "file_offset": 153952,
+            "available": 512
+          },
+          {
+            "file_offset": 154464,
+            "available": 512
+          },
+          {
+            "file_offset": 154976,
+            "available": 512
+          },
+          {
+            "file_offset": 155488,
+            "available": 512
+          },
+          {
+            "file_offset": 156000,
+            "available": 512
+          },
+          {
+            "file_offset": 156512,
+            "available": 512
+          },
+          {
+            "file_offset": 157024,
+            "available": 512
+          },
+          {
+            "file_offset": 157536,
+            "available": 512
+          }
+        ],
+        "max_actual_input_read_exclusive": 157997,
+        "native_reader_state_hex": "b61309008f30",
+        "source_pins": {
+          "matching/asm/huff_frame_decode_entry.asm": "1a8f4118a424b95d5e4fe51bcf8224780e7931c37346946c202710dfbcc5adcc",
+          "matching/asm/huff_tree_build_recursive.asm": "6ee793fb15f7d877b8fd6879930b49b53ed8c14812da563ea053c23d2a2359c0",
+          "matching/asm/huff_read_byte.asm": "ffeb00d460e95ee54a48abffbc8c584797bfc8e4d5d3294d5094b8aed44cffad",
+          "matching/asm/huff_get_bit.asm": "398941802582fbc03aaac9bb0c3a4abeb8a61700c7d62c3f7b537940cc12df2b",
+          "matching/asm/huff_build_lookup.asm": "55143488f6d3e2e7ae91957c4594c50acba9a30c6746719bd7b5739495d8626d",
+          "matching/asm/huff_decode_bytes.asm": "9ea8de2c0d50a55caeb73a34a610bb6c09e1036e4d983c9e5d8071b9c78b2227",
+          "matching/asm/huff_decode_stream.asm": "495995e31d28f71614255b052dd31ad4627ade7b267d5419048c8bb1f396e572",
+          "matching/asm/huff_window_save.asm": "0230bac9d7102c570ee8f7055cf010dde9dac07142efee6a1b04ef5c9117aa9f",
+          "matching/asm/huff_window_init.asm": "3a34aaa486c351a781978b2d97bb9ae238f40bd678ed724ab8daae75c9f1603a"
+        },
+        "whole_assembled_sha256": "e1e9a7e761149756cabdac4b18c481c97ec6d0108221f4f945cf966e28ad9a44",
+        "refill_substitution": "Explicit bounded512-byte file-source hook; no DOS I/O or original game execution claim",
+        "EOF_zero_or_stale_fill": false,
+        "pixels_palette_alpha_dimensions_or_animation_claimed": false
+      },
+      "background_packed_file": "startup-03.background-packed.bin",
+      "background_packed_sha256": "889c78c8416c5aed5a55f4e20d24ff220c3b6af4047ae067152a3b032315cbbf",
+      "background_dimensions": [
+        320,
+        200
+      ],
+      "background_row_bytes": 160,
+      "remaining_decoded_after_native_32000_hex": "00000b500f700f920fb30fd50fe70ff9006f005d003c003a00290017000600040f060d050c040a040903070206020401030406000666088809990bbb0ddd0fff",
+      "transform_status": "MATCHED_C_CONFIGURE_GAME_DERIVED_NO_RENDER_CLAIM"
+    },
+    {
+      "id": "startup-04",
+      "family": "startup",
+      "index": 4,
+      "offset": 157996,
+      "size": 640,
+      "end_exclusive": 158636,
+      "sha256": "df53169bb861ac0a70009ca8a1091bbca3f0b02c7e3923ef5ec14265d5d5de51",
+      "file": "raw/startup-04.bin",
+      "decoded_format_verified": false,
+      "semantic_kind": "coordinate_text_pages",
+      "symbol_status": "NATIVE_AND_INDEPENDENT_EXACT",
+      "decoded_file": "startup-04.decoded.bin",
+      "decoded_sha256": "e2b9a61e307196748d3a3c3c2633843a1bfb4177eb509e3acbcea628591a03a2",
+      "decoded_bytes": 807,
+      "independent": {
+        "declared_bytes": 807,
+        "tree_bits": 889,
+        "consumed_bits_after_header": 5051,
+        "trailing_bits": 5,
+        "tree_leaves": 81,
+        "max_depth": 10,
+        "skipped_header_hex": "c2130000"
+      },
+      "native": {
+        "classification": "Native matched-ASM byte decode; raw candidate stream only, not a verified sprite/animation",
+        "input_sha256": "aa50ef9fb55e5271526e25ccc6e60b2908f00440c3f33380d13d27ecd4cbc564",
+        "input_start": 157996,
+        "declared_output_bytes": 807,
+        "actual_output_bytes": 807,
+        "output_sha256": "e2b9a61e307196748d3a3c3c2633843a1bfb4177eb509e3acbcea628591a03a2",
+        "tree_leaf_count": 81,
+        "tree_snapshot_stage": "Before native lookup builder consumes long-code depth entries",
+        "refills": [
+          {
+            "file_offset": 157996,
+            "available": 512
+          },
+          {
+            "file_offset": 158508,
+            "available": 512
+          }
+        ],
+        "max_actual_input_read_exclusive": 158637,
+        "native_reader_state_hex": "86020d00432f",
+        "source_pins": {
+          "matching/asm/huff_frame_decode_entry.asm": "1a8f4118a424b95d5e4fe51bcf8224780e7931c37346946c202710dfbcc5adcc",
+          "matching/asm/huff_tree_build_recursive.asm": "6ee793fb15f7d877b8fd6879930b49b53ed8c14812da563ea053c23d2a2359c0",
+          "matching/asm/huff_read_byte.asm": "ffeb00d460e95ee54a48abffbc8c584797bfc8e4d5d3294d5094b8aed44cffad",
+          "matching/asm/huff_get_bit.asm": "398941802582fbc03aaac9bb0c3a4abeb8a61700c7d62c3f7b537940cc12df2b",
+          "matching/asm/huff_build_lookup.asm": "55143488f6d3e2e7ae91957c4594c50acba9a30c6746719bd7b5739495d8626d",
+          "matching/asm/huff_decode_bytes.asm": "9ea8de2c0d50a55caeb73a34a610bb6c09e1036e4d983c9e5d8071b9c78b2227",
+          "matching/asm/huff_decode_stream.asm": "495995e31d28f71614255b052dd31ad4627ade7b267d5419048c8bb1f396e572",
+          "matching/asm/huff_window_save.asm": "0230bac9d7102c570ee8f7055cf010dde9dac07142efee6a1b04ef5c9117aa9f",
+          "matching/asm/huff_window_init.asm": "3a34aaa486c351a781978b2d97bb9ae238f40bd678ed724ab8daae75c9f1603a"
+        },
+        "whole_assembled_sha256": "e1e9a7e761149756cabdac4b18c481c97ec6d0108221f4f945cf966e28ad9a44",
+        "refill_substitution": "Explicit bounded512-byte file-source hook; no DOS I/O or original game execution claim",
+        "EOF_zero_or_stale_fill": false,
+        "pixels_palette_alpha_dimensions_or_animation_claimed": false
+      }
+    },
+    {
+      "id": "startup-05",
+      "family": "startup",
+      "index": 5,
+      "offset": 158636,
+      "size": 4547,
+      "end_exclusive": 163183,
+      "sha256": "002fb811976fa3410cc9a23b7eb26a387ac007e8b64f5f6807337f38e8943afd",
+      "file": "raw/startup-05.bin",
+      "decoded_format_verified": false,
+      "semantic_kind": "compressed_xor_encoded_game_challenge_text",
+      "symbol_status": "NATIVE_AND_INDEPENDENT_EXACT",
+      "decoded_file": "startup-05.decoded.bin",
+      "decoded_sha256": "99beaa39c78839298648c8b9ff4ba57dbb4801ebd8070a1acf324b801d2b32dc",
+      "decoded_bytes": 8272,
+      "independent": {
+        "declared_bytes": 8272,
+        "tree_bits": 757,
+        "consumed_bits_after_header": 36308,
+        "trailing_bits": 4,
+        "tree_leaves": 69,
+        "max_depth": 13,
+        "skipped_header_hex": "db8d0000"
+      },
+      "native": {
+        "classification": "Native matched-ASM byte decode; raw candidate stream only, not a verified sprite/animation",
+        "input_sha256": "aa50ef9fb55e5271526e25ccc6e60b2908f00440c3f33380d13d27ecd4cbc564",
+        "input_start": 158636,
+        "declared_output_bytes": 8272,
+        "actual_output_bytes": 8272,
+        "output_sha256": "99beaa39c78839298648c8b9ff4ba57dbb4801ebd8070a1acf324b801d2b32dc",
+        "tree_leaf_count": 69,
+        "tree_snapshot_stage": "Before native lookup builder consumes long-code depth entries",
+        "refills": [
+          {
+            "file_offset": 158636,
+            "available": 512
+          },
+          {
+            "file_offset": 159148,
+            "available": 512
+          },
+          {
+            "file_offset": 159660,
+            "available": 512
+          },
+          {
+            "file_offset": 160172,
+            "available": 512
+          },
+          {
+            "file_offset": 160684,
+            "available": 512
+          },
+          {
+            "file_offset": 161196,
+            "available": 512
+          },
+          {
+            "file_offset": 161708,
+            "available": 512
+          },
+          {
+            "file_offset": 162220,
+            "available": 512
+          },
+          {
+            "file_offset": 162732,
+            "available": 512
+          }
+        ],
+        "max_actual_input_read_exclusive": 163184,
+        "native_reader_state_hex": "08000c008630",
+        "source_pins": {
+          "matching/asm/huff_frame_decode_entry.asm": "1a8f4118a424b95d5e4fe51bcf8224780e7931c37346946c202710dfbcc5adcc",
+          "matching/asm/huff_tree_build_recursive.asm": "6ee793fb15f7d877b8fd6879930b49b53ed8c14812da563ea053c23d2a2359c0",
+          "matching/asm/huff_read_byte.asm": "ffeb00d460e95ee54a48abffbc8c584797bfc8e4d5d3294d5094b8aed44cffad",
+          "matching/asm/huff_get_bit.asm": "398941802582fbc03aaac9bb0c3a4abeb8a61700c7d62c3f7b537940cc12df2b",
+          "matching/asm/huff_build_lookup.asm": "55143488f6d3e2e7ae91957c4594c50acba9a30c6746719bd7b5739495d8626d",
+          "matching/asm/huff_decode_bytes.asm": "9ea8de2c0d50a55caeb73a34a610bb6c09e1036e4d983c9e5d8071b9c78b2227",
+          "matching/asm/huff_decode_stream.asm": "495995e31d28f71614255b052dd31ad4627ade7b267d5419048c8bb1f396e572",
+          "matching/asm/huff_window_save.asm": "0230bac9d7102c570ee8f7055cf010dde9dac07142efee6a1b04ef5c9117aa9f",
+          "matching/asm/huff_window_init.asm": "3a34aaa486c351a781978b2d97bb9ae238f40bd678ed724ab8daae75c9f1603a"
+        },
+        "whole_assembled_sha256": "e1e9a7e761149756cabdac4b18c481c97ec6d0108221f4f945cf966e28ad9a44",
+        "refill_substitution": "Explicit bounded512-byte file-source hook; no DOS I/O or original game execution claim",
+        "EOF_zero_or_stale_fill": false,
+        "pixels_palette_alpha_dimensions_or_animation_claimed": false
+      }
+    },
+    {
+      "id": "startup-06",
+      "family": "startup",
+      "index": 6,
+      "offset": 163183,
+      "size": 52,
+      "end_exclusive": 163235,
+      "sha256": "f9402bc7a84c428d7bcbb478f3ab503cd758e4680eb369d9a5611aa60c3b7fa0",
+      "file": "raw/startup-06.bin",
+      "decoded_format_verified": false,
+      "semantic_kind": "unclassified_raw",
+      "symbol_status": "NOT_A_COMPRESSED_SYMBOL_STREAM"
+    },
+    {
+      "id": "startup-07",
+      "family": "startup",
+      "index": 7,
+      "offset": 163235,
+      "size": 7461,
+      "end_exclusive": 170696,
+      "sha256": "c549851fa48de066dca2507c74c39473c9bb39c87b01542fd5f8277e27264483",
+      "file": "raw/startup-07.bin",
+      "decoded_format_verified": false,
+      "semantic_kind": "compressed_background",
+      "symbol_status": "NATIVE_AND_INDEPENDENT_EXACT",
+      "decoded_file": "startup-07.decoded.bin",
+      "decoded_sha256": "f88c874f606b9a5dd87edc0b62769585198fae06c262ddd122fe0357433629f6",
+      "decoded_bytes": 32000,
+      "independent": {
+        "declared_bytes": 32000,
+        "tree_bits": 152,
+        "consumed_bits_after_header": 59624,
+        "trailing_bits": 0,
+        "tree_leaves": 14,
+        "max_depth": 9,
+        "skipped_header_hex": "efe80000"
+      },
+      "native": {
+        "classification": "Native matched-ASM byte decode; raw candidate stream only, not a verified sprite/animation",
+        "input_sha256": "aa50ef9fb55e5271526e25ccc6e60b2908f00440c3f33380d13d27ecd4cbc564",
+        "input_start": 163235,
+        "declared_output_bytes": 32000,
+        "actual_output_bytes": 32000,
+        "output_sha256": "f88c874f606b9a5dd87edc0b62769585198fae06c262ddd122fe0357433629f6",
+        "tree_leaf_count": 14,
+        "tree_snapshot_stage": "Before native lookup builder consumes long-code depth entries",
+        "refills": [
+          {
+            "file_offset": 163235,
+            "available": 512
+          },
+          {
+            "file_offset": 163747,
+            "available": 512
+          },
+          {
+            "file_offset": 164259,
+            "available": 512
+          },
+          {
+            "file_offset": 164771,
+            "available": 512
+          },
+          {
+            "file_offset": 165283,
+            "available": 512
+          },
+          {
+            "file_offset": 165795,
+            "available": 512
+          },
+          {
+            "file_offset": 166307,
+            "available": 512
+          },
+          {
+            "file_offset": 166819,
+            "available": 512
+          },
+          {
+            "file_offset": 167331,
+            "available": 512
+          },
+          {
+            "file_offset": 167843,
+            "available": 512
+          },
+          {
+            "file_offset": 168355,
+            "available": 512
+          },
+          {
+            "file_offset": 168867,
+            "available": 512
+          },
+          {
+            "file_offset": 169379,
+            "available": 512
+          },
+          {
+            "file_offset": 169891,
+            "available": 512
+          },
+          {
+            "file_offset": 170403,
+            "available": 512
+          }
+        ],
+        "max_actual_input_read_exclusive": 170697,
+        "native_reader_state_hex": "07e90800e82f",
+        "source_pins": {
+          "matching/asm/huff_frame_decode_entry.asm": "1a8f4118a424b95d5e4fe51bcf8224780e7931c37346946c202710dfbcc5adcc",
+          "matching/asm/huff_tree_build_recursive.asm": "6ee793fb15f7d877b8fd6879930b49b53ed8c14812da563ea053c23d2a2359c0",
+          "matching/asm/huff_read_byte.asm": "ffeb00d460e95ee54a48abffbc8c584797bfc8e4d5d3294d5094b8aed44cffad",
+          "matching/asm/huff_get_bit.asm": "398941802582fbc03aaac9bb0c3a4abeb8a61700c7d62c3f7b537940cc12df2b",
+          "matching/asm/huff_build_lookup.asm": "55143488f6d3e2e7ae91957c4594c50acba9a30c6746719bd7b5739495d8626d",
+          "matching/asm/huff_decode_bytes.asm": "9ea8de2c0d50a55caeb73a34a610bb6c09e1036e4d983c9e5d8071b9c78b2227",
+          "matching/asm/huff_decode_stream.asm": "495995e31d28f71614255b052dd31ad4627ade7b267d5419048c8bb1f396e572",
+          "matching/asm/huff_window_save.asm": "0230bac9d7102c570ee8f7055cf010dde9dac07142efee6a1b04ef5c9117aa9f",
+          "matching/asm/huff_window_init.asm": "3a34aaa486c351a781978b2d97bb9ae238f40bd678ed724ab8daae75c9f1603a"
+        },
+        "whole_assembled_sha256": "e1e9a7e761149756cabdac4b18c481c97ec6d0108221f4f945cf966e28ad9a44",
+        "refill_substitution": "Explicit bounded512-byte file-source hook; no DOS I/O or original game execution claim",
+        "EOF_zero_or_stale_fill": false,
+        "pixels_palette_alpha_dimensions_or_animation_claimed": false
+      },
+      "background_packed_file": "startup-07.background-packed.bin",
+      "background_packed_sha256": "53e933b7e5055bff68c1368b4ce5ef4ce8c4617ab8ae5890839cf34e85a61c77",
+      "background_dimensions": [
+        320,
+        200
+      ],
+      "background_row_bytes": 160,
+      "remaining_decoded_after_native_32000_hex": "",
+      "transform_status": "MATCHED_C_CONFIGURE_GAME_DERIVED_NO_RENDER_CLAIM"
+    },
+    {
+      "id": "startup-08",
+      "family": "startup",
+      "index": 8,
+      "offset": 170696,
+      "size": 2966,
+      "end_exclusive": 173662,
+      "sha256": "b0a9473c3a1536f37598dde2fbe971603017939e1f3bfc757a5118d003416a90",
+      "file": "raw/startup-08.bin",
+      "decoded_format_verified": false,
+      "semantic_kind": "graphics_driver_code",
+      "symbol_status": "NOT_A_COMPRESSED_SYMBOL_STREAM"
+    },
+    {
+      "id": "startup-09",
+      "family": "startup",
+      "index": 9,
+      "offset": 173662,
+      "size": 3531,
+      "end_exclusive": 177193,
+      "sha256": "0bca3f46215509f3702fbd3bc16e3595203802edb3dbc562a50b89d450462e86",
+      "file": "raw/startup-09.bin",
+      "decoded_format_verified": false,
+      "semantic_kind": "graphics_driver_code",
+      "symbol_status": "NOT_A_COMPRESSED_SYMBOL_STREAM"
+    },
+    {
+      "id": "startup-10",
+      "family": "startup",
+      "index": 10,
+      "offset": 177193,
+      "size": 3037,
+      "end_exclusive": 180230,
+      "sha256": "870c27c42c1b8f9f5ed18c80d4bec42777868b5bee37e3da33d649725dbebe19",
+      "file": "raw/startup-10.bin",
+      "decoded_format_verified": false,
+      "semantic_kind": "graphics_driver_code",
+      "symbol_status": "NOT_A_COMPRESSED_SYMBOL_STREAM"
+    },
+    {
+      "id": "startup-11",
+      "family": "startup",
+      "index": 11,
+      "offset": 180230,
+      "size": 2996,
+      "end_exclusive": 183226,
+      "sha256": "8e0148d4ae403637808e6d71da8ebbf1937dc42c48aa1c31c291d9ec593490e5",
+      "file": "raw/startup-11.bin",
+      "decoded_format_verified": false,
+      "semantic_kind": "graphics_driver_code",
+      "symbol_status": "NOT_A_COMPRESSED_SYMBOL_STREAM"
+    },
+    {
+      "id": "startup-12",
+      "family": "startup",
+      "index": 12,
+      "offset": 183226,
+      "size": 2500,
+      "end_exclusive": 185726,
+      "sha256": "b9509c6b7f543b5ce036f5e35f340fb8a8298cc235eebb155909111a2ea82c54",
+      "file": "raw/startup-12.bin",
+      "decoded_format_verified": false,
+      "semantic_kind": "graphics_driver_code",
+      "symbol_status": "NOT_A_COMPRESSED_SYMBOL_STREAM"
+    }
+  ],
+  "record_count": 52,
+  "compressed_streams": 41,
+  "native_symbol_matches": 41,
+  "held": [],
+  "source_pins": {
+    "asset_recovery/bank1_decode_v1/decode.py": "884096a53b86548555d30a9cd17b85bbe9efaa2970d8aac8fabc5516b65e6036",
+    "asset_recovery/bank1_decode_v1/repack.py": "c91c55392941d0b5e92a43a357920fda18eadcc62c444367c3fa320041f5c3a8",
+    "asset_recovery/native_huff.py": "9fb22fc098b17294b62c2fea5a563a20d86a401f47ba97625cab2068e53ce049",
+    "asset_recovery/allcanm1_indexed_bank/manifest.json": "840472d46cc466058890e9caaa886da2e2c042fac4cc4fd5f4cedaa641b9e4a8",
+    "matching/src/asset_storage_surface_context_match.c": "655d01789fb7ee0a575ba66e3b301c140f9c9bfaf7fd94cc205719367db0384e",
+    "matching/src/asset_arena_flow_match.c": "cc32f43fd0d9e791cdc09d16b09562869095f5873f0c00c363626950ddf7e891",
+    "matching/src/load_asset_bank_match.c": "87e0f98fc378c7348d5acb5f77bbca06974be7998f66ace91485a604e8dba5a1",
+    "matching/src/book_context_match.c": "f3527222136fb412427fcb14aa067e686915d42a82dc983bef7ecfae40a6d29c",
+    "matching/src/argument_splash_flow_match.c": "77893dab7682bd990e0594e08891255d996f8cf35263e8e8f85467cb72a3df6c",
+    "matching/asm/link/init_animation_6cb4.asm": "07ccfe9879496ab5997b83b9323247f63afe4d12bbd381a82d200337d9a6df33",
+    "matching/src/audio_assets_flow_match.c": "256aeda98a8da1a12a33f79083c04aee6af4e0920d95d82adf1791f85cb0ff55"
+  },
+  "seconds": 2.091807243999938,
+  "limitations": [
+    "No palette, RGBA, alpha, nibble-order or rendered placement claim.",
+    "Setup row/XOR and background transforms follow reviewed source; native transform execution remains separate.",
+    "Cached asset records may be audio/animation/control data, not all sprites.",
+    "Native oracle substitutes bounded file refill; no DOS I/O execution.",
+    "Startup06 raw record purpose and startup03 64-byte decoded suffix remain unclassified."
+  ],
+  "canonical_credit_added": 0
+}

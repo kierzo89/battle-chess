@@ -1,0 +1,5240 @@
+{
+  "status": "PASS_ALL_76_SETUP_FRAMES_NATIVE_ROWS_AND_XOR",
+  "frame_count": 76,
+  "frames": [
+    {
+      "id": "setup-00-frame-00",
+      "setup": 0,
+      "frame": 0,
+      "width": 19,
+      "height": 46,
+      "storage_width": 20,
+      "native_row_stride": 10,
+      "anchor_x": 10,
+      "anchor_y": 42,
+      "native_global_index": 17,
+      "packed_file": "setup-00-frame-00.packed.bin",
+      "packed_sha256": "908cf97f323bb73895973ae2ae30ccaa451102f614da3a7f420ca368e8c2c9b2",
+      "indices_file": "setup-00-frame-00.indices.bin",
+      "indices_sha256": "7f98ad3fe868a83680d65606e24a14d6e9950eb2ae9c270b2218eee7e270a325",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 0,
+        "header_hex": "132e0a2a",
+        "compressed_stream_offset": 192,
+        "compressed_stream_end_exclusive": 10289,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 0,
+        "decoded_symbol_bytes": 460,
+        "decoded_symbols_sha256": "ab4a603390ae798a775285e42a317bac83d2388ef8616445f9281445eda84f9b"
+      },
+      "context": "Flat-board frame directory"
+    },
+    {
+      "id": "setup-00-frame-01",
+      "setup": 0,
+      "frame": 1,
+      "width": 19,
+      "height": 48,
+      "storage_width": 20,
+      "native_row_stride": 10,
+      "anchor_x": 11,
+      "anchor_y": 43,
+      "native_global_index": 18,
+      "packed_file": "setup-00-frame-01.packed.bin",
+      "packed_sha256": "d49d91ae0ff322cc74985f07e2eb90dc210fef62ddd293b7e8e8a9988fcd0ad2",
+      "indices_file": "setup-00-frame-01.indices.bin",
+      "indices_sha256": "16a0fb7a82b2254d50820f7067b9a0b09f4f1ae49d0d72731d5a3d55b62832c4",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 4,
+        "header_hex": "13300b2b",
+        "compressed_stream_offset": 192,
+        "compressed_stream_end_exclusive": 10289,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 460,
+        "decoded_symbol_bytes": 480,
+        "decoded_symbols_sha256": "8778b79a429219b3620650f266d09a12722dd5c2a7dc22303a6a04c85662082f"
+      },
+      "context": "Flat-board frame directory"
+    },
+    {
+      "id": "setup-00-frame-02",
+      "setup": 0,
+      "frame": 2,
+      "width": 18,
+      "height": 48,
+      "storage_width": 20,
+      "native_row_stride": 10,
+      "anchor_x": 8,
+      "anchor_y": 43,
+      "native_global_index": 19,
+      "packed_file": "setup-00-frame-02.packed.bin",
+      "packed_sha256": "cb302da05d8b8863c8a1ce0da1e00c6e517e30f40ab1e59d565eed7403d78b11",
+      "indices_file": "setup-00-frame-02.indices.bin",
+      "indices_sha256": "dc85d9b6546ca365e0a08058a8e2eb7f811cde47a5903e372107ff646f8d3669",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 8,
+        "header_hex": "1230082b",
+        "compressed_stream_offset": 192,
+        "compressed_stream_end_exclusive": 10289,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 940,
+        "decoded_symbol_bytes": 432,
+        "decoded_symbols_sha256": "bb73d359b83274862130fb850498f6e25cf2d3e81e6171e2ea4529b8a7df8d50"
+      },
+      "context": "Flat-board frame directory"
+    },
+    {
+      "id": "setup-00-frame-03",
+      "setup": 0,
+      "frame": 3,
+      "width": 19,
+      "height": 46,
+      "storage_width": 20,
+      "native_row_stride": 10,
+      "anchor_x": 10,
+      "anchor_y": 42,
+      "native_global_index": 20,
+      "packed_file": "setup-00-frame-03.packed.bin",
+      "packed_sha256": "b73509816e8b3b191cd5682c416ef6aa81939595a7cad2d69fb565ae149125db",
+      "indices_file": "setup-00-frame-03.indices.bin",
+      "indices_sha256": "52390776f1fc73f43d6cc828fd8021007e01b602e52f04522827bf15914a60e6",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 12,
+        "header_hex": "132e0a2a",
+        "compressed_stream_offset": 192,
+        "compressed_stream_end_exclusive": 10289,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 1372,
+        "decoded_symbol_bytes": 460,
+        "decoded_symbols_sha256": "5ee753b05a5a4ce5f2043589c373d814281cca15f8d96b477b933eaf279b4d99"
+      },
+      "context": "Flat-board frame directory"
+    },
+    {
+      "id": "setup-00-frame-04",
+      "setup": 0,
+      "frame": 4,
+      "width": 33,
+      "height": 46,
+      "storage_width": 36,
+      "native_row_stride": 18,
+      "anchor_x": 18,
+      "anchor_y": 36,
+      "native_global_index": 21,
+      "packed_file": "setup-00-frame-04.packed.bin",
+      "packed_sha256": "12a6852b1fae58d10e57ba00098cb0c94f87f211b25b0e578110c034870e7b27",
+      "indices_file": "setup-00-frame-04.indices.bin",
+      "indices_sha256": "f503d86ff57ecae7c790ebb68be4c07740486a55b9827798e21a9b59ee46db4d",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 16,
+        "header_hex": "212e1224",
+        "compressed_stream_offset": 192,
+        "compressed_stream_end_exclusive": 10289,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 1832,
+        "decoded_symbol_bytes": 782,
+        "decoded_symbols_sha256": "b6b414fe4c91d520aa5d713fdcb29e984781f760084f7ee6de9691ae592a5e31"
+      },
+      "context": "Flat-board frame directory"
+    },
+    {
+      "id": "setup-00-frame-05",
+      "setup": 0,
+      "frame": 5,
+      "width": 31,
+      "height": 46,
+      "storage_width": 32,
+      "native_row_stride": 16,
+      "anchor_x": 18,
+      "anchor_y": 35,
+      "native_global_index": 22,
+      "packed_file": "setup-00-frame-05.packed.bin",
+      "packed_sha256": "bde3438786d2eaae0da5567b85446e0d6d40ffaad327a8cdc65b3964b32d5519",
+      "indices_file": "setup-00-frame-05.indices.bin",
+      "indices_sha256": "82b98842b463edeca545c8bc751247fb9cc2c1f129e906c7a0d36c0c414aaaab",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 20,
+        "header_hex": "1f2e1223",
+        "compressed_stream_offset": 192,
+        "compressed_stream_end_exclusive": 10289,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 2614,
+        "decoded_symbol_bytes": 736,
+        "decoded_symbols_sha256": "6728e2e2ebd99f8956e649c932bb9c50640f73e457323af58f84587a3ea3df23"
+      },
+      "context": "Flat-board frame directory"
+    },
+    {
+      "id": "setup-00-frame-06",
+      "setup": 0,
+      "frame": 6,
+      "width": 40,
+      "height": 45,
+      "storage_width": 40,
+      "native_row_stride": 20,
+      "anchor_x": 25,
+      "anchor_y": 35,
+      "native_global_index": 23,
+      "packed_file": "setup-00-frame-06.packed.bin",
+      "packed_sha256": "9286ddb62d48e49f4453293d7e1d482fa8aade6cc668746d4a47355f1dc5610e",
+      "indices_file": "setup-00-frame-06.indices.bin",
+      "indices_sha256": "93d014b56e666d3988a41feac599b2b3ecc9f1bc5de3c122fe787759f471c7d1",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 24,
+        "header_hex": "282d1923",
+        "compressed_stream_offset": 192,
+        "compressed_stream_end_exclusive": 10289,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 3350,
+        "decoded_symbol_bytes": 900,
+        "decoded_symbols_sha256": "3032ddd05e8965d528d534d4424de7fc924adabd80d3d5bdf49d37a8ce0338ba"
+      },
+      "context": "Flat-board frame directory"
+    },
+    {
+      "id": "setup-00-frame-07",
+      "setup": 0,
+      "frame": 7,
+      "width": 33,
+      "height": 42,
+      "storage_width": 36,
+      "native_row_stride": 18,
+      "anchor_x": 17,
+      "anchor_y": 34,
+      "native_global_index": 24,
+      "packed_file": "setup-00-frame-07.packed.bin",
+      "packed_sha256": "981d33eeb618eda58cac536fab5f2319ee02d3359bf559287ce69950a31a9fdc",
+      "indices_file": "setup-00-frame-07.indices.bin",
+      "indices_sha256": "732e098137cb89fb8291e3d01ba44217a28c3990ecae4356c15fd67e002f1881",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 28,
+        "header_hex": "212a1122",
+        "compressed_stream_offset": 192,
+        "compressed_stream_end_exclusive": 10289,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 4250,
+        "decoded_symbol_bytes": 714,
+        "decoded_symbols_sha256": "6f808ce7965744908e5e3f3a3b58b70e4d902e106f1915b3a9c7e34436907436"
+      },
+      "context": "Flat-board frame directory"
+    },
+    {
+      "id": "setup-00-frame-08",
+      "setup": 0,
+      "frame": 8,
+      "width": 35,
+      "height": 42,
+      "storage_width": 36,
+      "native_row_stride": 18,
+      "anchor_x": 18,
+      "anchor_y": 34,
+      "native_global_index": 25,
+      "packed_file": "setup-00-frame-08.packed.bin",
+      "packed_sha256": "5de127250fafc70818a19a797c8c2f5e01acc048afce47db6c9a91a63ae19696",
+      "indices_file": "setup-00-frame-08.indices.bin",
+      "indices_sha256": "0dc88d42b7ba00bb54a7c61db93e35d478ac4beb80004bfbda85da12d2796515",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 32,
+        "header_hex": "232a1222",
+        "compressed_stream_offset": 192,
+        "compressed_stream_end_exclusive": 10289,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 4964,
+        "decoded_symbol_bytes": 756,
+        "decoded_symbols_sha256": "8305581d29d6a2171429ad6ca274b00cf01f0d7d729be50d7d52cbffdf466922"
+      },
+      "context": "Flat-board frame directory"
+    },
+    {
+      "id": "setup-00-frame-09",
+      "setup": 0,
+      "frame": 9,
+      "width": 33,
+      "height": 42,
+      "storage_width": 36,
+      "native_row_stride": 18,
+      "anchor_x": 17,
+      "anchor_y": 34,
+      "native_global_index": 26,
+      "packed_file": "setup-00-frame-09.packed.bin",
+      "packed_sha256": "0e826775d304a4ecd4874073e8034618ad014d3ee1b69b0b8cb53b6d66a70d33",
+      "indices_file": "setup-00-frame-09.indices.bin",
+      "indices_sha256": "445ae4eb8fdc255167e2a6b13c01054bf0d4b451915c0fb0409e42100aac508e",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 36,
+        "header_hex": "212a1122",
+        "compressed_stream_offset": 192,
+        "compressed_stream_end_exclusive": 10289,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 5720,
+        "decoded_symbol_bytes": 714,
+        "decoded_symbols_sha256": "5d430db70024ac5e75cd5e66829420eb6629d2d41e1211567074133c2940a9c0"
+      },
+      "context": "Flat-board frame directory"
+    },
+    {
+      "id": "setup-00-frame-10",
+      "setup": 0,
+      "frame": 10,
+      "width": 38,
+      "height": 45,
+      "storage_width": 40,
+      "native_row_stride": 20,
+      "anchor_x": 14,
+      "anchor_y": 35,
+      "native_global_index": 27,
+      "packed_file": "setup-00-frame-10.packed.bin",
+      "packed_sha256": "18e108cba1ef79b8312741c1662aca335b614d44ef9aaed50a35d045d315a41a",
+      "indices_file": "setup-00-frame-10.indices.bin",
+      "indices_sha256": "73f8e7d724a0ab992adccd0119ed151061062c8c0085ad5436e276afe8f249d4",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 40,
+        "header_hex": "262d0e23",
+        "compressed_stream_offset": 192,
+        "compressed_stream_end_exclusive": 10289,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 6434,
+        "decoded_symbol_bytes": 855,
+        "decoded_symbols_sha256": "da1802acc9008963c73a0515be005237d426e1e73d4cbdd47c0f17c8d8684c70"
+      },
+      "context": "Flat-board frame directory"
+    },
+    {
+      "id": "setup-00-frame-11",
+      "setup": 0,
+      "frame": 11,
+      "width": 32,
+      "height": 46,
+      "storage_width": 32,
+      "native_row_stride": 16,
+      "anchor_x": 16,
+      "anchor_y": 35,
+      "native_global_index": 28,
+      "packed_file": "setup-00-frame-11.packed.bin",
+      "packed_sha256": "153c2425ad613b5b024689742f2a11328e0270a1f9790cc529d92ed5325b1b18",
+      "indices_file": "setup-00-frame-11.indices.bin",
+      "indices_sha256": "d1c5a732edebbfec32a7a1ef90f71ab919a7c530f4d72671025a1c346ec011a3",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 44,
+        "header_hex": "202e1023",
+        "compressed_stream_offset": 192,
+        "compressed_stream_end_exclusive": 10289,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 7289,
+        "decoded_symbol_bytes": 736,
+        "decoded_symbols_sha256": "d1af7ae989862bb1a897209bfb7350e1da48e8d2a8e391384d4323ab18d89fd5"
+      },
+      "context": "Flat-board frame directory"
+    },
+    {
+      "id": "setup-00-frame-12",
+      "setup": 0,
+      "frame": 12,
+      "width": 22,
+      "height": 40,
+      "storage_width": 24,
+      "native_row_stride": 12,
+      "anchor_x": 11,
+      "anchor_y": 39,
+      "native_global_index": 29,
+      "packed_file": "setup-00-frame-12.packed.bin",
+      "packed_sha256": "79e4c4d482b5c766557d96af77a9ca89910c1d5f9d560a12f35312515c2adee6",
+      "indices_file": "setup-00-frame-12.indices.bin",
+      "indices_sha256": "84d659b5436fc022a9d212de632603c66918aa19e3326d5fc3dce17ac323914b",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 48,
+        "header_hex": "16280b27",
+        "compressed_stream_offset": 192,
+        "compressed_stream_end_exclusive": 10289,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 8025,
+        "decoded_symbol_bytes": 440,
+        "decoded_symbols_sha256": "6f89aca30121df7627e5803f6545f3c3de2740cfa280f014213304bded87f003"
+      },
+      "context": "Flat-board frame directory"
+    },
+    {
+      "id": "setup-00-frame-13",
+      "setup": 0,
+      "frame": 13,
+      "width": 17,
+      "height": 40,
+      "storage_width": 20,
+      "native_row_stride": 10,
+      "anchor_x": 9,
+      "anchor_y": 39,
+      "native_global_index": 30,
+      "packed_file": "setup-00-frame-13.packed.bin",
+      "packed_sha256": "f4217b4cd19b3d0497a75802d7b2ea359fc57a20ed913a5d706780cda75c7deb",
+      "indices_file": "setup-00-frame-13.indices.bin",
+      "indices_sha256": "9b23ece6a394d465d70d936f1d7546380e716fa7b1bc81142fc8a2ef19856de4",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 52,
+        "header_hex": "11280927",
+        "compressed_stream_offset": 192,
+        "compressed_stream_end_exclusive": 10289,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 8465,
+        "decoded_symbol_bytes": 360,
+        "decoded_symbols_sha256": "59f5de1defb03a5090da6fa77818e35d9362268da18843deebacaa14792531d6"
+      },
+      "context": "Flat-board frame directory"
+    },
+    {
+      "id": "setup-00-frame-14",
+      "setup": 0,
+      "frame": 14,
+      "width": 24,
+      "height": 41,
+      "storage_width": 24,
+      "native_row_stride": 12,
+      "anchor_x": 12,
+      "anchor_y": 39,
+      "native_global_index": 31,
+      "packed_file": "setup-00-frame-14.packed.bin",
+      "packed_sha256": "6e8c3c3efdd8f50c11dd24abfb5f80ace6db8309bf110e640a2d677e13fe90f9",
+      "indices_file": "setup-00-frame-14.indices.bin",
+      "indices_sha256": "36768438893c63a1bfe2177b7ec4766436c0a083f80e49200b28ed1e5e637696",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 56,
+        "header_hex": "18290c27",
+        "compressed_stream_offset": 192,
+        "compressed_stream_end_exclusive": 10289,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 8825,
+        "decoded_symbol_bytes": 492,
+        "decoded_symbols_sha256": "5e0db6f88f16a8ff07e1e6bacccd4cc4f3025d813f1ee3c55da3d5e5cba9ce3d"
+      },
+      "context": "Flat-board frame directory"
+    },
+    {
+      "id": "setup-00-frame-15",
+      "setup": 0,
+      "frame": 15,
+      "width": 16,
+      "height": 40,
+      "storage_width": 16,
+      "native_row_stride": 8,
+      "anchor_x": 8,
+      "anchor_y": 39,
+      "native_global_index": 32,
+      "packed_file": "setup-00-frame-15.packed.bin",
+      "packed_sha256": "c17730cb16da34916b27c88f1625233b98595de62f7137c645192098e04e7b5f",
+      "indices_file": "setup-00-frame-15.indices.bin",
+      "indices_sha256": "e88fa9bf3436593c283ef96e862924df367d08b6dbd4ef248d3a8cce8566d6b5",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 60,
+        "header_hex": "10280827",
+        "compressed_stream_offset": 192,
+        "compressed_stream_end_exclusive": 10289,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 9317,
+        "decoded_symbol_bytes": 320,
+        "decoded_symbols_sha256": "ca2b0fadec42edca01ffe1697e5f9bef5dbcfe24b3ea467dcd4f581ce1f50a24"
+      },
+      "context": "Flat-board frame directory"
+    },
+    {
+      "id": "setup-00-frame-16",
+      "setup": 0,
+      "frame": 16,
+      "width": 22,
+      "height": 37,
+      "storage_width": 24,
+      "native_row_stride": 12,
+      "anchor_x": 11,
+      "anchor_y": 36,
+      "native_global_index": 33,
+      "packed_file": "setup-00-frame-16.packed.bin",
+      "packed_sha256": "2d0c2bb29dad5ffebdf13037955a85a18d3a39a9fb4a85f6e0500e3c98cec5af",
+      "indices_file": "setup-00-frame-16.indices.bin",
+      "indices_sha256": "01c9d750fa2090b1616b45ba2732d94d0b0f896d899dcb937249d803a8433ac4",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 64,
+        "header_hex": "16250b24",
+        "compressed_stream_offset": 192,
+        "compressed_stream_end_exclusive": 10289,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 9637,
+        "decoded_symbol_bytes": 407,
+        "decoded_symbols_sha256": "acc923351e6066aff8ff6e426bd96829fee589b52c60945d41251fef8f32f986"
+      },
+      "context": "Flat-board frame directory"
+    },
+    {
+      "id": "setup-00-frame-17",
+      "setup": 0,
+      "frame": 17,
+      "width": 26,
+      "height": 37,
+      "storage_width": 28,
+      "native_row_stride": 14,
+      "anchor_x": 12,
+      "anchor_y": 36,
+      "native_global_index": 34,
+      "packed_file": "setup-00-frame-17.packed.bin",
+      "packed_sha256": "44cea9823fe995a8c3a119a229af8b32ab69b19ce39848754e89c40f12349669",
+      "indices_file": "setup-00-frame-17.indices.bin",
+      "indices_sha256": "218001d467660677f368fab80234ab87fa961fa104b9b9a107eec0ef3fd1e42c",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 68,
+        "header_hex": "1a250c24",
+        "compressed_stream_offset": 192,
+        "compressed_stream_end_exclusive": 10289,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 10044,
+        "decoded_symbol_bytes": 481,
+        "decoded_symbols_sha256": "6c9efeefc97a4859c3714ec37ecca44adebf7df0fb020d858cdaa8cb74c8e5f2"
+      },
+      "context": "Flat-board frame directory"
+    },
+    {
+      "id": "setup-00-frame-18",
+      "setup": 0,
+      "frame": 18,
+      "width": 22,
+      "height": 37,
+      "storage_width": 24,
+      "native_row_stride": 12,
+      "anchor_x": 11,
+      "anchor_y": 36,
+      "native_global_index": 35,
+      "packed_file": "setup-00-frame-18.packed.bin",
+      "packed_sha256": "088ed99f489edcb17a506dff6d77bdf624cd30bfa53f1bbdf88ba55202e66bc2",
+      "indices_file": "setup-00-frame-18.indices.bin",
+      "indices_sha256": "3c7316bbd4805a741d026f3f2d977384dac351fc6f3781731eec47638a8db908",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 72,
+        "header_hex": "16250b24",
+        "compressed_stream_offset": 192,
+        "compressed_stream_end_exclusive": 10289,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 10525,
+        "decoded_symbol_bytes": 407,
+        "decoded_symbols_sha256": "b6da08deaa94b617d3e22370505a8d35fe7ad16ac9013abaf0b1e44ff56d7b8a"
+      },
+      "context": "Flat-board frame directory"
+    },
+    {
+      "id": "setup-00-frame-19",
+      "setup": 0,
+      "frame": 19,
+      "width": 19,
+      "height": 38,
+      "storage_width": 20,
+      "native_row_stride": 10,
+      "anchor_x": 11,
+      "anchor_y": 36,
+      "native_global_index": 36,
+      "packed_file": "setup-00-frame-19.packed.bin",
+      "packed_sha256": "f6e3424ddcfdd1046625e7bd8edc464b83621c72c8089104ef3c93c336e89332",
+      "indices_file": "setup-00-frame-19.indices.bin",
+      "indices_sha256": "c20079ea1cb63b3070d217933bc5fb41cd6d73ccbbff1a8da18aae772667751d",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 76,
+        "header_hex": "13260b24",
+        "compressed_stream_offset": 192,
+        "compressed_stream_end_exclusive": 10289,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 10932,
+        "decoded_symbol_bytes": 380,
+        "decoded_symbols_sha256": "283895cc491f9c6eac2b4e3012d9c4505ae3d7ef10eac84c736254d6e3de2121"
+      },
+      "context": "Flat-board frame directory"
+    },
+    {
+      "id": "setup-00-frame-20",
+      "setup": 0,
+      "frame": 20,
+      "width": 23,
+      "height": 35,
+      "storage_width": 24,
+      "native_row_stride": 12,
+      "anchor_x": 12,
+      "anchor_y": 33,
+      "native_global_index": 37,
+      "packed_file": "setup-00-frame-20.packed.bin",
+      "packed_sha256": "f2fef060cce2f6c09aca8abb30afc08a1229a0f0355f6cf7024cf98e132a8845",
+      "indices_file": "setup-00-frame-20.indices.bin",
+      "indices_sha256": "2926389367c6d530c9a12abc679771b4c58c1df80d960de3928ec6c572458331",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 80,
+        "header_hex": "17230c21",
+        "compressed_stream_offset": 192,
+        "compressed_stream_end_exclusive": 10289,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 11312,
+        "decoded_symbol_bytes": 420,
+        "decoded_symbols_sha256": "016d38a91711eed2e8632817e632853f78e29669cc7064fc0fd36987d45883a1"
+      },
+      "context": "Flat-board frame directory"
+    },
+    {
+      "id": "setup-00-frame-21",
+      "setup": 0,
+      "frame": 21,
+      "width": 25,
+      "height": 37,
+      "storage_width": 28,
+      "native_row_stride": 14,
+      "anchor_x": 14,
+      "anchor_y": 36,
+      "native_global_index": 38,
+      "packed_file": "setup-00-frame-21.packed.bin",
+      "packed_sha256": "5ced6bbbcec529ef7c53aa68856565e3af4d4326a6387a323ccfe143009f69aa",
+      "indices_file": "setup-00-frame-21.indices.bin",
+      "indices_sha256": "3c10e60bbbb57ee8dd54f6dec937299992cc69cfb9b6c84180ffe81566e0ad70",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 84,
+        "header_hex": "19250e24",
+        "compressed_stream_offset": 192,
+        "compressed_stream_end_exclusive": 10289,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 11732,
+        "decoded_symbol_bytes": 481,
+        "decoded_symbols_sha256": "4e0385513c2a94e0743b6ed32b7d1ad9c8d3d32d64b860d6714f83b3bf6c87f8"
+      },
+      "context": "Flat-board frame directory"
+    },
+    {
+      "id": "setup-00-frame-22",
+      "setup": 0,
+      "frame": 22,
+      "width": 22,
+      "height": 36,
+      "storage_width": 24,
+      "native_row_stride": 12,
+      "anchor_x": 10,
+      "anchor_y": 35,
+      "native_global_index": 39,
+      "packed_file": "setup-00-frame-22.packed.bin",
+      "packed_sha256": "cb3b312549a803408a02e20bf15f0511353633b60894c648cb7009895f680f5a",
+      "indices_file": "setup-00-frame-22.indices.bin",
+      "indices_sha256": "6582bd7da8555074846b137b4f9386a63a5aa767ecd590b2c3c892314ae0ee17",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 88,
+        "header_hex": "16240a23",
+        "compressed_stream_offset": 192,
+        "compressed_stream_end_exclusive": 10289,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 12213,
+        "decoded_symbol_bytes": 396,
+        "decoded_symbols_sha256": "0019b333c8c595d7499a03dc36a413d662d478c135c7b096984c74bf1d787f63"
+      },
+      "context": "Flat-board frame directory"
+    },
+    {
+      "id": "setup-00-frame-23",
+      "setup": 0,
+      "frame": 23,
+      "width": 22,
+      "height": 37,
+      "storage_width": 24,
+      "native_row_stride": 12,
+      "anchor_x": 10,
+      "anchor_y": 36,
+      "native_global_index": 40,
+      "packed_file": "setup-00-frame-23.packed.bin",
+      "packed_sha256": "22de92490ed3b8c1c78c6eae16f4bffe92916ca0148c44da1aec65eb099aca76",
+      "indices_file": "setup-00-frame-23.indices.bin",
+      "indices_sha256": "d6454eb06fd420b28d13f29c18c9392ecd8a276531c53bd9019ccd1e143ba979",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 92,
+        "header_hex": "16250a24",
+        "compressed_stream_offset": 192,
+        "compressed_stream_end_exclusive": 10289,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 12609,
+        "decoded_symbol_bytes": 407,
+        "decoded_symbols_sha256": "18495d58b527df313a883e15d1122c9feaa993cd0736f0fc3470af55f5cfdcbc"
+      },
+      "context": "Flat-board frame directory"
+    },
+    {
+      "id": "setup-00-frame-24",
+      "setup": 0,
+      "frame": 24,
+      "width": 24,
+      "height": 48,
+      "storage_width": 24,
+      "native_row_stride": 12,
+      "anchor_x": 15,
+      "anchor_y": 39,
+      "native_global_index": 41,
+      "packed_file": "setup-00-frame-24.packed.bin",
+      "packed_sha256": "fd2c57e803fae598a053d1e7aa7d62f7c7a538c900ed6c440e3e40993150fd0b",
+      "indices_file": "setup-00-frame-24.indices.bin",
+      "indices_sha256": "28b8f6f673d061ce33020d760a2c2ce262853621b8c7cc7cca351d8029a61922",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 96,
+        "header_hex": "18300f27",
+        "compressed_stream_offset": 192,
+        "compressed_stream_end_exclusive": 10289,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 13016,
+        "decoded_symbol_bytes": 576,
+        "decoded_symbols_sha256": "e793b0441813d071f0b58c52f6838ad9e29d640f60327995288b67776f1ac8d8"
+      },
+      "context": "Flat-board frame directory"
+    },
+    {
+      "id": "setup-00-frame-25",
+      "setup": 0,
+      "frame": 25,
+      "width": 23,
+      "height": 47,
+      "storage_width": 24,
+      "native_row_stride": 12,
+      "anchor_x": 13,
+      "anchor_y": 39,
+      "native_global_index": 42,
+      "packed_file": "setup-00-frame-25.packed.bin",
+      "packed_sha256": "10b8aa304e6dae182b870117bd8eb43b7afa095eae1209a5cc25619b0667a757",
+      "indices_file": "setup-00-frame-25.indices.bin",
+      "indices_sha256": "373c0224af339b95b274ca44d1bdda0b0ee2ac2975b6d734df58110514075c25",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 100,
+        "header_hex": "172f0d27",
+        "compressed_stream_offset": 192,
+        "compressed_stream_end_exclusive": 10289,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 13592,
+        "decoded_symbol_bytes": 564,
+        "decoded_symbols_sha256": "063bb8f42b6125190155cc40ef2a478bfafacaa0aefc8cac2ca898062bf41a5d"
+      },
+      "context": "Flat-board frame directory"
+    },
+    {
+      "id": "setup-00-frame-26",
+      "setup": 0,
+      "frame": 26,
+      "width": 20,
+      "height": 44,
+      "storage_width": 20,
+      "native_row_stride": 10,
+      "anchor_x": 14,
+      "anchor_y": 39,
+      "native_global_index": 43,
+      "packed_file": "setup-00-frame-26.packed.bin",
+      "packed_sha256": "0ad66db49854c563b7be649af7f7b41612256211bfda7f1f5106dbcc3f7407d6",
+      "indices_file": "setup-00-frame-26.indices.bin",
+      "indices_sha256": "18ebb6caec990958cf8c7cdb285a1d81c91a79ef246f06fd50809bf3dd8e90bb",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 104,
+        "header_hex": "142c0e27",
+        "compressed_stream_offset": 192,
+        "compressed_stream_end_exclusive": 10289,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 14156,
+        "decoded_symbol_bytes": 440,
+        "decoded_symbols_sha256": "dcefcf02f3211009f4c10c4982d9bc85d3fbc64f4d72b3eac90c52a55ee327c2"
+      },
+      "context": "Flat-board frame directory"
+    },
+    {
+      "id": "setup-00-frame-27",
+      "setup": 0,
+      "frame": 27,
+      "width": 27,
+      "height": 43,
+      "storage_width": 28,
+      "native_row_stride": 14,
+      "anchor_x": 16,
+      "anchor_y": 39,
+      "native_global_index": 44,
+      "packed_file": "setup-00-frame-27.packed.bin",
+      "packed_sha256": "4bd03e0b0a74035acfd205c16c4ba640afb3e1dbd631e9ad811f102976f6adb1",
+      "indices_file": "setup-00-frame-27.indices.bin",
+      "indices_sha256": "e1dd81b4cf544b3c5cbdcf28445f19320f2ecfe1fa88df84744157f2870c487c",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 108,
+        "header_hex": "1b2b1027",
+        "compressed_stream_offset": 192,
+        "compressed_stream_end_exclusive": 10289,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 14596,
+        "decoded_symbol_bytes": 602,
+        "decoded_symbols_sha256": "ad057edf489eac524333641df20e936b7f12d8cc6812263d8d9d1c0841febe83"
+      },
+      "context": "Flat-board frame directory"
+    },
+    {
+      "id": "setup-00-frame-28",
+      "setup": 0,
+      "frame": 28,
+      "width": 26,
+      "height": 43,
+      "storage_width": 28,
+      "native_row_stride": 14,
+      "anchor_x": 15,
+      "anchor_y": 39,
+      "native_global_index": 45,
+      "packed_file": "setup-00-frame-28.packed.bin",
+      "packed_sha256": "cb4830ab22b4d9c7277a72c00369e88eb9101ebd6e7d5dc4f3ff667ef5e5ea19",
+      "indices_file": "setup-00-frame-28.indices.bin",
+      "indices_sha256": "856a9112af347979473181d9f0edceb92a42ba52aa07ff620b669f4ad597fe15",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 112,
+        "header_hex": "1a2b0f27",
+        "compressed_stream_offset": 192,
+        "compressed_stream_end_exclusive": 10289,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 15198,
+        "decoded_symbol_bytes": 559,
+        "decoded_symbols_sha256": "b05e118421a7c252c0cb491a8d12e0c7e10c6b2218056ceeb417d9c742f22d45"
+      },
+      "context": "Flat-board frame directory"
+    },
+    {
+      "id": "setup-00-frame-29",
+      "setup": 0,
+      "frame": 29,
+      "width": 28,
+      "height": 43,
+      "storage_width": 28,
+      "native_row_stride": 14,
+      "anchor_x": 15,
+      "anchor_y": 39,
+      "native_global_index": 46,
+      "packed_file": "setup-00-frame-29.packed.bin",
+      "packed_sha256": "34c386dcaf7f0f73c2f162b30260817b0080434199cc56a51a04b48adae364e5",
+      "indices_file": "setup-00-frame-29.indices.bin",
+      "indices_sha256": "4fa1f7168839fdd84bddbe0a4f8b9a62da886f19d58ad26be5c0c2d4b507e9cd",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 116,
+        "header_hex": "1c2b0f27",
+        "compressed_stream_offset": 192,
+        "compressed_stream_end_exclusive": 10289,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 15757,
+        "decoded_symbol_bytes": 602,
+        "decoded_symbols_sha256": "6a5cde263d4adea2bff4b0d0c7546ca713e0607270de040000bca37fc78ceee1"
+      },
+      "context": "Flat-board frame directory"
+    },
+    {
+      "id": "setup-00-frame-30",
+      "setup": 0,
+      "frame": 30,
+      "width": 24,
+      "height": 44,
+      "storage_width": 24,
+      "native_row_stride": 12,
+      "anchor_x": 13,
+      "anchor_y": 39,
+      "native_global_index": 47,
+      "packed_file": "setup-00-frame-30.packed.bin",
+      "packed_sha256": "4d02ad7d2aa22126656dff2efedbf78efd29fe87780b3d731411ced403ceff6d",
+      "indices_file": "setup-00-frame-30.indices.bin",
+      "indices_sha256": "0d2e6fe694308a69ada42d943151ee2bbb0d87788c523600aa5f3d11e99cdb83",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 120,
+        "header_hex": "182c0d27",
+        "compressed_stream_offset": 192,
+        "compressed_stream_end_exclusive": 10289,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 16359,
+        "decoded_symbol_bytes": 528,
+        "decoded_symbols_sha256": "b3a37af6b763261c3fd5c8ad4482b0b32efe414a55586d207c625bad0225b8ce"
+      },
+      "context": "Flat-board frame directory"
+    },
+    {
+      "id": "setup-00-frame-31",
+      "setup": 0,
+      "frame": 31,
+      "width": 22,
+      "height": 47,
+      "storage_width": 24,
+      "native_row_stride": 12,
+      "anchor_x": 10,
+      "anchor_y": 39,
+      "native_global_index": 48,
+      "packed_file": "setup-00-frame-31.packed.bin",
+      "packed_sha256": "0354ee1554a4f95ba174802d9db11d68b0195bb00ace0d48a5b172c7d8add913",
+      "indices_file": "setup-00-frame-31.indices.bin",
+      "indices_sha256": "4f6803a57d241054911ab619dc3590b347ba43f1bd9352453e82654c87949549",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 124,
+        "header_hex": "162f0a27",
+        "compressed_stream_offset": 192,
+        "compressed_stream_end_exclusive": 10289,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 16887,
+        "decoded_symbol_bytes": 517,
+        "decoded_symbols_sha256": "f86cbbca7385c620ef2d669131d55540fb2620c3e9b29ad311ae29130f3f3d3e"
+      },
+      "context": "Flat-board frame directory"
+    },
+    {
+      "id": "setup-00-frame-32",
+      "setup": 0,
+      "frame": 32,
+      "width": 38,
+      "height": 37,
+      "storage_width": 40,
+      "native_row_stride": 20,
+      "anchor_x": 19,
+      "anchor_y": 36,
+      "native_global_index": 49,
+      "packed_file": "setup-00-frame-32.packed.bin",
+      "packed_sha256": "4874c45f28c1d3eea030df09eef6bd0ebdb13c9c832d4498a1b26e28d075e7ef",
+      "indices_file": "setup-00-frame-32.indices.bin",
+      "indices_sha256": "17f8be2c077c5275c2dac3a3aabeae3b5b63f6293ebbdb7abd659a2647cb4839",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 128,
+        "header_hex": "26251324",
+        "compressed_stream_offset": 192,
+        "compressed_stream_end_exclusive": 10289,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 17404,
+        "decoded_symbol_bytes": 703,
+        "decoded_symbols_sha256": "c4b59cd0585c7b946088c9190f15b32490378b3f81b360c84be10a064ea2ab2f"
+      },
+      "context": "Flat-board frame directory"
+    },
+    {
+      "id": "setup-00-frame-33",
+      "setup": 0,
+      "frame": 33,
+      "width": 31,
+      "height": 37,
+      "storage_width": 32,
+      "native_row_stride": 16,
+      "anchor_x": 16,
+      "anchor_y": 36,
+      "native_global_index": 50,
+      "packed_file": "setup-00-frame-33.packed.bin",
+      "packed_sha256": "690626424575218598996fe133ad235244979bbbb8c069126a7f808d656452f5",
+      "indices_file": "setup-00-frame-33.indices.bin",
+      "indices_sha256": "9a3e549fb50c63554dd603ff19de140ca2d2344bbaab711655242b0641ecd6e1",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 132,
+        "header_hex": "1f251024",
+        "compressed_stream_offset": 192,
+        "compressed_stream_end_exclusive": 10289,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 18107,
+        "decoded_symbol_bytes": 592,
+        "decoded_symbols_sha256": "aadeb0484d30e26ea8c4b720655596f5fcd803bfa75017813d05f898e2f6ba80"
+      },
+      "context": "Flat-board frame directory"
+    },
+    {
+      "id": "setup-00-frame-34",
+      "setup": 0,
+      "frame": 34,
+      "width": 37,
+      "height": 39,
+      "storage_width": 40,
+      "native_row_stride": 20,
+      "anchor_x": 20,
+      "anchor_y": 37,
+      "native_global_index": 51,
+      "packed_file": "setup-00-frame-34.packed.bin",
+      "packed_sha256": "1f7ed21aea99f9cbbc21b2e515935cec160591d80caf44d9a1a10154e00db156",
+      "indices_file": "setup-00-frame-34.indices.bin",
+      "indices_sha256": "c1843da80691b7ab6e8f9200517e9dab607e0d18746d25779670c15dac810630",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 136,
+        "header_hex": "25271425",
+        "compressed_stream_offset": 192,
+        "compressed_stream_end_exclusive": 10289,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 18699,
+        "decoded_symbol_bytes": 741,
+        "decoded_symbols_sha256": "b2096a91bd5b276383bd83f8890160202ab112afa1bf4f55ec55a24ebaddecba"
+      },
+      "context": "Flat-board frame directory"
+    },
+    {
+      "id": "setup-00-frame-35",
+      "setup": 0,
+      "frame": 35,
+      "width": 26,
+      "height": 37,
+      "storage_width": 28,
+      "native_row_stride": 14,
+      "anchor_x": 14,
+      "anchor_y": 36,
+      "native_global_index": 52,
+      "packed_file": "setup-00-frame-35.packed.bin",
+      "packed_sha256": "c035d613020295831134c8d31913c00e79046a981a76324fda58d5262ce3da21",
+      "indices_file": "setup-00-frame-35.indices.bin",
+      "indices_sha256": "8641f517091eef8ddfd95a11c89aaa9cc42eed717fb12f35e5b684c8c9db34af",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 140,
+        "header_hex": "1a250e24",
+        "compressed_stream_offset": 192,
+        "compressed_stream_end_exclusive": 10289,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 19440,
+        "decoded_symbol_bytes": 481,
+        "decoded_symbols_sha256": "9c03a211d279de3ade49d7a477e386fa3def0f9d5101f9be53fe980501fbed40"
+      },
+      "context": "Flat-board frame directory"
+    },
+    {
+      "id": "setup-00-frame-36",
+      "setup": 0,
+      "frame": 36,
+      "width": 32,
+      "height": 40,
+      "storage_width": 32,
+      "native_row_stride": 16,
+      "anchor_x": 18,
+      "anchor_y": 35,
+      "native_global_index": 53,
+      "packed_file": "setup-00-frame-36.packed.bin",
+      "packed_sha256": "0479964cadb2344498ed53e6e452851ef4f365612efcdb52b99b451bca24cbeb",
+      "indices_file": "setup-00-frame-36.indices.bin",
+      "indices_sha256": "b8680030d53239bedc17474c44876aa14ea96db77be7f08256bb62723647956b",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 144,
+        "header_hex": "20281223",
+        "compressed_stream_offset": 192,
+        "compressed_stream_end_exclusive": 10289,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 19921,
+        "decoded_symbol_bytes": 640,
+        "decoded_symbols_sha256": "a1485ec484794311e99d3bd08d1f38ef9b4614789b80b4ae2ee2072190c06cc5"
+      },
+      "context": "Flat-board frame directory"
+    },
+    {
+      "id": "setup-00-frame-37",
+      "setup": 0,
+      "frame": 37,
+      "width": 31,
+      "height": 40,
+      "storage_width": 32,
+      "native_row_stride": 16,
+      "anchor_x": 16,
+      "anchor_y": 35,
+      "native_global_index": 54,
+      "packed_file": "setup-00-frame-37.packed.bin",
+      "packed_sha256": "42c58ba361ae19572adf5a061b80411ea72bf0b21cf22323ce3b8bee3b9e957f",
+      "indices_file": "setup-00-frame-37.indices.bin",
+      "indices_sha256": "224c4634b07c6b9c2f4cfc85d187cc54ff2df8d466f49de27a5a764bd0934d9e",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 148,
+        "header_hex": "1f281023",
+        "compressed_stream_offset": 192,
+        "compressed_stream_end_exclusive": 10289,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 20561,
+        "decoded_symbol_bytes": 640,
+        "decoded_symbols_sha256": "f2882eeb440fc40c018936eaa5d1d41895d6e0b9cbbdb10e19ee199f4d8fa3cd"
+      },
+      "context": "Flat-board frame directory"
+    },
+    {
+      "id": "setup-00-frame-38",
+      "setup": 0,
+      "frame": 38,
+      "width": 26,
+      "height": 40,
+      "storage_width": 28,
+      "native_row_stride": 14,
+      "anchor_x": 15,
+      "anchor_y": 35,
+      "native_global_index": 55,
+      "packed_file": "setup-00-frame-38.packed.bin",
+      "packed_sha256": "3e5330934e4ab292d79f7e321852a1e68d8bd96c4e9c64d4cc4fea9044c809b5",
+      "indices_file": "setup-00-frame-38.indices.bin",
+      "indices_sha256": "55d879e1972a03e6dd9f41db7a3d02bc2a993a84cdcac7f97ca450495b94bd58",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 152,
+        "header_hex": "1a280f23",
+        "compressed_stream_offset": 192,
+        "compressed_stream_end_exclusive": 10289,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 21201,
+        "decoded_symbol_bytes": 520,
+        "decoded_symbols_sha256": "32769ac501027bb745d87acca5c24ed6d2cc3305fdafc5004eea88a289eae6bc"
+      },
+      "context": "Flat-board frame directory"
+    },
+    {
+      "id": "setup-00-frame-39",
+      "setup": 0,
+      "frame": 39,
+      "width": 24,
+      "height": 35,
+      "storage_width": 24,
+      "native_row_stride": 12,
+      "anchor_x": 11,
+      "anchor_y": 34,
+      "native_global_index": 56,
+      "packed_file": "setup-00-frame-39.packed.bin",
+      "packed_sha256": "06d8e3a8524a5014dfcb3dbab315a0a0028522f8161ae394fda1ddbf12c28b29",
+      "indices_file": "setup-00-frame-39.indices.bin",
+      "indices_sha256": "de31837ae1203ac1ce9eedf0830d0ced174ff5dd2b6966dde3f7dddee4bd8269",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 156,
+        "header_hex": "18230b22",
+        "compressed_stream_offset": 192,
+        "compressed_stream_end_exclusive": 10289,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 21721,
+        "decoded_symbol_bytes": 420,
+        "decoded_symbols_sha256": "29cd9c50f89ab765bed8774ea9bfe73ab8df902dff7a311fb5a3f00205ea3b26"
+      },
+      "context": "Flat-board frame directory"
+    },
+    {
+      "id": "setup-00-frame-40",
+      "setup": 0,
+      "frame": 40,
+      "width": 29,
+      "height": 36,
+      "storage_width": 32,
+      "native_row_stride": 16,
+      "anchor_x": 12,
+      "anchor_y": 35,
+      "native_global_index": 57,
+      "packed_file": "setup-00-frame-40.packed.bin",
+      "packed_sha256": "e74d2c5f29e0c74a1aa061cef7f9cbcc8e00920a3b06d67a10346abf752bc75f",
+      "indices_file": "setup-00-frame-40.indices.bin",
+      "indices_sha256": "ae547611ff3a73e6ad7c888089057c24e35a3c883fbf5624d0eaf7da310e382b",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 160,
+        "header_hex": "1d240c23",
+        "compressed_stream_offset": 192,
+        "compressed_stream_end_exclusive": 10289,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 22141,
+        "decoded_symbol_bytes": 540,
+        "decoded_symbols_sha256": "de9c44dc07d20e0d5398deab49cb7f3042bfe69e89809c7d57a136d96dba893a"
+      },
+      "context": "Flat-board frame directory"
+    },
+    {
+      "id": "setup-00-frame-41",
+      "setup": 0,
+      "frame": 41,
+      "width": 22,
+      "height": 36,
+      "storage_width": 24,
+      "native_row_stride": 12,
+      "anchor_x": 12,
+      "anchor_y": 36,
+      "native_global_index": 58,
+      "packed_file": "setup-00-frame-41.packed.bin",
+      "packed_sha256": "e255c5b9eaa8bc4c0a7eca938e7c01e925a2f9de7c54889ce86bd87ea870bd4c",
+      "indices_file": "setup-00-frame-41.indices.bin",
+      "indices_sha256": "cef776cc9c1bd27046941d33fbfc0ea119c7151682a276ec57d910f1f93f2131",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 164,
+        "header_hex": "16240c24",
+        "compressed_stream_offset": 192,
+        "compressed_stream_end_exclusive": 10289,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 22681,
+        "decoded_symbol_bytes": 396,
+        "decoded_symbols_sha256": "e61cf3cf2afc917e060afe814530eba7291b49f0c766fc0b35d58b3e80c11ed8"
+      },
+      "context": "Flat-board frame directory"
+    },
+    {
+      "id": "setup-00-frame-42",
+      "setup": 0,
+      "frame": 42,
+      "width": 22,
+      "height": 36,
+      "storage_width": 24,
+      "native_row_stride": 12,
+      "anchor_x": 11,
+      "anchor_y": 35,
+      "native_global_index": 59,
+      "packed_file": "setup-00-frame-42.packed.bin",
+      "packed_sha256": "78570ea30f94bc226f6013cd5241bef75cdbbe89cf8f3a2b1269d0459c503c31",
+      "indices_file": "setup-00-frame-42.indices.bin",
+      "indices_sha256": "10ea55ee90503cada543d44df82acea9f025787e7f58a38dd42900d5fba14047",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 168,
+        "header_hex": "16240b23",
+        "compressed_stream_offset": 192,
+        "compressed_stream_end_exclusive": 10289,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 23077,
+        "decoded_symbol_bytes": 396,
+        "decoded_symbols_sha256": "78db90ec9df66b70d03834e2b286fa3cd387a871c5c0f4f84278f150163ab2d8"
+      },
+      "context": "Flat-board frame directory"
+    },
+    {
+      "id": "setup-00-frame-43",
+      "setup": 0,
+      "frame": 43,
+      "width": 25,
+      "height": 35,
+      "storage_width": 28,
+      "native_row_stride": 14,
+      "anchor_x": 12,
+      "anchor_y": 33,
+      "native_global_index": 60,
+      "packed_file": "setup-00-frame-43.packed.bin",
+      "packed_sha256": "b5503f8358d311c636d40991ff99cb37d5526ca47c02adb3e9eb5faf95237ad5",
+      "indices_file": "setup-00-frame-43.indices.bin",
+      "indices_sha256": "7b8dc9a361ad293a6e96d55bd60202d9babbed164472e73de646f2065af44f87",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 172,
+        "header_hex": "19230c21",
+        "compressed_stream_offset": 192,
+        "compressed_stream_end_exclusive": 10289,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 23473,
+        "decoded_symbol_bytes": 455,
+        "decoded_symbols_sha256": "139e22cfe3e1430561f64dfb558d86c315ef6e4d8f6301bce957f96f1b0907aa"
+      },
+      "context": "Flat-board frame directory"
+    },
+    {
+      "id": "setup-00-frame-44",
+      "setup": 0,
+      "frame": 44,
+      "width": 25,
+      "height": 35,
+      "storage_width": 28,
+      "native_row_stride": 14,
+      "anchor_x": 14,
+      "anchor_y": 34,
+      "native_global_index": 61,
+      "packed_file": "setup-00-frame-44.packed.bin",
+      "packed_sha256": "ce88add780e4d0ceb1a73d61f8c483e52d85a47f321e0958d7eda2317e6f70bb",
+      "indices_file": "setup-00-frame-44.indices.bin",
+      "indices_sha256": "025c6f01cfed7266e81e34c2c03bcba79959a0ebe19c6b0256743418473aa7c8",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 176,
+        "header_hex": "19230e22",
+        "compressed_stream_offset": 192,
+        "compressed_stream_end_exclusive": 10289,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 23928,
+        "decoded_symbol_bytes": 455,
+        "decoded_symbols_sha256": "fad022fdc4f53f3c4ad52c53ec042c0f12b65ef7f5641f5fd3740f58248498ff"
+      },
+      "context": "Flat-board frame directory"
+    },
+    {
+      "id": "setup-00-frame-45",
+      "setup": 0,
+      "frame": 45,
+      "width": 22,
+      "height": 36,
+      "storage_width": 24,
+      "native_row_stride": 12,
+      "anchor_x": 10,
+      "anchor_y": 36,
+      "native_global_index": 62,
+      "packed_file": "setup-00-frame-45.packed.bin",
+      "packed_sha256": "3c21f9001cf840c6442de5c4bef5c045cb2f26cbed7ea83585ef335401544bff",
+      "indices_file": "setup-00-frame-45.indices.bin",
+      "indices_sha256": "52916902a381cd415a6709bc242d1d789b703122c85e677d7c9d887ea58ab057",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 180,
+        "header_hex": "16240a24",
+        "compressed_stream_offset": 192,
+        "compressed_stream_end_exclusive": 10289,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 24383,
+        "decoded_symbol_bytes": 396,
+        "decoded_symbols_sha256": "a1dfb4d0f7b1f48e27c725b611527992eac662bbe860544a1ebc54c849cdf9dd"
+      },
+      "context": "Flat-board frame directory"
+    },
+    {
+      "id": "setup-00-frame-46",
+      "setup": 0,
+      "frame": 46,
+      "width": 24,
+      "height": 36,
+      "storage_width": 24,
+      "native_row_stride": 12,
+      "anchor_x": 12,
+      "anchor_y": 35,
+      "native_global_index": 63,
+      "packed_file": "setup-00-frame-46.packed.bin",
+      "packed_sha256": "7c4569cea86dd69b00de72816033e250fc5b43c7aed5bd90966dc931e3095318",
+      "indices_file": "setup-00-frame-46.indices.bin",
+      "indices_sha256": "700723f8b262e1a70a8d97d4893ea38ae4ccc40ff0bbe2f2b7d3edcfca92c528",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 184,
+        "header_hex": "18240c23",
+        "compressed_stream_offset": 192,
+        "compressed_stream_end_exclusive": 10289,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 24779,
+        "decoded_symbol_bytes": 432,
+        "decoded_symbols_sha256": "981056fd1ec44ea800361a306f7ce0e06e9a928aa784c0e6ee0d734d6df640d9"
+      },
+      "context": "Flat-board frame directory"
+    },
+    {
+      "id": "setup-01-frame-00",
+      "setup": 1,
+      "frame": 0,
+      "width": 23,
+      "height": 15,
+      "storage_width": 24,
+      "native_row_stride": 12,
+      "anchor_x": -19,
+      "anchor_y": 0,
+      "native_global_index": 0,
+      "packed_file": "setup-01-frame-00.packed.bin",
+      "packed_sha256": "11f062e6c194cbc2f8025ea35c042ae2d91f454388c5237f070bc4d6b5ed2f55",
+      "indices_file": "setup-01-frame-00.indices.bin",
+      "indices_sha256": "99f36dd04a16e3a7356fd8be8c5cdfb423e27c8fdc54c59d2da454c77c12b14d",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 10289,
+        "header_hex": "170fed00",
+        "compressed_stream_offset": 10361,
+        "compressed_stream_end_exclusive": 11788,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 0,
+        "decoded_symbol_bytes": 180,
+        "decoded_symbols_sha256": "4f9a8a2b58c415c43c6ad054d772402cd164e14cb7f756e423c79fbd5af90c7d"
+      },
+      "context": "Persistent initialization frame directory"
+    },
+    {
+      "id": "setup-01-frame-01",
+      "setup": 1,
+      "frame": 1,
+      "width": 31,
+      "height": 12,
+      "storage_width": 32,
+      "native_row_stride": 16,
+      "anchor_x": -13,
+      "anchor_y": -3,
+      "native_global_index": 1,
+      "packed_file": "setup-01-frame-01.packed.bin",
+      "packed_sha256": "40af3d482ba62dc4a8be8e5c1995c17c2b38feadccb8946066e27950a9da04e2",
+      "indices_file": "setup-01-frame-01.indices.bin",
+      "indices_sha256": "0b5aebbde24f9c7df6cbaa98b472183b46b58ead8766e5c2310a990989b20991",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 10293,
+        "header_hex": "1f0cf3fd",
+        "compressed_stream_offset": 10361,
+        "compressed_stream_end_exclusive": 11788,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 180,
+        "decoded_symbol_bytes": 192,
+        "decoded_symbols_sha256": "41cf12556c30befb95f80c19866b7f074500994b09fe2f0b9c29ddc90eb633e2"
+      },
+      "context": "Persistent initialization frame directory"
+    },
+    {
+      "id": "setup-01-frame-02",
+      "setup": 1,
+      "frame": 2,
+      "width": 23,
+      "height": 15,
+      "storage_width": 24,
+      "native_row_stride": 12,
+      "anchor_x": -24,
+      "anchor_y": 0,
+      "native_global_index": 2,
+      "packed_file": "setup-01-frame-02.packed.bin",
+      "packed_sha256": "5c053a525308cd4977804aae635e4c0008d863a3efaf25d7a5238513b14247db",
+      "indices_file": "setup-01-frame-02.indices.bin",
+      "indices_sha256": "ed50e5ac793ac5261c88b5bd9dd1e848044e5920a7bc394dfeed9adca844a484",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 10297,
+        "header_hex": "170fe800",
+        "compressed_stream_offset": 10361,
+        "compressed_stream_end_exclusive": 11788,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 372,
+        "decoded_symbol_bytes": 180,
+        "decoded_symbols_sha256": "e58e27faac9670fdc7dfd2ecb17a449818fc49d09eb24a634afcff6788502e13"
+      },
+      "context": "Persistent initialization frame directory"
+    },
+    {
+      "id": "setup-01-frame-03",
+      "setup": 1,
+      "frame": 3,
+      "width": 31,
+      "height": 12,
+      "storage_width": 32,
+      "native_row_stride": 16,
+      "anchor_x": -22,
+      "anchor_y": -3,
+      "native_global_index": 3,
+      "packed_file": "setup-01-frame-03.packed.bin",
+      "packed_sha256": "030313c68c01776ef09080e8a25f337ebede7328ca087cbb99868b90417f8db8",
+      "indices_file": "setup-01-frame-03.indices.bin",
+      "indices_sha256": "b2ffc9f7e8e9dd8a8372dc44fbd7c9f767ac9fd6a514239039fbdef31d4bc9c3",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 10301,
+        "header_hex": "1f0ceafd",
+        "compressed_stream_offset": 10361,
+        "compressed_stream_end_exclusive": 11788,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 552,
+        "decoded_symbol_bytes": 192,
+        "decoded_symbols_sha256": "5717ed90748fa65dc44f77952aeae4d3a45cc18801156a0e18687d60b358324e"
+      },
+      "context": "Persistent initialization frame directory"
+    },
+    {
+      "id": "setup-01-frame-04",
+      "setup": 1,
+      "frame": 4,
+      "width": 16,
+      "height": 14,
+      "storage_width": 16,
+      "native_row_stride": 8,
+      "anchor_x": 0,
+      "anchor_y": -17,
+      "native_global_index": 4,
+      "packed_file": "setup-01-frame-04.packed.bin",
+      "packed_sha256": "5ced06885871551a9e324a72e054590db8a83513bd601bd4489626bed8ef1ec0",
+      "indices_file": "setup-01-frame-04.indices.bin",
+      "indices_sha256": "f61ecc391a2b4737754fea24afd9a9569e5f58f0b2dbf2282be37c135a224d79",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 10305,
+        "header_hex": "100e00ef",
+        "compressed_stream_offset": 10361,
+        "compressed_stream_end_exclusive": 11788,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 744,
+        "decoded_symbol_bytes": 112,
+        "decoded_symbols_sha256": "5207f098dbdf25ed83037e2b626a139d0235fa1b0b03a2a96b6412301a54430f"
+      },
+      "context": "Persistent initialization frame directory"
+    },
+    {
+      "id": "setup-01-frame-05",
+      "setup": 1,
+      "frame": 5,
+      "width": 24,
+      "height": 23,
+      "storage_width": 24,
+      "native_row_stride": 12,
+      "anchor_x": -8,
+      "anchor_y": 0,
+      "native_global_index": 5,
+      "packed_file": "setup-01-frame-05.packed.bin",
+      "packed_sha256": "1473dca40f2799811c5d2f318dee2cb508b45fdaa0a1d7f9653638af25b56075",
+      "indices_file": "setup-01-frame-05.indices.bin",
+      "indices_sha256": "9781bb1292ab0ab1c402f940c8c2334e1ef11a6934778d185be55406c13af796",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 10309,
+        "header_hex": "1817f800",
+        "compressed_stream_offset": 10361,
+        "compressed_stream_end_exclusive": 11788,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 856,
+        "decoded_symbol_bytes": 276,
+        "decoded_symbols_sha256": "7545d43cdb4f1cfee09f73643237e2cfc95934ec254bfd52f2d758205c5e6bb4"
+      },
+      "context": "Persistent initialization frame directory"
+    },
+    {
+      "id": "setup-01-frame-06",
+      "setup": 1,
+      "frame": 6,
+      "width": 16,
+      "height": 23,
+      "storage_width": 16,
+      "native_row_stride": 8,
+      "anchor_x": 0,
+      "anchor_y": 0,
+      "native_global_index": 6,
+      "packed_file": "setup-01-frame-06.packed.bin",
+      "packed_sha256": "8751f28398e43df7b0829a75543a2ee704781453291fd130788fc465ab73fcac",
+      "indices_file": "setup-01-frame-06.indices.bin",
+      "indices_sha256": "78668b159ab5f76df05821fdb201d940a71f1e289fe4b66124deba730a843b51",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 10313,
+        "header_hex": "10170000",
+        "compressed_stream_offset": 10361,
+        "compressed_stream_end_exclusive": 11788,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 1132,
+        "decoded_symbol_bytes": 184,
+        "decoded_symbols_sha256": "aae7b780a465273f39e741fa0a356cf69f67a3978e4d7e5eaf0038588ec4c61c"
+      },
+      "context": "Persistent initialization frame directory"
+    },
+    {
+      "id": "setup-01-frame-07",
+      "setup": 1,
+      "frame": 7,
+      "width": 26,
+      "height": 23,
+      "storage_width": 28,
+      "native_row_stride": 14,
+      "anchor_x": 0,
+      "anchor_y": 0,
+      "native_global_index": 7,
+      "packed_file": "setup-01-frame-07.packed.bin",
+      "packed_sha256": "d63b90cee01b2ab56bef65a34dc4b3593350ca60ea693f0d4ef92c2fb702c247",
+      "indices_file": "setup-01-frame-07.indices.bin",
+      "indices_sha256": "2c9c078d0efc13c076386367aa46d415658453402186d7027614813aaf7ab655",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 10317,
+        "header_hex": "1a170000",
+        "compressed_stream_offset": 10361,
+        "compressed_stream_end_exclusive": 11788,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 1316,
+        "decoded_symbol_bytes": 299,
+        "decoded_symbols_sha256": "1858cf4f501b8df1380aaa19a0ef4301ea4f2fa72004c789ffa71e1c88ba884e"
+      },
+      "context": "Persistent initialization frame directory"
+    },
+    {
+      "id": "setup-01-frame-08",
+      "setup": 1,
+      "frame": 8,
+      "width": 16,
+      "height": 8,
+      "storage_width": 16,
+      "native_row_stride": 8,
+      "anchor_x": 0,
+      "anchor_y": 0,
+      "native_global_index": 8,
+      "packed_file": "setup-01-frame-08.packed.bin",
+      "packed_sha256": "61476a8422a822a8c027e79d11b36b75e6102d76273fb0909f010a7a5a70515f",
+      "indices_file": "setup-01-frame-08.indices.bin",
+      "indices_sha256": "b37650cf8442e59efcf79122d0cac44e3dba9da47b5d6f126ece9e5efc46cd1d",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 10321,
+        "header_hex": "10080000",
+        "compressed_stream_offset": 10361,
+        "compressed_stream_end_exclusive": 11788,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 1615,
+        "decoded_symbol_bytes": 64,
+        "decoded_symbols_sha256": "c4fa837926c206cb5aabc8dd391666605e091a81f5359b231fe313e71a5c3f49"
+      },
+      "context": "Persistent initialization frame directory"
+    },
+    {
+      "id": "setup-01-frame-09",
+      "setup": 1,
+      "frame": 9,
+      "width": 16,
+      "height": 8,
+      "storage_width": 16,
+      "native_row_stride": 8,
+      "anchor_x": 0,
+      "anchor_y": 0,
+      "native_global_index": 9,
+      "packed_file": "setup-01-frame-09.packed.bin",
+      "packed_sha256": "fc5ba0c1064081d6a87b52e95212798a9a1ac8bb51e57e85eec5fa2b1b3b89d0",
+      "indices_file": "setup-01-frame-09.indices.bin",
+      "indices_sha256": "00ca97a77e3fe6949e45a9e33e167d57f7ff25c1696ceef19f791f349aeca193",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 10325,
+        "header_hex": "10080000",
+        "compressed_stream_offset": 10361,
+        "compressed_stream_end_exclusive": 11788,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 1679,
+        "decoded_symbol_bytes": 64,
+        "decoded_symbols_sha256": "46f92c90c8df7f7e30343f330da097cdbfff06ceff60cd54be757456f80f797f"
+      },
+      "context": "Persistent initialization frame directory"
+    },
+    {
+      "id": "setup-01-frame-10",
+      "setup": 1,
+      "frame": 10,
+      "width": 18,
+      "height": 8,
+      "storage_width": 20,
+      "native_row_stride": 10,
+      "anchor_x": 0,
+      "anchor_y": 0,
+      "native_global_index": 10,
+      "packed_file": "setup-01-frame-10.packed.bin",
+      "packed_sha256": "c586cf11f97b66d162592e80b46698873931ce85cbdcbb8113454c6147bed39a",
+      "indices_file": "setup-01-frame-10.indices.bin",
+      "indices_sha256": "68158f8f2264fe41dc5e40b8c6402b891484fbb65374127abc27c379f7eda4df",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 10329,
+        "header_hex": "12080000",
+        "compressed_stream_offset": 10361,
+        "compressed_stream_end_exclusive": 11788,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 1743,
+        "decoded_symbol_bytes": 72,
+        "decoded_symbols_sha256": "a18339d85b2583c5fc1cf58ef765ee87446280941b97031b012593be476f310d"
+      },
+      "context": "Persistent initialization frame directory"
+    },
+    {
+      "id": "setup-01-frame-11",
+      "setup": 1,
+      "frame": 11,
+      "width": 41,
+      "height": 22,
+      "storage_width": 44,
+      "native_row_stride": 22,
+      "anchor_x": -7,
+      "anchor_y": 0,
+      "native_global_index": 11,
+      "packed_file": "setup-01-frame-11.packed.bin",
+      "packed_sha256": "d14dcf8c232eb32ab7ab35d303d64c0305cb4be299324006c95bb15ee9e1e93c",
+      "indices_file": "setup-01-frame-11.indices.bin",
+      "indices_sha256": "1477c78f304c72ef9f0a23ef7aa8ccc94fced94976afb404d924b2dbb181f981",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 10333,
+        "header_hex": "2916f900",
+        "compressed_stream_offset": 10361,
+        "compressed_stream_end_exclusive": 11788,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 1815,
+        "decoded_symbol_bytes": 462,
+        "decoded_symbols_sha256": "ce0086d0f0a3ca7fdfe164580d429852d05fe7460a1ac35d9f0d05e0c9cd6602"
+      },
+      "context": "Persistent initialization frame directory"
+    },
+    {
+      "id": "setup-01-frame-12",
+      "setup": 1,
+      "frame": 12,
+      "width": 16,
+      "height": 14,
+      "storage_width": 16,
+      "native_row_stride": 8,
+      "anchor_x": 0,
+      "anchor_y": -7,
+      "native_global_index": 12,
+      "packed_file": "setup-01-frame-12.packed.bin",
+      "packed_sha256": "24866329d3e08190ccfac49401728dc8c6fba3f58ee6c615747f4f39bb449485",
+      "indices_file": "setup-01-frame-12.indices.bin",
+      "indices_sha256": "3466bd36bf0014e78e251384b4923b89b0360c5f35aae181252ad637f8f38c2e",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 10337,
+        "header_hex": "100e00f9",
+        "compressed_stream_offset": 10361,
+        "compressed_stream_end_exclusive": 11788,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 2277,
+        "decoded_symbol_bytes": 112,
+        "decoded_symbols_sha256": "70f038628d647f0c81f988ac3b2075a3ecc26c1c2657e0157419bfbcfc2b49af"
+      },
+      "context": "Persistent initialization frame directory"
+    },
+    {
+      "id": "setup-01-frame-13",
+      "setup": 1,
+      "frame": 13,
+      "width": 16,
+      "height": 10,
+      "storage_width": 16,
+      "native_row_stride": 8,
+      "anchor_x": 0,
+      "anchor_y": -7,
+      "native_global_index": 13,
+      "packed_file": "setup-01-frame-13.packed.bin",
+      "packed_sha256": "9b7ef0c1d4f601a90d3089adbd303533a6d27ea6c51ffc5a09e4345714af1c02",
+      "indices_file": "setup-01-frame-13.indices.bin",
+      "indices_sha256": "6f89508e22328a9914ec1be7e185a6d218c8a9e47adc6f24804d753f2ed8ae2e",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 10341,
+        "header_hex": "100a00f9",
+        "compressed_stream_offset": 10361,
+        "compressed_stream_end_exclusive": 11788,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 2389,
+        "decoded_symbol_bytes": 80,
+        "decoded_symbols_sha256": "2acd998da7bcc0a0be3f25f824f0719754239d1e6125e4facaf0f768a4056e6b"
+      },
+      "context": "Persistent initialization frame directory"
+    },
+    {
+      "id": "setup-01-frame-14",
+      "setup": 1,
+      "frame": 14,
+      "width": 40,
+      "height": 22,
+      "storage_width": 40,
+      "native_row_stride": 20,
+      "anchor_x": 0,
+      "anchor_y": -2,
+      "native_global_index": 14,
+      "packed_file": "setup-01-frame-14.packed.bin",
+      "packed_sha256": "dde2707c114e2bcf8e1443cbfa63df0ff51f3dce6db5258395c10250a63f553d",
+      "indices_file": "setup-01-frame-14.indices.bin",
+      "indices_sha256": "8ef00c822df62cd907b69c914a2876864dbe44c269f1f7fe379f328a55d223a8",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 10345,
+        "header_hex": "281600fe",
+        "compressed_stream_offset": 10361,
+        "compressed_stream_end_exclusive": 11788,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 2469,
+        "decoded_symbol_bytes": 440,
+        "decoded_symbols_sha256": "f9f870a3af4eecc8068ac4d108723d6e77d587c251df22b82551b788e3e1c12d"
+      },
+      "context": "Persistent initialization frame directory"
+    },
+    {
+      "id": "setup-01-frame-15",
+      "setup": 1,
+      "frame": 15,
+      "width": 30,
+      "height": 16,
+      "storage_width": 32,
+      "native_row_stride": 16,
+      "anchor_x": -18,
+      "anchor_y": -15,
+      "native_global_index": 15,
+      "packed_file": "setup-01-frame-15.packed.bin",
+      "packed_sha256": "fc4fb67040dfc136ce79c79774690db96920923dd57a8eaab1bfe55ef91c71ce",
+      "indices_file": "setup-01-frame-15.indices.bin",
+      "indices_sha256": "b9da7b3704d7e84ae7a96360860e9ad8a01faf227bab72fa982fdcad1c767110",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 10349,
+        "header_hex": "1e10eef1",
+        "compressed_stream_offset": 10361,
+        "compressed_stream_end_exclusive": 11788,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 2909,
+        "decoded_symbol_bytes": 240,
+        "decoded_symbols_sha256": "704297ac058875e74ed5394c47300882b9f7cd383ab701ea92335c8e8b30d277"
+      },
+      "context": "Persistent initialization frame directory"
+    },
+    {
+      "id": "setup-01-frame-16",
+      "setup": 1,
+      "frame": 16,
+      "width": 32,
+      "height": 16,
+      "storage_width": 32,
+      "native_row_stride": 16,
+      "anchor_x": -16,
+      "anchor_y": -15,
+      "native_global_index": 16,
+      "packed_file": "setup-01-frame-16.packed.bin",
+      "packed_sha256": "775d04d3eac124bf65aea30c8c0f03ec7c819a50b6ce95575b9dc02be9915a00",
+      "indices_file": "setup-01-frame-16.indices.bin",
+      "indices_sha256": "815f58daf48493c02922bad96a698419c48f3e89c8e27bd59473b524b01efd88",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 10353,
+        "header_hex": "2010f0f1",
+        "compressed_stream_offset": 10361,
+        "compressed_stream_end_exclusive": 11788,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 3149,
+        "decoded_symbol_bytes": 256,
+        "decoded_symbols_sha256": "18c621366298a9fbb6af076f7307a14c20b5789d381c55a392e08e31d4b2caf2"
+      },
+      "context": "Persistent initialization frame directory"
+    },
+    {
+      "id": "setup-02-frame-00",
+      "setup": 2,
+      "frame": 0,
+      "width": 16,
+      "height": 22,
+      "storage_width": 16,
+      "native_row_stride": 8,
+      "anchor_x": 8,
+      "anchor_y": 11,
+      "native_global_index": 17,
+      "packed_file": "setup-02-frame-00.packed.bin",
+      "packed_sha256": "bbeba61e3bd9a769a595c930caefa215b91d0bf968a723f43c26618ed5a23916",
+      "indices_file": "setup-02-frame-00.indices.bin",
+      "indices_sha256": "9af6eee319408ae3173ccc4a2441f8dfb7f7c16257076b239a8a31726cad3910",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 11788,
+        "header_hex": "1016080b",
+        "compressed_stream_offset": 11816,
+        "compressed_stream_end_exclusive": 12303,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 0,
+        "decoded_symbol_bytes": 176,
+        "decoded_symbols_sha256": "0a8ec24f9bf4dd5d495817490e45cd1c490516ab62d25f6a30abdc899f1230d1"
+      },
+      "context": "Tilted-board directory when command_active != 0 and palette_mode != 0"
+    },
+    {
+      "id": "setup-02-frame-01",
+      "setup": 2,
+      "frame": 1,
+      "width": 16,
+      "height": 23,
+      "storage_width": 16,
+      "native_row_stride": 8,
+      "anchor_x": 8,
+      "anchor_y": 12,
+      "native_global_index": 18,
+      "packed_file": "setup-02-frame-01.packed.bin",
+      "packed_sha256": "7140d2aceeeeb0f4d51f37c3915e2363333f248ac2b33ace95c374378d98853e",
+      "indices_file": "setup-02-frame-01.indices.bin",
+      "indices_sha256": "30b5bdbcad57a1ef3a19325ea62d991049b5285d4e23daa1819b7c6df23a3281",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 11792,
+        "header_hex": "1017080c",
+        "compressed_stream_offset": 11816,
+        "compressed_stream_end_exclusive": 12303,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 176,
+        "decoded_symbol_bytes": 184,
+        "decoded_symbols_sha256": "e52f3696b38d890afc2b0cd3b03e3bea7e9a954a66f4ad2b83ae524cb32758c7"
+      },
+      "context": "Tilted-board directory when command_active != 0 and palette_mode != 0"
+    },
+    {
+      "id": "setup-02-frame-02",
+      "setup": 2,
+      "frame": 2,
+      "width": 16,
+      "height": 23,
+      "storage_width": 16,
+      "native_row_stride": 8,
+      "anchor_x": 8,
+      "anchor_y": 12,
+      "native_global_index": 19,
+      "packed_file": "setup-02-frame-02.packed.bin",
+      "packed_sha256": "c0681a2f0828c8ca0879741757fe390c122c532d47400998afd89c2295f94079",
+      "indices_file": "setup-02-frame-02.indices.bin",
+      "indices_sha256": "d795dc967c5cff117be83ec3c56c2a2aed9ce6e201170e6f5a05d8fdc6e1d333",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 11796,
+        "header_hex": "1017080c",
+        "compressed_stream_offset": 11816,
+        "compressed_stream_end_exclusive": 12303,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 360,
+        "decoded_symbol_bytes": 184,
+        "decoded_symbols_sha256": "494a796ad9d7b6b8f649338352d1925d2393d97369010798fb6677c7aebbe866"
+      },
+      "context": "Tilted-board directory when command_active != 0 and palette_mode != 0"
+    },
+    {
+      "id": "setup-02-frame-03",
+      "setup": 2,
+      "frame": 3,
+      "width": 16,
+      "height": 19,
+      "storage_width": 16,
+      "native_row_stride": 8,
+      "anchor_x": 8,
+      "anchor_y": 8,
+      "native_global_index": 20,
+      "packed_file": "setup-02-frame-03.packed.bin",
+      "packed_sha256": "ecf1c0c2af6e1db6f9ec4267d662f35f978872d061a39d8003d654aa5d673d2f",
+      "indices_file": "setup-02-frame-03.indices.bin",
+      "indices_sha256": "6d9677e3d268a0a7f5f148d7c79caa8db80412a4134471f8a689c5c603068066",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 11800,
+        "header_hex": "10130808",
+        "compressed_stream_offset": 11816,
+        "compressed_stream_end_exclusive": 12303,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 544,
+        "decoded_symbol_bytes": 152,
+        "decoded_symbols_sha256": "42af7f7ef87d6afb922a86fe96cc853ef59454a16d537a5b81633a6f8f21bc92"
+      },
+      "context": "Tilted-board directory when command_active != 0 and palette_mode != 0"
+    },
+    {
+      "id": "setup-02-frame-04",
+      "setup": 2,
+      "frame": 4,
+      "width": 16,
+      "height": 22,
+      "storage_width": 16,
+      "native_row_stride": 8,
+      "anchor_x": 8,
+      "anchor_y": 11,
+      "native_global_index": 21,
+      "packed_file": "setup-02-frame-04.packed.bin",
+      "packed_sha256": "41724759635daeb879d20989b84ee8499c9e6bd108a323c2c86c33503955fcbb",
+      "indices_file": "setup-02-frame-04.indices.bin",
+      "indices_sha256": "3ff48dad96b7714d4370c3fe073824a3d4cbeb06468cb4fee741481489390d3b",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 11804,
+        "header_hex": "1016080b",
+        "compressed_stream_offset": 11816,
+        "compressed_stream_end_exclusive": 12303,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 696,
+        "decoded_symbol_bytes": 176,
+        "decoded_symbols_sha256": "5a0be604bae489b2692602f6f22b8e9a2dc6e58ecc9671889b1245e2b36b38b5"
+      },
+      "context": "Tilted-board directory when command_active != 0 and palette_mode != 0"
+    },
+    {
+      "id": "setup-02-frame-05",
+      "setup": 2,
+      "frame": 5,
+      "width": 16,
+      "height": 19,
+      "storage_width": 16,
+      "native_row_stride": 8,
+      "anchor_x": 8,
+      "anchor_y": 8,
+      "native_global_index": 22,
+      "packed_file": "setup-02-frame-05.packed.bin",
+      "packed_sha256": "c5f2cbb25a96af9cdd66e59813396eed0066bf13938a5e6e1a487f7bdb071c1c",
+      "indices_file": "setup-02-frame-05.indices.bin",
+      "indices_sha256": "4cdd7b5e0ce99a99b87abfb22ca2f88f8b9d5cefdf60f7bde19bb3fe87400333",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 11808,
+        "header_hex": "10130808",
+        "compressed_stream_offset": 11816,
+        "compressed_stream_end_exclusive": 12303,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 872,
+        "decoded_symbol_bytes": 152,
+        "decoded_symbols_sha256": "5c0bf5d02dfb98b4b958024c9fc710f854716ffd43bd3d9bbd5bcb1f4ad7bc79"
+      },
+      "context": "Tilted-board directory when command_active != 0 and palette_mode != 0"
+    },
+    {
+      "id": "setup-03-frame-00",
+      "setup": 3,
+      "frame": 0,
+      "width": 15,
+      "height": 23,
+      "storage_width": 16,
+      "native_row_stride": 8,
+      "anchor_x": 8,
+      "anchor_y": 11,
+      "native_global_index": 17,
+      "packed_file": "setup-03-frame-00.packed.bin",
+      "packed_sha256": "6a9be786ab3c1780b7668caf02dd5a522377becc46d716c0345a5d8449cfae5c",
+      "indices_file": "setup-03-frame-00.indices.bin",
+      "indices_sha256": "3ffde5c8abc0ca75891de301159e6be78fa9f1fb64f16b81276c1ffea4ac5599",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 12303,
+        "header_hex": "0f17080b",
+        "compressed_stream_offset": 12331,
+        "compressed_stream_end_exclusive": 12802,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 0,
+        "decoded_symbol_bytes": 184,
+        "decoded_symbols_sha256": "6a4489d725e6d9d631619ddc2db02af0af55024e6724b65cd50b168f418c82ad"
+      },
+      "context": "Tilted-board directory when command_active != 0 and palette_mode == 0"
+    },
+    {
+      "id": "setup-03-frame-01",
+      "setup": 3,
+      "frame": 1,
+      "width": 15,
+      "height": 24,
+      "storage_width": 16,
+      "native_row_stride": 8,
+      "anchor_x": 8,
+      "anchor_y": 12,
+      "native_global_index": 18,
+      "packed_file": "setup-03-frame-01.packed.bin",
+      "packed_sha256": "3e7bc80ce2895eab02fcaa59b0ceb07afdaf8f77c6ef6ff5966e5d7db27102fe",
+      "indices_file": "setup-03-frame-01.indices.bin",
+      "indices_sha256": "199bf1a4a94a39836feb7bf1a5edfbc5190c134b1b6d58b6daf9eae4028ca1ba",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 12307,
+        "header_hex": "0f18080c",
+        "compressed_stream_offset": 12331,
+        "compressed_stream_end_exclusive": 12802,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 184,
+        "decoded_symbol_bytes": 192,
+        "decoded_symbols_sha256": "80cb1d5df2c10192f38e8916326bcf7412cfba746d0dff80f1240d9a89bc20ae"
+      },
+      "context": "Tilted-board directory when command_active != 0 and palette_mode == 0"
+    },
+    {
+      "id": "setup-03-frame-02",
+      "setup": 3,
+      "frame": 2,
+      "width": 16,
+      "height": 23,
+      "storage_width": 16,
+      "native_row_stride": 8,
+      "anchor_x": 8,
+      "anchor_y": 11,
+      "native_global_index": 19,
+      "packed_file": "setup-03-frame-02.packed.bin",
+      "packed_sha256": "0d2c85d2335da29cd4ccae872add4db9fbf894929bf7e25b27b1e17c10bb8852",
+      "indices_file": "setup-03-frame-02.indices.bin",
+      "indices_sha256": "475249c412618bac21d7c3cba877f44593cc0180af75300968f1e5558aa79445",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 12311,
+        "header_hex": "1017080b",
+        "compressed_stream_offset": 12331,
+        "compressed_stream_end_exclusive": 12802,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 376,
+        "decoded_symbol_bytes": 184,
+        "decoded_symbols_sha256": "5b4ce582e1217e6d2ef1c9a798f4ed5fc52698557f42365a092396824c7b9923"
+      },
+      "context": "Tilted-board directory when command_active != 0 and palette_mode == 0"
+    },
+    {
+      "id": "setup-03-frame-03",
+      "setup": 3,
+      "frame": 3,
+      "width": 15,
+      "height": 19,
+      "storage_width": 16,
+      "native_row_stride": 8,
+      "anchor_x": 7,
+      "anchor_y": 7,
+      "native_global_index": 20,
+      "packed_file": "setup-03-frame-03.packed.bin",
+      "packed_sha256": "7a46d89e834a141837762507a16395879528fc670029d7bba4adb5673f5b1503",
+      "indices_file": "setup-03-frame-03.indices.bin",
+      "indices_sha256": "a438d3b3ec941cc865d7d5acfc3c370fdf58ebcc6ce942b158c16a356a143eed",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 12315,
+        "header_hex": "0f130707",
+        "compressed_stream_offset": 12331,
+        "compressed_stream_end_exclusive": 12802,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 560,
+        "decoded_symbol_bytes": 152,
+        "decoded_symbols_sha256": "d2c33c3bbc5d76085408ae985520d020e028e92d2f9351d3386f2eaccbcf004f"
+      },
+      "context": "Tilted-board directory when command_active != 0 and palette_mode == 0"
+    },
+    {
+      "id": "setup-03-frame-04",
+      "setup": 3,
+      "frame": 4,
+      "width": 15,
+      "height": 23,
+      "storage_width": 16,
+      "native_row_stride": 8,
+      "anchor_x": 7,
+      "anchor_y": 11,
+      "native_global_index": 21,
+      "packed_file": "setup-03-frame-04.packed.bin",
+      "packed_sha256": "eb408f2c5b2d308c38ee3e1a82c2d7bcc9958366d6cceb7b024d1276621e6a2c",
+      "indices_file": "setup-03-frame-04.indices.bin",
+      "indices_sha256": "4b27c7f3e5c1d57d25538bb01fe5725dc7413ef2db14eed46df33604594595ea",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 12319,
+        "header_hex": "0f17070b",
+        "compressed_stream_offset": 12331,
+        "compressed_stream_end_exclusive": 12802,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 712,
+        "decoded_symbol_bytes": 184,
+        "decoded_symbols_sha256": "a38b0ca1515028ec50d363c376bfab0b4292ab033475071eb0e33de1fda07b02"
+      },
+      "context": "Tilted-board directory when command_active != 0 and palette_mode == 0"
+    },
+    {
+      "id": "setup-03-frame-05",
+      "setup": 3,
+      "frame": 5,
+      "width": 15,
+      "height": 20,
+      "storage_width": 16,
+      "native_row_stride": 8,
+      "anchor_x": 7,
+      "anchor_y": 8,
+      "native_global_index": 22,
+      "packed_file": "setup-03-frame-05.packed.bin",
+      "packed_sha256": "c5e3815bed6eedeb3bc6dda47b346bed77a7ee92d1bcee67ac9dfa3b3d09c662",
+      "indices_file": "setup-03-frame-05.indices.bin",
+      "indices_sha256": "dfbce08f5e3d6eda306ef331ba6ebed47438bb60c5de5f7ea9d13a0e702618f0",
+      "source": {
+        "archive": "ALLCANM1",
+        "header_offset": 12323,
+        "header_hex": "0f140708",
+        "compressed_stream_offset": 12331,
+        "compressed_stream_end_exclusive": 12802,
+        "compressed_frame_offset": null,
+        "compressed_frame_offset_note": "Shared Huffman stream; no independent per-frame compressed byte boundary claimed",
+        "decoded_symbol_offset": 896,
+        "decoded_symbol_bytes": 160,
+        "decoded_symbols_sha256": "0b3bb19a29b0b0e969a7391f681487a6c9956c1482d12f1f8732f4914a0589ae"
+      },
+      "context": "Tilted-board directory when command_active != 0 and palette_mode == 0"
+    }
+  ],
+  "native_proofs": [
+    {
+      "setup": 0,
+      "row_proof": {
+        "classification": "Matched native E282 row padding and return-pointer validation; no vertical XOR, palette, alpha or animation interpretation",
+        "input_sha256": "aa50ef9fb55e5271526e25ccc6e60b2908f00440c3f33380d13d27ecd4cbc564",
+        "input_start": 192,
+        "logical_symbol_bytes": 25211,
+        "nonempty_frame_calls": 47,
+        "empty_records_not_executed": 0,
+        "source_pins": {
+          "matching/asm/huff_frame_decode_entry.asm": "1a8f4118a424b95d5e4fe51bcf8224780e7931c37346946c202710dfbcc5adcc",
+          "matching/asm/huff_tree_build_recursive.asm": "6ee793fb15f7d877b8fd6879930b49b53ed8c14812da563ea053c23d2a2359c0",
+          "matching/asm/huff_read_byte.asm": "ffeb00d460e95ee54a48abffbc8c584797bfc8e4d5d3294d5094b8aed44cffad",
+          "matching/asm/huff_get_bit.asm": "398941802582fbc03aaac9bb0c3a4abeb8a61700c7d62c3f7b537940cc12df2b",
+          "matching/asm/huff_build_lookup.asm": "55143488f6d3e2e7ae91957c4594c50acba9a30c6746719bd7b5739495d8626d",
+          "matching/asm/huff_decode_bytes.asm": "9ea8de2c0d50a55caeb73a34a610bb6c09e1036e4d983c9e5d8071b9c78b2227",
+          "matching/asm/huff_decode_stream.asm": "495995e31d28f71614255b052dd31ad4627ade7b267d5419048c8bb1f396e572",
+          "matching/asm/huff_window_save.asm": "0230bac9d7102c570ee8f7055cf010dde9dac07142efee6a1b04ef5c9117aa9f",
+          "matching/asm/huff_window_init.asm": "3a34aaa486c351a781978b2d97bb9ae238f40bd678ed724ab8daae75c9f1603a"
+        },
+        "whole_assembled_sha256": "e1e9a7e761149756cabdac4b18c481c97ec6d0108221f4f945cf966e28ad9a44",
+        "EOF_zero_or_stale_fill": false
+      },
+      "frames": [
+        {
+          "index": 0,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 460,
+          "native_row_stride": 10,
+          "native_sha256": "ab4a603390ae798a775285e42a317bac83d2388ef8616445f9281445eda84f9b",
+          "logical_symbol_sha256": "ab4a603390ae798a775285e42a317bac83d2388ef8616445f9281445eda84f9b",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [
+            [
+              460,
+              1
+            ]
+          ],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 1,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 480,
+          "native_row_stride": 10,
+          "native_sha256": "8778b79a429219b3620650f266d09a12722dd5c2a7dc22303a6a04c85662082f",
+          "logical_symbol_sha256": "8778b79a429219b3620650f266d09a12722dd5c2a7dc22303a6a04c85662082f",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [
+            [
+              480,
+              1
+            ]
+          ],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 2,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 480,
+          "native_row_stride": 10,
+          "native_sha256": "1d83d4afb397b6347739e618051100491d82b086658f90eae5f2c7fccf479d0c",
+          "logical_symbol_sha256": "bb73d359b83274862130fb850498f6e25cf2d3e81e6171e2ea4529b8a7df8d50",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 3,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 460,
+          "native_row_stride": 10,
+          "native_sha256": "5ee753b05a5a4ce5f2043589c373d814281cca15f8d96b477b933eaf279b4d99",
+          "logical_symbol_sha256": "5ee753b05a5a4ce5f2043589c373d814281cca15f8d96b477b933eaf279b4d99",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [
+            [
+              460,
+              1
+            ]
+          ],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 4,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 828,
+          "native_row_stride": 18,
+          "native_sha256": "a8900a4e2c7b4713dd963e9ea021ffa6f98e1c9e75bad4e18fe59de1871fa804",
+          "logical_symbol_sha256": "b6b414fe4c91d520aa5d713fdcb29e984781f760084f7ee6de9691ae592a5e31",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 5,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 736,
+          "native_row_stride": 16,
+          "native_sha256": "6728e2e2ebd99f8956e649c932bb9c50640f73e457323af58f84587a3ea3df23",
+          "logical_symbol_sha256": "6728e2e2ebd99f8956e649c932bb9c50640f73e457323af58f84587a3ea3df23",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [
+            [
+              736,
+              1
+            ]
+          ],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 6,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 900,
+          "native_row_stride": 20,
+          "native_sha256": "3032ddd05e8965d528d534d4424de7fc924adabd80d3d5bdf49d37a8ce0338ba",
+          "logical_symbol_sha256": "3032ddd05e8965d528d534d4424de7fc924adabd80d3d5bdf49d37a8ce0338ba",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [
+            [
+              900,
+              1
+            ]
+          ],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 7,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 756,
+          "native_row_stride": 18,
+          "native_sha256": "1259b479945653d39a9a22b29103b87637d718afded3d16f9769cc17663fe9de",
+          "logical_symbol_sha256": "6f808ce7965744908e5e3f3a3b58b70e4d902e106f1915b3a9c7e34436907436",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 8,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 756,
+          "native_row_stride": 18,
+          "native_sha256": "8305581d29d6a2171429ad6ca274b00cf01f0d7d729be50d7d52cbffdf466922",
+          "logical_symbol_sha256": "8305581d29d6a2171429ad6ca274b00cf01f0d7d729be50d7d52cbffdf466922",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [
+            [
+              756,
+              1
+            ]
+          ],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 9,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 756,
+          "native_row_stride": 18,
+          "native_sha256": "c04790f0182fb57d02cd5447adbeeb0fdbd21040e8015329b4520c3f447edb7c",
+          "logical_symbol_sha256": "5d430db70024ac5e75cd5e66829420eb6629d2d41e1211567074133c2940a9c0",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 10,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 900,
+          "native_row_stride": 20,
+          "native_sha256": "422598094183164e442ba1ac8d5fd5768c8f9846a82cf461c531798f64d8d23e",
+          "logical_symbol_sha256": "da1802acc9008963c73a0515be005237d426e1e73d4cbdd47c0f17c8d8684c70",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 11,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 736,
+          "native_row_stride": 16,
+          "native_sha256": "d1af7ae989862bb1a897209bfb7350e1da48e8d2a8e391384d4323ab18d89fd5",
+          "logical_symbol_sha256": "d1af7ae989862bb1a897209bfb7350e1da48e8d2a8e391384d4323ab18d89fd5",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [
+            [
+              736,
+              1
+            ]
+          ],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 12,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 480,
+          "native_row_stride": 12,
+          "native_sha256": "5ace5fd33be19165517dc2f0aaa06d5b44081493ab4bfa4565798ffff894cd74",
+          "logical_symbol_sha256": "6f89aca30121df7627e5803f6545f3c3de2740cfa280f014213304bded87f003",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 13,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 400,
+          "native_row_stride": 10,
+          "native_sha256": "4147c3518c2b1f7332e25aff25a960a3ebd1b48d2df32349a62ba321eeba38c4",
+          "logical_symbol_sha256": "59f5de1defb03a5090da6fa77818e35d9362268da18843deebacaa14792531d6",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 14,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 492,
+          "native_row_stride": 12,
+          "native_sha256": "5e0db6f88f16a8ff07e1e6bacccd4cc4f3025d813f1ee3c55da3d5e5cba9ce3d",
+          "logical_symbol_sha256": "5e0db6f88f16a8ff07e1e6bacccd4cc4f3025d813f1ee3c55da3d5e5cba9ce3d",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [
+            [
+              492,
+              1
+            ]
+          ],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 15,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 320,
+          "native_row_stride": 8,
+          "native_sha256": "ca2b0fadec42edca01ffe1697e5f9bef5dbcfe24b3ea467dcd4f581ce1f50a24",
+          "logical_symbol_sha256": "ca2b0fadec42edca01ffe1697e5f9bef5dbcfe24b3ea467dcd4f581ce1f50a24",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [
+            [
+              320,
+              1
+            ]
+          ],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 16,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 444,
+          "native_row_stride": 12,
+          "native_sha256": "1b14b7e2fa352b900a46e865037697f6c3145429fddd429cfec4cfd5770c2dc7",
+          "logical_symbol_sha256": "acc923351e6066aff8ff6e426bd96829fee589b52c60945d41251fef8f32f986",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 17,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 518,
+          "native_row_stride": 14,
+          "native_sha256": "c0a63c712c34c76142f455efd2caa17176701ae9d2c47bde6e61b9e7b60a5579",
+          "logical_symbol_sha256": "6c9efeefc97a4859c3714ec37ecca44adebf7df0fb020d858cdaa8cb74c8e5f2",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 18,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 444,
+          "native_row_stride": 12,
+          "native_sha256": "a89247c166c5da3a758f14e8a4c671981f95120fd9c4c8bc086e4480187156a6",
+          "logical_symbol_sha256": "b6da08deaa94b617d3e22370505a8d35fe7ad16ac9013abaf0b1e44ff56d7b8a",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 19,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 380,
+          "native_row_stride": 10,
+          "native_sha256": "283895cc491f9c6eac2b4e3012d9c4505ae3d7ef10eac84c736254d6e3de2121",
+          "logical_symbol_sha256": "283895cc491f9c6eac2b4e3012d9c4505ae3d7ef10eac84c736254d6e3de2121",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [
+            [
+              380,
+              1
+            ]
+          ],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 20,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 420,
+          "native_row_stride": 12,
+          "native_sha256": "016d38a91711eed2e8632817e632853f78e29669cc7064fc0fd36987d45883a1",
+          "logical_symbol_sha256": "016d38a91711eed2e8632817e632853f78e29669cc7064fc0fd36987d45883a1",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [
+            [
+              420,
+              1
+            ]
+          ],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 21,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 518,
+          "native_row_stride": 14,
+          "native_sha256": "3b40473efaa446706a7ca2ecc2b3ce41b6ba2111abae3d181dfbac01170897d6",
+          "logical_symbol_sha256": "4e0385513c2a94e0743b6ed32b7d1ad9c8d3d32d64b860d6714f83b3bf6c87f8",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 22,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 432,
+          "native_row_stride": 12,
+          "native_sha256": "a32c577980781ccb11962880cb2fd056b86272da27dcf989410425606fda3ecb",
+          "logical_symbol_sha256": "0019b333c8c595d7499a03dc36a413d662d478c135c7b096984c74bf1d787f63",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 23,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 444,
+          "native_row_stride": 12,
+          "native_sha256": "3e58ef8de35a4b440f5ab0fcc1c5968b9a15799b224d9ed2e18028227081df40",
+          "logical_symbol_sha256": "18495d58b527df313a883e15d1122c9feaa993cd0736f0fc3470af55f5cfdcbc",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 24,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 576,
+          "native_row_stride": 12,
+          "native_sha256": "e793b0441813d071f0b58c52f6838ad9e29d640f60327995288b67776f1ac8d8",
+          "logical_symbol_sha256": "e793b0441813d071f0b58c52f6838ad9e29d640f60327995288b67776f1ac8d8",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [
+            [
+              576,
+              1
+            ]
+          ],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 25,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 564,
+          "native_row_stride": 12,
+          "native_sha256": "063bb8f42b6125190155cc40ef2a478bfafacaa0aefc8cac2ca898062bf41a5d",
+          "logical_symbol_sha256": "063bb8f42b6125190155cc40ef2a478bfafacaa0aefc8cac2ca898062bf41a5d",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [
+            [
+              564,
+              1
+            ]
+          ],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 26,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 440,
+          "native_row_stride": 10,
+          "native_sha256": "dcefcf02f3211009f4c10c4982d9bc85d3fbc64f4d72b3eac90c52a55ee327c2",
+          "logical_symbol_sha256": "dcefcf02f3211009f4c10c4982d9bc85d3fbc64f4d72b3eac90c52a55ee327c2",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [
+            [
+              440,
+              1
+            ]
+          ],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 27,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 602,
+          "native_row_stride": 14,
+          "native_sha256": "ad057edf489eac524333641df20e936b7f12d8cc6812263d8d9d1c0841febe83",
+          "logical_symbol_sha256": "ad057edf489eac524333641df20e936b7f12d8cc6812263d8d9d1c0841febe83",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [
+            [
+              602,
+              1
+            ]
+          ],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 28,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 602,
+          "native_row_stride": 14,
+          "native_sha256": "a7675e1dcb4006366339a3b9bebe35d219a2d424d4a9e2e41d7b75f0878d19f5",
+          "logical_symbol_sha256": "b05e118421a7c252c0cb491a8d12e0c7e10c6b2218056ceeb417d9c742f22d45",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 29,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 602,
+          "native_row_stride": 14,
+          "native_sha256": "6a5cde263d4adea2bff4b0d0c7546ca713e0607270de040000bca37fc78ceee1",
+          "logical_symbol_sha256": "6a5cde263d4adea2bff4b0d0c7546ca713e0607270de040000bca37fc78ceee1",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [
+            [
+              602,
+              1
+            ]
+          ],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 30,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 528,
+          "native_row_stride": 12,
+          "native_sha256": "b3a37af6b763261c3fd5c8ad4482b0b32efe414a55586d207c625bad0225b8ce",
+          "logical_symbol_sha256": "b3a37af6b763261c3fd5c8ad4482b0b32efe414a55586d207c625bad0225b8ce",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [
+            [
+              528,
+              1
+            ]
+          ],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 31,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 564,
+          "native_row_stride": 12,
+          "native_sha256": "9dc5e92adae776444c3a9b2af672575054e64042f9cf181c90a0938a4b0c7e2f",
+          "logical_symbol_sha256": "f86cbbca7385c620ef2d669131d55540fb2620c3e9b29ad311ae29130f3f3d3e",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 32,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 740,
+          "native_row_stride": 20,
+          "native_sha256": "4342693c73fa3f9ef410931abda5869e73ba094cb4df051fcfa1a7741509c9e3",
+          "logical_symbol_sha256": "c4b59cd0585c7b946088c9190f15b32490378b3f81b360c84be10a064ea2ab2f",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 33,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 592,
+          "native_row_stride": 16,
+          "native_sha256": "aadeb0484d30e26ea8c4b720655596f5fcd803bfa75017813d05f898e2f6ba80",
+          "logical_symbol_sha256": "aadeb0484d30e26ea8c4b720655596f5fcd803bfa75017813d05f898e2f6ba80",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [
+            [
+              592,
+              1
+            ]
+          ],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 34,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 780,
+          "native_row_stride": 20,
+          "native_sha256": "4553f1367ea0bb6f5b0e6ed9ce270cc895d8d2431eb0501c6fe35ec9d5be0351",
+          "logical_symbol_sha256": "b2096a91bd5b276383bd83f8890160202ab112afa1bf4f55ec55a24ebaddecba",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 35,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 518,
+          "native_row_stride": 14,
+          "native_sha256": "63dd2375297368074bad5b775d3cbb06766a91705eb11e1d60dc50bdf508b215",
+          "logical_symbol_sha256": "9c03a211d279de3ade49d7a477e386fa3def0f9d5101f9be53fe980501fbed40",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 36,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 640,
+          "native_row_stride": 16,
+          "native_sha256": "a1485ec484794311e99d3bd08d1f38ef9b4614789b80b4ae2ee2072190c06cc5",
+          "logical_symbol_sha256": "a1485ec484794311e99d3bd08d1f38ef9b4614789b80b4ae2ee2072190c06cc5",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [
+            [
+              640,
+              1
+            ]
+          ],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 37,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 640,
+          "native_row_stride": 16,
+          "native_sha256": "f2882eeb440fc40c018936eaa5d1d41895d6e0b9cbbdb10e19ee199f4d8fa3cd",
+          "logical_symbol_sha256": "f2882eeb440fc40c018936eaa5d1d41895d6e0b9cbbdb10e19ee199f4d8fa3cd",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [
+            [
+              640,
+              1
+            ]
+          ],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 38,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 560,
+          "native_row_stride": 14,
+          "native_sha256": "70b962aa909984e13e8bd89377cf76f732a9d18f545a8cfc851ed9e139df79d5",
+          "logical_symbol_sha256": "32769ac501027bb745d87acca5c24ed6d2cc3305fdafc5004eea88a289eae6bc",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 39,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 420,
+          "native_row_stride": 12,
+          "native_sha256": "29cd9c50f89ab765bed8774ea9bfe73ab8df902dff7a311fb5a3f00205ea3b26",
+          "logical_symbol_sha256": "29cd9c50f89ab765bed8774ea9bfe73ab8df902dff7a311fb5a3f00205ea3b26",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [
+            [
+              420,
+              1
+            ]
+          ],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 40,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 576,
+          "native_row_stride": 16,
+          "native_sha256": "742cf3224d96e48fd5dfed84d89b12665488e58783b819afc6a6ece6499d77e5",
+          "logical_symbol_sha256": "de9c44dc07d20e0d5398deab49cb7f3042bfe69e89809c7d57a136d96dba893a",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 41,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 432,
+          "native_row_stride": 12,
+          "native_sha256": "74a7efc8df4b68930cf048411361d1a60db8157d0884bd1e67fbf77bf06e2d60",
+          "logical_symbol_sha256": "e61cf3cf2afc917e060afe814530eba7291b49f0c766fc0b35d58b3e80c11ed8",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 42,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 432,
+          "native_row_stride": 12,
+          "native_sha256": "a5d5440e375e758b3d725e5556eeca522ba01259fcb3b6f1af194e73e695417d",
+          "logical_symbol_sha256": "78db90ec9df66b70d03834e2b286fa3cd387a871c5c0f4f84278f150163ab2d8",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 43,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 490,
+          "native_row_stride": 14,
+          "native_sha256": "c29b0c6f8843c4770a362de232cbde854cc695a18b046f2b05f9ae4afce06f28",
+          "logical_symbol_sha256": "139e22cfe3e1430561f64dfb558d86c315ef6e4d8f6301bce957f96f1b0907aa",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 44,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 490,
+          "native_row_stride": 14,
+          "native_sha256": "239a62d93163454b5984e62db4e4798824af21dcbc88c2feef299a87fb2cb383",
+          "logical_symbol_sha256": "fad022fdc4f53f3c4ad52c53ec042c0f12b65ef7f5641f5fd3740f58248498ff",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 45,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 432,
+          "native_row_stride": 12,
+          "native_sha256": "4e965cd706440b3d28b7c19fb6988ef78cf19be04320ee679834a91099e45d17",
+          "logical_symbol_sha256": "a1dfb4d0f7b1f48e27c725b611527992eac662bbe860544a1ebc54c849cdf9dd",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 46,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 432,
+          "native_row_stride": 12,
+          "native_sha256": "981056fd1ec44ea800361a306f7ce0e06e9a928aa784c0e6ee0d734d6df640d9",
+          "logical_symbol_sha256": "981056fd1ec44ea800361a306f7ce0e06e9a928aa784c0e6ee0d734d6df640d9",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [
+            [
+              432,
+              1
+            ]
+          ],
+          "outer_guards_preserved": true
+        }
+      ],
+      "vertical_XOR_proof": {
+        "classification": "Original native2D13 XOR/state execution; E282 explicitly substituted with independently verified row contracts",
+        "native_primary": "ev_922ab51b6e0a76b5280b051be12e2aff62baedf44c0f4ee11b5863a58433ddec",
+        "native_program_sha256": "7683265960ec7a557551494a87b5e08ac662ded412f6b736147934a2a6eca26c",
+        "frames": 47,
+        "initial_index": 17,
+        "final_index": 64,
+        "initial_pointer": [
+          8192,
+          24576
+        ],
+        "final_pointer": [
+          34384,
+          24576
+        ],
+        "descriptor_sha256": "5ea8d5c5d1a2a2425f5da7e8f71a1167bd4fc59888d1d2e5adc7fdde635ab806",
+        "output_sha256": "52e84db1f6de0b5f05c01837303523195414088de3989c7220d7528aac1f86c5",
+        "output_bytes": 26192,
+        "native_XOR_byte_writes": 25548,
+        "native_XOR_source_byte_reads": 25548,
+        "complete_source_read_footprint_exact": true,
+        "expected_XOR_byte_writes": 25548,
+        "complete_XOR_write_footprint_exact": true,
+        "native_write_instructions": 128783,
+        "substituted_calls": [
+          {
+            "index": 0,
+            "args": {
+              "offset": 8192,
+              "segment": 24576,
+              "count": 460,
+              "width": 10,
+              "high_count": 0
+            },
+            "strided_sha256": "ab4a603390ae798a775285e42a317bac83d2388ef8616445f9281445eda84f9b",
+            "extent": 460,
+            "transient_write": true
+          },
+          {
+            "index": 1,
+            "args": {
+              "offset": 8652,
+              "segment": 24576,
+              "count": 480,
+              "width": 10,
+              "high_count": 0
+            },
+            "strided_sha256": "8778b79a429219b3620650f266d09a12722dd5c2a7dc22303a6a04c85662082f",
+            "extent": 480,
+            "transient_write": true
+          },
+          {
+            "index": 2,
+            "args": {
+              "offset": 9132,
+              "segment": 24576,
+              "count": 432,
+              "width": 9,
+              "high_count": 0
+            },
+            "strided_sha256": "1d83d4afb397b6347739e618051100491d82b086658f90eae5f2c7fccf479d0c",
+            "extent": 480,
+            "transient_write": false
+          },
+          {
+            "index": 3,
+            "args": {
+              "offset": 9612,
+              "segment": 24576,
+              "count": 460,
+              "width": 10,
+              "high_count": 0
+            },
+            "strided_sha256": "5ee753b05a5a4ce5f2043589c373d814281cca15f8d96b477b933eaf279b4d99",
+            "extent": 460,
+            "transient_write": true
+          },
+          {
+            "index": 4,
+            "args": {
+              "offset": 10072,
+              "segment": 24576,
+              "count": 782,
+              "width": 17,
+              "high_count": 0
+            },
+            "strided_sha256": "a8900a4e2c7b4713dd963e9ea021ffa6f98e1c9e75bad4e18fe59de1871fa804",
+            "extent": 828,
+            "transient_write": false
+          },
+          {
+            "index": 5,
+            "args": {
+              "offset": 10900,
+              "segment": 24576,
+              "count": 736,
+              "width": 16,
+              "high_count": 0
+            },
+            "strided_sha256": "6728e2e2ebd99f8956e649c932bb9c50640f73e457323af58f84587a3ea3df23",
+            "extent": 736,
+            "transient_write": true
+          },
+          {
+            "index": 6,
+            "args": {
+              "offset": 11636,
+              "segment": 24576,
+              "count": 900,
+              "width": 20,
+              "high_count": 0
+            },
+            "strided_sha256": "3032ddd05e8965d528d534d4424de7fc924adabd80d3d5bdf49d37a8ce0338ba",
+            "extent": 900,
+            "transient_write": true
+          },
+          {
+            "index": 7,
+            "args": {
+              "offset": 12536,
+              "segment": 24576,
+              "count": 714,
+              "width": 17,
+              "high_count": 0
+            },
+            "strided_sha256": "1259b479945653d39a9a22b29103b87637d718afded3d16f9769cc17663fe9de",
+            "extent": 756,
+            "transient_write": false
+          },
+          {
+            "index": 8,
+            "args": {
+              "offset": 13292,
+              "segment": 24576,
+              "count": 756,
+              "width": 18,
+              "high_count": 0
+            },
+            "strided_sha256": "8305581d29d6a2171429ad6ca274b00cf01f0d7d729be50d7d52cbffdf466922",
+            "extent": 756,
+            "transient_write": true
+          },
+          {
+            "index": 9,
+            "args": {
+              "offset": 14048,
+              "segment": 24576,
+              "count": 714,
+              "width": 17,
+              "high_count": 0
+            },
+            "strided_sha256": "c04790f0182fb57d02cd5447adbeeb0fdbd21040e8015329b4520c3f447edb7c",
+            "extent": 756,
+            "transient_write": false
+          },
+          {
+            "index": 10,
+            "args": {
+              "offset": 14804,
+              "segment": 24576,
+              "count": 855,
+              "width": 19,
+              "high_count": 0
+            },
+            "strided_sha256": "422598094183164e442ba1ac8d5fd5768c8f9846a82cf461c531798f64d8d23e",
+            "extent": 900,
+            "transient_write": false
+          },
+          {
+            "index": 11,
+            "args": {
+              "offset": 15704,
+              "segment": 24576,
+              "count": 736,
+              "width": 16,
+              "high_count": 0
+            },
+            "strided_sha256": "d1af7ae989862bb1a897209bfb7350e1da48e8d2a8e391384d4323ab18d89fd5",
+            "extent": 736,
+            "transient_write": true
+          },
+          {
+            "index": 12,
+            "args": {
+              "offset": 16440,
+              "segment": 24576,
+              "count": 440,
+              "width": 11,
+              "high_count": 0
+            },
+            "strided_sha256": "5ace5fd33be19165517dc2f0aaa06d5b44081493ab4bfa4565798ffff894cd74",
+            "extent": 480,
+            "transient_write": false
+          },
+          {
+            "index": 13,
+            "args": {
+              "offset": 16920,
+              "segment": 24576,
+              "count": 360,
+              "width": 9,
+              "high_count": 0
+            },
+            "strided_sha256": "4147c3518c2b1f7332e25aff25a960a3ebd1b48d2df32349a62ba321eeba38c4",
+            "extent": 400,
+            "transient_write": false
+          },
+          {
+            "index": 14,
+            "args": {
+              "offset": 17320,
+              "segment": 24576,
+              "count": 492,
+              "width": 12,
+              "high_count": 0
+            },
+            "strided_sha256": "5e0db6f88f16a8ff07e1e6bacccd4cc4f3025d813f1ee3c55da3d5e5cba9ce3d",
+            "extent": 492,
+            "transient_write": true
+          },
+          {
+            "index": 15,
+            "args": {
+              "offset": 17812,
+              "segment": 24576,
+              "count": 320,
+              "width": 8,
+              "high_count": 0
+            },
+            "strided_sha256": "ca2b0fadec42edca01ffe1697e5f9bef5dbcfe24b3ea467dcd4f581ce1f50a24",
+            "extent": 320,
+            "transient_write": true
+          },
+          {
+            "index": 16,
+            "args": {
+              "offset": 18132,
+              "segment": 24576,
+              "count": 407,
+              "width": 11,
+              "high_count": 0
+            },
+            "strided_sha256": "1b14b7e2fa352b900a46e865037697f6c3145429fddd429cfec4cfd5770c2dc7",
+            "extent": 444,
+            "transient_write": false
+          },
+          {
+            "index": 17,
+            "args": {
+              "offset": 18576,
+              "segment": 24576,
+              "count": 481,
+              "width": 13,
+              "high_count": 0
+            },
+            "strided_sha256": "c0a63c712c34c76142f455efd2caa17176701ae9d2c47bde6e61b9e7b60a5579",
+            "extent": 518,
+            "transient_write": false
+          },
+          {
+            "index": 18,
+            "args": {
+              "offset": 19094,
+              "segment": 24576,
+              "count": 407,
+              "width": 11,
+              "high_count": 0
+            },
+            "strided_sha256": "a89247c166c5da3a758f14e8a4c671981f95120fd9c4c8bc086e4480187156a6",
+            "extent": 444,
+            "transient_write": false
+          },
+          {
+            "index": 19,
+            "args": {
+              "offset": 19538,
+              "segment": 24576,
+              "count": 380,
+              "width": 10,
+              "high_count": 0
+            },
+            "strided_sha256": "283895cc491f9c6eac2b4e3012d9c4505ae3d7ef10eac84c736254d6e3de2121",
+            "extent": 380,
+            "transient_write": true
+          },
+          {
+            "index": 20,
+            "args": {
+              "offset": 19918,
+              "segment": 24576,
+              "count": 420,
+              "width": 12,
+              "high_count": 0
+            },
+            "strided_sha256": "016d38a91711eed2e8632817e632853f78e29669cc7064fc0fd36987d45883a1",
+            "extent": 420,
+            "transient_write": true
+          },
+          {
+            "index": 21,
+            "args": {
+              "offset": 20338,
+              "segment": 24576,
+              "count": 481,
+              "width": 13,
+              "high_count": 0
+            },
+            "strided_sha256": "3b40473efaa446706a7ca2ecc2b3ce41b6ba2111abae3d181dfbac01170897d6",
+            "extent": 518,
+            "transient_write": false
+          },
+          {
+            "index": 22,
+            "args": {
+              "offset": 20856,
+              "segment": 24576,
+              "count": 396,
+              "width": 11,
+              "high_count": 0
+            },
+            "strided_sha256": "a32c577980781ccb11962880cb2fd056b86272da27dcf989410425606fda3ecb",
+            "extent": 432,
+            "transient_write": false
+          },
+          {
+            "index": 23,
+            "args": {
+              "offset": 21288,
+              "segment": 24576,
+              "count": 407,
+              "width": 11,
+              "high_count": 0
+            },
+            "strided_sha256": "3e58ef8de35a4b440f5ab0fcc1c5968b9a15799b224d9ed2e18028227081df40",
+            "extent": 444,
+            "transient_write": false
+          },
+          {
+            "index": 24,
+            "args": {
+              "offset": 21732,
+              "segment": 24576,
+              "count": 576,
+              "width": 12,
+              "high_count": 0
+            },
+            "strided_sha256": "e793b0441813d071f0b58c52f6838ad9e29d640f60327995288b67776f1ac8d8",
+            "extent": 576,
+            "transient_write": true
+          },
+          {
+            "index": 25,
+            "args": {
+              "offset": 22308,
+              "segment": 24576,
+              "count": 564,
+              "width": 12,
+              "high_count": 0
+            },
+            "strided_sha256": "063bb8f42b6125190155cc40ef2a478bfafacaa0aefc8cac2ca898062bf41a5d",
+            "extent": 564,
+            "transient_write": true
+          },
+          {
+            "index": 26,
+            "args": {
+              "offset": 22872,
+              "segment": 24576,
+              "count": 440,
+              "width": 10,
+              "high_count": 0
+            },
+            "strided_sha256": "dcefcf02f3211009f4c10c4982d9bc85d3fbc64f4d72b3eac90c52a55ee327c2",
+            "extent": 440,
+            "transient_write": true
+          },
+          {
+            "index": 27,
+            "args": {
+              "offset": 23312,
+              "segment": 24576,
+              "count": 602,
+              "width": 14,
+              "high_count": 0
+            },
+            "strided_sha256": "ad057edf489eac524333641df20e936b7f12d8cc6812263d8d9d1c0841febe83",
+            "extent": 602,
+            "transient_write": true
+          },
+          {
+            "index": 28,
+            "args": {
+              "offset": 23914,
+              "segment": 24576,
+              "count": 559,
+              "width": 13,
+              "high_count": 0
+            },
+            "strided_sha256": "a7675e1dcb4006366339a3b9bebe35d219a2d424d4a9e2e41d7b75f0878d19f5",
+            "extent": 602,
+            "transient_write": false
+          },
+          {
+            "index": 29,
+            "args": {
+              "offset": 24516,
+              "segment": 24576,
+              "count": 602,
+              "width": 14,
+              "high_count": 0
+            },
+            "strided_sha256": "6a5cde263d4adea2bff4b0d0c7546ca713e0607270de040000bca37fc78ceee1",
+            "extent": 602,
+            "transient_write": true
+          },
+          {
+            "index": 30,
+            "args": {
+              "offset": 25118,
+              "segment": 24576,
+              "count": 528,
+              "width": 12,
+              "high_count": 0
+            },
+            "strided_sha256": "b3a37af6b763261c3fd5c8ad4482b0b32efe414a55586d207c625bad0225b8ce",
+            "extent": 528,
+            "transient_write": true
+          },
+          {
+            "index": 31,
+            "args": {
+              "offset": 25646,
+              "segment": 24576,
+              "count": 517,
+              "width": 11,
+              "high_count": 0
+            },
+            "strided_sha256": "9dc5e92adae776444c3a9b2af672575054e64042f9cf181c90a0938a4b0c7e2f",
+            "extent": 564,
+            "transient_write": false
+          },
+          {
+            "index": 32,
+            "args": {
+              "offset": 26210,
+              "segment": 24576,
+              "count": 703,
+              "width": 19,
+              "high_count": 0
+            },
+            "strided_sha256": "4342693c73fa3f9ef410931abda5869e73ba094cb4df051fcfa1a7741509c9e3",
+            "extent": 740,
+            "transient_write": false
+          },
+          {
+            "index": 33,
+            "args": {
+              "offset": 26950,
+              "segment": 24576,
+              "count": 592,
+              "width": 16,
+              "high_count": 0
+            },
+            "strided_sha256": "aadeb0484d30e26ea8c4b720655596f5fcd803bfa75017813d05f898e2f6ba80",
+            "extent": 592,
+            "transient_write": true
+          },
+          {
+            "index": 34,
+            "args": {
+              "offset": 27542,
+              "segment": 24576,
+              "count": 741,
+              "width": 19,
+              "high_count": 0
+            },
+            "strided_sha256": "4553f1367ea0bb6f5b0e6ed9ce270cc895d8d2431eb0501c6fe35ec9d5be0351",
+            "extent": 780,
+            "transient_write": false
+          },
+          {
+            "index": 35,
+            "args": {
+              "offset": 28322,
+              "segment": 24576,
+              "count": 481,
+              "width": 13,
+              "high_count": 0
+            },
+            "strided_sha256": "63dd2375297368074bad5b775d3cbb06766a91705eb11e1d60dc50bdf508b215",
+            "extent": 518,
+            "transient_write": false
+          },
+          {
+            "index": 36,
+            "args": {
+              "offset": 28840,
+              "segment": 24576,
+              "count": 640,
+              "width": 16,
+              "high_count": 0
+            },
+            "strided_sha256": "a1485ec484794311e99d3bd08d1f38ef9b4614789b80b4ae2ee2072190c06cc5",
+            "extent": 640,
+            "transient_write": true
+          },
+          {
+            "index": 37,
+            "args": {
+              "offset": 29480,
+              "segment": 24576,
+              "count": 640,
+              "width": 16,
+              "high_count": 0
+            },
+            "strided_sha256": "f2882eeb440fc40c018936eaa5d1d41895d6e0b9cbbdb10e19ee199f4d8fa3cd",
+            "extent": 640,
+            "transient_write": true
+          },
+          {
+            "index": 38,
+            "args": {
+              "offset": 30120,
+              "segment": 24576,
+              "count": 520,
+              "width": 13,
+              "high_count": 0
+            },
+            "strided_sha256": "70b962aa909984e13e8bd89377cf76f732a9d18f545a8cfc851ed9e139df79d5",
+            "extent": 560,
+            "transient_write": false
+          },
+          {
+            "index": 39,
+            "args": {
+              "offset": 30680,
+              "segment": 24576,
+              "count": 420,
+              "width": 12,
+              "high_count": 0
+            },
+            "strided_sha256": "29cd9c50f89ab765bed8774ea9bfe73ab8df902dff7a311fb5a3f00205ea3b26",
+            "extent": 420,
+            "transient_write": true
+          },
+          {
+            "index": 40,
+            "args": {
+              "offset": 31100,
+              "segment": 24576,
+              "count": 540,
+              "width": 15,
+              "high_count": 0
+            },
+            "strided_sha256": "742cf3224d96e48fd5dfed84d89b12665488e58783b819afc6a6ece6499d77e5",
+            "extent": 576,
+            "transient_write": false
+          },
+          {
+            "index": 41,
+            "args": {
+              "offset": 31676,
+              "segment": 24576,
+              "count": 396,
+              "width": 11,
+              "high_count": 0
+            },
+            "strided_sha256": "74a7efc8df4b68930cf048411361d1a60db8157d0884bd1e67fbf77bf06e2d60",
+            "extent": 432,
+            "transient_write": false
+          },
+          {
+            "index": 42,
+            "args": {
+              "offset": 32108,
+              "segment": 24576,
+              "count": 396,
+              "width": 11,
+              "high_count": 0
+            },
+            "strided_sha256": "a5d5440e375e758b3d725e5556eeca522ba01259fcb3b6f1af194e73e695417d",
+            "extent": 432,
+            "transient_write": false
+          },
+          {
+            "index": 43,
+            "args": {
+              "offset": 32540,
+              "segment": 24576,
+              "count": 455,
+              "width": 13,
+              "high_count": 0
+            },
+            "strided_sha256": "c29b0c6f8843c4770a362de232cbde854cc695a18b046f2b05f9ae4afce06f28",
+            "extent": 490,
+            "transient_write": false
+          },
+          {
+            "index": 44,
+            "args": {
+              "offset": 33030,
+              "segment": 24576,
+              "count": 455,
+              "width": 13,
+              "high_count": 0
+            },
+            "strided_sha256": "239a62d93163454b5984e62db4e4798824af21dcbc88c2feef299a87fb2cb383",
+            "extent": 490,
+            "transient_write": false
+          },
+          {
+            "index": 45,
+            "args": {
+              "offset": 33520,
+              "segment": 24576,
+              "count": 396,
+              "width": 11,
+              "high_count": 0
+            },
+            "strided_sha256": "4e965cd706440b3d28b7c19fb6988ef78cf19be04320ee679834a91099e45d17",
+            "extent": 432,
+            "transient_write": false
+          },
+          {
+            "index": 46,
+            "args": {
+              "offset": 33952,
+              "segment": 24576,
+              "count": 432,
+              "width": 12,
+              "high_count": 0
+            },
+            "strided_sha256": "981056fd1ec44ea800361a306f7ce0e06e9a928aa784c0e6ee0d734d6df640d9",
+            "extent": 432,
+            "transient_write": true
+          }
+        ],
+        "substituted_write_regions": [
+          {
+            "address": 401408,
+            "size": 460,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 401868,
+            "size": 1,
+            "kind": "substituted_E282_transient"
+          },
+          {
+            "address": 401868,
+            "size": 480,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 402348,
+            "size": 1,
+            "kind": "substituted_E282_transient"
+          },
+          {
+            "address": 402348,
+            "size": 480,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 402828,
+            "size": 460,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 403288,
+            "size": 1,
+            "kind": "substituted_E282_transient"
+          },
+          {
+            "address": 403288,
+            "size": 828,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 404116,
+            "size": 736,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 404852,
+            "size": 1,
+            "kind": "substituted_E282_transient"
+          },
+          {
+            "address": 404852,
+            "size": 900,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 405752,
+            "size": 1,
+            "kind": "substituted_E282_transient"
+          },
+          {
+            "address": 405752,
+            "size": 756,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 406508,
+            "size": 756,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 407264,
+            "size": 1,
+            "kind": "substituted_E282_transient"
+          },
+          {
+            "address": 407264,
+            "size": 756,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 408020,
+            "size": 900,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 408920,
+            "size": 736,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 409656,
+            "size": 1,
+            "kind": "substituted_E282_transient"
+          },
+          {
+            "address": 409656,
+            "size": 480,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 410136,
+            "size": 400,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 410536,
+            "size": 492,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 411028,
+            "size": 1,
+            "kind": "substituted_E282_transient"
+          },
+          {
+            "address": 411028,
+            "size": 320,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 411348,
+            "size": 1,
+            "kind": "substituted_E282_transient"
+          },
+          {
+            "address": 411348,
+            "size": 444,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 411792,
+            "size": 518,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 412310,
+            "size": 444,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 412754,
+            "size": 380,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 413134,
+            "size": 1,
+            "kind": "substituted_E282_transient"
+          },
+          {
+            "address": 413134,
+            "size": 420,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 413554,
+            "size": 1,
+            "kind": "substituted_E282_transient"
+          },
+          {
+            "address": 413554,
+            "size": 518,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 414072,
+            "size": 432,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 414504,
+            "size": 444,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 414948,
+            "size": 576,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 415524,
+            "size": 1,
+            "kind": "substituted_E282_transient"
+          },
+          {
+            "address": 415524,
+            "size": 564,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 416088,
+            "size": 1,
+            "kind": "substituted_E282_transient"
+          },
+          {
+            "address": 416088,
+            "size": 440,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 416528,
+            "size": 1,
+            "kind": "substituted_E282_transient"
+          },
+          {
+            "address": 416528,
+            "size": 602,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 417130,
+            "size": 1,
+            "kind": "substituted_E282_transient"
+          },
+          {
+            "address": 417130,
+            "size": 602,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 417732,
+            "size": 602,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 418334,
+            "size": 1,
+            "kind": "substituted_E282_transient"
+          },
+          {
+            "address": 418334,
+            "size": 528,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 418862,
+            "size": 1,
+            "kind": "substituted_E282_transient"
+          },
+          {
+            "address": 418862,
+            "size": 564,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 419426,
+            "size": 740,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 420166,
+            "size": 592,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 420758,
+            "size": 1,
+            "kind": "substituted_E282_transient"
+          },
+          {
+            "address": 420758,
+            "size": 780,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 421538,
+            "size": 518,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 422056,
+            "size": 640,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 422696,
+            "size": 1,
+            "kind": "substituted_E282_transient"
+          },
+          {
+            "address": 422696,
+            "size": 640,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 423336,
+            "size": 1,
+            "kind": "substituted_E282_transient"
+          },
+          {
+            "address": 423336,
+            "size": 560,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 423896,
+            "size": 420,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 424316,
+            "size": 1,
+            "kind": "substituted_E282_transient"
+          },
+          {
+            "address": 424316,
+            "size": 576,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 424892,
+            "size": 432,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 425324,
+            "size": 432,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 425756,
+            "size": 490,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 426246,
+            "size": 490,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 426736,
+            "size": 432,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 427168,
+            "size": 432,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 427600,
+            "size": 1,
+            "kind": "substituted_E282_transient"
+          }
+        ],
+        "outer_guards_preserved": true,
+        "stack_registers_preserved": true,
+        "Huffman_decoder_executed": false,
+        "EOF_fallback": false
+      }
+    },
+    {
+      "setup": 1,
+      "row_proof": {
+        "classification": "Matched native E282 row padding and return-pointer validation; no vertical XOR, palette, alpha or animation interpretation",
+        "input_sha256": "aa50ef9fb55e5271526e25ccc6e60b2908f00440c3f33380d13d27ecd4cbc564",
+        "input_start": 10361,
+        "logical_symbol_bytes": 3405,
+        "nonempty_frame_calls": 17,
+        "empty_records_not_executed": 0,
+        "source_pins": {
+          "matching/asm/huff_frame_decode_entry.asm": "1a8f4118a424b95d5e4fe51bcf8224780e7931c37346946c202710dfbcc5adcc",
+          "matching/asm/huff_tree_build_recursive.asm": "6ee793fb15f7d877b8fd6879930b49b53ed8c14812da563ea053c23d2a2359c0",
+          "matching/asm/huff_read_byte.asm": "ffeb00d460e95ee54a48abffbc8c584797bfc8e4d5d3294d5094b8aed44cffad",
+          "matching/asm/huff_get_bit.asm": "398941802582fbc03aaac9bb0c3a4abeb8a61700c7d62c3f7b537940cc12df2b",
+          "matching/asm/huff_build_lookup.asm": "55143488f6d3e2e7ae91957c4594c50acba9a30c6746719bd7b5739495d8626d",
+          "matching/asm/huff_decode_bytes.asm": "9ea8de2c0d50a55caeb73a34a610bb6c09e1036e4d983c9e5d8071b9c78b2227",
+          "matching/asm/huff_decode_stream.asm": "495995e31d28f71614255b052dd31ad4627ade7b267d5419048c8bb1f396e572",
+          "matching/asm/huff_window_save.asm": "0230bac9d7102c570ee8f7055cf010dde9dac07142efee6a1b04ef5c9117aa9f",
+          "matching/asm/huff_window_init.asm": "3a34aaa486c351a781978b2d97bb9ae238f40bd678ed724ab8daae75c9f1603a"
+        },
+        "whole_assembled_sha256": "e1e9a7e761149756cabdac4b18c481c97ec6d0108221f4f945cf966e28ad9a44",
+        "EOF_zero_or_stale_fill": false
+      },
+      "frames": [
+        {
+          "index": 0,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 180,
+          "native_row_stride": 12,
+          "native_sha256": "4f9a8a2b58c415c43c6ad054d772402cd164e14cb7f756e423c79fbd5af90c7d",
+          "logical_symbol_sha256": "4f9a8a2b58c415c43c6ad054d772402cd164e14cb7f756e423c79fbd5af90c7d",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [
+            [
+              180,
+              1
+            ]
+          ],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 1,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 192,
+          "native_row_stride": 16,
+          "native_sha256": "41cf12556c30befb95f80c19866b7f074500994b09fe2f0b9c29ddc90eb633e2",
+          "logical_symbol_sha256": "41cf12556c30befb95f80c19866b7f074500994b09fe2f0b9c29ddc90eb633e2",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [
+            [
+              192,
+              1
+            ]
+          ],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 2,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 180,
+          "native_row_stride": 12,
+          "native_sha256": "e58e27faac9670fdc7dfd2ecb17a449818fc49d09eb24a634afcff6788502e13",
+          "logical_symbol_sha256": "e58e27faac9670fdc7dfd2ecb17a449818fc49d09eb24a634afcff6788502e13",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [
+            [
+              180,
+              1
+            ]
+          ],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 3,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 192,
+          "native_row_stride": 16,
+          "native_sha256": "5717ed90748fa65dc44f77952aeae4d3a45cc18801156a0e18687d60b358324e",
+          "logical_symbol_sha256": "5717ed90748fa65dc44f77952aeae4d3a45cc18801156a0e18687d60b358324e",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [
+            [
+              192,
+              1
+            ]
+          ],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 4,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 112,
+          "native_row_stride": 8,
+          "native_sha256": "5207f098dbdf25ed83037e2b626a139d0235fa1b0b03a2a96b6412301a54430f",
+          "logical_symbol_sha256": "5207f098dbdf25ed83037e2b626a139d0235fa1b0b03a2a96b6412301a54430f",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [
+            [
+              112,
+              1
+            ]
+          ],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 5,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 276,
+          "native_row_stride": 12,
+          "native_sha256": "7545d43cdb4f1cfee09f73643237e2cfc95934ec254bfd52f2d758205c5e6bb4",
+          "logical_symbol_sha256": "7545d43cdb4f1cfee09f73643237e2cfc95934ec254bfd52f2d758205c5e6bb4",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [
+            [
+              276,
+              1
+            ]
+          ],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 6,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 184,
+          "native_row_stride": 8,
+          "native_sha256": "aae7b780a465273f39e741fa0a356cf69f67a3978e4d7e5eaf0038588ec4c61c",
+          "logical_symbol_sha256": "aae7b780a465273f39e741fa0a356cf69f67a3978e4d7e5eaf0038588ec4c61c",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [
+            [
+              184,
+              1
+            ]
+          ],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 7,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 322,
+          "native_row_stride": 14,
+          "native_sha256": "1f06dcbc6f654925a5a18876ca08432e374fb4e87a66336088c47fe3b0c6dac4",
+          "logical_symbol_sha256": "1858cf4f501b8df1380aaa19a0ef4301ea4f2fa72004c789ffa71e1c88ba884e",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 8,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 64,
+          "native_row_stride": 8,
+          "native_sha256": "c4fa837926c206cb5aabc8dd391666605e091a81f5359b231fe313e71a5c3f49",
+          "logical_symbol_sha256": "c4fa837926c206cb5aabc8dd391666605e091a81f5359b231fe313e71a5c3f49",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [
+            [
+              64,
+              1
+            ]
+          ],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 9,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 64,
+          "native_row_stride": 8,
+          "native_sha256": "46f92c90c8df7f7e30343f330da097cdbfff06ceff60cd54be757456f80f797f",
+          "logical_symbol_sha256": "46f92c90c8df7f7e30343f330da097cdbfff06ceff60cd54be757456f80f797f",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [
+            [
+              64,
+              1
+            ]
+          ],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 10,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 80,
+          "native_row_stride": 10,
+          "native_sha256": "2148098254b5406c4510e3643ff584c0a459c4ae73eebfe8d02a04313de4bdd5",
+          "logical_symbol_sha256": "a18339d85b2583c5fc1cf58ef765ee87446280941b97031b012593be476f310d",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 11,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 484,
+          "native_row_stride": 22,
+          "native_sha256": "418f02f4ecec83285bf04b6bab6b215705431ba729750cfbaaa7b359f3de17be",
+          "logical_symbol_sha256": "ce0086d0f0a3ca7fdfe164580d429852d05fe7460a1ac35d9f0d05e0c9cd6602",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 12,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 112,
+          "native_row_stride": 8,
+          "native_sha256": "70f038628d647f0c81f988ac3b2075a3ecc26c1c2657e0157419bfbcfc2b49af",
+          "logical_symbol_sha256": "70f038628d647f0c81f988ac3b2075a3ecc26c1c2657e0157419bfbcfc2b49af",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [
+            [
+              112,
+              1
+            ]
+          ],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 13,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 80,
+          "native_row_stride": 8,
+          "native_sha256": "2acd998da7bcc0a0be3f25f824f0719754239d1e6125e4facaf0f768a4056e6b",
+          "logical_symbol_sha256": "2acd998da7bcc0a0be3f25f824f0719754239d1e6125e4facaf0f768a4056e6b",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [
+            [
+              80,
+              1
+            ]
+          ],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 14,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 440,
+          "native_row_stride": 20,
+          "native_sha256": "f9f870a3af4eecc8068ac4d108723d6e77d587c251df22b82551b788e3e1c12d",
+          "logical_symbol_sha256": "f9f870a3af4eecc8068ac4d108723d6e77d587c251df22b82551b788e3e1c12d",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [
+            [
+              440,
+              1
+            ]
+          ],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 15,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 256,
+          "native_row_stride": 16,
+          "native_sha256": "bd77d2983d2ffd43838789fb3a6d430605cd62aaeaf457d57ceb1a28566a92a8",
+          "logical_symbol_sha256": "704297ac058875e74ed5394c47300882b9f7cd383ab701ea92335c8e8b30d277",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 16,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 256,
+          "native_row_stride": 16,
+          "native_sha256": "18c621366298a9fbb6af076f7307a14c20b5789d381c55a392e08e31d4b2caf2",
+          "logical_symbol_sha256": "18c621366298a9fbb6af076f7307a14c20b5789d381c55a392e08e31d4b2caf2",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [
+            [
+              256,
+              1
+            ]
+          ],
+          "outer_guards_preserved": true
+        }
+      ],
+      "vertical_XOR_proof": {
+        "classification": "Original native2D13 XOR/state execution; E282 explicitly substituted with independently verified row contracts",
+        "native_primary": "ev_922ab51b6e0a76b5280b051be12e2aff62baedf44c0f4ee11b5863a58433ddec",
+        "native_program_sha256": "7683265960ec7a557551494a87b5e08ac662ded412f6b736147934a2a6eca26c",
+        "frames": 17,
+        "initial_index": 0,
+        "final_index": 17,
+        "initial_pointer": [
+          8192,
+          24576
+        ],
+        "final_pointer": [
+          11666,
+          24576
+        ],
+        "descriptor_sha256": "81e711ec357773ad3376d9c2be60fa547e6ff04ce7c82460c4ccf7cf5016e792",
+        "output_sha256": "384aefb6a965431bb49018b1e9070030dd5d3b5f5e3e5fbe4e0a5f158a6006e0",
+        "output_bytes": 3474,
+        "native_XOR_byte_writes": 3260,
+        "native_XOR_source_byte_reads": 3260,
+        "complete_source_read_footprint_exact": true,
+        "expected_XOR_byte_writes": 3260,
+        "complete_XOR_write_footprint_exact": true,
+        "native_write_instructions": 16683,
+        "substituted_calls": [
+          {
+            "index": 0,
+            "args": {
+              "offset": 8192,
+              "segment": 24576,
+              "count": 180,
+              "width": 12,
+              "high_count": 0
+            },
+            "strided_sha256": "4f9a8a2b58c415c43c6ad054d772402cd164e14cb7f756e423c79fbd5af90c7d",
+            "extent": 180,
+            "transient_write": true
+          },
+          {
+            "index": 1,
+            "args": {
+              "offset": 8372,
+              "segment": 24576,
+              "count": 192,
+              "width": 16,
+              "high_count": 0
+            },
+            "strided_sha256": "41cf12556c30befb95f80c19866b7f074500994b09fe2f0b9c29ddc90eb633e2",
+            "extent": 192,
+            "transient_write": true
+          },
+          {
+            "index": 2,
+            "args": {
+              "offset": 8564,
+              "segment": 24576,
+              "count": 180,
+              "width": 12,
+              "high_count": 0
+            },
+            "strided_sha256": "e58e27faac9670fdc7dfd2ecb17a449818fc49d09eb24a634afcff6788502e13",
+            "extent": 180,
+            "transient_write": true
+          },
+          {
+            "index": 3,
+            "args": {
+              "offset": 8744,
+              "segment": 24576,
+              "count": 192,
+              "width": 16,
+              "high_count": 0
+            },
+            "strided_sha256": "5717ed90748fa65dc44f77952aeae4d3a45cc18801156a0e18687d60b358324e",
+            "extent": 192,
+            "transient_write": true
+          },
+          {
+            "index": 4,
+            "args": {
+              "offset": 8936,
+              "segment": 24576,
+              "count": 112,
+              "width": 8,
+              "high_count": 0
+            },
+            "strided_sha256": "5207f098dbdf25ed83037e2b626a139d0235fa1b0b03a2a96b6412301a54430f",
+            "extent": 112,
+            "transient_write": true
+          },
+          {
+            "index": 5,
+            "args": {
+              "offset": 9048,
+              "segment": 24576,
+              "count": 276,
+              "width": 12,
+              "high_count": 0
+            },
+            "strided_sha256": "7545d43cdb4f1cfee09f73643237e2cfc95934ec254bfd52f2d758205c5e6bb4",
+            "extent": 276,
+            "transient_write": true
+          },
+          {
+            "index": 6,
+            "args": {
+              "offset": 9324,
+              "segment": 24576,
+              "count": 184,
+              "width": 8,
+              "high_count": 0
+            },
+            "strided_sha256": "aae7b780a465273f39e741fa0a356cf69f67a3978e4d7e5eaf0038588ec4c61c",
+            "extent": 184,
+            "transient_write": true
+          },
+          {
+            "index": 7,
+            "args": {
+              "offset": 9508,
+              "segment": 24576,
+              "count": 299,
+              "width": 13,
+              "high_count": 0
+            },
+            "strided_sha256": "1f06dcbc6f654925a5a18876ca08432e374fb4e87a66336088c47fe3b0c6dac4",
+            "extent": 322,
+            "transient_write": false
+          },
+          {
+            "index": 8,
+            "args": {
+              "offset": 9830,
+              "segment": 24576,
+              "count": 64,
+              "width": 8,
+              "high_count": 0
+            },
+            "strided_sha256": "c4fa837926c206cb5aabc8dd391666605e091a81f5359b231fe313e71a5c3f49",
+            "extent": 64,
+            "transient_write": true
+          },
+          {
+            "index": 9,
+            "args": {
+              "offset": 9894,
+              "segment": 24576,
+              "count": 64,
+              "width": 8,
+              "high_count": 0
+            },
+            "strided_sha256": "46f92c90c8df7f7e30343f330da097cdbfff06ceff60cd54be757456f80f797f",
+            "extent": 64,
+            "transient_write": true
+          },
+          {
+            "index": 10,
+            "args": {
+              "offset": 9958,
+              "segment": 24576,
+              "count": 72,
+              "width": 9,
+              "high_count": 0
+            },
+            "strided_sha256": "2148098254b5406c4510e3643ff584c0a459c4ae73eebfe8d02a04313de4bdd5",
+            "extent": 80,
+            "transient_write": false
+          },
+          {
+            "index": 11,
+            "args": {
+              "offset": 10038,
+              "segment": 24576,
+              "count": 462,
+              "width": 21,
+              "high_count": 0
+            },
+            "strided_sha256": "418f02f4ecec83285bf04b6bab6b215705431ba729750cfbaaa7b359f3de17be",
+            "extent": 484,
+            "transient_write": false
+          },
+          {
+            "index": 12,
+            "args": {
+              "offset": 10522,
+              "segment": 24576,
+              "count": 112,
+              "width": 8,
+              "high_count": 0
+            },
+            "strided_sha256": "70f038628d647f0c81f988ac3b2075a3ecc26c1c2657e0157419bfbcfc2b49af",
+            "extent": 112,
+            "transient_write": true
+          },
+          {
+            "index": 13,
+            "args": {
+              "offset": 10634,
+              "segment": 24576,
+              "count": 80,
+              "width": 8,
+              "high_count": 0
+            },
+            "strided_sha256": "2acd998da7bcc0a0be3f25f824f0719754239d1e6125e4facaf0f768a4056e6b",
+            "extent": 80,
+            "transient_write": true
+          },
+          {
+            "index": 14,
+            "args": {
+              "offset": 10714,
+              "segment": 24576,
+              "count": 440,
+              "width": 20,
+              "high_count": 0
+            },
+            "strided_sha256": "f9f870a3af4eecc8068ac4d108723d6e77d587c251df22b82551b788e3e1c12d",
+            "extent": 440,
+            "transient_write": true
+          },
+          {
+            "index": 15,
+            "args": {
+              "offset": 11154,
+              "segment": 24576,
+              "count": 240,
+              "width": 15,
+              "high_count": 0
+            },
+            "strided_sha256": "bd77d2983d2ffd43838789fb3a6d430605cd62aaeaf457d57ceb1a28566a92a8",
+            "extent": 256,
+            "transient_write": false
+          },
+          {
+            "index": 16,
+            "args": {
+              "offset": 11410,
+              "segment": 24576,
+              "count": 256,
+              "width": 16,
+              "high_count": 0
+            },
+            "strided_sha256": "18c621366298a9fbb6af076f7307a14c20b5789d381c55a392e08e31d4b2caf2",
+            "extent": 256,
+            "transient_write": true
+          }
+        ],
+        "substituted_write_regions": [
+          {
+            "address": 401408,
+            "size": 180,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 401588,
+            "size": 1,
+            "kind": "substituted_E282_transient"
+          },
+          {
+            "address": 401588,
+            "size": 192,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 401780,
+            "size": 1,
+            "kind": "substituted_E282_transient"
+          },
+          {
+            "address": 401780,
+            "size": 180,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 401960,
+            "size": 1,
+            "kind": "substituted_E282_transient"
+          },
+          {
+            "address": 401960,
+            "size": 192,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 402152,
+            "size": 1,
+            "kind": "substituted_E282_transient"
+          },
+          {
+            "address": 402152,
+            "size": 112,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 402264,
+            "size": 1,
+            "kind": "substituted_E282_transient"
+          },
+          {
+            "address": 402264,
+            "size": 276,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 402540,
+            "size": 1,
+            "kind": "substituted_E282_transient"
+          },
+          {
+            "address": 402540,
+            "size": 184,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 402724,
+            "size": 1,
+            "kind": "substituted_E282_transient"
+          },
+          {
+            "address": 402724,
+            "size": 322,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 403046,
+            "size": 64,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 403110,
+            "size": 1,
+            "kind": "substituted_E282_transient"
+          },
+          {
+            "address": 403110,
+            "size": 64,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 403174,
+            "size": 1,
+            "kind": "substituted_E282_transient"
+          },
+          {
+            "address": 403174,
+            "size": 80,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 403254,
+            "size": 484,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 403738,
+            "size": 112,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 403850,
+            "size": 1,
+            "kind": "substituted_E282_transient"
+          },
+          {
+            "address": 403850,
+            "size": 80,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 403930,
+            "size": 1,
+            "kind": "substituted_E282_transient"
+          },
+          {
+            "address": 403930,
+            "size": 440,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 404370,
+            "size": 1,
+            "kind": "substituted_E282_transient"
+          },
+          {
+            "address": 404370,
+            "size": 256,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 404626,
+            "size": 256,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 404882,
+            "size": 1,
+            "kind": "substituted_E282_transient"
+          }
+        ],
+        "outer_guards_preserved": true,
+        "stack_registers_preserved": true,
+        "Huffman_decoder_executed": false,
+        "EOF_fallback": false
+      }
+    },
+    {
+      "setup": 2,
+      "row_proof": {
+        "classification": "Matched native E282 row padding and return-pointer validation; no vertical XOR, palette, alpha or animation interpretation",
+        "input_sha256": "aa50ef9fb55e5271526e25ccc6e60b2908f00440c3f33380d13d27ecd4cbc564",
+        "input_start": 11816,
+        "logical_symbol_bytes": 1024,
+        "nonempty_frame_calls": 6,
+        "empty_records_not_executed": 0,
+        "source_pins": {
+          "matching/asm/huff_frame_decode_entry.asm": "1a8f4118a424b95d5e4fe51bcf8224780e7931c37346946c202710dfbcc5adcc",
+          "matching/asm/huff_tree_build_recursive.asm": "6ee793fb15f7d877b8fd6879930b49b53ed8c14812da563ea053c23d2a2359c0",
+          "matching/asm/huff_read_byte.asm": "ffeb00d460e95ee54a48abffbc8c584797bfc8e4d5d3294d5094b8aed44cffad",
+          "matching/asm/huff_get_bit.asm": "398941802582fbc03aaac9bb0c3a4abeb8a61700c7d62c3f7b537940cc12df2b",
+          "matching/asm/huff_build_lookup.asm": "55143488f6d3e2e7ae91957c4594c50acba9a30c6746719bd7b5739495d8626d",
+          "matching/asm/huff_decode_bytes.asm": "9ea8de2c0d50a55caeb73a34a610bb6c09e1036e4d983c9e5d8071b9c78b2227",
+          "matching/asm/huff_decode_stream.asm": "495995e31d28f71614255b052dd31ad4627ade7b267d5419048c8bb1f396e572",
+          "matching/asm/huff_window_save.asm": "0230bac9d7102c570ee8f7055cf010dde9dac07142efee6a1b04ef5c9117aa9f",
+          "matching/asm/huff_window_init.asm": "3a34aaa486c351a781978b2d97bb9ae238f40bd678ed724ab8daae75c9f1603a"
+        },
+        "whole_assembled_sha256": "e1e9a7e761149756cabdac4b18c481c97ec6d0108221f4f945cf966e28ad9a44",
+        "EOF_zero_or_stale_fill": false
+      },
+      "frames": [
+        {
+          "index": 0,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 176,
+          "native_row_stride": 8,
+          "native_sha256": "0a8ec24f9bf4dd5d495817490e45cd1c490516ab62d25f6a30abdc899f1230d1",
+          "logical_symbol_sha256": "0a8ec24f9bf4dd5d495817490e45cd1c490516ab62d25f6a30abdc899f1230d1",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [
+            [
+              176,
+              1
+            ]
+          ],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 1,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 184,
+          "native_row_stride": 8,
+          "native_sha256": "e52f3696b38d890afc2b0cd3b03e3bea7e9a954a66f4ad2b83ae524cb32758c7",
+          "logical_symbol_sha256": "e52f3696b38d890afc2b0cd3b03e3bea7e9a954a66f4ad2b83ae524cb32758c7",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [
+            [
+              184,
+              1
+            ]
+          ],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 2,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 184,
+          "native_row_stride": 8,
+          "native_sha256": "494a796ad9d7b6b8f649338352d1925d2393d97369010798fb6677c7aebbe866",
+          "logical_symbol_sha256": "494a796ad9d7b6b8f649338352d1925d2393d97369010798fb6677c7aebbe866",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [
+            [
+              184,
+              1
+            ]
+          ],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 3,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 152,
+          "native_row_stride": 8,
+          "native_sha256": "42af7f7ef87d6afb922a86fe96cc853ef59454a16d537a5b81633a6f8f21bc92",
+          "logical_symbol_sha256": "42af7f7ef87d6afb922a86fe96cc853ef59454a16d537a5b81633a6f8f21bc92",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [
+            [
+              152,
+              1
+            ]
+          ],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 4,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 176,
+          "native_row_stride": 8,
+          "native_sha256": "5a0be604bae489b2692602f6f22b8e9a2dc6e58ecc9671889b1245e2b36b38b5",
+          "logical_symbol_sha256": "5a0be604bae489b2692602f6f22b8e9a2dc6e58ecc9671889b1245e2b36b38b5",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [
+            [
+              176,
+              1
+            ]
+          ],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 5,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 152,
+          "native_row_stride": 8,
+          "native_sha256": "5c0bf5d02dfb98b4b958024c9fc710f854716ffd43bd3d9bbd5bcb1f4ad7bc79",
+          "logical_symbol_sha256": "5c0bf5d02dfb98b4b958024c9fc710f854716ffd43bd3d9bbd5bcb1f4ad7bc79",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [
+            [
+              152,
+              1
+            ]
+          ],
+          "outer_guards_preserved": true
+        }
+      ],
+      "vertical_XOR_proof": {
+        "classification": "Original native2D13 XOR/state execution; E282 explicitly substituted with independently verified row contracts",
+        "native_primary": "ev_922ab51b6e0a76b5280b051be12e2aff62baedf44c0f4ee11b5863a58433ddec",
+        "native_program_sha256": "7683265960ec7a557551494a87b5e08ac662ded412f6b736147934a2a6eca26c",
+        "frames": 6,
+        "initial_index": 17,
+        "final_index": 23,
+        "initial_pointer": [
+          8192,
+          24576
+        ],
+        "final_pointer": [
+          9216,
+          24576
+        ],
+        "descriptor_sha256": "2c2441acf2dcb3c67fa73316967e284701bdfc0241713fb6318a35a154aeb1d7",
+        "output_sha256": "df75b16a488e9daf48caaab2b3d2329743f23b70b8431f03aa3e1279341d2e44",
+        "output_bytes": 1024,
+        "native_XOR_byte_writes": 976,
+        "native_XOR_source_byte_reads": 976,
+        "complete_source_read_footprint_exact": true,
+        "expected_XOR_byte_writes": 976,
+        "complete_XOR_write_footprint_exact": true,
+        "native_write_instructions": 5021,
+        "substituted_calls": [
+          {
+            "index": 0,
+            "args": {
+              "offset": 8192,
+              "segment": 24576,
+              "count": 176,
+              "width": 8,
+              "high_count": 0
+            },
+            "strided_sha256": "0a8ec24f9bf4dd5d495817490e45cd1c490516ab62d25f6a30abdc899f1230d1",
+            "extent": 176,
+            "transient_write": true
+          },
+          {
+            "index": 1,
+            "args": {
+              "offset": 8368,
+              "segment": 24576,
+              "count": 184,
+              "width": 8,
+              "high_count": 0
+            },
+            "strided_sha256": "e52f3696b38d890afc2b0cd3b03e3bea7e9a954a66f4ad2b83ae524cb32758c7",
+            "extent": 184,
+            "transient_write": true
+          },
+          {
+            "index": 2,
+            "args": {
+              "offset": 8552,
+              "segment": 24576,
+              "count": 184,
+              "width": 8,
+              "high_count": 0
+            },
+            "strided_sha256": "494a796ad9d7b6b8f649338352d1925d2393d97369010798fb6677c7aebbe866",
+            "extent": 184,
+            "transient_write": true
+          },
+          {
+            "index": 3,
+            "args": {
+              "offset": 8736,
+              "segment": 24576,
+              "count": 152,
+              "width": 8,
+              "high_count": 0
+            },
+            "strided_sha256": "42af7f7ef87d6afb922a86fe96cc853ef59454a16d537a5b81633a6f8f21bc92",
+            "extent": 152,
+            "transient_write": true
+          },
+          {
+            "index": 4,
+            "args": {
+              "offset": 8888,
+              "segment": 24576,
+              "count": 176,
+              "width": 8,
+              "high_count": 0
+            },
+            "strided_sha256": "5a0be604bae489b2692602f6f22b8e9a2dc6e58ecc9671889b1245e2b36b38b5",
+            "extent": 176,
+            "transient_write": true
+          },
+          {
+            "index": 5,
+            "args": {
+              "offset": 9064,
+              "segment": 24576,
+              "count": 152,
+              "width": 8,
+              "high_count": 0
+            },
+            "strided_sha256": "5c0bf5d02dfb98b4b958024c9fc710f854716ffd43bd3d9bbd5bcb1f4ad7bc79",
+            "extent": 152,
+            "transient_write": true
+          }
+        ],
+        "substituted_write_regions": [
+          {
+            "address": 401408,
+            "size": 176,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 401584,
+            "size": 1,
+            "kind": "substituted_E282_transient"
+          },
+          {
+            "address": 401584,
+            "size": 184,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 401768,
+            "size": 1,
+            "kind": "substituted_E282_transient"
+          },
+          {
+            "address": 401768,
+            "size": 184,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 401952,
+            "size": 1,
+            "kind": "substituted_E282_transient"
+          },
+          {
+            "address": 401952,
+            "size": 152,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 402104,
+            "size": 1,
+            "kind": "substituted_E282_transient"
+          },
+          {
+            "address": 402104,
+            "size": 176,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 402280,
+            "size": 1,
+            "kind": "substituted_E282_transient"
+          },
+          {
+            "address": 402280,
+            "size": 152,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 402432,
+            "size": 1,
+            "kind": "substituted_E282_transient"
+          }
+        ],
+        "outer_guards_preserved": true,
+        "stack_registers_preserved": true,
+        "Huffman_decoder_executed": false,
+        "EOF_fallback": false
+      }
+    },
+    {
+      "setup": 3,
+      "row_proof": {
+        "classification": "Matched native E282 row padding and return-pointer validation; no vertical XOR, palette, alpha or animation interpretation",
+        "input_sha256": "aa50ef9fb55e5271526e25ccc6e60b2908f00440c3f33380d13d27ecd4cbc564",
+        "input_start": 12331,
+        "logical_symbol_bytes": 1056,
+        "nonempty_frame_calls": 6,
+        "empty_records_not_executed": 0,
+        "source_pins": {
+          "matching/asm/huff_frame_decode_entry.asm": "1a8f4118a424b95d5e4fe51bcf8224780e7931c37346946c202710dfbcc5adcc",
+          "matching/asm/huff_tree_build_recursive.asm": "6ee793fb15f7d877b8fd6879930b49b53ed8c14812da563ea053c23d2a2359c0",
+          "matching/asm/huff_read_byte.asm": "ffeb00d460e95ee54a48abffbc8c584797bfc8e4d5d3294d5094b8aed44cffad",
+          "matching/asm/huff_get_bit.asm": "398941802582fbc03aaac9bb0c3a4abeb8a61700c7d62c3f7b537940cc12df2b",
+          "matching/asm/huff_build_lookup.asm": "55143488f6d3e2e7ae91957c4594c50acba9a30c6746719bd7b5739495d8626d",
+          "matching/asm/huff_decode_bytes.asm": "9ea8de2c0d50a55caeb73a34a610bb6c09e1036e4d983c9e5d8071b9c78b2227",
+          "matching/asm/huff_decode_stream.asm": "495995e31d28f71614255b052dd31ad4627ade7b267d5419048c8bb1f396e572",
+          "matching/asm/huff_window_save.asm": "0230bac9d7102c570ee8f7055cf010dde9dac07142efee6a1b04ef5c9117aa9f",
+          "matching/asm/huff_window_init.asm": "3a34aaa486c351a781978b2d97bb9ae238f40bd678ed724ab8daae75c9f1603a"
+        },
+        "whole_assembled_sha256": "e1e9a7e761149756cabdac4b18c481c97ec6d0108221f4f945cf966e28ad9a44",
+        "EOF_zero_or_stale_fill": false
+      },
+      "frames": [
+        {
+          "index": 0,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 184,
+          "native_row_stride": 8,
+          "native_sha256": "6a4489d725e6d9d631619ddc2db02af0af55024e6724b65cd50b168f418c82ad",
+          "logical_symbol_sha256": "6a4489d725e6d9d631619ddc2db02af0af55024e6724b65cd50b168f418c82ad",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [
+            [
+              184,
+              1
+            ]
+          ],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 1,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 192,
+          "native_row_stride": 8,
+          "native_sha256": "80cb1d5df2c10192f38e8916326bcf7412cfba746d0dff80f1240d9a89bc20ae",
+          "logical_symbol_sha256": "80cb1d5df2c10192f38e8916326bcf7412cfba746d0dff80f1240d9a89bc20ae",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [
+            [
+              192,
+              1
+            ]
+          ],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 2,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 184,
+          "native_row_stride": 8,
+          "native_sha256": "5b4ce582e1217e6d2ef1c9a798f4ed5fc52698557f42365a092396824c7b9923",
+          "logical_symbol_sha256": "5b4ce582e1217e6d2ef1c9a798f4ed5fc52698557f42365a092396824c7b9923",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [
+            [
+              184,
+              1
+            ]
+          ],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 3,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 152,
+          "native_row_stride": 8,
+          "native_sha256": "d2c33c3bbc5d76085408ae985520d020e028e92d2f9351d3386f2eaccbcf004f",
+          "logical_symbol_sha256": "d2c33c3bbc5d76085408ae985520d020e028e92d2f9351d3386f2eaccbcf004f",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [
+            [
+              152,
+              1
+            ]
+          ],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 4,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 184,
+          "native_row_stride": 8,
+          "native_sha256": "a38b0ca1515028ec50d363c376bfab0b4292ab033475071eb0e33de1fda07b02",
+          "logical_symbol_sha256": "a38b0ca1515028ec50d363c376bfab0b4292ab033475071eb0e33de1fda07b02",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [
+            [
+              184,
+              1
+            ]
+          ],
+          "outer_guards_preserved": true
+        },
+        {
+          "index": 5,
+          "empty_record": false,
+          "native_decode_call_executed": true,
+          "strided_bytes": 160,
+          "native_row_stride": 8,
+          "native_sha256": "0b3bb19a29b0b0e969a7391f681487a6c9956c1482d12f1f8732f4914a0589ae",
+          "logical_symbol_sha256": "0b3bb19a29b0b0e969a7391f681487a6c9956c1482d12f1f8732f4914a0589ae",
+          "returned_end_matches": true,
+          "transient_write_outside_retained_rows": [
+            [
+              160,
+              1
+            ]
+          ],
+          "outer_guards_preserved": true
+        }
+      ],
+      "vertical_XOR_proof": {
+        "classification": "Original native2D13 XOR/state execution; E282 explicitly substituted with independently verified row contracts",
+        "native_primary": "ev_922ab51b6e0a76b5280b051be12e2aff62baedf44c0f4ee11b5863a58433ddec",
+        "native_program_sha256": "7683265960ec7a557551494a87b5e08ac662ded412f6b736147934a2a6eca26c",
+        "frames": 6,
+        "initial_index": 17,
+        "final_index": 23,
+        "initial_pointer": [
+          8192,
+          24576
+        ],
+        "final_pointer": [
+          9248,
+          24576
+        ],
+        "descriptor_sha256": "53400d328fcb4327c3c47e8cfbc454989ff8700e35ba371c8160bde461158755",
+        "output_sha256": "28f789170025adae4baff05dd42458a5aad817eb64f32809ba935a968b31902b",
+        "output_bytes": 1056,
+        "native_XOR_byte_writes": 1008,
+        "native_XOR_source_byte_reads": 1008,
+        "complete_source_read_footprint_exact": true,
+        "expected_XOR_byte_writes": 1008,
+        "complete_XOR_write_footprint_exact": true,
+        "native_write_instructions": 5181,
+        "substituted_calls": [
+          {
+            "index": 0,
+            "args": {
+              "offset": 8192,
+              "segment": 24576,
+              "count": 184,
+              "width": 8,
+              "high_count": 0
+            },
+            "strided_sha256": "6a4489d725e6d9d631619ddc2db02af0af55024e6724b65cd50b168f418c82ad",
+            "extent": 184,
+            "transient_write": true
+          },
+          {
+            "index": 1,
+            "args": {
+              "offset": 8376,
+              "segment": 24576,
+              "count": 192,
+              "width": 8,
+              "high_count": 0
+            },
+            "strided_sha256": "80cb1d5df2c10192f38e8916326bcf7412cfba746d0dff80f1240d9a89bc20ae",
+            "extent": 192,
+            "transient_write": true
+          },
+          {
+            "index": 2,
+            "args": {
+              "offset": 8568,
+              "segment": 24576,
+              "count": 184,
+              "width": 8,
+              "high_count": 0
+            },
+            "strided_sha256": "5b4ce582e1217e6d2ef1c9a798f4ed5fc52698557f42365a092396824c7b9923",
+            "extent": 184,
+            "transient_write": true
+          },
+          {
+            "index": 3,
+            "args": {
+              "offset": 8752,
+              "segment": 24576,
+              "count": 152,
+              "width": 8,
+              "high_count": 0
+            },
+            "strided_sha256": "d2c33c3bbc5d76085408ae985520d020e028e92d2f9351d3386f2eaccbcf004f",
+            "extent": 152,
+            "transient_write": true
+          },
+          {
+            "index": 4,
+            "args": {
+              "offset": 8904,
+              "segment": 24576,
+              "count": 184,
+              "width": 8,
+              "high_count": 0
+            },
+            "strided_sha256": "a38b0ca1515028ec50d363c376bfab0b4292ab033475071eb0e33de1fda07b02",
+            "extent": 184,
+            "transient_write": true
+          },
+          {
+            "index": 5,
+            "args": {
+              "offset": 9088,
+              "segment": 24576,
+              "count": 160,
+              "width": 8,
+              "high_count": 0
+            },
+            "strided_sha256": "0b3bb19a29b0b0e969a7391f681487a6c9956c1482d12f1f8732f4914a0589ae",
+            "extent": 160,
+            "transient_write": true
+          }
+        ],
+        "substituted_write_regions": [
+          {
+            "address": 401408,
+            "size": 184,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 401592,
+            "size": 1,
+            "kind": "substituted_E282_transient"
+          },
+          {
+            "address": 401592,
+            "size": 192,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 401784,
+            "size": 1,
+            "kind": "substituted_E282_transient"
+          },
+          {
+            "address": 401784,
+            "size": 184,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 401968,
+            "size": 1,
+            "kind": "substituted_E282_transient"
+          },
+          {
+            "address": 401968,
+            "size": 152,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 402120,
+            "size": 1,
+            "kind": "substituted_E282_transient"
+          },
+          {
+            "address": 402120,
+            "size": 184,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 402304,
+            "size": 1,
+            "kind": "substituted_E282_transient"
+          },
+          {
+            "address": 402304,
+            "size": 160,
+            "kind": "substituted_E282_rows"
+          },
+          {
+            "address": 402464,
+            "size": 1,
+            "kind": "substituted_E282_transient"
+          }
+        ],
+        "outer_guards_preserved": true,
+        "stack_registers_preserved": true,
+        "Huffman_decoder_executed": false,
+        "EOF_fallback": false
+      }
+    }
+  ],
+  "contexts_basis": "Matched asset_storage_surface_context_match.c initializer and init_surface branches; complete init_surface not executed in this stage",
+  "limits": [
+    "Indexed pixels only; no RGB palette/device-placement claim",
+    "Tilted branch selection follows matched source; no tilted animation-list playback claim",
+    "Shared compressed stream offsets are exact; per-frame compressed byte boundaries intentionally not invented"
+  ],
+  "canonical_credit_added": 0,
+  "seconds": 2.103101056000014,
+  "input_pins": [
+    {
+      "path": "CHESS.EXE",
+      "sha256": "c32d4f6bc732b67efa65d55bc5813bc74dcfb52b8616894b57ed7aeeeed2a1cd"
+    },
+    {
+      "path": "ALLCANM1",
+      "sha256": "aa50ef9fb55e5271526e25ccc6e60b2908f00440c3f33380d13d27ecd4cbc564"
+    },
+    {
+      "path": "asset_recovery/bank1_decode_v1/results-v3/manifest.json",
+      "sha256": "560e33675112645fbf46369498a5cd428e5532034cca8c9222047157e6b92cd8"
+    },
+    {
+      "path": "asset_recovery/native_frame_rows.py",
+      "sha256": "487d74eb00f224d44c9890db8e995258cc987f9caae9fb0768e435b85ad771f5"
+    },
+    {
+      "path": "asset_recovery/native_basic_xor/oracle.py",
+      "sha256": "0623f77783582f734b8cb0bcb42c19ef8bd05b3491320c026a97ad95619febca"
+    },
+    {
+      "path": "asset_recovery/animation_frames_v1/export.py",
+      "sha256": "70c7822820ba482e03056d25b3ba2ba393083db312d09606610920516f345ea1"
+    },
+    {
+      "path": "matching/src/asset_storage_surface_context_match.c",
+      "sha256": "655d01789fb7ee0a575ba66e3b301c140f9c9bfaf7fd94cc205719367db0384e"
+    },
+    {
+      "path": "asset_recovery/setup_frames_v1/export.py",
+      "sha256": "81d6cb759c04aa8df06fd1b545cb7bbcb67815e5f99a2691b59b65608fbc897f"
+    }
+  ]
+}

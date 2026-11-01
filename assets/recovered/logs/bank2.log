@@ -1,0 +1,26 @@
+{
+  "status": "PASS_ALLCANM2_SYMBOL_REENCODE_EXACT_BANK",
+  "bank_bytes": 339592,
+  "bank_sha256": "114a46f323f6766396eba42bd741768e415ded55685ee0778f127a48377c084d",
+  "record_count": 60,
+  "compressed_streams": 30,
+  "frame_records": 1605,
+  "roundtrip": {
+    "status": "EXACT_SYMBOL_REENCODE_AND_RAW_RECORD_ROUNDTRIP",
+    "bank_sha256": "114a46f323f6766396eba42bd741768e415ded55685ee0778f127a48377c084d",
+    "bank_bytes": 339592,
+    "compressed_symbol_payloads_regenerated": 30,
+    "original_bank_read": false
+  },
+  "native_strict_hold_pairs": [
+    29
+  ],
+  "original_bank_modified": false,
+  "new_native_executions": 0,
+  "canonical_credit_added": 0,
+  "limitations": [
+    "Not a complete sprite or animation export",
+    "Retained native comparison evidence reused; not fresh native execution",
+    "Original strict native EOF hold remains; re-encoding correctness does not resolve runtime buffer lifecycle"
+  ]
+}

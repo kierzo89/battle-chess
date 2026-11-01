@@ -1,0 +1,37 @@
+{
+  "status": "REVIEWED_BOUNDED_NATIVE_TIMING_EVIDENCE",
+  "files": [
+    {
+      "path": "asset_recovery/animation_timing_v2/README.md",
+      "sha256": "451c79c73600daca7cdbed84e8f9f5595f58e07bb20fee02deab2feb4a34d586"
+    },
+    {
+      "path": "asset_recovery/animation_timing_v2/event-cadence.json",
+      "sha256": "c440b10b367a6970721d654d3f70641a0d5e930bd83379271d38eb166b082f85"
+    },
+    {
+      "path": "asset_recovery/animation_timing_v2/event_tick_oracle.py",
+      "sha256": "87932b1900498573841d982d1ef1d205b710e94dba67cb92c6125a0df9971eba"
+    },
+    {
+      "path": "asset_recovery/animation_timing_v2/export_timelines.py",
+      "sha256": "2fb7a45ead019dd4a673d5c00f7abbfc8b4116c2166467db6a12370b8358c4e7"
+    },
+    {
+      "path": "asset_recovery/animation_timing_v2/report.json",
+      "sha256": "feb51c7da23195b2e1710ff9b9d4d1f8efd260d851c777908f36edc1d1f18629"
+    },
+    {
+      "path": "asset_recovery/animation_timing_v2/summary.json",
+      "sha256": "2f846605f34f4103ee793f51ed3875e7b86a0a28b4fa784d36e707b27ebfd311"
+    },
+    {
+      "path": "asset_recovery/animation_timing_v2/timelines.json",
+      "sha256": "3a57083f4e9491a7d7d8d7b1645da1b072e325f06d4a59d68fc0bcc3219dcdba"
+    },
+    {
+      "path": "asset_recovery/animation_timing_v2/verify.py",
+      "sha256": "e6f731c1acab923cce209b32c204095b989795450f837478afd4dd160a4e4f08"
+    }
+  ]
+}

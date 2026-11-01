@@ -1,0 +1,544 @@
+{
+  "status": "ONE_REAL_CALL_ORDER_CONTEXT_CLOSED_OTHER_CONTEXTS_EXPLICIT",
+  "flat_cache_order": [
+    10,
+    9
+  ],
+  "flat_first_record": {
+    "slot": 10,
+    "id": "asset-25",
+    "start": 393216,
+    "end": 395960,
+    "decoded_bytes": 2744,
+    "allocation_bytes": 2744
+  },
+  "flat_first_context": {
+    "requested_bytes": 2744,
+    "tail": [
+      {
+        "read_offset": 2742,
+        "address": 395960,
+        "provenance": {
+          "record": "asset-24",
+          "decoded_offset": 0,
+          "value": 12
+        }
+      },
+      {
+        "read_offset": 2743,
+        "address": 395961,
+        "provenance": {
+          "record": "asset-24",
+          "decoded_offset": 1,
+          "value": 123
+        }
+      }
+    ],
+    "unknown_read_offsets": [],
+    "all_read_bytes_source_owned": true,
+    "payload_sha256": "3d915dbaeb612add8fbb7201fde4f72de1dc2b0ef00cd9e607ba7f5657cb0d35"
+  },
+  "flat_first_native_playback_trace": "flat-cache10-full-speaker.json",
+  "flat_last_record_hold": "Full audio context contains unowned/uncaptured arena bytes",
+  "native_cache": {
+    "native_cache_primary": "ev_59c2226fd676de7c88272396650efc6950a26300119bf2ac8c5865c4c775a282",
+    "native_cache_code_sha256": "d800bcc89f688f55688d46860d6e412914ee50ec4b62d2bce9b4017de8599513",
+    "sequence": [
+      10,
+      9
+    ],
+    "mode": 1,
+    "arena_seed_fixture": 165,
+    "decoder_substitution": "Already native/independent verified bytes, no trailing writes",
+    "decoder_writes": [
+      {
+        "record": "asset-25",
+        "address": 393216,
+        "bytes": 2744,
+        "sha256": "78e1db3ea9c48afb67104708b47710845ceead073b83b05d402183dc43f060b7"
+      },
+      {
+        "record": "asset-24",
+        "address": 395960,
+        "bytes": 1584,
+        "sha256": "2813d6269b0a9d4b6b5ff681b52e4d46cb89026aa06b88c2ade24327ee3a99cf"
+      }
+    ],
+    "records": [
+      {
+        "slot": 10,
+        "id": "asset-25",
+        "start": 393216,
+        "end": 395960,
+        "decoded_bytes": 2744,
+        "allocation_bytes": 2744
+      },
+      {
+        "slot": 9,
+        "id": "asset-24",
+        "start": 395960,
+        "end": 397544,
+        "decoded_bytes": 1584,
+        "allocation_bytes": 1584
+      }
+    ]
+  },
+  "history_dependence_control": [
+    {
+      "seed_fixture": 165,
+      "context": {
+        "requested_bytes": 2262,
+        "tail": [
+          {
+            "read_offset": 2259,
+            "address": 395477,
+            "provenance": null
+          },
+          {
+            "read_offset": 2260,
+            "address": 395478,
+            "provenance": {
+              "record": "asset-16",
+              "decoded_offset": 0,
+              "value": 148
+            }
+          },
+          {
+            "read_offset": 2261,
+            "address": 395479,
+            "provenance": {
+              "record": "asset-16",
+              "decoded_offset": 1,
+              "value": 117
+            }
+          }
+        ],
+        "unknown_read_offsets": [
+          2259
+        ],
+        "all_read_bytes_source_owned": false,
+        "payload_sha256": "e6234143cf964ab21a55f7159bb17a2a2178e7115030756e937ddc644eb71d0f"
+      },
+      "last_run_delays": [
+        165,
+        148,
+        117
+      ],
+      "trace_sha256": "1238d8c13cb0531b5b220ae41aeabe3024f837cca9e55ac66d2cbe56ce59f81b"
+    },
+    {
+      "seed_fixture": 90,
+      "context": {
+        "requested_bytes": 2262,
+        "tail": [
+          {
+            "read_offset": 2259,
+            "address": 395477,
+            "provenance": null
+          },
+          {
+            "read_offset": 2260,
+            "address": 395478,
+            "provenance": {
+              "record": "asset-16",
+              "decoded_offset": 0,
+              "value": 148
+            }
+          },
+          {
+            "read_offset": 2261,
+            "address": 395479,
+            "provenance": {
+              "record": "asset-16",
+              "decoded_offset": 1,
+              "value": 117
+            }
+          }
+        ],
+        "unknown_read_offsets": [
+          2259
+        ],
+        "all_read_bytes_source_owned": false,
+        "payload_sha256": "c7a8c9a27406dd6c95c9cfa1c692496206ed36ed478e28e522c82e8aa1cfaedc"
+      },
+      "last_run_delays": [
+        90,
+        148,
+        117
+      ],
+      "trace_sha256": "9c6b373f6703cf6522063dcdee3fdcb2e0b72bc5770415d52b739b4458c14857"
+    }
+  ],
+  "timing_metadata": [
+    {
+      "id": "asset-00",
+      "mode": 0,
+      "header_hex": "8016863d",
+      "pitch_denominator_signed_i16": 15750,
+      "declared_nibble_byte_count": 5760,
+      "logical_decoded_bytes": 5767,
+      "allocation_bytes": 5768,
+      "wrapper_count": 5760,
+      "wrapper_data_offset": 4
+    },
+    {
+      "id": "asset-01",
+      "mode": 0,
+      "header_hex": "fe09ca3a",
+      "pitch_denominator_signed_i16": 15050,
+      "declared_nibble_byte_count": 2558,
+      "logical_decoded_bytes": 2562,
+      "allocation_bytes": 2562,
+      "wrapper_count": 2558,
+      "wrapper_data_offset": 4
+    },
+    {
+      "id": "asset-02",
+      "mode": 0,
+      "header_hex": "b7202c4c",
+      "pitch_denominator_signed_i16": 19500,
+      "declared_nibble_byte_count": 8375,
+      "logical_decoded_bytes": 8394,
+      "allocation_bytes": 8394,
+      "wrapper_count": 8375,
+      "wrapper_data_offset": 4
+    },
+    {
+      "id": "asset-03",
+      "mode": 0,
+      "header_hex": "840be30d",
+      "pitch_denominator_signed_i16": 3555,
+      "declared_nibble_byte_count": 2948,
+      "logical_decoded_bytes": 2956,
+      "allocation_bytes": 2956,
+      "wrapper_count": 2948,
+      "wrapper_data_offset": 4
+    },
+    {
+      "id": "asset-04",
+      "mode": 0,
+      "header_hex": "9e159475",
+      "pitch_denominator_signed_i16": 30100,
+      "declared_nibble_byte_count": 5534,
+      "logical_decoded_bytes": 5540,
+      "allocation_bytes": 5540,
+      "wrapper_count": 5534,
+      "wrapper_data_offset": 4
+    },
+    {
+      "id": "asset-05",
+      "mode": 0,
+      "header_hex": "6a1e0429",
+      "pitch_denominator_signed_i16": 10500,
+      "declared_nibble_byte_count": 7786,
+      "logical_decoded_bytes": 7827,
+      "allocation_bytes": 7828,
+      "wrapper_count": 7786,
+      "wrapper_data_offset": 4
+    },
+    {
+      "id": "asset-06",
+      "mode": 0,
+      "header_hex": "141e1626",
+      "pitch_denominator_signed_i16": 9750,
+      "declared_nibble_byte_count": 7700,
+      "logical_decoded_bytes": 7707,
+      "allocation_bytes": 7708,
+      "wrapper_count": 7700,
+      "wrapper_data_offset": 4
+    },
+    {
+      "id": "asset-07",
+      "mode": 0,
+      "header_hex": "89152c4c",
+      "pitch_denominator_signed_i16": 19500,
+      "declared_nibble_byte_count": 5513,
+      "logical_decoded_bytes": 5523,
+      "allocation_bytes": 5524,
+      "wrapper_count": 5513,
+      "wrapper_data_offset": 4
+    },
+    {
+      "id": "asset-08",
+      "mode": 0,
+      "header_hex": "ad152634",
+      "pitch_denominator_signed_i16": 13350,
+      "declared_nibble_byte_count": 5549,
+      "logical_decoded_bytes": 5554,
+      "allocation_bytes": 5554,
+      "wrapper_count": 5549,
+      "wrapper_data_offset": 4
+    },
+    {
+      "id": "asset-09",
+      "mode": 0,
+      "header_hex": "a90f9c18",
+      "pitch_denominator_signed_i16": 6300,
+      "declared_nibble_byte_count": 4009,
+      "logical_decoded_bytes": 4015,
+      "allocation_bytes": 4016,
+      "wrapper_count": 4009,
+      "wrapper_data_offset": 4
+    },
+    {
+      "id": "asset-10",
+      "mode": 0,
+      "header_hex": "de12a230",
+      "pitch_denominator_signed_i16": 12450,
+      "declared_nibble_byte_count": 4830,
+      "logical_decoded_bytes": 4834,
+      "allocation_bytes": 4834,
+      "wrapper_count": 4830,
+      "wrapper_data_offset": 4
+    },
+    {
+      "id": "asset-11",
+      "mode": 0,
+      "header_hex": "020e8c3c",
+      "pitch_denominator_signed_i16": 15500,
+      "declared_nibble_byte_count": 3586,
+      "logical_decoded_bytes": 3590,
+      "allocation_bytes": 3590,
+      "wrapper_count": 3586,
+      "wrapper_data_offset": 4
+    },
+    {
+      "id": "asset-12",
+      "mode": 0,
+      "header_hex": "9b1b721f",
+      "pitch_denominator_signed_i16": 8050,
+      "declared_nibble_byte_count": 7067,
+      "logical_decoded_bytes": 7073,
+      "allocation_bytes": 7074,
+      "wrapper_count": 7067,
+      "wrapper_data_offset": 4
+    },
+    {
+      "id": "asset-13",
+      "mode": 0,
+      "header_hex": "8f124629",
+      "pitch_denominator_signed_i16": 10566,
+      "declared_nibble_byte_count": 4751,
+      "logical_decoded_bytes": 4760,
+      "allocation_bytes": 4760,
+      "wrapper_count": 4751,
+      "wrapper_data_offset": 4
+    },
+    {
+      "id": "asset-14",
+      "mode": 0,
+      "header_hex": "b31f7c15",
+      "pitch_denominator_signed_i16": 5500,
+      "declared_nibble_byte_count": 8115,
+      "logical_decoded_bytes": 8128,
+      "allocation_bytes": 8128,
+      "wrapper_count": 8115,
+      "wrapper_data_offset": 4
+    },
+    {
+      "id": "asset-15",
+      "mode": 1,
+      "header_hex": "0c7b",
+      "pitch_denominator_signed_i16": 31500,
+      "declared_nibble_byte_count": null,
+      "logical_decoded_bytes": 2261,
+      "allocation_bytes": 2262,
+      "wrapper_count": 2262,
+      "wrapper_data_offset": 2
+    },
+    {
+      "id": "asset-16",
+      "mode": 1,
+      "header_hex": "9475",
+      "pitch_denominator_signed_i16": 30100,
+      "declared_nibble_byte_count": null,
+      "logical_decoded_bytes": 356,
+      "allocation_bytes": 356,
+      "wrapper_count": 356,
+      "wrapper_data_offset": 2
+    },
+    {
+      "id": "asset-17",
+      "mode": 1,
+      "header_hex": "2c4c",
+      "pitch_denominator_signed_i16": 19500,
+      "declared_nibble_byte_count": null,
+      "logical_decoded_bytes": 6153,
+      "allocation_bytes": 6154,
+      "wrapper_count": 6154,
+      "wrapper_data_offset": 2
+    },
+    {
+      "id": "asset-18",
+      "mode": 1,
+      "header_hex": "1c57",
+      "pitch_denominator_signed_i16": 22300,
+      "declared_nibble_byte_count": null,
+      "logical_decoded_bytes": 4386,
+      "allocation_bytes": 4386,
+      "wrapper_count": 4386,
+      "wrapper_data_offset": 2
+    },
+    {
+      "id": "asset-19",
+      "mode": 1,
+      "header_hex": "9475",
+      "pitch_denominator_signed_i16": 30100,
+      "declared_nibble_byte_count": null,
+      "logical_decoded_bytes": 780,
+      "allocation_bytes": 780,
+      "wrapper_count": 780,
+      "wrapper_data_offset": 2
+    },
+    {
+      "id": "asset-20",
+      "mode": 1,
+      "header_hex": "0c7b",
+      "pitch_denominator_signed_i16": 31500,
+      "declared_nibble_byte_count": null,
+      "logical_decoded_bytes": 9033,
+      "allocation_bytes": 9034,
+      "wrapper_count": 9034,
+      "wrapper_data_offset": 2
+    },
+    {
+      "id": "asset-21",
+      "mode": 1,
+      "header_hex": "2c4c",
+      "pitch_denominator_signed_i16": 19500,
+      "declared_nibble_byte_count": null,
+      "logical_decoded_bytes": 2140,
+      "allocation_bytes": 2140,
+      "wrapper_count": 2140,
+      "wrapper_data_offset": 2
+    },
+    {
+      "id": "asset-22",
+      "mode": 1,
+      "header_hex": "2c4c",
+      "pitch_denominator_signed_i16": 19500,
+      "declared_nibble_byte_count": null,
+      "logical_decoded_bytes": 2879,
+      "allocation_bytes": 2880,
+      "wrapper_count": 2880,
+      "wrapper_data_offset": 2
+    },
+    {
+      "id": "asset-23",
+      "mode": 1,
+      "header_hex": "4c68",
+      "pitch_denominator_signed_i16": 26700,
+      "declared_nibble_byte_count": null,
+      "logical_decoded_bytes": 801,
+      "allocation_bytes": 802,
+      "wrapper_count": 802,
+      "wrapper_data_offset": 2
+    },
+    {
+      "id": "asset-24",
+      "mode": 1,
+      "header_hex": "0c7b",
+      "pitch_denominator_signed_i16": 31500,
+      "declared_nibble_byte_count": null,
+      "logical_decoded_bytes": 1584,
+      "allocation_bytes": 1584,
+      "wrapper_count": 1584,
+      "wrapper_data_offset": 2
+    },
+    {
+      "id": "asset-25",
+      "mode": 1,
+      "header_hex": "0c7b",
+      "pitch_denominator_signed_i16": 31500,
+      "declared_nibble_byte_count": null,
+      "logical_decoded_bytes": 2744,
+      "allocation_bytes": 2744,
+      "wrapper_count": 2744,
+      "wrapper_data_offset": 2
+    },
+    {
+      "id": "asset-26",
+      "mode": 1,
+      "header_hex": "8c3c",
+      "pitch_denominator_signed_i16": 15500,
+      "declared_nibble_byte_count": null,
+      "logical_decoded_bytes": 487,
+      "allocation_bytes": 488,
+      "wrapper_count": 488,
+      "wrapper_data_offset": 2
+    },
+    {
+      "id": "asset-27",
+      "mode": 1,
+      "header_hex": "e43e",
+      "pitch_denominator_signed_i16": 16100,
+      "declared_nibble_byte_count": null,
+      "logical_decoded_bytes": 2442,
+      "allocation_bytes": 2442,
+      "wrapper_count": 2442,
+      "wrapper_data_offset": 2
+    },
+    {
+      "id": "asset-28",
+      "mode": 1,
+      "header_hex": "d47b",
+      "pitch_denominator_signed_i16": 31700,
+      "declared_nibble_byte_count": null,
+      "logical_decoded_bytes": 1798,
+      "allocation_bytes": 1798,
+      "wrapper_count": 1798,
+      "wrapper_data_offset": 2
+    },
+    {
+      "id": "asset-29",
+      "mode": 1,
+      "header_hex": "b478",
+      "pitch_denominator_signed_i16": 30900,
+      "declared_nibble_byte_count": null,
+      "logical_decoded_bytes": 8070,
+      "allocation_bytes": 8070,
+      "wrapper_count": 8070,
+      "wrapper_data_offset": 2
+    },
+    {
+      "id": "asset-30",
+      "mode": 1,
+      "header_hex": "7440",
+      "pitch_denominator_signed_i16": 16500,
+      "declared_nibble_byte_count": null,
+      "logical_decoded_bytes": 4427,
+      "allocation_bytes": 4428,
+      "wrapper_count": 4428,
+      "wrapper_data_offset": 2
+    }
+  ],
+  "timing_formula": {
+    "wrapper": "max(0, signed32(1000000000 / denominator + signed32(pitch * 4) * 280))",
+    "native_loop_delay": "q = unsigned32(interval) / unsigned16(speed_2eb3), truncating; DIV requires speed nonzero and q <= 65535. d = signed16(q - overhead); delay = d if d > 0 else 1.",
+    "overhead_nibble": 10,
+    "overhead_speaker": 2,
+    "calibration": "speed_2eb3 computed from PIT/timer and CPU loop; no fixed host-independent sample rate assumed",
+    "physical_waveform_verified": false
+  },
+  "missing_runtime_evidence": [
+    "Actual arena memory/pad bytes and allocation history for each playback; flat cache10 is closed only while its adjacency tocache9 remains intact.",
+    "PIT calibration speed_2eb3 and requested pitch values for timing and sound hardware model."
+  ],
+  "source_pins": {
+    "asset_recovery/audio_context_v1/verify.py": "30d5c8fb991d95cdd3f474072a687ff3c5bbb744400b562bf5f1a79285909fe5",
+    "asset_recovery/bank1_semantics_v1/native_audio.py": "12b13e7112b76ad2afe6de05849f0ec92944fd16fc921efddd9f2f2104edd143",
+    "matching/src/cache_asset_frame_match.c": "e1d043b9bacb5f793c6579d26687ec0f1bfa6e49ae7611f6a026358e3ad65892",
+    "matching/src/audio_assets_flow_match.c": "256aeda98a8da1a12a33f79083c04aee6af4e0920d95d82adf1791f85cb0ff55",
+    "matching/src/asset_storage_surface_context_match.c": "655d01789fb7ee0a575ba66e3b301c140f9c9bfaf7fd94cc205719367db0384e",
+    "matching/src/asset_arena_flow_match.c": "cc32f43fd0d9e791cdc09d16b09562869095f5873f0c00c363626950ddf7e891",
+    "matching/evidence/rea_far_storage_13652.json": "1a02647e86dde93558937ded852104432b328cd8ffa6ada8da905398142ec205",
+    "matching/asm/huff_decode_bytes.asm": "9ea8de2c0d50a55caeb73a34a610bb6c09e1036e4d983c9e5d8071b9c78b2227"
+  },
+  "seconds": 0.36113625899997714,
+  "canonical_credit_added": 0,
+  "limits": [
+    "Native cache body executes; four named decoder/mode callees are explicit contracts, not fullgame run.",
+    "The flat order is derived from matching init_surface source; full-call sequence is a controlled reproduction, not a captured gameplay session.",
+    "Counterfactual seed bytes demonstrate nonuniqueness; they are not exported as canonical audio assets."
+  ]
+}

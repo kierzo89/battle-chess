@@ -1,0 +1,9147 @@
+{
+  "status": "PASS_NATIVE_LOGICAL_DISPLAY_SELECTION",
+  "native_case_count": 182,
+  "native_image_offset": 69650,
+  "native_platform_sha256": "47291b285c61bdeaa02a870e59b6f913966aa2f2dd74ddf3f75d1e880d923a3d",
+  "native_image_sha256": "c4650b0ef49fb493b21a7dae2a57ad43468bb76b4b1d869aab83c16aea7a25b0",
+  "exe_sha256": "c32d4f6bc732b67efa65d55bc5813bc74dcfb52b8616894b57ed7aeeeed2a1cd",
+  "cases": [
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 0,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 0,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 0,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 8,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 8,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 8,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 10,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 10,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 10,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 12,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 12,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 12,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 255,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 255,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 255,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 0,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 0,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 0,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 8,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 8,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 8,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 10,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 10,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 10,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 12,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 12,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 12,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 255,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 255,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 255,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 0,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 0,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 0,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 8,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 8,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 8,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 10,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 10,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 10,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 12,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 12,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 12,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 255,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 255,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 255,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 0,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 0,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 0,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 8,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 8,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 8,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 10,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 10,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 10,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 12,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 12,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 12,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 255,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 255,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 255,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 0,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 0,
+      "mode_11aa": 1,
+      "selected_driver": "startup-08",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 4608,
+          "bx": 16
+        },
+        {
+          "interrupt": 16,
+          "ax": 4,
+          "bx": 16
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 16
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 0,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 1,
+      "mode_11aa": 1,
+      "selected_driver": "startup-09",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 4608,
+          "bx": 16
+        },
+        {
+          "interrupt": 16,
+          "ax": 13,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 0,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 0,
+      "mode_11aa": 1,
+      "selected_driver": "startup-08",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 4608,
+          "bx": 16
+        },
+        {
+          "interrupt": 16,
+          "ax": 4,
+          "bx": 256
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 256
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 8,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 0,
+      "mode_11aa": 1,
+      "selected_driver": "startup-08",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 4608,
+          "bx": 16
+        },
+        {
+          "interrupt": 16,
+          "ax": 4,
+          "bx": 16
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 16
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 8,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 1,
+      "mode_11aa": 1,
+      "selected_driver": "startup-09",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 4608,
+          "bx": 16
+        },
+        {
+          "interrupt": 16,
+          "ax": 13,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 8,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 0,
+      "mode_11aa": 1,
+      "selected_driver": "startup-08",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 4608,
+          "bx": 16
+        },
+        {
+          "interrupt": 16,
+          "ax": 4,
+          "bx": 256
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 256
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 10,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 0,
+      "mode_11aa": 1,
+      "selected_driver": "startup-08",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 4608,
+          "bx": 16
+        },
+        {
+          "interrupt": 16,
+          "ax": 4,
+          "bx": 16
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 16
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 10,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 1,
+      "mode_11aa": 1,
+      "selected_driver": "startup-09",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 4608,
+          "bx": 16
+        },
+        {
+          "interrupt": 16,
+          "ax": 13,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 10,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 0,
+      "mode_11aa": 1,
+      "selected_driver": "startup-08",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 4608,
+          "bx": 16
+        },
+        {
+          "interrupt": 16,
+          "ax": 4,
+          "bx": 256
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 256
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 12,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 0,
+      "mode_11aa": 1,
+      "selected_driver": "startup-08",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 4608,
+          "bx": 16
+        },
+        {
+          "interrupt": 16,
+          "ax": 4,
+          "bx": 16
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 16
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 12,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 1,
+      "mode_11aa": 1,
+      "selected_driver": "startup-09",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 4608,
+          "bx": 16
+        },
+        {
+          "interrupt": 16,
+          "ax": 13,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 12,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 0,
+      "mode_11aa": 1,
+      "selected_driver": "startup-08",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 4608,
+          "bx": 16
+        },
+        {
+          "interrupt": 16,
+          "ax": 4,
+          "bx": 256
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 256
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 255,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 0,
+      "mode_11aa": 1,
+      "selected_driver": "startup-08",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 4608,
+          "bx": 16
+        },
+        {
+          "interrupt": 16,
+          "ax": 4,
+          "bx": 16
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 16
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 255,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 1,
+      "mode_11aa": 1,
+      "selected_driver": "startup-09",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 4608,
+          "bx": 16
+        },
+        {
+          "interrupt": 16,
+          "ax": 13,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 255,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 0,
+      "mode_11aa": 1,
+      "selected_driver": "startup-08",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 4608,
+          "bx": 16
+        },
+        {
+          "interrupt": 16,
+          "ax": 4,
+          "bx": 256
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 256
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 0,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 4,
+      "mode_11aa": 1,
+      "selected_driver": "startup-12",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 19,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 0,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 4,
+      "mode_11aa": 1,
+      "selected_driver": "startup-12",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 19,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 0,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 4,
+      "mode_11aa": 1,
+      "selected_driver": "startup-12",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 19,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 8,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 4,
+      "mode_11aa": 1,
+      "selected_driver": "startup-12",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 19,
+          "bx": 8
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 8
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 8,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 4,
+      "mode_11aa": 1,
+      "selected_driver": "startup-12",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 19,
+          "bx": 8
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 8
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 8,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 4,
+      "mode_11aa": 1,
+      "selected_driver": "startup-12",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 19,
+          "bx": 8
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 8
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 10,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 4,
+      "mode_11aa": 1,
+      "selected_driver": "startup-12",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 19,
+          "bx": 10
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 10
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 10,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 4,
+      "mode_11aa": 1,
+      "selected_driver": "startup-12",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 19,
+          "bx": 10
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 10
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 10,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 4,
+      "mode_11aa": 1,
+      "selected_driver": "startup-12",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 19,
+          "bx": 10
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 10
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 12,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 4,
+      "mode_11aa": 1,
+      "selected_driver": "startup-12",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 19,
+          "bx": 12
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 12
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 12,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 4,
+      "mode_11aa": 1,
+      "selected_driver": "startup-12",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 19,
+          "bx": 12
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 12
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 12,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 4,
+      "mode_11aa": 1,
+      "selected_driver": "startup-12",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 19,
+          "bx": 12
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 12
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 255,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 4,
+      "mode_11aa": 1,
+      "selected_driver": "startup-12",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 19,
+          "bx": 255
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 255
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 255,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 4,
+      "mode_11aa": 1,
+      "selected_driver": "startup-12",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 19,
+          "bx": 255
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 255
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 255,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 4,
+      "mode_11aa": 1,
+      "selected_driver": "startup-12",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 19,
+          "bx": 255
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 255
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 0,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 0,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 0,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 8,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 8,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 8,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 10,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 10,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 10,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 12,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 12,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 12,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 255,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 255,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 255,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 0,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 0,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 0,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 8,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 8,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 8,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 10,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 10,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 10,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 12,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 12,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 12,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 255,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 255,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 255,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 255,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 0,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 0,
+      "mode_11aa": 1,
+      "selected_driver": "startup-08",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 4608,
+          "bx": 16
+        },
+        {
+          "interrupt": 16,
+          "ax": 4,
+          "bx": 16
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 16
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 0,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 1,
+      "mode_11aa": 1,
+      "selected_driver": "startup-09",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 4608,
+          "bx": 16
+        },
+        {
+          "interrupt": 16,
+          "ax": 13,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 0,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 0,
+      "mode_11aa": 1,
+      "selected_driver": "startup-08",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 4608,
+          "bx": 16
+        },
+        {
+          "interrupt": 16,
+          "ax": 4,
+          "bx": 256
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 256
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 8,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 0,
+      "mode_11aa": 1,
+      "selected_driver": "startup-08",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 4608,
+          "bx": 16
+        },
+        {
+          "interrupt": 16,
+          "ax": 4,
+          "bx": 16
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 16
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 8,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 1,
+      "mode_11aa": 1,
+      "selected_driver": "startup-09",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 4608,
+          "bx": 16
+        },
+        {
+          "interrupt": 16,
+          "ax": 13,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 8,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 0,
+      "mode_11aa": 1,
+      "selected_driver": "startup-08",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 4608,
+          "bx": 16
+        },
+        {
+          "interrupt": 16,
+          "ax": 4,
+          "bx": 256
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 256
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 10,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 0,
+      "mode_11aa": 1,
+      "selected_driver": "startup-08",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 4608,
+          "bx": 16
+        },
+        {
+          "interrupt": 16,
+          "ax": 4,
+          "bx": 16
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 16
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 10,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 1,
+      "mode_11aa": 1,
+      "selected_driver": "startup-09",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 4608,
+          "bx": 16
+        },
+        {
+          "interrupt": 16,
+          "ax": 13,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 10,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 0,
+      "mode_11aa": 1,
+      "selected_driver": "startup-08",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 4608,
+          "bx": 16
+        },
+        {
+          "interrupt": 16,
+          "ax": 4,
+          "bx": 256
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 256
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 12,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 0,
+      "mode_11aa": 1,
+      "selected_driver": "startup-08",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 4608,
+          "bx": 16
+        },
+        {
+          "interrupt": 16,
+          "ax": 4,
+          "bx": 16
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 16
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 12,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 1,
+      "mode_11aa": 1,
+      "selected_driver": "startup-09",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 4608,
+          "bx": 16
+        },
+        {
+          "interrupt": 16,
+          "ax": 13,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 12,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 0,
+      "mode_11aa": 1,
+      "selected_driver": "startup-08",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 4608,
+          "bx": 16
+        },
+        {
+          "interrupt": 16,
+          "ax": 4,
+          "bx": 256
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 256
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 255,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 0,
+      "mode_11aa": 1,
+      "selected_driver": "startup-08",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 4608,
+          "bx": 16
+        },
+        {
+          "interrupt": 16,
+          "ax": 4,
+          "bx": 16
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 16
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 255,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 1,
+      "mode_11aa": 1,
+      "selected_driver": "startup-09",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 4608,
+          "bx": 16
+        },
+        {
+          "interrupt": 16,
+          "ax": 13,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 255,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 0,
+      "mode_11aa": 1,
+      "selected_driver": "startup-08",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 4608,
+          "bx": 16
+        },
+        {
+          "interrupt": 16,
+          "ax": 4,
+          "bx": 256
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 256
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 0,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 4,
+      "mode_11aa": 1,
+      "selected_driver": "startup-12",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 19,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 0,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 4,
+      "mode_11aa": 1,
+      "selected_driver": "startup-12",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 19,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 0,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 4,
+      "mode_11aa": 1,
+      "selected_driver": "startup-12",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 19,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 8,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 4,
+      "mode_11aa": 1,
+      "selected_driver": "startup-12",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 19,
+          "bx": 8
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 8
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 8,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 4,
+      "mode_11aa": 1,
+      "selected_driver": "startup-12",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 19,
+          "bx": 8
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 8
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 8,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 4,
+      "mode_11aa": 1,
+      "selected_driver": "startup-12",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 19,
+          "bx": 8
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 8
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 10,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 4,
+      "mode_11aa": 1,
+      "selected_driver": "startup-12",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 19,
+          "bx": 10
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 10
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 10,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 4,
+      "mode_11aa": 1,
+      "selected_driver": "startup-12",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 19,
+          "bx": 10
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 10
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 10,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 4,
+      "mode_11aa": 1,
+      "selected_driver": "startup-12",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 19,
+          "bx": 10
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 10
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 12,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 4,
+      "mode_11aa": 1,
+      "selected_driver": "startup-12",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 19,
+          "bx": 12
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 12
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 12,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 4,
+      "mode_11aa": 1,
+      "selected_driver": "startup-12",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 19,
+          "bx": 12
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 12
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 12,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 4,
+      "mode_11aa": 1,
+      "selected_driver": "startup-12",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 19,
+          "bx": 12
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 12
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 255,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 4,
+      "mode_11aa": 1,
+      "selected_driver": "startup-12",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 19,
+          "bx": 255
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 255
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 255,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 4,
+      "mode_11aa": 1,
+      "selected_driver": "startup-12",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 19,
+          "bx": 255
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 255
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 0,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 255,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 4,
+      "mode_11aa": 1,
+      "selected_driver": "startup-12",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6656,
+          "bx": 0
+        },
+        {
+          "interrupt": 16,
+          "ax": 19,
+          "bx": 255
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 255
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 0,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 0,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 0,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 8,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 8,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 8,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 10,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 10,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 10,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 12,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 12,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 12,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 255,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 255,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 0,
+        "bios_1a00_bl": 255,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 0,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 0,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 0,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 8,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 8,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 8,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 10,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 10,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 10,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 12,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 12,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 12,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 255,
+        "bios_12_bl": 16,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 255,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 0,
+        "rom_f000_fffe": 0,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 255,
+        "bios_12_bl": 0,
+        "bios_12_bh": 1,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 2,
+      "mode_11aa": 0,
+      "selected_driver": "startup-10",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 9,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 3,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 8,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 0
+      },
+      "palette_mode": 3,
+      "mode_11aa": 0,
+      "selected_driver": "startup-11",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 4,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    },
+    {
+      "inputs": {
+        "main_palette_argument": 3,
+        "rom_f000_fffe": 253,
+        "rom_f000_c000": 33,
+        "bios_1a00_al": 26,
+        "bios_1a00_bl": 8,
+        "bios_12_bl": 0,
+        "bios_12_bh": 0,
+        "initial_mode_11aa": 1
+      },
+      "palette_mode": 3,
+      "mode_11aa": 1,
+      "selected_driver": "startup-11",
+      "interrupt_calls": [
+        {
+          "interrupt": 16,
+          "ax": 4,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 13604,
+          "bx": 0
+        },
+        {
+          "interrupt": 33,
+          "ax": 9508,
+          "bx": 4660
+        }
+      ],
+      "port_writes": []
+    }
+  ],
+  "logical_profiles": [
+    {
+      "palette_mode": 0,
+      "id": "startup-08",
+      "offset": 170696,
+      "size": 2966,
+      "sha256": "b0a9473c3a1536f37598dde2fbe971603017939e1f3bfc757a5118d003416a90",
+      "bios_loader_mode": 4,
+      "profile": "CGA mapped packed pixels",
+      "stored_conversion_tables": {
+        "offsets": [
+          416,
+          672
+        ],
+        "sha256": "b68dbe878f8a90125a6855df82341697faa3741ab072b10e7da027f1544ddf98",
+        "hex": "0010101020202030001010102010303040505050606060704050505060507070405050506060607040505050605070704050505060606070405050506050707080909090a0a0a0b080909090a090b0b080909090a0a0a0b080909090a090b0b080909090a0a0a0b080909090a090b0b0c0d0d0d0e0e0e0f0c0d0d0d0e0d0f0f00010101020202030001010102010303040505050606060704050505060507070405050506060607040505050605070704050505060606070405050506050707080909090a0a0a0b080909090a090b0b040505050606060704050505060507070c0d0d0d0e0e0e0f0c0d0d0d0e0d0f0f0c0d0d0d0e0e0e0f0c0d0d0d0e0d0f0f000010101020202030001010102010303040505050606060704050505060507070405050506060607040505050605070704050505060606070405050506050707080909090a0a0a0b080909090a090b0b080909090a0a0a0b080909090a090b0b080909090a0a0a0b080909090a090b0b0c0d0d0d0e0e0e0f0c0d0d0d0e0d0f0f00010101020202030001010102010303040505050606060704050505060507070405050506060607040505050605070704050505060606070405050506050707080909090a0a0a0b080909090a090b0b040505050606060704050505060507070c0d0d0d0e0e0e0f0c0d0d0d0e0d0f0f0c0d0d0d0e0e0e0f0c0d0d0d0e0d0f0f"
+      },
+      "driver_first_copy_bios_calls": [],
+      "driver_first_copy_port_writes": [],
+      "external_dependency": "BIOS default attribute/palette/register values; adapter/monitor transfer function"
+    },
+    {
+      "palette_mode": 1,
+      "id": "startup-09",
+      "offset": 173662,
+      "size": 3531,
+      "sha256": "0bca3f46215509f3702fbd3bc16e3595203802edb3dbc562a50b89d450462e86",
+      "bios_loader_mode": 13,
+      "profile": "EGA four bitplanes",
+      "driver_first_copy_bios_calls": [],
+      "driver_first_copy_port_writes": [
+        [
+          964,
+          1,
+          2
+        ],
+        [
+          974,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ],
+        [
+          965,
+          1,
+          1
+        ],
+        [
+          965,
+          1,
+          2
+        ],
+        [
+          965,
+          1,
+          4
+        ],
+        [
+          965,
+          1,
+          8
+        ]
+      ],
+      "external_dependency": "BIOS default attribute/palette/register values; adapter/monitor transfer function"
+    },
+    {
+      "palette_mode": 2,
+      "id": "startup-10",
+      "offset": 177193,
+      "size": 3037,
+      "sha256": "870c27c42c1b8f9f5ed18c80d4bec42777868b5bee37e3da33d649725dbebe19",
+      "bios_loader_mode": 9,
+      "profile": "Tandy/PCjr packed nibbles",
+      "driver_first_copy_bios_calls": [],
+      "driver_first_copy_port_writes": [],
+      "external_dependency": "BIOS default attribute/palette/register values; adapter/monitor transfer function"
+    },
+    {
+      "palette_mode": 3,
+      "id": "startup-11",
+      "offset": 180230,
+      "size": 2996,
+      "sha256": "8e0148d4ae403637808e6d71da8ebbf1937dc42c48aa1c31c291d9ec593490e5",
+      "bios_loader_mode": 4,
+      "profile": "CGA composite bit patterns",
+      "stored_conversion_tables": {
+        "offsets": [
+          416,
+          672
+        ],
+        "sha256": "1b612a774c305121fe0c26c744bb6da79ccb3e0c32c8411c3410705689f247a6",
+        "hex": "0020103000000030002030300020103000201030000000300020303000201030002010300000003000203030002010300020103000000030002030300020103080a090b0808080b080a0b0b080a090b04060507040404070406070704060507080a090b0808080b080a0b0b080a090b04060507040404070406070704060507000201030000000300020303000201030406050704040407040607070406050700020103000000030002030300020103040605070404040704060707040605070c0e0d0f0c0c0c0f0c0e0f0f0c0e0d0f0c0e0d0f0c0c0c0f0c0e0f0f0c0e0d0f080a090b0808080b080a0b0b080a090b0c0e0d0f0c0c0c0f0c0e0f0f0c0e0d0f000020103000000030002030300020103000201030000000300020303000201030002010300000003000203030002010300020103000000030002030300020103080a090b0808080b080a0b0b080a090b04060507040404070406070704060507080a090b0808080b080a0b0b080a090b04060507040404070406070704060507000201030000000300020303000201030406050704040407040607070406050700020103000000030002030300020103040605070404040704060707040605070c0e0d0f0c0c0c0f0c0e0f0f0c0e0d0f0c0e0d0f0c0c0c0f0c0e0f0f0c0e0d0f080a090b0808080b080a0b0b080a090b0c0e0d0f0c0c0c0f0c0e0f0f0c0e0d0f"
+      },
+      "driver_first_copy_bios_calls": [
+        {
+          "interrupt": 16,
+          "ax": 6
+        }
+      ],
+      "driver_first_copy_port_writes": [
+        [
+          984,
+          1,
+          26
+        ]
+      ],
+      "external_dependency": "BIOS default attribute/palette/register values; adapter/monitor transfer function"
+    },
+    {
+      "palette_mode": 4,
+      "id": "startup-12",
+      "offset": 183226,
+      "size": 2500,
+      "sha256": "b9509c6b7f543b5ce036f5e35f340fb8a8298cc235eebb155909111a2ea82c54",
+      "bios_loader_mode": 19,
+      "profile": "VGA indexed pixels",
+      "driver_first_copy_bios_calls": [],
+      "driver_first_copy_port_writes": [],
+      "external_dependency": "BIOS default attribute/palette/register values; adapter/monitor transfer function"
+    }
+  ],
+  "game_determined": [
+    "Driver selection from ROM predicates and BIOS responses",
+    "Mode requests04h/09h/0Dh/13h; composite first-copy06h plus port3D8=1Ah",
+    "Both shipped CGA conversion tables per driver08/11",
+    "EGA source-index bitplane mapping, packed mode09h nibbles, VGA source-nibble indices"
+  ],
+  "not_stored_asset_data": [
+    "Adapter BIOS default palette/register state after requested mode",
+    "Analogue RGB/composite response and physical monitor transfer function"
+  ],
+  "closed_scope": "All five original loader selection branches and entry0 logical index/bit-pattern transforms",
+  "remaining_engine_validation": [
+    "Other three driver entrypoints and alignment/clipping variants",
+    "Actual BIOS execution/capture per additional hardware profile if physical-colour presentation is required"
+  ],
+  "limits": [
+    "BIOS/DOS responses are explicit fixture inputs, not hardware observations",
+    "Main command parsing and startup[8+palette_mode] dispatch tied to matched source in display_profiles_v1",
+    "No RGB assumption for opaque startup03 suffix"
+  ],
+  "canonical_credit_added": 0
+}

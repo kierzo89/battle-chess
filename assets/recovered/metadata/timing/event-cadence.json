@@ -1,0 +1,162 @@
+{
+  "status": "PASS_NATIVE_EVENT_TIMER_GATE_AND_INPUT_PRIORITY",
+  "native_exe_sha256": "c32d4f6bc732b67efa65d55bc5813bc74dcfb52b8616894b57ed7aeeeed2a1cd",
+  "native_function_hashes": {
+    "next_event184D_202": "ed91a029a3ae1b7c905b4b84271d1c49e95f66c1956414708a6ac59f6ab646df",
+    "ticksEA5B_9": "6f8d6c0d4d2e7af0dfbc00616221ebfdd56eab59acc0742d4c77cfb176e5affa"
+  },
+  "checks": [
+    {
+      "name": "two_tick_threshold",
+      "inputs": {
+        "ticks": [
+          100,
+          101,
+          102
+        ],
+        "last": 100
+      },
+      "result": {
+        "return_pointer": 114,
+        "last_event_ticks": 102,
+        "calls": {
+          "bios": [
+            100,
+            101,
+            102
+          ],
+          "poll": 3,
+          "pump": 0,
+          "handle": 0,
+          "queue_advance": 0
+        }
+      }
+    },
+    {
+      "name": "late_poll_does_not_catch_up",
+      "inputs": {
+        "ticks": [
+          110
+        ],
+        "last": 100
+      },
+      "result": {
+        "return_pointer": 114,
+        "last_event_ticks": 110,
+        "calls": {
+          "bios": [
+            110
+          ],
+          "poll": 1,
+          "pump": 0,
+          "handle": 0,
+          "queue_advance": 0
+        }
+      }
+    },
+    {
+      "name": "queued_event_priority",
+      "inputs": {
+        "ticks": [
+          200
+        ],
+        "last": 100,
+        "queued": true
+      },
+      "result": {
+        "return_pointer": 4096,
+        "last_event_ticks": 100,
+        "calls": {
+          "bios": [
+            200
+          ],
+          "poll": 0,
+          "pump": 0,
+          "handle": 0,
+          "queue_advance": 1
+        }
+      }
+    },
+    {
+      "name": "physical_event_priority",
+      "inputs": {
+        "ticks": [
+          200,
+          200
+        ],
+        "last": 100,
+        "physical": true
+      },
+      "result": {
+        "return_pointer": 4096,
+        "last_event_ticks": 100,
+        "calls": {
+          "bios": [
+            200,
+            200
+          ],
+          "poll": 1,
+          "pump": 0,
+          "handle": 1,
+          "queue_advance": 1
+        }
+      }
+    },
+    {
+      "name": "alternate_mode_uses_queue_pump",
+      "inputs": {
+        "ticks": [],
+        "last": 100,
+        "alternate": true
+      },
+      "result": {
+        "return_pointer": 4096,
+        "last_event_ticks": 100,
+        "calls": {
+          "bios": [],
+          "poll": 0,
+          "pump": 2,
+          "handle": 0,
+          "queue_advance": 1
+        }
+      }
+    }
+  ],
+  "substitutions": [
+    "BIOS INT1A ticks supplied as explicit finite values",
+    "poll_event physical input result",
+    "handle_input queues one declared event",
+    "pump_input alternate-mode queue producer",
+    "far queue cursor advancement",
+    "__chkstk bounded local allocation"
+  ],
+  "findings": [
+    "Normal-mode tick events require unsigned elapsed BIOS ticks>=2; queued and physical events have priority",
+    "After a late event, last_event_ticks becomes current sampled time: no catch-up loop for missed animation frames",
+    "Alternate mode bypasses this BIOS fallback and consumes pump_input queue events",
+    "Therefore delay metadata is in eligible dispatch calls; constant wall-clock FPS cannot be guaranteed"
+  ],
+  "limits": [
+    "BIOS clock frequency and real scheduler/device latency are not measured",
+    "Only five declared environment scenarios; original GUI loop and arbitrary queue states not run"
+  ],
+  "canonical_credit_added": 0,
+  "input_pins": [
+    {
+      "path": "asset_recovery/animation_timing_v2/event_tick_oracle.py",
+      "sha256": "87932b1900498573841d982d1ef1d205b710e94dba67cb92c6125a0df9971eba"
+    },
+    {
+      "path": "matching/src/next_event_184d_match.c",
+      "sha256": "b0d3f2bd36c36aeb6233781b7196fb7e5f7c5cd0af91cf15cd80587a44b67b9c"
+    },
+    {
+      "path": "matching/asm/link/bios_input_omf.asm",
+      "sha256": "c020eb418999014cd0a671e6f4009e3d178b7b79eb139e0df90c235a56c766c1"
+    },
+    {
+      "path": "matching/evidence/rea_next_event_184d_original_context.json",
+      "sha256": "0f6fd7165645ad5b75a6cc1bb2dbc5ffd65265677edd4c33c51b64fbd6205e76"
+    }
+  ]
+}

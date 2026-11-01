@@ -1,0 +1,17 @@
+{
+  "status": "PASS_NATIVE_ANIMATION_TASK_VARIANTS",
+  "total_cases": 1728,
+  "simple_cases": 960,
+  "turn_cases": 480,
+  "capture_cases": 288,
+  "canonical_credit_added": 0,
+  "files": {
+    "asset_recovery/animation_tasks_v3/native_tasks.py": "6bb368f30659c9e846e43e1bf49de83667bd72bfe47ac3438ed934ae741abad9",
+    "asset_recovery/animation_tasks_v3/verify.py": "b45020f551ff59cc4864e98af69f000fcac2e037abf1e94a14e060f6625f7c39",
+    "asset_recovery/animation_tasks_v3/extended.py": "eb423780cab915220ac809813cfd4e7b8c3c6346be7126f309a71a5b9267c1c1",
+    "asset_recovery/animation_tasks_v3/simple-tasks.json": "720e100ac6a1540c1247d40d8f1a576aef9a5c6029ea256d541f5e208cd98802",
+    "asset_recovery/animation_tasks_v3/capture-tasks.json": "37f37ede01a417a2e9f3f33fde52a18ea6f576497f446d1c7f088ab330019fad",
+    "asset_recovery/animation_tasks_v3/turn-tasks.json": "262bf163bc5d1e175b2f3bade4b21018f204950569e0c55dc06548ea3c9c4dd1",
+    "asset_recovery/animation_tasks_v3/README.md": "b148403120d5eff6d4aa18c1715f55651bdf5d8956abd6af931566ac876ea28b"
+  }
+}

@@ -1,0 +1,324 @@
+{
+  "id": "pair-05-list-10",
+  "status": "INDEXED_FRAMES_NATIVE_COMPOSITOR_VERIFIED",
+  "pair": 5,
+  "list": 10,
+  "initial_frame": {
+    "bank": "ALLCANM1",
+    "setup_pair": 0,
+    "frame": 34,
+    "native_global_index": 51
+  },
+  "delta_indices": [
+    59,
+    41,
+    40,
+    39,
+    38,
+    37,
+    36,
+    35
+  ],
+  "frames": [
+    {
+      "step": 0,
+      "delta_record": null,
+      "width": 37,
+      "height": 39,
+      "storage_width": 40,
+      "anchor_x": 20,
+      "anchor_y": 37,
+      "packed_file": "frame-000.packed.bin",
+      "packed_sha256": "1f7ed21aea99f9cbbc21b2e515935cec160591d80caf44d9a1a10154e00db156",
+      "indices_file": "frame-000.indices.bin",
+      "indices_sha256": "c1843da80691b7ab6e8f9200517e9dab607e0d18746d25779670c15dac810630",
+      "native_composition": {
+        "scope": "Initial base frame already decoded and native2D13-XOR verified"
+      }
+    },
+    {
+      "step": 1,
+      "delta_record": 59,
+      "width": 37,
+      "height": 39,
+      "storage_width": 40,
+      "anchor_x": 20,
+      "anchor_y": 37,
+      "packed_file": "frame-001.packed.bin",
+      "packed_sha256": "70fc3c870e2c96ff81b71ba5bf3504fbd669becfc1d3acd43c8e4f68d8053dbf",
+      "indices_file": "frame-001.indices.bin",
+      "indices_sha256": "357f7e109598b5c34dc8e790513ec3f9a65eac07655d91500b1816305358bbb6",
+      "native_composition": {
+        "descriptor": [
+          37,
+          39,
+          20,
+          37
+        ],
+        "pixel_sha256": "70fc3c870e2c96ff81b71ba5bf3504fbd669becfc1d3acd43c8e4f68d8053dbf",
+        "pixel_bytes": 780,
+        "native_compositor_sha256": "652533f487715c6f9efb58a0069b9acdbe56d1abfd713ea25c0cb433710709ac",
+        "rea_evidence_id": "ev_17f7b788b942ec355e444ff426595d42869fe735b076afcf54e59159372377b4",
+        "native_blitter_sha256": "b0ecd1cdd770e59496fadff556a4dededdd97e12e44e5e0135f4244a9ca9b64b",
+        "chkstk_calls": [
+          18,
+          0
+        ],
+        "native_writes_checked": 2960,
+        "output_footprint_bound": 783,
+        "source_pixels_immutable": true,
+        "outer_guards_preserved": true,
+        "original_fill_and_blitter_executed": true
+      }
+    },
+    {
+      "step": 2,
+      "delta_record": 41,
+      "width": 38,
+      "height": 41,
+      "storage_width": 40,
+      "anchor_x": 21,
+      "anchor_y": 39,
+      "packed_file": "frame-002.packed.bin",
+      "packed_sha256": "8a6d97b166f003672df330ff5f4e8f8537b1b11e87bcc8a399bf606df38314cb",
+      "indices_file": "frame-002.indices.bin",
+      "indices_sha256": "1d5b7eb79b33b81d76da5d45417c722630a054b3970978c096fa54d67af2c7fa",
+      "native_composition": {
+        "descriptor": [
+          38,
+          41,
+          21,
+          39
+        ],
+        "pixel_sha256": "8a6d97b166f003672df330ff5f4e8f8537b1b11e87bcc8a399bf606df38314cb",
+        "pixel_bytes": 820,
+        "native_compositor_sha256": "652533f487715c6f9efb58a0069b9acdbe56d1abfd713ea25c0cb433710709ac",
+        "rea_evidence_id": "ev_17f7b788b942ec355e444ff426595d42869fe735b076afcf54e59159372377b4",
+        "native_blitter_sha256": "b0ecd1cdd770e59496fadff556a4dededdd97e12e44e5e0135f4244a9ca9b64b",
+        "chkstk_calls": [
+          18,
+          0
+        ],
+        "native_writes_checked": 3494,
+        "output_footprint_bound": 823,
+        "source_pixels_immutable": true,
+        "outer_guards_preserved": true,
+        "original_fill_and_blitter_executed": true
+      }
+    },
+    {
+      "step": 3,
+      "delta_record": 40,
+      "width": 39,
+      "height": 41,
+      "storage_width": 40,
+      "anchor_x": 21,
+      "anchor_y": 39,
+      "packed_file": "frame-003.packed.bin",
+      "packed_sha256": "db7781cac3d51d5817f49e8b75a6fcbc7eeffa11b86379213ac512331588f53e",
+      "indices_file": "frame-003.indices.bin",
+      "indices_sha256": "8883552e372243e42f62873ae2a2dc43dcdc31c8f9eb77047f51f72f463fb472",
+      "native_composition": {
+        "descriptor": [
+          39,
+          41,
+          21,
+          39
+        ],
+        "pixel_sha256": "db7781cac3d51d5817f49e8b75a6fcbc7eeffa11b86379213ac512331588f53e",
+        "pixel_bytes": 820,
+        "native_compositor_sha256": "652533f487715c6f9efb58a0069b9acdbe56d1abfd713ea25c0cb433710709ac",
+        "rea_evidence_id": "ev_17f7b788b942ec355e444ff426595d42869fe735b076afcf54e59159372377b4",
+        "native_blitter_sha256": "b0ecd1cdd770e59496fadff556a4dededdd97e12e44e5e0135f4244a9ca9b64b",
+        "chkstk_calls": [
+          18,
+          0
+        ],
+        "native_writes_checked": 3617,
+        "output_footprint_bound": 861,
+        "source_pixels_immutable": true,
+        "outer_guards_preserved": true,
+        "original_fill_and_blitter_executed": true
+      }
+    },
+    {
+      "step": 4,
+      "delta_record": 39,
+      "width": 39,
+      "height": 41,
+      "storage_width": 40,
+      "anchor_x": 21,
+      "anchor_y": 39,
+      "packed_file": "frame-004.packed.bin",
+      "packed_sha256": "2fb77dccaf300a01911042b383fb34cd102fff8f3bd9a727a4fba481c99bb707",
+      "indices_file": "frame-004.indices.bin",
+      "indices_sha256": "71490ecc94459b9bc084f691030a7a69e4250a18df9e8ff6cb48923b831b4248",
+      "native_composition": {
+        "descriptor": [
+          39,
+          41,
+          21,
+          39
+        ],
+        "pixel_sha256": "2fb77dccaf300a01911042b383fb34cd102fff8f3bd9a727a4fba481c99bb707",
+        "pixel_bytes": 820,
+        "native_compositor_sha256": "652533f487715c6f9efb58a0069b9acdbe56d1abfd713ea25c0cb433710709ac",
+        "rea_evidence_id": "ev_17f7b788b942ec355e444ff426595d42869fe735b076afcf54e59159372377b4",
+        "native_blitter_sha256": "b0ecd1cdd770e59496fadff556a4dededdd97e12e44e5e0135f4244a9ca9b64b",
+        "chkstk_calls": [
+          18,
+          0
+        ],
+        "native_writes_checked": 3617,
+        "output_footprint_bound": 861,
+        "source_pixels_immutable": true,
+        "outer_guards_preserved": true,
+        "original_fill_and_blitter_executed": true
+      }
+    },
+    {
+      "step": 5,
+      "delta_record": 38,
+      "width": 39,
+      "height": 41,
+      "storage_width": 40,
+      "anchor_x": 21,
+      "anchor_y": 39,
+      "packed_file": "frame-005.packed.bin",
+      "packed_sha256": "ca381b84f4d9f8652d68bc31e0c8a3a9af5dfae45868a70dacc9484e1cc9302e",
+      "indices_file": "frame-005.indices.bin",
+      "indices_sha256": "94fc956cc1e932e1e0b121eb02d01293efea771c5aadea8ca662371ee1128768",
+      "native_composition": {
+        "descriptor": [
+          39,
+          41,
+          21,
+          39
+        ],
+        "pixel_sha256": "ca381b84f4d9f8652d68bc31e0c8a3a9af5dfae45868a70dacc9484e1cc9302e",
+        "pixel_bytes": 820,
+        "native_compositor_sha256": "652533f487715c6f9efb58a0069b9acdbe56d1abfd713ea25c0cb433710709ac",
+        "rea_evidence_id": "ev_17f7b788b942ec355e444ff426595d42869fe735b076afcf54e59159372377b4",
+        "native_blitter_sha256": "b0ecd1cdd770e59496fadff556a4dededdd97e12e44e5e0135f4244a9ca9b64b",
+        "chkstk_calls": [
+          18,
+          0
+        ],
+        "native_writes_checked": 3567,
+        "output_footprint_bound": 861,
+        "source_pixels_immutable": true,
+        "outer_guards_preserved": true,
+        "original_fill_and_blitter_executed": true
+      }
+    },
+    {
+      "step": 6,
+      "delta_record": 37,
+      "width": 39,
+      "height": 41,
+      "storage_width": 40,
+      "anchor_x": 21,
+      "anchor_y": 39,
+      "packed_file": "frame-006.packed.bin",
+      "packed_sha256": "f7bbc642b33a8c3055fc1c492c44ed32e8b81494995586c2e8fa982f12a2148c",
+      "indices_file": "frame-006.indices.bin",
+      "indices_sha256": "08dfdc48e7ae2b4e4a6dc2192211e04c75422e17b1232c54ed31837c95c323b6",
+      "native_composition": {
+        "descriptor": [
+          39,
+          41,
+          21,
+          39
+        ],
+        "pixel_sha256": "f7bbc642b33a8c3055fc1c492c44ed32e8b81494995586c2e8fa982f12a2148c",
+        "pixel_bytes": 820,
+        "native_compositor_sha256": "652533f487715c6f9efb58a0069b9acdbe56d1abfd713ea25c0cb433710709ac",
+        "rea_evidence_id": "ev_17f7b788b942ec355e444ff426595d42869fe735b076afcf54e59159372377b4",
+        "native_blitter_sha256": "b0ecd1cdd770e59496fadff556a4dededdd97e12e44e5e0135f4244a9ca9b64b",
+        "chkstk_calls": [
+          18,
+          0
+        ],
+        "native_writes_checked": 3545,
+        "output_footprint_bound": 861,
+        "source_pixels_immutable": true,
+        "outer_guards_preserved": true,
+        "original_fill_and_blitter_executed": true
+      }
+    },
+    {
+      "step": 7,
+      "delta_record": 36,
+      "width": 39,
+      "height": 41,
+      "storage_width": 40,
+      "anchor_x": 21,
+      "anchor_y": 39,
+      "packed_file": "frame-007.packed.bin",
+      "packed_sha256": "31cfcb598c839b610b5de1c1f7770e1a98b66717596d2025b50354534c5b0501",
+      "indices_file": "frame-007.indices.bin",
+      "indices_sha256": "c0f43aee8405ce4119b685ae9b14123f516a4520c5dd5d9de9d971ebcb75008e",
+      "native_composition": {
+        "descriptor": [
+          39,
+          41,
+          21,
+          39
+        ],
+        "pixel_sha256": "31cfcb598c839b610b5de1c1f7770e1a98b66717596d2025b50354534c5b0501",
+        "pixel_bytes": 820,
+        "native_compositor_sha256": "652533f487715c6f9efb58a0069b9acdbe56d1abfd713ea25c0cb433710709ac",
+        "rea_evidence_id": "ev_17f7b788b942ec355e444ff426595d42869fe735b076afcf54e59159372377b4",
+        "native_blitter_sha256": "b0ecd1cdd770e59496fadff556a4dededdd97e12e44e5e0135f4244a9ca9b64b",
+        "chkstk_calls": [
+          18,
+          0
+        ],
+        "native_writes_checked": 3366,
+        "output_footprint_bound": 861,
+        "source_pixels_immutable": true,
+        "outer_guards_preserved": true,
+        "original_fill_and_blitter_executed": true
+      }
+    },
+    {
+      "step": 8,
+      "delta_record": 35,
+      "width": 39,
+      "height": 41,
+      "storage_width": 40,
+      "anchor_x": 21,
+      "anchor_y": 39,
+      "packed_file": "frame-008.packed.bin",
+      "packed_sha256": "77568ab45680c5a53471556046dcd933a67fceaa42d5df4873995680efbeb88e",
+      "indices_file": "frame-008.indices.bin",
+      "indices_sha256": "d71da1d09f57804c5003ca4d3fc049fe735a58efe0e165d4dfe5c5999bd6ebe0",
+      "native_composition": {
+        "descriptor": [
+          39,
+          41,
+          21,
+          39
+        ],
+        "pixel_sha256": "77568ab45680c5a53471556046dcd933a67fceaa42d5df4873995680efbeb88e",
+        "pixel_bytes": 820,
+        "native_compositor_sha256": "652533f487715c6f9efb58a0069b9acdbe56d1abfd713ea25c0cb433710709ac",
+        "rea_evidence_id": "ev_17f7b788b942ec355e444ff426595d42869fe735b076afcf54e59159372377b4",
+        "native_blitter_sha256": "b0ecd1cdd770e59496fadff556a4dededdd97e12e44e5e0135f4244a9ca9b64b",
+        "chkstk_calls": [
+          18,
+          0
+        ],
+        "native_writes_checked": 3545,
+        "output_footprint_bound": 861,
+        "source_pixels_immutable": true,
+        "outer_guards_preserved": true,
+        "original_fill_and_blitter_executed": true
+      }
+    }
+  ],
+  "sprite_transparent_index": 0,
+  "RGB_palette_claimed": false,
+  "final_pair29_native_row_scope_hold": false,
+  "playback_context": "Flat-board setup0 initial frames for motion; native subsequent-basic-pair mapping for capture; controls/FPS remain separate"
+}

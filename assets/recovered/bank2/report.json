@@ -1,0 +1,546 @@
+{
+  "status": "PASS_ALLCANM2_SYMBOL_REENCODE_EXACT_BANK",
+  "bank_bytes": 339592,
+  "bank_sha256": "114a46f323f6766396eba42bd741768e415ded55685ee0778f127a48377c084d",
+  "record_count": 60,
+  "compressed_streams": 30,
+  "frame_records": 1605,
+  "pairs": [
+    {
+      "pair": 0,
+      "symbols_sha256": "e5bb2ccf21eae316d4402fbf5cad93881c6888a22a6728827451cedadb739ad2",
+      "symbols_bytes": 11362,
+      "frame_records": 37,
+      "native_comparison": "RETAINED_STRICT_NATIVE_OUTPUT_EXACT",
+      "exact_reencoding": true,
+      "independent": {
+        "declared_bytes": 11362,
+        "tree_bits": 2308,
+        "consumed_bits_after_header": 44489,
+        "trailing_bits": 7,
+        "tree_leaves": 210,
+        "max_depth": 13,
+        "skipped_header_hex": "d0ad0000"
+      }
+    },
+    {
+      "pair": 1,
+      "symbols_sha256": "712bf5e14c268d97f434fb7c88f62ae6b5fc3ae96f9d0b25ae442118dec0c1a2",
+      "symbols_bytes": 27216,
+      "frame_records": 48,
+      "native_comparison": "RETAINED_STRICT_NATIVE_OUTPUT_EXACT",
+      "exact_reencoding": true,
+      "independent": {
+        "declared_bytes": 27216,
+        "tree_bits": 2671,
+        "consumed_bits_after_header": 97599,
+        "trailing_bits": 1,
+        "tree_leaves": 243,
+        "max_depth": 15,
+        "skipped_header_hex": "467d0100"
+      }
+    },
+    {
+      "pair": 2,
+      "symbols_sha256": "bb64366cec485f948e449dff34e5291147ce22842b5709f14d009b89e9007523",
+      "symbols_bytes": 18278,
+      "frame_records": 40,
+      "native_comparison": "RETAINED_STRICT_NATIVE_OUTPUT_EXACT",
+      "exact_reencoding": true,
+      "independent": {
+        "declared_bytes": 18278,
+        "tree_bits": 2033,
+        "consumed_bits_after_header": 76833,
+        "trailing_bits": 7,
+        "tree_leaves": 185,
+        "max_depth": 14,
+        "skipped_header_hex": "282c0100"
+      }
+    },
+    {
+      "pair": 3,
+      "symbols_sha256": "5a99f3d29c1b14ddd1afed76f38ac00edc79d686b5b9ab6e4f43c13e9d04fe47",
+      "symbols_bytes": 25953,
+      "frame_records": 62,
+      "native_comparison": "RETAINED_STRICT_NATIVE_OUTPUT_EXACT",
+      "exact_reencoding": true,
+      "independent": {
+        "declared_bytes": 25953,
+        "tree_bits": 2682,
+        "consumed_bits_after_header": 110163,
+        "trailing_bits": 5,
+        "tree_leaves": 244,
+        "max_depth": 15,
+        "skipped_header_hex": "5aae0100"
+      }
+    },
+    {
+      "pair": 4,
+      "symbols_sha256": "9cd453e14377aba956f776b2931fb96e5692a88adae58a4f8a0ee7757888e34e",
+      "symbols_bytes": 19654,
+      "frame_records": 64,
+      "native_comparison": "RETAINED_STRICT_NATIVE_OUTPUT_EXACT",
+      "exact_reencoding": true,
+      "independent": {
+        "declared_bytes": 19654,
+        "tree_bits": 2110,
+        "consumed_bits_after_header": 66710,
+        "trailing_bits": 2,
+        "tree_leaves": 192,
+        "max_depth": 14,
+        "skipped_header_hex": "9d040100"
+      }
+    },
+    {
+      "pair": 5,
+      "symbols_sha256": "8d9e9ad93df5af7b1879238c49e9b9929ba1406f8aca06b53f3d16183764527b",
+      "symbols_bytes": 52320,
+      "frame_records": 81,
+      "native_comparison": "RETAINED_STRICT_NATIVE_OUTPUT_EXACT",
+      "exact_reencoding": true,
+      "independent": {
+        "declared_bytes": 52320,
+        "tree_bits": 581,
+        "consumed_bits_after_header": 170261,
+        "trailing_bits": 3,
+        "tree_leaves": 53,
+        "max_depth": 14,
+        "skipped_header_hex": "1c990200"
+      }
+    },
+    {
+      "pair": 6,
+      "symbols_sha256": "6e0d5a4ba8745eb4c3f3494589d542b9388a72383b20d799eb26de5563016aaf",
+      "symbols_bytes": 90135,
+      "frame_records": 140,
+      "native_comparison": "RETAINED_STRICT_NATIVE_OUTPUT_EXACT",
+      "exact_reencoding": true,
+      "independent": {
+        "declared_bytes": 90135,
+        "tree_bits": 2583,
+        "consumed_bits_after_header": 237736,
+        "trailing_bits": 0,
+        "tree_leaves": 235,
+        "max_depth": 16,
+        "skipped_header_hex": "afa00300"
+      }
+    },
+    {
+      "pair": 7,
+      "symbols_sha256": "d1f52b587282f8bbf5b32a8c62d08fa643700e1e9e6a648c60bd21288958f5a1",
+      "symbols_bytes": 5405,
+      "frame_records": 6,
+      "native_comparison": "RETAINED_STRICT_NATIVE_OUTPUT_EXACT",
+      "exact_reencoding": true,
+      "independent": {
+        "declared_bytes": 5405,
+        "tree_bits": 933,
+        "consumed_bits_after_header": 11146,
+        "trailing_bits": 6,
+        "tree_leaves": 85,
+        "max_depth": 11,
+        "skipped_header_hex": "912b0000"
+      }
+    },
+    {
+      "pair": 8,
+      "symbols_sha256": "03960e2d4c8d06cad587aa9994aa47b4be9a85527c824b6ff12752920da4fa74",
+      "symbols_bytes": 59328,
+      "frame_records": 92,
+      "native_comparison": "RETAINED_STRICT_NATIVE_OUTPUT_EXACT",
+      "exact_reencoding": true,
+      "independent": {
+        "declared_bytes": 59328,
+        "tree_bits": 2528,
+        "consumed_bits_after_header": 162900,
+        "trailing_bits": 4,
+        "tree_leaves": 230,
+        "max_depth": 15,
+        "skipped_header_hex": "5b7c0200"
+      }
+    },
+    {
+      "pair": 9,
+      "symbols_sha256": "04727aa3055a82edaa9679e1704d6c166719a62a250ce5bda4447135eed0d94e",
+      "symbols_bytes": 1610,
+      "frame_records": 2,
+      "native_comparison": "RETAINED_STRICT_NATIVE_OUTPUT_EXACT",
+      "exact_reencoding": true,
+      "independent": {
+        "declared_bytes": 1610,
+        "tree_bits": 647,
+        "consumed_bits_after_header": 4078,
+        "trailing_bits": 2,
+        "tree_leaves": 59,
+        "max_depth": 10,
+        "skipped_header_hex": "f50f0000"
+      }
+    },
+    {
+      "pair": 10,
+      "symbols_sha256": "9c9873f52de071c2276c5a28e9523a4e4219fae547e932d220dd8ce2c5dcf148",
+      "symbols_bytes": 54896,
+      "frame_records": 155,
+      "native_comparison": "RETAINED_STRICT_NATIVE_OUTPUT_EXACT",
+      "exact_reencoding": true,
+      "independent": {
+        "declared_bytes": 54896,
+        "tree_bits": 2671,
+        "consumed_bits_after_header": 204638,
+        "trailing_bits": 2,
+        "tree_leaves": 243,
+        "max_depth": 16,
+        "skipped_header_hex": "651f0300"
+      }
+    },
+    {
+      "pair": 11,
+      "symbols_sha256": "d16c6293a187687d8f36bdc1bd01c8b95ce738149c0e041417cf556e822e8d99",
+      "symbols_bytes": 2864,
+      "frame_records": 5,
+      "native_comparison": "RETAINED_STRICT_NATIVE_OUTPUT_EXACT",
+      "exact_reencoding": true,
+      "independent": {
+        "declared_bytes": 2864,
+        "tree_bits": 1230,
+        "consumed_bits_after_header": 8583,
+        "trailing_bits": 1,
+        "tree_leaves": 112,
+        "max_depth": 11,
+        "skipped_header_hex": "8e210000"
+      }
+    },
+    {
+      "pair": 12,
+      "symbols_sha256": "f9b84b5b23cb2541c2c2a259d2f72163de5a9babd9cc423ee946d032a919f810",
+      "symbols_bytes": 59292,
+      "frame_records": 132,
+      "native_comparison": "RETAINED_STRICT_NATIVE_OUTPUT_EXACT",
+      "exact_reencoding": true,
+      "independent": {
+        "declared_bytes": 59292,
+        "tree_bits": 2704,
+        "consumed_bits_after_header": 202733,
+        "trailing_bits": 3,
+        "tree_leaves": 246,
+        "max_depth": 16,
+        "skipped_header_hex": "f4170300"
+      }
+    },
+    {
+      "pair": 13,
+      "symbols_sha256": "160aafa68fb602db926885ba580ae833cc939a586823e6c5113a4b7fea93736c",
+      "symbols_bytes": 3166,
+      "frame_records": 5,
+      "native_comparison": "RETAINED_STRICT_NATIVE_OUTPUT_EXACT",
+      "exact_reencoding": true,
+      "independent": {
+        "declared_bytes": 3166,
+        "tree_bits": 1329,
+        "consumed_bits_after_header": 10507,
+        "trailing_bits": 5,
+        "tree_leaves": 121,
+        "max_depth": 11,
+        "skipped_header_hex": "12290000"
+      }
+    },
+    {
+      "pair": 14,
+      "symbols_sha256": "a04b9c8b3016ab49f6ffdcc3aff0d51245fa28dd000eec7ff54616164542a7ee",
+      "symbols_bytes": 84018,
+      "frame_records": 159,
+      "native_comparison": "RETAINED_STRICT_NATIVE_OUTPUT_EXACT",
+      "exact_reencoding": true,
+      "independent": {
+        "declared_bytes": 84018,
+        "tree_bits": 2671,
+        "consumed_bits_after_header": 240336,
+        "trailing_bits": 0,
+        "tree_leaves": 243,
+        "max_depth": 16,
+        "skipped_header_hex": "d7aa0300"
+      }
+    },
+    {
+      "pair": 15,
+      "symbols_sha256": "7d2b68b44280e5341ef7de4641d47c76f073c7ef838f9fe58b5d8e8ed7d8ee2e",
+      "symbols_bytes": 4226,
+      "frame_records": 5,
+      "native_comparison": "RETAINED_STRICT_NATIVE_OUTPUT_EXACT",
+      "exact_reencoding": true,
+      "independent": {
+        "declared_bytes": 4226,
+        "tree_bits": 955,
+        "consumed_bits_after_header": 9818,
+        "trailing_bits": 6,
+        "tree_leaves": 87,
+        "max_depth": 11,
+        "skipped_header_hex": "61260000"
+      }
+    },
+    {
+      "pair": 16,
+      "symbols_sha256": "2c6ae6ada403a33d44529bbf997597521f50c91087bb7ee26db39750b0611763",
+      "symbols_bytes": 68537,
+      "frame_records": 116,
+      "native_comparison": "RETAINED_STRICT_NATIVE_OUTPUT_EXACT",
+      "exact_reencoding": true,
+      "independent": {
+        "declared_bytes": 68537,
+        "tree_bits": 856,
+        "consumed_bits_after_header": 197013,
+        "trailing_bits": 3,
+        "tree_leaves": 78,
+        "max_depth": 16,
+        "skipped_header_hex": "9c010300"
+      }
+    },
+    {
+      "pair": 17,
+      "symbols_sha256": "c4b59cd0585c7b946088c9190f15b32490378b3f81b360c84be10a064ea2ab2f",
+      "symbols_bytes": 703,
+      "frame_records": 1,
+      "native_comparison": "RETAINED_STRICT_NATIVE_OUTPUT_EXACT",
+      "exact_reencoding": true,
+      "independent": {
+        "declared_bytes": 703,
+        "tree_bits": 174,
+        "consumed_bits_after_header": 2305,
+        "trailing_bits": 7,
+        "tree_leaves": 16,
+        "max_depth": 6,
+        "skipped_header_hex": "08090000"
+      }
+    },
+    {
+      "pair": 18,
+      "symbols_sha256": "ff30091ff623ef7e0e9973eab2d5630f87363388184dfec40092b09f20d0c56d",
+      "symbols_bytes": 34534,
+      "frame_records": 42,
+      "native_comparison": "RETAINED_STRICT_NATIVE_OUTPUT_EXACT",
+      "exact_reencoding": true,
+      "independent": {
+        "declared_bytes": 34534,
+        "tree_bits": 2286,
+        "consumed_bits_after_header": 100764,
+        "trailing_bits": 4,
+        "tree_leaves": 208,
+        "max_depth": 15,
+        "skipped_header_hex": "a3890100"
+      }
+    },
+    {
+      "pair": 19,
+      "symbols_sha256": "e19b068aa59b1649713752724e7a282e49c4d1bcbc1caba1748ea923aba9d618",
+      "symbols_bytes": 6550,
+      "frame_records": 7,
+      "native_comparison": "RETAINED_STRICT_NATIVE_OUTPUT_EXACT",
+      "exact_reencoding": true,
+      "independent": {
+        "declared_bytes": 6550,
+        "tree_bits": 1252,
+        "consumed_bits_after_header": 14375,
+        "trailing_bits": 1,
+        "tree_leaves": 114,
+        "max_depth": 12,
+        "skipped_header_hex": "2e380000"
+      }
+    },
+    {
+      "pair": 20,
+      "symbols_sha256": "7d2b97c7197fa1566efd3b0366ff64934176a0ee08c883e34df4d42db24e4bfd",
+      "symbols_bytes": 53139,
+      "frame_records": 136,
+      "native_comparison": "RETAINED_STRICT_NATIVE_OUTPUT_EXACT",
+      "exact_reencoding": true,
+      "independent": {
+        "declared_bytes": 53139,
+        "tree_bits": 2814,
+        "consumed_bits_after_header": 171809,
+        "trailing_bits": 7,
+        "tree_leaves": 256,
+        "max_depth": 15,
+        "skipped_header_hex": "289f0200"
+      }
+    },
+    {
+      "pair": 21,
+      "symbols_sha256": "ab9fb67c2958698deb574e3ec720f703fcb78c56c91da2804a1339472344f821",
+      "symbols_bytes": 1428,
+      "frame_records": 2,
+      "native_comparison": "RETAINED_STRICT_NATIVE_OUTPUT_EXACT",
+      "exact_reencoding": true,
+      "independent": {
+        "declared_bytes": 1428,
+        "tree_bits": 1120,
+        "consumed_bits_after_header": 5591,
+        "trailing_bits": 1,
+        "tree_leaves": 102,
+        "max_depth": 11,
+        "skipped_header_hex": "de150000"
+      }
+    },
+    {
+      "pair": 22,
+      "symbols_sha256": "ec8cbf411425b47ceab25a28267c4e9dc406984e2c290c7666b308031266bdfd",
+      "symbols_bytes": 55220,
+      "frame_records": 89,
+      "native_comparison": "RETAINED_STRICT_NATIVE_OUTPUT_EXACT",
+      "exact_reencoding": true,
+      "independent": {
+        "declared_bytes": 55220,
+        "tree_bits": 2341,
+        "consumed_bits_after_header": 173326,
+        "trailing_bits": 2,
+        "tree_leaves": 213,
+        "max_depth": 16,
+        "skipped_header_hex": "15a50200"
+      }
+    },
+    {
+      "pair": 23,
+      "symbols_sha256": "870133cb0b483e5f60b72e137a3642d524dad3f8c10f8b65516a01f11325e586",
+      "symbols_bytes": 2238,
+      "frame_records": 4,
+      "native_comparison": "RETAINED_STRICT_NATIVE_OUTPUT_EXACT",
+      "exact_reencoding": true,
+      "independent": {
+        "declared_bytes": 2238,
+        "tree_bits": 1219,
+        "consumed_bits_after_header": 7977,
+        "trailing_bits": 7,
+        "tree_leaves": 111,
+        "max_depth": 11,
+        "skipped_header_hex": "301f0000"
+      }
+    },
+    {
+      "pair": 24,
+      "symbols_sha256": "3448c4f8cd4a277c4ffaab80231d33d59a73251bded08f79daa15dfc76ad46bf",
+      "symbols_bytes": 26500,
+      "frame_records": 47,
+      "native_comparison": "RETAINED_STRICT_NATIVE_OUTPUT_EXACT",
+      "exact_reencoding": true,
+      "independent": {
+        "declared_bytes": 26500,
+        "tree_bits": 2704,
+        "consumed_bits_after_header": 101849,
+        "trailing_bits": 7,
+        "tree_leaves": 246,
+        "max_depth": 14,
+        "skipped_header_hex": "e08d0100"
+      }
+    },
+    {
+      "pair": 25,
+      "symbols_sha256": "4d7450d457da9693d910d6033761fea2723f2f9ee303ecdca2d7a0a13676a2c7",
+      "symbols_bytes": 1505,
+      "frame_records": 3,
+      "native_comparison": "RETAINED_STRICT_NATIVE_OUTPUT_EXACT",
+      "exact_reencoding": true,
+      "independent": {
+        "declared_bytes": 1505,
+        "tree_bits": 1384,
+        "consumed_bits_after_header": 6704,
+        "trailing_bits": 0,
+        "tree_leaves": 126,
+        "max_depth": 10,
+        "skipped_header_hex": "371a0000"
+      }
+    },
+    {
+      "pair": 26,
+      "symbols_sha256": "374a86035c44f27bc359d16485ebcef2b59bffc318d1953537b83e0876c1b59c",
+      "symbols_bytes": 14990,
+      "frame_records": 27,
+      "native_comparison": "RETAINED_STRICT_NATIVE_OUTPUT_EXACT",
+      "exact_reencoding": true,
+      "independent": {
+        "declared_bytes": 14990,
+        "tree_bits": 1549,
+        "consumed_bits_after_header": 33945,
+        "trailing_bits": 7,
+        "tree_leaves": 141,
+        "max_depth": 13,
+        "skipped_header_hex": "a0840000"
+      }
+    },
+    {
+      "pair": 27,
+      "symbols_sha256": "4e267e559c74be6868cd62d781490252c61e575757b3784404f4ee124a03fd20",
+      "symbols_bytes": 3237,
+      "frame_records": 4,
+      "native_comparison": "RETAINED_STRICT_NATIVE_OUTPUT_EXACT",
+      "exact_reencoding": true,
+      "independent": {
+        "declared_bytes": 3237,
+        "tree_bits": 1274,
+        "consumed_bits_after_header": 9394,
+        "trailing_bits": 6,
+        "tree_leaves": 116,
+        "max_depth": 11,
+        "skipped_header_hex": "b9240000"
+      }
+    },
+    {
+      "pair": 28,
+      "symbols_sha256": "0032fd2b839b7e2a2168fd3b8c8af9f23f6798ee80b5925e434124382d10a9bc",
+      "symbols_bytes": 48555,
+      "frame_records": 93,
+      "native_comparison": "RETAINED_STRICT_NATIVE_OUTPUT_EXACT",
+      "exact_reencoding": true,
+      "independent": {
+        "declared_bytes": 48555,
+        "tree_bits": 702,
+        "consumed_bits_after_header": 130025,
+        "trailing_bits": 7,
+        "tree_leaves": 64,
+        "max_depth": 15,
+        "skipped_header_hex": "f0fb0100"
+      }
+    },
+    {
+      "pair": 29,
+      "symbols_sha256": "b2096a91bd5b276383bd83f8890160202ab112afa1bf4f55ec55a24ebaddecba",
+      "symbols_bytes": 741,
+      "frame_records": 1,
+      "native_comparison": "BOUNDED_DECODE_AND_RETAINED_ALL256_LOOKAHEAD_CONTROLS; ORIGINAL_STRICT_NATIVE_CALL_HELD",
+      "exact_reencoding": true,
+      "independent": {
+        "declared_bytes": 741,
+        "tree_bits": 240,
+        "consumed_bits_after_header": 2433,
+        "trailing_bits": 7,
+        "tree_leaves": 22,
+        "max_depth": 11,
+        "skipped_header_hex": "88090000"
+      }
+    }
+  ],
+  "roundtrip": {
+    "status": "EXACT_SYMBOL_REENCODE_AND_RAW_RECORD_ROUNDTRIP",
+    "bank_sha256": "114a46f323f6766396eba42bd741768e415ded55685ee0778f127a48377c084d",
+    "bank_bytes": 339592,
+    "compressed_symbol_payloads_regenerated": 30,
+    "original_bank_read": false
+  },
+  "native_strict_hold_pairs": [
+    29
+  ],
+  "original_bank_modified": false,
+  "new_native_executions": 0,
+  "canonical_credit_added": 0,
+  "limitations": [
+    "Not a complete sprite or animation export",
+    "Retained native comparison evidence reused; not fresh native execution",
+    "Original strict native EOF hold remains; re-encoding correctness does not resolve runtime buffer lifecycle"
+  ],
+  "pins": {
+    "asset_recovery/bank2_repack_v1/recover.py": "3507255b5a8990f1fc83e21fbb60b9a274c2d1a979b687fe0f4b994e86465e80",
+    "asset_recovery/bank1_decode_v1/decode.py": "884096a53b86548555d30a9cd17b85bbe9efaa2970d8aac8fabc5516b65e6036",
+    "asset_recovery/bank1_decode_v1/repack.py": "c91c55392941d0b5e92a43a357920fda18eadcc62c444367c3fa320041f5c3a8",
+    "asset_recovery/candidates/allcanm2_native_streams_bank/verification.json": "3168694283131f5f2071b4ec83427c053fe4e67c2c9d663f61fe75ee97988736",
+    "asset_recovery/final-stream-lookahead-controls.json": "03efbf9d74d8efa7efd1c37578f434ced7636914dde5eda07d09666fc4c5c850",
+    "asset_recovery/format_audit_2d13_2e34/metadata.json": "e51bf550bec880d11d77cccb6c711f1e2b6e40d9af9e63bd97202cbec428186f"
+  }
+}

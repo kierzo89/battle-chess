@@ -1,0 +1,301 @@
+{
+  "status": "PASS_ALL_ASSET_RECOVERY_REQUIREMENTS_WITH_EXPLICIT_CONTEXT_LIMITS",
+  "requirements": [
+    {
+      "requirement": "inventory",
+      "status": "proven",
+      "basis": "Both banks fully partitioned and original distribution resources inventoried; unknown non-image fields explicitly retained.",
+      "evidence": [
+        {
+          "path": "asset_recovery/catalog-final.json",
+          "available": true,
+          "sha256": "41aff548ba3f307ced3bd66061ebce3b327599d9a62f0d8e7308ea13999cdcb7",
+          "bytes": 92786
+        },
+        {
+          "path": "asset_recovery/distribution-inventory.json",
+          "available": true,
+          "sha256": "3a5fec554e9168283dec39473beaf8e3f318c5018b1e2458e2bf89c7fbc5b00b",
+          "bytes": 1886
+        }
+      ]
+    },
+    {
+      "requirement": "decoding_and_eof",
+      "status": "proven",
+      "basis": "Native/independent Huffman,row/XOR proofs and all256 stale-byte lifecycle controls.",
+      "evidence": [
+        {
+          "path": "asset_recovery/bank1_decode_v1/test-result.json",
+          "available": true,
+          "sha256": "1e2bf4be9de089cabd244dd7a7c409d22ae1e8ff26a22b7e87c59a00f768ac04",
+          "bytes": 797
+        },
+        {
+          "path": "asset_recovery/eof_lifecycle_v1/proof-row.json",
+          "available": true,
+          "sha256": "53b79481307937cab8b52e125b546bf88ce44e51c5b7b136225fb145ac0046e5",
+          "bytes": 271363
+        },
+        {
+          "path": "asset_recovery/bank2_records_v1/results/validation.json",
+          "available": true,
+          "sha256": "b1f579ab14e22b387e40e069825b26602f2e97473ed3aba454d305181eb81f28",
+          "bytes": 129
+        }
+      ]
+    },
+    {
+      "requirement": "artwork_and_source_metadata",
+      "status": "proven",
+      "basis": "All1605 bank2records referenced;76setupframes,4backgrounds,128physicalfontblocks; raw,indexed and PNG exports retain anchors/source references.",
+      "evidence": [
+        {
+          "path": "asset_recovery/bank2_records_v1/results/report.json",
+          "available": true,
+          "sha256": "961f8da6f4f3ece95f8fe27c5b6a8118e87259c1abd06964fd84ea612e825124",
+          "bytes": 2318143
+        },
+        {
+          "path": "asset_recovery/setup_frames_v1/results-v2/validation.json",
+          "available": true,
+          "sha256": "c85fa130effaaf9fff148edb0d9c790b1a7968eb2e4503c47d88e2fd80ca08e8",
+          "bytes": 90
+        },
+        {
+          "path": "asset_recovery/font_v1/results/validation.json",
+          "available": true,
+          "sha256": "db3fc4cb518e3ca0ce921848ef075d0bbaf88d2254eab16755acf3fab3ccf3c3",
+          "bytes": 116
+        },
+        {
+          "path": "asset_recovery/visual_exports_v1/validation.json",
+          "available": true,
+          "sha256": "f0724b7f96a02f0fbef61e52827f190b0f974b4bc4d906d41d8682745b2c5c42",
+          "bytes": 249
+        }
+      ]
+    },
+    {
+      "requirement": "palettes_and_transparency",
+      "status": "proven_with_scope",
+      "basis": "VGA runtime DAC, transparency/recolour, allshipped conversiontables and native mode selection recovered; BIOS/monitor defaults explicitly external.",
+      "evidence": [
+        {
+          "path": "asset_recovery/visual_exports_v1/results/palette.json",
+          "available": true,
+          "sha256": "f2b6f0140aae48201b3e1d1efbb6b84b9d2e417cf4f411433f42a4451fdd6285",
+          "bytes": 14429
+        },
+        {
+          "path": "asset_recovery/pixel_semantics_v1/proof.json",
+          "available": true,
+          "sha256": "26bb544796457781ddaf9b8a89c06419825fb3b42a36695af4866c2bd32caa97",
+          "bytes": 1315
+        },
+        {
+          "path": "asset_recovery/recolour_v1/proof.json",
+          "available": true,
+          "sha256": "8338e183672e73f6d490bba5833c619727e45c901545975cfa04acaf5bf5191e",
+          "bytes": 896
+        },
+        {
+          "path": "asset_recovery/logical_display_selection_v1/report.json",
+          "available": true,
+          "sha256": "4ce3fd502109b5decc473eabe6c20280deae9b35bea9fb8c0bf752e8d93c044e",
+          "bytes": 169789
+        }
+      ]
+    },
+    {
+      "requirement": "animation_metadata_and_timing",
+      "status": "proven_with_scope",
+      "basis": "Frame-selection/control timing and all declared native task variants verified1728cases; timing units are eligible calls/BIOS gate, not invented FPS.",
+      "evidence": [
+        {
+          "path": "asset_recovery/animation_timing_v2/manifest.json",
+          "available": true,
+          "sha256": "892b64279a6563af67aca5861c447b3576b26c72897fd5113830460e42b60a3e",
+          "bytes": 1379
+        },
+        {
+          "path": "asset_recovery/animation_tasks_v3/manifest.json",
+          "available": true,
+          "sha256": "cc168fa140468b79b6345c958159b17dd9fd4b8d5d85629baa481cc63885c0be",
+          "bytes": 1057
+        }
+      ]
+    },
+    {
+      "requirement": "native_rendered_placement",
+      "status": "proven_with_scope",
+      "basis": "All composedframes tested in native geometry/clippedpixels, allsequences in fullVGA memory, overlap/recolour/nativefont cases. Hardware wall-clock presentation is not claimed.",
+      "evidence": [
+        {
+          "path": "asset_recovery/placement_v1/geometry-proof.json",
+          "available": true,
+          "sha256": "3b14d00d4552214b5ebbb7193d82f6f216db38493b97797c7af8d749a52595ee",
+          "bytes": 39123
+        },
+        {
+          "path": "asset_recovery/placement_v1/pixels-proof.json",
+          "available": true,
+          "sha256": "d70c9658c26f77e9d1ee052d8e02deee2dbdb7dde86f78e1d8ba69de2b04f292",
+          "bytes": 883
+        },
+        {
+          "path": "asset_recovery/placement_v1/transport-proof.json",
+          "available": true,
+          "sha256": "6820088c0060c2017653f5ae3fa2edc3cdc9add50258a3dde980efed19bbd4fc",
+          "bytes": 818
+        },
+        {
+          "path": "asset_recovery/placement_v1/overlap-proof.json",
+          "available": true,
+          "sha256": "1f58a8b9371dedee0b21fe508801847d23b769af56a597debfd1922482855dcd",
+          "bytes": 678
+        },
+        {
+          "path": "asset_recovery/font_v1/results/report.json",
+          "available": true,
+          "sha256": "3c99cddd448fc2c327f8266cd5d6416af12c428483f197473af12e76e44fb854",
+          "bytes": 140420
+        }
+      ]
+    },
+    {
+      "requirement": "nonimage_and_audio_accounting",
+      "status": "proven_with_scope",
+      "basis": "All31audio payloads/headers/timingformulas exported; undefined arena-history-dependent extra playback bytes explicitly identified, never fabricated. Opaque fields retained exactly.",
+      "evidence": [
+        {
+          "path": "asset_recovery/audio_context_v1/results-v3/report.json",
+          "available": true,
+          "sha256": "40746ef620e20d5e399396d9fac541a8660989e7dae28d421aa869b5c1cc1783",
+          "bytes": 15939
+        },
+        {
+          "path": "asset_recovery/bank1_semantics_v1/report-v2.json",
+          "available": true,
+          "sha256": "10c65939c4243d8439bcab9838a83915ef46f3012ec7170c3f3248d7f442e335",
+          "bytes": 34654
+        }
+      ]
+    },
+    {
+      "requirement": "reproducible_extraction_and_repacking",
+      "status": "proven",
+      "basis": "Fresh14stage pipeline exactbothbanks and hashedoutputs; portable copiedrebuilder succeeds without originalbankfiles.",
+      "evidence": [
+        {
+          "path": ".reworkbench/asset-recovery/runs/fresh-v2/pipeline-report.json",
+          "available": true,
+          "sha256": "2e416869138b04a078332504784ef1d3e53fbef113beb5fb5dd363a4e7537775",
+          "bytes": 1702349
+        },
+        {
+          "path": ".reworkbench/asset-recovery/packages/banks-v2/portable-test.json",
+          "available": true,
+          "sha256": "b779d639d4695cf591d16571a345cd4a33383932540a4af54765ef304eac1372",
+          "bytes": 763
+        },
+        {
+          "path": "asset_recovery/final-bundle-validation.json",
+          "available": true,
+          "sha256": "f5d0dc04e91818d7a5dd2fdd1b102910fa5d951ba95c1fa1d1c84b17b544fe88",
+          "bytes": 302
+        }
+      ]
+    },
+    {
+      "requirement": "workbench_separate_asset_progress",
+      "status": "proven",
+      "basis": "Separate assetpanel and fixedCLI actions; no canonical credit/percentage.",
+      "evidence": [
+        {
+          "path": "reworkbench/ASSET_RECOVERY.md",
+          "available": true,
+          "sha256": "b07b32a9b3ec75533fb302fee62d41452f2dee449a6294af76195ab8499400d4",
+          "bytes": 1610
+        },
+        {
+          "path": ".reworkbench/staging/asset-cli-v1/adoption.json",
+          "available": true,
+          "sha256": "c635f4fb0e694e6b0c232eddb4d6d67ed9e08b51083d6577bf2190d498ac3e55",
+          "bytes": 276
+        },
+        {
+          "path": "reworkbench/asset_progress.py",
+          "available": true,
+          "sha256": "e8ad792dd6914f8adbaa5198b8c6ed8e6eda499306f80df1c30c637fccd137d5",
+          "bytes": 2166
+        }
+      ]
+    }
+  ],
+  "fresh_pipeline_source_checks": [
+    {
+      "stage": "bank1",
+      "matches_executed_source": true
+    },
+    {
+      "stage": "bank2",
+      "matches_executed_source": true
+    },
+    {
+      "stage": "repack-ALLCANM1",
+      "matches_executed_source": true
+    },
+    {
+      "stage": "repack-ALLCANM2",
+      "matches_executed_source": true
+    },
+    {
+      "stage": "setups",
+      "matches_executed_source": true
+    },
+    {
+      "stage": "setups-verify",
+      "matches_executed_source": true
+    },
+    {
+      "stage": "animations",
+      "matches_executed_source": true
+    },
+    {
+      "stage": "animations-verify",
+      "matches_executed_source": true
+    },
+    {
+      "stage": "font",
+      "matches_executed_source": true
+    },
+    {
+      "stage": "font-verify",
+      "matches_executed_source": true
+    },
+    {
+      "stage": "audio",
+      "matches_executed_source": true
+    },
+    {
+      "stage": "audio-context",
+      "matches_executed_source": true
+    },
+    {
+      "stage": "images",
+      "matches_executed_source": true
+    },
+    {
+      "stage": "metadata",
+      "matches_executed_source": true
+    }
+  ],
+  "completion_claim": true,
+  "assessment_basis": "Manual review of bounded native/independent reports; this script refreshes evidence identities, not every verifier.",
+  "remaining": [],
+  "historical_runtime_limits": [
+    "Physical monitor transfer functions and machine-speed wallclock not recoverable from assetbytes alone",
+    "Undefined audio memory history is not part of a deterministic bank payload; explicit context dependency retained"
+  ]
+}

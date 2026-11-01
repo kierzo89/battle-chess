@@ -1,0 +1,22 @@
+{
+  "status": "PASS_STANDALONE_BOTH_BANKS",
+  "results": {
+    "ALLCANM1": {
+      "status": "EXACT_SYMBOL_REENCODE_AND_RAW_RECORD_ROUNDTRIP",
+      "bank_sha256": "aa50ef9fb55e5271526e25ccc6e60b2908f00440c3f33380d13d27ecd4cbc564",
+      "bank_bytes": 185726,
+      "compressed_symbol_payloads_regenerated": 41,
+      "original_bank_read": false
+    },
+    "ALLCANM2": {
+      "status": "EXACT_SYMBOL_REENCODE_AND_RAW_RECORD_ROUNDTRIP",
+      "bank_sha256": "114a46f323f6766396eba42bd741768e415ded55685ee0778f127a48377c084d",
+      "bank_bytes": 339592,
+      "compressed_symbol_payloads_regenerated": 30,
+      "original_bank_read": false
+    }
+  },
+  "cwd": "fresh temporary directory",
+  "python_isolated_mode": true,
+  "original_bank_files_included": false
+}

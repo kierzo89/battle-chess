@@ -1,0 +1,546 @@
+{
+  "bank_sha256": "114a46f323f6766396eba42bd741768e415ded55685ee0778f127a48377c084d",
+  "bank_size": 339592,
+  "records": [
+    {
+      "id": "pair-00-directory",
+      "offset": 0,
+      "size": 325,
+      "sha256": "ec3d82c8aa11e16ea3b04beef3078af707e184eaf1b40a3a2ccdde8cc1317e61",
+      "encoding": "raw",
+      "raw_file": "pair-00-directory.bin"
+    },
+    {
+      "id": "pair-00-symbols",
+      "offset": 325,
+      "size": 5570,
+      "sha256": "997b8c09c3cc36e8fbc00e2f718cbfd16ced9f1a9b4229e938e581a92b5baa32",
+      "encoding": "huffman",
+      "symbols_file": "pair-00-symbols.bin",
+      "symbols_sha256": "e5bb2ccf21eae316d4402fbf5cad93881c6888a22a6728827451cedadb739ad2",
+      "codec_file": "pair-00-codec.json"
+    },
+    {
+      "id": "pair-01-directory",
+      "offset": 5895,
+      "size": 527,
+      "sha256": "84ce744339850d5604a152691cc39756f8b504e8c7e5f6ff580895290d8e942c",
+      "encoding": "raw",
+      "raw_file": "pair-01-directory.bin"
+    },
+    {
+      "id": "pair-01-symbols",
+      "offset": 6422,
+      "size": 12208,
+      "sha256": "94a2c3ef58857a0b145e4b1bec0194cb245b1b164b21e1bdfa8095b81af046e5",
+      "encoding": "huffman",
+      "symbols_file": "pair-01-symbols.bin",
+      "symbols_sha256": "712bf5e14c268d97f434fb7c88f62ae6b5fc3ae96f9d0b25ae442118dec0c1a2",
+      "codec_file": "pair-01-codec.json"
+    },
+    {
+      "id": "pair-02-directory",
+      "offset": 18630,
+      "size": 313,
+      "sha256": "5a2319b78443b9e42035c03a2c40fe4c236eea41037a969e1d3e941ab2506015",
+      "encoding": "raw",
+      "raw_file": "pair-02-directory.bin"
+    },
+    {
+      "id": "pair-02-symbols",
+      "offset": 18943,
+      "size": 9613,
+      "sha256": "adda551256b363d473b47ca4f2ac7b851fcc7754ac0be07e9a9c2b2449301d95",
+      "encoding": "huffman",
+      "symbols_file": "pair-02-symbols.bin",
+      "symbols_sha256": "bb64366cec485f948e449dff34e5291147ce22842b5709f14d009b89e9007523",
+      "codec_file": "pair-02-codec.json"
+    },
+    {
+      "id": "pair-03-directory",
+      "offset": 28556,
+      "size": 507,
+      "sha256": "a316f59676b28f0a0ca38065dc9c9d817ca4babfe63784f4aa6b3a2418c2fb2b",
+      "encoding": "raw",
+      "raw_file": "pair-03-directory.bin"
+    },
+    {
+      "id": "pair-03-symbols",
+      "offset": 29063,
+      "size": 13779,
+      "sha256": "c9a300ae283ec42dcdd17d8f7102d65a7df7f67657c622119abc835c5f6b1ef3",
+      "encoding": "huffman",
+      "symbols_file": "pair-03-symbols.bin",
+      "symbols_sha256": "5a99f3d29c1b14ddd1afed76f38ac00edc79d686b5b9ab6e4f43c13e9d04fe47",
+      "codec_file": "pair-03-codec.json"
+    },
+    {
+      "id": "pair-04-directory",
+      "offset": 42842,
+      "size": 591,
+      "sha256": "586304a3adb02e39cae223080eaf74238eb586ca29e33dcdc20583628a27a23d",
+      "encoding": "raw",
+      "raw_file": "pair-04-directory.bin"
+    },
+    {
+      "id": "pair-04-symbols",
+      "offset": 43433,
+      "size": 8347,
+      "sha256": "8f668086f386aa14d9f6019e8261b1657ed578477cfba0e7da868d74a9b86c15",
+      "encoding": "huffman",
+      "symbols_file": "pair-04-symbols.bin",
+      "symbols_sha256": "9cd453e14377aba956f776b2931fb96e5692a88adae58a4f8a0ee7757888e34e",
+      "codec_file": "pair-04-codec.json"
+    },
+    {
+      "id": "pair-05-directory",
+      "offset": 51780,
+      "size": 674,
+      "sha256": "d3bbd51b5e2253e4620eef36632fd53c6290735d1e5ac24699bbfbc9a2c1313f",
+      "encoding": "raw",
+      "raw_file": "pair-05-directory.bin"
+    },
+    {
+      "id": "pair-05-symbols",
+      "offset": 52454,
+      "size": 21291,
+      "sha256": "4a640f9b589037fbb9db0553a86331a1f287ca56646c7340adde36033c3225a2",
+      "encoding": "huffman",
+      "symbols_file": "pair-05-symbols.bin",
+      "symbols_sha256": "8d9e9ad93df5af7b1879238c49e9b9929ba1406f8aca06b53f3d16183764527b",
+      "codec_file": "pair-05-codec.json"
+    },
+    {
+      "id": "pair-06-directory",
+      "offset": 73745,
+      "size": 1015,
+      "sha256": "65577a993e4c0ea98231bfaa6dae2b54ab07b275099472706cab69f70b3f5aa5",
+      "encoding": "raw",
+      "raw_file": "pair-06-directory.bin"
+    },
+    {
+      "id": "pair-06-symbols",
+      "offset": 74760,
+      "size": 29725,
+      "sha256": "63062f89e4621399f04ec1232099ae4e4514d534577247d975e11eab920e87e3",
+      "encoding": "huffman",
+      "symbols_file": "pair-06-symbols.bin",
+      "symbols_sha256": "6e0d5a4ba8745eb4c3f3494589d542b9388a72383b20d799eb26de5563016aaf",
+      "codec_file": "pair-06-codec.json"
+    },
+    {
+      "id": "pair-07-directory",
+      "offset": 104485,
+      "size": 28,
+      "sha256": "da4da530cb9f93f88a1915349ef2e713cf42f4518a7f1af68e2fb00131ba08cf",
+      "encoding": "raw",
+      "raw_file": "pair-07-directory.bin"
+    },
+    {
+      "id": "pair-07-symbols",
+      "offset": 104513,
+      "size": 1402,
+      "sha256": "3e96136304c53db1818a31175347fd1c9ba597ff9199c51bd5046efef6933c56",
+      "encoding": "huffman",
+      "symbols_file": "pair-07-symbols.bin",
+      "symbols_sha256": "d1f52b587282f8bbf5b32a8c62d08fa643700e1e9e6a648c60bd21288958f5a1",
+      "codec_file": "pair-07-codec.json"
+    },
+    {
+      "id": "pair-08-directory",
+      "offset": 105915,
+      "size": 683,
+      "sha256": "d802cd614849f326dbfd7db264a97e5af7be42c47ebeae4ccf158aff6360257a",
+      "encoding": "raw",
+      "raw_file": "pair-08-directory.bin"
+    },
+    {
+      "id": "pair-08-symbols",
+      "offset": 106598,
+      "size": 20371,
+      "sha256": "28062edee8c2c31bfe5c7087e96b1de86f36a88f5186eff24392e3586b1cd186",
+      "encoding": "huffman",
+      "symbols_file": "pair-08-symbols.bin",
+      "symbols_sha256": "03960e2d4c8d06cad587aa9994aa47b4be9a85527c824b6ff12752920da4fa74",
+      "codec_file": "pair-08-codec.json"
+    },
+    {
+      "id": "pair-09-directory",
+      "offset": 126969,
+      "size": 12,
+      "sha256": "03cccd67035a119c7eea2bf3457d8db6f767f55ac12b2012863b1a8ae970ad6a",
+      "encoding": "raw",
+      "raw_file": "pair-09-directory.bin"
+    },
+    {
+      "id": "pair-09-symbols",
+      "offset": 126981,
+      "size": 518,
+      "sha256": "3c54c1c2e45adee81200528d69487926f06600711daea2a6a0baf26ea9ef3c36",
+      "encoding": "huffman",
+      "symbols_file": "pair-09-symbols.bin",
+      "symbols_sha256": "04727aa3055a82edaa9679e1704d6c166719a62a250ce5bda4447135eed0d94e",
+      "codec_file": "pair-09-codec.json"
+    },
+    {
+      "id": "pair-10-directory",
+      "offset": 127499,
+      "size": 1162,
+      "sha256": "5b11b935d9a9607c3d4c8afc3e2e9c34c2e1e8bd96a89c7f4e50d29f70272eb1",
+      "encoding": "raw",
+      "raw_file": "pair-10-directory.bin"
+    },
+    {
+      "id": "pair-10-symbols",
+      "offset": 128661,
+      "size": 25588,
+      "sha256": "6b606ff24f2d67d4821a170255a2064e425c9960c89866f9e6335a108f59552e",
+      "encoding": "huffman",
+      "symbols_file": "pair-10-symbols.bin",
+      "symbols_sha256": "9c9873f52de071c2276c5a28e9523a4e4219fae547e932d220dd8ce2c5dcf148",
+      "codec_file": "pair-10-codec.json"
+    },
+    {
+      "id": "pair-11-directory",
+      "offset": 154249,
+      "size": 24,
+      "sha256": "8962570d0fd317732b0fd4420036c28f910c841d0205614d137fd65ca454ba15",
+      "encoding": "raw",
+      "raw_file": "pair-11-directory.bin"
+    },
+    {
+      "id": "pair-11-symbols",
+      "offset": 154273,
+      "size": 1081,
+      "sha256": "6169afe1fce6054ec5638778424b18acbe6f909a3ae6850a44b834c12f4e7f02",
+      "encoding": "huffman",
+      "symbols_file": "pair-11-symbols.bin",
+      "symbols_sha256": "d16c6293a187687d8f36bdc1bd01c8b95ce738149c0e041417cf556e822e8d99",
+      "codec_file": "pair-11-codec.json"
+    },
+    {
+      "id": "pair-12-directory",
+      "offset": 155354,
+      "size": 966,
+      "sha256": "4d7bc4b6397eb39f91100e82798bab2ba5f18f60953bd4e4ae893acfd6974306",
+      "encoding": "raw",
+      "raw_file": "pair-12-directory.bin"
+    },
+    {
+      "id": "pair-12-symbols",
+      "offset": 156320,
+      "size": 25350,
+      "sha256": "cd23e5de8e92407fe4835cbbbaaed1df30000089f1a2fd896d23582a93245442",
+      "encoding": "huffman",
+      "symbols_file": "pair-12-symbols.bin",
+      "symbols_sha256": "f9b84b5b23cb2541c2c2a259d2f72163de5a9babd9cc423ee946d032a919f810",
+      "codec_file": "pair-12-codec.json"
+    },
+    {
+      "id": "pair-13-directory",
+      "offset": 181670,
+      "size": 24,
+      "sha256": "4c237542b6dad59f19b791a92013dd776553133642916f375668e0d93d832fad",
+      "encoding": "raw",
+      "raw_file": "pair-13-directory.bin"
+    },
+    {
+      "id": "pair-13-symbols",
+      "offset": 181694,
+      "size": 1322,
+      "sha256": "e9471dbcb3a09ac23c550b2192568140d1a10f4638f5103b409d74b665ea6128",
+      "encoding": "huffman",
+      "symbols_file": "pair-13-symbols.bin",
+      "symbols_sha256": "160aafa68fb602db926885ba580ae833cc939a586823e6c5113a4b7fea93736c",
+      "codec_file": "pair-13-codec.json"
+    },
+    {
+      "id": "pair-14-directory",
+      "offset": 183016,
+      "size": 1187,
+      "sha256": "50e1e6a7aed7e5500fb659d35f30ec2788e2a1bcf092026397bea2901c9d758b",
+      "encoding": "raw",
+      "raw_file": "pair-14-directory.bin"
+    },
+    {
+      "id": "pair-14-symbols",
+      "offset": 184203,
+      "size": 30050,
+      "sha256": "20600d82e766a860fb74a953e95f0f0c1ec5d042d09457c16b9e8029b960e212",
+      "encoding": "huffman",
+      "symbols_file": "pair-14-symbols.bin",
+      "symbols_sha256": "a04b9c8b3016ab49f6ffdcc3aff0d51245fa28dd000eec7ff54616164542a7ee",
+      "codec_file": "pair-14-codec.json"
+    },
+    {
+      "id": "pair-15-directory",
+      "offset": 214253,
+      "size": 24,
+      "sha256": "168249ebb439f45b0bafdcb0350fceb8699df44c3be53003e03df10516e2bb4b",
+      "encoding": "raw",
+      "raw_file": "pair-15-directory.bin"
+    },
+    {
+      "id": "pair-15-symbols",
+      "offset": 214277,
+      "size": 1236,
+      "sha256": "782e59d1f11c2ab961e1c689b9da1b23e2873b65eb1eee57e77f830892c3e676",
+      "encoding": "huffman",
+      "symbols_file": "pair-15-symbols.bin",
+      "symbols_sha256": "7d2b68b44280e5341ef7de4641d47c76f073c7ef838f9fe58b5d8e8ed7d8ee2e",
+      "codec_file": "pair-15-codec.json"
+    },
+    {
+      "id": "pair-16-directory",
+      "offset": 215513,
+      "size": 846,
+      "sha256": "b6498efe8d0084dd3a0bc2f6bb4273c777394e62d6d93717dfa74fd37f761215",
+      "encoding": "raw",
+      "raw_file": "pair-16-directory.bin"
+    },
+    {
+      "id": "pair-16-symbols",
+      "offset": 216359,
+      "size": 24635,
+      "sha256": "f8cb70f2799cd40f213fb355630f86cd30e601c823a1f8a14311470510111d8e",
+      "encoding": "huffman",
+      "symbols_file": "pair-16-symbols.bin",
+      "symbols_sha256": "2c6ae6ada403a33d44529bbf997597521f50c91087bb7ee26db39750b0611763",
+      "codec_file": "pair-16-codec.json"
+    },
+    {
+      "id": "pair-17-directory",
+      "offset": 240994,
+      "size": 8,
+      "sha256": "fd477348d65b51cd6a7de256b7b85f78732c0745f5719ac6577def45413a7262",
+      "encoding": "raw",
+      "raw_file": "pair-17-directory.bin"
+    },
+    {
+      "id": "pair-17-symbols",
+      "offset": 241002,
+      "size": 297,
+      "sha256": "fc2920e0af3f325f4c23dc876f3bbb27a6a4ecdb8d70f1ac61f7e49b1a2af7b7",
+      "encoding": "huffman",
+      "symbols_file": "pair-17-symbols.bin",
+      "symbols_sha256": "c4b59cd0585c7b946088c9190f15b32490378b3f81b360c84be10a064ea2ab2f",
+      "codec_file": "pair-17-codec.json"
+    },
+    {
+      "id": "pair-18-directory",
+      "offset": 241299,
+      "size": 368,
+      "sha256": "e67625ac913f53ff96761875e8c65a50696af7c080f8b31a3e2822afd6c19d87",
+      "encoding": "raw",
+      "raw_file": "pair-18-directory.bin"
+    },
+    {
+      "id": "pair-18-symbols",
+      "offset": 241667,
+      "size": 12604,
+      "sha256": "93d70a293a0cede2d03f8273c191ac8165abf780f7c382e8c89aad7ed73e8dd0",
+      "encoding": "huffman",
+      "symbols_file": "pair-18-symbols.bin",
+      "symbols_sha256": "ff30091ff623ef7e0e9973eab2d5630f87363388184dfec40092b09f20d0c56d",
+      "codec_file": "pair-18-codec.json"
+    },
+    {
+      "id": "pair-19-directory",
+      "offset": 254271,
+      "size": 32,
+      "sha256": "460c55abd291bf26da9bec1fdff94bfac095fe29bb07c4ba363df040cfd05316",
+      "encoding": "raw",
+      "raw_file": "pair-19-directory.bin"
+    },
+    {
+      "id": "pair-19-symbols",
+      "offset": 254303,
+      "size": 1805,
+      "sha256": "3d81b48c122691a4a63715eb0432ec2ff32aba2f48cb51eac696872f257118b7",
+      "encoding": "huffman",
+      "symbols_file": "pair-19-symbols.bin",
+      "symbols_sha256": "e19b068aa59b1649713752724e7a282e49c4d1bcbc1caba1748ea923aba9d618",
+      "codec_file": "pair-19-codec.json"
+    },
+    {
+      "id": "pair-20-directory",
+      "offset": 256108,
+      "size": 986,
+      "sha256": "5e3edfc52b92c73dbf1461e17f4304b6d26a523763805d8437e121a6c0da2495",
+      "encoding": "raw",
+      "raw_file": "pair-20-directory.bin"
+    },
+    {
+      "id": "pair-20-symbols",
+      "offset": 257094,
+      "size": 21485,
+      "sha256": "584f047ff453eca9dacbe54fb35f2cca14224a1b978b3e03c80f72485321fdd8",
+      "encoding": "huffman",
+      "symbols_file": "pair-20-symbols.bin",
+      "symbols_sha256": "7d2b97c7197fa1566efd3b0366ff64934176a0ee08c883e34df4d42db24e4bfd",
+      "codec_file": "pair-20-codec.json"
+    },
+    {
+      "id": "pair-21-directory",
+      "offset": 278579,
+      "size": 12,
+      "sha256": "25ef491d2bc7764100e480f744f2da823475fce7d8323477d28ba028c1217319",
+      "encoding": "raw",
+      "raw_file": "pair-21-directory.bin"
+    },
+    {
+      "id": "pair-21-symbols",
+      "offset": 278591,
+      "size": 707,
+      "sha256": "bad7b5d4da48a5bc3c180ea6a5768bd1fb2b17598421cd92565b73ef006bfdfa",
+      "encoding": "huffman",
+      "symbols_file": "pair-21-symbols.bin",
+      "symbols_sha256": "ab9fb67c2958698deb574e3ec720f703fcb78c56c91da2804a1339472344f821",
+      "codec_file": "pair-21-codec.json"
+    },
+    {
+      "id": "pair-22-directory",
+      "offset": 279298,
+      "size": 682,
+      "sha256": "aebbfc3a2fbe45f86966dbce1805ef557619d1b2735c339dc5ceb1f433b41b60",
+      "encoding": "raw",
+      "raw_file": "pair-22-directory.bin"
+    },
+    {
+      "id": "pair-22-symbols",
+      "offset": 279980,
+      "size": 21674,
+      "sha256": "e478d30984990dd940eee1adcf8f935c6e7904d739e751db4c8b0c5a25db808a",
+      "encoding": "huffman",
+      "symbols_file": "pair-22-symbols.bin",
+      "symbols_sha256": "ec8cbf411425b47ceab25a28267c4e9dc406984e2c290c7666b308031266bdfd",
+      "codec_file": "pair-22-codec.json"
+    },
+    {
+      "id": "pair-23-directory",
+      "offset": 301654,
+      "size": 20,
+      "sha256": "81da2ee6d46f03470f37ece3fcfe08f1d3cec6ecc8169fa5d547997d04061c9f",
+      "encoding": "raw",
+      "raw_file": "pair-23-directory.bin"
+    },
+    {
+      "id": "pair-23-symbols",
+      "offset": 301674,
+      "size": 1006,
+      "sha256": "4654e806fcb55fdacb407dfa7c57a7737050cb7c6479cc5ef23b056a03ddd3c0",
+      "encoding": "huffman",
+      "symbols_file": "pair-23-symbols.bin",
+      "symbols_sha256": "870133cb0b483e5f60b72e137a3642d524dad3f8c10f8b65516a01f11325e586",
+      "codec_file": "pair-23-codec.json"
+    },
+    {
+      "id": "pair-24-directory",
+      "offset": 302680,
+      "size": 373,
+      "sha256": "8bc4a9d528414516ecdc90bc8bb55c354b8f143ceba96eeb946d3ad8ae236d50",
+      "encoding": "raw",
+      "raw_file": "pair-24-directory.bin"
+    },
+    {
+      "id": "pair-24-symbols",
+      "offset": 303053,
+      "size": 12740,
+      "sha256": "08ab97aae0ace7f7ef2061e1f3f38ffa4cf15e317c999e8514c310e896419ad8",
+      "encoding": "huffman",
+      "symbols_file": "pair-24-symbols.bin",
+      "symbols_sha256": "3448c4f8cd4a277c4ffaab80231d33d59a73251bded08f79daa15dfc76ad46bf",
+      "codec_file": "pair-24-codec.json"
+    },
+    {
+      "id": "pair-25-directory",
+      "offset": 315793,
+      "size": 16,
+      "sha256": "a2f9ddb22be5c287fb2009724ba45c78c028390a947afce907b5052618c9ba56",
+      "encoding": "raw",
+      "raw_file": "pair-25-directory.bin"
+    },
+    {
+      "id": "pair-25-symbols",
+      "offset": 315809,
+      "size": 846,
+      "sha256": "46330642bd7c297d67d064ad5d92760b5b1525af1b02d6a6f124343740e8045f",
+      "encoding": "huffman",
+      "symbols_file": "pair-25-symbols.bin",
+      "symbols_sha256": "4d7450d457da9693d910d6033761fea2723f2f9ee303ecdca2d7a0a13676a2c7",
+      "codec_file": "pair-25-codec.json"
+    },
+    {
+      "id": "pair-26-directory",
+      "offset": 316655,
+      "size": 231,
+      "sha256": "21e369bca5d0adadc662c7e1273510b3dc1ae78aabad1458c69a1e4a1334f284",
+      "encoding": "raw",
+      "raw_file": "pair-26-directory.bin"
+    },
+    {
+      "id": "pair-26-symbols",
+      "offset": 316886,
+      "size": 4252,
+      "sha256": "11373a142e66bf0d3f4e43573b9343d794820eb81f4644806813664e46287a80",
+      "encoding": "huffman",
+      "symbols_file": "pair-26-symbols.bin",
+      "symbols_sha256": "374a86035c44f27bc359d16485ebcef2b59bffc318d1953537b83e0876c1b59c",
+      "codec_file": "pair-26-codec.json"
+    },
+    {
+      "id": "pair-27-directory",
+      "offset": 321138,
+      "size": 20,
+      "sha256": "3b7680fec29cae80e4e4ef63411a5ca844e7c000e45026139c96e92fb7fd7dc8",
+      "encoding": "raw",
+      "raw_file": "pair-27-directory.bin"
+    },
+    {
+      "id": "pair-27-symbols",
+      "offset": 321158,
+      "size": 1183,
+      "sha256": "d6582d588acd06bf3279ade35ddf62d3dda444ff7f796b2be16af10caa41e701",
+      "encoding": "huffman",
+      "symbols_file": "pair-27-symbols.bin",
+      "symbols_sha256": "4e267e559c74be6868cd62d781490252c61e575757b3784404f4ee124a03fd20",
+      "codec_file": "pair-27-codec.json"
+    },
+    {
+      "id": "pair-28-directory",
+      "offset": 322341,
+      "size": 668,
+      "sha256": "a6c96a38713b2b6335d354ff978381727ed8f09b2e628ef191c8e84749f51730",
+      "encoding": "raw",
+      "raw_file": "pair-28-directory.bin"
+    },
+    {
+      "id": "pair-28-symbols",
+      "offset": 323009,
+      "size": 16262,
+      "sha256": "ede9791200d840ace32e232d0ce1e7ae2a6ed78e0474afcee0b54ba4b541c926",
+      "encoding": "huffman",
+      "symbols_file": "pair-28-symbols.bin",
+      "symbols_sha256": "0032fd2b839b7e2a2168fd3b8c8af9f23f6798ee80b5925e434124382d10a9bc",
+      "codec_file": "pair-28-codec.json"
+    },
+    {
+      "id": "pair-29-directory",
+      "offset": 339271,
+      "size": 8,
+      "sha256": "06ba8e9a0161707e7dcf98e32e5927dffc659aee21cd84309cdb9baf404f38db",
+      "encoding": "raw",
+      "raw_file": "pair-29-directory.bin"
+    },
+    {
+      "id": "pair-29-symbols",
+      "offset": 339279,
+      "size": 313,
+      "sha256": "c19dabe78f946896b6fa499be5b05128f91109130d7aa549f184527827f41eb5",
+      "encoding": "huffman",
+      "symbols_file": "pair-29-symbols.bin",
+      "symbols_sha256": "b2096a91bd5b276383bd83f8890160202ab112afa1bf4f55ec55a24ebaddecba",
+      "codec_file": "pair-29-codec.json"
+    }
+  ]
+}

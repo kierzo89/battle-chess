@@ -1,0 +1,3391 @@
+{
+  "status": "PASS_NATIVE_TASK_FLOW",
+  "cases": 288,
+  "rows": [
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "left",
+      "piece": 1,
+      "opponent": 1,
+      "frame_count": 49,
+      "sequence_terminal_call": 65,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "left",
+      "piece": 1,
+      "opponent": 1,
+      "frame_count": 49,
+      "sequence_terminal_call": 49,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "left",
+      "piece": 1,
+      "opponent": 2,
+      "frame_count": 27,
+      "sequence_terminal_call": 78,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "left",
+      "piece": 1,
+      "opponent": 2,
+      "frame_count": 27,
+      "sequence_terminal_call": 27,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "left",
+      "piece": 1,
+      "opponent": 3,
+      "frame_count": 32,
+      "sequence_terminal_call": 92,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "left",
+      "piece": 1,
+      "opponent": 3,
+      "frame_count": 32,
+      "sequence_terminal_call": 32,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "left",
+      "piece": 1,
+      "opponent": 4,
+      "frame_count": 20,
+      "sequence_terminal_call": 48,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "left",
+      "piece": 1,
+      "opponent": 4,
+      "frame_count": 20,
+      "sequence_terminal_call": 20,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "left",
+      "piece": 1,
+      "opponent": 5,
+      "frame_count": 30,
+      "sequence_terminal_call": 76,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "left",
+      "piece": 1,
+      "opponent": 5,
+      "frame_count": 30,
+      "sequence_terminal_call": 30,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "left",
+      "piece": 1,
+      "opponent": 6,
+      "frame_count": 22,
+      "sequence_terminal_call": 65,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "left",
+      "piece": 1,
+      "opponent": 6,
+      "frame_count": 22,
+      "sequence_terminal_call": 22,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "left",
+      "piece": 2,
+      "opponent": 1,
+      "frame_count": 29,
+      "sequence_terminal_call": 59,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "left",
+      "piece": 2,
+      "opponent": 1,
+      "frame_count": 29,
+      "sequence_terminal_call": 29,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "left",
+      "piece": 2,
+      "opponent": 2,
+      "frame_count": 0,
+      "sequence_terminal_call": 0,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "left",
+      "piece": 2,
+      "opponent": 2,
+      "frame_count": 0,
+      "sequence_terminal_call": 0,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "left",
+      "piece": 2,
+      "opponent": 3,
+      "frame_count": 46,
+      "sequence_terminal_call": 103,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "left",
+      "piece": 2,
+      "opponent": 3,
+      "frame_count": 46,
+      "sequence_terminal_call": 46,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "left",
+      "piece": 2,
+      "opponent": 4,
+      "frame_count": 18,
+      "sequence_terminal_call": 66,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "left",
+      "piece": 2,
+      "opponent": 4,
+      "frame_count": 18,
+      "sequence_terminal_call": 18,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "left",
+      "piece": 2,
+      "opponent": 5,
+      "frame_count": 44,
+      "sequence_terminal_call": 64,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "left",
+      "piece": 2,
+      "opponent": 5,
+      "frame_count": 44,
+      "sequence_terminal_call": 44,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "left",
+      "piece": 2,
+      "opponent": 6,
+      "frame_count": 30,
+      "sequence_terminal_call": 91,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "left",
+      "piece": 2,
+      "opponent": 6,
+      "frame_count": 30,
+      "sequence_terminal_call": 30,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "left",
+      "piece": 3,
+      "opponent": 1,
+      "frame_count": 34,
+      "sequence_terminal_call": 72,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "left",
+      "piece": 3,
+      "opponent": 1,
+      "frame_count": 34,
+      "sequence_terminal_call": 34,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "left",
+      "piece": 3,
+      "opponent": 2,
+      "frame_count": 24,
+      "sequence_terminal_call": 100,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "left",
+      "piece": 3,
+      "opponent": 2,
+      "frame_count": 24,
+      "sequence_terminal_call": 24,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "left",
+      "piece": 3,
+      "opponent": 3,
+      "frame_count": 71,
+      "sequence_terminal_call": 160,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "left",
+      "piece": 3,
+      "opponent": 3,
+      "frame_count": 71,
+      "sequence_terminal_call": 71,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "left",
+      "piece": 3,
+      "opponent": 4,
+      "frame_count": 31,
+      "sequence_terminal_call": 68,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "left",
+      "piece": 3,
+      "opponent": 4,
+      "frame_count": 31,
+      "sequence_terminal_call": 31,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "left",
+      "piece": 3,
+      "opponent": 5,
+      "frame_count": 35,
+      "sequence_terminal_call": 72,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "left",
+      "piece": 3,
+      "opponent": 5,
+      "frame_count": 35,
+      "sequence_terminal_call": 35,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "left",
+      "piece": 3,
+      "opponent": 6,
+      "frame_count": 30,
+      "sequence_terminal_call": 60,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "left",
+      "piece": 3,
+      "opponent": 6,
+      "frame_count": 30,
+      "sequence_terminal_call": 30,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "left",
+      "piece": 4,
+      "opponent": 1,
+      "frame_count": 29,
+      "sequence_terminal_call": 90,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "left",
+      "piece": 4,
+      "opponent": 1,
+      "frame_count": 29,
+      "sequence_terminal_call": 29,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "left",
+      "piece": 4,
+      "opponent": 2,
+      "frame_count": 10,
+      "sequence_terminal_call": 44,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "left",
+      "piece": 4,
+      "opponent": 2,
+      "frame_count": 10,
+      "sequence_terminal_call": 10,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "left",
+      "piece": 4,
+      "opponent": 3,
+      "frame_count": 44,
+      "sequence_terminal_call": 91,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "left",
+      "piece": 4,
+      "opponent": 3,
+      "frame_count": 44,
+      "sequence_terminal_call": 44,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "left",
+      "piece": 4,
+      "opponent": 4,
+      "frame_count": 31,
+      "sequence_terminal_call": 51,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "left",
+      "piece": 4,
+      "opponent": 4,
+      "frame_count": 31,
+      "sequence_terminal_call": 31,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "left",
+      "piece": 4,
+      "opponent": 5,
+      "frame_count": 36,
+      "sequence_terminal_call": 92,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "left",
+      "piece": 4,
+      "opponent": 5,
+      "frame_count": 36,
+      "sequence_terminal_call": 36,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "left",
+      "piece": 4,
+      "opponent": 6,
+      "frame_count": 24,
+      "sequence_terminal_call": 77,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "left",
+      "piece": 4,
+      "opponent": 6,
+      "frame_count": 24,
+      "sequence_terminal_call": 24,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "left",
+      "piece": 5,
+      "opponent": 1,
+      "frame_count": 31,
+      "sequence_terminal_call": 86,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "left",
+      "piece": 5,
+      "opponent": 1,
+      "frame_count": 31,
+      "sequence_terminal_call": 31,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "left",
+      "piece": 5,
+      "opponent": 2,
+      "frame_count": 46,
+      "sequence_terminal_call": 103,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "left",
+      "piece": 5,
+      "opponent": 2,
+      "frame_count": 46,
+      "sequence_terminal_call": 46,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "left",
+      "piece": 5,
+      "opponent": 3,
+      "frame_count": 47,
+      "sequence_terminal_call": 79,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "left",
+      "piece": 5,
+      "opponent": 3,
+      "frame_count": 47,
+      "sequence_terminal_call": 47,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "left",
+      "piece": 5,
+      "opponent": 4,
+      "frame_count": 22,
+      "sequence_terminal_call": 55,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "left",
+      "piece": 5,
+      "opponent": 4,
+      "frame_count": 22,
+      "sequence_terminal_call": 22,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "left",
+      "piece": 5,
+      "opponent": 5,
+      "frame_count": 35,
+      "sequence_terminal_call": 48,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "left",
+      "piece": 5,
+      "opponent": 5,
+      "frame_count": 35,
+      "sequence_terminal_call": 35,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "left",
+      "piece": 5,
+      "opponent": 6,
+      "frame_count": 27,
+      "sequence_terminal_call": 56,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "left",
+      "piece": 5,
+      "opponent": 6,
+      "frame_count": 27,
+      "sequence_terminal_call": 27,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "left",
+      "piece": 6,
+      "opponent": 1,
+      "frame_count": 23,
+      "sequence_terminal_call": 70,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "left",
+      "piece": 6,
+      "opponent": 1,
+      "frame_count": 23,
+      "sequence_terminal_call": 23,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "left",
+      "piece": 6,
+      "opponent": 2,
+      "frame_count": 22,
+      "sequence_terminal_call": 63,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "left",
+      "piece": 6,
+      "opponent": 2,
+      "frame_count": 22,
+      "sequence_terminal_call": 22,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "left",
+      "piece": 6,
+      "opponent": 3,
+      "frame_count": 51,
+      "sequence_terminal_call": 95,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "left",
+      "piece": 6,
+      "opponent": 3,
+      "frame_count": 51,
+      "sequence_terminal_call": 51,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "left",
+      "piece": 6,
+      "opponent": 4,
+      "frame_count": 27,
+      "sequence_terminal_call": 68,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "left",
+      "piece": 6,
+      "opponent": 4,
+      "frame_count": 27,
+      "sequence_terminal_call": 27,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "left",
+      "piece": 6,
+      "opponent": 5,
+      "frame_count": 27,
+      "sequence_terminal_call": 60,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "left",
+      "piece": 6,
+      "opponent": 5,
+      "frame_count": 27,
+      "sequence_terminal_call": 27,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "left",
+      "piece": 6,
+      "opponent": 6,
+      "frame_count": 57,
+      "sequence_terminal_call": 70,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "left",
+      "piece": 6,
+      "opponent": 6,
+      "frame_count": 57,
+      "sequence_terminal_call": 57,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "right",
+      "piece": 1,
+      "opponent": 1,
+      "frame_count": 21,
+      "sequence_terminal_call": 61,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "right",
+      "piece": 1,
+      "opponent": 1,
+      "frame_count": 21,
+      "sequence_terminal_call": 21,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "right",
+      "piece": 1,
+      "opponent": 2,
+      "frame_count": 22,
+      "sequence_terminal_call": 52,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "right",
+      "piece": 1,
+      "opponent": 2,
+      "frame_count": 22,
+      "sequence_terminal_call": 22,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "right",
+      "piece": 1,
+      "opponent": 3,
+      "frame_count": 24,
+      "sequence_terminal_call": 35,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "right",
+      "piece": 1,
+      "opponent": 3,
+      "frame_count": 24,
+      "sequence_terminal_call": 24,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "right",
+      "piece": 1,
+      "opponent": 4,
+      "frame_count": 38,
+      "sequence_terminal_call": 70,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "right",
+      "piece": 1,
+      "opponent": 4,
+      "frame_count": 38,
+      "sequence_terminal_call": 38,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "right",
+      "piece": 1,
+      "opponent": 5,
+      "frame_count": 26,
+      "sequence_terminal_call": 68,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "right",
+      "piece": 1,
+      "opponent": 5,
+      "frame_count": 26,
+      "sequence_terminal_call": 26,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "right",
+      "piece": 1,
+      "opponent": 6,
+      "frame_count": 20,
+      "sequence_terminal_call": 31,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "right",
+      "piece": 1,
+      "opponent": 6,
+      "frame_count": 20,
+      "sequence_terminal_call": 20,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "right",
+      "piece": 2,
+      "opponent": 1,
+      "frame_count": 41,
+      "sequence_terminal_call": 89,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "right",
+      "piece": 2,
+      "opponent": 1,
+      "frame_count": 41,
+      "sequence_terminal_call": 41,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "right",
+      "piece": 2,
+      "opponent": 2,
+      "frame_count": 0,
+      "sequence_terminal_call": 0,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "right",
+      "piece": 2,
+      "opponent": 2,
+      "frame_count": 0,
+      "sequence_terminal_call": 0,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "right",
+      "piece": 2,
+      "opponent": 3,
+      "frame_count": 34,
+      "sequence_terminal_call": 61,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "right",
+      "piece": 2,
+      "opponent": 3,
+      "frame_count": 34,
+      "sequence_terminal_call": 34,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "right",
+      "piece": 2,
+      "opponent": 4,
+      "frame_count": 16,
+      "sequence_terminal_call": 44,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "right",
+      "piece": 2,
+      "opponent": 4,
+      "frame_count": 16,
+      "sequence_terminal_call": 16,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "right",
+      "piece": 2,
+      "opponent": 5,
+      "frame_count": 48,
+      "sequence_terminal_call": 114,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "right",
+      "piece": 2,
+      "opponent": 5,
+      "frame_count": 48,
+      "sequence_terminal_call": 48,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "right",
+      "piece": 2,
+      "opponent": 6,
+      "frame_count": 36,
+      "sequence_terminal_call": 58,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "right",
+      "piece": 2,
+      "opponent": 6,
+      "frame_count": 36,
+      "sequence_terminal_call": 36,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "right",
+      "piece": 3,
+      "opponent": 1,
+      "frame_count": 28,
+      "sequence_terminal_call": 74,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "right",
+      "piece": 3,
+      "opponent": 1,
+      "frame_count": 28,
+      "sequence_terminal_call": 28,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "right",
+      "piece": 3,
+      "opponent": 2,
+      "frame_count": 51,
+      "sequence_terminal_call": 94,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "right",
+      "piece": 3,
+      "opponent": 2,
+      "frame_count": 51,
+      "sequence_terminal_call": 51,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "right",
+      "piece": 3,
+      "opponent": 3,
+      "frame_count": 62,
+      "sequence_terminal_call": 152,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "right",
+      "piece": 3,
+      "opponent": 3,
+      "frame_count": 62,
+      "sequence_terminal_call": 62,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "right",
+      "piece": 3,
+      "opponent": 4,
+      "frame_count": 47,
+      "sequence_terminal_call": 88,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "right",
+      "piece": 3,
+      "opponent": 4,
+      "frame_count": 47,
+      "sequence_terminal_call": 47,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "right",
+      "piece": 3,
+      "opponent": 5,
+      "frame_count": 23,
+      "sequence_terminal_call": 68,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "right",
+      "piece": 3,
+      "opponent": 5,
+      "frame_count": 23,
+      "sequence_terminal_call": 23,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "right",
+      "piece": 3,
+      "opponent": 6,
+      "frame_count": 35,
+      "sequence_terminal_call": 77,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "right",
+      "piece": 3,
+      "opponent": 6,
+      "frame_count": 35,
+      "sequence_terminal_call": 35,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "right",
+      "piece": 4,
+      "opponent": 1,
+      "frame_count": 18,
+      "sequence_terminal_call": 40,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "right",
+      "piece": 4,
+      "opponent": 1,
+      "frame_count": 18,
+      "sequence_terminal_call": 18,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "right",
+      "piece": 4,
+      "opponent": 2,
+      "frame_count": 18,
+      "sequence_terminal_call": 27,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "right",
+      "piece": 4,
+      "opponent": 2,
+      "frame_count": 18,
+      "sequence_terminal_call": 18,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "right",
+      "piece": 4,
+      "opponent": 3,
+      "frame_count": 6,
+      "sequence_terminal_call": 23,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "right",
+      "piece": 4,
+      "opponent": 3,
+      "frame_count": 6,
+      "sequence_terminal_call": 6,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "right",
+      "piece": 4,
+      "opponent": 4,
+      "frame_count": 16,
+      "sequence_terminal_call": 46,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "right",
+      "piece": 4,
+      "opponent": 4,
+      "frame_count": 16,
+      "sequence_terminal_call": 16,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "right",
+      "piece": 4,
+      "opponent": 5,
+      "frame_count": 9,
+      "sequence_terminal_call": 40,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "right",
+      "piece": 4,
+      "opponent": 5,
+      "frame_count": 9,
+      "sequence_terminal_call": 9,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "right",
+      "piece": 4,
+      "opponent": 6,
+      "frame_count": 35,
+      "sequence_terminal_call": 64,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "right",
+      "piece": 4,
+      "opponent": 6,
+      "frame_count": 35,
+      "sequence_terminal_call": 35,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "right",
+      "piece": 5,
+      "opponent": 1,
+      "frame_count": 23,
+      "sequence_terminal_call": 56,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "right",
+      "piece": 5,
+      "opponent": 1,
+      "frame_count": 23,
+      "sequence_terminal_call": 23,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "right",
+      "piece": 5,
+      "opponent": 2,
+      "frame_count": 16,
+      "sequence_terminal_call": 69,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "right",
+      "piece": 5,
+      "opponent": 2,
+      "frame_count": 16,
+      "sequence_terminal_call": 16,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "right",
+      "piece": 5,
+      "opponent": 3,
+      "frame_count": 18,
+      "sequence_terminal_call": 32,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "right",
+      "piece": 5,
+      "opponent": 3,
+      "frame_count": 18,
+      "sequence_terminal_call": 18,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "right",
+      "piece": 5,
+      "opponent": 4,
+      "frame_count": 30,
+      "sequence_terminal_call": 87,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "right",
+      "piece": 5,
+      "opponent": 4,
+      "frame_count": 30,
+      "sequence_terminal_call": 30,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "right",
+      "piece": 5,
+      "opponent": 5,
+      "frame_count": 10,
+      "sequence_terminal_call": 22,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "right",
+      "piece": 5,
+      "opponent": 5,
+      "frame_count": 10,
+      "sequence_terminal_call": 10,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "right",
+      "piece": 5,
+      "opponent": 6,
+      "frame_count": 12,
+      "sequence_terminal_call": 43,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "right",
+      "piece": 5,
+      "opponent": 6,
+      "frame_count": 12,
+      "sequence_terminal_call": 12,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "right",
+      "piece": 6,
+      "opponent": 1,
+      "frame_count": 36,
+      "sequence_terminal_call": 44,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "right",
+      "piece": 6,
+      "opponent": 1,
+      "frame_count": 36,
+      "sequence_terminal_call": 36,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "right",
+      "piece": 6,
+      "opponent": 2,
+      "frame_count": 43,
+      "sequence_terminal_call": 85,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "right",
+      "piece": 6,
+      "opponent": 2,
+      "frame_count": 43,
+      "sequence_terminal_call": 43,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "right",
+      "piece": 6,
+      "opponent": 3,
+      "frame_count": 18,
+      "sequence_terminal_call": 20,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "right",
+      "piece": 6,
+      "opponent": 3,
+      "frame_count": 18,
+      "sequence_terminal_call": 18,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "right",
+      "piece": 6,
+      "opponent": 4,
+      "frame_count": 18,
+      "sequence_terminal_call": 76,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "right",
+      "piece": 6,
+      "opponent": 4,
+      "frame_count": 18,
+      "sequence_terminal_call": 18,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "right",
+      "piece": 6,
+      "opponent": 5,
+      "frame_count": 39,
+      "sequence_terminal_call": 92,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "right",
+      "piece": 6,
+      "opponent": 5,
+      "frame_count": 39,
+      "sequence_terminal_call": 39,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 0,
+      "command_active": 0,
+      "side": "right",
+      "piece": 6,
+      "opponent": 6,
+      "frame_count": 54,
+      "sequence_terminal_call": 62,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 0,
+      "command_active": 1,
+      "side": "right",
+      "piece": 6,
+      "opponent": 6,
+      "frame_count": 54,
+      "sequence_terminal_call": 54,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "left",
+      "piece": 1,
+      "opponent": 1,
+      "frame_count": 49,
+      "sequence_terminal_call": 66,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "left",
+      "piece": 1,
+      "opponent": 1,
+      "frame_count": 49,
+      "sequence_terminal_call": 49,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "left",
+      "piece": 1,
+      "opponent": 2,
+      "frame_count": 27,
+      "sequence_terminal_call": 78,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "left",
+      "piece": 1,
+      "opponent": 2,
+      "frame_count": 27,
+      "sequence_terminal_call": 27,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "left",
+      "piece": 1,
+      "opponent": 3,
+      "frame_count": 32,
+      "sequence_terminal_call": 92,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "left",
+      "piece": 1,
+      "opponent": 3,
+      "frame_count": 32,
+      "sequence_terminal_call": 32,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "left",
+      "piece": 1,
+      "opponent": 4,
+      "frame_count": 20,
+      "sequence_terminal_call": 48,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "left",
+      "piece": 1,
+      "opponent": 4,
+      "frame_count": 20,
+      "sequence_terminal_call": 20,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "left",
+      "piece": 1,
+      "opponent": 5,
+      "frame_count": 30,
+      "sequence_terminal_call": 76,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "left",
+      "piece": 1,
+      "opponent": 5,
+      "frame_count": 30,
+      "sequence_terminal_call": 30,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "left",
+      "piece": 1,
+      "opponent": 6,
+      "frame_count": 22,
+      "sequence_terminal_call": 70,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "left",
+      "piece": 1,
+      "opponent": 6,
+      "frame_count": 22,
+      "sequence_terminal_call": 22,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "left",
+      "piece": 2,
+      "opponent": 1,
+      "frame_count": 29,
+      "sequence_terminal_call": 59,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "left",
+      "piece": 2,
+      "opponent": 1,
+      "frame_count": 29,
+      "sequence_terminal_call": 29,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "left",
+      "piece": 2,
+      "opponent": 2,
+      "frame_count": 0,
+      "sequence_terminal_call": 0,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "left",
+      "piece": 2,
+      "opponent": 2,
+      "frame_count": 0,
+      "sequence_terminal_call": 0,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "left",
+      "piece": 2,
+      "opponent": 3,
+      "frame_count": 46,
+      "sequence_terminal_call": 93,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "left",
+      "piece": 2,
+      "opponent": 3,
+      "frame_count": 46,
+      "sequence_terminal_call": 46,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "left",
+      "piece": 2,
+      "opponent": 4,
+      "frame_count": 18,
+      "sequence_terminal_call": 43,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "left",
+      "piece": 2,
+      "opponent": 4,
+      "frame_count": 18,
+      "sequence_terminal_call": 18,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "left",
+      "piece": 2,
+      "opponent": 5,
+      "frame_count": 44,
+      "sequence_terminal_call": 64,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "left",
+      "piece": 2,
+      "opponent": 5,
+      "frame_count": 44,
+      "sequence_terminal_call": 44,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "left",
+      "piece": 2,
+      "opponent": 6,
+      "frame_count": 30,
+      "sequence_terminal_call": 99,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "left",
+      "piece": 2,
+      "opponent": 6,
+      "frame_count": 30,
+      "sequence_terminal_call": 30,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "left",
+      "piece": 3,
+      "opponent": 1,
+      "frame_count": 34,
+      "sequence_terminal_call": 108,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "left",
+      "piece": 3,
+      "opponent": 1,
+      "frame_count": 34,
+      "sequence_terminal_call": 34,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "left",
+      "piece": 3,
+      "opponent": 2,
+      "frame_count": 24,
+      "sequence_terminal_call": 104,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "left",
+      "piece": 3,
+      "opponent": 2,
+      "frame_count": 24,
+      "sequence_terminal_call": 24,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "left",
+      "piece": 3,
+      "opponent": 3,
+      "frame_count": 71,
+      "sequence_terminal_call": 170,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "left",
+      "piece": 3,
+      "opponent": 3,
+      "frame_count": 71,
+      "sequence_terminal_call": 71,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "left",
+      "piece": 3,
+      "opponent": 4,
+      "frame_count": 31,
+      "sequence_terminal_call": 90,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "left",
+      "piece": 3,
+      "opponent": 4,
+      "frame_count": 31,
+      "sequence_terminal_call": 31,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "left",
+      "piece": 3,
+      "opponent": 5,
+      "frame_count": 35,
+      "sequence_terminal_call": 80,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "left",
+      "piece": 3,
+      "opponent": 5,
+      "frame_count": 35,
+      "sequence_terminal_call": 35,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "left",
+      "piece": 3,
+      "opponent": 6,
+      "frame_count": 30,
+      "sequence_terminal_call": 69,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "left",
+      "piece": 3,
+      "opponent": 6,
+      "frame_count": 30,
+      "sequence_terminal_call": 30,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "left",
+      "piece": 4,
+      "opponent": 1,
+      "frame_count": 29,
+      "sequence_terminal_call": 74,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "left",
+      "piece": 4,
+      "opponent": 1,
+      "frame_count": 29,
+      "sequence_terminal_call": 29,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "left",
+      "piece": 4,
+      "opponent": 2,
+      "frame_count": 10,
+      "sequence_terminal_call": 52,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "left",
+      "piece": 4,
+      "opponent": 2,
+      "frame_count": 10,
+      "sequence_terminal_call": 10,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "left",
+      "piece": 4,
+      "opponent": 3,
+      "frame_count": 44,
+      "sequence_terminal_call": 91,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "left",
+      "piece": 4,
+      "opponent": 3,
+      "frame_count": 44,
+      "sequence_terminal_call": 44,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "left",
+      "piece": 4,
+      "opponent": 4,
+      "frame_count": 31,
+      "sequence_terminal_call": 66,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "left",
+      "piece": 4,
+      "opponent": 4,
+      "frame_count": 31,
+      "sequence_terminal_call": 31,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "left",
+      "piece": 4,
+      "opponent": 5,
+      "frame_count": 36,
+      "sequence_terminal_call": 96,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "left",
+      "piece": 4,
+      "opponent": 5,
+      "frame_count": 36,
+      "sequence_terminal_call": 36,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "left",
+      "piece": 4,
+      "opponent": 6,
+      "frame_count": 24,
+      "sequence_terminal_call": 77,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "left",
+      "piece": 4,
+      "opponent": 6,
+      "frame_count": 24,
+      "sequence_terminal_call": 24,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "left",
+      "piece": 5,
+      "opponent": 1,
+      "frame_count": 31,
+      "sequence_terminal_call": 94,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "left",
+      "piece": 5,
+      "opponent": 1,
+      "frame_count": 31,
+      "sequence_terminal_call": 31,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "left",
+      "piece": 5,
+      "opponent": 2,
+      "frame_count": 46,
+      "sequence_terminal_call": 103,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "left",
+      "piece": 5,
+      "opponent": 2,
+      "frame_count": 46,
+      "sequence_terminal_call": 46,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "left",
+      "piece": 5,
+      "opponent": 3,
+      "frame_count": 47,
+      "sequence_terminal_call": 78,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "left",
+      "piece": 5,
+      "opponent": 3,
+      "frame_count": 47,
+      "sequence_terminal_call": 47,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "left",
+      "piece": 5,
+      "opponent": 4,
+      "frame_count": 22,
+      "sequence_terminal_call": 56,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "left",
+      "piece": 5,
+      "opponent": 4,
+      "frame_count": 22,
+      "sequence_terminal_call": 22,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "left",
+      "piece": 5,
+      "opponent": 5,
+      "frame_count": 35,
+      "sequence_terminal_call": 48,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "left",
+      "piece": 5,
+      "opponent": 5,
+      "frame_count": 35,
+      "sequence_terminal_call": 35,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "left",
+      "piece": 5,
+      "opponent": 6,
+      "frame_count": 27,
+      "sequence_terminal_call": 56,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "left",
+      "piece": 5,
+      "opponent": 6,
+      "frame_count": 27,
+      "sequence_terminal_call": 27,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "left",
+      "piece": 6,
+      "opponent": 1,
+      "frame_count": 23,
+      "sequence_terminal_call": 78,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "left",
+      "piece": 6,
+      "opponent": 1,
+      "frame_count": 23,
+      "sequence_terminal_call": 23,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "left",
+      "piece": 6,
+      "opponent": 2,
+      "frame_count": 22,
+      "sequence_terminal_call": 63,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "left",
+      "piece": 6,
+      "opponent": 2,
+      "frame_count": 22,
+      "sequence_terminal_call": 22,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "left",
+      "piece": 6,
+      "opponent": 3,
+      "frame_count": 51,
+      "sequence_terminal_call": 93,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "left",
+      "piece": 6,
+      "opponent": 3,
+      "frame_count": 51,
+      "sequence_terminal_call": 51,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "left",
+      "piece": 6,
+      "opponent": 4,
+      "frame_count": 27,
+      "sequence_terminal_call": 68,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "left",
+      "piece": 6,
+      "opponent": 4,
+      "frame_count": 27,
+      "sequence_terminal_call": 27,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "left",
+      "piece": 6,
+      "opponent": 5,
+      "frame_count": 27,
+      "sequence_terminal_call": 63,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "left",
+      "piece": 6,
+      "opponent": 5,
+      "frame_count": 27,
+      "sequence_terminal_call": 27,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "left",
+      "piece": 6,
+      "opponent": 6,
+      "frame_count": 57,
+      "sequence_terminal_call": 80,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "left",
+      "piece": 6,
+      "opponent": 6,
+      "frame_count": 57,
+      "sequence_terminal_call": 57,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "right",
+      "piece": 1,
+      "opponent": 1,
+      "frame_count": 21,
+      "sequence_terminal_call": 60,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "right",
+      "piece": 1,
+      "opponent": 1,
+      "frame_count": 21,
+      "sequence_terminal_call": 21,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "right",
+      "piece": 1,
+      "opponent": 2,
+      "frame_count": 22,
+      "sequence_terminal_call": 52,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "right",
+      "piece": 1,
+      "opponent": 2,
+      "frame_count": 22,
+      "sequence_terminal_call": 22,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "right",
+      "piece": 1,
+      "opponent": 3,
+      "frame_count": 24,
+      "sequence_terminal_call": 35,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "right",
+      "piece": 1,
+      "opponent": 3,
+      "frame_count": 24,
+      "sequence_terminal_call": 24,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "right",
+      "piece": 1,
+      "opponent": 4,
+      "frame_count": 38,
+      "sequence_terminal_call": 66,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "right",
+      "piece": 1,
+      "opponent": 4,
+      "frame_count": 38,
+      "sequence_terminal_call": 38,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "right",
+      "piece": 1,
+      "opponent": 5,
+      "frame_count": 26,
+      "sequence_terminal_call": 71,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "right",
+      "piece": 1,
+      "opponent": 5,
+      "frame_count": 26,
+      "sequence_terminal_call": 26,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "right",
+      "piece": 1,
+      "opponent": 6,
+      "frame_count": 20,
+      "sequence_terminal_call": 31,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "right",
+      "piece": 1,
+      "opponent": 6,
+      "frame_count": 20,
+      "sequence_terminal_call": 20,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "right",
+      "piece": 2,
+      "opponent": 1,
+      "frame_count": 41,
+      "sequence_terminal_call": 89,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "right",
+      "piece": 2,
+      "opponent": 1,
+      "frame_count": 41,
+      "sequence_terminal_call": 41,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "right",
+      "piece": 2,
+      "opponent": 2,
+      "frame_count": 0,
+      "sequence_terminal_call": 0,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "right",
+      "piece": 2,
+      "opponent": 2,
+      "frame_count": 0,
+      "sequence_terminal_call": 0,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "right",
+      "piece": 2,
+      "opponent": 3,
+      "frame_count": 34,
+      "sequence_terminal_call": 61,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "right",
+      "piece": 2,
+      "opponent": 3,
+      "frame_count": 34,
+      "sequence_terminal_call": 34,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "right",
+      "piece": 2,
+      "opponent": 4,
+      "frame_count": 16,
+      "sequence_terminal_call": 47,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "right",
+      "piece": 2,
+      "opponent": 4,
+      "frame_count": 16,
+      "sequence_terminal_call": 16,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "right",
+      "piece": 2,
+      "opponent": 5,
+      "frame_count": 48,
+      "sequence_terminal_call": 114,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "right",
+      "piece": 2,
+      "opponent": 5,
+      "frame_count": 48,
+      "sequence_terminal_call": 48,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "right",
+      "piece": 2,
+      "opponent": 6,
+      "frame_count": 36,
+      "sequence_terminal_call": 60,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "right",
+      "piece": 2,
+      "opponent": 6,
+      "frame_count": 36,
+      "sequence_terminal_call": 36,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "right",
+      "piece": 3,
+      "opponent": 1,
+      "frame_count": 28,
+      "sequence_terminal_call": 74,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "right",
+      "piece": 3,
+      "opponent": 1,
+      "frame_count": 28,
+      "sequence_terminal_call": 28,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "right",
+      "piece": 3,
+      "opponent": 2,
+      "frame_count": 51,
+      "sequence_terminal_call": 93,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "right",
+      "piece": 3,
+      "opponent": 2,
+      "frame_count": 51,
+      "sequence_terminal_call": 51,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "right",
+      "piece": 3,
+      "opponent": 3,
+      "frame_count": 62,
+      "sequence_terminal_call": 152,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "right",
+      "piece": 3,
+      "opponent": 3,
+      "frame_count": 62,
+      "sequence_terminal_call": 62,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "right",
+      "piece": 3,
+      "opponent": 4,
+      "frame_count": 47,
+      "sequence_terminal_call": 88,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "right",
+      "piece": 3,
+      "opponent": 4,
+      "frame_count": 47,
+      "sequence_terminal_call": 47,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "right",
+      "piece": 3,
+      "opponent": 5,
+      "frame_count": 23,
+      "sequence_terminal_call": 68,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "right",
+      "piece": 3,
+      "opponent": 5,
+      "frame_count": 23,
+      "sequence_terminal_call": 23,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "right",
+      "piece": 3,
+      "opponent": 6,
+      "frame_count": 35,
+      "sequence_terminal_call": 75,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "right",
+      "piece": 3,
+      "opponent": 6,
+      "frame_count": 35,
+      "sequence_terminal_call": 35,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "right",
+      "piece": 4,
+      "opponent": 1,
+      "frame_count": 18,
+      "sequence_terminal_call": 40,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "right",
+      "piece": 4,
+      "opponent": 1,
+      "frame_count": 18,
+      "sequence_terminal_call": 18,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "right",
+      "piece": 4,
+      "opponent": 2,
+      "frame_count": 18,
+      "sequence_terminal_call": 27,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "right",
+      "piece": 4,
+      "opponent": 2,
+      "frame_count": 18,
+      "sequence_terminal_call": 18,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "right",
+      "piece": 4,
+      "opponent": 3,
+      "frame_count": 6,
+      "sequence_terminal_call": 23,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "right",
+      "piece": 4,
+      "opponent": 3,
+      "frame_count": 6,
+      "sequence_terminal_call": 6,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "right",
+      "piece": 4,
+      "opponent": 4,
+      "frame_count": 16,
+      "sequence_terminal_call": 59,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "right",
+      "piece": 4,
+      "opponent": 4,
+      "frame_count": 16,
+      "sequence_terminal_call": 16,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "right",
+      "piece": 4,
+      "opponent": 5,
+      "frame_count": 9,
+      "sequence_terminal_call": 40,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "right",
+      "piece": 4,
+      "opponent": 5,
+      "frame_count": 9,
+      "sequence_terminal_call": 9,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "right",
+      "piece": 4,
+      "opponent": 6,
+      "frame_count": 35,
+      "sequence_terminal_call": 64,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "right",
+      "piece": 4,
+      "opponent": 6,
+      "frame_count": 35,
+      "sequence_terminal_call": 35,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "right",
+      "piece": 5,
+      "opponent": 1,
+      "frame_count": 23,
+      "sequence_terminal_call": 47,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "right",
+      "piece": 5,
+      "opponent": 1,
+      "frame_count": 23,
+      "sequence_terminal_call": 23,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "right",
+      "piece": 5,
+      "opponent": 2,
+      "frame_count": 16,
+      "sequence_terminal_call": 61,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "right",
+      "piece": 5,
+      "opponent": 2,
+      "frame_count": 16,
+      "sequence_terminal_call": 16,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "right",
+      "piece": 5,
+      "opponent": 3,
+      "frame_count": 18,
+      "sequence_terminal_call": 57,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "right",
+      "piece": 5,
+      "opponent": 3,
+      "frame_count": 18,
+      "sequence_terminal_call": 18,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "right",
+      "piece": 5,
+      "opponent": 4,
+      "frame_count": 30,
+      "sequence_terminal_call": 87,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "right",
+      "piece": 5,
+      "opponent": 4,
+      "frame_count": 30,
+      "sequence_terminal_call": 30,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "right",
+      "piece": 5,
+      "opponent": 5,
+      "frame_count": 10,
+      "sequence_terminal_call": 22,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "right",
+      "piece": 5,
+      "opponent": 5,
+      "frame_count": 10,
+      "sequence_terminal_call": 10,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "right",
+      "piece": 5,
+      "opponent": 6,
+      "frame_count": 12,
+      "sequence_terminal_call": 51,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "right",
+      "piece": 5,
+      "opponent": 6,
+      "frame_count": 12,
+      "sequence_terminal_call": 12,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "right",
+      "piece": 6,
+      "opponent": 1,
+      "frame_count": 36,
+      "sequence_terminal_call": 44,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "right",
+      "piece": 6,
+      "opponent": 1,
+      "frame_count": 36,
+      "sequence_terminal_call": 36,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "right",
+      "piece": 6,
+      "opponent": 2,
+      "frame_count": 43,
+      "sequence_terminal_call": 85,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "right",
+      "piece": 6,
+      "opponent": 2,
+      "frame_count": 43,
+      "sequence_terminal_call": 43,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "right",
+      "piece": 6,
+      "opponent": 3,
+      "frame_count": 18,
+      "sequence_terminal_call": 20,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "right",
+      "piece": 6,
+      "opponent": 3,
+      "frame_count": 18,
+      "sequence_terminal_call": 18,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "right",
+      "piece": 6,
+      "opponent": 4,
+      "frame_count": 18,
+      "sequence_terminal_call": 76,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "right",
+      "piece": 6,
+      "opponent": 4,
+      "frame_count": 18,
+      "sequence_terminal_call": 18,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "right",
+      "piece": 6,
+      "opponent": 5,
+      "frame_count": 39,
+      "sequence_terminal_call": 92,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "right",
+      "piece": 6,
+      "opponent": 5,
+      "frame_count": 39,
+      "sequence_terminal_call": 39,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    },
+    {
+      "profile": 1,
+      "command_active": 0,
+      "side": "right",
+      "piece": 6,
+      "opponent": 6,
+      "frame_count": 54,
+      "sequence_terminal_call": 62,
+      "barrier_wait_verified": true,
+      "cleanup": [
+        "arena_restore",
+        "arena_manage"
+      ]
+    },
+    {
+      "profile": 1,
+      "command_active": 1,
+      "side": "right",
+      "piece": 6,
+      "opponent": 6,
+      "frame_count": 54,
+      "sequence_terminal_call": 54,
+      "barrier_wait_verified": true,
+      "cleanup": []
+    }
+  ],
+  "canonical_credit_added": 0
+}

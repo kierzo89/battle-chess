@@ -17,6 +17,10 @@ REA-controlled runtime checks covered startup artwork, the animated board, a leg
 
 **This is a mixed C/assembly reconstruction, not 100% recovered C.** The separately accepted component checkpoint records 255 C functions / 48,482 C code bytes and approximately 82.77% original-file component coverage. Complete executable identity is a separate result. Authentic historical runtime-library members are external inputs and are not credited as decompiled C. Some reconstructed data and code providers are explicitly assembly.
 
+## Recovered assets
+
+The [asset bundle](assets/README.md) includes graphics, fonts, audio data, animation metadata and a portable Python script that reconstructs both original asset banks byte-for-byte. These files are loaded by the game separately from `CHESS.EXE`.
+
 ## Where to look
 
 - [`matching/src/`](matching/src/): reconstructed C sources.
@@ -45,13 +49,13 @@ Both `NEW_NAME` and its `NEW_NAME-source269` sibling must be new directories. Th
 
 A fresh checkout **cannot run that build until external dependencies and omitted binary evidence are supplied**:
 
-- Original `CHESS.EXE` for independent comparison; original game assets for runtime checks.
+- Original `CHESS.EXE` for independent comparison; recovered runtime assets are now provided under [`assets/`](assets/README.md).
 - Pinned Microsoft C 5.00/5.10 tools, assembler, LINK/EXEPACK, runtime libraries, original `LIB.EXE` and `BINMODE.OBJ`.
 - The pinned DOSBox and NASM builds recorded in `matching/build_pipeline/manifest.json`.
 - The Python environment at `matching/build/test-env/bin/python`, including test dependencies in `matching/requirements-dev.txt`.
 - Binary evidence inputs listed in [`verification/external-inputs.json`](verification/external-inputs.json). This inventory lists manifest omissions, not a complete automatic installation procedure.
 
-Existing `matching/setup_toolchain.py`, `setup_runtime.py` and `setup_libh.py` document pinned historical tool acquisition. Game assets, executable binaries, toolchains, runtime libraries, generated objects, model weights, credentials and the Workbench database are deliberately not published here. The original full evidence corpus also remains local; review documents may reference paths absent from this snapshot.
+Existing `matching/setup_toolchain.py`, `setup_runtime.py` and `setup_libh.py` document pinned historical tool acquisition. Recovered game assets and their portable bank rebuilder are now published under [`assets/`](assets/README.md). Executable binaries, toolchains, runtime libraries, generated objects, model weights, credentials and the Workbench database are deliberately not published here. The original full evidence corpus also remains local; review documents may reference paths absent from this snapshot.
 
 To verify the published snapshot itself, without external tools:
 
@@ -63,4 +67,4 @@ This checks file integrity and accounts for every pinned base-build and final-bu
 
 ## Rights and provenance
 
-This repository contains a reverse-engineered reconstruction. It does not include or grant rights to the original game, its artwork, or proprietary compiler/runtime distributions. No blanket license is asserted over those third-party materials. Source attribution and assembly-versus-C distinctions are retained in the verification records.
+This repository contains a reverse-engineered reconstruction. It includes recovered original asset data but does not grant rights to the original game or its artwork/audio. Proprietary compiler/runtime distributions are not included. No blanket license is asserted over those third-party materials. Source attribution and assembly-versus-C distinctions are retained in the verification records.

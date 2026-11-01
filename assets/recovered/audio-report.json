@@ -1,0 +1,912 @@
+{
+  "classification": "Original native audio port-command decoding; no physical hardware timing or full game audio rendering claim",
+  "record_count": 31,
+  "nibble_records_complete": 15,
+  "speaker_records_in_record_prefix_verified": 16,
+  "speaker_full_wrapper_boundary_holds": 16,
+  "records": [
+    {
+      "id": "asset-00",
+      "decoded_sha256": "de2bd386daa1edc251e06e32aa0ebeac53e37330db580a5cc60d31bd64b1929c",
+      "decoded_bytes": 5767,
+      "mode": 0,
+      "mode_slot": 0,
+      "header_words": [
+        5760,
+        15750
+      ],
+      "status": "NATIVE_FULL_DECLARED_PAYLOAD_EXACT",
+      "encoding": "two amplitude nibbles per byte, high then low; output attenuation=15-amplitude",
+      "payload_bytes": 5760,
+      "header_pitch_denominator": 15750,
+      "samples": 11520,
+      "sample_file": "asset-00.amplitude-nibbles.bin",
+      "sample_sha256": "3630fd36eae3e2e524bcdcb09f41dfa329850d4f3be2118540dfda929f07f1fb",
+      "unused_trailing_bytes_hex": "877778",
+      "native_trace": {
+        "path": "asset-00.native.json",
+        "sha256": "300547407ae20fc5105a0d2936c2ea76b32d6f350a7544c8db0a06fc65aab7f7"
+      }
+    },
+    {
+      "id": "asset-01",
+      "decoded_sha256": "90c502867234d075a47f71e5c5c5670dde6706647351c5b1f2dfb1e2848a3e88",
+      "decoded_bytes": 2562,
+      "mode": 0,
+      "mode_slot": 1,
+      "header_words": [
+        2558,
+        15050
+      ],
+      "status": "NATIVE_FULL_DECLARED_PAYLOAD_EXACT",
+      "encoding": "two amplitude nibbles per byte, high then low; output attenuation=15-amplitude",
+      "payload_bytes": 2558,
+      "header_pitch_denominator": 15050,
+      "samples": 5116,
+      "sample_file": "asset-01.amplitude-nibbles.bin",
+      "sample_sha256": "359ef9e9bc2f52278b15ab39cd4727f40a7cf69fa74c179f212bec5230827704",
+      "unused_trailing_bytes_hex": "",
+      "native_trace": {
+        "path": "asset-01.native.json",
+        "sha256": "cfae4f6588e56c8a344fb48591c5452143c1512f903c176f529e11b2a653f815"
+      }
+    },
+    {
+      "id": "asset-02",
+      "decoded_sha256": "ba88b89fbd7d33e5bf37e3b32b1ce80be9e95bf9f3213cb9f5f6de71dc939d7e",
+      "decoded_bytes": 8394,
+      "mode": 0,
+      "mode_slot": 2,
+      "header_words": [
+        8375,
+        19500
+      ],
+      "status": "NATIVE_FULL_DECLARED_PAYLOAD_EXACT",
+      "encoding": "two amplitude nibbles per byte, high then low; output attenuation=15-amplitude",
+      "payload_bytes": 8375,
+      "header_pitch_denominator": 19500,
+      "samples": 16750,
+      "sample_file": "asset-02.amplitude-nibbles.bin",
+      "sample_sha256": "7df11aa3a4f684679c6350f27d73f12a3c63cb4ddec6701cd94af83847108048",
+      "unused_trailing_bytes_hex": "888888888888888888888888888888",
+      "native_trace": {
+        "path": "asset-02.native.json",
+        "sha256": "21bd473053ad1768db38324ef624358e59afd35b370806529f4aeb803b07b184"
+      }
+    },
+    {
+      "id": "asset-03",
+      "decoded_sha256": "b5db802fa031f34c8b212a065e1fc0c13a485a5358c09c8660c4d4a7c49595a0",
+      "decoded_bytes": 2956,
+      "mode": 0,
+      "mode_slot": 3,
+      "header_words": [
+        2948,
+        3555
+      ],
+      "status": "NATIVE_FULL_DECLARED_PAYLOAD_EXACT",
+      "encoding": "two amplitude nibbles per byte, high then low; output attenuation=15-amplitude",
+      "payload_bytes": 2948,
+      "header_pitch_denominator": 3555,
+      "samples": 5896,
+      "sample_file": "asset-03.amplitude-nibbles.bin",
+      "sample_sha256": "c7418409671ca04ba19ce8ca2d9d0825780457fbc1f076f2ab5f9123652ac1e6",
+      "unused_trailing_bytes_hex": "88888888",
+      "native_trace": {
+        "path": "asset-03.native.json",
+        "sha256": "938be521538d639baca3077eebe3a1488455551aefc90814360fae15c1e854c0"
+      }
+    },
+    {
+      "id": "asset-04",
+      "decoded_sha256": "780db7fd36222ffbb58bce60814fc5f09e8c03fe74f3be2a69312ef57bee2a5c",
+      "decoded_bytes": 5540,
+      "mode": 0,
+      "mode_slot": 4,
+      "header_words": [
+        5534,
+        30100
+      ],
+      "status": "NATIVE_FULL_DECLARED_PAYLOAD_EXACT",
+      "encoding": "two amplitude nibbles per byte, high then low; output attenuation=15-amplitude",
+      "payload_bytes": 5534,
+      "header_pitch_denominator": 30100,
+      "samples": 11068,
+      "sample_file": "asset-04.amplitude-nibbles.bin",
+      "sample_sha256": "aa98eba42fc8825a93b33a7b7c934801cc255bd30755cd9dfa9b6ba9accd3b58",
+      "unused_trailing_bytes_hex": "6667",
+      "native_trace": {
+        "path": "asset-04.native.json",
+        "sha256": "f3eb4ceb3bd121434d59dfd560e2dda33016e614a69e738e712f58117268d9fe"
+      }
+    },
+    {
+      "id": "asset-05",
+      "decoded_sha256": "efcac4b732af422bd1445d33c9073ed610a2644cfe2ddea6c8a4889c9fc8690f",
+      "decoded_bytes": 7827,
+      "mode": 0,
+      "mode_slot": 5,
+      "header_words": [
+        7786,
+        10500
+      ],
+      "status": "NATIVE_FULL_DECLARED_PAYLOAD_EXACT",
+      "encoding": "two amplitude nibbles per byte, high then low; output attenuation=15-amplitude",
+      "payload_bytes": 7786,
+      "header_pitch_denominator": 10500,
+      "samples": 15572,
+      "sample_file": "asset-05.amplitude-nibbles.bin",
+      "sample_sha256": "7a6ae78d69ef5cce1d08271233899412473f5270bad32298e19487ddf91fffed",
+      "unused_trailing_bytes_hex": "88888888888888888888888888888888888888888888888888888888888888888888888888",
+      "native_trace": {
+        "path": "asset-05.native.json",
+        "sha256": "6a4475e5635d9c6552e96365e950c28e8a04fd99051133044658a1d63abfd347"
+      }
+    },
+    {
+      "id": "asset-06",
+      "decoded_sha256": "f435e403220b86f0550a51a084bd10561fd7f1833a2c38d18de963a5809d61af",
+      "decoded_bytes": 7707,
+      "mode": 0,
+      "mode_slot": 6,
+      "header_words": [
+        7700,
+        9750
+      ],
+      "status": "NATIVE_FULL_DECLARED_PAYLOAD_EXACT",
+      "encoding": "two amplitude nibbles per byte, high then low; output attenuation=15-amplitude",
+      "payload_bytes": 7700,
+      "header_pitch_denominator": 9750,
+      "samples": 15400,
+      "sample_file": "asset-06.amplitude-nibbles.bin",
+      "sample_sha256": "5d200c1f0a02a9f486e6449408abb5b56d164311d8a5d2cb70a77997e3dee7c0",
+      "unused_trailing_bytes_hex": "aaaa99",
+      "native_trace": {
+        "path": "asset-06.native.json",
+        "sha256": "3abf0005226613c69724e1aca71af36a3f814dae14d7eca030e3324ea9122966"
+      }
+    },
+    {
+      "id": "asset-07",
+      "decoded_sha256": "17baca8c11d7c3ea93c1a4aabe37307fcf7e6317ddc37d240bcf859d22fcffe3",
+      "decoded_bytes": 5523,
+      "mode": 0,
+      "mode_slot": 7,
+      "header_words": [
+        5513,
+        19500
+      ],
+      "status": "NATIVE_FULL_DECLARED_PAYLOAD_EXACT",
+      "encoding": "two amplitude nibbles per byte, high then low; output attenuation=15-amplitude",
+      "payload_bytes": 5513,
+      "header_pitch_denominator": 19500,
+      "samples": 11026,
+      "sample_file": "asset-07.amplitude-nibbles.bin",
+      "sample_sha256": "f64ca209551895f9b71f19805b9a2f1974d2178d8506ee413ae2e1aef0883e27",
+      "unused_trailing_bytes_hex": "888888788878",
+      "native_trace": {
+        "path": "asset-07.native.json",
+        "sha256": "f61264faa04438a6c2914b380d58c7ef9a4e881d2c39ba30d5d9b2f147630454"
+      }
+    },
+    {
+      "id": "asset-08",
+      "decoded_sha256": "3d12cbf6de373f64182bc26d14ed1cceb1d3e6985d4b8ded93a6e5d9f1f624dd",
+      "decoded_bytes": 5554,
+      "mode": 0,
+      "mode_slot": 8,
+      "header_words": [
+        5549,
+        13350
+      ],
+      "status": "NATIVE_FULL_DECLARED_PAYLOAD_EXACT",
+      "encoding": "two amplitude nibbles per byte, high then low; output attenuation=15-amplitude",
+      "payload_bytes": 5549,
+      "header_pitch_denominator": 13350,
+      "samples": 11098,
+      "sample_file": "asset-08.amplitude-nibbles.bin",
+      "sample_sha256": "eeed638c8ff160cdd785a1bdcde751f41f40f2276d664406c7086ff6ffe604ff",
+      "unused_trailing_bytes_hex": "88",
+      "native_trace": {
+        "path": "asset-08.native.json",
+        "sha256": "f181af9a1f94415a2bd286318007f37627ef94f20f8d2763575e7150fb30a8f4"
+      }
+    },
+    {
+      "id": "asset-09",
+      "decoded_sha256": "b0c3a19069d8c6967e745495c674ef5766d98f6a65bf476d474c3b73ffd5adc7",
+      "decoded_bytes": 4015,
+      "mode": 0,
+      "mode_slot": 9,
+      "header_words": [
+        4009,
+        6300
+      ],
+      "status": "NATIVE_FULL_DECLARED_PAYLOAD_EXACT",
+      "encoding": "two amplitude nibbles per byte, high then low; output attenuation=15-amplitude",
+      "payload_bytes": 4009,
+      "header_pitch_denominator": 6300,
+      "samples": 8018,
+      "sample_file": "asset-09.amplitude-nibbles.bin",
+      "sample_sha256": "5c9978470a6510f71b1bb9775e554218abec1ff7cee0fe1c806b4ceb52486c2f",
+      "unused_trailing_bytes_hex": "8888",
+      "native_trace": {
+        "path": "asset-09.native.json",
+        "sha256": "d7cb2c1170dbbe5fb4081bec8155ac68d0cfcab80f9643b45e75b4f244dcf597"
+      }
+    },
+    {
+      "id": "asset-10",
+      "decoded_sha256": "6a759c49fe64aa8a8514c5c36422db25af3b2e7b07872164750a3e07930a820c",
+      "decoded_bytes": 4834,
+      "mode": 0,
+      "mode_slot": 10,
+      "header_words": [
+        4830,
+        12450
+      ],
+      "status": "NATIVE_FULL_DECLARED_PAYLOAD_EXACT",
+      "encoding": "two amplitude nibbles per byte, high then low; output attenuation=15-amplitude",
+      "payload_bytes": 4830,
+      "header_pitch_denominator": 12450,
+      "samples": 9660,
+      "sample_file": "asset-10.amplitude-nibbles.bin",
+      "sample_sha256": "d205d843c53f13e8add2d746b4faad4252a72066cc23e58383ffa5ed56454472",
+      "unused_trailing_bytes_hex": "",
+      "native_trace": {
+        "path": "asset-10.native.json",
+        "sha256": "2974ddeadb3070eb54233ca83c2beeb7057579639da0817ee453d7e893eb6413"
+      }
+    },
+    {
+      "id": "asset-11",
+      "decoded_sha256": "1d3df9868ed97db998785fd6955c9b751748421c96bfe1d800b78fad8dd0f796",
+      "decoded_bytes": 3590,
+      "mode": 0,
+      "mode_slot": 11,
+      "header_words": [
+        3586,
+        15500
+      ],
+      "status": "NATIVE_FULL_DECLARED_PAYLOAD_EXACT",
+      "encoding": "two amplitude nibbles per byte, high then low; output attenuation=15-amplitude",
+      "payload_bytes": 3586,
+      "header_pitch_denominator": 15500,
+      "samples": 7172,
+      "sample_file": "asset-11.amplitude-nibbles.bin",
+      "sample_sha256": "480f5a061552ff354df9c1dbc04876838f7ae58df9c697ed8f6d8b88b7a336d1",
+      "unused_trailing_bytes_hex": "",
+      "native_trace": {
+        "path": "asset-11.native.json",
+        "sha256": "a5955e4d9a9a88ce01190f521a4de57e7a1e7e7598e4cf586eb2f067d112706b"
+      }
+    },
+    {
+      "id": "asset-12",
+      "decoded_sha256": "9ded4a7fb7516ec50767567ce325ab77e7d9eb60e8cd79bcd786e8230ac88be5",
+      "decoded_bytes": 7073,
+      "mode": 0,
+      "mode_slot": 12,
+      "header_words": [
+        7067,
+        8050
+      ],
+      "status": "NATIVE_FULL_DECLARED_PAYLOAD_EXACT",
+      "encoding": "two amplitude nibbles per byte, high then low; output attenuation=15-amplitude",
+      "payload_bytes": 7067,
+      "header_pitch_denominator": 8050,
+      "samples": 14134,
+      "sample_file": "asset-12.amplitude-nibbles.bin",
+      "sample_sha256": "4ba51d30f8094eed0970a1a0d80bba12acc09e808da7a35da8f5a1b107684fc1",
+      "unused_trailing_bytes_hex": "8888",
+      "native_trace": {
+        "path": "asset-12.native.json",
+        "sha256": "a1ecb7af05a551fbfb851c5f5a75daf82af1e39a5b3ec1c1589438bb5f48ca22"
+      }
+    },
+    {
+      "id": "asset-13",
+      "decoded_sha256": "0a9ebef1bdeb9fe7f223dd8ffd6a9ec591881418a5e0f40aeb9bfd6bcd23c3ec",
+      "decoded_bytes": 4760,
+      "mode": 0,
+      "mode_slot": 13,
+      "header_words": [
+        4751,
+        10566
+      ],
+      "status": "NATIVE_FULL_DECLARED_PAYLOAD_EXACT",
+      "encoding": "two amplitude nibbles per byte, high then low; output attenuation=15-amplitude",
+      "payload_bytes": 4751,
+      "header_pitch_denominator": 10566,
+      "samples": 9502,
+      "sample_file": "asset-13.amplitude-nibbles.bin",
+      "sample_sha256": "d01f718c82d5764752e9d43003fb30ad3a9fd8f59d596a598d7946bc33445fce",
+      "unused_trailing_bytes_hex": "8888888888",
+      "native_trace": {
+        "path": "asset-13.native.json",
+        "sha256": "9023de3f66145d7d8dbeee9ae9c553733f1f2a527ef5cbc42acfd4a3ad07ee70"
+      }
+    },
+    {
+      "id": "asset-14",
+      "decoded_sha256": "da0b24ff3d5cebedb7d4c3336d78dbc49a9b1a88cd7980bc39515860d7a2bc8d",
+      "decoded_bytes": 8128,
+      "mode": 0,
+      "mode_slot": 14,
+      "header_words": [
+        8115,
+        5500
+      ],
+      "status": "NATIVE_FULL_DECLARED_PAYLOAD_EXACT",
+      "encoding": "two amplitude nibbles per byte, high then low; output attenuation=15-amplitude",
+      "payload_bytes": 8115,
+      "header_pitch_denominator": 5500,
+      "samples": 16230,
+      "sample_file": "asset-14.amplitude-nibbles.bin",
+      "sample_sha256": "65e24a629f1ec76289e93157d611c5b00908f652c504afd58dabb76be05181b7",
+      "unused_trailing_bytes_hex": "888888888888888888",
+      "native_trace": {
+        "path": "asset-14.native.json",
+        "sha256": "0c270912733bb61148622f12b85c8b238d0a801fef3df01d559e5c6974f50dbc"
+      }
+    },
+    {
+      "id": "asset-15",
+      "decoded_sha256": "3bf9efa26236f2dbd98d2159120baaed9a2524bcfc9ca80b79d96c85f77f10c2",
+      "decoded_bytes": 2261,
+      "mode": 1,
+      "mode_slot": 0,
+      "header_words": [
+        31500,
+        3584
+      ],
+      "status": "NATIVE_IN_RECORD_PREFIX_EXACT_FULL_WRAPPER_HELD",
+      "encoding": "PC speaker bit1 toggles; each byte counts calibrated delay repetitions; zero means256",
+      "payload_bytes": 2259,
+      "header_pitch_denominator": 31500,
+      "run_file": "asset-15.speaker-runs.json",
+      "run_count": 2259,
+      "wrapper_count_from_rounded_cache": 2262,
+      "bytes_beyond_decoded_payload_requested": 3,
+      "wrapper_boundary_hold": "Out-of-record sample read",
+      "native_trace": {
+        "path": "asset-15.native.json",
+        "sha256": "6dff713ce4c80c8c9b75ad4a8e0901ccd9364faf9c7721350a9900610c62dcfe"
+      }
+    },
+    {
+      "id": "asset-16",
+      "decoded_sha256": "9ca4adee1aa8295a43a782effffa8c1071a5dcff074d0b600768b2973c6b26a8",
+      "decoded_bytes": 356,
+      "mode": 1,
+      "mode_slot": 1,
+      "header_words": [
+        30100,
+        2816
+      ],
+      "status": "NATIVE_IN_RECORD_PREFIX_EXACT_FULL_WRAPPER_HELD",
+      "encoding": "PC speaker bit1 toggles; each byte counts calibrated delay repetitions; zero means256",
+      "payload_bytes": 354,
+      "header_pitch_denominator": 30100,
+      "run_file": "asset-16.speaker-runs.json",
+      "run_count": 354,
+      "wrapper_count_from_rounded_cache": 356,
+      "bytes_beyond_decoded_payload_requested": 2,
+      "wrapper_boundary_hold": "Out-of-record sample read",
+      "native_trace": {
+        "path": "asset-16.native.json",
+        "sha256": "37dabe0aaf53005ec81599895a37598c5ff4301aa50a9d420de9320e35d17e12"
+      }
+    },
+    {
+      "id": "asset-17",
+      "decoded_sha256": "75c54f3c3ed9872421043e565570ff02c9324c9d49c7df450812de8bb49eda3a",
+      "decoded_bytes": 6153,
+      "mode": 1,
+      "mode_slot": 2,
+      "header_words": [
+        19500,
+        39168
+      ],
+      "status": "NATIVE_IN_RECORD_PREFIX_EXACT_FULL_WRAPPER_HELD",
+      "encoding": "PC speaker bit1 toggles; each byte counts calibrated delay repetitions; zero means256",
+      "payload_bytes": 6151,
+      "header_pitch_denominator": 19500,
+      "run_file": "asset-17.speaker-runs.json",
+      "run_count": 6151,
+      "wrapper_count_from_rounded_cache": 6154,
+      "bytes_beyond_decoded_payload_requested": 3,
+      "wrapper_boundary_hold": "Out-of-record sample read",
+      "native_trace": {
+        "path": "asset-17.native.json",
+        "sha256": "5a07556e9929750694e487e0aa6d29b959e0bedacc121ac4973934e82da8da59"
+      }
+    },
+    {
+      "id": "asset-18",
+      "decoded_sha256": "cd7ccf978a9a0a59d7bf8a9a7305392d35e523ee7c62ad78ca2c704f5a2f6931",
+      "decoded_bytes": 4386,
+      "mode": 1,
+      "mode_slot": 3,
+      "header_words": [
+        22300,
+        1280
+      ],
+      "status": "NATIVE_IN_RECORD_PREFIX_EXACT_FULL_WRAPPER_HELD",
+      "encoding": "PC speaker bit1 toggles; each byte counts calibrated delay repetitions; zero means256",
+      "payload_bytes": 4384,
+      "header_pitch_denominator": 22300,
+      "run_file": "asset-18.speaker-runs.json",
+      "run_count": 4384,
+      "wrapper_count_from_rounded_cache": 4386,
+      "bytes_beyond_decoded_payload_requested": 2,
+      "wrapper_boundary_hold": "Out-of-record sample read",
+      "native_trace": {
+        "path": "asset-18.native.json",
+        "sha256": "6c2c81373a6209a28d1a407c4e472ef26eb39484d65aea70dcd0f9939882d842"
+      }
+    },
+    {
+      "id": "asset-19",
+      "decoded_sha256": "3ca040684f8b6178a4cec64f1571f702052e25268538f2f8d955bba4734bb54e",
+      "decoded_bytes": 780,
+      "mode": 1,
+      "mode_slot": 4,
+      "header_words": [
+        30100,
+        3588
+      ],
+      "status": "NATIVE_IN_RECORD_PREFIX_EXACT_FULL_WRAPPER_HELD",
+      "encoding": "PC speaker bit1 toggles; each byte counts calibrated delay repetitions; zero means256",
+      "payload_bytes": 778,
+      "header_pitch_denominator": 30100,
+      "run_file": "asset-19.speaker-runs.json",
+      "run_count": 778,
+      "wrapper_count_from_rounded_cache": 780,
+      "bytes_beyond_decoded_payload_requested": 2,
+      "wrapper_boundary_hold": "Out-of-record sample read",
+      "native_trace": {
+        "path": "asset-19.native.json",
+        "sha256": "a71ecbcd77c6678883a587b1ace75a04de30c4fc63cf04c7dfed10f529beb859"
+      }
+    },
+    {
+      "id": "asset-20",
+      "decoded_sha256": "f1406003404754c603150981a4c5f8b1c3f10e729734637da254928128d3e5d8",
+      "decoded_bytes": 9033,
+      "mode": 1,
+      "mode_slot": 5,
+      "header_words": [
+        31500,
+        511
+      ],
+      "status": "NATIVE_IN_RECORD_PREFIX_EXACT_FULL_WRAPPER_HELD",
+      "encoding": "PC speaker bit1 toggles; each byte counts calibrated delay repetitions; zero means256",
+      "payload_bytes": 9031,
+      "header_pitch_denominator": 31500,
+      "run_file": "asset-20.speaker-runs.json",
+      "run_count": 9031,
+      "wrapper_count_from_rounded_cache": 9034,
+      "bytes_beyond_decoded_payload_requested": 3,
+      "wrapper_boundary_hold": "Out-of-record sample read",
+      "native_trace": {
+        "path": "asset-20.native.json",
+        "sha256": "0220e60fa935132a6523de03b385d81382e60e4d3b3dadc0c5ee926e97583044"
+      }
+    },
+    {
+      "id": "asset-21",
+      "decoded_sha256": "e91c3b9c86ba9cc9a87c965149cc9b7ee6bcc9c32011935a3a1394f062322235",
+      "decoded_bytes": 2140,
+      "mode": 1,
+      "mode_slot": 6,
+      "header_words": [
+        19500,
+        256
+      ],
+      "status": "NATIVE_IN_RECORD_PREFIX_EXACT_FULL_WRAPPER_HELD",
+      "encoding": "PC speaker bit1 toggles; each byte counts calibrated delay repetitions; zero means256",
+      "payload_bytes": 2138,
+      "header_pitch_denominator": 19500,
+      "run_file": "asset-21.speaker-runs.json",
+      "run_count": 2138,
+      "wrapper_count_from_rounded_cache": 2140,
+      "bytes_beyond_decoded_payload_requested": 2,
+      "wrapper_boundary_hold": "Out-of-record sample read",
+      "native_trace": {
+        "path": "asset-21.native.json",
+        "sha256": "087ce506ac3d6cb82f3e1bccf0a68f7b5f03142eb31bf797609f21936b86f79d"
+      }
+    },
+    {
+      "id": "asset-22",
+      "decoded_sha256": "a31b33310495acf35a8e87e293256facb39ef11259be99fbae683cac8f51a29d",
+      "decoded_bytes": 2879,
+      "mode": 1,
+      "mode_slot": 7,
+      "header_words": [
+        19500,
+        2085
+      ],
+      "status": "NATIVE_IN_RECORD_PREFIX_EXACT_FULL_WRAPPER_HELD",
+      "encoding": "PC speaker bit1 toggles; each byte counts calibrated delay repetitions; zero means256",
+      "payload_bytes": 2877,
+      "header_pitch_denominator": 19500,
+      "run_file": "asset-22.speaker-runs.json",
+      "run_count": 2877,
+      "wrapper_count_from_rounded_cache": 2880,
+      "bytes_beyond_decoded_payload_requested": 3,
+      "wrapper_boundary_hold": "Out-of-record sample read",
+      "native_trace": {
+        "path": "asset-22.native.json",
+        "sha256": "c31561b04c0f27c408ae7df6f79510a920d79a84a46509e03a83415131a2ebb7"
+      }
+    },
+    {
+      "id": "asset-23",
+      "decoded_sha256": "db08f41729ceca0a734d43de3e4125e2eab6ea405e19df5e5b1bc0c22498bff2",
+      "decoded_bytes": 801,
+      "mode": 1,
+      "mode_slot": 8,
+      "header_words": [
+        26700,
+        9341
+      ],
+      "status": "NATIVE_IN_RECORD_PREFIX_EXACT_FULL_WRAPPER_HELD",
+      "encoding": "PC speaker bit1 toggles; each byte counts calibrated delay repetitions; zero means256",
+      "payload_bytes": 799,
+      "header_pitch_denominator": 26700,
+      "run_file": "asset-23.speaker-runs.json",
+      "run_count": 799,
+      "wrapper_count_from_rounded_cache": 802,
+      "bytes_beyond_decoded_payload_requested": 3,
+      "wrapper_boundary_hold": "Out-of-record sample read",
+      "native_trace": {
+        "path": "asset-23.native.json",
+        "sha256": "e7afef2a067f144f857ff0d82bf2e2fadc9bfcc3ea9c8d8abcb893d7e0858e1c"
+      }
+    },
+    {
+      "id": "asset-24",
+      "decoded_sha256": "2813d6269b0a9d4b6b5ff681b52e4d46cb89026aa06b88c2ade24327ee3a99cf",
+      "decoded_bytes": 1584,
+      "mode": 1,
+      "mode_slot": 9,
+      "header_words": [
+        31500,
+        1904
+      ],
+      "status": "NATIVE_IN_RECORD_PREFIX_EXACT_FULL_WRAPPER_HELD",
+      "encoding": "PC speaker bit1 toggles; each byte counts calibrated delay repetitions; zero means256",
+      "payload_bytes": 1582,
+      "header_pitch_denominator": 31500,
+      "run_file": "asset-24.speaker-runs.json",
+      "run_count": 1582,
+      "wrapper_count_from_rounded_cache": 1584,
+      "bytes_beyond_decoded_payload_requested": 2,
+      "wrapper_boundary_hold": "Out-of-record sample read",
+      "native_trace": {
+        "path": "asset-24.native.json",
+        "sha256": "9896ae9c93ba1b580dc3382363f7933038a1248adad5dc62f15051a43044ebe4"
+      }
+    },
+    {
+      "id": "asset-25",
+      "decoded_sha256": "78e1db3ea9c48afb67104708b47710845ceead073b83b05d402183dc43f060b7",
+      "decoded_bytes": 2744,
+      "mode": 1,
+      "mode_slot": 10,
+      "header_words": [
+        31500,
+        275
+      ],
+      "status": "NATIVE_IN_RECORD_PREFIX_EXACT_FULL_WRAPPER_HELD",
+      "encoding": "PC speaker bit1 toggles; each byte counts calibrated delay repetitions; zero means256",
+      "payload_bytes": 2742,
+      "header_pitch_denominator": 31500,
+      "run_file": "asset-25.speaker-runs.json",
+      "run_count": 2742,
+      "wrapper_count_from_rounded_cache": 2744,
+      "bytes_beyond_decoded_payload_requested": 2,
+      "wrapper_boundary_hold": "Out-of-record sample read",
+      "native_trace": {
+        "path": "asset-25.native.json",
+        "sha256": "42f4b73dce03243693b55590ebf6326eb75f616c885f860ec42254f5e2098013"
+      }
+    },
+    {
+      "id": "asset-26",
+      "decoded_sha256": "03d0a45bf17b6edaaf6f8d4793172b2e7581be8c5da0bd9c684ab2b38dada150",
+      "decoded_bytes": 487,
+      "mode": 1,
+      "mode_slot": 11,
+      "header_words": [
+        15500,
+        260
+      ],
+      "status": "NATIVE_IN_RECORD_PREFIX_EXACT_FULL_WRAPPER_HELD",
+      "encoding": "PC speaker bit1 toggles; each byte counts calibrated delay repetitions; zero means256",
+      "payload_bytes": 485,
+      "header_pitch_denominator": 15500,
+      "run_file": "asset-26.speaker-runs.json",
+      "run_count": 485,
+      "wrapper_count_from_rounded_cache": 488,
+      "bytes_beyond_decoded_payload_requested": 3,
+      "wrapper_boundary_hold": "Out-of-record sample read",
+      "native_trace": {
+        "path": "asset-26.native.json",
+        "sha256": "1326d4ce7702067f7d07067ee4376a7db61b5c2e9b0db2e8b137ffc754b1063a"
+      }
+    },
+    {
+      "id": "asset-27",
+      "decoded_sha256": "81671a174323a26bc58bbd47d10f7173fb608ec3067cb375e30d7aa9de55a01c",
+      "decoded_bytes": 2442,
+      "mode": 1,
+      "mode_slot": 12,
+      "header_words": [
+        16100,
+        1797
+      ],
+      "status": "NATIVE_IN_RECORD_PREFIX_EXACT_FULL_WRAPPER_HELD",
+      "encoding": "PC speaker bit1 toggles; each byte counts calibrated delay repetitions; zero means256",
+      "payload_bytes": 2440,
+      "header_pitch_denominator": 16100,
+      "run_file": "asset-27.speaker-runs.json",
+      "run_count": 2440,
+      "wrapper_count_from_rounded_cache": 2442,
+      "bytes_beyond_decoded_payload_requested": 2,
+      "wrapper_boundary_hold": "Out-of-record sample read",
+      "native_trace": {
+        "path": "asset-27.native.json",
+        "sha256": "138619281fb684f76db26786f833bf1b8b4c37833c91faa6a4624262fc41de0c"
+      }
+    },
+    {
+      "id": "asset-28",
+      "decoded_sha256": "0461574079f9f9c316d60ede12c48dd8f91b1ec7360ebf5f06df1d2efc99c86e",
+      "decoded_bytes": 1798,
+      "mode": 1,
+      "mode_slot": 13,
+      "header_words": [
+        31700,
+        1314
+      ],
+      "status": "NATIVE_IN_RECORD_PREFIX_EXACT_FULL_WRAPPER_HELD",
+      "encoding": "PC speaker bit1 toggles; each byte counts calibrated delay repetitions; zero means256",
+      "payload_bytes": 1796,
+      "header_pitch_denominator": 31700,
+      "run_file": "asset-28.speaker-runs.json",
+      "run_count": 1796,
+      "wrapper_count_from_rounded_cache": 1798,
+      "bytes_beyond_decoded_payload_requested": 2,
+      "wrapper_boundary_hold": "Out-of-record sample read",
+      "native_trace": {
+        "path": "asset-28.native.json",
+        "sha256": "f574f18bc8042a0e7ef586acea410fbcbe842759c34fea03c035800cb4f54605"
+      }
+    },
+    {
+      "id": "asset-29",
+      "decoded_sha256": "cc20c8f04ff58bec8d0801a21947a457851e0802492c00e60aa1198633375620",
+      "decoded_bytes": 8070,
+      "mode": 1,
+      "mode_slot": 14,
+      "header_words": [
+        30900,
+        2562
+      ],
+      "status": "NATIVE_IN_RECORD_PREFIX_EXACT_FULL_WRAPPER_HELD",
+      "encoding": "PC speaker bit1 toggles; each byte counts calibrated delay repetitions; zero means256",
+      "payload_bytes": 8068,
+      "header_pitch_denominator": 30900,
+      "run_file": "asset-29.speaker-runs.json",
+      "run_count": 8068,
+      "wrapper_count_from_rounded_cache": 8070,
+      "bytes_beyond_decoded_payload_requested": 2,
+      "wrapper_boundary_hold": "Out-of-record sample read",
+      "native_trace": {
+        "path": "asset-29.native.json",
+        "sha256": "d44d6a7ad80f519b6eb5a3a8d7d7f172f217d07044066d166e12711a4013faa3"
+      }
+    },
+    {
+      "id": "asset-30",
+      "decoded_sha256": "8938edf8c7007a7d1b0e1a360306540ead05548ad2e5c28b6534fe08b93b06c4",
+      "decoded_bytes": 4427,
+      "mode": 1,
+      "mode_slot": 15,
+      "header_words": [
+        16500,
+        1030
+      ],
+      "status": "NATIVE_IN_RECORD_PREFIX_EXACT_FULL_WRAPPER_HELD",
+      "encoding": "PC speaker bit1 toggles; each byte counts calibrated delay repetitions; zero means256",
+      "payload_bytes": 4425,
+      "header_pitch_denominator": 16500,
+      "run_file": "asset-30.speaker-runs.json",
+      "run_count": 4425,
+      "wrapper_count_from_rounded_cache": 4428,
+      "bytes_beyond_decoded_payload_requested": 3,
+      "wrapper_boundary_hold": "Out-of-record sample read",
+      "native_trace": {
+        "path": "asset-30.native.json",
+        "sha256": "e16cf55d0ffd43054b22b105f99d3df0a3a10bcb49cae86854f61b5b967cc467"
+      }
+    }
+  ],
+  "negative_controls": [
+    {
+      "name": "count beyond nibble buffer",
+      "rejected": true,
+      "reason": "Out-of-record sample read"
+    },
+    {
+      "name": "count beyond speaker buffer",
+      "rejected": true,
+      "reason": "Out-of-record sample read"
+    },
+    {
+      "name": "Native XOR inversion mutated",
+      "rejected": true,
+      "reason": "Native port command stream differs"
+    }
+  ],
+  "synthetic": [
+    {
+      "native_primary": "ev_c801d4fdfaae6bb3f1d502989e1f8d292fb8db578cb1db64bb5bf98928c53f77",
+      "native_code_sha256": "ba1f33c2c41412f1b0a9aab29ee058c5efff696dd94b7f4a581062f8893d6dc8",
+      "kind": "nibbles",
+      "count_argument": 256,
+      "run_delay_repetitions": [],
+      "sample_reads": 512,
+      "sample_writes": 512,
+      "port_commands": 514,
+      "command_sha256": "2c348315237e745ed07690986e74a759ca385a776fac12993e54cebf9cb49600",
+      "commands_hex": "81009f9f9f9e9f9d9f9c9f9b9f9a9f999f989f979f969f959f949f939f929f919f909e9f9e9e9e9d9e9c9e9b9e9a9e999e989e979e969e959e949e939e929e919e909d9f9d9e9d9d9d9c9d9b9d9a9d999d989d979d969d959d949d939d929d919d909c9f9c9e9c9d9c9c9c9b9c9a9c999c989c979c969c959c949c939c929c919c909b9f9b9e9b9d9b9c9b9b9b9a9b999b989b979b969b959b949b939b929b919b909a9f9a9e9a9d9a9c9a9b9a9a9a999a989a979a969a959a949a939a929a919a90999f999e999d999c999b999a9999999899979996999599949993999299919990989f989e989d989c989b989a9899989898979896989598949893989298919890979f979e979d979c979b979a9799979897979796979597949793979297919790969f969e969d969c969b969a9699969896979696969596949693969296919690959f959e959d959c959b959a9599959895979596959595949593959295919590949f949e949d949c949b949a9499949894979496949594949493949294919490939f939e939d939c939b939a9399939893979396939593949393939293919390929f929e929d929c929b929a9299929892979296929592949293929292919290919f919e919d919c919b919a9199919891979196919591949193919291919190909f909e909d909c909b909a9099909890979096909590949093909290919090",
+      "input_restored": true,
+      "guards_preserved": true,
+      "physical_audio_device_executed": false,
+      "far_return_instruction_executed": false,
+      "return_boundary_stack_verified": true,
+      "absolute_sample_rate_claimed": false,
+      "calibration_fixture": {
+        "speed": 1000,
+        "interval": 1000,
+        "result_delay_count": 1
+      }
+    },
+    {
+      "native_primary": "ev_c801d4fdfaae6bb3f1d502989e1f8d292fb8db578cb1db64bb5bf98928c53f77",
+      "native_code_sha256": "ba1f33c2c41412f1b0a9aab29ee058c5efff696dd94b7f4a581062f8893d6dc8",
+      "kind": "speaker_runs",
+      "count_argument": 4,
+      "run_delay_repetitions": [
+        256,
+        1,
+        2,
+        255
+      ],
+      "sample_reads": 4,
+      "sample_writes": 0,
+      "port_commands": 4,
+      "command_sha256": "100c8d671157f12f89dc0e8da82914268524b80985ae14cd5fe6b0c69692c180",
+      "commands_hex": "a2a0a2a0",
+      "input_restored": true,
+      "guards_preserved": true,
+      "physical_audio_device_executed": false,
+      "far_return_instruction_executed": false,
+      "return_boundary_stack_verified": true,
+      "absolute_sample_rate_claimed": false,
+      "calibration_fixture": {
+        "speed": 1000,
+        "interval": 1000,
+        "result_delay_count": 1
+      }
+    }
+  ],
+  "opaque_obligations": {
+    "startup06": {
+      "size": 52,
+      "sha256": "f9402bc7a84c428d7bcbb478f3ab503cd758e4680eb369d9a5611aa60c3b7fa0",
+      "little_endian_dwords": [
+        0,
+        192,
+        10289,
+        10361,
+        11788,
+        11816,
+        12303,
+        18797,
+        24240,
+        56240,
+        67452,
+        68310,
+        72792
+      ],
+      "matching_current_record_offsets": [
+        {
+          "value": 0,
+          "record": "setup-00-part-0"
+        },
+        {
+          "value": 192,
+          "record": "setup-00-part-1"
+        },
+        {
+          "value": 10289,
+          "record": "setup-01-part-0"
+        },
+        {
+          "value": 10361,
+          "record": "setup-01-part-1"
+        },
+        {
+          "value": 11788,
+          "record": "setup-02-part-0"
+        },
+        {
+          "value": 11816,
+          "record": "setup-02-part-1"
+        },
+        {
+          "value": 12303,
+          "record": "setup-03-part-0"
+        },
+        {
+          "value": 18797,
+          "record": null
+        },
+        {
+          "value": 24240,
+          "record": null
+        },
+        {
+          "value": 56240,
+          "record": null
+        },
+        {
+          "value": 67452,
+          "record": null
+        },
+        {
+          "value": 68310,
+          "record": null
+        },
+        {
+          "value": 72792,
+          "record": null
+        }
+      ],
+      "status": "OBSERVED_TABLE_LIKE_BYTES_NO_PROVEN_NATIVE_CONSUMER",
+      "negative_search_boundary": "Recovered matching/src C and matching/asm native authored sources contain no observed constant startup index6 consumer; this is not proof of global unreachability."
+    },
+    "startup03_suffix": {
+      "offset_in_decoded_stream": 32000,
+      "size": 64,
+      "sha256": "168908e99b6460ff4691ecefba2b75ee7af7250c0ba2436473d95825f7f06a9e",
+      "hex": "00000b500f700f920fb30fd50fe70ff9006f005d003c003a00290017000600040f060d050c040a040903070206020401030406000666088809990bbb0ddd0fff",
+      "status": "PRESERVED_OPAQUE_AFTER_CONFIGURE_GAME_REQUESTED_32000",
+      "palette_claim": false
+    }
+  },
+  "source_pins": {
+    "asset_recovery/bank1_semantics_v1/verify.py": "5e3627bd4f6970c071ba1988c826d50fd9f2c177d4394af54a6e28a2e71680d4",
+    "asset_recovery/bank1_semantics_v1/native_audio.py": "12b13e7112b76ad2afe6de05849f0ec92944fd16fc921efddd9f2f2104edd143",
+    "asset_recovery/bank1_decode_v1/results-v3/manifest.json": "560e33675112645fbf46369498a5cd428e5532034cca8c9222047157e6b92cd8",
+    "matching/src/audio_assets_flow_match.c": "256aeda98a8da1a12a33f79083c04aee6af4e0920d95d82adf1791f85cb0ff55",
+    "matching/src/cache_asset_frame_match.c": "e1d043b9bacb5f793c6579d26687ec0f1bfa6e49ae7611f6a026358e3ad65892",
+    "matching/src/load_asset_bank_match.c": "87e0f98fc378c7348d5acb5f77bbca06974be7998f66ace91485a604e8dba5a1",
+    "matching/src/record_dispatch_c83a_match.c": "791525c86a4bdaeeb387662be2f7973d8e9ad06c1656d63c44ab28b8aef054bc",
+    "matching/asm/link/platform_hardware_omf.asm": "f9715345307762a7ce357e3cec631433363d209831bf1a4e078df7b057d2d022",
+    "matching/build/platform-code-10e30/rea-whole660.json": "974891c6313f6eeeddfdf2173230b902b31ad99dc2806f5516fab88ca46fb290"
+  },
+  "seconds": 6.31066498600012,
+  "canonical_credit_added": 0,
+  "limits": [
+    "Native input/output ports are intercepted as explicit device fixtures; physical speaker/PSG transfer functions and absolute sample rate remain unresolved.",
+    "Only playback body through RETF boundary runs; RETF itself is not executed, but its stack and preserved registers are checked.",
+    "REA whole platform read has a load-fixup difference outside executed sound extents; both executed130/107-byte sound ranges match original expanded image exactly.",
+    "Alternate wrapper requests rounded cache size from payload+2, beyond declared decoded data; no adjacent arena bytes or padding are invented to claim full playback."
+  ]
+}

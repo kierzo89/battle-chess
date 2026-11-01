@@ -1,0 +1,12 @@
+{
+  "status": "PASS_ALL_76_SETUP_FRAMES_NATIVE_ROWS_AND_XOR",
+  "frame_count": 76,
+  "contexts_basis": "Matched asset_storage_surface_context_match.c initializer and init_surface branches; complete init_surface not executed in this stage",
+  "limits": [
+    "Indexed pixels only; no RGB palette/device-placement claim",
+    "Tilted branch selection follows matched source; no tilted animation-list playback claim",
+    "Shared compressed stream offsets are exact; per-frame compressed byte boundaries intentionally not invented"
+  ],
+  "canonical_credit_added": 0,
+  "seconds": 2.103101056000014
+}

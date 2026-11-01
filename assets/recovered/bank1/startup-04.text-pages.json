@@ -1,0 +1,202 @@
+{
+  "pages": [
+    [
+      {
+        "x": 32,
+        "y": 16,
+        "text_bytes_hex": "4144444954494f4e5320544f20544845205245464552454e434520434152442e",
+        "text_cp437": "ADDITIONS TO THE REFERENCE CARD."
+      },
+      {
+        "x": 16,
+        "y": 32,
+        "text_bytes_hex": "3129205072657373696e67203c414c543e2d4a2077696c6c2063656e746572",
+        "text_cp437": "1) Pressing <ALT>-J will center"
+      },
+      {
+        "x": 16,
+        "y": 40,
+        "text_bytes_hex": "202020796f7572206a6f79737469636b2e",
+        "text_cp437": "   your joystick."
+      },
+      {
+        "x": 16,
+        "y": 56,
+        "text_bytes_hex": "3229203c4261636b73706163653e20616c6c6f777320796f7520746f",
+        "text_cp437": "2) <Backspace> allows you to"
+      },
+      {
+        "x": 16,
+        "y": 64,
+        "text_bytes_hex": "20202064656c65746520612070696563652074686174206973",
+        "text_cp437": "   delete a piece that is"
+      },
+      {
+        "x": 16,
+        "y": 72,
+        "text_bytes_hex": "202020227069636b65642075702220696e20426f6172642053657475702e",
+        "text_cp437": "   \"picked up\" in Board Setup."
+      },
+      {
+        "x": 16,
+        "y": 88,
+        "text_bytes_hex": "3329203c4573633e20616c6c6f777320796f7520746f206578697420746865",
+        "text_cp437": "3) <Esc> allows you to exit the"
+      },
+      {
+        "x": 16,
+        "y": 96,
+        "text_bytes_hex": "2020204c6f6164206f7220536176652067616d652077696e646f77",
+        "text_cp437": "   Load or Save game window"
+      },
+      {
+        "x": 16,
+        "y": 104,
+        "text_bytes_hex": "202020776974686f7574206c6f6164696e67206f7220736176696e672e",
+        "text_cp437": "   without loading or saving."
+      },
+      {
+        "x": 16,
+        "y": 120,
+        "text_bytes_hex": "342920496620796f7520686176652061206a6f79737469636b2061646170746572",
+        "text_cp437": "4) If you have a joystick adapter"
+      },
+      {
+        "x": 16,
+        "y": 128,
+        "text_bytes_hex": "202020616e64206e6f206a6f79737469636b2075736520746865202f4b455942",
+        "text_cp437": "   and no joystick use the /KEYB"
+      },
+      {
+        "x": 16,
+        "y": 136,
+        "text_bytes_hex": "2020206f7074696f6e20746f2064697361626c6520746865206a6f79737469636b2e",
+        "text_cp437": "   option to disable the joystick."
+      },
+      {
+        "x": 16,
+        "y": 144,
+        "text_bytes_hex": "202020652e672e204348455353202f4b455942",
+        "text_cp437": "   e.g. CHESS /KEYB"
+      },
+      {
+        "x": 16,
+        "y": 160,
+        "text_bytes_hex": "352920496620796f7572206d6f75736520697320696e20434f4d313a20796f75",
+        "text_cp437": "5) If your mouse is in COM1: you"
+      },
+      {
+        "x": 16,
+        "y": 168,
+        "text_bytes_hex": "2020206e65656420746f2075736520746865202f434f4d32206f7074696f6e2e",
+        "text_cp437": "   need to use the /COM2 option."
+      },
+      {
+        "x": 16,
+        "y": 176,
+        "text_bytes_hex": "202020652e672e204348455353202f434f4d32",
+        "text_cp437": "   e.g. CHESS /COM2"
+      }
+    ],
+    [
+      {
+        "x": 40,
+        "y": 16,
+        "text_bytes_hex": "536c6565706c6573732049424d204e6967687473204372657720312e302e",
+        "text_cp437": "Sleepless IBM Nights Crew 1.0."
+      },
+      {
+        "x": 16,
+        "y": 32,
+        "text_bytes_hex": "50726f6772616d6d696e673a",
+        "text_cp437": "Programming:"
+      },
+      {
+        "x": 16,
+        "y": 40,
+        "text_bytes_hex": "202020204a617920506174656c",
+        "text_cp437": "    Jay Patel"
+      },
+      {
+        "x": 16,
+        "y": 48,
+        "text_bytes_hex": "202020204d69636861656c20517561726c6573",
+        "text_cp437": "    Michael Quarles"
+      },
+      {
+        "x": 16,
+        "y": 64,
+        "text_bytes_hex": "417274776f726b3a",
+        "text_cp437": "Artwork:"
+      },
+      {
+        "x": 16,
+        "y": 72,
+        "text_bytes_hex": "20202020546f6464204a2e2043616d61737461",
+        "text_cp437": "    Todd J. Camasta"
+      },
+      {
+        "x": 16,
+        "y": 80,
+        "text_bytes_hex": "202020204272756365205363686c69636b6265726e64",
+        "text_cp437": "    Bruce Schlickbernd"
+      },
+      {
+        "x": 16,
+        "y": 96,
+        "text_bytes_hex": "54657374696e673a",
+        "text_cp437": "Testing:"
+      },
+      {
+        "x": 16,
+        "y": 104,
+        "text_bytes_hex": "20202020546f6d204465636b6572",
+        "text_cp437": "    Tom Decker"
+      },
+      {
+        "x": 16,
+        "y": 112,
+        "text_bytes_hex": "202020204272756365205363686c69636b6265726e64",
+        "text_cp437": "    Bruce Schlickbernd"
+      },
+      {
+        "x": 16,
+        "y": 120,
+        "text_bytes_hex": "202020205765732059616e616769",
+        "text_cp437": "    Wes Yanagi"
+      },
+      {
+        "x": 16,
+        "y": 128,
+        "text_bytes_hex": "2020202053636f7474204c61526f636361",
+        "text_cp437": "    Scott LaRocca"
+      },
+      {
+        "x": 16,
+        "y": 144,
+        "text_bytes_hex": "50726f64756365723a",
+        "text_cp437": "Producer:"
+      },
+      {
+        "x": 16,
+        "y": 152,
+        "text_bytes_hex": "20202020427269616e20466172676f",
+        "text_cp437": "    Brian Fargo"
+      },
+      {
+        "x": 16,
+        "y": 168,
+        "text_bytes_hex": "536f6f6e20746f2062652072656c65617365643a",
+        "text_cp437": "Soon to be released:"
+      },
+      {
+        "x": 16,
+        "y": 176,
+        "text_bytes_hex": "202020204e6575726f6d616e636572",
+        "text_cp437": "    Neuromancer"
+      }
+    ]
+  ],
+  "consumed_bytes": 806,
+  "remaining_bytes_hex": "00"
+}

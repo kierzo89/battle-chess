@@ -1,2 +1,9 @@
 # Source and evidence hashes bind exact bytes, including historical CRLF files.
 * -text
+
+# Preserve recovered binary data without newline conversion.
+assets/**/*.bin binary
+assets/**/*.png binary
+assets/**/*.pbm binary
+assets/**/ALLCANM1 binary
+assets/**/ALLCANM2 binary

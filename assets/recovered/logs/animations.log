@@ -1,0 +1,32 @@
+pair 0 sequences 12 holds 0
+pair 1 sequences 24 holds 0
+pair 2 sequences 12 holds 0
+pair 3 sequences 24 holds 0
+pair 4 sequences 24 holds 0
+pair 5 sequences 18 holds 0
+pair 6 sequences 12 holds 0
+pair 8 sequences 9 holds 0
+pair 10 sequences 12 holds 0
+pair 12 sequences 13 holds 0
+pair 14 sequences 19 holds 0
+pair 16 sequences 8 holds 0
+pair 18 sequences 18 holds 0
+pair 20 sequences 6 holds 0
+pair 22 sequences 17 holds 0
+pair 24 sequences 12 holds 0
+pair 26 sequences 10 holds 0
+pair 28 sequences 3 holds 0
+{
+  "status": "INDEXED_ANIMATION_EXPORT_WITH_EXPLICIT_LIMITS",
+  "sequence_count": 253,
+  "frame_count": 2365,
+  "holds": [],
+  "seconds": 45.98801770400132,
+  "limits": [
+    "RGB palettes and device placement not yet verified",
+    "Flat setup0 mapping established from matched initializer and native count17; full game task path not executed",
+    "Pair28 base independently bound to all256-stale-byte native E282+2D13 proof; no historical exact stale-byte inference",
+    "No seconds/FPS or control-event-to-frame correspondence claim; control streams exported separately"
+  ],
+  "canonical_credit_added": 0
+}
