@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Battle Chess Native (Development)
+Comment=Native Linux port in progress — currently the recovered animation viewer
+Exec=/home/kierzo/battle-chess-linux/native/desktop-launch.sh
+Path=/home/kierzo/battle-chess-linux
+Icon=applications-games
+Terminal=false
+Categories=Game;BoardGame;
+StartupNotify=false
