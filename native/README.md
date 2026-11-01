@@ -182,5 +182,14 @@ eligible call) and does not treat timer bytes as fixed-FPS durations. The native
 library is checked against 144 authenticated retained capture-control streams,
 including 4,448 readiness events and 488 sound dispatches, plus 20,000 comparisons
 with the recovered interpolation C. A two-tick gate models the original event
-fallback without late-frame catch-up. This foundation is not yet wired into the
-interactive board; battle animation and physical sound playback remain pending.
+fallback without late-frame catch-up. Interpolation and tick gating now drive non-capture board motion. The control
+stream interpreter still awaits capture integration; battle animation and physical
+sound playback remain pending.
+
+The interactive board now uses the recovered static-sprite movement primitive
+for non-captures, including sequential king/rook movement when castling. It uses
+a separate display snapshot; undo, new game and load discard an in-flight visual
+move. Pause holds it. Host ticks use the nominal PC PIT frequency and the verified
+two-tick fallback; this does not establish exact original wall-clock timing.
+Original multi-command movement paths, perspective rendering and animated capture
+battles remain unfinished. Captures currently update the board immediately.

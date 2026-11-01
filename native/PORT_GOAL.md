@@ -215,3 +215,28 @@ construction), motion_effect_tasks_match.c and task_tail_handlers_match.c;
 assets/recovered/metadata/timing/timelines.json (4304 capture frame events),
 metadata/tasks/* and decoded animations. Next connect actor/sequence execution
 and original projection, then adapt calibrated sound timing. Goal stays active.
+
+## Progress: on-board native motion integration
+
+Previous turn was progress: task readiness/interpolation verified against retained
+evidence. Connected the recovered command-active static-sprite move primitive to
+SDL board presentation. Eight positions are emitted, followed by completion;
+castling moves king then rook. The display snapshot is separate from authoritative
+chess state. Input/search waits for motion; undo/new/load cancels the old display
+snapshot; pause preserves motion. Input events suppress that iteration's timer
+fallback. Nominal PC PIT-derived host ticks (1193182/65536 Hz) adapt monotonic SDL
+time; original physical timing is not claimed.
+
+All 20 legal opening moves and both castling directions pass state/completion
+checks; ASan/UBSan passes. Dummy and real-desktop UI smoke tests pass. Mid-move
+screenshot visually confirms the moving sprite and vacated origin. Captures are
+explicitly excluded from this adapter, retaining immediate chess-state display
+until the dual-actor battle executor is integrated. Likewise the original
+animation_stage multi-command movement paths and perspective projection are NOT
+claimed by this direct endpoint primitive; they remain the next integration.
+
+New source evidence resolves the artwork mapping directly:
+matching/src/data/game_kind_map.c maps engine K/Q/R/B/N/P to graphics2/5/6/1/3/4,
+explaining the archive ordering found in the prior screenshot review.
+Goal remains active: finish original command-stage paths, frame/actor sequences,
+perspective board, captures and audio, then remaining search fidelity and UI audit.
