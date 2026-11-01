@@ -240,3 +240,26 @@ matching/src/data/game_kind_map.c maps engine K/Q/R/B/N/P to graphics2/5/6/1/3/4
 explaining the archive ordering found in the prior screenshot review.
 Goal remains active: finish original command-stage paths, frame/actor sequences,
 perspective board, captures and audio, then remaining search fidelity and UI audit.
+
+## Progress: recovered BB0E path construction
+
+Previous turn was progress: board static-motion integration. Added a hash-pinned
+source generator for animation_stage_match.c, capture mapping and graphics-kind
+mapping. Original command construction is retained; host sinks collect parent /
+operation / square / argument / explicitly-known-extra fields. Omitted DOS call
+arguments remain unknown. Record/input waiting is replaced by bounded collection;
+transfer effects model recursive stage inputs, not complete task execution.
+
+Quiet board movement now follows recovered per-square waypoints, including the
+three-part knight path and king/rook castling paths. Intermediate waypoints do
+not mutate occupied display squares; only completed actors transfer occupancy.
+The command planner retains capture branches for the forthcoming executor, but
+capture playback is not yet implemented. Promotion animation caller normalization
+is explicitly held, while promotion chess rules continue to work.
+
+17 CTests pass. Known pawn/knight paths, both castling directions and 2910 legal
+command plans pass; source mutation gates reject all three altered inputs even
+with Python -O. Sanitized planner/motion checks and real-desktop smoke pass.
+These are source/host tests, not full original command-scheduler equivalence.
+Next: native turn/face/avoidance/capture execution, original coordinate tables and
+background, actual animation frames and audio dispatch. Full goal stays active.

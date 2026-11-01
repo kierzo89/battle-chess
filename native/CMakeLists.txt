@@ -95,7 +95,7 @@ add_executable(battle-chess-game src/game_ui.c)
 target_link_libraries(battle-chess-game PRIVATE bc_search PkgConfig::SDL3)
 add_dependencies(battle-chess-game board_assets)
 add_test(NAME native_game_smoke COMMAND battle-chess-game "${BOARD_ASSETS}" --smoke)
-set_tests_properties(native_game_smoke PROPERTIES ENVIRONMENT "SDL_VIDEODRIVER=dummy;SDL_RENDER_DRIVER=software" TIMEOUT 10)
+set_tests_properties(native_game_smoke PROPERTIES ENVIRONMENT "SDL_VIDEODRIVER=dummy;SDL_RENDER_DRIVER=software" TIMEOUT 15)
 
 add_executable(test_savegame tests/test_savegame.c)
 target_link_libraries(test_savegame PRIVATE bc_core)
@@ -120,3 +120,17 @@ add_executable(test_motion tests/test_motion.c)
 target_link_libraries(test_motion PRIVATE bc_presentation)
 target_compile_options(test_motion PRIVATE -Wall -Wextra -Wpedantic -Werror -UNDEBUG)
 add_test(NAME native_piece_motion COMMAND test_motion)
+
+set(STAGE_SOURCE "${CMAKE_CURRENT_BINARY_DIR}/generated/stage.c")
+add_custom_command(OUTPUT "${STAGE_SOURCE}"
+ COMMAND ${Python3_EXECUTABLE} "${CMAKE_CURRENT_SOURCE_DIR}/tools/port_stage.py"
+ --root "${CMAKE_CURRENT_SOURCE_DIR}/.." --output "${STAGE_SOURCE}"
+ DEPENDS tools/port_stage.py ../matching/src/animation_stage_match.c
+ ../matching/src/data/capture_record_mapping_11ac.c ../matching/src/data/game_kind_map.c VERBATIM)
+target_sources(bc_presentation PRIVATE "${STAGE_SOURCE}")
+# Keep the recovered queue handle local even though the original never reads it.
+set_source_files_properties("${STAGE_SOURCE}" PROPERTIES COMPILE_OPTIONS "-Wno-unused-but-set-variable")
+add_executable(test_stage tests/test_stage.c)
+target_link_libraries(test_stage PRIVATE bc_presentation)
+target_compile_options(test_stage PRIVATE -Wall -Wextra -Wpedantic -Werror -UNDEBUG)
+add_test(NAME recovered_move_commands COMMAND test_stage)

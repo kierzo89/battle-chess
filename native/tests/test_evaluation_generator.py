@@ -27,3 +27,16 @@ with tempfile.TemporaryDirectory() as tmp:
     else:raise AssertionError('Modified search source was admitted')
     assert not (root/'generated.c').exists()
 print('PASS: search generator rejects modified recovered source')
+
+import subprocess,sys
+stage_inputs=['matching/src/animation_stage_match.c','matching/src/data/capture_record_mapping_11ac.c','matching/src/data/game_kind_map.c']
+for changed in stage_inputs:
+    with tempfile.TemporaryDirectory() as tmp:
+        root=Path(tmp)
+        for source in stage_inputs:
+            target=root/source;target.parent.mkdir(parents=True,exist_ok=True)
+            target.write_bytes((ROOT/source).read_bytes()+(b'\n/* mutation */' if source==changed else b''))
+        result=subprocess.run([sys.executable,'-O',str(ROOT/'native/tools/port_stage.py'),'--root',str(root),'--output',str(root/'stage.c')],capture_output=True)
+        assert result.returncode!=0 and b'Unpinned' in result.stderr
+        assert not (root/'stage.c').exists()
+print('PASS: stage generator rejects each mutated pinned input, including under Python -O')

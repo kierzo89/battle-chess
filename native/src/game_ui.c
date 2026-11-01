@@ -171,7 +171,7 @@ int main(int argc,char **argv) {
     bc_game_undo(g);bc_game_undo(g);if(bc_game_plies(g))fail("Smoke undo");
     smoke_stage=3;running=false;
    }
-   if(SDL_GetTicks()-started>5000)fail("Smoke timeout");
+   if(SDL_GetTicks()-started>12000)fail("Smoke timeout");
   }
   SDL_Delay(8);
  }

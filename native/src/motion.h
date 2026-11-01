@@ -3,7 +3,7 @@
 #include "presentation.h"
 #include "rules.h"
 typedef struct {
- BCBoard display;BCMove moves[2];unsigned count,index,frame;
+ BCBoard display;BCMove moves[32];uint8_t origins[32];unsigned count,index,frame;
  bool active;int x,y;uint64_t last_tick;
 } BCMotion;
 /* Original command-active (static-sprite) move task: eight emitted positions,

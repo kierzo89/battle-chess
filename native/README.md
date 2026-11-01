@@ -193,3 +193,20 @@ move. Pause holds it. Host ticks use the nominal PC PIT frequency and the verifi
 two-tick fallback; this does not establish exact original wall-clock timing.
 Original multi-command movement paths, perspective rendering and animated capture
 battles remain unfinished. Captures currently update the board immediately.
+
+## Recovered move-command planning
+
+The SHA-pinned BB0E source now constructs native command plans. Quiet movement
+uses its intermediate waypoints rather than a direct line: pawn double steps
+visit both squares and knights take the original three-part path. Castling uses
+both actor paths. Intervening pieces remain present in the display snapshot.
+The planner retains parent relationships, operation arguments, capture branches
+and whether the original call actually supplied its extra argument; omitted
+arguments are not silently admitted as known zero values.
+
+The static-sprite adapter currently executes move waypoints only. Turn/face,
+neighbour avoidance, paired capture tasks, perspective coordinates and audio
+still need their full executor. Promotion remains legal chess but its animation
+caller normalization is not yet established, so it uses immediate presentation.
+Tests cover known paths/capture branch structure and 2,910 generated legal plans;
+these do not establish full command-scheduler or original binary equivalence.
