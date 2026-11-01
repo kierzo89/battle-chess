@@ -146,3 +146,25 @@ Remaining: original timing and whole-search fidelity, opening book, special mode
 identification, and all UI/gameplay integration. Next concrete work: connect SDL
 board input and asynchronous search, with difficulty menu and clean cancellation
 on undo/new game/quit. Desktop is still the development viewer, not finished.
+
+## Progress: interactive native game and desktop launch
+
+Connected legal rules, history and recovered C search to an SDL3 board. Search
+runs on a cancellable background thread with a copied position/history. Added
+human/computer and two-player modes, click selection with legal destinations,
+undo/new game, difficulty, draw claims and promotion selection. Authenticated
+setup-02 artwork uses a visually checked engine-kind mapping; archive order is
+not engine-kind order. The square board is host presentation, not a claim of
+original projection fidelity. Screenshot inspection caught and corrected the
+initial mapping error.
+
+The desktop shortcut now launches this development game; `run.sh --viewer`
+retains the independent animation browser. Verified mouse-event e2-e4, asynchronous
+computer reply, cancellation, undo and clean close on both SDL dummy/software
+and the real desktop video backend. All 12 CTests pass. Source snapshot verifies
+1904 files/916 pinned inputs; 13996 asset files and byte-exact banks remain intact.
+
+Goal remains active. Next: persistent save/load, longer full-game validation,
+original projection and animation integration, audio and remaining original
+search/book/mode fidelity. This is playable chess development, not completion
+of the full original Battle Chess experience.

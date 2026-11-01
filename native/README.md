@@ -1,8 +1,9 @@
-# Native Linux port — first milestone
+# Native Linux port — interactive development build
 
-This is a **port in progress, not yet a playable native Battle Chess game**.
-The executable currently browses recovered animations through SDL3. The initial
-recovered board-state C functions build and are tested as a native library.
+This is an **interactive development build, not the completed native port**.
+It supports human-versus-computer and two-player chess, with the recovered C
+search running on a background thread and original recovered piece artwork.
+Original board projection, battle animations, audio and save/load are pending.
 No DOSBox, x86 interpreter, original executable, DOS toolchain or runtime is used
 by this native target. It runs as a normal Linux ELF executable.
 
@@ -28,9 +29,14 @@ Requires a C11 compiler, CMake, pkg-config, Python 3 and SDL3 development files
 /home/kierzo/battle-chess-linux/native/run.sh
 ```
 
-Controls: left/right steps frames, up/down selects sequences, C swaps the native
-colour mapping, Space loops a preview, Escape closes. Preview animation is 10 fps
-for inspection; this is explicitly not the original game's task scheduling.
+Click a piece and its destination. N starts a game, U undoes a turn, H toggles
+one/two players, Space pauses, 0–9 selects difficulty, D claims an available draw,
+and Q/R/B/K chooses promotion (K = knight). Escape closes the game.
+The desktop shortcut launches this development game.
+
+For the separate recovered animation browser, run `native/run.sh --viewer`.
+Its controls are left/right (frame), up/down (sequence), C (colour), Space (preview).
+Preview timing is not original task scheduling.
 
 ```sh
 cmake -S native -B native/build -DCMAKE_BUILD_TYPE=Debug
@@ -65,8 +71,8 @@ stay in the ignored build folder.
 Native legal move generation and king-safety checks now pass perft and special
 move tests. Recovered C attack routines are compiled unchanged as a host reference
 and compared with the port. See `rules-provenance.json` for validation scope and
-intentional host adaptations. These rules are not yet connected to the viewer;
-search, draw history and the full playable game remain incomplete.
+intentional host adaptations. Rules, draw history and search are now connected to the interactive board.
+Full original presentation and game fidelity remain incomplete.
 
 ## Remaining work, in dependency order
 

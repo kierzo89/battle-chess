@@ -11,6 +11,7 @@ BCGame *bc_game_create(const BCPosition *start);
 void bc_game_destroy(BCGame *game);
 const BCPosition *bc_game_position(const BCGame *game);
 size_t bc_game_plies(const BCGame *game);
+bool bc_game_copy_moves(const BCGame *game,BCMove *out,size_t capacity);
 bool bc_game_move(BCGame *game,BCMove move);
 bool bc_game_undo(BCGame *game);
 unsigned bc_game_repetitions(const BCGame *game);

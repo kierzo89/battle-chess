@@ -85,3 +85,14 @@ add_executable(test_difficulty tests/test_difficulty.c)
 target_link_libraries(test_difficulty PRIVATE bc_search)
 target_compile_options(test_difficulty PRIVATE -UNDEBUG)
 add_test(NAME difficulty_clock COMMAND test_difficulty)
+set(BOARD_ASSETS "${CMAKE_CURRENT_BINARY_DIR}/pieces.bcp")
+add_custom_command(OUTPUT "${BOARD_ASSETS}"
+ COMMAND ${Python3_EXECUTABLE} "${CMAKE_CURRENT_SOURCE_DIR}/tools/prepare_board_assets.py"
+ --root "${CMAKE_CURRENT_SOURCE_DIR}/.." --output "${BOARD_ASSETS}"
+ DEPENDS tools/prepare_board_assets.py ../verification/asset-snapshot.json VERBATIM)
+add_custom_target(board_assets ALL DEPENDS "${BOARD_ASSETS}")
+add_executable(battle-chess-game src/game_ui.c)
+target_link_libraries(battle-chess-game PRIVATE bc_search PkgConfig::SDL3)
+add_dependencies(battle-chess-game board_assets)
+add_test(NAME native_game_smoke COMMAND battle-chess-game "${BOARD_ASSETS}" --smoke)
+set_tests_properties(native_game_smoke PROPERTIES ENVIRONMENT "SDL_VIDEODRIVER=dummy;SDL_RENDER_DRIVER=software" TIMEOUT 10)

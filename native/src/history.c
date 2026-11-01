@@ -111,3 +111,9 @@ bool bc_game_undo(BCGame *g) {
  if(!g->count)return false;
  g->count--;return true;
 }
+
+bool bc_game_copy_moves(const BCGame *g,BCMove *out,size_t capacity) {
+ if(capacity<g->count||(!out&&g->count))return false;
+ for(size_t i=0;i<g->count;i++)out[i]=g->steps[i+1].move;
+ return true;
+}
