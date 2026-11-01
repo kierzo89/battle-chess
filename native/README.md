@@ -3,7 +3,7 @@
 This is an **interactive development build, not the completed native port**.
 It supports human-versus-computer and two-player chess, with the recovered C
 search running on a background thread and original recovered piece artwork.
-Original board projection, battle animations, audio and save/load are pending.
+Original board projection, battle animations and audio are pending.
 No DOSBox, x86 interpreter, original executable, DOS toolchain or runtime is used
 by this native target. It runs as a normal Linux ELF executable.
 
@@ -31,7 +31,7 @@ Requires a C11 compiler, CMake, pkg-config, Python 3 and SDL3 development files
 
 Click a piece and its destination. N starts a game, U undoes a turn, H toggles
 one/two players, Space pauses, 0–9 selects difficulty, D claims an available draw,
-and Q/R/B/K chooses promotion (K = knight). Escape closes the game.
+and Q/R/B/K chooses promotion (K = knight). S saves; L loads. Escape closes the game.
 The desktop shortcut launches this development game.
 
 For the separate recovered animation browser, run `native/run.sh --viewer`.
@@ -154,3 +154,22 @@ not BIOS ticks. The internal special search mode 5 is not labelled novice.
 Native monotonic deadlines and caller cancellation prevent blocking indefinitely;
 `difficulty-provenance.json` documents the differences from DOS timing. The UI
 still needs its difficulty menu and engine integration.
+
+## Native saved games
+
+S saves to SDL's application data directory, normally
+`~/.local/share/battle-chess-native/game/game.bcs`; L restores that game. The
+current game survives a failed load. Saving uses a temporary file, flush/fsync
+and atomic rename, keeping the previous file if writing fails. The BCS1 format
+contains the entire move log from the standard initial position plus draw-claim
+state, with a version signature, count limit and CRC32. Loading validates every
+move by legal replay, preserving undo, castling, en passant, promotion, repetition
+and search context. Custom starting positions are deliberately rejected by this
+format. It is not compatible with original DOS saves. Difficulty and player-mode
+settings remain session settings rather than saved-game fields.
+
+Tests cover replay/undo, draw claims, random legal history, truncated/corrupt
+files, correctly checksummed illegal moves, and UI save/new/load events using
+an isolated temporary file. Three bounded depth-two engine self-play fixtures
+reach checkmate; these are gameplay regression evidence, not whole-engine DOS
+binary equivalence or exhaustive chess validation.

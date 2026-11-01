@@ -168,3 +168,24 @@ Goal remains active. Next: persistent save/load, longer full-game validation,
 original projection and animation integration, audio and remaining original
 search/book/mode fidelity. This is playable chess development, not completion
 of the full original Battle Chess experience.
+
+## Progress: save/load and complete native self-play
+
+Previous turn was progress: interactive game and desktop shortcut verified.
+Added BCS1 native save files with complete chronological legal history and draw
+claim state, CRC32, bounded parsing, legal replay and atomic file replacement.
+Failed loads leave the current game untouched. S/L are bound in the UI; loading
+joins any running search before replacing state. Smoke tests exercise actual
+save/new/load keyboard events in an isolated temporary save file. Original DOS
+save compatibility is not claimed; current format supports standard starts only.
+
+Replay/undo, repetitions, draw claims, random history, all byte truncations,
+corruption, trailing data and a correctly checksummed illegal move pass. ASan /
+UBSan save tests pass. Real-desktop SDL smoke passes. Three full depth-two native
+self-play games reach checkmate: seed1 77 plies/120355 candidates; seed2 45/81150;
+seed3 98/66643. This is bounded gameplay evidence, not original full-search parity.
+
+Remaining primary obligations: recovered original board projection, movement /
+capture animation task execution, sound, opening-book and special-mode fidelity,
+original full-search comparisons and further end-to-end visual/gameplay review.
+The goal stays active and shortcut remains labelled Development.

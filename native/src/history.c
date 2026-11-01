@@ -117,3 +117,5 @@ bool bc_game_copy_moves(const BCGame *g,BCMove *out,size_t capacity) {
  for(size_t i=0;i<g->count;i++)out[i]=g->steps[i+1].move;
  return true;
 }
+
+const BCPosition *bc_game_initial_position(const BCGame *g){return &g->steps[0].position;}

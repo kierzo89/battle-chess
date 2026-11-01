@@ -1,9 +1,12 @@
+#define _POSIX_C_SOURCE 200809L
 #include <SDL3/SDL.h>
 #include <stdatomic.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <unistd.h>
 #include "difficulty.h"
+#include "savegame.h"
 typedef struct {
  SDL_Thread *thread;atomic_bool cancel,done;BCPosition position;
  BCMove *history;size_t count;BCSearchConfig config;BCSearchResult result;bool ok;
@@ -59,6 +62,14 @@ int main(int argc,char **argv) {
  SDL_SetRenderLogicalPresentation(r,832,624,SDL_LOGICAL_PRESENTATION_LETTERBOX);
  SDL_Texture *textures[2][7]={{0}};load(r,argv[1],textures);
  BCGame *g=bc_game_create(NULL);if(!g)fail("Game allocation");
+ char *pref=SDL_GetPrefPath("battle-chess-native","game");
+ char *save_path=NULL;
+ if(pref){size_t n=strlen(pref)+16;save_path=malloc(n);if(save_path)snprintf(save_path,n,"%sgame.bcs",pref);SDL_free(pref);}
+ if(smoke){
+  free(save_path);save_path=strdup("/tmp/bc-ui-save-XXXXXX");
+  if(!save_path)fail("Smoke path");
+  int fd=mkstemp(save_path);if(fd<0)fail("Smoke temporary file");close(fd);
+ }
  Worker *worker=NULL;bool running=true,computer=true,paused=false;int selected=-1;
  unsigned level=0,promotion=2,smoke_stage=0;uint64_t started=SDL_GetTicks();char message[160]="Click a piece, then its destination.";
  while(running) {
@@ -67,6 +78,12 @@ int main(int argc,char **argv) {
    if(e.type==SDL_EVENT_QUIT)running=false;
    if(e.type==SDL_EVENT_KEY_DOWN) {
     SDL_Keycode k=e.key.key;
+    if(k==SDLK_S)snprintf(message,sizeof message,"%s",save_path&&bc_game_save(g,save_path)?"Game saved.":"Save failed; previous file retained.");
+    if(k==SDLK_L){
+     BCGame *loaded=save_path?bc_game_load(save_path):NULL;
+     if(loaded){stop(&worker);bc_game_destroy(g);g=loaded;selected=-1;paused=false;snprintf(message,sizeof message,"Game loaded with complete move history.");}
+     else snprintf(message,sizeof message,"Load failed; current game retained.");
+    }
     if(k==SDLK_ESCAPE)running=false;
     if(k==SDLK_N){stop(&worker);bc_game_destroy(g);g=bc_game_create(NULL);if(!g)fail("New game");selected=-1;paused=false;}
     if(k==SDLK_U){stop(&worker);bc_game_undo(g);if(computer&&bc_game_position(g)->board.side==1)bc_game_undo(g);selected=-1;paused=false;}
@@ -107,6 +124,7 @@ int main(int argc,char **argv) {
   text(r,130,worker?"Computer thinking...":paused?"Paused":"Ready");
   char line[80];snprintf(line,sizeof line,"Level: %s",level?"timed":"Novice");if(level)snprintf(line,sizeof line,"Level %u (%u seconds)",level,5u<<(level-1));text(r,170,line);
   text(r,204,"0-9: difficulty");text(r,228,"N: new game   U: undo");text(r,252,"H: one / two players");text(r,276,"Space: pause / resume");text(r,300,"D: claim draw");text(r,324,"Q/R/B/K: promotion");snprintf(line,sizeof line,"Promotion: %s",promotion==2?"queen":promotion==3?"rook":promotion==4?"bishop":"knight");text(r,348,line);
+  text(r,372,"S: save   L: load");
   text(r,396,"Original engine + artwork");text(r,420,"Animations/audio pending");
   SDL_SetRenderDrawColor(r,235,235,240,255);SDL_RenderDebugText(r,24,600,message);
   if(smoke&&!smoke_stage&&getenv("BC_SCREENSHOT")) {
@@ -126,17 +144,23 @@ int main(int argc,char **argv) {
     smoke_stage=1;
    }
    else if(smoke_stage==1&&bc_game_plies(g)==2&&!worker){
+    const SDL_Keycode keys[]={SDLK_S,SDLK_N,SDLK_L};
+    for(unsigned i=0;i<3;i++){SDL_Event key={0};key.type=SDL_EVENT_KEY_DOWN;key.key.key=keys[i];if(!SDL_PushEvent(&key))fail("Smoke save/load key");}
+    smoke_stage=2;
+   }
+   else if(smoke_stage==2){
+    if(bc_game_plies(g)!=2||bc_game_position(g)->board.side!=0)fail("Smoke restored history");
     worker=start(g,9,true);if(!worker)fail("Smoke worker");stop(&worker);
     bc_game_undo(g);bc_game_undo(g);if(bc_game_plies(g))fail("Smoke undo");
-    smoke_stage=2;running=false;
+    smoke_stage=3;running=false;
    }
    if(SDL_GetTicks()-started>5000)fail("Smoke timeout");
   }
   SDL_Delay(8);
  }
- stop(&worker);bc_game_destroy(g);
+ stop(&worker);bc_game_destroy(g);if(smoke)unlink(save_path);free(save_path);
  for(int s=0;s<2;s++)for(int k=1;k<=6;k++)SDL_DestroyTexture(textures[s][k]);
  SDL_DestroyRenderer(r);SDL_DestroyWindow(window);SDL_Quit();
- if(smoke&&smoke_stage!=2)return 1;
+ if(smoke&&smoke_stage!=3)return 1;
  puts("Native board closed cleanly.");return 0;
 }
