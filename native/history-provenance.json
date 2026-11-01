@@ -1,0 +1,43 @@
+{
+  "status": "TESTED_HISTORY_LAYER_NOT_COMPLETE_GAME",
+  "sources": [
+    {
+      "path": "matching/src/repetition_match.c",
+      "sha256": "d98d665085334fdbcb2a5a0fe1bc07184a56f0b2c73cb2c4536f4813b78151b1"
+    },
+    {
+      "path": "matching/src/moves_quiet_match.c",
+      "sha256": "53189facce52c1d5e19a06530ffb79d252e8efa91e8bf0aa00be9f99a93485d7"
+    },
+    {
+      "path": "matching/src/moves_match400_count.c",
+      "sha256": "f047a2036ee8b3100a2f24bf1156bd48ce35edddad0bc2f3bf4064536c535566"
+    },
+    {
+      "path": "matching/src/search_tail_helpers_match.c",
+      "sha256": "1a03c08d43628368d7e0dcee52a2aaa95b2139d0fe286ae28cf2827dac8f5b13"
+    }
+  ],
+  "original_search_support": {
+    "repetition": "9C34 reverse-link scan retained, bounded history replaces leading sentinel; first DOS word is destination despite retained Pair field name.",
+    "quiet_count": "Original excludes pawns, captures, special moves and empty sentinel.",
+    "comparison": "10440 scans across 32 legal playouts and repeating knight cycles agree with unchanged recovered C compiled on host; not machine-code execution."
+  },
+  "host_game_session": {
+    "storage": "Dynamically growing complete-position snapshots, exact undo and legal move validation.",
+    "identity": "Side, piece occupancy, castling rights and only legally available en-passant captures; ignores empty-cell bookkeeping.",
+    "draw_policy": "Explicit current-position threefold / 100-halfmove claim; automatic fivefold / 150-halfmove draw; conservative insufficient-material detection. These are host game rules, not claimed original DOS UI behaviour. Original search keeps its separate recovered detector.",
+    "terminal_priority": "Mate/stalemate checked before automatic move-count draw.",
+    "limitations": [
+      "Not yet connected to UI or original search.",
+      "Native save/load not yet implemented.",
+      "Arbitrary input positions must be valid; this API is not a FEN validator.",
+      "No prospective draw-claim interface before making the qualifying move yet."
+    ]
+  },
+  "validation": [
+    "Claim/unclaim, fivefold, 50/75-move boundaries, pawn reset, invalid move rejection.",
+    "Dynamic history growth beyond initial capacity and complete restoration.",
+    "ASan/UBSan history tests pass."
+  ]
+}

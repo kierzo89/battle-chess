@@ -75,3 +75,21 @@ aspiration windows. Pointer-containing frame copy size 222 and PV copies 192
 must become host object-size copies; history/history_tail/history_storage
 aliases must be represented explicitly. UI poll/time hooks must become bounded
 native callbacks. Do not replace this with a generic alpha-beta implementation.
+
+## Progress: turn history and repetition support
+
+Previous goal turn classified as progress (original evaluator port and oracle).
+Added a native game-session API with dynamically growing snapshots, legal move
+validation, complete undo and normalized position identity. Added the original
+9C34 repetition detector and 9BFD quiet-count predicate for search integration;
+10,440 scans agree with unchanged recovered C in a host reference harness.
+Separate host draw claims/automatic limits and conservative dead-material checks
+are documented in history-provenance.json; these do not replace the original
+search's pruning predicates or claim original DOS UI equivalence. Eight CTest
+checks and the history sanitizer tests pass, including dynamic growth/undo.
+
+Still incomplete: original incremental evaluation/search, difficulty and clocks,
+board interaction/composition, original animation tasks, sound and save/load.
+Desktop app remains the development viewer. Next action is connecting the shared
+search state to the recovered search functions, using this history support and
+the original evaluator rather than substituting a generic engine.

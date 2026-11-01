@@ -109,3 +109,12 @@ cc -std=c11 -fPIC -shared -fno-strict-aliasing -I native/src \
 
 Unicorn and the original executable are used only by that comparison test.
 Neither is a dependency of the native game or its normal build.
+
+## Turn history milestone
+
+`history.h` supplies legal move commits, complete undo and draw-state queries.
+The recovered search repetition scan is tested against the unchanged source in
+10,440 cases. Host position-repetition keys include rights and legally usable
+en-passant opportunities. `history-provenance.json` separates original search
+behaviour from the host UI draw policy. This API is not yet connected to the
+viewer, and does not change the application's not-yet-playable status.
