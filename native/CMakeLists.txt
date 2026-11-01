@@ -63,3 +63,7 @@ add_executable(test_original_history tests/test_original_history.c ../matching/s
 target_link_libraries(test_original_history PRIVATE bc_core)
 target_compile_options(test_original_history PRIVATE -UNDEBUG)
 add_test(NAME recovered_history_equivalence COMMAND test_original_history)
+add_executable(test_delta tests/test_delta.c)
+target_link_libraries(test_delta PRIVATE bc_evaluation bc_core)
+target_compile_options(test_delta PRIVATE -UNDEBUG)
+add_test(NAME incremental_evaluation COMMAND test_delta)

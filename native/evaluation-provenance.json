@@ -7,19 +7,19 @@
     },
     {
       "path": "native/tools/port_evaluation.py",
-      "sha256": "0b9de53a0fd151179df8b3f93428ba17c9155d86d8b80d13f5b3fc95365540b7"
+      "sha256": "72a2e34879d40a86aafe8a459b6ae0d0eb7da18c49e4405c4b995bd9e2950203"
     },
     {
       "path": "native/tests/compare_original_evaluation.py",
-      "sha256": "871c01217b3286d35d9b6e8a759aabff12173c5d002c1a2fbe4dad80d34e8bbf"
+      "sha256": "e3c665cd9195d11cc993a17e2433f5f4f043b38f1283ffd4576c9a6fd2573d20"
     },
     {
       "path": "native/build/generated/evaluation.c",
-      "sha256": "b107c36f93809f5b3ce96b64af036ed0ce078a0fc2e65eca928655dbcbe451ab"
+      "sha256": "b839bfd9e7948030c7d7bd70f7e251629d13d5caede5aa80cfa12b6532a80718"
     },
     {
       "path": "native/build/libevaluation_oracle.so",
-      "sha256": "3d32ea810362168bc20afabe5c0db60caff089c8d8a316e1650a23f7925aaf80"
+      "sha256": "34b579e685157c49ac127d14d702896611c18750c3b10c9c6ae3541290c78163"
     }
   ],
   "original_code_report": "evidence/evaluation-original-comparison.json",
@@ -40,8 +40,16 @@
   ],
   "limits": [
     "Not proof of all possible positions or pathological signed arithmetic extremes.",
-    "Original search, difficulty and incremental evaluate_candidate not integrated or validated yet.",
+    "Original search and difficulty not integrated or validated yet; incremental evaluator now has separate bounded oracle evidence.",
     "The source contains unreachable historical loops; retained without speculative correction.",
     "Test-only Unicorn/original EXE required for optional native oracle, not for game build or execution."
-  ]
+  ],
+  "incremental_adapter": {
+    "status": "PASS_234_BOUNDED_ORIGINAL_CODE_COMPARISONS",
+    "report": "evidence/incremental-original-comparison.json",
+    "state": "Full 26 x 2 x 2 unsigned 16-bit pawn masks and frozen root table. Caller retains scratch rows.",
+    "scope": "Quiet pawn, non-pawn capture, both castles, en passant, all promotions and promotion captures; both sides, ply 0/3/23, best -512/0/512. Exact score and all 208 pawn-state bytes.",
+    "limits": "Not yet connected to the original search; synthetic valid-range move records test evaluation independently of legality.",
+    "test_script_sha256": "4f2ae9a123442c59c009896163f39b2e7183f060a96b52baca9f65c9588dac74"
+  }
 }

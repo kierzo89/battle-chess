@@ -29,44 +29,47 @@ rea=json.loads((ROOT/'native/evidence/rea-evaluator-bytes.json').read_text())
 assert bytes.fromhex(rea['normalized_result']['bytes_hex'])==image[0xfe59:0xfe59+2851]
 ext=json.loads((ROOT/'matching/mixed_evaluation_units.json').read_text())['full_evaluation_fe59']['externals']
 DS=0x5cc2;BASE=DS*16
-rows=[];p=Position();lib.bc_position_initial(C.byref(p));seed=1988
-for sample in range(24):
- for context in (0,1):
-  for side in (0,1):
-   p.board.side=side
-   expected=Evaluation();lib.bc_evaluate(C.byref(p),context,C.byref(expected))
-   uc=Uc(UC_ARCH_X86,UC_MODE_16);uc.mem_map(0,0x100000);uc.mem_write(0,image)
-   def word(name,value):uc.mem_write(BASE+ext['_'+name],struct.pack('<H',value&65535))
-   for name,value in [('current_side',side),('opponent',side^1),('temporary',context),('history_index',0),('best',0)]:word(name,value)
-   uc.mem_write(BASE+ext['_board'],bytes(p.board.cells));uc.mem_write(BASE+ext['_pieces'],bytes(p.board.pieces))
-   uc.mem_write(BASE+ext['_piece_square'],bytes(2880));uc.mem_write(BASE+ext['_pawn_state'],bytes(208))
-   uc.reg_write(UC_X86_REG_DS,DS);uc.reg_write(UC_X86_REG_ES,DS);uc.reg_write(UC_X86_REG_SS,DS)
-   uc.reg_write(UC_X86_REG_SP,0xff00);uc.mem_write(BASE+0xff00,struct.pack('<HH',0,0xf000))
-   hits=[];done=[]
-   def hook(u,address,size,data):
-    if address==0xf0000:done.append(True);u.emu_stop();return
-    if address==0x9ad5:
-     sp=u.reg_read(UC_X86_REG_SP);ip,cs,s,ptr=struct.unpack('<4H',u.mem_read(BASE+sp,8))
-     assert s<2;u.mem_write(BASE+ptr,struct.pack('<H',p.castle[s]));hits.append(s)
-     u.reg_write(UC_X86_REG_SP,sp+4);u.reg_write(UC_X86_REG_CS,cs);u.reg_write(UC_X86_REG_IP,ip)
-   uc.hook_add(UC_HOOK_CODE,hook)
-   uc.reg_write(UC_X86_REG_CS,0xfdf);uc.reg_write(UC_X86_REG_IP,0x69)
-   uc.emu_start(0xfe59,0xf0001,count=2000000)
-   assert done and hits==[1,0],(done,hits,uc.reg_read(UC_X86_REG_CS),uc.reg_read(UC_X86_REG_IP))
-   names=['position_score','phase','endgame','total_material','pawn_material','material_balance']
-   observed=[struct.unpack('<h',uc.mem_read(BASE+ext['_'+n],2))[0] for n in names]
-   assert observed==list(expected.values),(sample,side,context,observed,list(expected.values))
-   squares=bytes(uc.mem_read(BASE+ext['_piece_square'],2880))
-   assert squares==bytes(expected.squares),(sample,side,context,'piece-square mismatch')
-   masks=struct.unpack('<4H',uc.mem_read(BASE+ext['_pawn_state'],8))
-   assert masks==(expected.presence[0],expected.doubled[0],expected.presence[1],expected.doubled[1])
-   rows.append({'sample':sample,'side':side,'temporary':context,'values':observed,'piece_square_sha256':hashlib.sha256(squares).hexdigest()})
- p.board.side=sample%2
- for _ in range(3):
-  moves=Moves();lib.bc_generate_legal(C.byref(p),C.byref(moves))
-  if not moves.count:lib.bc_position_initial(C.byref(p));break
-  seed=(1664525*seed+1013904223)&0xffffffff
-  lib.bc_play_unchecked(C.byref(p),moves.moves[seed%moves.count])
-report={'status':'PASS_ORIGINAL_EVALUATOR_CONTRACT_COMPARISON','original_exe_sha256':hashlib.sha256(exe).hexdigest(),'rea_evidence_id':rea['evidence_id'],'cases':rows,'contract':'Original castle_flags routine intercepted with supplied position rights; all evaluator/math code executes original bytes. No UI/search/gameplay parity claim.','game_runtime_uses_emulation':False}
-(ROOT/'native/evidence/evaluation-original-comparison.json').write_text(json.dumps(report,indent=2)+'\n')
-print('PASS:',len(rows),'original machine-code comparisons: scalars, all 1440 table words and pawn masks')
+def compare_full():
+    rows=[];p=Position();lib.bc_position_initial(C.byref(p));seed=1988
+    for sample in range(24):
+     for context in (0,1):
+      for side in (0,1):
+       p.board.side=side
+       expected=Evaluation();lib.bc_evaluate(C.byref(p),context,C.byref(expected))
+       uc=Uc(UC_ARCH_X86,UC_MODE_16);uc.mem_map(0,0x100000);uc.mem_write(0,image)
+       def word(name,value):uc.mem_write(BASE+ext['_'+name],struct.pack('<H',value&65535))
+       for name,value in [('current_side',side),('opponent',side^1),('temporary',context),('history_index',0),('best',0)]:word(name,value)
+       uc.mem_write(BASE+ext['_board'],bytes(p.board.cells));uc.mem_write(BASE+ext['_pieces'],bytes(p.board.pieces))
+       uc.mem_write(BASE+ext['_piece_square'],bytes(2880));uc.mem_write(BASE+ext['_pawn_state'],bytes(208))
+       uc.reg_write(UC_X86_REG_DS,DS);uc.reg_write(UC_X86_REG_ES,DS);uc.reg_write(UC_X86_REG_SS,DS)
+       uc.reg_write(UC_X86_REG_SP,0xff00);uc.mem_write(BASE+0xff00,struct.pack('<HH',0,0xf000))
+       hits=[];done=[]
+       def hook(u,address,size,data):
+        if address==0xf0000:done.append(True);u.emu_stop();return
+        if address==0x9ad5:
+         sp=u.reg_read(UC_X86_REG_SP);ip,cs,s,ptr=struct.unpack('<4H',u.mem_read(BASE+sp,8))
+         assert s<2;u.mem_write(BASE+ptr,struct.pack('<H',p.castle[s]));hits.append(s)
+         u.reg_write(UC_X86_REG_SP,sp+4);u.reg_write(UC_X86_REG_CS,cs);u.reg_write(UC_X86_REG_IP,ip)
+       uc.hook_add(UC_HOOK_CODE,hook)
+       uc.reg_write(UC_X86_REG_CS,0xfdf);uc.reg_write(UC_X86_REG_IP,0x69)
+       uc.emu_start(0xfe59,0xf0001,count=2000000)
+       assert done and hits==[1,0],(done,hits,uc.reg_read(UC_X86_REG_CS),uc.reg_read(UC_X86_REG_IP))
+       names=['position_score','phase','endgame','total_material','pawn_material','material_balance']
+       observed=[struct.unpack('<h',uc.mem_read(BASE+ext['_'+n],2))[0] for n in names]
+       assert observed==list(expected.values),(sample,side,context,observed,list(expected.values))
+       squares=bytes(uc.mem_read(BASE+ext['_piece_square'],2880))
+       assert squares==bytes(expected.squares),(sample,side,context,'piece-square mismatch')
+       masks=struct.unpack('<4H',uc.mem_read(BASE+ext['_pawn_state'],8))
+       assert masks==(expected.presence[0],expected.doubled[0],expected.presence[1],expected.doubled[1])
+       rows.append({'sample':sample,'side':side,'temporary':context,'values':observed,'piece_square_sha256':hashlib.sha256(squares).hexdigest()})
+     p.board.side=sample%2
+     for _ in range(3):
+      moves=Moves();lib.bc_generate_legal(C.byref(p),C.byref(moves))
+      if not moves.count:lib.bc_position_initial(C.byref(p));break
+      seed=(1664525*seed+1013904223)&0xffffffff
+      lib.bc_play_unchecked(C.byref(p),moves.moves[seed%moves.count])
+    report={'status':'PASS_ORIGINAL_EVALUATOR_CONTRACT_COMPARISON','original_exe_sha256':hashlib.sha256(exe).hexdigest(),'rea_evidence_id':rea['evidence_id'],'cases':rows,'contract':'Original castle_flags routine intercepted with supplied position rights; all evaluator/math code executes original bytes. No UI/search/gameplay parity claim.','game_runtime_uses_emulation':False}
+    (ROOT/'native/evidence/evaluation-original-comparison.json').write_text(json.dumps(report,indent=2)+'\n')
+    print('PASS:',len(rows),'original machine-code comparisons: scalars, all 1440 table words and pawn masks')
+
+if __name__=="__main__":compare_full()

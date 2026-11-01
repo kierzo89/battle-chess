@@ -93,3 +93,21 @@ board interaction/composition, original animation tasks, sound and save/load.
 Desktop app remains the development viewer. Next action is connecting the shared
 search state to the recovered search functions, using this history support and
 the original evaluator rather than substituting a generic engine.
+
+## Progress: incremental evaluation adapter
+
+Previous goal turn classified as progress (turn history and original repetition).
+Added BCSearchEvaluation with frozen root tables and all 26 pawn-history rows.
+The original evaluate_candidate code is reused, not replaced by a score-difference
+heuristic. The adapter preserves original promotion-before-parent-copy ordering,
+validates indices and returns mutated scratch rows for the search to retain.
+Original-machine-code comparison passes 234 cases covering both sides, three
+ply depths, three best-score contexts, captures, both castles, en passant and
+all four promotions with/without captures. Results match AX and every byte of
+the 208-byte pawn-history region. Original helpers run unchanged in that test;
+only the test return sentinel is intercepted. Emulator remains test-only.
+Nine CTest targets and incremental ASan/UBSan checks pass. Desktop still viewer.
+
+Next: port the recovered phased search using this adapter and the history API;
+replace DOS frame/PV byte sizes by host object sizes, preserve aliases explicitly,
+and bind time/input polling to native callbacks. Full search is not implemented.

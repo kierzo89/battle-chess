@@ -91,6 +91,38 @@ void bc_evaluate(const BCPosition *p,unsigned temporary_side,BCEvaluation *out) 
  }
 }
 '''
+    wrapper += r"""
+void bc_search_evaluation_init(BCSearchEvaluation *state,const BCEvaluation *root) {
+ memset(state,0,sizeof *state);state->root=*root;
+ for(int side=0;side<2;side++) {
+  state->pawn_state[0][side][0]=root->pawn_presence[side];
+  state->pawn_state[0][side][1]=root->pawn_doubled[side];
+ }
+}
+bool bc_evaluate_delta(BCSearchEvaluation *state,BCMove move,unsigned side,
+ unsigned ply,int16_t best_score,unsigned temporary_side,int16_t *delta) {
+ if(!state||!delta||side>1||temporary_side>1||ply>23||move.from>=120||move.to>=120||
+    (move.from&0x88)||(move.to&0x88)||move.kind<1||move.kind>6||move.capture>6||move.special>1)
+  return false;
+ if(move.special && move.kind==1) {
+  unsigned home=side?116:4;
+  if(move.from!=home||(move.to!=home-2&&move.to!=home+2))return false;
+ }
+ if(move.special && move.kind==6) {
+  int target=move.to-(side?-16:16);
+  if(target<0||target>=120||(target&0x88))return false;
+ }
+ memcpy(ev_piece_square,state->root.piece_square,sizeof ev_piece_square);
+ memcpy(ev_pawn_state,state->pawn_state,sizeof ev_pawn_state);
+ ev_current_side=(int16_t)side;ev_opponent=(int16_t)(side^1);
+ ev_history_index=(int16_t)ply;ev_best=best_score;ev_temporary=(int16_t)temporary_side;
+ Move candidate={move.to,move.from,move.special,{0}};
+ candidate.detail.bytes.kind=move.kind;candidate.detail.bytes.capture=move.capture;
+ *delta=ev_evaluate_candidate(candidate);
+ memcpy(state->pawn_state,ev_pawn_state,sizeof ev_pawn_state);
+ return true;
+}
+"""
     output.parent.mkdir(parents=True,exist_ok=True)
     output.write_text(prefix+src+globals+cleanup+wrapper)
     print('Generated recovered evaluator with DOS-width scalars and thread-local state')

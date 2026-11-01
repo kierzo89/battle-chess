@@ -118,3 +118,12 @@ The recovered search repetition scan is tested against the unchanged source in
 en-passant opportunities. `history-provenance.json` separates original search
 behaviour from the host UI draw policy. This API is not yet connected to the
 viewer, and does not change the application's not-yet-playable status.
+
+## Incremental evaluation
+
+`BCSearchEvaluation` holds frozen root tables and the original per-ply pawn masks.
+`bc_evaluate_delta` runs the recovered candidate evaluator, including its original
+scratch-row ordering. Bounds are checked before calling the recovered routine.
+The optional `native/tests/compare_original_delta.py` uses the same test library
+build as the root evaluator oracle and matches 234 original-machine-code cases.
+This is a search prerequisite, not an implemented search or playable game yet.
