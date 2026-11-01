@@ -286,3 +286,30 @@ All18 CTests pass. These geometry/selection APIs are not yet used by game_ui;
 next replace its host square presentation with original background00/01, setup00
 character sprites and anchors, retaining clickable selection and motion. Then
 connect actor turn/capture streams and sound. Full goal remains active.
+
+## Progress: original boards in the playable SDL window
+
+Previous turn was progress: geometry and standing-frame selection verified.
+Replaced the host square-board artwork with authenticated original backgrounds
+00/01 and 53 setup00/setup02 frames. BCP2 retains signed anchors and indexed
+palette pixels. Background zero stays opaque; sprite zero stays transparent.
+Default perspective mode uses original character frames, position-dependent
+standing orientations and y-depth order; V toggles the rectangular iconic board.
+Both hit testing and segment interpolation use original coordinates. The scene
+is clipped at 320x200 and scaled uniformly, with native controls alongside it.
+
+Visual screenshots of both initial boards checked. Both UI smoke paths exercise
+mouse-driven e2-e4, a computer reply, save/new/load, undo and a queued V toggle
+without changing chess state. Full19-test suite passes; real desktop smoke passes.
+Sanitized UI/renderer run is recorded after completion below. Source/asset banks
+remain unchanged; all changes are within native/.
+
+Remaining: use walking/turning/delta frames instead of sliding standing sprites,
+neighbour avoidance and paired capture executor, sound playback, remaining
+book/search fidelity and final controls/gameplay audit. The current eight-step
+static primitive applied to perspective view is an explicitly interim rendering
+adapter, not original walking playback. Goal remains active.
+
+UI/renderer ASan+UBSan run completed cleanly (engine libraries retain their
+separate prior sanitizer coverage). Both updated smoke tests pass after V-toggle
+checks were added. No full-game visual-equivalence claim is made.

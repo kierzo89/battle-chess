@@ -3,7 +3,8 @@
 This is an **interactive development build, not the completed native port**.
 It supports human-versus-computer and two-player chess, with the recovered C
 search running on a background thread and original recovered piece artwork.
-Original board projection, battle animations and audio are pending.
+The original perspective and rectangular boards are available (V switches views).
+Walking/turning frames, battle animations and audio are pending.
 No DOSBox, x86 interpreter, original executable, DOS toolchain or runtime is used
 by this native target. It runs as a normal Linux ELF executable.
 
@@ -31,7 +32,8 @@ Requires a C11 compiler, CMake, pkg-config, Python 3 and SDL3 development files
 
 Click a piece and its destination. N starts a game, U undoes a turn, H toggles
 one/two players, Space pauses, 0–9 selects difficulty, D claims an available draw,
-and Q/R/B/K chooses promotion (K = knight). S saves; L loads. Escape closes the game.
+and Q/R/B/K chooses promotion (K = knight). S saves; L loads. V changes board view.
+Escape closes the game.
 The desktop shortcut launches this development game.
 
 For the separate recovered animation browser, run `native/run.sh --viewer`.
@@ -191,8 +193,8 @@ for non-captures, including sequential king/rook movement when castling. It uses
 a separate display snapshot; undo, new game and load discard an in-flight visual
 move. Pause holds it. Host ticks use the nominal PC PIT frequency and the verified
 two-tick fallback; this does not establish exact original wall-clock timing.
-Original multi-command movement paths, perspective rendering and animated capture
-battles remain unfinished. Captures currently update the board immediately.
+Original turn/avoidance execution and animated capture battles remain unfinished.
+Captures currently update the board immediately.
 
 ## Recovered move-command planning
 
@@ -205,7 +207,7 @@ and whether the original call actually supplied its extra argument; omitted
 arguments are not silently admitted as known zero values.
 
 The static-sprite adapter currently executes move waypoints only. Turn/face,
-neighbour avoidance, paired capture tasks, perspective coordinates and audio
+neighbour avoidance, paired capture tasks and audio
 still need their full executor. Promotion remains legal chess but its animation
 caller normalization is not yet established, so it uses immediate presentation.
 Tests cover known paths/capture branch structure and 2,910 generated legal plans;
@@ -215,6 +217,16 @@ Original perspective/rectangular geometry is now available through `geometry.h`.
 The data is bound to a retained REA read and independently compared with the
 original expanded image; no original executable is needed at game runtime.
 Tests compare every 320×200 pixel plus borders with the recovered pointer routine,
-and all standing-frame choices with recovered `queue_piece`. This module is
-ready for the original-board renderer but has not replaced the host square-board
-UI yet. The source names `flat`/`tilted` mean perspective/rectangular respectively.
+and all standing-frame choices with recovered `queue_piece`. This module now supplies placement and hit testing for the playable board. The source names `flat`/`tilted` mean perspective/rectangular respectively.
+
+## Original board rendering
+
+The default view renders background00 and the recovered setup00 character frames;
+V switches to background01 and setup02 icons. BCP2 packages authenticated indexed
+pixels with signed anchors. Index zero is opaque on backgrounds and transparent
+on sprites. The renderer preserves aspect ratio at 2× logical scale and clips to
+the original 320×200 scene. Actors are sorted back-to-front by their original y
+anchor. Standing-frame choice and mouse hits use the verified geometry module.
+Movement still uses standing frames with the static-move stepping primitive in
+both views; this is not a claim that walking/turning or battle playback is done.
+The surrounding controls are native UI, not a reproduction of the DOS menus.

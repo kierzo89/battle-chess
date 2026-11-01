@@ -85,13 +85,17 @@ add_executable(test_difficulty tests/test_difficulty.c)
 target_link_libraries(test_difficulty PRIVATE bc_search)
 target_compile_options(test_difficulty PRIVATE -UNDEBUG)
 add_test(NAME difficulty_clock COMMAND test_difficulty)
+file(GLOB BOARD_INPUTS CONFIGURE_DEPENDS "${CMAKE_CURRENT_SOURCE_DIR}/../assets/recovered/setups/*.bin"
+ "${CMAKE_CURRENT_SOURCE_DIR}/../assets/recovered/setups/report.json"
+ "${CMAKE_CURRENT_SOURCE_DIR}/../assets/recovered/images/palette.json"
+ "${CMAKE_CURRENT_SOURCE_DIR}/../assets/recovered/bank1/*.background-packed.bin")
 set(BOARD_ASSETS "${CMAKE_CURRENT_BINARY_DIR}/pieces.bcp")
 add_custom_command(OUTPUT "${BOARD_ASSETS}"
  COMMAND ${Python3_EXECUTABLE} "${CMAKE_CURRENT_SOURCE_DIR}/tools/prepare_board_assets.py"
  --root "${CMAKE_CURRENT_SOURCE_DIR}/.." --output "${BOARD_ASSETS}"
- DEPENDS tools/prepare_board_assets.py ../verification/asset-snapshot.json VERBATIM)
+ DEPENDS tools/prepare_board_assets.py ../verification/asset-snapshot.json ${BOARD_INPUTS} VERBATIM)
 add_custom_target(board_assets ALL DEPENDS "${BOARD_ASSETS}")
-add_executable(battle-chess-game src/game_ui.c)
+add_executable(battle-chess-game src/game_ui.c src/board_view.c)
 target_link_libraries(battle-chess-game PRIVATE bc_search PkgConfig::SDL3)
 add_dependencies(battle-chess-game board_assets)
 add_test(NAME native_game_smoke COMMAND battle-chess-game "${BOARD_ASSETS}" --smoke)
@@ -146,3 +150,6 @@ add_library(geometry_oracle SHARED "${GEOMETRY_SOURCE}")
 target_include_directories(geometry_oracle PRIVATE src)
 add_test(NAME recovered_board_geometry COMMAND ${Python3_EXECUTABLE}
  "${CMAKE_CURRENT_SOURCE_DIR}/tests/test_geometry.py" $<TARGET_FILE:geometry_oracle> ${CMAKE_C_COMPILER})
+
+add_test(NAME native_flat_game_smoke COMMAND battle-chess-game "${BOARD_ASSETS}" --smoke-flat)
+set_tests_properties(native_flat_game_smoke PROPERTIES ENVIRONMENT "SDL_VIDEODRIVER=dummy;SDL_RENDER_DRIVER=software" TIMEOUT 15)
