@@ -1,0 +1,29 @@
+{
+  "baseline_commit": "0b2a2b36155984c7b23f904f60488b8be0feda8c",
+  "baseline_repo": "https://github.com/kierzo89/battle-chess",
+  "inputs": [
+    {
+      "path": "matching/src/board_codec_match.c",
+      "sha256": "f50a16c7f09892ddf2ccac34132e02909d5f829d87f2a4a40a5794278c05531f"
+    },
+    {
+      "path": "matching/src/board_move_contribution_match.c",
+      "sha256": "b867c070e824e8066ec38269a37ffade2d597a5671ef4f1497fc3e4ff5432b60"
+    },
+    {
+      "path": "verification/asset-snapshot.json",
+      "sha256": "edbd1d77788edb43c4b277724425d2e2b4581c2318a53529620f776eb18d2f81"
+    }
+  ],
+  "scope": "Native source adaptation. Tests of state mutation are not a claim of original whole-game equivalence.",
+  "changes": [
+    "DOS 16-bit cell indices use int16_t; host loop counters use int.",
+    "Global board state moved to an explicit BCBoard context.",
+    "DOS far qualifiers and union byte aliasing removed.",
+    "Board decoder rejects invalid side/kind and more than 16 pieces per side atomically.",
+    "Empty-cell sentinel piece-index 16 writes are suppressed instead of writing outside host arrays.",
+    "Board codec unpack omits original game-state, graphics, and turn side effects; not yet a replacement for dispatch_8d73.",
+    "Original apply/undo caller obligations remain: legal move and current mover side, with higher-level search state saved/restored separately.",
+    "Asset preview scheduling is illustrative 10 fps, not recovered task timing."
+  ]
+}

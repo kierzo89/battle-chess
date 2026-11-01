@@ -1,0 +1,23 @@
+{
+  "status": "PASS_INITIAL_NATIVE_PORT_MILESTONE",
+  "not_a_complete_game": true,
+  "compiler": "GCC 15.2.0",
+  "sdl": "3.4.2",
+  "checks": {
+    "cmake_build": "passed with -Wall -Wextra -Wpedantic -Werror",
+    "board_state_tests": "passed",
+    "address_and_undefined_sanitizers": "passed for board-state tests",
+    "sdl_dummy_software": "2365 loaded frames / 4730 render passes",
+    "sdl_desktop_smoke": "2365 loaded frames / 4730 render passes, hidden window",
+    "baseline_source_snapshot": "1904 files intact / 916 pinned inputs accounted for",
+    "asset_snapshot": "13996 files intact / both banks rebuilt byte-exactly"
+  },
+  "not_tested": [
+    "Full playable game",
+    "Original legal move generation and search",
+    "Original animation scheduling",
+    "Original game screen visual comparison",
+    "Sound",
+    "Interactive input user acceptance"
+  ]
+}
