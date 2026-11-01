@@ -36,3 +36,20 @@ original source/asset hashes; work only in this separate native-linux checkout.
 The existing Rust prototype is not an accepted substitute for the recovered
 engine. The original executable's byte identity remains a separate completed
 result; native machine code will intentionally differ.
+
+## Progress: recovered rules milestone
+
+Previous goal turn classified as progress: durable goal and desktop launcher added.
+This turn adds native legal move generation, attack detection and turn context.
+All four CTest targets pass. Perft: start depth 4 = 197,281; Kiwipete depth 3 =
+97,862; rook/pawn endgame depth 4 = 43,238. Special-case legality and mate/stalemate
+tests pass, as do ASan/UBSan checks of core/rules tests. The recovered C attack
+routines are compiled unchanged in a host reference harness and compared across
+16 legal positions (786,432 piece-attack comparisons and 2,048 pawn queries).
+This is source-semantic equivalence evidence, not original binary execution.
+
+Rules are not connected to the UI yet. Draw-history handling, original phased
+search/evaluation, difficulty, full board rendering, tasks, sound and save/load
+remain incomplete. Next: original evaluation/search dependency inventory and
+native turn/history integration. See rules-provenance.json for explicit host
+adaptations, including larger move-list capacity and search-order limitations.

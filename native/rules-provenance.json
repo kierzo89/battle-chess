@@ -1,0 +1,84 @@
+{
+  "status": "NATIVE_RULES_ADAPTATION_TESTED_NOT_WHOLE_GAME_PARITY",
+  "sources": [
+    {
+      "path": "matching/src/init_rays_tables_match.c",
+      "sha256": "779c78e1f468c639a02bd5f8e0fdc2c479d6852881d5f1c4ac93c0179d3f1821"
+    },
+    {
+      "path": "matching/src/piece_attacks_match.c",
+      "sha256": "c530b8bdf7754e580b31e3eb81ca2b0c8f8f9e595920ccd1be10d387d4b54799"
+    },
+    {
+      "path": "matching/src/pawn_attacks_match.c",
+      "sha256": "6f581a494ab1a2cf44b8fcc950708315b42d1f3debe51f0d4c30bd840850a54b"
+    },
+    {
+      "path": "matching/src/data/move_lookup_tables.c",
+      "sha256": "817749bbf993bb034e32f91d86c6af28edd9b78dac14348e550bedbaae821a92"
+    },
+    {
+      "path": "matching/src/moves_engine_a045_match.c",
+      "sha256": "5fcb82530e653666eaf34f7349096b8ff0522805f230f77a738a3f7e5e97fd15"
+    },
+    {
+      "path": "matching/src/moves_engine_a181_match.c",
+      "sha256": "b0ce31f83f71db374de183bdde6e04962239610b04dda003bc4785ab43ba2303"
+    },
+    {
+      "path": "matching/src/promotion_moves_match.c",
+      "sha256": "7d083d893b40a4ec11e5de11295657c57b59b9f8b1a090bfc1217e920288962a"
+    },
+    {
+      "path": "matching/src/moves_legal_match.c",
+      "sha256": "58db19d12b59b6bcc99a400e1b3f12c500a995f2c2f971f5d51c496fbe414d02"
+    },
+    {
+      "path": "matching/src/moves_prepare_af87_match.c",
+      "sha256": "c4cd791b8f3ea8a5aee15a35c28ca91b065d672af440f81696621b8d0e9999f3"
+    }
+  ],
+  "adaptations": [
+    "Original 0x88 step tables, capture and quiet direction ordering and promotion enumeration retained.",
+    "Ray lookup implemented as bounded directional walk; exhaustive square-pair comparisons against unchanged recovered C attack/table translation units pass for 16 positions.",
+    "Reference test compiles recovered C on host, not original machine code; shim scales 956-byte ray clear for host int width.",
+    "Host castling rights and en-passant square replace original move-history queries; not a serialized original save state.",
+    "Post-apply king safety retained; castling crossing square also tested on moved king position.",
+    "Full host move list permits 256 moves rather than original 80-entry append buffer; no claim of original search ordering or truncation parity.",
+    "Capture targets enumerated by board square and quiet pieces by original piece list; original phased search is still to port.",
+    "Original search metadata not updated here; copying complete position provides independent undo.",
+    "Illegal-position king capture excluded and pawn edge checks added to avoid host out-of-bounds."
+  ],
+  "tests": {
+    "starting_position_perft": [
+      1,
+      20,
+      400,
+      8902,
+      197281
+    ],
+    "kiwipete_perft": [
+      1,
+      48,
+      2039,
+      97862
+    ],
+    "rook_pawn_endgame_perft": [
+      1,
+      14,
+      191,
+      2812,
+      43238
+    ],
+    "special_cases": [
+      "en-passant discovered check",
+      "legal en-passant",
+      "castling through attacked crossing square",
+      "legal castling",
+      "four promotions",
+      "checkmate",
+      "stalemate"
+    ],
+    "sanitizers": "address and undefined behaviour: pass"
+  }
+}

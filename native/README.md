@@ -60,6 +60,14 @@ stay in the ignored build folder.
 - Invalid packed board rejection without modifying the current state.
 - SDL window, events, palette expansion, anchor placement and colour variants.
 
+## Rules milestone
+
+Native legal move generation and king-safety checks now pass perft and special
+move tests. Recovered C attack routines are compiled unchanged as a host reference
+and compared with the port. See `rules-provenance.json` for validation scope and
+intentional host adaptations. These rules are not yet connected to the viewer;
+search, draw history and the full playable game remain incomplete.
+
 ## Remaining work, in dependency order
 
 1. Port the authoritative ray tables, legal move generator, attack/check tests
