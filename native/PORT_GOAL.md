@@ -361,3 +361,32 @@ then integrate turn operations and persistent facing into live motion.
 No original source/assets were changed. Full port goal remains active; capture
 battles, neighbour reactions, sound and remaining search/menu fidelity still
 remain as recorded above.
+
+### Queen continuation composition resolved (2026-11-02)
+
+The differing queen boundary is one indexed pixel at relative(1,3), value8 in
+list21's final frame and0 in list20's step1. It must not be erased by selecting
+an independently precomposed list20 frame. Added native compositor.c preserving
+the original descriptor union, four-pixel padded rows and indexed XOR, including
+original padding spill semantics. This is a reusable C renderer component,
+without an emulator or original executable runtime dependency.
+
+Validation: all2112 cumulative animation frames reproduce the retained original
+compositor's complete descriptors and indexed pixel buffers. Added bounded
+buffer/palette rejection tests; the same corpus passes UBSan. Fresh developer-
+only original-machine checks execute compositor3B3A, fill5A4F and blitterE57A
+for all5 deltas in queen turn5->1, including the divergent continuation. The
+C result matches every native descriptor and packed-pixel SHA256. Evidence is
+native/evidence/queen-turn-composition.json; reproducible using
+native/tools/verify_turn_composition.py with the preserved reconstruction as a
+read-only reference. The executable is needed only for that developer proof.
+No whole native task/renderer execution is claimed: selection follows the
+previously checked730C contract, while actual composition is executed natively.
+
+The rendering discrepancy now has a verified implementation. Integration into
+live motion remains: retain operation2 turn commands (including terminal turns),
+operation6 face transitions and per-actor facing; feed raw delta planes to the
+new compositor and renderer. The current desktop game still shows walking,
+without these turning operations. Do not equate this component milestone with
+finished visible turns or a complete port. Capture/audio/search/menu obligations
+remain unchanged; full goal stays active.

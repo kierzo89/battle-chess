@@ -1,0 +1,138 @@
+{
+  "scope": "Queen graphics kind5, turn5->1 negative; original compositor/fill/blitter for every emitted delta, retained730C selection contract. Not whole original game execution.",
+  "initial_sequence": "pair-04-list-21",
+  "rows": [
+    {
+      "list": 21,
+      "delta_record": 58,
+      "proof": {
+        "descriptor": [
+          28,
+          43,
+          15,
+          39
+        ],
+        "pixel_sha256": "d975fbf377079ce5cad6ba220eeb856ae0840b9d33ede938f5dfa609eab70708",
+        "pixel_bytes": 602,
+        "native_compositor_sha256": "652533f487715c6f9efb58a0069b9acdbe56d1abfd713ea25c0cb433710709ac",
+        "rea_evidence_id": "ev_17f7b788b942ec355e444ff426595d42869fe735b076afcf54e59159372377b4",
+        "native_blitter_sha256": "b0ecd1cdd770e59496fadff556a4dededdd97e12e44e5e0135f4244a9ca9b64b",
+        "chkstk_calls": [
+          18,
+          0
+        ],
+        "native_writes_checked": 2432,
+        "output_footprint_bound": 645,
+        "source_pixels_immutable": true,
+        "outer_guards_preserved": true,
+        "original_fill_and_blitter_executed": true
+      }
+    },
+    {
+      "list": 21,
+      "delta_record": 59,
+      "proof": {
+        "descriptor": [
+          28,
+          43,
+          15,
+          39
+        ],
+        "pixel_sha256": "87b625a7993524e04158aa6c2b445ea2d65620bbda19c1527b3dd9ea7965cab4",
+        "pixel_bytes": 602,
+        "native_compositor_sha256": "652533f487715c6f9efb58a0069b9acdbe56d1abfd713ea25c0cb433710709ac",
+        "rea_evidence_id": "ev_17f7b788b942ec355e444ff426595d42869fe735b076afcf54e59159372377b4",
+        "native_blitter_sha256": "b0ecd1cdd770e59496fadff556a4dededdd97e12e44e5e0135f4244a9ca9b64b",
+        "chkstk_calls": [
+          18,
+          0
+        ],
+        "native_writes_checked": 2783,
+        "output_footprint_bound": 645,
+        "source_pixels_immutable": true,
+        "outer_guards_preserved": true,
+        "original_fill_and_blitter_executed": true
+      }
+    },
+    {
+      "list": 20,
+      "delta_record": 57,
+      "proof": {
+        "descriptor": [
+          29,
+          43,
+          16,
+          39
+        ],
+        "pixel_sha256": "32d7ba1f3bb97fd5410f8afd375b7ff46f1e83277b68441074dafbe257bc9829",
+        "pixel_bytes": 688,
+        "native_compositor_sha256": "652533f487715c6f9efb58a0069b9acdbe56d1abfd713ea25c0cb433710709ac",
+        "rea_evidence_id": "ev_17f7b788b942ec355e444ff426595d42869fe735b076afcf54e59159372377b4",
+        "native_blitter_sha256": "b0ecd1cdd770e59496fadff556a4dededdd97e12e44e5e0135f4244a9ca9b64b",
+        "chkstk_calls": [
+          18,
+          0
+        ],
+        "native_writes_checked": 2912,
+        "output_footprint_bound": 691,
+        "source_pixels_immutable": true,
+        "outer_guards_preserved": true,
+        "original_fill_and_blitter_executed": true
+      }
+    },
+    {
+      "list": 19,
+      "delta_record": 55,
+      "proof": {
+        "descriptor": [
+          29,
+          44,
+          16,
+          39
+        ],
+        "pixel_sha256": "0adef42c02f91c4facc25a0a5cc718abf99648855b60a35ea6d8f9b8bfb8b071",
+        "pixel_bytes": 704,
+        "native_compositor_sha256": "652533f487715c6f9efb58a0069b9acdbe56d1abfd713ea25c0cb433710709ac",
+        "rea_evidence_id": "ev_17f7b788b942ec355e444ff426595d42869fe735b076afcf54e59159372377b4",
+        "native_blitter_sha256": "b0ecd1cdd770e59496fadff556a4dededdd97e12e44e5e0135f4244a9ca9b64b",
+        "chkstk_calls": [
+          18,
+          0
+        ],
+        "native_writes_checked": 3012,
+        "output_footprint_bound": 707,
+        "source_pixels_immutable": true,
+        "outer_guards_preserved": true,
+        "original_fill_and_blitter_executed": true
+      }
+    },
+    {
+      "list": 18,
+      "delta_record": 53,
+      "proof": {
+        "descriptor": [
+          29,
+          47,
+          16,
+          39
+        ],
+        "pixel_sha256": "57f7b65fd8842c4db121f60513b4c396393b43267a28f0b84a2ccf1c5743fc20",
+        "pixel_bytes": 752,
+        "native_compositor_sha256": "652533f487715c6f9efb58a0069b9acdbe56d1abfd713ea25c0cb433710709ac",
+        "rea_evidence_id": "ev_17f7b788b942ec355e444ff426595d42869fe735b076afcf54e59159372377b4",
+        "native_blitter_sha256": "b0ecd1cdd770e59496fadff556a4dededdd97e12e44e5e0135f4244a9ca9b64b",
+        "chkstk_calls": [
+          18,
+          0
+        ],
+        "native_writes_checked": 3138,
+        "output_footprint_bound": 755,
+        "source_pixels_immutable": true,
+        "outer_guards_preserved": true,
+        "original_fill_and_blitter_executed": true
+      }
+    }
+  ],
+  "oracle_sha256": "858573be1679bb90a8c39e9769edfc1ae622c683490de378e4947c7b7eea107a",
+  "canonical_credit_added": 0
+}

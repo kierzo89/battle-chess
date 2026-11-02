@@ -250,3 +250,8 @@ The native turning task executor is now tested against all480 retained native
 turn traces, but is not yet connected to the game display. One queen turn-list
 continuation needs original XOR composition rather than direct selection of a
 precomposed frame; `recovered_turn_tasks` records this rendering limitation.
+
+The queen continuation discrepancy now has a native XOR compositor solution.
+It matches all2112 retained cumulative frames and fresh original-machine checks
+of the affected turn. These components still need live command/render integration;
+the desktop game currently retains its walking-only movement presentation.

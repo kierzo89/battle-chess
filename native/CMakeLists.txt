@@ -177,3 +177,9 @@ add_library(turn_oracle SHARED "${TURN_SOURCE}" src/turn_animation.c src/present
 target_include_directories(turn_oracle PRIVATE src)
 add_test(NAME recovered_turn_tasks COMMAND ${Python3_EXECUTABLE}
  "${CMAKE_CURRENT_SOURCE_DIR}/tests/test_turn_animation.py" $<TARGET_FILE:turn_oracle>)
+
+target_sources(bc_presentation PRIVATE src/compositor.c)
+add_library(compositor_oracle SHARED src/compositor.c)
+target_include_directories(compositor_oracle PRIVATE src)
+add_test(NAME recovered_frame_composition COMMAND ${Python3_EXECUTABLE}
+ "${CMAKE_CURRENT_SOURCE_DIR}/tests/test_compositor.py" $<TARGET_FILE:compositor_oracle>)
