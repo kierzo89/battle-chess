@@ -4,7 +4,7 @@ This is an **interactive development build, not the completed native port**.
 It supports human-versus-computer and two-player chess, with the recovered C
 search running on a background thread and original recovered piece artwork.
 The original perspective and rectangular boards are available (V switches views).
-Walking/turning frames, battle animations and audio are pending.
+Walking frames are connected; turning, battle animations and audio are pending.
 No DOSBox, x86 interpreter, original executable, DOS toolchain or runtime is used
 by this native target. It runs as a normal Linux ELF executable.
 
@@ -222,11 +222,26 @@ and all standing-frame choices with recovered `queue_piece`. This module now sup
 ## Original board rendering
 
 The default view renders background00 and the recovered setup00 character frames;
-V switches to background01 and setup02 icons. BCP2 packages authenticated indexed
+V switches to background01 and setup02 icons. BCP3 packages authenticated indexed
 pixels with signed anchors. Index zero is opaque on backgrounds and transparent
 on sprites. The renderer preserves aspect ratio at 2× logical scale and clips to
 the original 320×200 scene. Actors are sorted back-to-front by their original y
 anchor. Standing-frame choice and mouse hits use the verified geometry module.
-Movement still uses standing frames with the static-move stepping primitive in
-both views; this is not a claim that walking/turning or battle playback is done.
+Perspective movement uses recovered walking frames and their native control
+streams; rectangular movement retains the original static eight-position mode.
+Turning and battle playback are not yet implemented.
 The surrounding controls are native UI, not a reproduction of the DOS menus.
+
+## Walking playback
+
+BCP3 also contains 465 authenticated composed walking frames. Native motion
+selects the sequence from the recovered command direction and graphics piece
+mapping, steps its exact control bytes through `bc_task_ready`, and interpolates
+with the original frame-count divisor. Completion occurs on the next ready call
+after the final frame. No arbitrary animation FPS or invented delta frames are
+used. All 96 profile/kind/orientation move-task traces match retained original
+machine-code frame identities, readiness calls and completion calls. The game
+currently selects control profile 0; both profiles are exported and tested.
+Sound opcodes remain preserved in control data, but runtime audio dispatch is
+not connected yet. Turn transitions and neighbouring-piece reactions remain
+separate pending tasks; this milestone covers walking along the planned paths.

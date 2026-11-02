@@ -313,3 +313,26 @@ adapter, not original walking playback. Goal remains active.
 UI/renderer ASan+UBSan run completed cleanly (engine libraries retain their
 separate prior sanitizer coverage). Both updated smoke tests pass after V-toggle
 checks were added. No full-game visual-equivalence claim is made.
+
+## Progress: original walking frames in native gameplay
+
+Previous turn was progress: original board/standing renderer integration.
+Reconstructed all96 movement control streams from native-verified events and
+checked each reconstructed byte string against its retained SHA256. Generated
+native descriptors map engine kind/orientation/profile to original bank/list.
+BCP3 contains465 authenticated composed walking frames. Perspective motion now
+advances actual frames through task readiness and uses original frame-count
+interpolation/completion; rectangular mode retains eight static positions.
+Current gameplay selects profile0; both profiles are available and tested.
+
+All96 original machine-code move-task traces match complete frame identities,
+eligible-dispatch timestamps and completion calls. Full20-test suite passes,
+including both UI views. Walking screenshot checked; real-desktop smoke passes.
+Sanitized native motion and UI/renderer runs pass. Prior engine sanitizer scope
+remains separate. No original binaries/emulation are used at game runtime.
+
+Remaining: turn/face sequences, neighbouring-piece reactions, capture dual-actor
+executor and audio. Sound opcodes are retained but runtime callback is not yet
+connected. The walk selector uses the planned movement orientation; missing
+turning transitions are not claimed solved. Remaining book/search and complete
+menu/gameplay fidelity work also remains. Goal stays active.
