@@ -732,3 +732,26 @@ the full goal remain active; preserved original trees are unchanged.
 
 Integration verification: all38 CTests pass (62.84 seconds), including the new
 special-move rendering regression, captures, promotion, audio and book UI play.
+
+### Mouse-accessible game controls (2026-11-02)
+
+Added a native side-panel control menu: levels0–9, new game, undo, player mode,
+pause/resume, save/load, board view, mute, draw claim and quit. Button captions
+reflect current mode and the selected level is highlighted. Mouse events use
+SDL logical viewport conversion and are translated into the existing keyboard
+command dispatch, before board move guards. This keeps controls usable while
+paused or during computer search without duplicating command semantics. Pending
+promotion remains modal and cannot accidentally dispatch sidebar commands.
+
+The menu is a Linux UI adaptation, not reproduced DOS menu artwork. Custom-minute
+difficulty remains available in the configuration API but not yet in this menu.
+Inspected the actual1200x732 render: all controls and status text fit and remain
+legible. An SDL event-path test clicks player mode, difficulty, pause/resume,
+save/new/load, view, mute, draw and undo, then closes via the quit button. Undo
+is exercised with an actual worker thread active and must join/cancel it without
+committing an extra move. Existing keyboard paths are retained.
+
+Verification: all six affected SDL UI tests pass (45.97 seconds), covering
+normal/flat/book play, both promotion inputs and the new control menu. The
+previous full38-test run remains the core/presentation baseline; no claim that
+all39 were rerun for this UI-only change. Full goal remains active.

@@ -11,6 +11,7 @@
 #include "board_view.h"
 #include "audio_output.h"
 #include "book.h"
+#include "controls.h"
 typedef struct {
  SDL_Thread *thread;atomic_bool cancel,done;BCPosition position;
  BCMove *history;size_t count;BCSearchConfig config;BCSearchResult result;bool ok,use_book,book_hit;unsigned book_draw;
@@ -83,9 +84,10 @@ int main(int argc,char **argv) {
  if(argc<2||argc>3){fprintf(stderr,"Usage: %s pieces.bcp [--smoke]\n",argv[0]);return 2;}
  bool perspective=!(argc==3&&!strcmp(argv[2],"--smoke-flat"));
  bool initial_perspective=perspective;
+ bool smoke_controls=argc==3&&!strcmp(argv[2],"--smoke-controls");
  bool smoke_book=argc==3&&!strcmp(argv[2],"--smoke-book");
  bool smoke_promotion=argc==3&&!strcmp(argv[2],"--smoke-promotion");
- bool smoke=smoke_book||smoke_promotion||(argc==3&&(!strcmp(argv[2],"--smoke")||!strcmp(argv[2],"--smoke-flat")));if(argc==3&&!smoke)return 2;
+ bool smoke=smoke_controls||smoke_book||smoke_promotion||(argc==3&&(!strcmp(argv[2],"--smoke")||!strcmp(argv[2],"--smoke-flat")));if(argc==3&&!smoke)return 2;
  if(!SDL_Init(SDL_INIT_VIDEO))fail("SDL");SDL_Window *window;SDL_Renderer *r;
  if(!SDL_CreateWindowAndRenderer("Battle Chess Native - Development",1200,732,smoke?SDL_WINDOW_HIDDEN:SDL_WINDOW_RESIZABLE,&window,&r))fail("Window");
  SDL_SetRenderLogicalPresentation(r,1024,624,SDL_LOGICAL_PRESENTATION_LETTERBOX);
@@ -112,6 +114,13 @@ int main(int argc,char **argv) {
   while(SDL_PollEvent(&e)) {
    if(e.type==SDL_EVENT_KEY_DOWN||e.type==SDL_EVENT_MOUSE_BUTTON_DOWN)had_input=true;
    if(e.type==SDL_EVENT_QUIT)running=false;
+   /* Route native menu clicks through exactly the keyboard command handler,
+    * before board-input guards, so pause/undo work while search is running. */
+   if(e.type==SDL_EVENT_MOUSE_BUTTON_DOWN&&e.button.button==SDL_BUTTON_LEFT&&promote_from<0){
+    float x,y;if(SDL_RenderCoordinatesFromWindow(r,e.button.x,e.button.y,&x,&y)){
+     SDL_Keycode action=bc_controls_hit(x,y);if(action){e.type=SDL_EVENT_KEY_DOWN;e.key.key=action;}
+    }
+   }
    if(e.type==SDL_EVENT_KEY_DOWN) {
     SDL_Keycode k=e.key.key;
     if(promote_from>=0){
@@ -175,9 +184,9 @@ int main(int argc,char **argv) {
   text(r,52,computer?"Human vs computer":"Two players");text(r,78,p->board.side?"Blue to move":"Red to move");text(r,104,status_name(state));
   text(r,130,promote_from>=0?"Choose promotion...":worker?"Computer thinking...":paused?"Paused":motion.active?"Piece moving...":"Ready");
   char line[80];snprintf(line,sizeof line,"Level: %s",level?"timed":"Novice");if(level)snprintf(line,sizeof line,"Level %u (%u seconds)",level,5u<<(level-1));text(r,170,line);
-  text(r,204,"0-9: difficulty");text(r,228,"N: new game   U: undo");text(r,252,"H: one / two players");text(r,276,"Space: pause / resume");text(r,300,"D: claim draw");text(r,324,"Promotion: asks before move");text(r,348,"Q/R/B/K or click a choice");
-  text(r,372,"S: save   L: load");
-  text(r,396,"V: perspective / flat");snprintf(line,sizeof line,"M: sound %s (%u held)",!audio.stream?"unavailable":audio.muted?"off":"on / nominal",audio.rejected);text(r,420,line);
+  bc_controls_draw(r,level,computer,paused,perspective,audio.muted);
+  text(r,462,"Promotion: choose when asked");text(r,486,"Q/R/B/K or click a choice");
+  snprintf(line,sizeof line,"Sound %s (%u held)",!audio.stream?"unavailable":audio.muted?"off":"on / nominal",audio.rejected);text(r,522,line);
   SDL_SetRenderDrawColor(r,235,235,240,255);SDL_RenderDebugText(r,24,600,message);
   if(promote_from>=0){promotion_draw(r);
    if(smoke_promotion&&getenv("BC_PROMOTION_SCREENSHOT")){
@@ -201,7 +210,25 @@ int main(int argc,char **argv) {
    SDL_DestroySurface(shot);
   }
   if(!SDL_RenderPresent(r))fail("Present");
-  if(smoke_promotion){
+  if(smoke_controls){
+   /* Every click goes through viewport mapping and the normal command path. */
+   static const float clicks[][2]={{710,312},{710,222},{880,222},{858,312},{858,312},{710,348},{710,276},{858,348},{710,384},{858,384},{710,420},{858,276},{858,420}};
+   if(smoke_stage==1&&computer)fail("Controls player toggle");
+   if(smoke_stage==3&&level!=3)fail("Controls difficulty");
+   if(smoke_stage==4&&!paused)fail("Controls pause");
+   if(smoke_stage==5&&paused)fail("Controls resume");
+   if(smoke_stage==8&&strcmp(message,"Game loaded with complete move history."))fail("Controls save/load");
+   if(smoke_stage==9&&perspective)fail("Controls view");
+   if(smoke_stage==10&&audio.muted)fail("Controls mute");
+   if(smoke_stage==11){worker=start(g,9,true);if(!worker)fail("Controls active worker");}
+   if(smoke_stage==12&&(worker||bc_game_plies(g)))fail("Controls undo cancels worker");
+   if(smoke_stage<sizeof clicks/sizeof clicks[0]){
+    SDL_Event click={0};click.type=SDL_EVENT_MOUSE_BUTTON_DOWN;click.button.button=SDL_BUTTON_LEFT;
+    if(!SDL_RenderCoordinatesToWindow(r,clicks[smoke_stage][0],clicks[smoke_stage][1],&click.button.x,&click.button.y)||!SDL_PushEvent(&click))fail("Controls click");smoke_stage++;
+   }
+   if(SDL_GetTicks()-started>5000)fail("Controls smoke timeout");
+  }
+  else if(smoke_promotion){
    if(smoke_stage==0||smoke_stage==2){
     if(bc_game_plies(g)||motion.active)fail("Promotion changed before choice");
     for(unsigned rank=6;rank<=7;rank++){SDL_Event click={0};click.type=SDL_EVENT_MOUSE_BUTTON_DOWN;click.button.button=SDL_BUTTON_LEFT;
@@ -259,7 +286,7 @@ int main(int argc,char **argv) {
  bc_audio_close(&audio);
  bc_view_destroy(view);
  SDL_DestroyRenderer(r);SDL_DestroyWindow(window);SDL_Quit();
- if(smoke&&smoke_stage!=4)return 1;
+ if(smoke&&smoke_stage!=(smoke_controls?13u:4u))return 1;
  if(smoke_book&&book_moves!=1){fprintf(stderr,"Expected one book reply, got %u\n",book_moves);return 1;}
  puts("Native board closed cleanly.");return 0;
 }

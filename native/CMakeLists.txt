@@ -96,7 +96,7 @@ add_custom_command(OUTPUT "${BOARD_ASSETS}"
  --root "${CMAKE_CURRENT_SOURCE_DIR}/.." --output "${BOARD_ASSETS}"
  DEPENDS tools/prepare_board_assets.py ../verification/asset-snapshot.json ${BOARD_INPUTS} ${ASSET_INPUTS} ${DELTA_INPUTS} ../assets/recovered/metadata/timing/timelines.json VERBATIM)
 add_custom_target(board_assets ALL DEPENDS "${BOARD_ASSETS}")
-add_executable(battle-chess-game src/game_ui.c src/board_view.c)
+add_executable(battle-chess-game src/game_ui.c src/board_view.c src/controls.c)
 target_link_libraries(battle-chess-game PRIVATE bc_search PkgConfig::SDL3)
 add_dependencies(battle-chess-game board_assets)
 add_test(NAME native_game_smoke COMMAND battle-chess-game "${BOARD_ASSETS}" --smoke)
@@ -303,3 +303,6 @@ target_compile_options(test_special_motion PRIVATE -Wall -Wextra -Wpedantic -Wer
 add_dependencies(test_special_motion board_assets)
 add_test(NAME native_special_move_render COMMAND test_special_motion "${BOARD_ASSETS}")
 set_tests_properties(native_special_move_render PROPERTIES ENVIRONMENT "SDL_VIDEODRIVER=dummy;SDL_RENDER_DRIVER=software;SDL_AUDIODRIVER=dummy" TIMEOUT 30)
+
+add_test(NAME native_controls_menu COMMAND battle-chess-game "${BOARD_ASSETS}" --smoke-controls)
+set_tests_properties(native_controls_menu PROPERTIES ENVIRONMENT "SDL_VIDEODRIVER=dummy;SDL_RENDER_DRIVER=software;SDL_AUDIODRIVER=dummy" TIMEOUT 10)

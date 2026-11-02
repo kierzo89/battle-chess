@@ -30,7 +30,10 @@ Requires a C11 compiler, CMake, pkg-config, Python 3 and SDL3 development files
 /home/kierzo/battle-chess-linux/native/run.sh
 ```
 
-Click a piece and its destination. N starts a game, U undoes a turn, H toggles
+Click a piece and its destination. The side-panel buttons provide difficulty
+selection, new game, undo, player mode, pause/resume, save/load, board view,
+sound, draw claim and quit. Keyboard shortcuts remain available.
+N starts a game, U undoes a turn, H toggles
 one/two players, Space pauses, 0–9 selects difficulty, D claims an available draw,
 and a promotion dialog offers four choices by click or Q/R/B/K (K = knight).
 Escape cancels that dialog without playing the move; otherwise Escape closes the
