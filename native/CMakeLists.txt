@@ -268,3 +268,16 @@ add_test(NAME native_promotion_ui COMMAND battle-chess-game "${BOARD_ASSETS}" --
 set_tests_properties(native_promotion_ui PROPERTIES ENVIRONMENT "SDL_VIDEODRIVER=dummy;SDL_RENDER_DRIVER=software;SDL_AUDIODRIVER=dummy" TIMEOUT 30)
 add_test(NAME native_promotion_keyboard COMMAND battle-chess-game "${BOARD_ASSETS}" --smoke-promotion)
 set_tests_properties(native_promotion_keyboard PROPERTIES ENVIRONMENT "SDL_VIDEODRIVER=dummy;SDL_RENDER_DRIVER=software;SDL_AUDIODRIVER=dummy;BC_PROMOTION_KEY=1" TIMEOUT 30)
+
+set(BOOK_ORDER_SOURCE "${CMAKE_CURRENT_BINARY_DIR}/generated/book_order.c")
+add_custom_command(OUTPUT "${BOOK_ORDER_SOURCE}"
+ COMMAND ${Python3_EXECUTABLE} "${CMAKE_CURRENT_SOURCE_DIR}/tools/port_book_order.py"
+ --root "${CMAKE_CURRENT_SOURCE_DIR}/.." --output "${BOOK_ORDER_SOURCE}"
+ DEPENDS tools/port_book_order.py ../verification/source-snapshot.json ../verification/asset-snapshot.json ../assets/recovered/bank1/startup-02.raw.bin ../matching/src/move_engine_9a50_full_match.c VERBATIM)
+add_library(bc_book_order "${BOOK_ORDER_SOURCE}")
+target_link_libraries(bc_book_order PUBLIC bc_core)
+target_compile_options(bc_book_order PRIVATE -Wall -Wextra -Wpedantic -Werror)
+add_executable(test_book_order tests/test_book_order.c)
+target_link_libraries(test_book_order PRIVATE bc_book_order)
+target_compile_options(test_book_order PRIVATE -Wall -Wextra -Wpedantic -Werror -UNDEBUG)
+add_test(NAME recovered_opening_book_order COMMAND test_book_order "${CMAKE_CURRENT_SOURCE_DIR}/../assets/recovered/bank1/startup-02.raw.bin")

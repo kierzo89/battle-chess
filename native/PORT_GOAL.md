@@ -650,3 +650,29 @@ the animation and verifying exactly one history move and a knight on a8. Existin
 coverage. All 34 CTests pass (41.55 seconds). Inspected the rendered modal at
 1200x732: four choices and cancel instruction are legible and within the window.
 No original reconstruction/published files changed; full goal remains active.
+
+### Opening-book move order recovered (2026-11-02)
+
+The book contains pseudo-legal move indexes, not square coordinates. Added
+port_book_order.py to authenticate the canonical move_engine_9a50_full_match.c
+and generate its append/capture/quiet/A348 functions with explicit native context.
+Piece-list identity/order is retained, including the original 80-entry cap.
+Host castling rights/legality supply the special castle predicate; en-passant
+uses retained position/history context without filtering pinned pawn candidates.
+Final-rank unpromoted pawns are rejected before the original unchecked generator.
+The result is explicitly pseudo-legal: callers must validate chosen moves.
+
+Authenticated startup-02.raw.bin (32000 bytes, SHA256
+ da69b9c1f784f0ea21bec125078d339fc70ad98ed9a095360fbf7045829fc7fb)
+contains the original book tree. A recursive traversal consumes 29828 bytes,
+including its root marker, and checks all 28636 move edges against the independent
+legal generator, with 1191 list sentinels, nine root choices and maximum42 plies.
+Root moves resolve to e4/d4/Nf3/c4/f4/b3/g3/b4/g4. No illegal/out-of-range index
+was found. This is whole-tree consistency evidence, not a machine execution
+comparison or proof of original random selection/stateful book traversal.
+
+Focused CTest passes (1.46 seconds); ASan/UBSan also pass with generated order,
+board and rule code all instrumented. The game is not yet linked to the book.
+Next: restore weighted sibling rotation and history lookup against the recovered
+book_context functions, then integrate book-first play and search fallback.
+Full goal remains active. Original reconstruction and published baseline unchanged.

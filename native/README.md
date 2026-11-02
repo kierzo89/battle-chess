@@ -307,3 +307,8 @@ animation. New/load/undo clears queued clips. The display reports unavailable
 audio or held unsupported events. The original nibble samples use a documented
 nominal linear PCM adaptation; exact original hardware timing/transfer functions
 and three exceptional authored sound events remain unresolved.
+
+Opening-book ordering is now available as a separate native component generated
+from pinned recovered source. Its test replays every28636 book edge as a legal
+move (maximum42 plies). Live computer play still uses search until weighted book
+selection and history lookup are verified and connected.
