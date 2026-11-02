@@ -598,3 +598,37 @@ before claiming full sound coverage; do not substitute adjacent bytes or guessed
 rates. Physical speaker calibration and alternate speaker-run path remain
 separate evidence limits. Next: SDL playback plus explicit event handling and
 investigation of these three exceptions. Full goal remains active.
+
+### SDL sound playback connected (2026-11-02)
+
+Added audio_output.c with a mono48kHz float SDL stream, authenticated BCA1 loading,
+bounded queued duration, mute/pause/clear and deterministic shutdown. Wired sound
+callbacks through both serial motion and concurrent choreography, including
+first-frame controls. Original nibble wrapper ignores the colour argument; the
+SDL adapter does likewise. UI M toggles mute, Space pauses stream and animation,
+and new/load/undo/view/controller changes clear pending sound. Missing audio
+hardware leaves the game usable with an explicit unavailable label. The display
+shows nominal sound mode and the count of held unsupported events.
+
+To approximate original blocking sound without blocking host input, subsequent
+animation dispatches wait while SDL still has queued source data. This is a
+host scheduling adaptation, not an exact hardware latency proof; device buffering
+may outlast the source queue. Main UI smoke is explicitly muted to keep gameplay
+checks deterministic. A separate audio test drives a real capture event through
+the callback, verifies queued PCM, pause/mute/clear/rejection and actual stream
+drain. It passes with SDL's dummy driver and the local default audio backend.
+ASan/UBSan pass the audio glue/converter test (linked presentation libraries were
+not rebuilt with sanitizers in that invocation). Audibility/listener quality was
+not independently judged. No emulator is used by runtime audio.
+
+Three authored combinations remain held:slot11/-64 zero interval and slot15 at
+-27/-18 without a proven complete nibble payload. Linear sample mapping and
+nominal timing are still explicitly different evidence claims from calibrated
+original PSG/speaker output. Investigate these contexts next; do not call full
+sound fidelity complete. Remaining menu/search/end-to-end obligations and the
+full-port goal remain active. Original baselines are unchanged.
+
+Integration verification: all 32 CTests passed, including native game, flat view,
+full games, capture rendering, sound conversion and SDL output. Repeated the
+audio glue/converter ASan/UBSan check successfully. Desktop shortcut and its
+launcher remain executable and point to this isolated native port.

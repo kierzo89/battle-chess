@@ -8,7 +8,7 @@ static void begin_segment(BCMotion *m){
  BCMove move=m->moves[m->index];m->frame=1;m->x=x(m,move.from);m->y=y(m,move.from);
  m->walking=m->perspective?bc_walk_sequence(move.kind,m->directions[m->index],0):NULL;
  memset(&m->clock,0,sizeof m->clock);
- if(m->walking){m->clock.control=m->walking->control;m->clock.length=m->walking->length;(void)bc_task_ready(&m->clock,false,0,NULL,NULL);}
+ if(m->walking){m->clock.control=m->walking->control;m->clock.length=m->walking->length;(void)bc_task_ready(&m->clock,false,0,m->sound,m->sound_context);}
 }
 static uint64_t revision;
 static unsigned square(unsigned graphic){return (7-graphic/8)*16+graphic%8;}
@@ -32,11 +32,11 @@ static bool next_command(BCMotion *m){
   if(c.operation==1){
    m->walking=bc_walk_sequence(kind,m->facing[a],0);if(!m->walking){fail(m);return false;}
    m->clock=(BCTaskClock){.control=m->walking->control,.length=m->walking->length};
-   (void)bc_task_ready(&m->clock,false,0,NULL,NULL);return true;
+   (void)bc_task_ready(&m->clock,false,0,m->sound,m->sound_context);return true;
   }
   if(c.operation==2){
    if(!bc_turn_begin(&m->turn,kind,m->facing[a],c.argument,0)){fail(m);return false;}
-   int result=bc_turn_tick(&m->turn,0,NULL,NULL);m->facing[a]=c.argument;
+   int result=bc_turn_tick(&m->turn,0,m->sound,m->sound_context);m->facing[a]=c.argument;
    if(result==2)continue;
    if(result!=1){fail(m);return false;}
    pixel(m,m->turn.sequence,m->turn.frame);return m->active;
@@ -52,14 +52,14 @@ static bool next_command(BCMotion *m){
 }
 static void tick_commands(BCMotion *m){
  if(m->operation==2){
-  int result=bc_turn_tick(&m->turn,0,NULL,NULL);
+  int result=bc_turn_tick(&m->turn,0,m->sound,m->sound_context);
   if(result<0){fail(m);return;}
   if(result==0)return;
   if(result==1){pixel(m,m->turn.sequence,m->turn.frame);return;}
  }else if(m->operation==6){
   if(m->frame<m->face->count){pixel(m,m->face,m->frame++);return;}
  }else if(m->operation==1){
-  if(!bc_task_ready(&m->clock,false,0,NULL,NULL))return;
+  if(!bc_task_ready(&m->clock,false,0,m->sound,m->sound_context))return;
   if(m->frame<m->walking->count){
    (void)bc_interpolate(x(m,m->from_square),y(m,m->from_square),x(m,m->to_square),y(m,m->to_square),m->walking->count,m->frame++,&m->x,&m->y);return;
   }
@@ -67,13 +67,14 @@ static void tick_commands(BCMotion *m){
  }
  (void)next_command(m);
 }
-bool bc_motion_begin_facing(BCMotion *m,const BCPosition *before,BCMove move,uint64_t tick,bool perspective,const uint8_t *facing){
+bool bc_motion_begin_audio(BCMotion *m,const BCPosition *before,BCMove move,uint64_t tick,bool perspective,const uint8_t *facing,BCSoundEvent sound,void *context){
  uint8_t saved[120]={0};if(facing)memcpy(saved,facing,sizeof saved);
- memset(m,0,sizeof *m);m->perspective=perspective;
+ memset(m,0,sizeof *m);m->perspective=perspective;m->sound=sound;m->sound_context=context;
  if(move.capture||(move.special&&move.kind>=2&&move.kind<=5)){
   if(!perspective)return false;
   m->battle_mode=true;m->last_tick=tick;
   m->active=bc_choreography_begin(&m->battle,before,move,facing?saved:NULL);
+  m->battle.sound=sound;m->battle.sound_context=context;
   m->failed=!m->active;return m->active;
  }
  BCPosition verify=*before;if(!bc_play(&verify,move))return false;
@@ -81,6 +82,7 @@ bool bc_motion_begin_facing(BCMotion *m,const BCPosition *before,BCMove move,uin
  if(perspective)for(unsigned i=0;i<plan.count;i++)if(plan.commands[i].operation==8){
   m->battle_mode=true;m->last_tick=tick;
   m->active=bc_choreography_begin(&m->battle,before,move,facing?saved:NULL);
+  m->battle.sound=sound;m->battle.sound_context=context;
   m->failed=!m->active;return m->active;
  }
  m->plan=plan;m->display=before->board;m->visual_valid=true;
@@ -106,6 +108,7 @@ bool bc_motion_begin_facing(BCMotion *m,const BCPosition *before,BCMove move,uin
  if(!m->count)return false;
  m->last_tick=tick;m->active=true;if(perspective)(void)next_command(m);else begin_segment(m);return !m->failed;
 }
+bool bc_motion_begin_facing(BCMotion *m,const BCPosition *before,BCMove move,uint64_t tick,bool perspective,const uint8_t *facing){return bc_motion_begin_audio(m,before,move,tick,perspective,facing,NULL,NULL);}
 bool bc_motion_begin(BCMotion *m,const BCPosition *before,BCMove move,uint64_t tick,bool perspective){return bc_motion_begin_facing(m,before,move,tick,perspective,NULL);}
 void bc_motion_tick(BCMotion *m,uint64_t tick,bool pending){
  if(!m->active||!bc_presentation_tick(tick,&m->last_tick,pending))return;
@@ -116,7 +119,7 @@ void bc_motion_tick(BCMotion *m,uint64_t tick,bool pending){
  }
  if(m->perspective){tick_commands(m);return;}
  BCMove move=m->moves[m->index];
- if(m->walking&&!bc_task_ready(&m->clock,false,0,NULL,NULL))return;
+ if(m->walking&&!bc_task_ready(&m->clock,false,0,m->sound,m->sound_context))return;
  unsigned frames=m->walking?m->walking->count:8;
  if(m->frame<frames){(void)bc_interpolate(x(m,move.from),y(m,move.from),x(m,move.to),y(m,move.to),frames,m->frame++,&m->x,&m->y);return;}
  /* Only a completed actor transfers occupancy. Intermediate waypoints can

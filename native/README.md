@@ -298,3 +298,9 @@ provides a nominal PCM converter. It is not yet connected to SDL playback.
 The linear PCM mapping is a Linux adaptation, not a measured original-speaker
 model. Three authored sound-event combinations still need native-context
 investigation (zero interval or missing slot15 payload).
+
+Native sound now plays through SDL. M toggles mute; Space pauses both sound and
+animation. New/load/undo clears queued clips. The display reports unavailable
+audio or held unsupported events. The original nibble samples use a documented
+nominal linear PCM adaptation; exact original hardware timing/transfer functions
+and three exceptional authored sound events remain unresolved.

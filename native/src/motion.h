@@ -8,6 +8,7 @@
 #include "choreography.h"
 typedef BCActorPixel BCPixelEvent;
 typedef struct {
+ BCSoundEvent sound;void *sound_context;
  BCChoreography battle;bool battle_mode;
  BCBoard display;BCMove moves[32];uint8_t origins[32],directions[32];unsigned count,index,frame;
  const BCWalk *walking;BCTaskClock clock;
@@ -22,6 +23,7 @@ typedef struct {
  * in rectangular mode. Supported captures use concurrent choreography. Authoritative chess state is never modified here. */
 bool bc_motion_begin(BCMotion *motion,const BCPosition *before,BCMove move,uint64_t tick,bool perspective);
 bool bc_motion_begin_facing(BCMotion *motion,const BCPosition *before,BCMove move,uint64_t tick,bool perspective,const uint8_t *facing);
+bool bc_motion_begin_audio(BCMotion *,const BCPosition *,BCMove,uint64_t,bool,const uint8_t *,BCSoundEvent,void *);
 void bc_motion_tick(BCMotion *motion,uint64_t tick,bool input_pending);
 int bc_motion_hidden_square(const BCMotion *motion);
 BCCell bc_motion_piece(const BCMotion *motion);
