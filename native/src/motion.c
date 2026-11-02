@@ -70,7 +70,12 @@ static void tick_commands(BCMotion *m){
 bool bc_motion_begin_facing(BCMotion *m,const BCPosition *before,BCMove move,uint64_t tick,bool perspective,const uint8_t *facing){
  uint8_t saved[120]={0};if(facing)memcpy(saved,facing,sizeof saved);
  memset(m,0,sizeof *m);m->perspective=perspective;
- if(move.capture)return false;
+ if(move.capture){
+  if(!perspective)return false;
+  m->battle_mode=true;m->last_tick=tick;
+  m->active=bc_choreography_begin(&m->battle,before,move,facing?saved:NULL);
+  m->failed=!m->active;return m->active;
+ }
  BCPosition verify=*before;if(!bc_play(&verify,move))return false;
  BCStagePlan plan;if(!bc_stage_plan(before,move,&plan))return false;
  m->plan=plan;m->display=before->board;m->visual_valid=true;
@@ -99,6 +104,11 @@ bool bc_motion_begin_facing(BCMotion *m,const BCPosition *before,BCMove move,uin
 bool bc_motion_begin(BCMotion *m,const BCPosition *before,BCMove move,uint64_t tick,bool perspective){return bc_motion_begin_facing(m,before,move,tick,perspective,NULL);}
 void bc_motion_tick(BCMotion *m,uint64_t tick,bool pending){
  if(!m->active||!bc_presentation_tick(tick,&m->last_tick,pending))return;
+ if(m->battle_mode){
+  int result=bc_choreography_tick(&m->battle);
+  if(result!=0){m->active=false;m->failed=result<0;m->visual_valid=false;}
+  return;
+ }
  if(m->perspective){tick_commands(m);return;}
  BCMove move=m->moves[m->index];
  if(m->walking&&!bc_task_ready(&m->clock,false,0,NULL,NULL))return;

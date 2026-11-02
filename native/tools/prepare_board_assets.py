@@ -9,7 +9,7 @@ def read(name):
  return data
 base='assets/recovered/'
 meta=json.loads(read(base+'setups/report.json'));palette=json.loads(read(base+'images/palette.json'))['rgb6']
-out=b'BCP4'+bytes((v<<2)|(v>>4) for v in palette)
+out=b'BCP5'+bytes((v<<2)|(v>>4) for v in palette)
 for setup,background in ((0,0),(2,1)):
  packed=read(base+f'bank1/startup-{background:02d}.background-packed.bin')
  if len(packed)!=32000:raise ValueError('Background extent')
@@ -22,6 +22,7 @@ for setup,background in ((0,0),(2,1)):
   out+=struct.pack('<HHHHhh',f['native_global_index'],f['width'],f['storage_width'],f['height'],f['anchor_x'],f['anchor_y'])+data
 timing=json.loads(read(base+'metadata/timing/timelines.json'))
 keys=sorted({(item['frames'][0]['bank_pair'],item['frames'][0]['list_index']) for item in timing['move_sequences']})
+keys=sorted(set(keys)|{(f['bank_pair'],f['list_index']) for item in timing['capture_sequences'] for f in item['frames']})
 records=[]
 for pair,seq in keys:
  folder=base+f'animations/pair-{pair:02d}-list-{seq:02d}/'

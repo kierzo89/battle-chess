@@ -114,7 +114,7 @@ int main(int argc,char **argv) {
   char line[80];snprintf(line,sizeof line,"Level: %s",level?"timed":"Novice");if(level)snprintf(line,sizeof line,"Level %u (%u seconds)",level,5u<<(level-1));text(r,170,line);
   text(r,204,"0-9: difficulty");text(r,228,"N: new game   U: undo");text(r,252,"H: one / two players");text(r,276,"Space: pause / resume");text(r,300,"D: claim draw");text(r,324,"Q/R/B/K: promotion");snprintf(line,sizeof line,"Promotion: %s",promotion==2?"queen":promotion==3?"rook":promotion==4?"bishop":"knight");text(r,348,line);
   text(r,372,"S: save   L: load");
-  text(r,396,"V: perspective / flat");text(r,420,"Battles/audio pending");
+  text(r,396,"V: perspective / flat");text(r,420,"Battles partial; sound pending");
   SDL_SetRenderDrawColor(r,235,235,240,255);SDL_RenderDebugText(r,24,600,message);
   if(smoke&&!smoke_stage&&getenv("BC_SCREENSHOT")) {
    SDL_Surface *shot=SDL_RenderReadPixels(r,NULL);

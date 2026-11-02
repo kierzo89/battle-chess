@@ -275,3 +275,10 @@ A four-slot command dependency scheduler is now validated against unchanged
 recovered queue code across1000 programs. It preserves concurrent branches and
 original slot-reuse dispatch ordering. Its connection to live capture rendering
 is still pending.
+
+Perspective captures now use the concurrent actor renderer: both participants
+perform their recovered battle sequences, then the defeated actor is removed.
+The e4xd5 scene is render-tested;30 legal piece-kind pairings complete the host
+executor. Battle coverage remains partial: captures requiring the unfinished
+neighbour reaction currently fall back to an immediate board update. Sound is
+still pending. The desktop launcher uses this updated development build.

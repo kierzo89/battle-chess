@@ -494,3 +494,33 @@ turn/move/placement/capture state and render both actors while preserving source
 anchors, visible positions, actor identity and transfer/removal timing. No new
 visible-battle completion is claimed. Full port remains active with capture,
 neighbour, audio and remaining search/menu obligations intact.
+
+### First live concurrent capture battles (2026-11-02)
+
+Connected commands/turn/walk/placement/capture primitives in choreography.c with
+32 stable actor identities, a square-to-actor map, four reusable task contexts,
+separate displayed/anchor positions, per-actor facing and original transfer/
+removal ordering. Frame programs remain intact until a replacement actually
+emits its first frame. Authoritative chess state is never mutated by animation.
+BCMotion now routes perspective captures to this executor. BCP5 contains the
+original composed capture frames in addition to walking and raw turn deltas;
+the renderer depth-sorts all visible actors and draws both battle participants.
+Missing capture textures reject bundle loading.
+
+Verified: e4xd5 runs153 eligible dispatches, shows52 dispatches with two battle
+actors and finishes with one cleanup,31 visible pieces and exact final board.
+All30 legal attacker/victim kind pairings (six attacker kinds, five non-king
+victims) complete host choreography and final occupancy correctly in constructed
+positions. The rendered e4xd5 smoke test passes and screenshot was inspected.
+All28 tests passed across the completed runs; the first full invocation was
+terminated with143 during UI smoke, so tests12..28 were rerun and passed, with
+modified capture tests rerun after the final frame-retention fix.
+
+Limits: plans containing neighbour operation8 are rejected up front and the
+current UI falls back to an immediate board update for those captures. This is
+not complete battle coverage; implement the neighbour task next. Exact original
+whole-game scheduling, simultaneous pixel ordering and real-machine wallclock
+behaviour remain beyond these component/source comparisons. Capture sound
+callbacks are not wired to an audio device. The interface now labels battles
+partial. Promotion presentation and remaining sound/search/menu obligations
+remain open; full goal stays active and the baseline copies are unchanged.
