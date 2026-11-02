@@ -245,3 +245,8 @@ currently selects control profile 0; both profiles are exported and tested.
 Sound opcodes remain preserved in control data, but runtime audio dispatch is
 not connected yet. Turn transitions and neighbouring-piece reactions remain
 separate pending tasks; this milestone covers walking along the planned paths.
+
+The native turning task executor is now tested against all480 retained native
+turn traces, but is not yet connected to the game display. One queen turn-list
+continuation needs original XOR composition rather than direct selection of a
+precomposed frame; `recovered_turn_tasks` records this rendering limitation.

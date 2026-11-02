@@ -336,3 +336,28 @@ executor and audio. Sound opcodes are retained but runtime callback is not yet
 connected. The walk selector uses the planned movement orientation; missing
 turning transitions are not claimed solved. Remaining book/search and complete
 menu/gameplay fidelity work also remains. Goal stays active.
+
+### Native turning executor (2026-11-02)
+
+Added native turn_animation.c, following recovered turn_task_730c control flow:
+shortest signed direction, two-orientation steps for graphics kinds1/3/6,
+continuation skip of two entries for kinds1/2/5, and control installation with
+same-dispatch readiness consumption. Generated original sequence/control tables
+are authenticated against the asset snapshot and individual control hashes.
+The executor exposes composed-frame coordinates and sound dispatch callbacks;
+it is not yet wired into live motion or credited as complete turning visuals.
+
+All480 retained original-machine-code cases agree on every emitted frame token,
+dispatch timestamp and completion call, across both control profiles. Invalid
+inputs reject and completion is stable. Full21-test suite passed. An additional
+pixel precondition audit checks all40 continuing turn-list boundaries:39 agree,
+but graphics kind5 (queen), orientation5, negative direction differs. The
+original applies the new delta to the previous actor image, whereas directly
+selecting the precomposed next-list frame would assume a different starting
+image. This exception is retained explicitly as an unresolved rendering issue,
+not accepted as equivalent. Next: reproduce that original XOR composition,
+then integrate turn operations and persistent facing into live motion.
+
+No original source/assets were changed. Full port goal remains active; capture
+battles, neighbour reactions, sound and remaining search/menu fidelity still
+remain as recorded above.

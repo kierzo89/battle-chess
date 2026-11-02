@@ -165,3 +165,15 @@ add_library(walk_oracle SHARED "${WALK_SOURCE}" src/presentation.c)
 target_include_directories(walk_oracle PRIVATE src)
 add_test(NAME recovered_walk_tasks COMMAND ${Python3_EXECUTABLE}
  "${CMAKE_CURRENT_SOURCE_DIR}/tests/test_walk.py" $<TARGET_FILE:walk_oracle>)
+
+set(TURN_SOURCE "${CMAKE_CURRENT_BINARY_DIR}/generated/turn_animation_data.c")
+add_custom_command(OUTPUT "${TURN_SOURCE}"
+ COMMAND ${Python3_EXECUTABLE} "${CMAKE_CURRENT_SOURCE_DIR}/tools/prepare_turn.py"
+ --root "${CMAKE_CURRENT_SOURCE_DIR}/.." --output "${TURN_SOURCE}"
+ DEPENDS tools/prepare_turn.py ../verification/asset-snapshot.json
+ ../assets/recovered/metadata/timing/report.json ${ASSET_INPUTS} VERBATIM)
+target_sources(bc_presentation PRIVATE "${TURN_SOURCE}" src/turn_animation.c)
+add_library(turn_oracle SHARED "${TURN_SOURCE}" src/turn_animation.c src/presentation.c)
+target_include_directories(turn_oracle PRIVATE src)
+add_test(NAME recovered_turn_tasks COMMAND ${Python3_EXECUTABLE}
+ "${CMAKE_CURRENT_SOURCE_DIR}/tests/test_turn_animation.py" $<TARGET_FILE:turn_oracle>)
