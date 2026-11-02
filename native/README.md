@@ -32,8 +32,9 @@ Requires a C11 compiler, CMake, pkg-config, Python 3 and SDL3 development files
 
 Click a piece and its destination. N starts a game, U undoes a turn, H toggles
 one/two players, Space pauses, 0–9 selects difficulty, D claims an available draw,
-and Q/R/B/K chooses promotion (K = knight). S saves; L loads. V changes board view.
-Escape closes the game.
+and a promotion dialog offers four choices by click or Q/R/B/K (K = knight).
+Escape cancels that dialog without playing the move; otherwise Escape closes the
+game. S saves; L loads. V changes board view. M toggles sound.
 The desktop shortcut launches this development game.
 
 For the separate recovered animation browser, run `native/run.sh --viewer`.
@@ -290,11 +291,13 @@ this removes the previous operation8 capture fallback. The original task matches
 
 Promotion presentation now follows the recovered caller: animate the pawn move
 and any capture first, then redraw the selected promoted piece. All16 combinations
-of side, choice and capture/quiet move are tested. Q/R/B/K still preselect the
-choice; the original after-arrival popup is not yet reproduced.
+of side, choice and capture/quiet move are tested. A native modal now requests
+the choice when a legal promotion destination is clicked, before committing or
+animating the move. It supports mouse and keyboard underpromotion and cancellation.
+The original after-arrival popup timing and artwork are not yet reproduced.
 
 Native sound preparation now verifies15 original amplitude-sample slots and
-provides a nominal PCM converter. It is not yet connected to SDL playback.
+provides a nominal PCM converter connected to SDL playback.
 The linear PCM mapping is a Linux adaptation, not a measured original-speaker
 model. Three authored sound-event combinations still need native-context
 investigation (zero interval or missing slot15 payload).

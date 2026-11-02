@@ -263,3 +263,8 @@ target_compile_options(test_audio_output PRIVATE -Wall -Wextra -Wpedantic -Werro
 add_dependencies(test_audio_output sound_assets)
 add_test(NAME native_audio_output COMMAND test_audio_output "${SOUND_ASSETS}")
 set_tests_properties(native_audio_output PROPERTIES ENVIRONMENT "SDL_AUDIODRIVER=dummy" TIMEOUT 10)
+
+add_test(NAME native_promotion_ui COMMAND battle-chess-game "${BOARD_ASSETS}" --smoke-promotion)
+set_tests_properties(native_promotion_ui PROPERTIES ENVIRONMENT "SDL_VIDEODRIVER=dummy;SDL_RENDER_DRIVER=software;SDL_AUDIODRIVER=dummy" TIMEOUT 30)
+add_test(NAME native_promotion_keyboard COMMAND battle-chess-game "${BOARD_ASSETS}" --smoke-promotion)
+set_tests_properties(native_promotion_keyboard PROPERTIES ENVIRONMENT "SDL_VIDEODRIVER=dummy;SDL_RENDER_DRIVER=software;SDL_AUDIODRIVER=dummy;BC_PROMOTION_KEY=1" TIMEOUT 30)

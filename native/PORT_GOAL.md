@@ -632,3 +632,21 @@ Integration verification: all 32 CTests passed, including native game, flat view
 full games, capture rendering, sound conversion and SDL output. Repeated the
 audio glue/converter ASan/UBSan check successfully. Desktop shortcut and its
 launcher remain executable and point to this isolated native port.
+
+### Interactive promotion choice (2026-11-02)
+
+Replaced advance piece preselection with a native modal opened only for legal
+promotion destinations. Click Queen/Rook/Bishop/Knight or press Q/R/B/K; Escape
+cancels without altering position or history. Other game commands are held while
+the choice is open, preventing stale destinations or accidental moves. The
+chosen legal move enters the existing pawn-first animation and final redraw.
+This improves usable promotion but deliberately does not claim DOS popup artwork
+or after-arrival prompt timing: the host dialog currently precedes commitment.
+
+Two real SDL event-path tests cover selecting a pawn/destination, cancelling and
+reopening without a move, choosing knight by mouse and by keyboard, completing
+the animation and verifying exactly one history move and a knight on a8. Existing
+16-case promotion tests retain both colours, four choices and quiet/capture
+coverage. All 34 CTests pass (41.55 seconds). Inspected the rendered modal at
+1200x732: four choices and cancel instruction are legible and within the window.
+No original reconstruction/published files changed; full goal remains active.
