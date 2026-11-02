@@ -1,8 +1,10 @@
 # Fully playable native Linux port
 
-Status: **active**, requested 1 November 2026. The current application is an asset
-viewer, not a playable game. Preserve the clean matching repository and all
-original source/asset hashes; work only in this separate native-linux checkout.
+Status: **playable port verified**, 2 November 2026. See
+`COMPLETION_AUDIT.md` for requirement evidence and remaining fidelity limits.
+The dated entries below are a development history; their "pending" statements
+are historical and superseded by the final audit. Original source/assets remain
+preserved in the separate native-linux checkout and clean published baseline.
 
 ## Completion criteria
 
@@ -24,7 +26,7 @@ original source/asset hashes; work only in this separate native-linux checkout.
 - Core tests/sanitizers and both published snapshot verifiers pass.
 - Desktop launcher installed as Battle Chess Native (Development).
 
-## Next work
+## Original implementation plan (historical)
 
 1. Trace authoritative recovered move-generation/attack dependencies and port
    explicit-width state, ray tables and legality. Validate perft and special cases.
@@ -802,3 +804,20 @@ limit. Existing exhaustive converter tests verify actual PCM generation.
 This resolves the three-event blocker for the native game's selected profile;
 it does not claim alternate-profile support, physical PSG/speaker emulation,
 queue-latency accuracy or subjective listening verification. REA session closed.
+
+### Final playable-port audit (2026-11-02)
+
+Added a complete combined book/search/presentation game test:140 plies to
+stalemate,34 book moves,26 captures,9053 animation dispatches and1316 sound
+callbacks. All42 tests pass (70.62 seconds). Source/asset snapshot verifiers pass;
+the clean published baseline remains at its original commit. The actual native
+window was inspected on the real display with sound enabled, then closed cleanly.
+After updating the stale development labels, the final desktop entry was invoked
+through GIO, its window PID bound to the native executable, and normal window
+close verified. No DOSBox/CPU emulator is present in that game runtime.
+
+COMPLETION_AUDIT.md checks every requested deliverable and records the explicit
+source-port fidelity boundaries. README now describes the current playable game
+instead of obsolete intermediate status. Desktop/application shortcuts are named
+Battle Chess Native. The playable-port objective is satisfied; this does not
+claim perfect original DOS UI, hardware sound, RNG or whole-search equivalence.

@@ -1,0 +1,10 @@
+{
+  "desktop": "/home/kierzo/Desktop/BattleChessNative.desktop",
+  "method": "gio launch",
+  "video_driver": "x11",
+  "window_title": "Battle Chess Native",
+  "pid": 407217,
+  "exe": "/home/kierzo/battle-chess-linux/native/build/battle-chess-game",
+  "window_close": "WM_DELETE_WINDOW",
+  "clean_shutdown": true
+}

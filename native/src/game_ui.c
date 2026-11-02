@@ -90,7 +90,7 @@ int main(int argc,char **argv) {
  bool smoke_promotion=argc==3&&!strcmp(argv[2],"--smoke-promotion");
  bool smoke=smoke_time||smoke_controls||smoke_book||smoke_promotion||(argc==3&&(!strcmp(argv[2],"--smoke")||!strcmp(argv[2],"--smoke-flat")));if(argc==3&&!smoke)return 2;
  if(!SDL_Init(SDL_INIT_VIDEO))fail("SDL");SDL_Window *window;SDL_Renderer *r;
- if(!SDL_CreateWindowAndRenderer("Battle Chess Native - Development",1200,732,smoke?SDL_WINDOW_HIDDEN:SDL_WINDOW_RESIZABLE,&window,&r))fail("Window");
+ if(!SDL_CreateWindowAndRenderer("Battle Chess Native",1200,732,smoke?SDL_WINDOW_HIDDEN:SDL_WINDOW_RESIZABLE,&window,&r))fail("Window");
  SDL_SetRenderLogicalPresentation(r,1024,624,SDL_LOGICAL_PRESENTATION_LETTERBOX);
  BCBoardView *view=bc_view_load(r,argv[1]);if(!view)fail("Board assets");
  BCAudio audio={0};const char *slash=strrchr(argv[1],'/');size_t prefix=slash?(size_t)(slash-argv[1]+1):0;
@@ -194,7 +194,7 @@ int main(int argc,char **argv) {
   if(running&&promote_from<0&&computer&&!paused&&!worker&&!motion.active&&!bc_audio_busy(&audio)&&p->board.side==1&&(state==BC_PLAYING||state==BC_CHECK)){worker=start(g,level,minutes,smoke);if(!worker){paused=true;snprintf(message,sizeof message,"Could not start search.");}}
   SDL_SetRenderDrawColor(r,23,27,35,255);SDL_RenderClear(r);
   bc_view_draw(view,r,p,&motion,selected,perspective);
-  SDL_SetRenderDrawColor(r,235,235,240,255);SDL_RenderDebugText(r,24,16,"BATTLE CHESS / NATIVE DEVELOPMENT");
+  SDL_SetRenderDrawColor(r,235,235,240,255);SDL_RenderDebugText(r,24,16,"BATTLE CHESS / NATIVE LINUX");
   text(r,52,computer?"Human vs computer":"Two players");text(r,78,p->board.side?"Blue to move":"Red to move");text(r,104,status_name(state));
   text(r,130,promote_from>=0?"Choose promotion...":worker?"Computer thinking...":paused?"Paused":motion.active?"Piece moving...":"Ready");
   char line[80];snprintf(line,sizeof line,"Level: %s",level?"timed":"Novice");if(level==10)snprintf(line,sizeof line,"Custom: %u minutes",minutes);else if(level)snprintf(line,sizeof line,"Level %u (%u seconds)",level,5u<<(level-1));text(r,170,line);
