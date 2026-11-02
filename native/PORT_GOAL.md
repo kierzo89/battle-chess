@@ -416,3 +416,29 @@ are still excluded, and original wallclock/input-dispatch equivalence is not
 claimed. Rook face list selection follows recovered6167/724D; the complete
 original simultaneous actor scheduling remains to port. Capture battles,
 neighbour reactions, audio and remaining search/menu fidelity are still open.
+
+### Native capture task and shared barrier (2026-11-02)
+
+Added capture.c and authenticated generated capture_data.c for original75F6
+behaviour: pending1 holds without consuming frames/control, each actor advances
+through original lists, sequence exhaustion increments the shared counter once,
+and both wait until pending4. Only the right actor adds4 to animation_counter
+and requests normal-mode arena cleanup. Host registration rejects duplicate
+sides. Cleanup is a notification, not yet the original arena/render integration.
+List boundaries explicitly select a fresh initial frame rather than XORing
+across lists. The two original empty king/king sequences are retained as empty,
+not fabricated; legal play never captures a king.
+
+Validated all288 original retained task cases: frame tuple stream and readiness
+timestamps agree with authenticated timing data, terminal calls/frame counts
+agree with native task evidence, pending1/pending3 holds and completion cleanup
+are checked. Additionally144 real paired host runs cover36 engine-kind pairings,
+both timing profiles and both dispatch orders, with actual peer completion and
+one-time cleanup. These paired runs validate the native port's barrier; they do
+not claim an original whole-game dual-actor renderer execution. UBSan passes the
+same cases. The component is linked but not yet called by live board motion.
+
+Next: integrate original placement/offset tasks and concurrent capture branches
+with the board renderer, preserving the recovered command dependencies. Current
+live captures still update the board without a battle; no capture presentation
+completion claim. Neighbour reactions, sound, search/menu fidelity remain open.

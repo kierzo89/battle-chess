@@ -184,3 +184,15 @@ add_library(compositor_oracle SHARED src/compositor.c)
 target_include_directories(compositor_oracle PRIVATE src)
 add_test(NAME recovered_frame_composition COMMAND ${Python3_EXECUTABLE}
  "${CMAKE_CURRENT_SOURCE_DIR}/tests/test_compositor.py" $<TARGET_FILE:compositor_oracle>)
+
+set(CAPTURE_SOURCE "${CMAKE_CURRENT_BINARY_DIR}/generated/capture_data.c")
+add_custom_command(OUTPUT "${CAPTURE_SOURCE}"
+ COMMAND ${Python3_EXECUTABLE} "${CMAKE_CURRENT_SOURCE_DIR}/tools/prepare_capture.py"
+ --root "${CMAKE_CURRENT_SOURCE_DIR}/.." --output "${CAPTURE_SOURCE}"
+ DEPENDS tools/prepare_capture.py ../verification/asset-snapshot.json
+ ../assets/recovered/metadata/timing/report.json ${ASSET_INPUTS} VERBATIM)
+target_sources(bc_presentation PRIVATE "${CAPTURE_SOURCE}" src/capture.c)
+add_library(capture_oracle SHARED "${CAPTURE_SOURCE}" src/capture.c src/presentation.c)
+target_include_directories(capture_oracle PRIVATE src)
+add_test(NAME recovered_capture_tasks COMMAND ${Python3_EXECUTABLE}
+ "${CMAKE_CURRENT_SOURCE_DIR}/tests/test_capture.py" $<TARGET_FILE:capture_oracle>)

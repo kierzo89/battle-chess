@@ -261,3 +261,7 @@ and rook face sequences through native XOR composition. Facing is retained
 between moves. The rectangular view remains the faster static-piece view.
 Capture battles, neighbour reactions and sound remain pending; the development
 label and full-port goal remain in place.
+
+The capture-task engine now has original frame/control sequences and a tested
+attacker/defender completion barrier (288 retained cases and144 paired runs).
+It is not yet connected to board motion: visible capture battles remain pending.
