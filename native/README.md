@@ -292,3 +292,9 @@ Promotion presentation now follows the recovered caller: animate the pawn move
 and any capture first, then redraw the selected promoted piece. All16 combinations
 of side, choice and capture/quiet move are tested. Q/R/B/K still preselect the
 choice; the original after-arrival popup is not yet reproduced.
+
+Native sound preparation now verifies15 original amplitude-sample slots and
+provides a nominal PCM converter. It is not yet connected to SDL playback.
+The linear PCM mapping is a Linux adaptation, not a measured original-speaker
+model. Three authored sound-event combinations still need native-context
+investigation (zero interval or missing slot15 payload).

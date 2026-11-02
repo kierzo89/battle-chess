@@ -572,3 +572,29 @@ UI difference remains explicit: Q/R/B/K preselect a piece before moving; the
 original blocking sprite popup after pawn arrival has not been reproduced.
 Audio, remaining menu/search fidelity and broader end-to-end presentation
 coverage remain open. The full-port goal stays active and originals unchanged.
+
+### Native sound data and nominal PCM conversion (2026-11-02)
+
+Added BCA1 sound packaging for all15 complete amplitude-nibble cache slots.
+The generator authenticates snapshot hashes and compares every sample's inverse
+attenuation command against the retained original native port stream, including
+its81/00 setup bytes. sound.c loads bounded slots and preserves the original
+C868 integer interval formula (1e9/denominator + pitch*1120, clamped at zero).
+A separate explicitly host-adapted renderer holds those amplitudes at the nominal
+interval and maps them to centered linear float PCM at quarter gain. This is
+not a physical PSG/speaker transfer-function or absolute-calibration proof.
+
+Native conversion tests and ASan/UBSan pass:1827 nonzero-period pitch conversions
+across15 slots, with93 zero-period combinations explicitly rejected. All emitted
+PCM samples and frame counts are checked. The new focused CTest passes; prior
+30-test runtime suite was not rerun because this component is not yet linked to
+the game. No SDL audio playback is claimed yet.
+
+A scan of all recovered piece/capture control streams finds307 distinct authored
+sound event pairs. Three are not currently representable:slot11,pitch-64 gives
+zero nominal interval, and slot15,pitches-27/-18 have no complete nibble record
+in the15-slot package. Resolve the native loader/dispatch context for those
+before claiming full sound coverage; do not substitute adjacent bytes or guessed
+rates. Physical speaker calibration and alternate speaker-run path remain
+separate evidence limits. Next: SDL playback plus explicit event handling and
+investigation of these three exceptions. Full goal remains active.

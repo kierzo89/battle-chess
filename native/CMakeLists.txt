@@ -234,3 +234,19 @@ add_executable(test_promotion_animation tests/test_promotion_animation.c)
 target_link_libraries(test_promotion_animation PRIVATE bc_presentation)
 target_compile_options(test_promotion_animation PRIVATE -Wall -Wextra -Wpedantic -Werror -UNDEBUG)
 add_test(NAME native_promotion_animation COMMAND test_promotion_animation)
+
+file(GLOB SOUND_INPUTS CONFIGURE_DEPENDS "${CMAKE_CURRENT_SOURCE_DIR}/../assets/recovered/audio/*.amplitude-nibbles.bin" "${CMAKE_CURRENT_SOURCE_DIR}/../assets/recovered/audio/*.native.json")
+set(SOUND_ASSETS "${CMAKE_CURRENT_BINARY_DIR}/sounds.bca")
+add_custom_command(OUTPUT "${SOUND_ASSETS}"
+ COMMAND ${Python3_EXECUTABLE} "${CMAKE_CURRENT_SOURCE_DIR}/tools/prepare_sound.py"
+ --root "${CMAKE_CURRENT_SOURCE_DIR}/.." --output "${SOUND_ASSETS}"
+ DEPENDS tools/prepare_sound.py ../verification/asset-snapshot.json ../assets/recovered/audio-report.json ${SOUND_INPUTS} VERBATIM)
+add_custom_target(sound_assets ALL DEPENDS "${SOUND_ASSETS}")
+add_library(bc_sound src/sound.c)
+target_include_directories(bc_sound PUBLIC src)
+target_compile_options(bc_sound PRIVATE -Wall -Wextra -Wpedantic -Werror)
+add_executable(test_sound tests/test_sound.c)
+target_link_libraries(test_sound PRIVATE bc_sound)
+target_compile_options(test_sound PRIVATE -Wall -Wextra -Wpedantic -Werror -UNDEBUG)
+add_dependencies(test_sound sound_assets)
+add_test(NAME native_sound_conversion COMMAND test_sound "${SOUND_ASSETS}")
