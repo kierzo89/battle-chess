@@ -7,6 +7,7 @@ static SDL_FRect action_rect(unsigned i){return (SDL_FRect){700+(i%2)*148,270+(i
 SDL_Keycode bc_controls_hit(float x,float y){
  for(unsigned i=0;i<10;i++)if(inside(x,y,level_rect(i)))return SDLK_0+i;
  for(unsigned i=0;i<10;i++)if(inside(x,y,action_rect(i)))return actions[i];
+ if(inside(x,y,(SDL_FRect){700,550,288,30}))return SDLK_C;
  return 0;
 }
 static void button(SDL_Renderer *r,SDL_FRect rect,const char *label,bool selected){
@@ -17,4 +18,5 @@ void bc_controls_draw(SDL_Renderer *r,unsigned level,bool computer,bool paused,b
  for(unsigned i=0;i<10;i++){char label[16];snprintf(label,sizeof label,"%u",i);button(r,level_rect(i),label,i==level);}
  const char *labels[]={"N New game","U Undo turn",computer?"H Two players":"H Vs computer",paused?"Space Resume":"Space Pause","S Save game","L Load game",perspective?"V Flat board":"V Perspective",muted?"M Sound on":"M Sound off","D Claim draw","Esc Quit"};
  for(unsigned i=0;i<10;i++)button(r,action_rect(i),labels[i],false);
+ button(r,(SDL_FRect){700,550,288,30},"C Custom minutes",level==10);
 }

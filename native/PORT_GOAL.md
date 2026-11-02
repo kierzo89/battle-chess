@@ -755,3 +755,24 @@ Verification: all six affected SDL UI tests pass (45.97 seconds), covering
 normal/flat/book play, both promotion inputs and the new control menu. The
 previous full38-test run remains the core/presentation baseline; no claim that
 all39 were rerun for this UI-only change. Full goal remains active.
+
+### Custom time control exposed (2026-11-02)
+
+Connected recovered level10's minutes*60 budget to the native menu and search
+worker. C or the Custom minutes button opens a bounded numeric dialog; Enter or
+Apply commits1–32767 minutes. Backspace deletes; Escape, Cancel or a zero entry
+preserves the previous level, following set_limit's zero-cancellation behaviour.
+The dialog cancels/joins any current worker and pauses animation/audio; closing
+restores the previous pause state and resets animation time to avoid catch-up.
+Other commands remain held while editing. Existing levels0–9 remain unchanged.
+
+The SDL event-path test opens via the actual mouse button, enters two minutes,
+checks a120000ms worker configuration, then verifies both Escape and zero-entry
+cancellation retain that level. Difficulty deadline tests separately exercise
+actual timed search interruption. The dialog is a native UI adaptation rather
+than a reproduction of DOS numeric-dialog artwork. The full port goal remains
+active pending remaining sound exceptions and final fidelity/requirements audit.
+
+Verification: all five affected difficulty/UI tests pass (28.12 seconds).
+Inspected the rendered custom-time dialog: text, Apply/Cancel and sidebar fit
+at1200x732 without clipping. Preserved original trees remain untouched.

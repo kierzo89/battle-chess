@@ -306,3 +306,6 @@ set_tests_properties(native_special_move_render PROPERTIES ENVIRONMENT "SDL_VIDE
 
 add_test(NAME native_controls_menu COMMAND battle-chess-game "${BOARD_ASSETS}" --smoke-controls)
 set_tests_properties(native_controls_menu PROPERTIES ENVIRONMENT "SDL_VIDEODRIVER=dummy;SDL_RENDER_DRIVER=software;SDL_AUDIODRIVER=dummy" TIMEOUT 10)
+
+add_test(NAME native_custom_time_menu COMMAND battle-chess-game "${BOARD_ASSETS}" --smoke-time)
+set_tests_properties(native_custom_time_menu PROPERTIES ENVIRONMENT "SDL_VIDEODRIVER=dummy;SDL_RENDER_DRIVER=software;SDL_AUDIODRIVER=dummy" TIMEOUT 10)

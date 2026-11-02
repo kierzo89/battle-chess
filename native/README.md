@@ -32,7 +32,10 @@ Requires a C11 compiler, CMake, pkg-config, Python 3 and SDL3 development files
 
 Click a piece and its destination. The side-panel buttons provide difficulty
 selection, new game, undo, player mode, pause/resume, save/load, board view,
-sound, draw claim and quit. Keyboard shortcuts remain available.
+sound, draw claim and quit. C (or Custom minutes) opens a per-move time
+limit dialog: type1–32767 minutes and press Enter or click Apply. Escape or zero
+cancels without changing the previous level; Backspace edits. Keyboard shortcuts
+remain available.
 N starts a game, U undoes a turn, H toggles
 one/two players, Space pauses, 0–9 selects difficulty, D claims an available draw,
 and a promotion dialog offers four choices by click or Q/R/B/K (K = knight).

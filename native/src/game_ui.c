@@ -20,13 +20,13 @@ static bool cancelled(void *p){return atomic_load_explicit(&((Worker *)p)->cance
 static int search_thread(void *p){Worker *w=p;if(w->use_book&&!cancelled(w)&&bc_book_move(&w->position,w->history,w->count,w->book_draw,&w->result.move)){
  w->book_hit=w->ok=w->result.has_move=true;
  }else w->ok=bc_search(&w->position,w->history,w->count,&w->config,&w->result);atomic_store_explicit(&w->done,true,memory_order_release);return 0;}
-static Worker *start(BCGame *g,unsigned level,bool smoke) {
+static Worker *start(BCGame *g,unsigned level,unsigned minutes,bool smoke) {
  Worker *w=calloc(1,sizeof *w);if(!w)return NULL;
  atomic_init(&w->cancel,false);atomic_init(&w->done,false);
  w->position=*bc_game_position(g);w->count=bc_game_plies(g);
  if(w->count){w->history=malloc(w->count*sizeof *w->history);if(!w->history){free(w);return NULL;}}
  if(!bc_game_copy_moves(g,w->history,w->count)){free(w->history);free(w);return NULL;}
- bc_difficulty_config(level,1,&w->config);w->config.temporary=w->position.board.side;
+ bc_difficulty_config(level,minutes,&w->config);w->config.temporary=w->position.board.side;
  w->config.cancel=cancelled;w->config.userdata=w;w->config.seed=1;
  /* Novice bypasses book in recovered search_turn_8061. The host owns its
   * own deterministic MS-style RNG stream; whole-session DOS RNG parity is not claimed. */
@@ -84,10 +84,11 @@ int main(int argc,char **argv) {
  if(argc<2||argc>3){fprintf(stderr,"Usage: %s pieces.bcp [--smoke]\n",argv[0]);return 2;}
  bool perspective=!(argc==3&&!strcmp(argv[2],"--smoke-flat"));
  bool initial_perspective=perspective;
+ bool smoke_time=argc==3&&!strcmp(argv[2],"--smoke-time");
  bool smoke_controls=argc==3&&!strcmp(argv[2],"--smoke-controls");
  bool smoke_book=argc==3&&!strcmp(argv[2],"--smoke-book");
  bool smoke_promotion=argc==3&&!strcmp(argv[2],"--smoke-promotion");
- bool smoke=smoke_controls||smoke_book||smoke_promotion||(argc==3&&(!strcmp(argv[2],"--smoke")||!strcmp(argv[2],"--smoke-flat")));if(argc==3&&!smoke)return 2;
+ bool smoke=smoke_time||smoke_controls||smoke_book||smoke_promotion||(argc==3&&(!strcmp(argv[2],"--smoke")||!strcmp(argv[2],"--smoke-flat")));if(argc==3&&!smoke)return 2;
  if(!SDL_Init(SDL_INIT_VIDEO))fail("SDL");SDL_Window *window;SDL_Renderer *r;
  if(!SDL_CreateWindowAndRenderer("Battle Chess Native - Development",1200,732,smoke?SDL_WINDOW_HIDDEN:SDL_WINDOW_RESIZABLE,&window,&r))fail("Window");
  SDL_SetRenderLogicalPresentation(r,1024,624,SDL_LOGICAL_PRESENTATION_LETTERBOX);
@@ -105,6 +106,7 @@ int main(int argc,char **argv) {
   int fd=mkstemp(save_path);if(fd<0)fail("Smoke temporary file");close(fd);
  }
  BCMotion motion={0};
+ bool time_dialog=false,time_was_paused=false;unsigned minutes=1,time_value=0;
  int promote_from=-1,promote_to=-1;
  if(smoke_promotion)smoke_promotion_position(&g);
  Worker *worker=NULL;bool running=true,computer=!smoke_promotion,paused=false;int selected=-1;
@@ -118,7 +120,9 @@ int main(int argc,char **argv) {
     * before board-input guards, so pause/undo work while search is running. */
    if(e.type==SDL_EVENT_MOUSE_BUTTON_DOWN&&e.button.button==SDL_BUTTON_LEFT&&promote_from<0){
     float x,y;if(SDL_RenderCoordinatesFromWindow(r,e.button.x,e.button.y,&x,&y)){
-     SDL_Keycode action=bc_controls_hit(x,y);if(action){e.type=SDL_EVENT_KEY_DOWN;e.key.key=action;}
+     SDL_Keycode action=0;
+     if(time_dialog){if(y>=340&&y<376){if(x>=220&&x<360)action=SDLK_RETURN;else if(x>=400&&x<540)action=SDLK_ESCAPE;}}
+     else action=bc_controls_hit(x,y);if(action){e.type=SDL_EVENT_KEY_DOWN;e.key.key=action;}
     }
    }
    if(e.type==SDL_EVENT_KEY_DOWN) {
@@ -131,6 +135,16 @@ int main(int argc,char **argv) {
      }
      continue;
     }
+    if(time_dialog){
+     if(k>=SDLK_0&&k<=SDLK_9){unsigned next=time_value*10+(unsigned)(k-SDLK_0);if(next<=32767)time_value=next;}
+     if(k==SDLK_BACKSPACE)time_value/=10;
+     if(k==SDLK_ESCAPE||k==SDLK_RETURN){
+      if(k==SDLK_RETURN&&time_value){minutes=time_value;level=10;snprintf(message,sizeof message,"Custom limit: %u minutes per move.",minutes);}
+      else snprintf(message,sizeof message,"Time limit unchanged.");
+      time_dialog=false;paused=time_was_paused;bc_audio_pause(&audio,paused);motion.last_tick=SDL_GetTicks()*1193182u/65536000u;
+     }continue;
+    }
+    if(k==SDLK_C){stop(&worker);time_was_paused=paused;paused=true;bc_audio_pause(&audio,true);time_value=0;time_dialog=true;continue;}
     if(k==SDLK_S)snprintf(message,sizeof message,"%s",save_path&&bc_game_save(g,save_path)?"Game saved.":"Save failed; previous file retained.");
     if(k==SDLK_L){
      BCGame *loaded=save_path?bc_game_load(save_path):NULL;
@@ -177,17 +191,28 @@ int main(int argc,char **argv) {
    stop(&worker);
   }
   BCGameStatus state=bc_game_status(g);const BCPosition *p=bc_game_position(g);
-  if(running&&promote_from<0&&computer&&!paused&&!worker&&!motion.active&&!bc_audio_busy(&audio)&&p->board.side==1&&(state==BC_PLAYING||state==BC_CHECK)){worker=start(g,level,smoke);if(!worker){paused=true;snprintf(message,sizeof message,"Could not start search.");}}
+  if(running&&promote_from<0&&computer&&!paused&&!worker&&!motion.active&&!bc_audio_busy(&audio)&&p->board.side==1&&(state==BC_PLAYING||state==BC_CHECK)){worker=start(g,level,minutes,smoke);if(!worker){paused=true;snprintf(message,sizeof message,"Could not start search.");}}
   SDL_SetRenderDrawColor(r,23,27,35,255);SDL_RenderClear(r);
   bc_view_draw(view,r,p,&motion,selected,perspective);
   SDL_SetRenderDrawColor(r,235,235,240,255);SDL_RenderDebugText(r,24,16,"BATTLE CHESS / NATIVE DEVELOPMENT");
   text(r,52,computer?"Human vs computer":"Two players");text(r,78,p->board.side?"Blue to move":"Red to move");text(r,104,status_name(state));
   text(r,130,promote_from>=0?"Choose promotion...":worker?"Computer thinking...":paused?"Paused":motion.active?"Piece moving...":"Ready");
-  char line[80];snprintf(line,sizeof line,"Level: %s",level?"timed":"Novice");if(level)snprintf(line,sizeof line,"Level %u (%u seconds)",level,5u<<(level-1));text(r,170,line);
+  char line[80];snprintf(line,sizeof line,"Level: %s",level?"timed":"Novice");if(level==10)snprintf(line,sizeof line,"Custom: %u minutes",minutes);else if(level)snprintf(line,sizeof line,"Level %u (%u seconds)",level,5u<<(level-1));text(r,170,line);
   bc_controls_draw(r,level,computer,paused,perspective,audio.muted);
   text(r,462,"Promotion: choose when asked");text(r,486,"Q/R/B/K or click a choice");
   snprintf(line,sizeof line,"Sound %s (%u held)",!audio.stream?"unavailable":audio.muted?"off":"on / nominal",audio.rejected);text(r,522,line);
   SDL_SetRenderDrawColor(r,235,235,240,255);SDL_RenderDebugText(r,24,600,message);
+  if(time_dialog){
+   SDL_FRect box={200,236,480,156};SDL_SetRenderDrawColor(r,32,38,50,255);SDL_RenderFillRect(r,&box);
+   SDL_SetRenderDrawColor(r,235,235,240,255);SDL_RenderDebugText(r,220,256,"Custom time per move (1-32767 minutes)");
+   snprintf(line,sizeof line,"Minutes: %u",time_value);SDL_RenderDebugText(r,220,284,line);
+   SDL_RenderDebugText(r,220,310,"Type digits; Backspace deletes; 0 cancels");
+   SDL_FRect ok={220,340,140,36},cancel={400,340,140,36};SDL_SetRenderDrawColor(r,67,78,98,255);SDL_RenderFillRect(r,&ok);SDL_RenderFillRect(r,&cancel);
+   SDL_SetRenderDrawColor(r,255,255,255,255);SDL_RenderDebugText(r,230,354,"Enter: Apply");SDL_RenderDebugText(r,410,354,"Esc: Cancel");
+  }
+  if(time_dialog&&smoke_time&&getenv("BC_TIME_SCREENSHOT")){
+   SDL_Surface *shot=SDL_RenderReadPixels(r,NULL);if(!shot||!SDL_SaveBMP(shot,getenv("BC_TIME_SCREENSHOT")))fail("Time screenshot");SDL_DestroySurface(shot);
+  }
   if(promote_from>=0){promotion_draw(r);
    if(smoke_promotion&&getenv("BC_PROMOTION_SCREENSHOT")){
     SDL_Surface *shot=SDL_RenderReadPixels(r,NULL);
@@ -210,7 +235,19 @@ int main(int argc,char **argv) {
    SDL_DestroySurface(shot);
   }
   if(!SDL_RenderPresent(r))fail("Present");
-  if(smoke_controls){
+  if(smoke_time){
+   static const SDL_Keycode keys[]={SDLK_C,SDLK_2,SDLK_RETURN,SDLK_C,SDLK_9,SDLK_ESCAPE,SDLK_C,SDLK_RETURN};
+   if(smoke_stage==3||smoke_stage==6||smoke_stage==8){
+    BCSearchConfig check;if(time_dialog||paused||level!=10||minutes!=2||!bc_difficulty_config(level,minutes,&check)||check.time_budget_ms!=120000)fail("Custom time state");
+   }
+   if(smoke_stage==3){worker=start(g,level,minutes,false);if(!worker||worker->config.time_budget_ms!=120000)fail("Custom worker limit");stop(&worker);}
+   if(smoke_stage<8){SDL_Event key={0};key.type=SDL_EVENT_KEY_DOWN;key.key.key=keys[smoke_stage];
+    if(smoke_stage==0){key.type=SDL_EVENT_MOUSE_BUTTON_DOWN;key.button.button=SDL_BUTTON_LEFT;if(!SDL_RenderCoordinatesToWindow(r,710,560,&key.button.x,&key.button.y))fail("Custom time click");}
+    if(!SDL_PushEvent(&key))fail("Custom time key");smoke_stage++;
+   }else running=false;
+   if(SDL_GetTicks()-started>5000)fail("Custom time timeout");
+  }
+  else if(smoke_controls){
    /* Every click goes through viewport mapping and the normal command path. */
    static const float clicks[][2]={{710,312},{710,222},{880,222},{858,312},{858,312},{710,348},{710,276},{858,348},{710,384},{858,384},{710,420},{858,276},{858,420}};
    if(smoke_stage==1&&computer)fail("Controls player toggle");
@@ -220,7 +257,7 @@ int main(int argc,char **argv) {
    if(smoke_stage==8&&strcmp(message,"Game loaded with complete move history."))fail("Controls save/load");
    if(smoke_stage==9&&perspective)fail("Controls view");
    if(smoke_stage==10&&audio.muted)fail("Controls mute");
-   if(smoke_stage==11){worker=start(g,9,true);if(!worker)fail("Controls active worker");}
+   if(smoke_stage==11){worker=start(g,9,minutes,true);if(!worker)fail("Controls active worker");}
    if(smoke_stage==12&&(worker||bc_game_plies(g)))fail("Controls undo cancels worker");
    if(smoke_stage<sizeof clicks/sizeof clicks[0]){
     SDL_Event click={0};click.type=SDL_EVENT_MOUSE_BUTTON_DOWN;click.button.button=SDL_BUTTON_LEFT;
@@ -268,7 +305,7 @@ int main(int argc,char **argv) {
    }
    else if(smoke_stage==2){
     if(bc_game_plies(g)!=2||bc_game_position(g)->board.side!=0)fail("Smoke restored history");
-    worker=start(g,9,true);if(!worker)fail("Smoke worker");stop(&worker);
+    worker=start(g,9,minutes,true);if(!worker)fail("Smoke worker");stop(&worker);
     bc_game_undo(g);bc_game_undo(g);if(bc_game_plies(g))fail("Smoke undo");
     SDL_Event key={0};key.type=SDL_EVENT_KEY_DOWN;key.key.key=SDLK_V;
     if(!SDL_PushEvent(&key))fail("Smoke view toggle");
@@ -286,7 +323,7 @@ int main(int argc,char **argv) {
  bc_audio_close(&audio);
  bc_view_destroy(view);
  SDL_DestroyRenderer(r);SDL_DestroyWindow(window);SDL_Quit();
- if(smoke&&smoke_stage!=(smoke_controls?13u:4u))return 1;
+ if(smoke&&smoke_stage!=(smoke_time?8u:smoke_controls?13u:4u))return 1;
  if(smoke_book&&book_moves!=1){fprintf(stderr,"Expected one book reply, got %u\n",book_moves);return 1;}
  puts("Native board closed cleanly.");return 0;
 }
