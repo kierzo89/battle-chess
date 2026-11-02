@@ -442,3 +442,30 @@ Next: integrate original placement/offset tasks and concurrent capture branches
 with the board renderer, preserving the recovered command dependencies. Current
 live captures still update the board without a battle; no capture presentation
 completion claim. Neighbour reactions, sound, search/menu fidelity remain open.
+
+### Capture positioning task primitives (2026-11-02)
+
+Added placement.c for recovered6AB1 effect and70EF offset tasks, consuming the
+same authenticated piece lists/control streams as walking. Effect emits
+floor(frame_count/2)+1 frames and reaches the target on its final frame. Half/
+full offsets emit floor(frame_count/2) or frame_count frames, finish on that
+last emission, and update actor.old_x/y to the target while preserving the
+last rendered position at interpolation step(count-1). Do not force that final
+visible position to the target or confuse it with the subsequent task anchor.
+Sound dispatch hooks and original command_active readiness handling are kept.
+
+Validation: all576 retained native task cases agree on every emitted frame,
+readiness call and completion call across modes, profiles, kinds/orientations
+and command_active values. Coordinate outputs separately match the recovered
+signed-interpolation formula, already exercised against recovered C elsewhere;
+these coordinates are source-derived, since original task traces substituted
+interpolation. Invalid modes/kinds/orientations/coordinate bounds reject.
+UBSan passes the same corpus. This proves task primitives, not original command
+producer policy (which may skip/replace tasks in command_active mode).
+
+The component is linked but not yet used by live capture choreography. Next:
+connect a dependency-aware multi-actor command executor, retain both displayed
+positions and task anchors, then bind placement and synchronized capture tasks
+to renderer frames. The current desktop gameplay remains non-capture animated;
+visible capture battles and neighbour reactions remain unfinished, along with
+audio and recorded remaining search/menu fidelity obligations. Goal stays active.

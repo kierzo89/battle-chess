@@ -196,3 +196,9 @@ add_library(capture_oracle SHARED "${CAPTURE_SOURCE}" src/capture.c src/presenta
 target_include_directories(capture_oracle PRIVATE src)
 add_test(NAME recovered_capture_tasks COMMAND ${Python3_EXECUTABLE}
  "${CMAKE_CURRENT_SOURCE_DIR}/tests/test_capture.py" $<TARGET_FILE:capture_oracle>)
+
+target_sources(bc_presentation PRIVATE src/placement.c)
+add_library(placement_oracle SHARED "${WALK_SOURCE}" src/placement.c src/presentation.c)
+target_include_directories(placement_oracle PRIVATE src)
+add_test(NAME recovered_placement_tasks COMMAND ${Python3_EXECUTABLE}
+ "${CMAKE_CURRENT_SOURCE_DIR}/tests/test_placement.py" $<TARGET_FILE:placement_oracle>)

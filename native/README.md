@@ -265,3 +265,8 @@ label and full-port goal remain in place.
 The capture-task engine now has original frame/control sequences and a tested
 attacker/defender completion barrier (288 retained cases and144 paired runs).
 It is not yet connected to board motion: visible capture battles remain pending.
+
+Capture-positioning primitives are now implemented and checked against576
+retained effect/offset task traces. They preserve the original distinction
+between a displayed position and the anchor used by the following task.
+Multi-actor command execution and visible battle integration remain pending.
