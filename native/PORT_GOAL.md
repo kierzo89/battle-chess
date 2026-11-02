@@ -548,3 +548,27 @@ is still not claimed: promotion presentation, all board contexts and complete
 original-machine scheduler/renderer equivalence require further work. Sound and
 remaining search/menu fidelity stay open. Original snapshots are unchanged and
 the full-port goal remains active.
+
+### Promotion presentation normalization resolved (2026-11-02)
+
+Recovered9371 explicitly copies the history move, changes promotion kind to
+pawn6, clears its special flag and calls BB0E before9371's caller invokes
+finish93D6 to redraw the selected piece. The recovered redraw7A61 uses queue_piece
+at the destination. Stage generation now pins promote_ui_match.c and applies
+this normalization after validating the original legal promotion. Promotion
+captures therefore use pawn attack choreography, not the future piece's battle.
+Choreography remembers the selected kind and redraws its standing pose only
+when the complete pawn task program finishes. Both quiet and capture promotion
+moves are routed through this presentation in the desktop game.
+
+Validation: unchanged recovered9371 C confirms normalization for all legal
+kind/flag classes. All16 full combinations (both sides, four choices, quiet and
+capture) complete with pawn motion, correct capture task count/cleanup, selected
+final actor, source removal and immutable input. The general stage-plan test no
+longer excludes promotions. Existing original-kind mapping and standing-frame
+proofs apply to final redraw; no invented transformation animation was added.
+
+UI difference remains explicit: Q/R/B/K preselect a piece before moving; the
+original blocking sprite popup after pawn arrival has not been reproduced.
+Audio, remaining menu/search fidelity and broader end-to-end presentation
+coverage remain open. The full-port goal stays active and originals unchanged.

@@ -70,7 +70,7 @@ static void tick_commands(BCMotion *m){
 bool bc_motion_begin_facing(BCMotion *m,const BCPosition *before,BCMove move,uint64_t tick,bool perspective,const uint8_t *facing){
  uint8_t saved[120]={0};if(facing)memcpy(saved,facing,sizeof saved);
  memset(m,0,sizeof *m);m->perspective=perspective;
- if(move.capture){
+ if(move.capture||(move.special&&move.kind>=2&&move.kind<=5)){
   if(!perspective)return false;
   m->battle_mode=true;m->last_tick=tick;
   m->active=bc_choreography_begin(&m->battle,before,move,facing?saved:NULL);

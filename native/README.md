@@ -287,3 +287,8 @@ Neighbouring-piece reactions now run on knight paths, including captures. Pieces
 step aside with the original seven-position task and return to their anchors;
 this removes the previous operation8 capture fallback. The original task matches
 968 source-comparison cases, and occupied-path capture integration is tested.
+
+Promotion presentation now follows the recovered caller: animate the pawn move
+and any capture first, then redraw the selected promoted piece. All16 combinations
+of side, choice and capture/quiet move are tested. Q/R/B/K still preselect the
+choice; the original after-arrival popup is not yet reproduced.

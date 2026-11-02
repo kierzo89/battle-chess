@@ -19,7 +19,7 @@ int main(void){
  for(unsigned turn=0;turn<100;turn++){
   BCMoveList l;bc_generate_legal(&p,&l);if(!l.count)break;
   for(size_t i=0;i<l.count;i++){
-   BCMove m=l.moves[i];if(m.special&&m.kind!=1&&m.kind!=6)continue;
+   BCMove m=l.moves[i];
    assert(bc_stage_plan(&p,m,&plan));assert(plan.count&&plan.count<BC_STAGE_MAX);
    for(unsigned j=0;j<plan.count;j++){BCStageCommand c=plan.commands[j];assert(c.square<64&&c.operation>=1&&c.operation<=8);assert(c.parent==255||c.parent<j);}
    plans++;

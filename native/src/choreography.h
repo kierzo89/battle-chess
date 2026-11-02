@@ -20,7 +20,7 @@ typedef struct {
 typedef struct {
  BCCommands commands;BCVisualActor actors[32];unsigned count;
  int actor_map[120];BCActorTask tasks[4];BCCaptureSync capture;
- unsigned attacker_kind,victim_kind;bool done,failed;
+ unsigned attacker_kind,victim_kind,promotion_kind,promotion_square;bool done,failed;
  uint64_t revision;BCSoundEvent sound;void *sound_context;
 } BCChoreography;
 /* Native task composition. Does not mutate authoritative chess state.

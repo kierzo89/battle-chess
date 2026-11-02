@@ -40,12 +40,15 @@ table=(a.root/'matching/src/data/capture_record_mapping_11ac.c').read_bytes()
 if hashlib.sha256(table).hexdigest()!='57655210c3d430cabaab49f0de5a52f81a7828839d604504011145ca0fcbe1c7':raise ValueError('Unpinned capture mapping')
 mapping=(a.root/'matching/src/data/game_kind_map.c').read_bytes()
 if hashlib.sha256(mapping).hexdigest()!='205edda8d4dbed06035b90c85b1b35288084eedd538acbbb6f8d815b114b5f20':raise ValueError('Unpinned piece mapping')
+promotion=(a.root/'matching/src/promote_ui_match.c').read_bytes()
+if hashlib.sha256(promotion).hexdigest()!='cdb59b04186ad701f31b4a27169524c2acce56ee4501e07b4fdc456580da70ff':raise ValueError('Unpinned promotion normalization')
 footer='''
 bool bc_stage_plan(const BCPosition *before,BCMove move,BCStagePlan *out){
  if(!before||!out)return false;
  memset(out,0,sizeof *out);BCPosition check=*before;
  if(!bc_play(&check,move))return false;
- if(move.special&&move.kind!=1&&move.kind!=6)return false;
+ /* Original9371 calls BB0E with pawn kind and cleared promotion flag. */
+ if(move.special&&move.kind>=2&&move.kind<=5){move.kind=6;move.special=0;}
  const Byte map[7]={0,2,5,6,1,3,4};
  for(unsigned i=0;i<64;i++){unsigned sq=((7-i/8)*16)+(i%8);BCCell c=before->board.cells[sq];cells[i]=c.kind?(map[c.kind]|(c.side?64:0)):0;}
  plan=out;flushed=0;animation_busy=record_latch=animation_done=0;current_side=0;modes[0]=modes[1]=0;

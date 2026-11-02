@@ -130,7 +130,7 @@ set(STAGE_SOURCE "${CMAKE_CURRENT_BINARY_DIR}/generated/stage.c")
 add_custom_command(OUTPUT "${STAGE_SOURCE}"
  COMMAND ${Python3_EXECUTABLE} "${CMAKE_CURRENT_SOURCE_DIR}/tools/port_stage.py"
  --root "${CMAKE_CURRENT_SOURCE_DIR}/.." --output "${STAGE_SOURCE}"
- DEPENDS tools/port_stage.py ../matching/src/animation_stage_match.c
+ DEPENDS tools/port_stage.py ../matching/src/animation_stage_match.c ../matching/src/promote_ui_match.c
  ../matching/src/data/capture_record_mapping_11ac.c ../matching/src/data/game_kind_map.c VERBATIM)
 target_sources(bc_presentation PRIVATE "${STAGE_SOURCE}")
 # Keep the recovered queue handle local even though the original never reads it.
@@ -230,3 +230,7 @@ add_executable(test_sidestep tests/test_sidestep.c)
 target_link_libraries(test_sidestep PRIVATE bc_presentation)
 target_compile_options(test_sidestep PRIVATE -Wall -Wextra -Wpedantic -Werror -UNDEBUG)
 add_test(NAME recovered_neighbour_task COMMAND test_sidestep)
+add_executable(test_promotion_animation tests/test_promotion_animation.c)
+target_link_libraries(test_promotion_animation PRIVATE bc_presentation)
+target_compile_options(test_promotion_animation PRIVATE -Wall -Wextra -Wpedantic -Werror -UNDEBUG)
+add_test(NAME native_promotion_animation COMMAND test_promotion_animation)

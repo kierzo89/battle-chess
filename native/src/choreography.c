@@ -105,11 +105,22 @@ bool bc_choreography_begin(BCChoreography *g,const BCPosition *p,BCMove move,con
   a->facing=facing?facing[s]:bc_geometry_facing(a->piece.kind,a->piece.side,s);
   (void)bc_geometry_anchor(true,s,&a->x,&a->y);a->old_x=a->x;a->old_y=a->y;g->actor_map[s]=(int)g->count++;
  }
- g->attacker_kind=move.kind;g->victim_kind=move.capture;
+ if(move.special&&move.kind>=2&&move.kind<=5){g->promotion_kind=move.kind;g->promotion_square=move.to;}
+ g->attacker_kind=g->promotion_kind?6:move.kind;g->victim_kind=move.capture;
  if(!bc_commands_begin(&g->commands,&plan,start,g)){g->failed=true;return false;}return true;
 }
 int bc_choreography_tick(BCChoreography *g){
  if(!g||g->failed)return -1;
  int r=bc_commands_tick(&g->commands,start,step,g);
- if(r<0)g->failed=true;else if(r==1)g->done=true;return r;
+ if(r<0)g->failed=true;
+ else if(r==1){
+  if(!g->done&&g->promotion_kind){
+   int id=g->actor_map[g->promotion_square];if(id<0){g->failed=true;return -1;}
+   BCVisualActor *a=&g->actors[id];a->piece.kind=g->promotion_kind;
+   a->facing=bc_geometry_facing(a->piece.kind,a->piece.side,g->promotion_square);
+   a->image=BC_ACTOR_STANDING;a->revision=++g->revision;
+  }
+  g->done=true;
+ }
+ return r;
 }
