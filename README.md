@@ -90,6 +90,10 @@ Older checkpoint documents describe intermediate states; their percentages and u
 
 ## DOS matching build and reproducibility limits
 
+See the **[DOS rebuild guide](docs/BUILD_DOS.md)** for Microsoft C 5.00, per-file
+compiler flags, MASM/LINK/EXEPACK commands, environment preparation and exact
+output verification.
+
 The DOS reconstruction is a **source/evidence snapshot of the verified workspace**, not yet a turnkey portable DOS build distribution. The Linux port has its own build instructions above. The frozen recipes retain `/home/kierzo/chess` paths and exact dependency hashes. Do not simply rewrite those paths or regenerate manifests and treat the result as already verified.
 
 The original workspace command is:
