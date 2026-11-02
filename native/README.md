@@ -255,3 +255,9 @@ The queen continuation discrepancy now has a native XOR compositor solution.
 It matches all2112 retained cumulative frames and fresh original-machine checks
 of the affected turn. These components still need live command/render integration;
 the desktop game currently retains its walking-only movement presentation.
+
+Perspective gameplay now plays original turning frames, terminal resting turns
+and rook face sequences through native XOR composition. Facing is retained
+between moves. The rectangular view remains the faster static-piece view.
+Capture battles, neighbour reactions and sound remain pending; the development
+label and full-port goal remain in place.

@@ -42,13 +42,21 @@ path='matching/src/data/frame_index_flat_0166.c'
 if hashlib.sha256(frame.encode()).hexdigest()!=pins[path]:raise ValueError('Frame index changed')
 text+='static const '+frame[frame.index('unsigned char'):]
 text+='''
-unsigned bc_geometry_frame(unsigned kind,unsigned side,unsigned square){
+unsigned bc_geometry_facing(unsigned kind,unsigned side,unsigned square){
  if(kind<1||kind>6||side>1||square>=120||(square&0x88))return 99;
  const unsigned map[7]={0,2,5,6,1,3,4};unsigned k=map[kind],facing;
  if(k==6)facing=(square&7)<4?3:7;
  else if(k==1)facing=(square&7)<4?(side?1:3):(side?7:5);
  else facing=side?0:4;
- return frame_index_flat[(facing<<3)|k];
+ return facing;
+}
+unsigned bc_geometry_faced_frame(unsigned kind,unsigned facing){
+ const unsigned map[7]={0,2,5,6,1,3,4};
+ if(kind<1||kind>6||facing>7)return 99;
+ return frame_index_flat[(facing<<3)|map[kind]];
+}
+unsigned bc_geometry_frame(unsigned kind,unsigned side,unsigned square){
+ return bc_geometry_faced_frame(kind,bc_geometry_facing(kind,side,square));
 }
 '''
 a.output.parent.mkdir(parents=True,exist_ok=True);a.output.write_text(text)

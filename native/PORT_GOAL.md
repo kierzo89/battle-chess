@@ -390,3 +390,29 @@ new compositor and renderer. The current desktop game still shows walking,
 without these turning operations. Do not equate this component milestone with
 finished visible turns or a complete port. Capture/audio/search/menu obligations
 remain unchanged; full goal stays active.
+
+### Live turns and rook face transitions (2026-11-02)
+
+Connected the recovered operation2 turn executor and operation6 rook face lists
+to perspective non-capture gameplay. The motion adapter now retains terminal
+turns and explicit transfers instead of extracting walking commands alone.
+BCP4 bundles authenticated raw piece delta planes and logical base widths;
+board_view uses the verified C XOR compositor and caches each emitted visual
+revision. Persistent facing carries across moves when the visual board agrees
+with the next authoritative position; new/load/undo/view changes invalidate it.
+The rectangular board keeps its existing static eight-step movement.
+
+Validation: all20 opening moves now exercise turning, walking, terminal turns
+and exact final occupied-cell kind/side transfer, without changing chess state.
+Both castling tests pass including rook face sequences. Original480 turn traces
+and2112 compositor comparisons remain unchanged. Native UI smoke now takes
+about13.1 seconds with turn delays; its bound is25 seconds (CTest30), retaining
+all move, reply, save/load, undo, cancellation and view-switch assertions.
+A rendered turn screenshot was inspected. Full22-test suite passes.
+
+Limits: this serial non-capture adapter does not implement the complete original
+command-tree scheduler. Neighbour operation8 is explicitly skipped, captures
+are still excluded, and original wallclock/input-dispatch equivalence is not
+claimed. Rook face list selection follows recovered6167/724D; the complete
+original simultaneous actor scheduling remains to port. Capture battles,
+neighbour reactions, audio and remaining search/menu fidelity are still open.

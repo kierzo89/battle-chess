@@ -37,7 +37,7 @@ static bool move_between(BCGame *g,int from,int to,unsigned promotion,BCMotion *
   if(m.special&&m.kind>=2&&m.kind<=5&&m.kind!=promotion)continue;
   BCPosition before=*bc_game_position(g);
   if(!bc_game_move(g,m))return false;
-  (void)bc_motion_begin(motion,&before,m,SDL_GetTicks()*1193182u/65536000u,perspective);
+  (void)bc_motion_begin_facing(motion,&before,m,SDL_GetTicks()*1193182u/65536000u,perspective,motion->visual_valid&&!memcmp(motion->display.cells,before.board.cells,sizeof before.board.cells)?motion->facing:NULL);
   return true;
  }
  return false;
@@ -73,14 +73,14 @@ int main(int argc,char **argv) {
     if(k==SDLK_S)snprintf(message,sizeof message,"%s",save_path&&bc_game_save(g,save_path)?"Game saved.":"Save failed; previous file retained.");
     if(k==SDLK_L){
      BCGame *loaded=save_path?bc_game_load(save_path):NULL;
-     if(loaded){stop(&worker);bc_game_destroy(g);g=loaded;selected=-1;paused=false;motion.active=false;snprintf(message,sizeof message,"Game loaded with complete move history.");}
+     if(loaded){stop(&worker);bc_game_destroy(g);g=loaded;selected=-1;paused=false;motion.active=false;motion.visual_valid=false;snprintf(message,sizeof message,"Game loaded with complete move history.");}
      else snprintf(message,sizeof message,"Load failed; current game retained.");
     }
-    if(k==SDLK_V){motion.active=false;perspective=!perspective;selected=-1;}
+    if(k==SDLK_V){motion.active=false;motion.visual_valid=false;perspective=!perspective;selected=-1;}
     if(k==SDLK_ESCAPE)running=false;
-    if(k==SDLK_N){stop(&worker);bc_game_destroy(g);g=bc_game_create(NULL);if(!g)fail("New game");selected=-1;paused=false;motion.active=false;}
-    if(k==SDLK_U){stop(&worker);bc_game_undo(g);if(computer&&bc_game_position(g)->board.side==1)bc_game_undo(g);selected=-1;paused=false;motion.active=false;}
-    if(k==SDLK_H){stop(&worker);computer=!computer;paused=false;selected=-1;motion.active=false;}
+    if(k==SDLK_N){stop(&worker);bc_game_destroy(g);g=bc_game_create(NULL);if(!g)fail("New game");selected=-1;paused=false;motion.active=false;motion.visual_valid=false;}
+    if(k==SDLK_U){stop(&worker);bc_game_undo(g);if(computer&&bc_game_position(g)->board.side==1)bc_game_undo(g);selected=-1;paused=false;motion.active=false;motion.visual_valid=false;}
+    if(k==SDLK_H){stop(&worker);computer=!computer;paused=false;selected=-1;motion.active=false;motion.visual_valid=false;}
     if(k==SDLK_SPACE){stop(&worker);paused=!paused;motion.last_tick=SDL_GetTicks()*1193182u/65536000u;}
     if(k>=SDLK_0&&k<=SDLK_9){stop(&worker);level=(unsigned)(k-SDLK_0);paused=false;}
     if(k==SDLK_Q)promotion=2;if(k==SDLK_R)promotion=3;if(k==SDLK_B)promotion=4;if(k==SDLK_K)promotion=5;
@@ -98,7 +98,7 @@ int main(int argc,char **argv) {
   if(worker&&atomic_load_explicit(&worker->done,memory_order_acquire)) {
    BCPosition before=*bc_game_position(g);
    if(worker->ok&&worker->result.has_move&&!cancelled(worker)&&bc_game_move(g,worker->result.move)){
-    (void)bc_motion_begin(&motion,&before,worker->result.move,SDL_GetTicks()*1193182u/65536000u,perspective);
+    (void)bc_motion_begin_facing(&motion,&before,worker->result.move,SDL_GetTicks()*1193182u/65536000u,perspective,motion.visual_valid&&!memcmp(motion.display.cells,before.board.cells,sizeof before.board.cells)?motion.facing:NULL);
     snprintf(message,sizeof message,"Engine depth %u, %llu candidates",worker->result.depth,(unsigned long long)worker->result.nodes);
    }
    else {snprintf(message,sizeof message,"Search stopped. Space resumes.");paused=true;}
@@ -119,6 +119,11 @@ int main(int argc,char **argv) {
   if(smoke&&!smoke_stage&&getenv("BC_SCREENSHOT")) {
    SDL_Surface *shot=SDL_RenderReadPixels(r,NULL);
    if(!shot||!SDL_SaveBMP(shot,getenv("BC_SCREENSHOT")))fail("Screenshot");
+   SDL_DestroySurface(shot);
+  }
+  if(smoke&&motion.active&&motion.operation==2&&motion.pixel_count==3&&getenv("BC_TURN_SCREENSHOT")) {
+   SDL_Surface *shot=SDL_RenderReadPixels(r,NULL);
+   if(!shot||!SDL_SaveBMP(shot,getenv("BC_TURN_SCREENSHOT")))fail("Turn screenshot");
    SDL_DestroySurface(shot);
   }
   if(smoke&&motion.active&&motion.frame==4&&getenv("BC_MOTION_SCREENSHOT")) {
@@ -155,7 +160,7 @@ int main(int argc,char **argv) {
     if(perspective==initial_perspective||bc_game_plies(g))fail("Smoke view state");
     smoke_stage=4;running=false;
    }
-   if(SDL_GetTicks()-started>12000)fail("Smoke timeout");
+   if(SDL_GetTicks()-started>25000){fprintf(stderr,"Smoke state: stage=%u plies=%zu active=%d failed=%d pc=%u/%u op=%u frame=%u actor=%u\n",smoke_stage,bc_game_plies(g),motion.active,motion.failed,motion.pc,motion.plan.count,motion.operation,motion.frame,motion.actor);fail("Smoke timeout");}
   }
   SDL_Delay(8);
  }

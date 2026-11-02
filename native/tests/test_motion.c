@@ -16,6 +16,23 @@ int main(void){
   }
   assert(!m.active);assert(!memcmp(&p,&original,sizeof p));
  }
+ /* Exercise every opening move with the retained turn/walk/terminal-turn
+  * program, including three-leg knight paths and complete visual transfer. */
+ for(size_t i=0;i<list.count;i++){
+  BCMotion m;assert(bc_motion_begin(&m,&p,list.moves[i],0,true));
+  bool turned=false,walked=false;
+  for(unsigned tick=2;m.active&&tick<1000;tick+=2){
+   turned|=m.operation==2;walked|=m.operation==1;
+   bc_motion_tick(&m,tick,false);
+  }
+  assert(!m.active&&!m.failed&&turned&&walked);
+  BCPosition after=p;assert(bc_play(&after,list.moves[i]));
+  for(unsigned sq=0;sq<120;sq++)if(!(sq&0x88)){
+   assert(m.display.cells[sq].kind==after.board.cells[sq].kind);
+   if(after.board.cells[sq].kind)assert(m.display.cells[sq].side==after.board.cells[sq].side);
+  }
+  assert(m.facing[list.moves[i].to]==4);
+ }
  uint8_t data[33]={0};put(data,4,1);put(data,0,3);put(data,7,3);put(data,116,9);
  memset(&p,0,sizeof p);assert(bc_unpack(&p.board,data));p.ep=-1;p.fullmove=1;p.castle[0]=3;
  bc_generate_legal(&p,&list);unsigned castles=0;

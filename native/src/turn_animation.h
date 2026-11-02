@@ -6,6 +6,7 @@ typedef struct {
  const unsigned *tokens;
 } BCTurnSequence;
 const BCTurnSequence *bc_turn_sequence(unsigned kind,unsigned orientation,int direction,unsigned profile);
+const BCTurnSequence *bc_face_sequence(unsigned argument);
 typedef struct {
  BCTaskClock clock;
  const BCTurnSequence *sequence;

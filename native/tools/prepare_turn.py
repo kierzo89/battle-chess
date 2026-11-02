@@ -32,4 +32,15 @@ const BCTurnSequence *bc_turn_sequence(unsigned kind,unsigned orientation,int di
  const unsigned map[]={0,2,5,6,1,3,4};return &sequences[profile][map[kind]-1][orientation][direction>0];
 }
 '''
+text+='static const BCTurnSequence faces[4]={\n'
+face_entries=[]
+for arg in range(4):
+ record=read(f'assets/recovered/animations/pair-05-list-{14+arg:02d}/sequence.json')
+ tokens=[record['initial_frame']['native_global_index']]+[100+x for x in record['delta_indices']]
+ face_entries.append(tokens)
+# Place the token arrays before the face descriptor table.
+text=text.removesuffix('static const BCTurnSequence faces[4]={\n')
+for arg,tokens in enumerate(face_entries):text+='static const unsigned face_'+str(arg)+'[]={'+','.join(map(str,tokens))+'};\n'
+text+='static const BCTurnSequence faces[4]={'+','.join('{0,0,5,'+str(14+i)+','+str(len(t))+',face_'+str(i)+'}' for i,t in enumerate(face_entries))+'};\n'
+text+='const BCTurnSequence *bc_face_sequence(unsigned arg){return arg<4?&faces[arg]:0;}\n'
 a.output.parent.mkdir(parents=True,exist_ok=True);a.output.write_text(text)

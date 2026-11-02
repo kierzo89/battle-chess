@@ -9,7 +9,7 @@ def read(name):
  return data
 base='assets/recovered/'
 meta=json.loads(read(base+'setups/report.json'));palette=json.loads(read(base+'images/palette.json'))['rgb6']
-out=b'BCP3'+bytes((v<<2)|(v>>4) for v in palette)
+out=b'BCP4'+bytes((v<<2)|(v>>4) for v in palette)
 for setup,background in ((0,0),(2,1)):
  packed=read(base+f'bank1/startup-{background:02d}.background-packed.bin')
  if len(packed)!=32000:raise ValueError('Background extent')
@@ -19,7 +19,7 @@ for setup,background in ((0,0),(2,1)):
  for f in frames:
   data=read(base+'setups/'+f['indices_file'])
   if len(data)!=f['storage_width']*f['height'] or max(data)>15:raise ValueError('Sprite extent/palette')
-  out+=struct.pack('<HHHhh',f['native_global_index'],f['storage_width'],f['height'],f['anchor_x'],f['anchor_y'])+data
+  out+=struct.pack('<HHHHhh',f['native_global_index'],f['width'],f['storage_width'],f['height'],f['anchor_x'],f['anchor_y'])+data
 timing=json.loads(read(base+'metadata/timing/timelines.json'))
 keys=sorted({(item['frames'][0]['bank_pair'],item['frames'][0]['list_index']) for item in timing['move_sequences']})
 records=[]
@@ -31,6 +31,13 @@ for pair,seq in keys:
   if len(pixels)!=f['storage_width']*f['height'] or max(pixels)>15:raise ValueError('Walking frame extent')
   records.append(struct.pack('<HHHHHhh',pair,seq,f['step'],f['storage_width'],f['height'],f['anchor_x'],f['anchor_y'])+pixels)
 out+=struct.pack('<H',len(records))+b''.join(records)
+rawbase=base+'metadata/bank2-records/'
+rawrecords=[r for r in json.loads(read(rawbase+'report.json'))['records'] if r['pair']<6]
+out+=struct.pack('<H',len(rawrecords))
+for r in rawrecords:
+ pixels=read(rawbase+r['indices_file'])
+ if len(pixels)!=r['storage_width']*r['height'] or (pixels and max(pixels)>15):raise ValueError('Delta plane extent')
+ out+=struct.pack('<HHHHhh',r['pair'],r['record'],r['width'],r['height'],r['anchor_x'],r['anchor_y'])+pixels
 # Generated output is not an original asset or matching-credit claim.
 a.output.parent.mkdir(parents=True,exist_ok=True);a.output.write_bytes(out)
 print(f'Authenticated two backgrounds, 53 setup frames and {len(records)} walking frames')
