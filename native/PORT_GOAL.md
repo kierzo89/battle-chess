@@ -469,3 +469,28 @@ positions and task anchors, then bind placement and synchronized capture tasks
 to renderer frames. The current desktop gameplay remains non-capture animated;
 visible capture battles and neighbour reactions remain unfinished, along with
 audio and recorded remaining search/menu fidelity obligations. Goal stays active.
+
+### Four-slot dependency scheduler (2026-11-02)
+
+Added commands.c: children start after their parent completes; siblings enqueue
+concurrently. The recovered four-slot pool and append scheduling are preserved,
+including dispatch67FB reading the completed task's next pointer after freeing
+and possibly reusing that exact slot for a child. A naive copied-next iterator
+would change which actors advance within a dispatch. Separate recorded roots
+remain serialized for recursive castle/EP stages. Invalid topology, unsupported
+callbacks and pool exhaustion fail rather than inventing extra actor capacity.
+
+Validation: 1000 deterministic two-branch programs with varied task durations
+match unchanged recovered task_queue_match.c on every dispatch return, visit
+order and live-slot count. The test substitutes only individual task completion,
+command initialization and the recovered pool contracts; it is a source-level
+queue equivalence check, not whole original-machine capture proof. ASan/UBSan
+pass the same harness. Additional tests cover captured plan dependencies from
+e2-e4,d7-d5,e4xd5, serialized roots, reused-slot ordering and rejection cases.
+
+The scheduler is linked as a reusable component. Live board motion still uses
+the older serial non-capture adapter. Next integration must attach per-slot
+turn/move/placement/capture state and render both actors while preserving source
+anchors, visible positions, actor identity and transfer/removal timing. No new
+visible-battle completion is claimed. Full port remains active with capture,
+neighbour, audio and remaining search/menu obligations intact.

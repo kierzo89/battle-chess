@@ -270,3 +270,8 @@ Capture-positioning primitives are now implemented and checked against576
 retained effect/offset task traces. They preserve the original distinction
 between a displayed position and the anchor used by the following task.
 Multi-actor command execution and visible battle integration remain pending.
+
+A four-slot command dependency scheduler is now validated against unchanged
+recovered queue code across1000 programs. It preserves concurrent branches and
+original slot-reuse dispatch ordering. Its connection to live capture rendering
+is still pending.

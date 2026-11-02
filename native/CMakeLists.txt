@@ -202,3 +202,13 @@ add_library(placement_oracle SHARED "${WALK_SOURCE}" src/placement.c src/present
 target_include_directories(placement_oracle PRIVATE src)
 add_test(NAME recovered_placement_tasks COMMAND ${Python3_EXECUTABLE}
  "${CMAKE_CURRENT_SOURCE_DIR}/tests/test_placement.py" $<TARGET_FILE:placement_oracle>)
+
+target_sources(bc_presentation PRIVATE src/commands.c)
+add_executable(test_commands tests/test_commands.c)
+target_link_libraries(test_commands PRIVATE bc_presentation)
+target_compile_options(test_commands PRIVATE -Wall -Wextra -Wpedantic -Werror -UNDEBUG)
+add_test(NAME recovered_command_dependencies COMMAND test_commands)
+add_executable(test_original_commands tests/test_original_commands.c)
+target_link_libraries(test_original_commands PRIVATE bc_presentation)
+target_compile_options(test_original_commands PRIVATE -Wall -Wextra -Wpedantic -Werror -UNDEBUG)
+add_test(NAME recovered_command_queue_equivalence COMMAND test_original_commands)
