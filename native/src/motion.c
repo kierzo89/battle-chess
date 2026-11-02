@@ -70,17 +70,19 @@ static void tick_commands(BCMotion *m){
 bool bc_motion_begin_audio(BCMotion *m,const BCPosition *before,BCMove move,uint64_t tick,bool perspective,const uint8_t *facing,BCSoundEvent sound,void *context){
  uint8_t saved[120]={0};if(facing)memcpy(saved,facing,sizeof saved);
  memset(m,0,sizeof *m);m->perspective=perspective;m->sound=sound;m->sound_context=context;
- if(move.capture||(move.special&&move.kind>=2&&move.kind<=5)){
+ BCPosition verify=*before;if(!bc_play(&verify,move))return false;
+ /* En passant has capture==0 in the move ABI, but BB0E first stages a
+  * pawn battle on the victim square, then walks to the empty destination. */
+ if(move.capture||(move.special&&move.kind>=2&&move.kind<=6)){
   if(!perspective)return false;
-  m->battle_mode=true;m->last_tick=tick;
+  m->battle_mode=true;m->last_tick=tick;m->display=verify.board;
   m->active=bc_choreography_begin(&m->battle,before,move,facing?saved:NULL);
   m->battle.sound=sound;m->battle.sound_context=context;
   m->failed=!m->active;return m->active;
  }
- BCPosition verify=*before;if(!bc_play(&verify,move))return false;
  BCStagePlan plan;if(!bc_stage_plan(before,move,&plan))return false;
  if(perspective)for(unsigned i=0;i<plan.count;i++)if(plan.commands[i].operation==8){
-  m->battle_mode=true;m->last_tick=tick;
+  m->battle_mode=true;m->last_tick=tick;m->display=verify.board;
   m->active=bc_choreography_begin(&m->battle,before,move,facing?saved:NULL);
   m->battle.sound=sound;m->battle.sound_context=context;
   m->failed=!m->active;return m->active;
@@ -114,7 +116,12 @@ void bc_motion_tick(BCMotion *m,uint64_t tick,bool pending){
  if(!m->active||!bc_presentation_tick(tick,&m->last_tick,pending))return;
  if(m->battle_mode){
   int result=bc_choreography_tick(&m->battle);
-  if(result!=0){m->active=false;m->failed=result<0;m->visual_valid=false;}
+  if(result!=0){
+   m->active=false;m->failed=result<0;m->visual_valid=result>0;
+   if(result>0)for(unsigned s=0;s<120;s++){
+    int id=m->battle.actor_map[s];if(id>=0)m->facing[s]=(uint8_t)m->battle.actors[id].facing;
+   }
+  }
   return;
  }
  if(m->perspective){tick_commands(m);return;}

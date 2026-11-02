@@ -106,7 +106,7 @@ bool bc_choreography_begin(BCChoreography *g,const BCPosition *p,BCMove move,con
   (void)bc_geometry_anchor(true,s,&a->x,&a->y);a->old_x=a->x;a->old_y=a->y;g->actor_map[s]=(int)g->count++;
  }
  if(move.special&&move.kind>=2&&move.kind<=5){g->promotion_kind=move.kind;g->promotion_square=move.to;}
- g->attacker_kind=g->promotion_kind?6:move.kind;g->victim_kind=move.capture;
+ g->attacker_kind=g->promotion_kind?6:move.kind;g->victim_kind=(move.special&&move.kind==6)?6:move.capture;
  if(!bc_commands_begin(&g->commands,&plan,start,g)){g->failed=true;return false;}return true;
 }
 int bc_choreography_tick(BCChoreography *g){

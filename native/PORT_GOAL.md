@@ -707,3 +707,28 @@ Integration validation: all37 CTests pass (59.99 seconds), including a new real
 SDL game test that plays a human move, confirms exactly one accepted book reply,
 then exercises save/new/load/undo and clean shutdown. The existing novice and
 flat-view tests continue to pass. Book selection is now live, not just diagnostic.
+
+### En-passant choreography and retained facing (2026-11-02)
+
+A new rendering regression reproduced a real failure: en-passant moves carry
+special=1/kind=6/capture=0, so motion had routed them to the non-capture executor.
+The pinned BB0E source explicitly stages a pawn battle on the adjacent victim
+square and then a separate pawn walk to the actual destination. Route this move
+through concurrent choreography and supply victim kind6 despite capture=0.
+Keep authoritative move validation unchanged. The previously failing test now
+renders28 en-passant cases (both colours, both directions, every adjacent file)
+and all4 colour/side castles to the exact legal final occupancy, with no ghost
+victim or input mutation. It checks a completed capture barrier and real battle
+frames, rather than accepting a silent redraw fallback.
+
+Also retain the completed choreography's actor facings against the validated
+final board, instead of discarding visual state at completion. This prevents
+pieces snapping back to default facing and allows the next move to inherit the
+actual terminal facing. Failed choreography still invalidates retained visuals.
+The special-move tests verify every retained facing and final board-cell identity.
+These are native source/runtime checks; no full original machine rendering or
+audio latency parity is inferred. Remaining sound/menu/search fidelity work and
+the full goal remain active; preserved original trees are unchanged.
+
+Integration verification: all38 CTests pass (62.84 seconds), including the new
+special-move rendering regression, captures, promotion, audio and book UI play.

@@ -318,3 +318,8 @@ embedded authenticated book bytes. A sentinel separates preferred choices from
 recognized alternatives; random selection respects that preferred prefix.
 The host owns a separate deterministic MS-style random stream; session-wide DOS
 random-call parity and original search special-mode semantics remain unproven.
+
+En-passant presentation now follows BB0E's pawn battle on the victim square,
+then the walk to the empty destination. All28 colour/direction/file combinations
+and all4 castles are covered by native rendering tests. Completed choreography
+retains terminal facing for subsequent moves rather than reverting to defaults.
