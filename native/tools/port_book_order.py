@@ -1,5 +1,5 @@
 """Generate recovered A348 book move ordering with explicit host context."""
-import argparse, hashlib, json
+import argparse, hashlib, json, re
 from pathlib import Path
 p=argparse.ArgumentParser();p.add_argument('--root',type=Path,required=True);p.add_argument('--output',type=Path,required=True);a=p.parse_args()
 name='matching/src/move_engine_9a50_full_match.c'
@@ -10,6 +10,7 @@ asset='assets/recovered/bank1/startup-02.raw.bin'
 asset_pins={r['path']:r['sha256'] for r in json.loads((a.root/'verification/asset-snapshot.json').read_text())['files']}
 if hashlib.sha256((a.root/asset).read_bytes()).hexdigest()!=asset_pins[asset]:raise ValueError('Opening book asset not pinned')
 s=data.decode();s=s[s.index('void append_move(void)'):]
+s=re.sub(r'^void ', 'static void ', s, flags=re.M)
 pre='''#include "book_order.h"
 #include <string.h>
 #include <stdlib.h>

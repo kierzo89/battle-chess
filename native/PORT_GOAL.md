@@ -676,3 +676,34 @@ board and rule code all instrumented. The game is not yet linked to the book.
 Next: restore weighted sibling rotation and history lookup against the recovered
 book_context functions, then integrate book-first play and search fallback.
 Full goal remains active. Original reconstruction and published baseline unchanged.
+
+### Original book lookup and weighted selection connected (2026-11-02)
+
+Generated the actual accept_hint_82db, scan_book_843f, rotate_book_8515,
+skip_book_8577 and previous_book_858d bodies from authenticated book_context
+source, plus authenticated book_weights and embedded startup-02 bytes. Native
+adapters replay standard-start legal history, retain original piece identities,
+and reject root/history mismatches. Selected moves must pass legal validation;
+no-book/invalid-input leaves caller output untouched. TLS isolates worker state.
+Host replay replaces original mutable history/UI ownership; no DOS runtime.
+
+An independent structural tree oracle initially exposed a mistaken assumption:
+63 sentinels delimit preferred siblings, so weighted rotation wraps before the
+remaining recognized alternatives. Corrected the independent oracle to honor
+that delimiter; recovered runtime bodies were retained. All1680 sampled weighted
+history lookups (all16 draws at selected root/deeper nodes) now agree;44 sampled
+leaf histories correctly fall back without changing output. Entire28636-edge
+legality/order regression remains separately tested. Full ASan/UBSan instrumentation
+of book, order, board and rules passes this selection/replay test.
+
+Computer workers now try book at non-novice levels, then existing original-search
+port on a miss. Novice bypasses book as in recovered search_turn_8061. UI reports
+"Original opening book" for accepted book moves. The host uses an independent
+MS-style deterministic RNG stream, so whole DOS-session RNG sequence fidelity
+is not claimed. Original search special mode and broader game/audio/menu fidelity
+remain open. Original source/published baseline remain untouched.
+
+Integration validation: all37 CTests pass (59.99 seconds), including a new real
+SDL game test that plays a human move, confirms exactly one accepted book reply,
+then exercises save/new/load/undo and clean shutdown. The existing novice and
+flat-view tests continue to pass. Book selection is now live, not just diagnostic.

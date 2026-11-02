@@ -10,12 +10,15 @@
 #include "motion.h"
 #include "board_view.h"
 #include "audio_output.h"
+#include "book.h"
 typedef struct {
  SDL_Thread *thread;atomic_bool cancel,done;BCPosition position;
- BCMove *history;size_t count;BCSearchConfig config;BCSearchResult result;bool ok;
+ BCMove *history;size_t count;BCSearchConfig config;BCSearchResult result;bool ok,use_book,book_hit;unsigned book_draw;
 } Worker;
 static bool cancelled(void *p){return atomic_load_explicit(&((Worker *)p)->cancel,memory_order_relaxed);}
-static int search_thread(void *p){Worker *w=p;w->ok=bc_search(&w->position,w->history,w->count,&w->config,&w->result);atomic_store_explicit(&w->done,true,memory_order_release);return 0;}
+static int search_thread(void *p){Worker *w=p;if(w->use_book&&!cancelled(w)&&bc_book_move(&w->position,w->history,w->count,w->book_draw,&w->result.move)){
+ w->book_hit=w->ok=w->result.has_move=true;
+ }else w->ok=bc_search(&w->position,w->history,w->count,&w->config,&w->result);atomic_store_explicit(&w->done,true,memory_order_release);return 0;}
 static Worker *start(BCGame *g,unsigned level,bool smoke) {
  Worker *w=calloc(1,sizeof *w);if(!w)return NULL;
  atomic_init(&w->cancel,false);atomic_init(&w->done,false);
@@ -24,6 +27,11 @@ static Worker *start(BCGame *g,unsigned level,bool smoke) {
  if(!bc_game_copy_moves(g,w->history,w->count)){free(w->history);free(w);return NULL;}
  bc_difficulty_config(level,1,&w->config);w->config.temporary=w->position.board.side;
  w->config.cancel=cancelled;w->config.userdata=w;w->config.seed=1;
+ /* Novice bypasses book in recovered search_turn_8061. The host owns its
+  * own deterministic MS-style RNG stream; whole-session DOS RNG parity is not claimed. */
+ static uint32_t book_random=1;
+ w->use_book=level>0;book_random=book_random*214013u+2531011u;
+ w->book_draw=smoke?0:((book_random>>16)&15);
  if(smoke){w->config.max_depth=2;w->config.time_budget_ms=100;}
  w->thread=SDL_CreateThread(search_thread,"Battle Chess search",w);
  if(!w->thread){free(w->history);free(w);return NULL;}return w;
@@ -75,8 +83,9 @@ int main(int argc,char **argv) {
  if(argc<2||argc>3){fprintf(stderr,"Usage: %s pieces.bcp [--smoke]\n",argv[0]);return 2;}
  bool perspective=!(argc==3&&!strcmp(argv[2],"--smoke-flat"));
  bool initial_perspective=perspective;
+ bool smoke_book=argc==3&&!strcmp(argv[2],"--smoke-book");
  bool smoke_promotion=argc==3&&!strcmp(argv[2],"--smoke-promotion");
- bool smoke=smoke_promotion||(argc==3&&(!strcmp(argv[2],"--smoke")||!strcmp(argv[2],"--smoke-flat")));if(argc==3&&!smoke)return 2;
+ bool smoke=smoke_book||smoke_promotion||(argc==3&&(!strcmp(argv[2],"--smoke")||!strcmp(argv[2],"--smoke-flat")));if(argc==3&&!smoke)return 2;
  if(!SDL_Init(SDL_INIT_VIDEO))fail("SDL");SDL_Window *window;SDL_Renderer *r;
  if(!SDL_CreateWindowAndRenderer("Battle Chess Native - Development",1200,732,smoke?SDL_WINDOW_HIDDEN:SDL_WINDOW_RESIZABLE,&window,&r))fail("Window");
  SDL_SetRenderLogicalPresentation(r,1024,624,SDL_LOGICAL_PRESENTATION_LETTERBOX);
@@ -97,7 +106,7 @@ int main(int argc,char **argv) {
  int promote_from=-1,promote_to=-1;
  if(smoke_promotion)smoke_promotion_position(&g);
  Worker *worker=NULL;bool running=true,computer=!smoke_promotion,paused=false;int selected=-1;
- unsigned level=0,smoke_stage=0;uint64_t started=SDL_GetTicks();char message[160]="Click a piece, then its destination.";
+ unsigned level=smoke_book?1:0,smoke_stage=0;unsigned book_moves=0;uint64_t started=SDL_GetTicks();char message[160]="Click a piece, then its destination.";
  while(running) {
   SDL_Event e;bool had_input=false;
   while(SDL_PollEvent(&e)) {
@@ -152,7 +161,8 @@ int main(int argc,char **argv) {
    BCPosition before=*bc_game_position(g);
    if(worker->ok&&worker->result.has_move&&!cancelled(worker)&&bc_game_move(g,worker->result.move)){
     (void)bc_motion_begin_audio(&motion,&before,worker->result.move,SDL_GetTicks()*1193182u/65536000u,perspective,motion.visual_valid&&!memcmp(motion.display.cells,before.board.cells,sizeof before.board.cells)?motion.facing:NULL,bc_audio_event,&audio);
-    snprintf(message,sizeof message,"Engine depth %u, %llu candidates",worker->result.depth,(unsigned long long)worker->result.nodes);
+    if(worker->book_hit){book_moves++;snprintf(message,sizeof message,"Original opening book.");}
+    else snprintf(message,sizeof message,"Engine depth %u, %llu candidates",worker->result.depth,(unsigned long long)worker->result.nodes);
    }
    else {snprintf(message,sizeof message,"Search stopped. Space resumes.");paused=true;}
    stop(&worker);
@@ -250,5 +260,6 @@ int main(int argc,char **argv) {
  bc_view_destroy(view);
  SDL_DestroyRenderer(r);SDL_DestroyWindow(window);SDL_Quit();
  if(smoke&&smoke_stage!=4)return 1;
+ if(smoke_book&&book_moves!=1){fprintf(stderr,"Expected one book reply, got %u\n",book_moves);return 1;}
  puts("Native board closed cleanly.");return 0;
 }

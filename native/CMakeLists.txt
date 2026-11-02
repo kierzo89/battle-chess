@@ -281,3 +281,19 @@ add_executable(test_book_order tests/test_book_order.c)
 target_link_libraries(test_book_order PRIVATE bc_book_order)
 target_compile_options(test_book_order PRIVATE -Wall -Wextra -Wpedantic -Werror -UNDEBUG)
 add_test(NAME recovered_opening_book_order COMMAND test_book_order "${CMAKE_CURRENT_SOURCE_DIR}/../assets/recovered/bank1/startup-02.raw.bin")
+
+set(BOOK_SOURCE "${CMAKE_CURRENT_BINARY_DIR}/generated/book.c")
+add_custom_command(OUTPUT "${BOOK_SOURCE}"
+ COMMAND ${Python3_EXECUTABLE} "${CMAKE_CURRENT_SOURCE_DIR}/tools/port_book.py"
+ --root "${CMAKE_CURRENT_SOURCE_DIR}/.." --output "${BOOK_SOURCE}"
+ DEPENDS tools/port_book.py ../verification/source-snapshot.json ../verification/asset-snapshot.json ../assets/recovered/bank1/startup-02.raw.bin ../matching/src/book_context_match.c ../matching/src/data/book_weights.c VERBATIM)
+add_library(bc_book "${BOOK_SOURCE}")
+target_link_libraries(bc_book PUBLIC bc_book_order)
+target_compile_options(bc_book PRIVATE -Wall -Wextra -Wpedantic -Werror)
+add_executable(test_book tests/test_book.c)
+target_link_libraries(test_book PRIVATE bc_book)
+target_compile_options(test_book PRIVATE -Wall -Wextra -Wpedantic -Werror -UNDEBUG)
+add_test(NAME recovered_opening_book_selection COMMAND test_book "${CMAKE_CURRENT_SOURCE_DIR}/../assets/recovered/bank1/startup-02.raw.bin")
+target_link_libraries(battle-chess-game PRIVATE bc_book)
+add_test(NAME native_book_game_smoke COMMAND battle-chess-game "${BOARD_ASSETS}" --smoke-book)
+set_tests_properties(native_book_game_smoke PROPERTIES ENVIRONMENT "SDL_VIDEODRIVER=dummy;SDL_RENDER_DRIVER=software;SDL_AUDIODRIVER=dummy" TIMEOUT 30)

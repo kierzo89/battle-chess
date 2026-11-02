@@ -310,5 +310,11 @@ and three exceptional authored sound events remain unresolved.
 
 Opening-book ordering is now available as a separate native component generated
 from pinned recovered source. Its test replays every28636 book edge as a legal
-move (maximum42 plies). Live computer play still uses search until weighted book
-selection and history lookup are verified and connected.
+move (maximum42 plies). Computer play now uses the recovered book at levels1–9, falling back to search
+when standard-start history has no continuation. Novice retains its original
+book bypass. Original scan, backward/forward rotation and threshold selection
+bodies are generated from hash-pinned source, with a host replay adapter and
+embedded authenticated book bytes. A sentinel separates preferred choices from
+recognized alternatives; random selection respects that preferred prefix.
+The host owns a separate deterministic MS-style random stream; session-wide DOS
+random-call parity and original search special-mode semantics remain unproven.
