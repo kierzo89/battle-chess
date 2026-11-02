@@ -776,3 +776,29 @@ active pending remaining sound exceptions and final fidelity/requirements audit.
 Verification: all five affected difficulty/UI tests pass (28.12 seconds).
 Inspected the rendered custom-time dialog: text, Apply/Cancel and sidebar fit
 at1200x732 without clipping. Preserved original trees remain untouched.
+
+### Sound exceptions classified by reachable runtime scope (2026-11-02)
+
+REA static byte evidence ev_0b7373433fc7da0d54324ef3385622abf40ba9a94f7b5f9276454fc38bbbf309
+at loaded linear0x20e30 confirms the130-byte original nibble player. The first
+0x10e30 query was the wrong load coordinate and is not used as playback evidence.
+The native delay is unsigned interval/speed then signed16 quotient-minus10,
+clamped to one loop; zero wrapper interval is not a native silence instruction.
+No physical clock/sample-rate claim follows from this static observation.
+
+The previous broad control scan included unreachable sequences. Retained timing
+records place slot15/-18 and15/-27 only in alternate profile1. Live native tasks
+select profile0. Slot11/-64 occurs only for the left/victim graphics kind2 (king)
+against kind5 (queen): legal chess never captures a king. These are not missing
+sounds in the legal profile0 game. Preserved classification is in
+native/evidence/sound-reachability.json; no fabricated slot15 or guessed minimum
+interval was introduced. Unsupported-event rejection remains intact.
+
+Added runtime callback coverage: all30 legal attacker/victim pairings (victim
+king excluded),48 walking orientations and288 valid turn transitions produce
+455 callbacks /184 distinct pairs. Every pair has a loaded sample, positive
+nominal duration and a per-event frame count within the SDL adapter's10-second
+limit. Existing exhaustive converter tests verify actual PCM generation.
+This resolves the three-event blocker for the native game's selected profile;
+it does not claim alternate-profile support, physical PSG/speaker emulation,
+queue-latency accuracy or subjective listening verification. REA session closed.

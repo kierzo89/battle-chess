@@ -309,3 +309,8 @@ set_tests_properties(native_controls_menu PROPERTIES ENVIRONMENT "SDL_VIDEODRIVE
 
 add_test(NAME native_custom_time_menu COMMAND battle-chess-game "${BOARD_ASSETS}" --smoke-time)
 set_tests_properties(native_custom_time_menu PROPERTIES ENVIRONMENT "SDL_VIDEODRIVER=dummy;SDL_RENDER_DRIVER=software;SDL_AUDIODRIVER=dummy" TIMEOUT 10)
+add_executable(test_reachable_sound tests/test_reachable_sound.c)
+target_link_libraries(test_reachable_sound PRIVATE bc_sound bc_presentation)
+target_compile_options(test_reachable_sound PRIVATE -Wall -Wextra -Wpedantic -Werror -UNDEBUG)
+add_dependencies(test_reachable_sound sound_assets)
+add_test(NAME native_reachable_sound_coverage COMMAND test_reachable_sound "${SOUND_ASSETS}")

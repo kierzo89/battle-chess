@@ -329,3 +329,9 @@ En-passant presentation now follows BB0E's pawn battle on the victim square,
 then the walk to the empty destination. All28 colour/direction/file combinations
 and all4 castles are covered by native rendering tests. Completed choreography
 retains terminal facing for subsequent moves rather than reverting to defaults.
+
+Sound coverage clarification: the three unusual authored combinations mentioned
+above are outside legal profile0 play (alternate-profile slots or a king-victim
+sequence). Runtime tests cover455 callbacks /184 distinct active pairs with no
+missing or zero-duration samples. Native SDL sound remains a nominal linear PCM
+adaptation, not verified original speaker acoustics or timing.
