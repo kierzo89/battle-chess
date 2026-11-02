@@ -18,6 +18,8 @@ int main(void){
  }
  /* Exercise every opening move with the retained turn/walk/terminal-turn
   * program, including three-leg knight paths and complete visual transfer. */
+ for(unsigned side=0;side<2;side++){
+ p.board.side=side;bc_generate_legal(&p,&list);
  for(size_t i=0;i<list.count;i++){
   BCMotion m;assert(bc_motion_begin(&m,&p,list.moves[i],0,true));
   bool turned=false,walked=false;
@@ -26,7 +28,9 @@ int main(void){
    else {turned|=m.operation==2;walked|=m.operation==1;}
    bc_motion_tick(&m,tick,false);
   }
-  assert(!m.active&&!m.failed&&turned&&walked);
+  assert(!m.active&&!m.failed&&walked);
+  /* Pawns already face forward; knights still turn for their three-leg path. */
+  if(list.moves[i].kind==5)assert(turned);
   BCPosition after=p;assert(bc_play(&after,list.moves[i]));
   for(unsigned sq=0;sq<120;sq++)if(!(sq&0x88)){
    BCCell visual=m.display.cells[sq];
@@ -34,8 +38,9 @@ int main(void){
    assert(visual.kind==after.board.cells[sq].kind);
    if(after.board.cells[sq].kind)assert(visual.side==after.board.cells[sq].side);
   }
-  if(m.battle_mode){int id=m.battle.actor_map[list.moves[i].to];assert(id>=0&&m.battle.actors[id].facing==4);}
-  else assert(m.facing[list.moves[i].to]==4);
+  if(m.battle_mode){int id=m.battle.actor_map[list.moves[i].to];assert(id>=0&&m.battle.actors[id].facing==(side?4:0));}
+  else assert(m.facing[list.moves[i].to]==(side?4:0));
+ }
  }
  uint8_t data[33]={0};put(data,4,1);put(data,0,3);put(data,7,3);put(data,116,9);
  memset(&p,0,sizeof p);assert(bc_unpack(&p.board,data));p.ep=-1;p.fullmove=1;p.castle[0]=3;
@@ -51,5 +56,5 @@ int main(void){
  assert(castles==2);
  BCMotion m;BCMove capture={0,16,0,3,6};assert(!bc_motion_begin(&m,&p,capture,0,false));assert(!m.active);
  BCMove invalid={0,119,0,3,0};assert(!bc_motion_begin(&m,&p,invalid,0,false));
- puts("PASS: 20 legal opening motions, countdown/input gate, both sequential castles, state preservation and capture exclusion.");return 0;
+ puts("PASS: 20 flat and 40 two-sided perspective opening motions, countdown/input gate, both sequential castles, state preservation and capture exclusion.");return 0;
 }

@@ -100,7 +100,7 @@ void bc_view_draw(BCBoardView *v,SDL_Renderer *r,const BCPosition *p,const BCMot
  int mode=perspective?0:1;SDL_FRect bg={24,100,640,400};SDL_RenderTexture(r,v->background[mode],NULL,&bg);
  SDL_Rect clip={24,100,640,400};SDL_SetRenderClipRect(r,&clip);
  Draw items[33]={0};unsigned count=0;const BCBoard *b=motion->active?&motion->display:&p->board;
- if(motion->active&&motion->battle_mode){
+ if((motion->active||(motion->finale&&!motion->failed&&perspective))&&motion->battle_mode){
   for(unsigned i=0;i<motion->battle.count;i++){
    const BCVisualActor *a=&motion->battle.actors[i];if(!a->visible)continue;
    Draw *d=&items[count++];d->piece=a->piece;d->square=a->square;d->x=a->x;d->y=a->y;d->actor=a;

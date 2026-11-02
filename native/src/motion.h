@@ -17,7 +17,7 @@ typedef struct {
  const BCTurnSequence *face;
  BCPixelEvent pixels[128];unsigned pixel_count;uint64_t revision;
  bool visual_valid,failed;
- bool active,perspective;int x,y;uint64_t last_tick;
+ bool active,perspective,finale;int x,y;uint64_t last_tick;
 } BCMotion;
 /* Original move frames/control clock in perspective; eight static positions
  * in rectangular mode. Supported captures use concurrent choreography. Authoritative chess state is never modified here. */
@@ -27,4 +27,5 @@ bool bc_motion_begin_audio(BCMotion *,const BCPosition *,BCMove,uint64_t,bool,co
 void bc_motion_tick(BCMotion *motion,uint64_t tick,bool input_pending);
 int bc_motion_hidden_square(const BCMotion *motion);
 BCCell bc_motion_piece(const BCMotion *motion);
+bool bc_motion_finale(BCMotion *,const BCPosition *,int,uint64_t,const uint8_t *,BCSoundEvent,void *);
 #endif

@@ -61,3 +61,53 @@ These boundaries remain visible to users; no tests or original matching gates
 were weakened to declare a bit-perfect or emulator-equivalent result. There is
 no remaining missing feature in the requested playable native game/shortcut
 scope. Further DOS fidelity refinements are separate from that delivery.
+
+### Facing regression correction
+
+Corrected the native engine-side to original graphics-colour mapping: the near
+red army uses colour bit 64, and the far blue army uses zero. Standing frames
+and post-move terminal turns now face the opposing army. Movement direction
+indices and recovered source are unchanged. Verified the rendered starting
+board visually; explicit frame tests cover both armies and bishop diagonals,
+and motion tests cover all 40 opening moves across both sides. The full suite
+passed 41 tests initially; the old mandatory pawn-turn assertion was corrected
+(pawns now already face forward), and the expanded motion test passed.
+
+### Optional Stockfish opponent
+
+Added independent Human / Original / Stockfish selectors for red and blue,
+including engine-versus-engine play. Stockfish is an external UCI dependency;
+the recovered original engine remains the default. The adapter sends the
+initial FEN and complete history, verifies returned moves against native legal
+moves, and bounds handshake/search waits with cancellable process cleanup.
+Failures pause rather than silently switching engines.
+
+Validation: all 45 CTests passed (58.23 seconds), including real Stockfish 17.1
+history/cancellation checks and a rendered four-ply UI match switching both
+engine colour assignments through mouse and keyboard controls. The new panel
+was visually inspected. Stockfish is installed outside the repository in the
+user's local share directory; no original source or asset files were changed.
+
+### Theatrical checkmate
+
+Checkmate now invokes recovered capture choreography against the losing king
+through an explicit visual-only API. The ordinary stage/move APIs still reject
+king captures. Selection prefers the last mover when it attacks the king,
+following the recovered present_check logic. Completed actors remain visible
+behind the original game-over wording; New Game and Undo clear the tableau.
+Flat mode retains a result-only presentation. No synthetic move is appended to
+history or applied to the authoritative position.
+
+All 47 tests passed (77.35 seconds), including both losing colours, completed
+king capture tasks, unchanged legal state, rejection through the normal move
+gate, and a rendered checkmate UI run. Final tableau/dialog inspected visually.
+
+### Public source publication — 2 November 2026
+
+Final full suite: 47/47 passed (81.39 seconds). A clean staged checkout in a
+separate temporary directory configured and built the Linux game and assets
+successfully, without the development build directory. Source inventory:
+1,904 files intact and 916 pinned inputs accounted for. Asset inventory:
+13,996 files intact; both banks rebuilt byte-exactly. The root README hash in
+the publication inventory was updated for the directory guide and screenshots;
+original build source, recipes and binary acceptance evidence were unchanged.

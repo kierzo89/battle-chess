@@ -12,18 +12,19 @@
 #include "audio_output.h"
 #include "book.h"
 #include "controls.h"
+#include "stockfish.h"
 typedef struct {
- SDL_Thread *thread;atomic_bool cancel,done;BCPosition position;
+ SDL_Thread *thread;atomic_bool cancel,done;BCPosition position,initial;unsigned engine,stockfish_depth;char error[160];
  BCMove *history;size_t count;BCSearchConfig config;BCSearchResult result;bool ok,use_book,book_hit;unsigned book_draw;
 } Worker;
 static bool cancelled(void *p){return atomic_load_explicit(&((Worker *)p)->cancel,memory_order_relaxed);}
-static int search_thread(void *p){Worker *w=p;if(w->use_book&&!cancelled(w)&&bc_book_move(&w->position,w->history,w->count,w->book_draw,&w->result.move)){
+static int search_thread(void *p){Worker *w=p;if(w->engine==2){w->ok=bc_stockfish(&w->initial,&w->position,w->history,w->count,w->stockfish_depth,cancelled,w,&w->result.move,w->error,sizeof w->error);w->result.has_move=w->ok;}else if(w->use_book&&!cancelled(w)&&bc_book_move(&w->position,w->history,w->count,w->book_draw,&w->result.move)){
  w->book_hit=w->ok=w->result.has_move=true;
  }else w->ok=bc_search(&w->position,w->history,w->count,&w->config,&w->result);atomic_store_explicit(&w->done,true,memory_order_release);return 0;}
-static Worker *start(BCGame *g,unsigned level,unsigned minutes,bool smoke) {
+static Worker *start_engine(BCGame *g,unsigned level,unsigned minutes,bool smoke,unsigned engine,unsigned depth) {
  Worker *w=calloc(1,sizeof *w);if(!w)return NULL;
  atomic_init(&w->cancel,false);atomic_init(&w->done,false);
- w->position=*bc_game_position(g);w->count=bc_game_plies(g);
+ w->stockfish_depth=smoke?4:depth;w->engine=engine;w->initial=*bc_game_initial_position(g);w->position=*bc_game_position(g);w->count=bc_game_plies(g);
  if(w->count){w->history=malloc(w->count*sizeof *w->history);if(!w->history){free(w);return NULL;}}
  if(!bc_game_copy_moves(g,w->history,w->count)){free(w->history);free(w);return NULL;}
  bc_difficulty_config(level,minutes,&w->config);w->config.temporary=w->position.board.side;
@@ -37,6 +38,7 @@ static Worker *start(BCGame *g,unsigned level,unsigned minutes,bool smoke) {
  w->thread=SDL_CreateThread(search_thread,"Battle Chess search",w);
  if(!w->thread){free(w->history);free(w);return NULL;}return w;
 }
+static Worker *start(BCGame *g,unsigned level,unsigned minutes,bool smoke){return start_engine(g,level,minutes,smoke,1,18);}
 static void stop(Worker **worker){Worker *w=*worker;if(!w)return;atomic_store(&w->cancel,true);SDL_WaitThread(w->thread,NULL);free(w->history);free(w);*worker=NULL;}
 static void fail(const char *s){fprintf(stderr,"%s: %s\n",s,SDL_GetError());exit(1);}
 static const char *status_name(BCGameStatus s){static const char *names[]={"Playing","Check","Checkmate","Stalemate","Draw: insufficient material","Draw claimed","Draw: fivefold repetition","Draw: 75 moves"};return names[s];}
@@ -84,11 +86,13 @@ int main(int argc,char **argv) {
  if(argc<2||argc>3){fprintf(stderr,"Usage: %s pieces.bcp [--smoke]\n",argv[0]);return 2;}
  bool perspective=!(argc==3&&!strcmp(argv[2],"--smoke-flat"));
  bool initial_perspective=perspective;
+ bool smoke_result=argc==3&&!strcmp(argv[2],"--smoke-result");
+ bool smoke_engines=argc==3&&!strcmp(argv[2],"--smoke-engines");
  bool smoke_time=argc==3&&!strcmp(argv[2],"--smoke-time");
  bool smoke_controls=argc==3&&!strcmp(argv[2],"--smoke-controls");
  bool smoke_book=argc==3&&!strcmp(argv[2],"--smoke-book");
  bool smoke_promotion=argc==3&&!strcmp(argv[2],"--smoke-promotion");
- bool smoke=smoke_time||smoke_controls||smoke_book||smoke_promotion||(argc==3&&(!strcmp(argv[2],"--smoke")||!strcmp(argv[2],"--smoke-flat")));if(argc==3&&!smoke)return 2;
+ bool smoke=smoke_result||smoke_engines||smoke_time||smoke_controls||smoke_book||smoke_promotion||(argc==3&&(!strcmp(argv[2],"--smoke")||!strcmp(argv[2],"--smoke-flat")));if(argc==3&&!smoke)return 2;
  if(!SDL_Init(SDL_INIT_VIDEO))fail("SDL");SDL_Window *window;SDL_Renderer *r;
  if(!SDL_CreateWindowAndRenderer("Battle Chess Native",1200,732,smoke?SDL_WINDOW_HIDDEN:SDL_WINDOW_RESIZABLE,&window,&r))fail("Window");
  SDL_SetRenderLogicalPresentation(r,1024,624,SDL_LOGICAL_PRESENTATION_LETTERBOX);
@@ -97,6 +101,10 @@ int main(int argc,char **argv) {
  char *sound_path=malloc(prefix+16);if(!sound_path)fail("Sound path");memcpy(sound_path,argv[1],prefix);strcpy(sound_path+prefix,"sounds.bca");
  (void)bc_audio_open(&audio,sound_path);free(sound_path);if(smoke)bc_audio_mute(&audio,true);
  BCGame *g=bc_game_create(NULL);if(!g)fail("Game allocation");
+ if(smoke_result){const char *moves[]={"f2f3","e7e5","g2g4","d8h4"};
+  for(unsigned i=0;i<4;i++){BCMove m;if(!bc_uci_parse(bc_game_position(g),moves[i],&m)||!bc_game_move(g,m))fail("Checkmate fixture");}
+  if(bc_game_status(g)!=BC_CHECKMATE||bc_game_position(g)->board.side!=0)fail("Blue winner fixture");
+ }
  char *pref=SDL_GetPrefPath("battle-chess-native","game");
  char *save_path=NULL;
  if(pref){size_t n=strlen(pref)+16;save_path=malloc(n);if(save_path)snprintf(save_path,n,"%sgame.bcs",pref);SDL_free(pref);}
@@ -109,7 +117,7 @@ int main(int argc,char **argv) {
  bool time_dialog=false,time_was_paused=false;unsigned minutes=1,time_value=0;
  int promote_from=-1,promote_to=-1;
  if(smoke_promotion)smoke_promotion_position(&g);
- Worker *worker=NULL;bool running=true,computer=!smoke_promotion,paused=false;int selected=-1;
+ Worker *worker=NULL;bool running=true,computer=!smoke_promotion,paused=false;int selected=-1;unsigned engines[2]={0,smoke_promotion?0:1};unsigned stockfish_depth=18;size_t finale_plies=SIZE_MAX;uint64_t controller_ready=0;
  unsigned level=smoke_book?1:0,smoke_stage=0;unsigned book_moves=0;uint64_t started=SDL_GetTicks();char message[160]="Click a piece, then its destination.";
  while(running) {
   SDL_Event e;bool had_input=false;
@@ -148,20 +156,22 @@ int main(int argc,char **argv) {
     if(k==SDLK_S)snprintf(message,sizeof message,"%s",save_path&&bc_game_save(g,save_path)?"Game saved.":"Save failed; previous file retained.");
     if(k==SDLK_L){
      BCGame *loaded=save_path?bc_game_load(save_path):NULL;
-     if(loaded){stop(&worker);bc_game_destroy(g);g=loaded;selected=-1;paused=false;motion.active=false;motion.visual_valid=false;bc_audio_clear(&audio);bc_audio_pause(&audio,false);snprintf(message,sizeof message,"Game loaded with complete move history.");}
+     if(loaded){stop(&worker);bc_game_destroy(g);g=loaded;selected=-1;paused=false;motion.active=false;motion.visual_valid=false;motion.finale=false;bc_audio_clear(&audio);bc_audio_pause(&audio,false);snprintf(message,sizeof message,"Game loaded with complete move history.");}
      else snprintf(message,sizeof message,"Load failed; current game retained.");
     }
-    if(k==SDLK_V){motion.active=false;motion.visual_valid=false;bc_audio_clear(&audio);bc_audio_pause(&audio,false);perspective=!perspective;selected=-1;}
+    if(k==SDLK_V){motion.active=false;motion.visual_valid=false;motion.finale=false;bc_audio_clear(&audio);bc_audio_pause(&audio,false);perspective=!perspective;selected=-1;}
     if(k==SDLK_M)bc_audio_mute(&audio,!audio.muted);
     if(k==SDLK_ESCAPE)running=false;
-    if(k==SDLK_N){stop(&worker);bc_game_destroy(g);g=bc_game_create(NULL);if(!g)fail("New game");selected=-1;paused=false;motion.active=false;motion.visual_valid=false;bc_audio_clear(&audio);bc_audio_pause(&audio,false);}
-    if(k==SDLK_U){stop(&worker);bc_game_undo(g);if(computer&&bc_game_position(g)->board.side==1)bc_game_undo(g);selected=-1;paused=false;motion.active=false;motion.visual_valid=false;bc_audio_clear(&audio);bc_audio_pause(&audio,false);}
-    if(k==SDLK_H){stop(&worker);computer=!computer;paused=false;selected=-1;motion.active=false;motion.visual_valid=false;bc_audio_clear(&audio);bc_audio_pause(&audio,false);}
+    if(k==SDLK_N){stop(&worker);bc_game_destroy(g);g=bc_game_create(NULL);if(!g)fail("New game");selected=-1;paused=false;motion.active=false;motion.visual_valid=false;motion.finale=false;bc_audio_clear(&audio);bc_audio_pause(&audio,false);}
+    if(k==SDLK_U){stop(&worker);bc_game_undo(g);if(engines[bc_game_position(g)->board.side]&&(!engines[0]||!engines[1]))bc_game_undo(g);selected=-1;paused=false;motion.active=false;motion.visual_valid=false;motion.finale=false;bc_audio_clear(&audio);bc_audio_pause(&audio,false);}
+    if(k==SDLK_H){stop(&worker);controller_ready=SDL_GetTicks()+1500;computer=!computer;engines[0]=0;engines[1]=computer?1:0;paused=false;selected=-1;motion.active=false;motion.visual_valid=false;motion.finale=false;bc_audio_clear(&audio);bc_audio_pause(&audio,false);}
+    if(k==SDLK_F1||k==SDLK_F2){stop(&worker);controller_ready=SDL_GetTicks()+1500;unsigned side=k==SDLK_F2;engines[side]=(engines[side]+1)%3;computer=engines[0]||engines[1];selected=-1;snprintf(message,sizeof message,"%s: %s",side?"Blue":"Red",engines[side]==2?"Stockfish":engines[side]==1?"Original engine":"Human");}
+    if(k==SDLK_F3||k==SDLK_F4){if(worker&&worker->engine==2)stop(&worker);if(k==SDLK_F3&&stockfish_depth>1)stockfish_depth--;if(k==SDLK_F4&&stockfish_depth<128)stockfish_depth++;snprintf(message,sizeof message,"Stockfish target depth %u (no time limit)",stockfish_depth);}
     if(k==SDLK_SPACE){stop(&worker);paused=!paused;bc_audio_pause(&audio,paused);motion.last_tick=SDL_GetTicks()*1193182u/65536000u;}
-    if(k>=SDLK_0&&k<=SDLK_9){stop(&worker);level=(unsigned)(k-SDLK_0);paused=false;bc_audio_pause(&audio,false);}
+    if(k>=SDLK_0&&k<=SDLK_9){if(worker&&worker->engine!=2)stop(&worker);level=(unsigned)(k-SDLK_0);paused=false;bc_audio_pause(&audio,false);}
     if(k==SDLK_D){stop(&worker);if(bc_game_claim_draw(g))snprintf(message,sizeof message,"Draw claimed.");else snprintf(message,sizeof message,"No draw claim available.");}
    }
-   if(e.type==SDL_EVENT_MOUSE_BUTTON_DOWN&&e.button.button==SDL_BUTTON_LEFT&&!worker&&!paused&&!motion.active&&(!computer||bc_game_position(g)->board.side==0)) {
+   if(e.type==SDL_EVENT_MOUSE_BUTTON_DOWN&&e.button.button==SDL_BUTTON_LEFT&&!worker&&!paused&&!motion.active&&!engines[bc_game_position(g)->board.side]) {
     float x,y;SDL_RenderCoordinatesFromWindow(r,e.button.x,e.button.y,&x,&y);
     if(promote_from>=0){unsigned choice=promotion_hit(x,y);
      if(choice&&move_between(g,promote_from,promote_to,choice,&motion,perspective,&audio)){
@@ -184,24 +194,38 @@ int main(int argc,char **argv) {
    BCPosition before=*bc_game_position(g);
    if(worker->ok&&worker->result.has_move&&!cancelled(worker)&&bc_game_move(g,worker->result.move)){
     (void)bc_motion_begin_audio(&motion,&before,worker->result.move,SDL_GetTicks()*1193182u/65536000u,perspective,motion.visual_valid&&!memcmp(motion.display.cells,before.board.cells,sizeof before.board.cells)?motion.facing:NULL,bc_audio_event,&audio);
-    if(worker->book_hit){book_moves++;snprintf(message,sizeof message,"Original opening book.");}
+    if(worker->engine==2)snprintf(message,sizeof message,"Stockfish move (validated by native rules).");
+    else if(worker->book_hit){book_moves++;snprintf(message,sizeof message,"Original opening book.");}
     else snprintf(message,sizeof message,"Engine depth %u, %llu candidates",worker->result.depth,(unsigned long long)worker->result.nodes);
    }
-   else {snprintf(message,sizeof message,"Search stopped. Space resumes.");paused=true;}
+   else {snprintf(message,sizeof message,"%s",worker->error[0]?worker->error:"Search stopped. Space resumes.");paused=true;}
    stop(&worker);
   }
   BCGameStatus state=bc_game_status(g);const BCPosition *p=bc_game_position(g);
-  if(running&&promote_from<0&&computer&&!paused&&!worker&&!motion.active&&!bc_audio_busy(&audio)&&p->board.side==1&&(state==BC_PLAYING||state==BC_CHECK)){worker=start(g,level,minutes,smoke);if(!worker){paused=true;snprintf(message,sizeof message,"Could not start search.");}}
+  if(state!=BC_CHECKMATE)finale_plies=SIZE_MAX;
+  if(state==BC_CHECKMATE&&perspective&&!paused&&!motion.active&&!bc_audio_busy(&audio)&&finale_plies!=bc_game_plies(g)){
+   finale_plies=bc_game_plies(g);int preferred=-1;size_t n=bc_game_plies(g);BCMove *moves=n?malloc(n*sizeof *moves):NULL;
+   if(moves&&bc_game_copy_moves(g,moves,n))preferred=moves[n-1].to;free(moves);
+   if(!bc_motion_finale(&motion,p,preferred,SDL_GetTicks()*1193182u/65536000u,motion.visual_valid?motion.facing:NULL,bc_audio_event,&audio))snprintf(message,sizeof message,"Final battle unavailable; checkmate stands.");
+  }
+  if(running&&SDL_GetTicks()>=controller_ready&&promote_from<0&&engines[p->board.side]&&!paused&&!worker&&!motion.active&&!bc_audio_busy(&audio)&&(state==BC_PLAYING||state==BC_CHECK)){worker=start_engine(g,level,minutes,smoke,engines[p->board.side],stockfish_depth);if(!worker){paused=true;snprintf(message,sizeof message,"Could not start search.");}}
   SDL_SetRenderDrawColor(r,23,27,35,255);SDL_RenderClear(r);
   bc_view_draw(view,r,p,&motion,selected,perspective);
   SDL_SetRenderDrawColor(r,235,235,240,255);SDL_RenderDebugText(r,24,16,"BATTLE CHESS / NATIVE LINUX");
-  text(r,52,computer?"Human vs computer":"Two players");text(r,78,p->board.side?"Blue to move":"Red to move");text(r,104,status_name(state));
-  text(r,130,promote_from>=0?"Choose promotion...":worker?"Computer thinking...":paused?"Paused":motion.active?"Piece moving...":"Ready");
-  char line[80];snprintf(line,sizeof line,"Level: %s",level?"timed":"Novice");if(level==10)snprintf(line,sizeof line,"Custom: %u minutes",minutes);else if(level)snprintf(line,sizeof line,"Level %u (%u seconds)",level,5u<<(level-1));text(r,170,line);
+  text(r,52,engines[0]&&engines[1]?"Engine vs engine":computer?"Human vs computer":"Two players");text(r,78,state>=BC_CHECKMATE?"Game over":p->board.side?"Blue to move":"Red to move");text(r,104,state==BC_CHECKMATE?(p->board.side?"CHECKMATE - Red wins":"CHECKMATE - Blue wins"):status_name(state));
+  text(r,130,motion.finale&&motion.active?"Final battle...":state>=BC_CHECKMATE?"N: New game / U: Undo":promote_from>=0?"Choose promotion...":worker?"Computer thinking...":paused?"Paused":engines[p->board.side]&&SDL_GetTicks()<controller_ready?"Choosing controller...":motion.active?"Piece moving...":"Ready");
+  char line[80];snprintf(line,sizeof line,"Original: %s",level?"timed":"Novice");if(level==10)snprintf(line,sizeof line,"Original: %u minutes",minutes);else if(level)snprintf(line,sizeof line,"Original %u (%u seconds)",level,5u<<(level-1));text(r,170,line);
   bc_controls_draw(r,level,computer,paused,perspective,audio.muted);
-  text(r,462,"Promotion: choose when asked");text(r,486,"Q/R/B/K or click a choice");
+  bc_controls_engines(r,engines,stockfish_depth);
   snprintf(line,sizeof line,"Sound %s (%u held)",!audio.stream?"unavailable":audio.muted?"off":"on / nominal",audio.rejected);text(r,522,line);
-  SDL_SetRenderDrawColor(r,235,235,240,255);SDL_RenderDebugText(r,24,600,message);
+  SDL_SetRenderDrawColor(r,235,235,240,255);SDL_RenderDebugText(r,24,612,state>=BC_CHECKMATE?(state==BC_CHECKMATE?(p->board.side?"Game over: Red wins by checkmate.":"Game over: Blue wins by checkmate."):status_name(state)):message);
+  if(state>=BC_CHECKMATE&&!motion.active&&!bc_audio_busy(&audio)){
+   SDL_FRect result_box={120,248,464,92};SDL_SetRenderDrawColor(r,32,38,50,245);SDL_RenderFillRect(r,&result_box);
+   SDL_SetRenderDrawColor(r,245,225,175,255);SDL_RenderDebugText(r,140,266,state==BC_CHECKMATE?"Check and mate...Game over.":state==BC_STALEMATE?"Stalemate. How boring!":status_name(state));
+   SDL_RenderDebugText(r,140,290,state==BC_CHECKMATE?(p->board.side?"Red wins.":"Blue wins."):"Game drawn.");
+   SDL_RenderDebugText(r,140,316,"N: New game     U: Take back / continue");
+   if(smoke_result&&getenv("BC_FINALE_SCREENSHOT")){SDL_Surface *shot=SDL_RenderReadPixels(r,NULL);if(!shot||!SDL_SaveBMP(shot,getenv("BC_FINALE_SCREENSHOT")))fail("Finale screenshot");SDL_DestroySurface(shot);}
+  }
   if(time_dialog){
    SDL_FRect box={200,236,480,156};SDL_SetRenderDrawColor(r,32,38,50,255);SDL_RenderFillRect(r,&box);
    SDL_SetRenderDrawColor(r,235,235,240,255);SDL_RenderDebugText(r,220,256,"Custom time per move (1-32767 minutes)");
@@ -235,7 +259,8 @@ int main(int argc,char **argv) {
    SDL_DestroySurface(shot);
   }
   if(!SDL_RenderPresent(r))fail("Present");
-  if(smoke_time){
+  if(smoke_result){if(worker)fail("Search after checkmate");if(motion.failed)fail("Final battle failed");if(motion.finale&&!motion.active){smoke_stage=4;running=false;}if(SDL_GetTicks()-started>30000)fail("Final battle timeout");}
+  else if(smoke_time){
    static const SDL_Keycode keys[]={SDLK_C,SDLK_2,SDLK_RETURN,SDLK_C,SDLK_9,SDLK_ESCAPE,SDLK_C,SDLK_RETURN};
    if(smoke_stage==3||smoke_stage==6||smoke_stage==8){
     BCSearchConfig check;if(time_dialog||paused||level!=10||minutes!=2||!bc_difficulty_config(level,minutes,&check)||check.time_budget_ms!=120000)fail("Custom time state");
@@ -246,6 +271,31 @@ int main(int argc,char **argv) {
     if(!SDL_PushEvent(&key))fail("Custom time key");smoke_stage++;
    }else running=false;
    if(SDL_GetTicks()-started>5000)fail("Custom time timeout");
+  }
+  else if(smoke_engines){
+   if(paused)fail(message);
+   if(smoke_stage==0){
+    /* Exercise independent depth buttons and restore 18 before starting. */
+    for(unsigned i=0;i<2;i++){SDL_Event click={0};click.type=SDL_EVENT_MOUSE_BUTTON_DOWN;click.button.button=SDL_BUTTON_LEFT;
+     if(!SDL_RenderCoordinatesToWindow(r,i?858:710,590,&click.button.x,&click.button.y)||!SDL_PushEvent(&click))fail("Depth selector click");}
+    /* First select Original, then wait across frames before selecting Stockfish. */
+    for(unsigned i=0;i<1;i++){SDL_Event click={0};click.type=SDL_EVENT_MOUSE_BUTTON_DOWN;click.button.button=SDL_BUTTON_LEFT;
+     if(!SDL_RenderCoordinatesToWindow(r,710,468,&click.button.x,&click.button.y)||!SDL_PushEvent(&click))fail("Engine selector click");}smoke_stage=10;
+   }else if(smoke_stage==10){
+    if(worker||bc_game_plies(g))fail("Intermediate Original selection started play");
+    if(controller_ready&&SDL_GetTicks()+900>=controller_ready){SDL_Event key={0};key.type=SDL_EVENT_KEY_DOWN;key.key.key=SDLK_F1;if(!SDL_PushEvent(&key))fail("Delayed Stockfish selection");smoke_stage=11;}
+   }else if(smoke_stage==11){
+    if(SDL_GetTicks()<controller_ready){if(worker||bc_game_plies(g))fail("Controller debounce was not reset");}
+    else smoke_stage=1;
+   }else if(smoke_stage==1&&bc_game_plies(g)>=2&&!motion.active){
+    if(stockfish_depth!=18)fail("Independent Stockfish depth controls");
+    if(engines[0]!=2||engines[1]!=1)fail("Stockfish vs Original selectors");
+    const SDL_Keycode keys[]={SDLK_F1,SDLK_F1,SDLK_F2};
+    for(unsigned i=0;i<3;i++){SDL_Event key={0};key.type=SDL_EVENT_KEY_DOWN;key.key.key=keys[i];if(!SDL_PushEvent(&key))fail("Engine switch");}smoke_stage=2;
+   }else if(smoke_stage==2&&bc_game_plies(g)>=4&&!motion.active){
+    if(engines[0]!=1||engines[1]!=2)fail("Original vs Stockfish selectors");running=false;
+   }
+   if(SDL_GetTicks()-started>30000)fail("Engine match timeout");
   }
   else if(smoke_controls){
    /* Every click goes through viewport mapping and the normal command path. */
@@ -323,7 +373,7 @@ int main(int argc,char **argv) {
  bc_audio_close(&audio);
  bc_view_destroy(view);
  SDL_DestroyRenderer(r);SDL_DestroyWindow(window);SDL_Quit();
- if(smoke&&smoke_stage!=(smoke_time?8u:smoke_controls?13u:4u))return 1;
+ if(smoke&&smoke_stage!=(smoke_time?8u:smoke_engines?2u:smoke_controls?13u:4u))return 1;
  if(smoke_book&&book_moves!=1){fprintf(stderr,"Expected one book reply, got %u\n",book_moves);return 1;}
  puts("Native board closed cleanly.");return 0;
 }

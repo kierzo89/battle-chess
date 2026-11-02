@@ -140,3 +140,11 @@ void bc_motion_tick(BCMotion *m,uint64_t tick,bool pending){
 }
 int bc_motion_hidden_square(const BCMotion *m){return m->active?(int)(m->perspective?m->actor:m->origins[m->index]):-1;}
 BCCell bc_motion_piece(const BCMotion *m){return m->active?m->display.cells[bc_motion_hidden_square(m)]:(BCCell){0};}
+
+bool bc_motion_finale(BCMotion *m,const BCPosition *p,int preferred,uint64_t tick,const uint8_t *f,BCSoundEvent sound,void *ctx){
+ BCMove attack;if(!bc_finale_attack(p,preferred,&attack))return false;
+ uint8_t saved[120];if(f)memcpy(saved,f,sizeof saved);
+ memset(m,0,sizeof *m);m->perspective=m->battle_mode=m->finale=true;m->last_tick=tick;m->display=p->board;
+ m->sound=sound;m->sound_context=ctx;m->active=bc_choreography_finale(&m->battle,p,attack,f?saved:NULL);
+ m->battle.sound=sound;m->battle.sound_context=ctx;m->failed=!m->active;return m->active;
+}

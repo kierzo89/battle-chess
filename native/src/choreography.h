@@ -28,4 +28,5 @@ typedef struct {
 bool bc_choreography_begin(BCChoreography *,const BCPosition *,BCMove,const uint8_t *facing);
 /* One eligible original dispatch. -1 failure,0 running,1 complete. */
 int bc_choreography_tick(BCChoreography *);
+bool bc_choreography_finale(BCChoreography *,const BCPosition *,BCMove,const uint8_t *);
 #endif

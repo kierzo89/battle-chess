@@ -46,8 +46,9 @@ unsigned bc_geometry_facing(unsigned kind,unsigned side,unsigned square){
  if(kind<1||kind>6||side>1||square>=120||(square&0x88))return 99;
  const unsigned map[7]={0,2,5,6,1,3,4};unsigned k=map[kind],facing;
  if(k==6)facing=(square&7)<4?3:7;
- else if(k==1)facing=(square&7)<4?(side?1:3):(side?7:5);
- else facing=side?0:4;
+ /* Engine side 0 is the near/red army: original graphics colour bit 64. */
+ else if(k==1)facing=(square&7)<4?(side?3:1):(side?5:7);
+ else facing=side?4:0;
  return facing;
 }
 unsigned bc_geometry_faced_frame(unsigned kind,unsigned facing){

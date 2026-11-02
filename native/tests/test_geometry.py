@@ -73,6 +73,16 @@ with tempfile.TemporaryDirectory(prefix='bc-standing-') as d:
    for row in range(8):
     for col in range(8):
      sq=row*16+col;original_square=(7-row)*8+col
-     ref.queue_piece(mapping[kind],side*64,0,original_square)
+     ref.queue_piece(mapping[kind],(1-side)*64,0,original_square)
      assert lib.bc_geometry_frame(kind,side,sq)==C.c_int.in_dll(ref,'observed').value
 print('PASS: 768 standing-frame choices match recovered queue_piece C.')
+
+# Near/red army looks up-board; far/blue army looks down-board.
+# Explicit frames prevent the reference bridge from hiding a reversed colour bit.
+for kind,near,far in [(1,21,25),(2,41,45),(5,29,31),(6,33,37)]:
+ assert lib.bc_geometry_frame(kind,0,4)==near
+ assert lib.bc_geometry_frame(kind,1,116)==far
+assert lib.bc_geometry_frame(4,0,2)==17
+assert lib.bc_geometry_frame(4,1,114)==18
+assert lib.bc_geometry_frame(4,0,5)==20
+assert lib.bc_geometry_frame(4,1,117)==19

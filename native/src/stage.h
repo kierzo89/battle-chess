@@ -9,4 +9,5 @@ typedef struct {BCStageCommand commands[BC_STAGE_MAX];unsigned count;bool failed
  * Unknown omitted caller arguments remain explicitly unknown. Promotions
  * use the recovered9371 pawn-kind/cleared-flag normalization. */
 bool bc_stage_plan(const BCPosition *before,BCMove move,BCStagePlan *out);
+bool bc_stage_finale(const BCPosition *,BCMove,BCStagePlan *);
 #endif

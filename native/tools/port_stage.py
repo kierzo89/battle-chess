@@ -43,17 +43,21 @@ if hashlib.sha256(mapping).hexdigest()!='205edda8d4dbed06035b90c85b1b35288084eed
 promotion=(a.root/'matching/src/promote_ui_match.c').read_bytes()
 if hashlib.sha256(promotion).hexdigest()!='cdb59b04186ad701f31b4a27169524c2acce56ee4501e07b4fdc456580da70ff':raise ValueError('Unpinned promotion normalization')
 footer='''
-bool bc_stage_plan(const BCPosition *before,BCMove move,BCStagePlan *out){
+static bool stage(const BCPosition *before,BCMove move,BCStagePlan *out,bool finale){
  if(!before||!out)return false;
  memset(out,0,sizeof *out);BCPosition check=*before;
- if(!bc_play(&check,move))return false;
+ if(finale){BCMove expected;if(!bc_finale_attack(before,move.from,&expected)||expected.from!=move.from||expected.to!=move.to||move.kind!=expected.kind||move.capture!=1||move.special)return false;}
+ else if(!bc_play(&check,move))return false;
  /* Original9371 calls BB0E with pawn kind and cleared promotion flag. */
  if(move.special&&move.kind>=2&&move.kind<=5){move.kind=6;move.special=0;}
  const Byte map[7]={0,2,5,6,1,3,4};
- for(unsigned i=0;i<64;i++){unsigned sq=((7-i/8)*16)+(i%8);BCCell c=before->board.cells[sq];cells[i]=c.kind?(map[c.kind]|(c.side?64:0)):0;}
+ /* Graphics colour bit 64 is the near/red army (engine side 0). */
+ for(unsigned i=0;i<64;i++){unsigned sq=((7-i/8)*16)+(i%8);BCCell c=before->board.cells[sq];cells[i]=c.kind?(map[c.kind]|(c.side?0:64)):0;}
  plan=out;flushed=0;animation_busy=record_latch=animation_done=0;current_side=0;modes[0]=modes[1]=0;
  Move original={move.to,move.from,move.special,{0}};original.detail.bytes.kind=move.kind;original.detail.bytes.capture=move.capture;
  (void)animation_stage(original,1);plan=NULL;return !out->failed;
 }
+bool bc_stage_plan(const BCPosition *p,BCMove m,BCStagePlan *o){return stage(p,m,o,false);}
+bool bc_stage_finale(const BCPosition *p,BCMove m,BCStagePlan *o){return stage(p,m,o,true);}
 '''
 a.output.parent.mkdir(parents=True,exist_ok=True);a.output.write_text(header+s+footer)

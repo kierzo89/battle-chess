@@ -19,4 +19,6 @@ void bc_generate_legal(const BCPosition *p,BCMoveList *moves);
 void bc_play_unchecked(BCPosition *p,BCMove move);
 bool bc_play(BCPosition *p,BCMove move);
 uint64_t bc_perft(const BCPosition *p,unsigned depth);
+/* Visual-only king attack: requires checkmate; never a playable move. */
+bool bc_finale_attack(const BCPosition *,int preferred,BCMove *);
 #endif

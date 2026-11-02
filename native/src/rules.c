@@ -151,3 +151,13 @@ uint64_t bc_perft(const BCPosition *p,unsigned depth) {
  for(size_t i=0;i<list.count;i++) {BCPosition next=*p;bc_play_unchecked(&next,list.moves[i]);n+=bc_perft(&next,depth-1);}
  return n;
 }
+
+bool bc_finale_attack(const BCPosition *p,int preferred,BCMove *out){
+ if(!p||!out||!bc_in_check(&p->board,p->board.side))return false;
+ BCMoveList legal;bc_generate_legal(p,&legal);if(legal.count)return false;
+ int king=-1;for(int s=0;s<120;s++)if(!(s&0x88)&&p->board.cells[s].kind==1&&p->board.cells[s].side==p->board.side){king=s;break;}
+ if(king<0)return false;
+ for(int i=-1;i<120;i++){int s=i<0?preferred:i;if(s<0||s>=120||(s&0x88))continue;BCCell c=p->board.cells[s];
+  if(c.kind&&c.side!=p->board.side&&bc_piece_attacks(&p->board,c.kind,c.side,s,king)){*out=(BCMove){s,king,0,c.kind,1};return true;}}
+ return false;
+}

@@ -54,7 +54,7 @@ static bool start(void *ctx,unsigned slot,unsigned command,const BCStageCommand 
  }
 }
 static int step(void *ctx,unsigned slot,unsigned command,const BCStageCommand *c){
- BCChoreography *g=ctx;(void)command;(void)c;BCActorTask *t=&g->tasks[slot];BCVisualActor *a=&g->actors[t->actor];unsigned colour=a->piece.side?64:0;
+ BCChoreography *g=ctx;(void)command;(void)c;BCActorTask *t=&g->tasks[slot];BCVisualActor *a=&g->actors[t->actor];unsigned colour=a->piece.side?0:64;
  switch(t->operation){
  case 1:
   if(!bc_task_ready(&t->clock,false,colour,g->sound,g->sound_context))return t->clock.failed?-1:0;
@@ -95,10 +95,10 @@ static int step(void *ctx,unsigned slot,unsigned command,const BCStageCommand *c
  default:return -1;
  }
 }
-bool bc_choreography_begin(BCChoreography *g,const BCPosition *p,BCMove move,const uint8_t *facing){
+static bool begin(BCChoreography *g,const BCPosition *p,BCMove move,const uint8_t *facing,bool finale){
  if(!g||!p)return false;
  memset(g,0,sizeof *g);for(unsigned s=0;s<120;s++)g->actor_map[s]=-1;
- BCStagePlan plan;if(!bc_stage_plan(p,move,&plan)){g->failed=true;return false;}
+ BCStagePlan plan;if(!(finale?bc_stage_finale(p,move,&plan):bc_stage_plan(p,move,&plan))){g->failed=true;return false;}
  for(unsigned s=0;s<120;s++)if(!(s&0x88)&&p->board.cells[s].kind){
   if(g->count==32){g->failed=true;return false;}
   BCVisualActor *a=&g->actors[g->count];a->piece=p->board.cells[s];a->square=s;a->visible=true;
@@ -124,3 +124,6 @@ int bc_choreography_tick(BCChoreography *g){
  }
  return r;
 }
+
+bool bc_choreography_begin(BCChoreography *g,const BCPosition *p,BCMove m,const uint8_t *f){return begin(g,p,m,f,false);}
+bool bc_choreography_finale(BCChoreography *g,const BCPosition *p,BCMove m,const uint8_t *f){return begin(g,p,m,f,true);}

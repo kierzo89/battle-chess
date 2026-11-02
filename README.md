@@ -1,6 +1,60 @@
-# Battle Chess matching reconstruction
+# Battle Chess — matching DOS reconstruction and native Linux port
 
-Recovered C and authored assembly for the DOS Battle Chess executable, plus the source-generation, comparison and final linking recipes used to reproduce it.
+This repository contains three related projects: a **byte-exact reconstruction
+of the original DOS executable**, recovered game assets, and a **playable native
+Linux port** built from the recovered code and assets.
+
+| Component | Location | What it contains |
+| --- | --- | --- |
+| Reconstructed original source | [`matching/src/`](matching/src/) and [`matching/asm/`](matching/asm/) | Recovered C plus authored assembly for the matching DOS build |
+| Original build and verification | [`matching/build_exact.py`](matching/build_exact.py), [`matching/build_pipeline/`](matching/build_pipeline/), [`verification/`](verification/) | Source-generation, original-toolchain linking, byte/relocation comparisons and evidence |
+| Recovered assets | [`assets/`](assets/README.md) | Sprites, backgrounds, fonts, sound, animation metadata and byte-exact bank rebuilding |
+| Native Linux port | [`native/`](native/README.md) | C/SDL3 game, original engine, optional Stockfish, rendering, audio and tests |
+| Screenshots | [`docs/screenshots/`](docs/screenshots/) | Actual captures of the Linux port |
+
+**Byte parity:** the reconstructed DOS source produced a complete **83,415-byte
+`CHESS.EXE` identical to the original**, including the packed bytes and relocation
+order. The exact hash and evidence are below. This is a mixed C/assembly result,
+not a claim that every function is recovered C. **The Linux port is a source
+adaptation, not a byte-identical DOS executable or proof of complete behavioural
+parity.** Its platform/UI changes and fidelity boundaries are documented in the
+[native port guide](native/README.md#fidelity-boundaries).
+
+## Play on Linux
+
+Install a C11 compiler, CMake, pkg-config, Python 3 and SDL3 development files
+(version 3.2 or newer). Then, from a checkout:
+
+```sh
+git clone https://github.com/kierzo89/battle-chess.git
+cd battle-chess
+./native/run.sh
+```
+
+The launcher builds the game and asset packs locally. It runs natively without
+DOSBox or `CHESS.EXE`. This is a source release; a prebuilt Linux binary is not
+included. Stockfish is an optional separately installed executable.
+
+- Play against the original Battle Chess engine, another human, or Stockfish.
+- Select either side's controller with F1/F2, including Stockfish versus Original.
+- Stockfish depth is independent of the original engine's difficulty settings.
+- Recovered walking, battle and checkmate animations, audio, flat/perspective
+  boards, promotion, save/load and undo are supported.
+
+See [controls and build instructions](native/README.md) and the
+[validation and fidelity record](native/COMPLETION_AUDIT.md).
+
+## Screenshots
+
+Native perspective board with independent engine selectors and Stockfish depth:
+
+![Native Linux Battle Chess board and engine controls](docs/screenshots/linux-board.png)
+
+The recovered king-defeat sequence ends with the original game-over wording:
+
+![Native Linux checkmate finale](docs/screenshots/linux-checkmate.png)
+
+These are screenshots of the Linux port, not the original DOS interface.
 
 ## Verified result — 1 November 2026
 
@@ -34,9 +88,9 @@ The [asset bundle](assets/README.md) includes graphics, fonts, audio data, anima
 
 Older checkpoint documents describe intermediate states; their percentages and unresolved tasks are historical.
 
-## Building and reproducibility limits
+## DOS matching build and reproducibility limits
 
-This repository is a **source/evidence snapshot of the verified workspace**, not yet a turnkey portable build distribution. The frozen recipes retain `/home/kierzo/chess` paths and exact dependency hashes. Do not simply rewrite those paths or regenerate manifests and treat the result as already verified.
+The DOS reconstruction is a **source/evidence snapshot of the verified workspace**, not yet a turnkey portable DOS build distribution. The Linux port has its own build instructions above. The frozen recipes retain `/home/kierzo/chess` paths and exact dependency hashes. Do not simply rewrite those paths or regenerate manifests and treat the result as already verified.
 
 The original workspace command is:
 
