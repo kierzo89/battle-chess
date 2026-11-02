@@ -224,3 +224,9 @@ target_compile_options(test_capture_render PRIVATE -Wall -Wextra -Wpedantic -Wer
 add_dependencies(test_capture_render board_assets)
 add_test(NAME native_capture_render COMMAND test_capture_render "${BOARD_ASSETS}")
 set_tests_properties(native_capture_render PROPERTIES ENVIRONMENT "SDL_VIDEODRIVER=dummy;SDL_RENDER_DRIVER=software" TIMEOUT 30)
+
+target_sources(bc_presentation PRIVATE src/sidestep.c)
+add_executable(test_sidestep tests/test_sidestep.c)
+target_link_libraries(test_sidestep PRIVATE bc_presentation)
+target_compile_options(test_sidestep PRIVATE -Wall -Wextra -Wpedantic -Werror -UNDEBUG)
+add_test(NAME recovered_neighbour_task COMMAND test_sidestep)

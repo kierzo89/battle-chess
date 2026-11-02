@@ -1,4 +1,5 @@
 #include "choreography.h"
+#include "geometry.h"
 #include <assert.h>
 #include <stdio.h>
 #include <string.h>
@@ -24,6 +25,17 @@ static void pairings(void){
 }
 int main(void){
  pairings();
+ /* Knight passes occupied c1/c2 on its way to capturing a pawn on c3. */
+ BCPosition knight;bc_position_initial(&knight);knight.board.cells[96].kind=0;
+ knight.board.cells[34]=(BCCell){6,1,0};uint8_t knight_data[33];bc_pack(&knight.board,knight_data);assert(bc_unpack(&knight.board,knight_data));
+ BCChoreography neighbour;assert(bc_choreography_begin(&neighbour,&knight,pick(&knight,1,34),NULL));
+ unsigned reactions=0;for(unsigned i=0;i<neighbour.commands.plan.count;i++)reactions+=neighbour.commands.plan.commands[i].operation==8;
+ assert(reactions>0);unsigned nt=0;while(!neighbour.done&&nt++<3000)assert(bc_choreography_tick(&neighbour)>=0);
+ assert(neighbour.done&&neighbour.actor_map[1]<0&&neighbour.actors[neighbour.actor_map[34]].piece.kind==5);
+ assert(neighbour.actors[neighbour.actor_map[2]].piece.kind==4&&neighbour.actors[neighbour.actor_map[18]].piece.kind==6);
+ for(unsigned square=2;square<=18;square+=16){int x,y;assert(bc_geometry_anchor(true,square,&x,&y));BCVisualActor *a=&neighbour.actors[neighbour.actor_map[square]];assert(a->x==x&&a->y==y&&a->old_x==x&&a->old_y==y);}
+ printf("PASS: knight capture with %u neighbour reactions completes without erasing bystanders.\n",reactions);
+
  BCPosition p;bc_position_initial(&p);assert(bc_play(&p,pick(&p,20,52)));assert(bc_play(&p,pick(&p,99,67)));
  BCMove m=pick(&p,52,67);BCPosition original=p,after=p;assert(bc_play(&after,m));
  BCChoreography g;assert(bc_choreography_begin(&g,&p,m,NULL));

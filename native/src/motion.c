@@ -78,6 +78,11 @@ bool bc_motion_begin_facing(BCMotion *m,const BCPosition *before,BCMove move,uin
  }
  BCPosition verify=*before;if(!bc_play(&verify,move))return false;
  BCStagePlan plan;if(!bc_stage_plan(before,move,&plan))return false;
+ if(perspective)for(unsigned i=0;i<plan.count;i++)if(plan.commands[i].operation==8){
+  m->battle_mode=true;m->last_tick=tick;
+  m->active=bc_choreography_begin(&m->battle,before,move,facing?saved:NULL);
+  m->failed=!m->active;return m->active;
+ }
  m->plan=plan;m->display=before->board;m->visual_valid=true;
  for(unsigned sq=0;sq<120;sq++){
   m->positions[sq]=(uint8_t)sq;

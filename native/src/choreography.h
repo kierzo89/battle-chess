@@ -4,6 +4,7 @@
 #include "capture.h"
 #include "placement.h"
 #include "turn_animation.h"
+#include "sidestep.h"
 typedef struct {unsigned pair,token;bool initial;} BCActorPixel;
 typedef enum {BC_ACTOR_STANDING,BC_ACTOR_WALK,BC_ACTOR_COMPOSED,BC_ACTOR_CAPTURE} BCActorImage;
 typedef struct {
@@ -14,7 +15,7 @@ typedef struct {
 typedef struct {
  unsigned actor,operation,frame;int remove_actor,from_x,from_y,to_x,to_y;
  const BCWalk *walk;const BCTurnSequence *face;BCTaskClock clock;
- BCTurnAnimation turn;BCPlacement placement;BCCapture capture;
+ BCSidestep sidestep;BCTurnAnimation turn;BCPlacement placement;BCCapture capture;
 } BCActorTask;
 typedef struct {
  BCCommands commands;BCVisualActor actors[32];unsigned count;
@@ -23,7 +24,7 @@ typedef struct {
  uint64_t revision;BCSoundEvent sound;void *sound_context;
 } BCChoreography;
 /* Native task composition. Does not mutate authoritative chess state.
- * Currently rejects neighbour op8 rather than pretending it was animated. */
+ * Neighbour op8 retains its actor frame while changing position. */
 bool bc_choreography_begin(BCChoreography *,const BCPosition *,BCMove,const uint8_t *facing);
 /* One eligible original dispatch. -1 failure,0 running,1 complete. */
 int bc_choreography_tick(BCChoreography *);

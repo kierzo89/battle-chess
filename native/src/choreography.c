@@ -30,9 +30,8 @@ static bool start(void *ctx,unsigned slot,unsigned command,const BCStageCommand 
   }
   return true;
  case 4: {
-  static const int dx[]={0,19,19,19,0,-19,-19,-19},dy[]={-9,-9,0,9,9,9,0,-9};
-  if(c->argument>7)return false;
-  return bc_placement_begin(&t->placement,BC_EFFECT,a->piece.kind,a->facing,0,a->old_x,a->old_y,a->old_x+dx[c->argument],a->old_y+dy[c->argument],false);
+  int dx,dy;if(!bc_direction_step(c->argument,&dx,&dy))return false;
+  return bc_placement_begin(&t->placement,BC_EFFECT,a->piece.kind,a->facing,0,a->old_x,a->old_y,a->old_x+dx,a->old_y+dy,false);
  }
  case 5: {
   if(c->argument>1)return false;
@@ -50,6 +49,7 @@ static bool start(void *ctx,unsigned slot,unsigned command,const BCStageCommand 
   else if(c->extra==0){t->to_x-=9;t->to_y+=5;}
   return bc_placement_begin(&t->placement,full?BC_OFFSET_FULL:BC_OFFSET_HALF,a->piece.kind,a->facing,0,a->old_x,a->old_y,t->to_x,t->to_y,false);
  }
+ case 8:return bc_sidestep_begin(&t->sidestep,a->old_x,a->old_y,c->argument);
  default:return false;
  }
 }
@@ -88,6 +88,10 @@ static int step(void *ctx,unsigned slot,unsigned command,const BCStageCommand *c
   if(!t->frame)a->pixel_count=0;
   if(!pixel(g,a,t->face,t->frame++))return -1;
   a->x=a->old_x;a->y=a->old_y;return t->frame==t->face->count;
+ case 8: {
+  int r=bc_sidestep_tick(&t->sidestep);if(r<0)return -1;
+  a->x=t->sidestep.x;a->y=t->sidestep.y;a->old_x=t->sidestep.anchor_x;a->old_y=t->sidestep.anchor_y;return r;
+ }
  default:return -1;
  }
 }
@@ -95,8 +99,6 @@ bool bc_choreography_begin(BCChoreography *g,const BCPosition *p,BCMove move,con
  if(!g||!p)return false;
  memset(g,0,sizeof *g);for(unsigned s=0;s<120;s++)g->actor_map[s]=-1;
  BCStagePlan plan;if(!bc_stage_plan(p,move,&plan)){g->failed=true;return false;}
- /* Fail before any actor work if the remaining neighbour handler is required. */
- for(unsigned i=0;i<plan.count;i++)if(plan.commands[i].operation==8){g->failed=true;return false;}
  for(unsigned s=0;s<120;s++)if(!(s&0x88)&&p->board.cells[s].kind){
   if(g->count==32){g->failed=true;return false;}
   BCVisualActor *a=&g->actors[g->count];a->piece=p->board.cells[s];a->square=s;a->visible=true;

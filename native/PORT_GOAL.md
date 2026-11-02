@@ -524,3 +524,27 @@ behaviour remain beyond these component/source comparisons. Capture sound
 callbacks are not wired to an audio device. The interface now labels battles
 partial. Promotion presentation and remaining sound/search/menu obligations
 remain open; full goal stays active and the baseline copies are unchanged.
+
+### Live neighbouring-piece reactions (2026-11-02)
+
+Implemented recovered6BF9 operation8: seven eligible dispatches interpolate a
+static actor frame through signed direction-table offsets, then update the
+anchor. It does not consume a piece-control delay stream. Shared direction
+selection now also supplies effect positioning. Choreography no longer rejects
+plans containing operation8. Non-capture perspective moves with neighbours use
+the multi-actor scheduler too, replacing the old adapter's skipped reactions.
+
+Validation:968 coordinate/direction scenarios agree on every visible position,
+anchor update and completion result with unchanged recovered special_task_probe.c
+compiled using explicit16-bit DOS words/union overlays. Its interpolation hook
+uses the separately verified native interpolation primitive. ASan/UBSan pass.
+All20 opening move programs still finish with correct final occupancy/facing.
+An occupied-path knight capture b1xc3 exercises both neighbouring c1/c2 actors,
+retains them and restores their exact displayed/anchor coordinates. The UI smoke
+passes with the computer knight using concurrent neighbour motion (~13.7sec).
+
+This removes the explicit operation8 fallback for captures. Full battle coverage
+is still not claimed: promotion presentation, all board contexts and complete
+original-machine scheduler/renderer equivalence require further work. Sound and
+remaining search/menu fidelity stay open. Original snapshots are unchanged and
+the full-port goal remains active.

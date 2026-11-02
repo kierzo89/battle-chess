@@ -22,16 +22,20 @@ int main(void){
   BCMotion m;assert(bc_motion_begin(&m,&p,list.moves[i],0,true));
   bool turned=false,walked=false;
   for(unsigned tick=2;m.active&&tick<1000;tick+=2){
-   turned|=m.operation==2;walked|=m.operation==1;
+   if(m.battle_mode){for(int slot=m.battle.commands.head;slot>=0;slot=m.battle.commands.slots[slot].next){turned|=m.battle.tasks[slot].operation==2;walked|=m.battle.tasks[slot].operation==1;}}
+   else {turned|=m.operation==2;walked|=m.operation==1;}
    bc_motion_tick(&m,tick,false);
   }
   assert(!m.active&&!m.failed&&turned&&walked);
   BCPosition after=p;assert(bc_play(&after,list.moves[i]));
   for(unsigned sq=0;sq<120;sq++)if(!(sq&0x88)){
-   assert(m.display.cells[sq].kind==after.board.cells[sq].kind);
-   if(after.board.cells[sq].kind)assert(m.display.cells[sq].side==after.board.cells[sq].side);
+   BCCell visual=m.display.cells[sq];
+   if(m.battle_mode){int id=m.battle.actor_map[sq];visual=id>=0?m.battle.actors[id].piece:(BCCell){0};}
+   assert(visual.kind==after.board.cells[sq].kind);
+   if(after.board.cells[sq].kind)assert(visual.side==after.board.cells[sq].side);
   }
-  assert(m.facing[list.moves[i].to]==4);
+  if(m.battle_mode){int id=m.battle.actor_map[list.moves[i].to];assert(id>=0&&m.battle.actors[id].facing==4);}
+  else assert(m.facing[list.moves[i].to]==4);
  }
  uint8_t data[33]={0};put(data,4,1);put(data,0,3);put(data,7,3);put(data,116,9);
  memset(&p,0,sizeof p);assert(bc_unpack(&p.board,data));p.ep=-1;p.fullmove=1;p.castle[0]=3;

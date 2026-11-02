@@ -282,3 +282,8 @@ The e4xd5 scene is render-tested;30 legal piece-kind pairings complete the host
 executor. Battle coverage remains partial: captures requiring the unfinished
 neighbour reaction currently fall back to an immediate board update. Sound is
 still pending. The desktop launcher uses this updated development build.
+
+Neighbouring-piece reactions now run on knight paths, including captures. Pieces
+step aside with the original seven-position task and return to their anchors;
+this removes the previous operation8 capture fallback. The original task matches
+968 source-comparison cases, and occupied-path capture integration is tested.
