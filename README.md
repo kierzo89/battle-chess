@@ -44,6 +44,31 @@ included. Stockfish is an optional separately installed executable.
 See [controls and build instructions](native/README.md) and the
 [validation and fidelity record](native/COMPLETION_AUDIT.md).
 
+## Original engine and difficulty
+
+The [recovered search](matching/src/search_engine_a4d4_b9ba_match.c) uses
+**minimax in negamax form with alpha–beta pruning**: it explores moves and the
+opponent's replies, scores positions using hand-written material and positional
+rules, and skips branches that cannot improve its choice. Iterative deepening
+searches progressively further; move ordering, narrow search windows and
+quiescence search help concentrate work on promising moves and unfinished
+capture sequences.
+
+In the Linux port, **Original** runs this recovered search with native timing
+and board-state adapters:
+
+- **Novice (0):** depth 2 (roughly a move and reply, plus tactical extensions),
+  a six-second budget, and no opening book.
+- **Levels 1–9:** time budgets of **5, 10, 20, 40, 80, 160, 320, 640 and 1,280
+  seconds per move**, with up to 23 iterative-deepening iterations. The recovered
+  opening book is used when applicable.
+- **Custom:** a chosen number of minutes per move, with the same depth ceiling.
+
+These are search budgets, not mandatory delays or calibrated Elo ratings.
+Modern hardware can search more positions in the allotted time than an original
+DOS machine. **Stockfish uses its own independent depth setting** (default 18),
+not these original-engine time limits.
+
 ## Screenshots
 
 Native perspective board with independent engine selectors and Stockfish depth:
